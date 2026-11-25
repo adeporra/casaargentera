@@ -1,0 +1,1880 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-24T11:36:54.876Z",
+    "urls": [
+      "https://www.casaargentera.com/reservations-2/"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      ".ics-calendar",
+      ".ics-calendar-select",
+      ".ics-calendar-month-wrapper[data-is-this-month]",
+      "[data-is-this-month] .ics-calendar-label",
+      "[data-is-this-month] .ics-calendar-month-grid",
+      "[data-is-this-month] th",
+      "[data-is-this-month] td.off",
+      "[data-is-this-month] td.past",
+      "[data-is-this-month] td.past .day",
+      "[data-is-this-month] td.today",
+      "[data-is-this-month] td.today .day",
+      "[data-is-this-month] td.today .events li",
+      "[data-is-this-month] .all-day-indicator",
+      "[data-is-this-month] .events .title",
+      "[data-is-this-month] td.future",
+      "[data-is-this-month] td.future .day",
+      "[data-is-this-month] .phone_only",
+      "[data-is-this-month] .no_phone",
+      "[data-is-this-month] p.no_events",
+      ".wpb_raw_code",
+      "#content > .vc_row:nth-of-type(3) .vc_col-sm-6 h3",
+      "#content > .vc_row:nth-of-type(3) .vc_col-sm-6 .vc_empty_space"
+    ],
+    "props": [
+      "display",
+      "position",
+      "boxSizing",
+      "width",
+      "height",
+      "maxWidth",
+      "margin",
+      "padding",
+      "gap",
+      "backgroundColor",
+      "backgroundImage",
+      "color",
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "letterSpacing",
+      "textTransform",
+      "textAlign",
+      "borderRadius",
+      "border",
+      "boxShadow",
+      "opacity",
+      "objectFit"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    ".ics-calendar",
+    ".ics-calendar-select",
+    ".ics-calendar-month-wrapper[data-is-this-month]",
+    "[data-is-this-month] .ics-calendar-label",
+    "[data-is-this-month] .ics-calendar-month-grid",
+    "[data-is-this-month] th",
+    "[data-is-this-month] td.off",
+    "[data-is-this-month] td.past",
+    "[data-is-this-month] td.past .day",
+    "[data-is-this-month] td.today",
+    "[data-is-this-month] td.today .day",
+    "[data-is-this-month] td.today .events li",
+    "[data-is-this-month] .all-day-indicator",
+    "[data-is-this-month] .events .title",
+    "[data-is-this-month] td.future",
+    "[data-is-this-month] td.future .day",
+    "[data-is-this-month] .phone_only",
+    "[data-is-this-month] .no_phone",
+    "[data-is-this-month] p.no_events",
+    ".wpb_raw_code",
+    "#content > .vc_row:nth-of-type(3) .vc_col-sm-6 h3",
+    "#content > .vc_row:nth-of-type(3) .vc_col-sm-6 .vc_empty_space"
+  ],
+  "root": {
+    "https://www.casaargentera.com/reservations-2/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 3226,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 3020,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.casaargentera.com/reservations-2/": {
+      "360": {
+        ".ics-calendar": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 30,
+              "y": 1409,
+              "w": 300,
+              "h": 168
+            },
+            "visible": true,
+            "text": "Month selection August 2026 September 2…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "300px",
+              "height": "167.938px",
+              "maxWidth": "none",
+              "margin": "0px 0px 21px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".ics-calendar-select": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 30,
+              "y": 1409,
+              "w": 200,
+              "h": 40
+            },
+            "visible": true,
+            "text": "August 2026 September 2026 October 2026…",
+            "props": {
+              "display": "inline-block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "200px",
+              "height": "40px",
+              "maxWidth": "200px",
+              "margin": "0px 0px 10px",
+              "padding": "5px 30px 5px 15px",
+              "gap": "normal",
+              "backgroundColor": "rgb(240, 243, 246)",
+              "backgroundImage": "linear-gradient(45deg, rgba(0, 0, 0, 0) 50%, rgb(120, 125, 133) 50%), linear-gradient(135deg, rgb(120, 125, 133) 50%, rgba(0, 0, 0, 0) 50%)",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "1px solid rgba(173, 176, 182, 0.3)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".ics-calendar-month-wrapper[data-is-this-month]": [
+          {
+            "index": 0,
+            "of": 15,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "August 2026 Mon Tue Wed Thu Fri Sat Sun…",
+            "props": {
+              "display": "none",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] .ics-calendar-label": [
+          {
+            "index": 0,
+            "of": 15,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "August 2026",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "30px",
+              "fontWeight": "200",
+              "lineHeight": "35px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] .ics-calendar-month-grid": [
+          {
+            "index": 0,
+            "of": 15,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Mon Tue Wed Thu Fri Sat Sun Saturday 01…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px 0px 21px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] th": [
+          {
+            "index": 0,
+            "of": 105,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Mon",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "7px 11.2px 2.8px",
+              "gap": "normal",
+              "backgroundColor": "rgb(217, 220, 223)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "700",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "uppercase",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] td.off": [
+          {
+            "index": 0,
+            "of": 89,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(240, 243, 246)",
+              "backgroundImage": "none",
+              "color": "rgb(112, 120, 127)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(112, 120, 127)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] td.past": [
+          {
+            "index": 0,
+            "of": 115,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Saturday 01/08 1",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] td.past .day": [
+          {
+            "index": 0,
+            "of": 115,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Saturday 01/08 1",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "7px 11.2px",
+              "gap": "normal",
+              "backgroundColor": "rgb(240, 243, 246)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "700",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] td.today": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 30,
+              "y": 1494,
+              "w": 300,
+              "h": 83
+            },
+            "visible": true,
+            "text": "Tuesday 24/11 ALL DAY Airbnb (Not avail…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "300px",
+              "height": "82.9375px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] td.today .day": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 30,
+              "y": 1494,
+              "w": 300,
+              "h": 35
+            },
+            "visible": true,
+            "text": "Tuesday 24/11",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "300px",
+              "height": "35px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "7px 11.2px",
+              "gap": "normal",
+              "backgroundColor": "rgb(112, 120, 127)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "700",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] td.today .events li": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 30,
+              "y": 1529,
+              "w": 300,
+              "h": 48
+            },
+            "visible": true,
+            "text": "ALL DAY Airbnb (Not available)",
+            "props": {
+              "display": "list-item",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "300px",
+              "height": "47.9375px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "5.6px 11.2px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "700",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] .all-day-indicator": [
+          {
+            "index": 0,
+            "of": 9,
+            "rect": {
+              "x": 41,
+              "y": 1535,
+              "w": 278,
+              "h": 16
+            },
+            "visible": true,
+            "text": "ALL DAY",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "277.625px",
+              "height": "15.75px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "10.5px",
+              "fontWeight": "400",
+              "lineHeight": "15.75px",
+              "letterSpacing": "normal",
+              "textTransform": "uppercase",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] .events .title": [
+          {
+            "index": 0,
+            "of": 15,
+            "rect": {
+              "x": 41,
+              "y": 1550,
+              "w": 278,
+              "h": 21
+            },
+            "visible": true,
+            "text": "Airbnb (Not available)",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "277.625px",
+              "height": "21px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "700",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] td.future": [
+          {
+            "index": 0,
+            "of": 341,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Wednesday 25/11 25",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] td.future .day": [
+          {
+            "index": 0,
+            "of": 341,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Wednesday 25/11 25",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "7px 11.2px",
+              "gap": "normal",
+              "backgroundColor": "rgb(240, 243, 246)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "700",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] .phone_only": [
+          {
+            "index": 0,
+            "of": 468,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Saturday 01/08",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "700",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] .no_phone": [
+          {
+            "index": 0,
+            "of": 457,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "1",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "700",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] p.no_events": [
+          {
+            "index": 0,
+            "of": 11,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "No events.",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px 0px 10px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".wpb_raw_code": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 30,
+              "y": 1409,
+              "w": 300,
+              "h": 168
+            },
+            "visible": true,
+            "text": "Month selection August 2026 September 2…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "300px",
+              "height": "167.938px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#content > .vc_row:nth-of-type(3) .vc_col-sm-6 h3": [
+          {
+            "index": 0,
+            "of": 19,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "August 2026",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "30px",
+              "fontWeight": "200",
+              "lineHeight": "35px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#content > .vc_row:nth-of-type(3) .vc_col-sm-6 .vc_empty_space": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 30,
+              "y": 1598,
+              "w": 300,
+              "h": 32
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "300px",
+              "height": "32px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      },
+      "1440": {
+        ".ics-calendar": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 155,
+              "y": 1900,
+              "w": 535,
+              "h": 617
+            },
+            "visible": true,
+            "text": "Month selection August 2026 September 2…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "535px",
+              "height": "617.375px",
+              "maxWidth": "none",
+              "margin": "0px 0px 21px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".ics-calendar-select": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 490,
+              "y": 1907,
+              "w": 200,
+              "h": 40
+            },
+            "visible": true,
+            "text": "August 2026 September 2026 October 2026…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "200px",
+              "height": "40px",
+              "maxWidth": "200px",
+              "margin": "7px 0px 10px 7px",
+              "padding": "5px 30px 5px 15px",
+              "gap": "normal",
+              "backgroundColor": "rgb(240, 243, 246)",
+              "backgroundImage": "linear-gradient(45deg, rgba(0, 0, 0, 0) 50%, rgb(120, 125, 133) 50%), linear-gradient(135deg, rgb(120, 125, 133) 50%, rgba(0, 0, 0, 0) 50%)",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "1px solid rgba(173, 176, 182, 0.3)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".ics-calendar-month-wrapper[data-is-this-month]": [
+          {
+            "index": 0,
+            "of": 15,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "August 2026 Monday Tuesday Wednesday Th…",
+            "props": {
+              "display": "none",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] .ics-calendar-label": [
+          {
+            "index": 0,
+            "of": 15,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "August 2026",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "30px",
+              "fontWeight": "200",
+              "lineHeight": "35px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] .ics-calendar-month-grid": [
+          {
+            "index": 0,
+            "of": 15,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Monday Tuesday Wednesday Thursday Frida…",
+            "props": {
+              "display": "table",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px 0px 10px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] th": [
+          {
+            "index": 0,
+            "of": 105,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Monday",
+            "props": {
+              "display": "table-cell",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "4.9px 7.84px 1.96px",
+              "gap": "normal",
+              "backgroundColor": "rgb(217, 220, 223)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "9.8px",
+              "fontWeight": "700",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "uppercase",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "1px solid rgb(217, 220, 223)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] td.off": [
+          {
+            "index": 0,
+            "of": 89,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "table-cell",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "88.2px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(240, 243, 246)",
+              "backgroundImage": "none",
+              "color": "rgb(112, 120, 127)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "9.8px",
+              "fontWeight": "400",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "1px solid rgb(217, 220, 223)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] td.past": [
+          {
+            "index": 0,
+            "of": 115,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Saturday 01/08 1",
+            "props": {
+              "display": "table-cell",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "88.2px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "9.8px",
+              "fontWeight": "400",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "1px solid rgb(217, 220, 223)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] td.past .day": [
+          {
+            "index": 0,
+            "of": 115,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Saturday 01/08 1",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "1.96px 7.84px",
+              "gap": "normal",
+              "backgroundColor": "rgb(240, 243, 246)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "9.8px",
+              "fontWeight": "700",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "right",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] td.today": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 232,
+              "y": 2339,
+              "w": 76,
+              "h": 90
+            },
+            "visible": true,
+            "text": "24 ALL DAY Airbnb (Not available)",
+            "props": {
+              "display": "table-cell",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "76.2812px",
+              "height": "89.5938px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "9.8px",
+              "fontWeight": "400",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "1px solid rgb(217, 220, 223)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] td.today .day": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 232,
+              "y": 2340,
+              "w": 75,
+              "h": 25
+            },
+            "visible": true,
+            "text": "24",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "75.2812px",
+              "height": "24.9062px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "1.96px 7.84px",
+              "gap": "normal",
+              "backgroundColor": "rgb(112, 120, 127)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "9.8px",
+              "fontWeight": "700",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "right",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] td.today .events li": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 232,
+              "y": 2365,
+              "w": 75,
+              "h": 64
+            },
+            "visible": true,
+            "text": "ALL DAY Airbnb (Not available)",
+            "props": {
+              "display": "list-item",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "75.2812px",
+              "height": "63.6875px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "3.92px 7.84px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "9.8px",
+              "fontWeight": "700",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] .all-day-indicator": [
+          {
+            "index": 0,
+            "of": 9,
+            "rect": {
+              "x": 240,
+              "y": 2368,
+              "w": 60,
+              "h": 12
+            },
+            "visible": true,
+            "text": "ALL DAY",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "59.625px",
+              "height": "11.7656px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "7.84px",
+              "fontWeight": "400",
+              "lineHeight": "11.76px",
+              "letterSpacing": "normal",
+              "textTransform": "uppercase",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] .events .title": [
+          {
+            "index": 0,
+            "of": 15,
+            "rect": {
+              "x": 240,
+              "y": 2380,
+              "w": 60,
+              "h": 44
+            },
+            "visible": true,
+            "text": "Airbnb (Not available)",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "59.625px",
+              "height": "44.1094px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "9.8px",
+              "fontWeight": "700",
+              "lineHeight": "14.7px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] td.future": [
+          {
+            "index": 0,
+            "of": 341,
+            "rect": {
+              "x": 308,
+              "y": 2339,
+              "w": 76,
+              "h": 90
+            },
+            "visible": true,
+            "text": "25",
+            "props": {
+              "display": "table-cell",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "76.2812px",
+              "height": "89.5938px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "9.8px",
+              "fontWeight": "400",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "1px solid rgb(217, 220, 223)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] td.future .day": [
+          {
+            "index": 0,
+            "of": 341,
+            "rect": {
+              "x": 309,
+              "y": 2340,
+              "w": 75,
+              "h": 25
+            },
+            "visible": true,
+            "text": "25",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "75.2812px",
+              "height": "24.9062px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "1.96px 7.84px",
+              "gap": "normal",
+              "backgroundColor": "rgb(240, 243, 246)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "9.8px",
+              "fontWeight": "700",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "right",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] .phone_only": [
+          {
+            "index": 0,
+            "of": 468,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Saturday 01/08",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "9.8px",
+              "fontWeight": "700",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "right",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] .no_phone": [
+          {
+            "index": 0,
+            "of": 457,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "1",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(16, 24, 31)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "9.8px",
+              "fontWeight": "700",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "right",
+              "borderRadius": "0px",
+              "border": "0px none rgb(16, 24, 31)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[data-is-this-month] p.no_events": [
+          {
+            "index": 0,
+            "of": 11,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "No events.",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px 0px 10px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".wpb_raw_code": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 155,
+              "y": 1900,
+              "w": 535,
+              "h": 617
+            },
+            "visible": true,
+            "text": "Month selection August 2026 September 2…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "535px",
+              "height": "617.375px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#content > .vc_row:nth-of-type(3) .vc_col-sm-6 h3": [
+          {
+            "index": 0,
+            "of": 19,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "August 2026",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "30px",
+              "fontWeight": "200",
+              "lineHeight": "35px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#content > .vc_row:nth-of-type(3) .vc_col-sm-6 .vc_empty_space": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 155,
+              "y": 2538,
+              "w": 535,
+              "h": 32
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "535px",
+              "height": "32px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(58, 58, 58)",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(58, 58, 58)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

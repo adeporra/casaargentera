@@ -1,0 +1,71 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-24T19:12:46.939Z",
+  "url": "https://www.casaargentera.com/da/the-house/",
+  "width": 360,
+  "vh": 900,
+  "height": 3959,
+  "settle": true,
+  "chunks": 5,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 9,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 5,
+    "intervals": 2,
+    "chains": 3,
+    "delays": [
+      2500,
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 3959,
+    "pct": 0.01,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    3959,
+    3959
+  ],
+  "noiseFloor": 0.01,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [
+    {
+      "y": 212,
+      "h": 36,
+      "pct": 2.6
+    }
+  ],
+  "variableShare": 0.91,
+  "maskArg": "212:36",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-24T19:13:23.463Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

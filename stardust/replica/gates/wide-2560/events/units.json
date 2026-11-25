@@ -1,0 +1,1553 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T23:37:43.502Z",
+  "tol": 4,
+  "n": 6,
+  "width": 2560,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/events/",
+  "at": "2026-11-24T23:37:26.676Z",
+  "docH": 3177
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/events",
+  "at": "2026-11-24T23:37:43.437Z",
+  "docH": 3177
+ },
+ "results": [
+  {
+   "sel": "#content .vc_grid-item=.image-grid.gallery .image-grid-col",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.vc_grid.vc_row > div.vc_pageable-slide-wrapper.vc_clearfix > div.vc_grid-item.vc_clearfix"
+     },
+     "eds": {
+      "path": "div.image-grid.gallery > div.image-grid-row.image-grid-cols-3 > div.image-grid-col"
+     },
+     "rows": [
+      {
+       "key": "link:a.vc_gitem-link.prettyphoto#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 204
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 204,
+        "sel": "a.image-grid-zoom",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vc_gitem-zone.vc_gitem-zone-a",
+       "text": "",
+       "boxed": true,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 204,
+       "absY": 1358,
+       "hidden": false,
+       "fs": 14,
+       "lh": 25,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "relative",
+       "key": "box:div.vc_gitem-zone.vc_gitem-zone-a#1"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 204,
+       "absY": 1358,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "delicious tapas workshop in casa argentera",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 204,
+       "absY": 1358,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:delicious tapas workshop in casa argente"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 715,
+       "y": 1358,
+       "w": 383,
+       "h": 224
+      },
+      "eds": {
+       "x": 715,
+       "y": 1358,
+       "w": 383,
+       "h": 224
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.vc_grid.vc_row > div.vc_pageable-slide-wrapper.vc_clearfix > div.vc_grid-item.vc_clearfix"
+     },
+     "eds": {
+      "path": "div.image-grid.gallery > div.image-grid-row.image-grid-cols-3 > div.image-grid-col"
+     },
+     "rows": [
+      {
+       "key": "link:a.vc_gitem-link.prettyphoto#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 204
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 204,
+        "sel": "a.image-grid-zoom",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vc_gitem-zone.vc_gitem-zone-a",
+       "text": "",
+       "boxed": true,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 204,
+       "absY": 1358,
+       "hidden": false,
+       "fs": 14,
+       "lh": 25,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "relative",
+       "key": "box:div.vc_gitem-zone.vc_gitem-zone-a#1"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 204,
+       "absY": 1358,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "wine tasting in a priorat cellar by sangenis i vaque",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 204,
+       "absY": 1358,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:wine tasting in a priorat cellar by sang"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1098,
+       "y": 1358,
+       "w": 383,
+       "h": 224
+      },
+      "eds": {
+       "x": 1098,
+       "y": 1358,
+       "w": 383,
+       "h": 224
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.vc_grid.vc_row > div.vc_pageable-slide-wrapper.vc_clearfix > div.vc_grid-item.vc_clearfix"
+     },
+     "eds": {
+      "path": "div.image-grid.gallery > div.image-grid-row.image-grid-cols-3 > div.image-grid-col"
+     },
+     "rows": [
+      {
+       "key": "link:a.vc_gitem-link.prettyphoto#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 204
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 204,
+        "sel": "a.image-grid-zoom",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vc_gitem-zone.vc_gitem-zone-a",
+       "text": "",
+       "boxed": true,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 204,
+       "absY": 1358,
+       "hidden": false,
+       "fs": 14,
+       "lh": 25,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "relative",
+       "key": "box:div.vc_gitem-zone.vc_gitem-zone-a#1"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 204,
+       "absY": 1358,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "outdoor quick painting contest at the catalan village of l'a",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 204,
+       "absY": 1358,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:outdoor quick painting contest at the ca"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1481,
+       "y": 1358,
+       "w": 383,
+       "h": 224
+      },
+      "eds": {
+       "x": 1481,
+       "y": 1358,
+       "w": 383,
+       "h": 224
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.vc_grid.vc_row > div.vc_pageable-slide-wrapper.vc_clearfix > div.vc_grid-item.vc_clearfix"
+     },
+     "eds": {
+      "path": "div.image-grid.gallery > div.image-grid-row.image-grid-cols-3 > div.image-grid-col"
+     },
+     "rows": [
+      {
+       "key": "link:a.vc_gitem-link.prettyphoto#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 205
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 205,
+        "sel": "a.image-grid-zoom",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vc_gitem-zone.vc_gitem-zone-a",
+       "text": "",
+       "boxed": true,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 205,
+       "absY": 1582,
+       "hidden": false,
+       "fs": 14,
+       "lh": 25,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "relative",
+       "key": "box:div.vc_gitem-zone.vc_gitem-zone-a#1"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 205,
+       "absY": 1582,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "preparing a calcotada in casa argentera",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 205,
+       "absY": 1582,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:preparing a calcotada in casa argentera"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 715,
+       "y": 1582,
+       "w": 383,
+       "h": 225
+      },
+      "eds": {
+       "x": 715,
+       "y": 1582,
+       "w": 383,
+       "h": 225
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.vc_grid.vc_row > div.vc_pageable-slide-wrapper.vc_clearfix > div.vc_grid-item.vc_clearfix"
+     },
+     "eds": {
+      "path": "div.image-grid.gallery > div.image-grid-row.image-grid-cols-3 > div.image-grid-col"
+     },
+     "rows": [
+      {
+       "key": "link:a.vc_gitem-link.prettyphoto#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 204
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 204,
+        "sel": "a.image-grid-zoom",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vc_gitem-zone.vc_gitem-zone-a",
+       "text": "",
+       "boxed": true,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 204,
+       "absY": 1582,
+       "hidden": false,
+       "fs": 14,
+       "lh": 25,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "relative",
+       "key": "box:div.vc_gitem-zone.vc_gitem-zone-a#1"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 204,
+       "absY": 1582,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "paella contest at teambuilding in casa argentera",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 204,
+       "absY": 1582,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:paella contest at teambuilding in casa a"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1098,
+       "y": 1582,
+       "w": 383,
+       "h": 224
+      },
+      "eds": {
+       "x": 1098,
+       "y": 1582,
+       "w": 383,
+       "h": 225
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 1
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.vc_grid.vc_row > div.vc_pageable-slide-wrapper.vc_clearfix > div.vc_grid-item.vc_clearfix"
+     },
+     "eds": {
+      "path": "div.image-grid.gallery > div.image-grid-row.image-grid-cols-3 > div.image-grid-col"
+     },
+     "rows": [
+      {
+       "key": "link:a.vc_gitem-link.prettyphoto#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 204
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 204,
+        "sel": "a.image-grid-zoom",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.vc_gitem-zone.vc_gitem-zone-a",
+       "text": "",
+       "boxed": true,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 204,
+       "absY": 1582,
+       "hidden": false,
+       "fs": 14,
+       "lh": 25,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "relative",
+       "key": "box:div.vc_gitem-zone.vc_gitem-zone-a#1"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 204,
+       "absY": 1582,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "chef mariona quadrada explaining delicious tapas on workshop",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 363,
+       "h": 204,
+       "absY": 1582,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:chef mariona quadrada explaining delicio"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1481,
+       "y": 1582,
+       "w": 383,
+       "h": 224
+      },
+      "eds": {
+       "x": 1481,
+       "y": 1582,
+       "w": 383,
+       "h": 225
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 1
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 2,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#content .wpcf7-form > p=.contact-form .contact-form-line",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#wpcf7-f15714-p15591-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line"
+     },
+     "rows": [
+      {
+       "key": "text:your name (required)",
+       "role": "text",
+       "text": "your name (required)",
+       "edsText": "your name (required)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 1130,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1130,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": -26,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input.wpcf7-form-control.wpcf7-text#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 1130,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 1130,
+        "h": 40,
+        "sel": "input.contact-form-field",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 715,
+       "y": 1982,
+       "w": 1130,
+       "h": 75
+      },
+      "eds": {
+       "x": 715,
+       "y": 1982,
+       "w": 1130,
+       "h": 75
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#wpcf7-f15714-p15591-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line"
+     },
+     "rows": [
+      {
+       "key": "text:your email (required)",
+       "role": "text",
+       "text": "your email (required)",
+       "edsText": "your email (required)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 1130,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1130,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": -26,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input.wpcf7-form-control.wpcf7-email#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 1130,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 1130,
+        "h": 40,
+        "sel": "input.contact-form-field",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 715,
+       "y": 2067,
+       "w": 1130,
+       "h": 75
+      },
+      "eds": {
+       "x": 715,
+       "y": 2067,
+       "w": 1130,
+       "h": 75
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#wpcf7-f15714-p15591-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line"
+     },
+     "rows": [
+      {
+       "key": "text:your number (required)",
+       "role": "text",
+       "text": "your number (required)",
+       "edsText": "your number (required)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 1130,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1130,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": -26,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input.wpcf7-form-control.wpcf7-tel#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 1130,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 1130,
+        "h": 40,
+        "sel": "input.contact-form-field",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 715,
+       "y": 2152,
+       "w": 1130,
+       "h": 75
+      },
+      "eds": {
+       "x": 715,
+       "y": 2152,
+       "w": 1130,
+       "h": 75
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#wpcf7-f15714-p15591-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line"
+     },
+     "rows": [
+      {
+       "key": "text:subject",
+       "role": "text",
+       "text": "subject",
+       "edsText": "subject",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 1130,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1130,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": -26,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input.wpcf7-form-control.wpcf7-text#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 1130,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 1130,
+        "h": 40,
+        "sel": "input.contact-form-field",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 715,
+       "y": 2237,
+       "w": 1130,
+       "h": 75
+      },
+      "eds": {
+       "x": 715,
+       "y": 2237,
+       "w": 1130,
+       "h": 75
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div#wpcf7-f15714-p15591-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line.contact-form-note"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "please, let us know your preferences regarding check in and ",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 1130,
+       "h": 25,
+       "absY": 2322,
+       "hidden": false,
+       "fs": 14,
+       "lh": 25,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "text:please, let us know your preferences reg"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 715,
+       "y": 2322,
+       "w": 1130,
+       "h": 25
+      },
+      "eds": {
+       "x": 715,
+       "y": 2322,
+       "w": 1130,
+       "h": 25
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div#wpcf7-f15714-p15591-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line"
+     },
+     "rows": [
+      {
+       "key": "text:your message",
+       "role": "text",
+       "text": "your message",
+       "edsText": "your message",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 1130,
+        "h": 43
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1130,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": -18,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:textarea.wpcf7-form-control.wpcf7-textarea#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 1130,
+        "h": 262
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 1130,
+        "h": 262,
+        "sel": "textarea.contact-form-field.contact-form-textarea",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:i have read and accept the",
+       "role": "text",
+       "text": "i have read and accept the",
+       "edsText": "i have read and accept the",
+       "byPosition": false,
+       "origin": {
+        "x": 27,
+        "y": 300,
+        "w": 288,
+        "h": 18
+       },
+       "eds": {
+        "x": 31,
+        "y": 300,
+        "w": 284,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 4,
+       "dy": 0,
+       "dw": -4,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:privacy policy",
+       "role": "link",
+       "text": "privacy policy",
+       "edsText": "privacy policy",
+       "byPosition": false,
+       "origin": {
+        "x": 220,
+        "y": 300,
+        "w": 95,
+        "h": 18
+       },
+       "eds": {
+        "x": 220,
+        "y": 300,
+        "w": 95,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 301,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 14,
+        "y": 301,
+        "w": 13,
+        "h": 13,
+        "sel": "input",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "button:input.wpcf7-form-control.wpcf7-submit#1",
+       "role": "button",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 322,
+        "w": 88,
+        "h": 39
+       },
+       "eds": {
+        "x": 0,
+        "y": 322,
+        "w": 88,
+        "h": 39,
+        "sel": "input.contact-form-submit",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/800",
+        "eds": "14/16/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 715,
+       "y": 2357,
+       "w": 1130,
+       "h": 361
+      },
+      "eds": {
+       "x": 715,
+       "y": 2357,
+       "w": 1130,
+       "h": 361
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 12,
+  "within": 15,
+  "off": 5,
+  "hidden": 0,
+  "missing": 6,
+  "errors": 0,
+  "requiredOff": 11
+ }
+}

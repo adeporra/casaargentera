@@ -1,0 +1,3012 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-24T22:19:13.164Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/es/cultura/",
+  "at": "2026-11-24T22:19:13.068Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4860,
+  "root": null,
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-navigation > a.dt-mobile-menu-icon",
+    "x": 306,
+    "y": 17,
+    "w": 24,
+    "h": 24,
+    "text": "mobile menu icon",
+    "href": "/es/cultura/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-branding > a",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "href": "/es/inicio/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-branding > a > img.mobile-logo.preload-me",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "file": "Logo-75-px"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2.has-accent-color.has-text-color",
+    "x": 30,
+    "y": 312,
+    "w": 300,
+    "h": 495,
+    "level": 2,
+    "text": "historia es saber de dónde viene nuestra cultura. una innegable cultura mediterránea te espera"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > h2.has-accent-color.has-text-color > span",
+    "x": 30,
+    "y": 309,
+    "w": 253,
+    "h": 391,
+    "text": "Historia es saber de dónde viene nuestra cultura. Una"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > h2.has-accent-color.has-text-color > span",
+    "x": 145,
+    "y": 639,
+    "w": 261,
+    "h": 61,
+    "text": "innegable"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > h2.has-accent-color.has-text-color > span",
+    "x": 30,
+    "y": 639,
+    "w": 548,
+    "h": 171,
+    "text": "cultura mediterránea te espera"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > span",
+    "x": 30,
+    "y": 820,
+    "w": 294,
+    "h": 243,
+    "text": "La ha sido una encrucijada de culturas e influencias. Como consecuencia, ha desa"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > img.alignnone.wp-image-15468",
+    "x": 30,
+    "y": 1123,
+    "w": 300,
+    "h": 169,
+    "text": "castle-monastery of escornalbou",
+    "file": "Escornalbou-CasaArgentera-1024x576"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 1310,
+    "w": 300,
+    "h": 165,
+    "level": 2,
+    "text": "el increíble castillo de escornalbou"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > h2 > span",
+    "x": 30,
+    "y": 1307,
+    "w": 306,
+    "h": 171,
+    "text": "El increíble castillo de Escornalbou"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > span",
+    "x": 30,
+    "y": 1488,
+    "w": 297,
+    "h": 293,
+    "text": "El es una mansión peculiar, restaurada para ser la residencia burguesa del propi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "p > span > a",
+    "x": 47,
+    "y": 1488,
+    "w": 247,
+    "h": 18,
+    "text": "monasterio-castillo de escornalbou",
+    "href": "/es/coleccion/castillo-monasterio-de-escornalbou"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > img.alignnone.wp-image-15632",
+    "x": 30,
+    "y": 1860,
+    "w": 300,
+    "h": 169,
+    "text": "",
+    "file": "Celler-Modernista-1024x576"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 2047,
+    "w": 300,
+    "h": 165,
+    "level": 2,
+    "text": "a pocos pasos del priorat"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > h2 > span",
+    "x": 30,
+    "y": 2044,
+    "w": 229,
+    "h": 171,
+    "text": "A pocos pasos del Priorat"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > span",
+    "x": 30,
+    "y": 2225,
+    "w": 298,
+    "h": 293,
+    "text": "Sigue la historia y el rastro de los hasta , en el Priorat. Disfruta de las bode"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "p > span > a",
+    "x": 154,
+    "y": 2250,
+    "w": 66,
+    "h": 18,
+    "text": "escaladei",
+    "href": "/cartoixa_d_escaladei"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > img.alignnone.wp-image-15933",
+    "x": 30,
+    "y": 2562,
+    "w": 300,
+    "h": 169,
+    "text": "",
+    "file": "parksamaP3D.JPG-1024x576"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 2748,
+    "w": 300,
+    "h": 110,
+    "level": 2,
+    "text": "gaudí a escondidas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > h2 > span",
+    "x": 30,
+    "y": 2745,
+    "w": 277,
+    "h": 116,
+    "text": "a escondidas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > span",
+    "x": 30,
+    "y": 2871,
+    "w": 297,
+    "h": 318,
+    "text": "A solo 10 km de la casa, se encuentra el . . Date un capricho y paséate con la f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "p > span > a",
+    "x": 30,
+    "y": 2896,
+    "w": 95,
+    "h": 18,
+    "text": "parque sama",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > img.alignnone.wp-image-15580",
+    "x": 30,
+    "y": 3233,
+    "w": 300,
+    "h": 169,
+    "text": "",
+    "file": "SantesCreus-activity-Argentera"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 3420,
+    "w": 300,
+    "h": 165,
+    "level": 2,
+    "text": "monasterios que son tesoros"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > h2 > span",
+    "x": 30,
+    "y": 3417,
+    "w": 298,
+    "h": 171,
+    "text": "Monasterios que son tesoros"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > span",
+    "x": 30,
+    "y": 3598,
+    "w": 299,
+    "h": 318,
+    "text": "Déjate fascinar por la paz y la belleza de alguno de los tres monasterios increí"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "p > span > a",
+    "x": 122,
+    "y": 3898,
+    "w": 98,
+    "h": 18,
+    "text": "ruta del cister",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-4 > div.widget-title",
+    "x": 30,
+    "y": 4040,
+    "w": 300,
+    "h": 27,
+    "text": "CONTACTO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-4 > div.textwidget > p",
+    "x": 30,
+    "y": 4082,
+    "w": 300,
+    "h": 125,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 4185,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#search-4 > div.widget-title",
+    "x": 30,
+    "y": 4237,
+    "w": 300,
+    "h": 27,
+    "text": "BUSCA"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#search-4 > form.searchform > a.submit",
+    "x": 299,
+    "y": 4279,
+    "w": 20,
+    "h": 40,
+    "text": "",
+    "href": "/es/cultura/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#presscore-contact-info-widget-3 > div.widget-title",
+    "x": 30,
+    "y": 4349,
+    "w": 300,
+    "h": 27,
+    "text": "SÍGUENOS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.facebook",
+    "x": 32,
+    "y": 4393,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.instagram",
+    "x": 62,
+    "y": 4393,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-6 > div.widget-title",
+    "x": 30,
+    "y": 4451,
+    "w": 300,
+    "h": 27,
+    "text": "OTROS ALQUILERES"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-6 > div.textwidget > p",
+    "x": 30,
+    "y": 4493,
+    "w": 300,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTÀ C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 4546,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-3 > div.widget-title",
+    "x": 30,
+    "y": 4598,
+    "w": 300,
+    "h": 27,
+    "text": "INFO LEGAL"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-3 > div.textwidget > p",
+    "x": 30,
+    "y": 4640,
+    "w": 300,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 4643,
+    "w": 220,
+    "h": 18,
+    "text": "política de privacidad y cookies",
+    "href": "/es/politica-de-privacidad-y-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 4720,
+    "w": 300,
+    "h": 25,
+    "text": "english",
+    "href": "/culture/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 4745,
+    "w": 300,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/kulturen/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 4770,
+    "w": 300,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/cultura/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 4795,
+    "w": 300,
+    "h": 25,
+    "text": "español",
+    "href": "/es/cultura/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 24,
+    "textNodes": 80,
+    "controls": 28,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div#page",
+     "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2.has-accent-color.has-text-color > span",
+     "text": "innegable",
+     "cutMin": 3,
+     "cutMax": 45
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/es/cultura",
+  "at": "2026-11-24T22:19:03.384Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4860,
+  "root": "main#main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-branding > a",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "href": "/es/inicio"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "file": "media_1508d370a8febea63d6a0a1c69adcb7155"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-navigation > a.dt-mobile-menu-icon",
+    "x": 308,
+    "y": 21,
+    "w": 22,
+    "h": 16,
+    "text": "mobile menu icon",
+    "href": "/es/cultura"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slide-media > picture > img",
+    "x": 0,
+    "y": 0,
+    "w": 360,
+    "h": 252,
+    "text": "escaladei monastery",
+    "file": "media_1b35bfdb434a71d8a570e33c91e7d710e1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.media-feature-container > div.default-content-wrapper > h1#historia-es-saber-de-dónde-viene-nuestra-cultura-unainnegablecultura-mediterránea-te-espera",
+    "x": 30,
+    "y": 312,
+    "w": 300,
+    "h": 495,
+    "level": 1,
+    "text": "historia es saber de dónde viene nuestra cultura. una innegable cultura mediterránea te espera"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.media-feature-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 817,
+    "w": 300,
+    "h": 250,
+    "text": "La ha sido una encrucijada de culturas e influencias. Como consecuencia, ha desa"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-col.media-feature-media > picture > img",
+    "x": 30,
+    "y": 1123,
+    "w": 300,
+    "h": 169,
+    "text": "castle-monastery of escornalbou",
+    "file": "media_157c97629466b09ee18208785b86160789"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > h2#el-increíble-castillo-de-escornalbou",
+    "x": 30,
+    "y": 1310,
+    "w": 300,
+    "h": 165,
+    "level": 2,
+    "text": "el increíble castillo de escornalbou"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > p",
+    "x": 30,
+    "y": 1485,
+    "w": 300,
+    "h": 300,
+    "text": "El es una mansión peculiar, restaurada para ser la residencia burguesa del propi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-col.media-feature-text > p > a",
+    "x": 47,
+    "y": 1488,
+    "w": 247,
+    "h": 18,
+    "text": "monasterio-castillo de escornalbou",
+    "href": "/es/coleccion/castillo-monasterio-de-escornalbou"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-col.media-feature-media > picture > img",
+    "x": 30,
+    "y": 1860,
+    "w": 300,
+    "h": 169,
+    "text": "",
+    "file": "media_1f4af4516c59cc4cdaa835be79bbddb73d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > h2#a-pocos-pasos-del-priorat",
+    "x": 30,
+    "y": 2047,
+    "w": 300,
+    "h": 165,
+    "level": 2,
+    "text": "a pocos pasos del priorat"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > p",
+    "x": 30,
+    "y": 2222,
+    "w": 300,
+    "h": 300,
+    "text": "Sigue la historia y el rastro de los hasta , en el Priorat. Disfruta de las bode"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-col.media-feature-text > p > a",
+    "x": 154,
+    "y": 2250,
+    "w": 66,
+    "h": 18,
+    "text": "escaladei",
+    "href": "/cartoixa_d_escaladei"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-col.media-feature-media > picture > img",
+    "x": 30,
+    "y": 2562,
+    "w": 300,
+    "h": 169,
+    "text": "",
+    "file": "media_1b1f40955c6bcae2d77b619c075aa89e45"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > h2#gaudí-a-escondidas",
+    "x": 30,
+    "y": 2748,
+    "w": 300,
+    "h": 110,
+    "level": 2,
+    "text": "gaudí a escondidas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > p",
+    "x": 30,
+    "y": 2868,
+    "w": 300,
+    "h": 325,
+    "text": "A solo 10 km de la casa, se encuentra el . . Date un capricho y paséate con la f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-col.media-feature-text > p > a",
+    "x": 30,
+    "y": 2896,
+    "w": 95,
+    "h": 18,
+    "text": "parque sama",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-col.media-feature-media > picture > img",
+    "x": 30,
+    "y": 3233,
+    "w": 300,
+    "h": 169,
+    "text": "",
+    "file": "media_1bc382e362482d1a648dfd70a9688d4a14"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > h2#monasterios-que-son-tesoros",
+    "x": 30,
+    "y": 3420,
+    "w": 300,
+    "h": 165,
+    "level": 2,
+    "text": "monasterios que son tesoros"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > p",
+    "x": 30,
+    "y": 3595,
+    "w": 300,
+    "h": 325,
+    "text": "Déjate fascinar por la paz y la belleza de alguno de los tres monasterios increí"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-col.media-feature-text > p > a",
+    "x": 122,
+    "y": 3898,
+    "w": 98,
+    "h": 18,
+    "text": "ruta del cister",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 4040,
+    "w": 300,
+    "h": 27,
+    "text": "CONTACTO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 4082,
+    "w": 300,
+    "h": 125,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 4185,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 4237,
+    "w": 300,
+    "h": 27,
+    "text": "BUSCA"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > form.searchform > button.submit",
+    "x": 298,
+    "y": 4279,
+    "w": 20,
+    "h": 40,
+    "text": "search"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 4349,
+    "w": 300,
+    "h": 27,
+    "text": "SÍGUENOS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.facebook",
+    "x": 32,
+    "y": 4393,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.instagram",
+    "x": 62,
+    "y": 4393,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 4451,
+    "w": 300,
+    "h": 27,
+    "text": "OTROS ALQUILERES"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 4493,
+    "w": 300,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTÀ C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 4546,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 4598,
+    "w": 300,
+    "h": 27,
+    "text": "INFO LEGAL"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 4640,
+    "w": 300,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 4643,
+    "w": 220,
+    "h": 18,
+    "text": "política de privacidad y cookies",
+    "href": "/es/politica-de-privacidad-y-cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4720,
+    "w": 300,
+    "h": 25,
+    "text": "english",
+    "href": "/culture"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4745,
+    "w": 300,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/kulturen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4770,
+    "w": 300,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/cultura"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4795,
+    "w": 300,
+    "h": 25,
+    "text": "español",
+    "href": "/es/cultura"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 0,
+    "textNodes": 65,
+    "controls": 16,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "main#main",
+     "path": "main#main > div.section.media-feature-container > div.default-content-wrapper > h1#historia-es-saber-de-dónde-viene-nuestra-cultura-unainnegablecultura-mediterránea-te-espera",
+     "text": "historia es saber de dónde viene nuestra cultura. una innega",
+     "cutMin": 218,
+     "cutMax": 218
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 218,
+     "path": "main#main > div.section.media-feature-container > div.default-content-wrapper > h1#historia-es-saber-de-dónde-viene-nuestra-cultura-unainnegablecultura-mediterránea-te-espera",
+     "text": "historia es saber de dónde viene nuestra cultura. una innega",
+     "clipper": "main#main",
+     "rect": {
+      "l": 30,
+      "t": 309,
+      "r": 283,
+      "b": 370,
+      "w": 253,
+      "h": 61
+     },
+     "clip": {
+      "l": 0,
+      "t": 0,
+      "r": 360,
+      "b": 3980,
+      "w": 360,
+      "h": 3980
+     },
+     "lines": 9
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "historia es saber de dónde viene nuestra cultura. una innegable cultura mediterránea te espera",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 4,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "el increíble castillo de escornalbou",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "a pocos pasos del priorat",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "gaudí a escondidas",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "monasterios que son tesoros",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 30,
+    "y": 309,
+    "w": 253,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 364,
+    "w": 211,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 419,
+    "w": 161,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 474,
+    "w": 131,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 529,
+    "w": 186,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 584,
+    "w": 182,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 639,
+    "w": 115,
+    "h": 61
+   },
+   {
+    "x": 145,
+    "y": 639,
+    "w": 261,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 694,
+    "w": 333,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 749,
+    "w": 224,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 820,
+    "w": 20,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 820,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 169,
+    "y": 820,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 845,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 870,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 895,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 920,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 945,
+    "w": 240,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 970,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 113,
+    "y": 970,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 995,
+    "w": 234,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1020,
+    "w": 102,
+    "h": 18
+   },
+   {
+    "x": 132,
+    "y": 1020,
+    "w": 22,
+    "h": 18
+   },
+   {
+    "x": 154,
+    "y": 1020,
+    "w": 97,
+    "h": 18
+   },
+   {
+    "x": 251,
+    "y": 1020,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1045,
+    "w": 119,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1307,
+    "w": 269,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1362,
+    "w": 244,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1417,
+    "w": 306,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1488,
+    "w": 17,
+    "h": 18
+   },
+   {
+    "x": 47,
+    "y": 1488,
+    "w": 247,
+    "h": 18
+   },
+   {
+    "x": 294,
+    "y": 1488,
+    "w": 19,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1513,
+    "w": 293,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1538,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1563,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1588,
+    "w": 297,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1613,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1638,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1663,
+    "w": 141,
+    "h": 18
+   },
+   {
+    "x": 171,
+    "y": 1663,
+    "w": 148,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1688,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1713,
+    "w": 104,
+    "h": 18
+   },
+   {
+    "x": 134,
+    "y": 1713,
+    "w": 149,
+    "h": 18
+   },
+   {
+    "x": 283,
+    "y": 1713,
+    "w": 22,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1738,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1763,
+    "w": 297,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1798,
+    "w": 3,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2044,
+    "w": 193,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2099,
+    "w": 229,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2154,
+    "w": 163,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2225,
+    "w": 230,
+    "h": 18
+   },
+   {
+    "x": 260,
+    "y": 2225,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2250,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 108,
+    "y": 2250,
+    "w": 46,
+    "h": 18
+   },
+   {
+    "x": 154,
+    "y": 2250,
+    "w": 66,
+    "h": 18
+   },
+   {
+    "x": 220,
+    "y": 2250,
+    "w": 94,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2275,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2300,
+    "w": 138,
+    "h": 18
+   },
+   {
+    "x": 168,
+    "y": 2300,
+    "w": 157,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2325,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2350,
+    "w": 123,
+    "h": 18
+   },
+   {
+    "x": 153,
+    "y": 2350,
+    "w": 97,
+    "h": 18
+   },
+   {
+    "x": 250,
+    "y": 2350,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2375,
+    "w": 221,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2400,
+    "w": 236,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2425,
+    "w": 219,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2450,
+    "w": 298,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2475,
+    "w": 50,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 2475,
+    "w": 106,
+    "h": 18
+   },
+   {
+    "x": 186,
+    "y": 2475,
+    "w": 70,
+    "h": 18
+   },
+   {
+    "x": 256,
+    "y": 2475,
+    "w": 15,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 2475,
+    "w": 37,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2500,
+    "w": 29,
+    "h": 18
+   },
+   {
+    "x": 59,
+    "y": 2500,
+    "w": 3,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2745,
+    "w": 147,
+    "h": 61
+   },
+   {
+    "x": 177,
+    "y": 2745,
+    "w": 42,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2800,
+    "w": 277,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2871,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2896,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 2896,
+    "w": 7,
+    "h": 18
+   },
+   {
+    "x": 131,
+    "y": 2896,
+    "w": 196,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2921,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2946,
+    "w": 66,
+    "h": 18
+   },
+   {
+    "x": 96,
+    "y": 2946,
+    "w": 227,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2971,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2996,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3021,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3046,
+    "w": 223,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3071,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3096,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3121,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3146,
+    "w": 257,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3171,
+    "w": 116,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3417,
+    "w": 298,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 3472,
+    "w": 197,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 3527,
+    "w": 175,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 3598,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3623,
+    "w": 215,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3648,
+    "w": 187,
+    "h": 18
+   },
+   {
+    "x": 217,
+    "y": 3648,
+    "w": 112,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3673,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 88,
+    "y": 3673,
+    "w": 228,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3698,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3723,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3748,
+    "w": 293,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3773,
+    "w": 230,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3798,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3823,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3848,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3873,
+    "w": 297,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3898,
+    "w": 92,
+    "h": 18
+   },
+   {
+    "x": 122,
+    "y": 3898,
+    "w": 98,
+    "h": 18
+   },
+   {
+    "x": 220,
+    "y": 3898,
+    "w": 3,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4043,
+    "w": 95,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4085,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4110,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4135,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4160,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4185,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4240,
+    "w": 60,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4352,
+    "w": 92,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4454,
+    "w": 174,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4496,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4521,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4546,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4601,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4643,
+    "w": 220,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4668,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4723,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4748,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4773,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4798,
+    "w": 56,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 30,
+    "y": 309,
+    "w": 253,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 364,
+    "w": 211,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 419,
+    "w": 161,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 474,
+    "w": 131,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 529,
+    "w": 186,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 584,
+    "w": 182,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 639,
+    "w": 548,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 694,
+    "w": 333,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 749,
+    "w": 224,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 820,
+    "w": 20,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 820,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 169,
+    "y": 820,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 845,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 870,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 895,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 920,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 945,
+    "w": 240,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 970,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 113,
+    "y": 970,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 995,
+    "w": 234,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1020,
+    "w": 102,
+    "h": 18
+   },
+   {
+    "x": 132,
+    "y": 1020,
+    "w": 22,
+    "h": 18
+   },
+   {
+    "x": 154,
+    "y": 1020,
+    "w": 97,
+    "h": 18
+   },
+   {
+    "x": 251,
+    "y": 1020,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1045,
+    "w": 119,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1307,
+    "w": 269,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1362,
+    "w": 244,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1417,
+    "w": 306,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1488,
+    "w": 17,
+    "h": 18
+   },
+   {
+    "x": 47,
+    "y": 1488,
+    "w": 247,
+    "h": 18
+   },
+   {
+    "x": 294,
+    "y": 1488,
+    "w": 19,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1513,
+    "w": 293,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1538,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1563,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1588,
+    "w": 297,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1613,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1638,
+    "w": 261,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1663,
+    "w": 141,
+    "h": 18
+   },
+   {
+    "x": 171,
+    "y": 1663,
+    "w": 148,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1688,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1713,
+    "w": 107,
+    "h": 18
+   },
+   {
+    "x": 137,
+    "y": 1713,
+    "w": 145,
+    "h": 18
+   },
+   {
+    "x": 283,
+    "y": 1713,
+    "w": 22,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1738,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1763,
+    "w": 297,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1798,
+    "w": 3,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2044,
+    "w": 193,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2099,
+    "w": 229,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2154,
+    "w": 163,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2225,
+    "w": 230,
+    "h": 18
+   },
+   {
+    "x": 260,
+    "y": 2225,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2250,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 108,
+    "y": 2250,
+    "w": 46,
+    "h": 18
+   },
+   {
+    "x": 154,
+    "y": 2250,
+    "w": 66,
+    "h": 18
+   },
+   {
+    "x": 220,
+    "y": 2250,
+    "w": 94,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2275,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2300,
+    "w": 138,
+    "h": 18
+   },
+   {
+    "x": 168,
+    "y": 2300,
+    "w": 157,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2325,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2350,
+    "w": 123,
+    "h": 18
+   },
+   {
+    "x": 153,
+    "y": 2350,
+    "w": 97,
+    "h": 18
+   },
+   {
+    "x": 250,
+    "y": 2350,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2375,
+    "w": 221,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2400,
+    "w": 236,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2425,
+    "w": 219,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2450,
+    "w": 298,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2475,
+    "w": 50,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 2475,
+    "w": 106,
+    "h": 18
+   },
+   {
+    "x": 186,
+    "y": 2475,
+    "w": 70,
+    "h": 18
+   },
+   {
+    "x": 256,
+    "y": 2475,
+    "w": 15,
+    "h": 18
+   },
+   {
+    "x": 271,
+    "y": 2475,
+    "w": 37,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2500,
+    "w": 29,
+    "h": 18
+   },
+   {
+    "x": 59,
+    "y": 2500,
+    "w": 3,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2745,
+    "w": 189,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2800,
+    "w": 277,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2871,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2896,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 2896,
+    "w": 7,
+    "h": 18
+   },
+   {
+    "x": 131,
+    "y": 2896,
+    "w": 196,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2921,
+    "w": 268,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2946,
+    "w": 66,
+    "h": 18
+   },
+   {
+    "x": 96,
+    "y": 2946,
+    "w": 227,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2971,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2996,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3021,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3046,
+    "w": 223,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3071,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3096,
+    "w": 258,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3121,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3146,
+    "w": 257,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3171,
+    "w": 116,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3417,
+    "w": 298,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 3472,
+    "w": 197,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 3527,
+    "w": 175,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 3598,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3623,
+    "w": 215,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3648,
+    "w": 187,
+    "h": 18
+   },
+   {
+    "x": 217,
+    "y": 3648,
+    "w": 112,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3673,
+    "w": 58,
+    "h": 18
+   },
+   {
+    "x": 88,
+    "y": 3673,
+    "w": 228,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3698,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3723,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3748,
+    "w": 293,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3773,
+    "w": 230,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3798,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3823,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3848,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3873,
+    "w": 297,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3898,
+    "w": 92,
+    "h": 18
+   },
+   {
+    "x": 122,
+    "y": 3898,
+    "w": 98,
+    "h": 18
+   },
+   {
+    "x": 220,
+    "y": 3898,
+    "w": 3,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4043,
+    "w": 95,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4085,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4110,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4135,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4160,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4185,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4240,
+    "w": 60,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4352,
+    "w": 92,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4454,
+    "w": 174,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4496,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4521,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4546,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4601,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4643,
+    "w": 220,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4668,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4724,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4749,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4774,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4799,
+    "w": 56,
+    "h": 18
+   }
+  ]
+ }
+}

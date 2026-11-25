@@ -1,0 +1,1547 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T21:50:23.646Z",
+  "tol": 4,
+  "n": 10,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/da/the-house/",
+  "at": "2026-11-24T17:40:10.475Z",
+  "docH": 3301
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/da/the-house",
+  "at": "2026-11-24T21:50:23.570Z",
+  "docH": 3300
+ },
+ "results": [
+  {
+   "sel": "#content > .vc_row > .vc_col-sm-6=.media-feature .media-feature-col",
+   "family": null,
+   "required": true,
+   "originMatches": 10,
+   "edsMatches": 10,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:balcony stone carved facade of casa arge",
+       "role": "image",
+       "text": "balcony stone carved facade of casa argentera",
+       "edsText": "balcony stone carved facade of casa argentera",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 292
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 292,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 288,
+        "w": 535,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 288,
+        "w": 535,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 535,
+       "h": 292,
+       "absY": 1139,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(221, 157, 59)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1139,
+       "w": 595,
+       "h": 310
+      },
+      "eds": {
+       "x": 125,
+       "y": 1139,
+       "w": 595,
+       "h": 310
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "link:the whole house",
+       "role": "link",
+       "text": "the whole house",
+       "edsText": "the whole house",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": -3,
+        "w": 416,
+        "h": 61
+       },
+       "eds": {
+        "x": 30,
+        "y": -3,
+        "w": 416,
+        "h": 61,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "heading:the whole house",
+       "role": "heading",
+       "text": "the whole house",
+       "edsText": "the whole house",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55,
+        "sel": "h2#the-whole-house",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:for groups . enjoy each other’s company ",
+       "role": "text",
+       "text": "for groups . enjoy each other’s company without compromising",
+       "edsText": "for groups . enjoy each other’s company without compromising",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 50
+       },
+       "eds": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 50,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:up to 15 people",
+       "role": "text",
+       "text": "up to 15 people",
+       "edsText": "up to 15 people",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 68,
+        "w": 110,
+        "h": 18
+       },
+       "eds": {
+        "x": 110,
+        "y": 68,
+        "w": 110,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 1139,
+       "w": 595,
+       "h": 115
+      },
+      "eds": {
+       "x": 720,
+       "y": 1139,
+       "w": 595,
+       "h": 310
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 195
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:view of the pool heated and lighted in c",
+       "role": "image",
+       "text": "view of the pool heated and lighted in casa argentera",
+       "edsText": "view of the pool heated and lighted in casa argentera",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 1481,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1481,
+       "w": 595,
+       "h": 319
+      },
+      "eds": {
+       "x": 125,
+       "y": 1481,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "link:the garden",
+       "role": "link",
+       "text": "the garden",
+       "edsText": "the garden",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": -3,
+        "w": 282,
+        "h": 61
+       },
+       "eds": {
+        "x": 30,
+        "y": -3,
+        "w": 282,
+        "h": 61,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "heading:the garden",
+       "role": "heading",
+       "text": "the garden",
+       "edsText": "the garden",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55,
+        "sel": "h2#the-garden",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:enjoy the mediterranean weather , or coo",
+       "role": "text",
+       "text": "enjoy the mediterranean weather , or cooling off in the , or",
+       "edsText": "enjoy the mediterranean weather , or cooling off in the , or",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 50
+       },
+       "eds": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 50,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:sunbathing",
+       "role": "text",
+       "text": "sunbathing",
+       "edsText": "sunbathing",
+       "byPosition": false,
+       "origin": {
+        "x": 268,
+        "y": 68,
+        "w": 84,
+        "h": 18
+       },
+       "eds": {
+        "x": 268,
+        "y": 68,
+        "w": 84,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:swimming pool",
+       "role": "text",
+       "text": "swimming pool",
+       "edsText": "swimming pool",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 93,
+        "w": 114,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 93,
+        "w": 114,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:barbecuing",
+       "role": "text",
+       "text": "barbecuing",
+       "edsText": "barbecuing",
+       "byPosition": false,
+       "origin": {
+        "x": 169,
+        "y": 93,
+        "w": 84,
+        "h": 18
+       },
+       "eds": {
+        "x": 169,
+        "y": 93,
+        "w": 84,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:chill out sofa",
+       "role": "text",
+       "text": "chill out sofa",
+       "edsText": "chill out sofa",
+       "byPosition": false,
+       "origin": {
+        "x": 375,
+        "y": 93,
+        "w": 94,
+        "h": 18
+       },
+       "eds": {
+        "x": 375,
+        "y": 93,
+        "w": 94,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 1481,
+       "w": 595,
+       "h": 115
+      },
+      "eds": {
+       "x": 720,
+       "y": 1481,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 204
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "heading:h3#1",
+       "role": "heading",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 318
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 318,
+        "sel": "h3#casa-argentera-penthouse-main-room",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "30/35/200",
+        "eds": "30/35/200"
+       }
+      },
+      {
+       "key": "image:casa argentera penthouse main room",
+       "role": "image",
+       "text": "casa argentera penthouse main room",
+       "edsText": "casa argentera penthouse main room",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "30/35/200",
+        "eds": "30/0/200"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 1832,
+       "hidden": false,
+       "fs": 30,
+       "lh": 0,
+       "fw": "200",
+       "color": "rgb(221, 157, 59)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1832,
+       "w": 595,
+       "h": 318
+      },
+      "eds": {
+       "x": 125,
+       "y": 1832,
+       "w": 595,
+       "h": 318
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "link:the penthouse",
+       "role": "link",
+       "text": "the penthouse",
+       "edsText": "the penthouse",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": -3,
+        "w": 372,
+        "h": 61
+       },
+       "eds": {
+        "x": 30,
+        "y": -3,
+        "w": 372,
+        "h": 61,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "heading:the penthouse",
+       "role": "heading",
+       "text": "the penthouse",
+       "edsText": "the penthouse",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55,
+        "sel": "h2#the-penthouse",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:with beautiful curved windows that let i",
+       "role": "text",
+       "text": "with beautiful curved windows that let in plenty of light. t",
+       "edsText": "with beautiful curved windows that let in plenty of light. t",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 75
+       },
+       "eds": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 75,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:the second floor appartment",
+       "role": "text",
+       "text": "the second floor appartment",
+       "edsText": "the second floor appartment",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 68,
+        "w": 214,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 68,
+        "w": 214,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:for 4 people.",
+       "role": "text",
+       "text": "for 4 people.",
+       "edsText": "for 4 people.",
+       "byPosition": false,
+       "origin": {
+        "x": 117,
+        "y": 118,
+        "w": 96,
+        "h": 18
+       },
+       "eds": {
+        "x": 117,
+        "y": 118,
+        "w": 96,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 1832,
+       "w": 595,
+       "h": 140
+      },
+      "eds": {
+       "x": 720,
+       "y": 1832,
+       "w": 595,
+       "h": 318
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 178
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:balcony carved in stone and view of vill",
+       "role": "image",
+       "text": "balcony carved in stone and view of village",
+       "edsText": "balcony carved in stone and view of village",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 2182,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 2182,
+       "w": 595,
+       "h": 319
+      },
+      "eds": {
+       "x": 125,
+       "y": 2182,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "link:the noble floor",
+       "role": "link",
+       "text": "the noble floor",
+       "edsText": "the noble floor",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": -3,
+        "w": 381,
+        "h": 61
+       },
+       "eds": {
+        "x": 30,
+        "y": -3,
+        "w": 381,
+        "h": 61,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "heading:the noble floor",
+       "role": "heading",
+       "text": "the noble floor",
+       "edsText": "the noble floor",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55,
+        "sel": "h2#the-noble-floor",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:with many original details, such as the ",
+       "role": "text",
+       "text": "with many original details, such as the tiled floors, each r",
+       "edsText": "with many original details, such as the tiled floors, each r",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 50
+       },
+       "eds": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 50,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:the first floor appartment",
+       "role": "text",
+       "text": "the first floor appartment",
+       "edsText": "the first floor appartment",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 68,
+        "w": 190,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 68,
+        "w": 190,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:for 5-6 people.",
+       "role": "text",
+       "text": "for 5-6 people.",
+       "edsText": "for 5-6 people.",
+       "byPosition": false,
+       "origin": {
+        "x": 301,
+        "y": 93,
+        "w": 109,
+        "h": 18
+       },
+       "eds": {
+        "x": 301,
+        "y": 93,
+        "w": 109,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 2182,
+       "w": 595,
+       "h": 115
+      },
+      "eds": {
+       "x": 720,
+       "y": 2182,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 204
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:big dining/meeting room in the ground fl",
+       "role": "image",
+       "text": "big dining/meeting room in the ground floor",
+       "edsText": "big dining/meeting room in the ground floor",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 2533,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 2533,
+       "w": 595,
+       "h": 319
+      },
+      "eds": {
+       "x": 125,
+       "y": 2533,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "link:the ground floor",
+       "role": "link",
+       "text": "the ground floor",
+       "edsText": "the ground floor",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": -3,
+        "w": 409,
+        "h": 61
+       },
+       "eds": {
+        "x": 30,
+        "y": -3,
+        "w": 409,
+        "h": 61,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "heading:the ground floor",
+       "role": "heading",
+       "text": "the ground floor",
+       "edsText": "the ground floor",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55,
+        "sel": "h2#the-ground-floor",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:it is , where you can try cooking in the",
+       "role": "text",
+       "text": "it is , where you can try cooking in the masonry stove. it i",
+       "edsText": "it is , where you can try cooking in the masonry stove. it i",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 50
+       },
+       "eds": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 50,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:the ground floor appartment",
+       "role": "text",
+       "text": "the ground floor appartment",
+       "edsText": "the ground floor appartment",
+       "byPosition": false,
+       "origin": {
+        "x": 58,
+        "y": 68,
+        "w": 213,
+        "h": 18
+       },
+       "eds": {
+        "x": 58,
+        "y": 68,
+        "w": 213,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 2533,
+       "w": 595,
+       "h": 115
+      },
+      "eds": {
+       "x": 720,
+       "y": 2533,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 204
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 32,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

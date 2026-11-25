@@ -1,0 +1,175 @@
+{
+  "a": "stardust/replica/gates/prototypes-360/experiences/origin.png",
+  "b": "stardust/replica/gates/prototypes-360/experiences/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3000,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 30783,
+  "pct": 2.85,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/prototypes-360/experiences/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 16
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 2.85,
+    "differingPixels": 30783,
+    "compared": {
+      "width": 360,
+      "height": 3000,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 16,
+        "unaligned": 16
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 2.85,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "http://localhost:8791/experiences-proposed.html",
+    "key": {
+      "v": 3,
+      "build": "http://localhost:8791/experiences-proposed.html",
+      "source": "https://www.casaargentera.com/experiences/",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "a7a63c22db2140fe",
+      "options": "f8db89973f508ac3",
+      "reference": "6b05ad696a9aed92",
+      "archetype": "bebd536d699f7750",
+      "captures": "8751ea31e00f868f",
+      "instruments": "700566dc6f7774a4",
+      "prototype": "40bcc3dae0184388",
+      "page content": "2e10aa71bdec883e"
+    },
+    "probes": {
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 31,
+          "controls": 23,
+          "total": 0
+        },
+        "groups": [],
+        "source": "clip-probe",
+        "tier": "chrome"
+      },
+      "units": {
+        "verdict": {
+          "units": 3,
+          "within": 11,
+          "off": 0,
+          "hidden": 0,
+          "missing": 0,
+          "errors": 0,
+          "requiredOff": 0
+        },
+        "required": true,
+        "errors": []
+      }
+    },
+    "at": "2026-11-24T12:11:22.886Z"
+  }
+}

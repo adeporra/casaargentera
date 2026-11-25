@@ -1,0 +1,119 @@
+{
+  "a": "stardust/replica/gates/all-1440/es-playas-y-mas/origin.png",
+  "b": "stardust/replica/gates/all-1440/es-playas-y-mas/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2535,
+    "mode": "overlap"
+  },
+  "heightDelta": -14,
+  "differingPixels": 496415,
+  "pct": 13.6,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/es-playas-y-mas/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 8.62,
+  "textBoxes": 66,
+  "textPixels": 336302,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 24.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 33.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 11.4
+    },
+    {
+      "y0": 2500,
+      "y1": 2535,
+      "pct": 1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 13.6,
+    "differingPixels": 496415,
+    "compared": {
+      "width": 1440,
+      "height": 2535,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 24.1,
+        "unaligned": 24.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 33.2,
+        "unaligned": 33.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 11.4,
+        "unaligned": 11.4
+      },
+      {
+        "y0": 2500,
+        "y1": 2535,
+        "pct": 1,
+        "unaligned": 1
+      }
+    ],
+    "diff": null,
+    "reason": "aligned number not lower than the unaligned one",
+    "candidate": {
+      "pct": 14.07,
+      "steps": 1,
+      "totalShift": 14
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": "pixel 13.6% > 10%"
+}

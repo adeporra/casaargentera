@@ -1,0 +1,178 @@
+{
+  "slug": "the-ground-floor",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "the-garden",
+  "modules": [
+    "hero-slider",
+    "image-grid",
+    "icon-features",
+    "contact-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "wf-wrap"
+  ],
+  "canonShas": {
+    "header": "e34713a1ef20",
+    "footer": "975cee783dcb",
+    "css": "89a5d300aec7"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "gallery-links",
+      "source": "vc_grid 6 items, vc_col-sm-6, prettyPhoto lightbox links to the 1024 image files (with title)",
+      "clone": "section.garden-images.garden-gallery > .media-grid, links+titles verbatim; driver logged the 6 wp-content hrefs as not-in-inventory",
+      "encoder": "encode-program.mjs needs a vc_grid branch (cluster unit)"
+    }
+  ],
+  "metadata": {
+    "title": "THE GROUND FLOOR - Casa Argentera",
+    "description": "The old big arched opening was turned into a big glass door to let lots of lights in. With a masonry stove, for heating up the place and cook.",
+    "canonical": null,
+    "lang": "en-GB"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "THE GROUND FLOOR - Casa Argentera",
+    "description": "The old big arched opening was turned into a big glass door to let lots of lights in. With a masonry stove, for heating up the place and cook.",
+    "url": "https://www.casaargentera.com/the-ground-floor/"
+  },
+  "migratedAt": "2026-11-24T13:57:17Z",
+  "designMdSha": "7ead730e40e5",
+  "designJsonSha": "15480f089476",
+  "sourceCurrentSha": "d9a75d7c2ace",
+  "sourceProposedSha": "6e5db8ff2451",
+  "fidelityTier": "sibling",
+  "archetypeSource": "the-garden",
+  "archetypeSha": "954a46a6979f",
+  "variants": [
+    "gallery"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 over el-atico, la-planta-baja, ca/la-casa-sencera, the-penthouse, da/hele-huset vs /the-garden/: content-driven deltas only (image/feature counts, text heights, contact heading level verbatim) + vc_grid media grid on the ground-floor pages → variant gallery; stardust/.work/rollout/program/variance.json",
+    "content-fidelity": "Path A' clone stardust/.work/rollout/program/src/the-ground-floor-proposed.html (stardust/encoders/build-clone-program.mjs) from the capture: verbatim headings/inline spans, paragraphs, images+alts, feature titles/descs, CF7 labels/notes/acceptance/submit; content-diff #main 🔴 0 🟡 0, counts equal (stardust/.work/rollout/program/content-diff-the-ground-floor.txt); chrome 🔴 = canon-chrome deviation"
+  },
+  "contentDeviations": [
+    {
+      "kind": "chrome-canon",
+      "source": "WP header/footer (localized; incl. mobile-menu socials/language duplicates)",
+      "target": "canon chrome in clone",
+      "reason": "Path A' clone carries canon chrome verbatim; EDS delivery uses the (locale) nav/footer docs"
+    }
+  ],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-place/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/nature-sport/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/beach-and-more/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/who-we-are/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-place/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/nature-sport/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/beach-and-more/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/who-we-are/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-place/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/nature-sport/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/beach-and-more/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/who-we-are/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp-content/uploads/2020/04/P1010765EnhancedP3D-e1587830457410-1024x576.jpg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp-content/uploads/2020/01/CasaArgentera-GroundFloor-1024x576.jpg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp-content/uploads/2020/01/Kitchen-groundf-CasaArgentera-1024x576.jpg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp-content/uploads/2020/01/CasaArgentera-hab2-0-1024x576.jpg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp-content/uploads/2020/01/CasaArgentera-hab-0-1024x576.jpg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp-content/uploads/2020/01/BathroomGroundf-CasaArgentera-1024x575.jpg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/privacy-policy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/the-garden/",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "the-ground-floor/index.html",
+  "outputPathDefault": null,
+  "sidecar": "the-ground-floor/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,253 @@
+{
+  "live": "stardust/replica/motion/events-live.json",
+  "build": "stardust/replica/motion/events-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 5,
+  "counts": {
+    "behaviors": 33,
+    "parity": 20,
+    "missing": 4,
+    "extra": 0,
+    "tolerance": 1,
+    "dead": 6,
+    "advisory": 2
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "widget",
+      "name": "rs-bullet:nth-child(2) → .hero-bullet:nth-child(2)",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget rs-bullet:nth-child(2) → .hero-bullet:nth-child(2): dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": "#primary-menu > li:first-child → .masthead .main-nav > li:first-child",
+      "state": "missing",
+      "note": "no hover diff on build; live changes ul.opacity; 300ms",
+      "line": "motion hover #primary-menu > li:first-child → .masthead .main-nav > li:first-child: MISSING on build (no hover diff on build; live changes ul.opacity; 300ms)"
+    },
+    {
+      "cls": "hover",
+      "name": "#primary-menu > li:nth-child(2) > a → .masthead .main-nav > li:nth-child(2) > a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover #primary-menu > li:nth-child(2) > a → .masthead .main-nav > li:nth-child(2) > a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".vc_grid-item .vc_gitem-zone → .media-grid__zone",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .vc_grid-item .vc_gitem-zone → .media-grid__zone: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".wpcf7-submit → .cf7-submit",
+      "state": "parity",
+      "note": "self.background; 300ms; paired by order",
+      "line": "motion hover .wpcf7-submit → .cf7-submit: parity (self.background; 300ms; paired by order)"
+    },
+    {
+      "cls": "hover",
+      "name": "#content .wpcf7-list-item-label a → #content .cf7-list-item-label a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover #content .wpcf7-list-item-label a → #content .cf7-list-item-label a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": "#footer .widget a",
+      "state": "parity",
+      "note": "self.color; n/a",
+      "line": "motion hover #footer .widget a: parity (self.color; n/a)"
+    },
+    {
+      "cls": "hover",
+      "name": ".header-bar .soc-ico a → .masthead .header-bar .soc-ico a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .header-bar .soc-ico a → .masthead .header-bar .soc-ico a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "entrance",
+      "name": "slide-in-anim",
+      "state": "parity",
+      "note": "fired on 3 element(s)",
+      "line": "motion entrance slide-in-anim: parity (fired on 3 element(s))"
+    },
+    {
+      "cls": "entrance",
+      "name": "slide-out-anim",
+      "state": "parity",
+      "note": "fired on 3 element(s)",
+      "line": "motion entrance slide-out-anim: parity (fired on 3 element(s))"
+    },
+    {
+      "cls": "transition",
+      "name": "background-color",
+      "state": "parity",
+      "note": "8 event(s) on live, 12 on build, 300ms",
+      "line": "motion transition background-color: parity (8 event(s) on live, 12 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-bottom-color",
+      "state": "parity",
+      "note": "6 event(s) on live, 10 on build, 300ms",
+      "line": "motion transition border-bottom-color: parity (6 event(s) on live, 10 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-left-color",
+      "state": "parity",
+      "note": "6 event(s) on live, 10 on build, 300ms",
+      "line": "motion transition border-left-color: parity (6 event(s) on live, 10 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-right-color",
+      "state": "parity",
+      "note": "6 event(s) on live, 10 on build, 300ms",
+      "line": "motion transition border-right-color: parity (6 event(s) on live, 10 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-top-color",
+      "state": "parity",
+      "note": "6 event(s) on live, 10 on build, 300ms",
+      "line": "motion transition border-top-color: parity (6 event(s) on live, 10 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "tolerance",
+      "deltas": [
+        "timing delta 200ms > 150ms [longest duration: live 400ms, build 600ms]"
+      ],
+      "note": "8 event(s) on live, 18 on build",
+      "line": "motion transition opacity: timing delta 200ms > 150ms [longest duration: live 400ms, build 600ms] (8 event(s) on live, 18 on build)"
+    },
+    {
+      "cls": "transition",
+      "name": "right",
+      "state": "parity",
+      "note": "5 event(s) on live, 6 on build, 400ms",
+      "line": "motion transition right: parity (5 event(s) on live, 6 on build, 400ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "width",
+      "state": "parity",
+      "note": "4 event(s) on live, 4 on build, 300ms",
+      "line": "motion transition width: parity (4 event(s) on live, 4 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "z-index",
+      "state": "parity",
+      "note": "6 event(s) on live, 6 on build, 400ms",
+      "line": "motion transition z-index: parity (6 event(s) on live, 6 on build, 400ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "visibility",
+      "state": "advisory",
+      "note": "10 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition visibility: extra on build — advisory (10 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "class",
+      "name": "dt-hovered",
+      "state": "parity",
+      "note": "added 1× on live, 2× on build",
+      "line": "motion class dt-hovered: parity (added 1× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "hide-phantom",
+      "state": "parity",
+      "note": "added 6× on live, 6× on build",
+      "line": "motion class hide-phantom: parity (added 6× on live, 6× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "off",
+      "state": "parity",
+      "note": "added 6× on live, 6× on build",
+      "line": "motion class off: parity (added 6× on live, 6× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "on",
+      "state": "parity",
+      "note": "added 5× on live, 3× on build",
+      "line": "motion class on: parity (added 5× on live, 3× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "rs-forcehidden",
+      "state": "missing",
+      "note": "trigger class added 8× on live, never on build",
+      "line": "motion class rs-forcehidden: MISSING on build (trigger class added 8× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "selected",
+      "state": "parity",
+      "note": "added 4× on live, 5× on build",
+      "line": "motion class selected: parity (added 4× on live, 5× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "show-floating-icon",
+      "state": "parity",
+      "note": "added 3× on live, 6× on build",
+      "line": "motion class show-floating-icon: parity (added 3× on live, 6× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "show-mega-menu-content",
+      "state": "parity",
+      "note": "added 1× on live, 2× on build",
+      "line": "motion class show-mega-menu-content: parity (added 1× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "show-phantom",
+      "state": "parity",
+      "note": "added 6× on live, 3× on build",
+      "line": "motion class show-phantom: parity (added 6× on live, 3× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "vc_is-hover",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class vc_is-hover: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-active",
+      "state": "advisory",
+      "note": "added 5× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-active: extra on build — advisory (added 5× on build, never on live — check it drives no invented behavior)"
+    },
+    {
+      "cls": "media",
+      "name": "auto-advance",
+      "state": "missing",
+      "note": "2 class mutation(s) fired unpoked on live (timer-driven rotation), none on build",
+      "line": "motion media auto-advance: MISSING on build (2 class mutation(s) fired unpoked on live (timer-driven rotation), none on build)"
+    }
+  ]
+}

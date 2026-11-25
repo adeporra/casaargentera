@@ -1,0 +1,9 @@
+measure: http://localhost:8791/index-proposed.html @360: horizontal overflow +31px (scrollWidth 391 > viewport 360)
+measure  http://localhost:8791/index-proposed.html
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   391  viewport 360  scrollHeight   6673  ◄◄ OVERFLOW +31px
+  html
+       x     0  y      0  w   360  h  6673  vis  "Skip to content THE WHOLE HOUSE THE GAR…"
+      display: block

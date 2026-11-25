@@ -1,0 +1,25 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://main--ea32f12a--aemcoder.aem.page/es/quienes-somos",
+  "width": 2560,
+  "vh": 900,
+  "height": 1848,
+  "chunks": 3,
+  "denialCheck": "ok",
+  "freeze": "applied",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 5,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 0,
+    "intervals": 0,
+    "chains": 0,
+    "delays": []
+  },
+  "at": "2026-11-24T23:29:36.028Z"
+}

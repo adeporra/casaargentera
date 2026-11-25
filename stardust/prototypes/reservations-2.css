@@ -1,0 +1,131 @@
+/* ==========================================================================
+   Casa Argentera — "booking" archetype (reservations-2) modules. Imports canon.css first.
+   Lifted from source-spec (1440/360), measure.mjs over the live calendar and the page's
+   own combined sheet (css-rules.mjs: ICS Calendar plugin r34ics + The7 select tokens).
+   Calendar: captured state only (dynamic-features row 10, static snapshot of the month the
+   source shows); day states free/booked + visible text — no reservation URLs or guest
+   data (register R-01).
+   ========================================================================== */
+
+/* per-page masthead veil: this template's header bar is rgba(221,153,51,.5) (as the-garden) */
+:root { --ca-header-veil: rgba(221, 153, 51, 0.5); }
+
+/* ---- current-page state (scoped locally; canon has no .act state — back-port candidate) */
+.main-nav > li.act > a .underline { width: 100%; }
+#phantom .main-nav > li.act > a, #phantom .main-nav > li.act > a .menu-text { color: #dd9d3b; }
+#phantom .main-nav > li.act > a .underline { background: #dd9d3b; }
+.mobile-main-nav li.act > a { color: #dd9d3b; }
+
+/* ---- WPBakery text column: last child carries no bottom margin; empty-space rows */
+.text-column > :last-child { margin-bottom: 0; }
+.space-25 { height: 25px; }
+/* WPBakery columns keep min-height 1px (lifted .vc_col-sm-* { min-height: 1px }) */
+.vc-col { min-height: 1px; }
+
+/* ---- price columns: The7 h3 keeps its 10px bottom margin inside a text column */
+.price-column h3 { margin-bottom: 10px; }
+
+/* ---- contact form (Contact Form 7 look, The7 form tokens) — same as contact */
+.cf7 { margin: 0; }
+.cf7-form { margin: 0; }
+.cf7-form p { margin: 0 0 10px; }
+.cf7-wrap { position: relative; }
+.cf7-field {
+  display: inline-block; box-sizing: border-box; width: 100%; height: 40px; margin: 0 0 10px; padding: 5px 15px;
+  border: 1px solid rgba(173, 176, 182, 0.3); border-radius: 0; background: #fcfcfc; color: #787d85;
+  font: 400 14px/25px var(--ca-font); vertical-align: baseline;
+}
+.cf7-textarea { height: auto; overflow: auto; vertical-align: top; resize: vertical; }
+.cf7-list-item { display: inline-block; margin: 0 0 0 1em; }
+.cf7-acceptance input { box-sizing: border-box; margin: 0; font-size: 100%; vertical-align: baseline; }
+.cf7-list-item-label::before, .cf7-list-item-label::after { content: " "; }
+.cf7-submit {
+  display: inline-flex; align-items: center; box-sizing: border-box; padding: 12px 25px 11px; border: 0 solid #dd9d3b;
+  border-radius: 25px; background: #dd9d3b; color: #fff; font: 800 14px/16px var(--ca-font); cursor: pointer;
+  -webkit-appearance: none; appearance: none;
+  transition: all .3s ease-out; /* lifted: .dt-btn,…input[type=submit] { transition: all 0.3s ease-out } (observed 300 ms) */
+}
+.cf7-submit:hover { background: #ae9964; }
+.cf7-spinner { position: relative; display: inline-block; width: 24px; height: 24px; margin: 0 24px; visibility: hidden; opacity: .75; }
+.cf7-response:empty { display: none; }
+
+/* ---- availability calendar (ICS Calendar "month" layout, light theme).
+   Lifted tokens: whitesmoke #f0f3f6 (day strip, off cells, select), gainsboro #d9dcdf
+   (th, borders), gray #70787f (today strip), black #10181f (ink). */
+.avail-calendar { display: block; clear: both; margin: 0 0 21px; color: var(--ca-base); }
+.avail-calendar * { box-sizing: border-box; }
+.avail-calendar__select {
+  position: relative; z-index: 2; display: block; float: right; box-sizing: border-box;
+  width: 200px; min-width: 200px; max-width: 200px; height: 40px; margin: 7px 0 10px 7px; padding: 5px 30px 5px 15px;
+  border: 1px solid rgba(173, 176, 182, 0.3); border-radius: 0; background-color: #f0f3f6; color: #10181f;
+  font: 400 14px/25px var(--ca-font);
+  -webkit-appearance: none; appearance: none;
+  /* lifted The7 select arrow: two 5px triangles in --the7-input-color #787d85 */
+  background-image: linear-gradient(45deg, transparent 50%, #787d85 50%), linear-gradient(135deg, #787d85 50%, transparent 50%);
+  background-position: calc(100% - 20px) 50%, calc(100% - 15px) 50%, 100% 0;
+  background-size: 5px 5px, 5px 5px, 2.5em 2.5em; background-repeat: no-repeat;
+}
+.avail-calendar__month { position: relative; z-index: 1; }
+.avail-calendar__label { clear: none; margin: 0; color: var(--ca-base); font: 200 30px/35px var(--ca-font); }
+.avail-calendar__grid {
+  width: 100%; margin: 0 0 10px; table-layout: fixed; border-collapse: collapse; border-spacing: 0;
+  background: #fff; font-size: 14px; line-height: 21px;
+}
+.avail-calendar__grid th, .avail-calendar__grid td {
+  width: auto; border: 1px solid #d9dcdf; font-size: 70%; line-height: 21px; text-align: left; vertical-align: top;
+}
+.avail-calendar__grid th {
+  padding: .5em .8em .2em; background: #d9dcdf; color: #10181f; font-weight: 700; text-align: center; text-transform: uppercase;
+}
+.avail-calendar__grid td { height: 9em; padding: 0; }
+.avail-calendar__grid td.off { background: #f0f3f6; color: #70787f; }
+.avail-calendar__grid .day { padding: .2em .8em; background: #f0f3f6; color: #10181f; font-weight: 700; text-align: right; }
+.avail-calendar__grid .today .day { background: #70787f; }
+.avail-calendar__grid .today .day * { color: #fff; }
+.avail-calendar .phone-only { display: none; }
+.avail-calendar .no-events { margin: 0 0 10px; }
+.avail-calendar__grid .events { margin: 0; padding: 0; list-style: none; color: #10181f; }
+.avail-calendar__grid .events li { position: relative; z-index: 1; margin: 0; padding: .4em .8em; font-weight: 700; }
+.avail-calendar__grid .events .all-day-indicator { display: block; font-size: 80%; font-weight: 400; line-height: 1.5em; text-transform: uppercase; }
+.avail-calendar__grid .events .title { display: block; font-size: 100%; line-height: 1.5em; word-break: break-word; hyphens: auto; }
+
+/* multi-day bookings (combinemultiday): one gray bar across the days; the hover block names
+   the range (description not carried — R-01) */
+.avail-calendar__grid .events li:is(.multiday-first, .multiday-middle, .multiday-last) {
+  margin: 1px 0; padding-left: .8em; padding-right: .8em; border-bottom: 0; background: #70787f; color: #fff;
+}
+.avail-calendar__grid .events li.multiday-first { margin-left: 2px; padding-left: calc(.8em - 2px); border-radius: 3px 0 0 3px; }
+.avail-calendar__grid .events li.multiday-last { margin-right: 2px; padding-right: calc(.8em - 2px); border-radius: 0 3px 3px 0; }
+.avail-calendar__grid .events li:is(.multiday-first, .multiday-middle, .multiday-last) .all-day-indicator { display: none; }
+.avail-calendar__grid td:not(:first-child):not(.d-01) li:is(.multiday-middle, .multiday-last) { margin-left: -1px; }
+.avail-calendar__grid td:not(:first-child):not(.d-01) li:is(.multiday-middle, .multiday-last) > :not(.hover-block) { color: transparent; }
+.avail-calendar .hover-block {
+  position: absolute; top: 2em; left: 3em; display: none; width: 250%; min-width: 15em; max-width: 25em; max-height: 30em;
+  overflow-y: auto; padding: .4em .6em; border: 1px solid #a3a8ac; background: #fff; box-shadow: 2px 2px 5px rgba(105, 105, 105, .2); color: #10181f;
+}
+.avail-calendar__grid td:nth-of-type(n+5) .hover-block { right: 3em; left: auto; }
+.avail-calendar__grid tbody tr:nth-of-type(n+3) .hover-block { top: auto; bottom: 1em; }
+.avail-calendar .has-desc:is(:hover, :focus) ~ .hover-block, .avail-calendar .hover-block:is(:hover, :focus-within) { display: block; }
+.avail-calendar .hover-block__date { display: block; font-weight: 700; }
+.avail-calendar .hover-block__title { display: none; }
+.avail-calendar .events li:is(:hover, :focus-within) { z-index: 9; }
+.avail-calendar__grid td:is(:hover, :focus-within) { position: relative; z-index: 2; }
+
+@media (max-width: 1024px) {
+  .avail-calendar__grid td { height: 7.5em; }
+}
+/* source switch 782px (plugin): the month collapses to the days with events */
+@media (max-width: 782px) {
+  .avail-calendar__select { display: inline-block; float: none; margin: 0 0 10px; }
+  .avail-calendar__grid, .avail-calendar__grid tbody, .avail-calendar__grid tr, .avail-calendar__grid td {
+    display: block; width: 100%; border: 0; font-size: 100%;
+  }
+  .avail-calendar__grid { margin: 0; }
+  .avail-calendar__grid thead, .avail-calendar__grid .off, .avail-calendar__grid .empty, .avail-calendar__grid .past { display: none; }
+  .avail-calendar__grid td { height: auto; }
+  .avail-calendar__grid .day { padding: .5em .8em; text-align: left; }
+  .avail-calendar__grid .no-phone { display: none; }
+  .avail-calendar .phone-only { display: block; }
+  .avail-calendar__month.past { display: none; }
+  .avail-calendar__grid .events .all-day-indicator { font-size: 75%; }
+}

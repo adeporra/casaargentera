@@ -1,0 +1,726 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.casaargentera.com/",
+ "at": "2026-11-24T10:33:15.113Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "360": {
+   "root": "#page>div:nth-of-type(1)",
+   "controls": [
+    {
+     "name": "Mobile menu icon",
+     "key": "mobile menu icon",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#page>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>a:nth-of-type(2)",
+     "expanded": null,
+     "rect": [
+      306,
+      17,
+      24,
+      24
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "THE HOUSE",
+          "href": "https://www.casaargentera.com/the-house/"
+         },
+         {
+          "text": "THE PLACE",
+          "href": "https://www.casaargentera.com/the-place/"
+         },
+         {
+          "text": "EXPERIENCES",
+          "href": "https://www.casaargentera.com/experiences/"
+         },
+         {
+          "text": "EVENTS",
+          "href": "https://www.casaargentera.com/events/"
+         },
+         {
+          "text": "WHO WE ARE",
+          "href": "https://www.casaargentera.com/who-we-are/"
+         },
+         {
+          "text": "CONTACT",
+          "href": "https://www.casaargentera.com/contact/"
+         },
+         {
+          "text": "RESERVATIONS",
+          "href": "https://www.casaargentera.com/reservations-2/"
+         },
+         {
+          "text": "Instagram page opens in new window",
+          "href": "https://www.instagram.com/casaargentera"
+         },
+         {
+          "text": "Facebook page opens in new window",
+          "href": "https://www.facebook.com/CasaArgentera/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Close"
+        ],
+        "options": 0,
+        "rect": [
+         30,
+         0,
+         330,
+         844
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "span.menu-line"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.mobile-sticky-header-overlay"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.mobile-sticky-header-overlay"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dt-close-mobile-menu-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "right",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dt-mobile-header"
+        }
+       ],
+       "shot": "360-001-Mobile-menu-icon-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "THE HOUSE",
+          "href": "https://www.casaargentera.com/the-house/"
+         },
+         {
+          "text": "THE PLACE",
+          "href": "https://www.casaargentera.com/the-place/"
+         },
+         {
+          "text": "EXPERIENCES",
+          "href": "https://www.casaargentera.com/experiences/"
+         },
+         {
+          "text": "EVENTS",
+          "href": "https://www.casaargentera.com/events/"
+         },
+         {
+          "text": "WHO WE ARE",
+          "href": "https://www.casaargentera.com/who-we-are/"
+         },
+         {
+          "text": "CONTACT",
+          "href": "https://www.casaargentera.com/contact/"
+         },
+         {
+          "text": "RESERVATIONS",
+          "href": "https://www.casaargentera.com/reservations-2/"
+         },
+         {
+          "text": "Instagram page opens in new window",
+          "href": "https://www.instagram.com/casaargentera"
+         },
+         {
+          "text": "Facebook page opens in new window",
+          "href": "https://www.facebook.com/CasaArgentera/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Close"
+        ],
+        "options": 0,
+        "rect": [
+         30,
+         0,
+         330,
+         844
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.mobile-sticky-header-overlay"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.mobile-sticky-header-overlay"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dt-close-mobile-menu-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "right",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.dt-mobile-header"
+        }
+       ],
+       "shot": "360-002-Mobile-menu-icon-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Close",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#page>div:nth-of-type(2)>div>div:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        317,
+        15,
+        30,
+        30
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 10
+        },
+        "key": {
+         "opened": false,
+         "hides": 10
+        }
+       }
+      },
+      {
+       "name": "THE HOUSE",
+       "key": "the house",
+       "role": "link",
+       "kind": "link",
+       "sel": "#mobile-menu>li:nth-of-type(1)>a",
+       "href": "https://www.casaargentera.com/the-house/",
+       "expanded": null,
+       "rect": [
+        60,
+        45,
+        242,
+        50
+       ],
+       "actions": {}
+      },
+      {
+       "name": "EXPERIENCES",
+       "key": "experiences",
+       "role": "link",
+       "kind": "link",
+       "sel": "#mobile-menu>li:nth-of-type(3)>a",
+       "href": "https://www.casaargentera.com/experiences/",
+       "expanded": null,
+       "rect": [
+        60,
+        146,
+        242,
+        50
+       ],
+       "actions": {}
+      }
+     ]
+    },
+    {
+     "name": "Casa Argentera",
+     "key": "casa argentera",
+     "role": "link",
+     "kind": "link",
+     "sel": "#page>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>a",
+     "href": "https://www.casaargentera.com/",
+     "expanded": null,
+     "rect": [
+      30,
+      0,
+      75,
+      58
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 58,
+     "position": "absolute",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 58,
+     "position": "absolute",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 58,
+     "position": "absolute",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 58,
+     "position": "absolute",
+     "inView": true
+    }
+   ],
+   "states": 2,
+   "truncated": null,
+   "loads": 1,
+   "requests": 36,
+   "maxRequests": 600,
+   "inputsSkipped": 0,
+   "watch": {
+    "status": "ran",
+    "ms": 8010,
+    "samples": 19,
+    "excluded": 0,
+    "regions": []
+   }
+  },
+  "1440": {
+   "root": "#page>div:nth-of-type(1)",
+   "controls": [
+    {
+     "name": "Dansk",
+     "key": "dansk",
+     "role": "link",
+     "kind": "link",
+     "sel": "#page>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div>ul>li:nth-of-type(1)>a",
+     "href": "https://www.casaargentera.com/da/home/",
+     "expanded": null,
+     "rect": [
+      1216,
+      9,
+      41,
+      19
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Català",
+     "key": "català",
+     "role": "link",
+     "kind": "link",
+     "sel": "#page>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div>ul>li:nth-of-type(2)>a",
+     "href": "https://www.casaargentera.com/ca/inici/",
+     "expanded": null,
+     "rect": [
+      1273,
+      9,
+      40,
+      19
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Español",
+     "key": "español",
+     "role": "link",
+     "kind": "link",
+     "sel": "#page>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>div>ul>li:nth-of-type(3)>a",
+     "href": "https://www.casaargentera.com/es/inicio/",
+     "expanded": null,
+     "rect": [
+      1329,
+      9,
+      51,
+      19
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Casa Argentera",
+     "key": "casa argentera",
+     "role": "link",
+     "kind": "link",
+     "sel": "#page>div:nth-of-type(1)>header>div:nth-of-type(1)>a",
+     "href": "https://www.casaargentera.com/",
+     "expanded": null,
+     "rect": [
+      60,
+      36,
+      172,
+      136
+     ],
+     "actions": {}
+    },
+    {
+     "name": "THE HOUSE",
+     "key": "the house",
+     "role": "link",
+     "kind": "link",
+     "sel": "#primary-menu>li:nth-of-type(1)>a",
+     "href": "https://www.casaargentera.com/the-house/",
+     "expanded": null,
+     "rect": [
+      363,
+      91,
+      95,
+      26
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "THE WHOLE HOUSE",
+          "href": "https://www.casaargentera.com/the-whole-house/"
+         },
+         {
+          "text": "THE GARDEN",
+          "href": "https://www.casaargentera.com/the-garden/"
+         },
+         {
+          "text": "THE PENTHOUSE",
+          "href": "https://www.casaargentera.com/the-penthouse/"
+         },
+         {
+          "text": "THE NOBLE FLOOR",
+          "href": "https://www.casaargentera.com/the-noble-floor/"
+         },
+         {
+          "text": "THE GROUND FLOOR",
+          "href": "https://www.casaargentera.com/the-ground-floor/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         363,
+         135,
+         205,
+         185
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.175, 0.885, 0.32, 1.275)",
+         "target": "i.underline"
+        }
+       ],
+       "shot": "1440-001-THE-HOUSE-hover.png"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "THE PLACE",
+     "key": "the place",
+     "role": "link",
+     "kind": "link",
+     "sel": "#primary-menu>li:nth-of-type(2)>a",
+     "href": "https://www.casaargentera.com/the-place/",
+     "expanded": null,
+     "rect": [
+      488,
+      91,
+      81,
+      26
+     ],
+     "actions": {}
+    },
+    {
+     "name": "EXPERIENCES",
+     "key": "experiences",
+     "role": "link",
+     "kind": "link",
+     "sel": "#primary-menu>li:nth-of-type(3)>a",
+     "href": "https://www.casaargentera.com/experiences/",
+     "expanded": null,
+     "rect": [
+      599,
+      91,
+      111,
+      26
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "NATURE / SPORT",
+          "href": "https://www.casaargentera.com/nature-sport/"
+         },
+         {
+          "text": "CULTURE",
+          "href": "https://www.casaargentera.com/culture/"
+         },
+         {
+          "text": "BEACH AND MORE",
+          "href": "https://www.casaargentera.com/beach-and-more/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         584,
+         135,
+         205,
+         119
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.175, 0.885, 0.32, 1.275)",
+         "target": "i.underline"
+        }
+       ],
+       "shot": "1440-002-EXPERIENCES-hover.png"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "EVENTS",
+     "key": "events",
+     "role": "link",
+     "kind": "link",
+     "sel": "#primary-menu>li:nth-of-type(4)>a",
+     "href": "https://www.casaargentera.com/events/",
+     "expanded": null,
+     "rect": [
+      740,
+      91,
+      57,
+      26
+     ],
+     "actions": {}
+    },
+    {
+     "name": "WHO WE ARE",
+     "key": "who we are",
+     "role": "link",
+     "kind": "link",
+     "sel": "#primary-menu>li:nth-of-type(5)>a",
+     "href": "https://www.casaargentera.com/who-we-are/",
+     "expanded": null,
+     "rect": [
+      826,
+      91,
+      101,
+      26
+     ],
+     "actions": {}
+    },
+    {
+     "name": "CONTACT",
+     "key": "contact",
+     "role": "link",
+     "kind": "link",
+     "sel": "#primary-menu>li:nth-of-type(6)>a",
+     "href": "https://www.casaargentera.com/contact/",
+     "expanded": null,
+     "rect": [
+      957,
+      91,
+      68,
+      26
+     ],
+     "actions": {}
+    },
+    {
+     "name": "RESERVATIONS",
+     "key": "reservations",
+     "role": "link",
+     "kind": "link",
+     "sel": "#primary-menu>li:nth-of-type(7)>a",
+     "href": "https://www.casaargentera.com/reservations-2/",
+     "expanded": null,
+     "rect": [
+      1056,
+      91,
+      111,
+      26
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Instagram page opens in new window",
+     "key": "instagram page opens in new window",
+     "role": "link",
+     "kind": "link",
+     "sel": "#page>div:nth-of-type(1)>header>div:nth-of-type(2)>div>a:nth-of-type(1)",
+     "href": "https://www.instagram.com/casaargentera",
+     "expanded": null,
+     "rect": [
+      1328,
+      91,
+      24,
+      24
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Facebook page opens in new window",
+     "key": "facebook page opens in new window",
+     "role": "link",
+     "kind": "link",
+     "sel": "#page>div:nth-of-type(1)>header>div:nth-of-type(2)>div>a:nth-of-type(2)",
+     "href": "https://www.facebook.com/CasaArgentera/",
+     "expanded": null,
+     "rect": [
+      1356,
+      91,
+      24,
+      24
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 172,
+     "position": "absolute",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 172,
+     "position": "absolute",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 172,
+     "position": "absolute",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 172,
+     "position": "absolute",
+     "inView": true
+    }
+   ],
+   "states": 2,
+   "truncated": null,
+   "loads": 1,
+   "requests": 37,
+   "maxRequests": 600,
+   "inputsSkipped": 0,
+   "watch": {
+    "status": "not-triggered"
+   }
+  }
+ },
+ "probe": null
+}

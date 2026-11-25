@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "r2-iter1",
+          "at": "2026-11-24T10:50:30.816Z",
+          "verdict": "pass",
+          "kind": "first"
+        }
+      ],
+      "decisions": []
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-24T12-47-57-691Z",
+          "at": "2026-11-24T12:49:16.644Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-24T12-50-21-881Z",
+          "at": "2026-11-24T12:51:35.332Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T13-18-54-438Z",
+          "at": "2026-11-24T13:20:08.882Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T13-20-41-541Z",
+          "at": "2026-11-24T13:21:55.001Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T13-41-42-842Z",
+          "at": "2026-11-24T13:42:58.408Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-24T16-04-14-883Z",
+          "at": "2026-11-24T16:05:04.674Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-24T19-51-31-320Z",
+          "at": "2026-11-24T19:53:08.056Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-24T20-13-19-897Z",
+          "at": "2026-11-24T20:14:31.629Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-24T20-18-13-904Z",
+          "at": "2026-11-24T20:21:00.022Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-24T20-45-55-637Z",
+          "at": "2026-11-24T20:46:57.289Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-24T20-47-43-811Z",
+          "at": "2026-11-24T20:49:00.920Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-24T23-52-00-847Z",
+          "at": "2026-11-24T23:54:09.975Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  },
+  "history": [
+    {
+      "stages": {
+        "prototype": {
+          "rounds": [
+            {
+              "label": "iter1",
+              "at": "2026-11-24T10:20:44.993Z",
+              "verdict": "fail",
+              "kind": "first"
+            },
+            {
+              "label": "iter2",
+              "at": "2026-11-24T10:26:16.239Z",
+              "verdict": "fail",
+              "kind": "fix"
+            },
+            {
+              "label": "iter3",
+              "at": "2026-11-24T10:40:14.995Z",
+              "verdict": "pass",
+              "kind": "fix"
+            },
+            {
+              "label": "iter4",
+              "at": "2026-11-24T10:47:12.298Z",
+              "verdict": "fail",
+              "kind": "fix"
+            },
+            {
+              "label": "iter5",
+              "at": "2026-11-24T10:48:35.452Z",
+              "verdict": "fail",
+              "kind": "fix"
+            }
+          ],
+          "decisions": [
+            {
+              "decision": "extend",
+              "reason": "iter2 was spent on a missing precondition, not fidelity: stardust/replica/gates/index-1440/header-contract-iter2.txt (NOT RECORDED — chrome-explore not yet run) while pixel 0.32%, Δh 0, content-diff 0/0 passed in that round. iter4 is the interaction-parity regression check (rAF slider ticker advanced mid-capture, reverted to the held 2500 ms timer); one confirmation round needed.",
+              "at": "2026-11-24T10:47:50.529Z",
+              "counted": 4
+            }
+          ]
+        }
+      },
+      "decision": {
+        "decision": "re-prototype",
+        "reason": "Prototype re-cut with the interaction layer (canon.js: phantom header, drawer, WPBakery fadeIn, slider autoplay, carousel). Static gate passed at iter3 (0.33%); iter4/iter5 failed only in the hero rows because the autoplay driver escaped the capture's timer hold (rAF, then a timeout chain — pixel-iter4.json / pixel-iter5.json). Driver replaced by a held setInterval; the re-cut prototype is gated from a fresh first round.",
+        "at": "2026-11-24T10:49:45.278Z",
+        "counted": 5,
+        "stage": "prototype"
+      }
+    }
+  ]
+}

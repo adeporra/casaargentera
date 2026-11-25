@@ -1,0 +1,126 @@
+{
+  "a": "stardust/replica/gates/all-360/es-reservas/origin.png",
+  "b": "stardust/replica/gates/all-360/es-reservas/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 2996,
+    "mode": "overlap"
+  },
+  "heightDelta": 35,
+  "differingPixels": 50696,
+  "pct": 4.7,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/es-reservas/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 5.43,
+  "textBoxes": 55,
+  "textPixels": 190247,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.9
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 20.6
+    },
+    {
+      "y0": 2500,
+      "y1": 2996,
+      "pct": 4.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.56,
+    "differingPixels": 17074,
+    "compared": {
+      "width": 360,
+      "height": 3031,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1937,
+        "shift": -35,
+        "cumulative": -35
+      }
+    ],
+    "maxOffset": 35,
+    "totalShift": 35,
+    "insertedRows": 0,
+    "deletedRows": 35,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.9,
+        "unaligned": 0.9
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 7.6,
+        "unaligned": 1.7
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.3,
+        "unaligned": 20.6
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": null
+      },
+      {
+        "y0": 3000,
+        "y1": 3031,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/es-reservas/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 30,
+    "totalShift": 35,
+    "pass": false
+  },
+  "reason": "offsets: 1 step(s), 35px total — −35px at y=1937 (bound 30px)"
+}

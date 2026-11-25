@@ -1,0 +1,2556 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-24T23:59:04.060Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/the-garden/",
+  "at": "2026-11-24T23:59:03.992Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4650,
+  "root": null,
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-navigation > a.dt-mobile-menu-icon",
+    "x": 306,
+    "y": 17,
+    "w": 24,
+    "h": 24,
+    "text": "mobile menu icon",
+    "href": "/the-garden/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-branding > a",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-branding > a > img.mobile-logo.preload-me",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "file": "Logo-75-px"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 312,
+    "w": 300,
+    "h": 220,
+    "level": 2,
+    "text": "enjoy the mediterranean weather to it’s fullest"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 542,
+    "w": 300,
+    "h": 275,
+    "text": "You have direct acces to the garden from all floors. The garden has various area"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 849,
+    "w": 300,
+    "h": 169,
+    "text": "view of the pool heated and lighted in casa argentera",
+    "file": "Piscina-CasaArgentera-1-768x432"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 1064,
+    "w": 300,
+    "h": 169,
+    "text": "chill out dressed for party",
+    "file": "20190710_193711-P3D-e1587804194703-768x4"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 1279,
+    "w": 300,
+    "h": 169,
+    "text": "garden with a view",
+    "file": "PICT0023P3D.JPG-768x433"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 1494,
+    "w": 300,
+    "h": 169,
+    "text": "barbecue corner in the garden",
+    "file": "P1040374enhancedP3D-e1587754947853-768x4"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 1708,
+    "w": 300,
+    "h": 173,
+    "text": "lighted pool at night, summer evenings in casa argentera",
+    "file": "Pool-e1587755068834-768x442"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h3",
+    "x": 30,
+    "y": 1927,
+    "w": 300,
+    "h": 70,
+    "level": 3,
+    "text": "in the garden you will find"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-54274ec3b89e78218e3a22833fb6ad9f > h5.dt-text-title",
+    "x": 90,
+    "y": 2029,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "swimming pool"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-54274ec3b89e78218e3a22833fb6ad9f > div.dt-text-desc",
+    "x": 90,
+    "y": 2056,
+    "w": 240,
+    "h": 75,
+    "text": "Heated from April to mid October Pool towels provided Sundeck with loungechairs"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-b3c38a981b6fae262c36788e9dffac80 > h5.dt-text-title",
+    "x": 90,
+    "y": 2154,
+    "w": 240,
+    "h": 54,
+    "level": 5,
+    "text": "bbq corner & paella equipment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-b3c38a981b6fae262c36788e9dffac80 > div.dt-text-desc",
+    "x": 90,
+    "y": 2211,
+    "w": 240,
+    "h": 25,
+    "text": "Who is the chef?"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-91049bd8447887d269c1f9086b561d47 > h5.dt-text-title",
+    "x": 90,
+    "y": 2260,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "chill out corner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-91049bd8447887d269c1f9086b561d47 > div.dt-text-desc",
+    "x": 90,
+    "y": 2290,
+    "w": 240,
+    "h": 50,
+    "text": "Sofa for small talk... with a chilled glass"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-e955eaed14243fdca01d05a61021378b > h5.dt-text-title",
+    "x": 90,
+    "y": 2360,
+    "w": 240,
+    "h": 54,
+    "level": 5,
+    "text": "swing in the linden tree / slide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-e955eaed14243fdca01d05a61021378b > div.dt-text-desc",
+    "x": 90,
+    "y": 2414,
+    "w": 240,
+    "h": 50,
+    "text": "for the children or childish to play..."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-a9f31656c6bb0370a8883d1b773b07b0 > h5.dt-text-title",
+    "x": 90,
+    "y": 2487,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "big dining table"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-a9f31656c6bb0370a8883d1b773b07b0 > div.dt-text-desc",
+    "x": 90,
+    "y": 2514,
+    "w": 240,
+    "h": 25,
+    "text": "under the shade of a linden tree"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 2579,
+    "w": 300,
+    "h": 275,
+    "level": 2,
+    "text": "for additional information and reservations?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 2864,
+    "w": 300,
+    "h": 50,
+    "text": "Do not hesitate to contact us. We will be happy to help you!"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 30,
+    "y": 2917,
+    "w": 300,
+    "h": 51,
+    "text": "Your Name (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 30,
+    "y": 3002,
+    "w": 300,
+    "h": 51,
+    "text": "Your Email (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 30,
+    "y": 3087,
+    "w": 300,
+    "h": 51,
+    "text": "Your Number (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 30,
+    "y": 3172,
+    "w": 300,
+    "h": 51,
+    "text": "Subject"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#wpcf7-f15714-p15384-o1 > form.wpcf7-form.init > p",
+    "x": 30,
+    "y": 3254,
+    "w": 300,
+    "h": 50,
+    "text": "Please, let us know your preferences regarding check in and check out dates."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 30,
+    "y": 3317,
+    "w": 300,
+    "h": 43,
+    "text": "Your Message"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "span.wpcf7-list-item > label > span.wpcf7-list-item-label",
+    "x": 44,
+    "y": 3614,
+    "w": 256,
+    "h": 43,
+    "text": "I have read and accept the"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "label > span.wpcf7-list-item-label > a",
+    "x": 44,
+    "y": 3614,
+    "w": 256,
+    "h": 43,
+    "text": "privacy policy",
+    "href": "/wp/privacy-policy/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > input.wpcf7-form-control.wpcf7-submit",
+    "x": 30,
+    "y": 3661,
+    "w": 88,
+    "h": 39,
+    "text": "send"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-4 > div.widget-title",
+    "x": 30,
+    "y": 3830,
+    "w": 300,
+    "h": 27,
+    "text": "CONTACT US"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-4 > div.textwidget > p",
+    "x": 30,
+    "y": 3872,
+    "w": 300,
+    "h": 125,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 3975,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#search-4 > div.widget-title",
+    "x": 30,
+    "y": 4027,
+    "w": 300,
+    "h": 27,
+    "text": "SEARCH"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#search-4 > form.searchform > a.submit",
+    "x": 299,
+    "y": 4069,
+    "w": 20,
+    "h": 40,
+    "text": "",
+    "href": "/the-garden/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#presscore-contact-info-widget-3 > div.widget-title",
+    "x": 30,
+    "y": 4139,
+    "w": 300,
+    "h": 27,
+    "text": "FOLLOW US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.facebook",
+    "x": 32,
+    "y": 4183,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.instagram",
+    "x": 62,
+    "y": 4183,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-6 > div.widget-title",
+    "x": 30,
+    "y": 4241,
+    "w": 300,
+    "h": 27,
+    "text": "OTHER RENTALS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-6 > div.textwidget > p",
+    "x": 30,
+    "y": 4283,
+    "w": 300,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTA C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 4336,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-3 > div.widget-title",
+    "x": 30,
+    "y": 4388,
+    "w": 300,
+    "h": 27,
+    "text": "LEGAL INFO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-3 > div.textwidget > p",
+    "x": 30,
+    "y": 4430,
+    "w": 300,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 4433,
+    "w": 184,
+    "h": 18,
+    "text": "privacy policy and cookies",
+    "href": "/privacy-policy-and-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 4510,
+    "w": 300,
+    "h": 25,
+    "text": "english",
+    "href": "/the-garden/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 4535,
+    "w": 300,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/the-garden/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 4560,
+    "w": 300,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/el-jardi/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 4585,
+    "w": 300,
+    "h": 25,
+    "text": "español",
+    "href": "/es/el-jardin/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 28,
+    "textNodes": 65,
+    "controls": 28,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#page",
+     "path": "div.wpb_wrapper > div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+     "text": "enjoy the mediterranean weather to it’s fullest",
+     "cutMin": 31,
+     "cutMax": 31
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/the-garden",
+  "at": "2026-11-24T23:58:54.111Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4633,
+  "root": "main#main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-branding > a",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "file": "media_1508d370a8febea63d6a0a1c69adcb7155"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-navigation > a.dt-mobile-menu-icon",
+    "x": 308,
+    "y": 21,
+    "w": 22,
+    "h": 16,
+    "text": "mobile menu icon",
+    "href": "/the-garden"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slide-media > picture > img",
+    "x": 0,
+    "y": 0,
+    "w": 360,
+    "h": 252,
+    "text": "garden with a view",
+    "file": "media_1588b4c04b30a8616f9aeca161cf912e7e"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slide-media > picture > img",
+    "x": 0,
+    "y": 0,
+    "w": 360,
+    "h": 252,
+    "text": "",
+    "file": "media_1524fce92975373f33059c0e7858901ad0"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.start-2 > div.hero-slider-bullets > button.hero-bullet",
+    "x": 165,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.start-2 > div.hero-slider-bullets > button.hero-bullet.selected",
+    "x": 183,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > h1#enjoy-the-mediterranean-weather-to-its-fullest",
+    "x": 30,
+    "y": 312,
+    "w": 300,
+    "h": 220,
+    "level": 1,
+    "text": "enjoy the mediterranean weather to it’s fullest"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 542,
+    "w": 300,
+    "h": 275,
+    "text": "You have direct acces to the garden from all floors. The garden has various area"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 849,
+    "w": 300,
+    "h": 169,
+    "text": "view of the pool heated and lighted in casa argentera",
+    "file": "media_1472e61c39108b5ff86093606a5420b504"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 1064,
+    "w": 300,
+    "h": 168,
+    "text": "chill out dressed for party",
+    "file": "media_1893d9e355bc029cdcec4bcd1d64b708dc"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 1278,
+    "w": 300,
+    "h": 169,
+    "text": "garden with a view",
+    "file": "media_1085236f2a788f42aed619bd3e1104cf1e"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 1493,
+    "w": 300,
+    "h": 168,
+    "text": "barbecue corner in the garden",
+    "file": "media_1ea09e714938a0dee4ae2fc7e3d26f5975"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 1708,
+    "w": 300,
+    "h": 172,
+    "text": "lighted pool at night, summer evenings in casa argentera",
+    "file": "media_1137e6ac03942697bd053db1e3adba0883"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > h3#in-the-garden-you-will-find",
+    "x": 30,
+    "y": 1926,
+    "w": 300,
+    "h": 70,
+    "level": 3,
+    "text": "in the garden you will find"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#swimming-pool",
+    "x": 90,
+    "y": 2028,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "swimming pool"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 2055,
+    "w": 240,
+    "h": 75,
+    "text": "Heated from April to mid October Pool towels provided Sundeck with loungechairs"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#bbq-corner--paella-equipment",
+    "x": 90,
+    "y": 2150,
+    "w": 240,
+    "h": 54,
+    "level": 5,
+    "text": "bbq corner & paella equipment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 2204,
+    "w": 240,
+    "h": 25,
+    "text": "Who is the chef?"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#chill-out-corner",
+    "x": 90,
+    "y": 2249,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "chill out corner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 2276,
+    "w": 240,
+    "h": 50,
+    "text": "Sofa for small talk... with a chilled glass"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#swing-in-the-linden-tree--slide",
+    "x": 90,
+    "y": 2346,
+    "w": 240,
+    "h": 54,
+    "level": 5,
+    "text": "swing in the linden tree / slide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 2400,
+    "w": 240,
+    "h": 50,
+    "text": "for the children or childish to play..."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#big-dining-table",
+    "x": 90,
+    "y": 2470,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "big dining table"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 2497,
+    "w": 240,
+    "h": 25,
+    "text": "under the shade of a linden tree"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > h2#for-additional-information-and-reservations",
+    "x": 30,
+    "y": 2562,
+    "w": 300,
+    "h": 275,
+    "level": 2,
+    "text": "for additional information and reservations?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 2847,
+    "w": 300,
+    "h": 50,
+    "text": "Do not hesitate to contact us. We will be happy to help you!"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 30,
+    "y": 2897,
+    "w": 300,
+    "h": 25,
+    "text": "Your Name (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 30,
+    "y": 2982,
+    "w": 300,
+    "h": 25,
+    "text": "Your Email (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 30,
+    "y": 3067,
+    "w": 300,
+    "h": 25,
+    "text": "Your Number (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 30,
+    "y": 3152,
+    "w": 300,
+    "h": 25,
+    "text": "Subject"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form.contact-form-form > div.contact-form-line.contact-form-note > p",
+    "x": 30,
+    "y": 3237,
+    "w": 300,
+    "h": 50,
+    "text": "Please, let us know your preferences regarding check in and check out dates."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 30,
+    "y": 3297,
+    "w": 300,
+    "h": 25,
+    "text": "Your Message"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "label > span.contact-form-check-label > p",
+    "x": 44,
+    "y": 3597,
+    "w": 256,
+    "h": 43,
+    "text": "I have read and accept the"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.contact-form-check-label > p > a",
+    "x": 44,
+    "y": 3597,
+    "w": 256,
+    "h": 43,
+    "text": "privacy policy",
+    "href": "/wp/privacy-policy/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form.contact-form-form > div.contact-form-line > input.contact-form-submit",
+    "x": 30,
+    "y": 3644,
+    "w": 88,
+    "h": 39,
+    "text": "send"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 3813,
+    "w": 300,
+    "h": 27,
+    "text": "CONTACT US"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 3855,
+    "w": 300,
+    "h": 125,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 3958,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 4010,
+    "w": 300,
+    "h": 27,
+    "text": "SEARCH"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > form.searchform > button.submit",
+    "x": 298,
+    "y": 4052,
+    "w": 20,
+    "h": 40,
+    "text": "search"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 4122,
+    "w": 300,
+    "h": 27,
+    "text": "FOLLOW US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.facebook",
+    "x": 32,
+    "y": 4166,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.instagram",
+    "x": 62,
+    "y": 4166,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 4224,
+    "w": 300,
+    "h": 27,
+    "text": "OTHER RENTALS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 4266,
+    "w": 300,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTA C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 4319,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 4371,
+    "w": 300,
+    "h": 27,
+    "text": "LEGAL INFO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 4413,
+    "w": 300,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 4416,
+    "w": 184,
+    "h": 18,
+    "text": "privacy policy and cookies",
+    "href": "/privacy-policy-and-cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4493,
+    "w": 300,
+    "h": 25,
+    "text": "english",
+    "href": "/the-garden"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4518,
+    "w": 300,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/the-garden"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4543,
+    "w": 300,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/el-jardi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4568,
+    "w": 300,
+    "h": 25,
+    "text": "español",
+    "href": "/es/el-jardin"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 0,
+    "textNodes": 51,
+    "controls": 16,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "main#main",
+     "path": "main#main > div.section.image-grid-container > div.default-content-wrapper > h1#enjoy-the-mediterranean-weather-to-its-fullest",
+     "text": "enjoy the mediterranean weather to it’s fullest",
+     "cutMin": 31,
+     "cutMax": 31
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 31,
+     "path": "main#main > div.section.image-grid-container > div.default-content-wrapper > h1#enjoy-the-mediterranean-weather-to-its-fullest",
+     "text": "enjoy the mediterranean weather to it’s fullest",
+     "clipper": "main#main",
+     "rect": {
+      "l": 30,
+      "t": 309,
+      "r": 261,
+      "b": 370,
+      "w": 231,
+      "h": 61
+     },
+     "clip": {
+      "l": 0,
+      "t": 0,
+      "r": 360,
+      "b": 3753,
+      "w": 360,
+      "h": 3753
+     },
+     "lines": 4
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 1,
+   "heading": "enjoy the mediterranean weather to it’s fullest",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 5
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 5,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "in the garden you will find",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "for additional information and reservations?",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 8,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 8,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×2 \"slide 1\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 2,
+   "text": "slide 1"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 2,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 30,
+    "y": 309,
+    "w": 231,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 364,
+    "w": 361,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 419,
+    "w": 263,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 474,
+    "w": 224,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 545,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 570,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 595,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 620,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 645,
+    "w": 123,
+    "h": 18
+   },
+   {
+    "x": 153,
+    "y": 645,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 274,
+    "y": 645,
+    "w": 39,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 670,
+    "w": 219,
+    "h": 18
+   },
+   {
+    "x": 249,
+    "y": 670,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 695,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 74,
+    "y": 695,
+    "w": 189,
+    "h": 18
+   },
+   {
+    "x": 263,
+    "y": 695,
+    "w": 33,
+    "h": 18
+   },
+   {
+    "x": 297,
+    "y": 695,
+    "w": 31,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 720,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 745,
+    "w": 107,
+    "h": 18
+   },
+   {
+    "x": 137,
+    "y": 745,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 770,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 795,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1926,
+    "w": 262,
+    "h": 37
+   },
+   {
+    "x": 30,
+    "y": 1961,
+    "w": 113,
+    "h": 37
+   },
+   {
+    "x": 90,
+    "y": 2032,
+    "w": 154,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 2059,
+    "w": 236,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2084,
+    "w": 146,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2109,
+    "w": 191,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2157,
+    "w": 207,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 2184,
+    "w": 107,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 2214,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2263,
+    "w": 173,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 2293,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2318,
+    "w": 35,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2363,
+    "w": 197,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 2390,
+    "w": 110,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 2417,
+    "w": 201,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2442,
+    "w": 37,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2490,
+    "w": 161,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 2517,
+    "w": 225,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2576,
+    "w": 81,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2631,
+    "w": 246,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2686,
+    "w": 290,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2741,
+    "w": 96,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2796,
+    "w": 322,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2867,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2892,
+    "w": 130,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2917,
+    "w": 151,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3002,
+    "w": 148,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3087,
+    "w": 168,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3172,
+    "w": 53,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3257,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3282,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3317,
+    "w": 97,
+    "h": 18
+   },
+   {
+    "x": 61,
+    "y": 3614,
+    "w": 189,
+    "h": 18
+   },
+   {
+    "x": 250,
+    "y": 3614,
+    "w": 50,
+    "h": 18
+   },
+   {
+    "x": 44,
+    "y": 3639,
+    "w": 41,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3833,
+    "w": 109,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3875,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3900,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3925,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3950,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3975,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4030,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4142,
+    "w": 105,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4244,
+    "w": 143,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4286,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4311,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4336,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4391,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4433,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4458,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4514,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4539,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4564,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4589,
+    "w": 56,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 30,
+    "y": 309,
+    "w": 231,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 364,
+    "w": 361,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 419,
+    "w": 263,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 474,
+    "w": 224,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 545,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 570,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 595,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 620,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 645,
+    "w": 126,
+    "h": 18
+   },
+   {
+    "x": 156,
+    "y": 645,
+    "w": 114,
+    "h": 18
+   },
+   {
+    "x": 270,
+    "y": 645,
+    "w": 43,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 670,
+    "w": 219,
+    "h": 18
+   },
+   {
+    "x": 249,
+    "y": 670,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 695,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 74,
+    "y": 695,
+    "w": 189,
+    "h": 18
+   },
+   {
+    "x": 263,
+    "y": 695,
+    "w": 33,
+    "h": 18
+   },
+   {
+    "x": 297,
+    "y": 695,
+    "w": 31,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 720,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 745,
+    "w": 107,
+    "h": 18
+   },
+   {
+    "x": 137,
+    "y": 745,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 770,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 795,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1925,
+    "w": 262,
+    "h": 37
+   },
+   {
+    "x": 30,
+    "y": 1960,
+    "w": 113,
+    "h": 37
+   },
+   {
+    "x": 90,
+    "y": 2031,
+    "w": 154,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 2058,
+    "w": 236,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2083,
+    "w": 146,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2108,
+    "w": 191,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2153,
+    "w": 207,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 2180,
+    "w": 107,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 2207,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2252,
+    "w": 173,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 2279,
+    "w": 229,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2304,
+    "w": 35,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2349,
+    "w": 197,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 2376,
+    "w": 110,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 2403,
+    "w": 201,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2428,
+    "w": 37,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 2473,
+    "w": 161,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 2500,
+    "w": 225,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2559,
+    "w": 81,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2614,
+    "w": 246,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2669,
+    "w": 290,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2724,
+    "w": 96,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2779,
+    "w": 322,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2850,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2875,
+    "w": 130,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2900,
+    "w": 151,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2985,
+    "w": 148,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3070,
+    "w": 168,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3155,
+    "w": 53,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3240,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3265,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3300,
+    "w": 97,
+    "h": 18
+   },
+   {
+    "x": 61,
+    "y": 3597,
+    "w": 189,
+    "h": 18
+   },
+   {
+    "x": 250,
+    "y": 3597,
+    "w": 50,
+    "h": 18
+   },
+   {
+    "x": 44,
+    "y": 3622,
+    "w": 41,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3816,
+    "w": 109,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3858,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3883,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3908,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3933,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3958,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4013,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4125,
+    "w": 105,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4227,
+    "w": 143,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4269,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4294,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4319,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4374,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4416,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4441,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4497,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4522,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4547,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4572,
+    "w": 56,
+    "h": 18
+   }
+  ]
+ }
+}

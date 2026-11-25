@@ -1,0 +1,19 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://www.casaargentera.com/the-garden/
+  shell     1250px  fixed     #main > div.wf-wrap  (tier 1, holds 100% of the text)
+  modules  7 sections: capped 1070 ×2, 595 ×1, 397 ×1, 301 ×1 · full-bleed ×2
+  contentMaxWidth 1250px (shell) · shellMaxWidth 1250px · root #main
+build  http://localhost:8792/the-garden-proposed.html
+  shell     1250px  max-width #main > div.wf-wrap  (tier 1, holds 100% of the text)
+  modules  7 sections: capped 1070 ×2, 595 ×1, 397 ×1, 301 ×1 · full-bleed ×2
+  contentMaxWidth 1250px (shell) · shellMaxWidth 1250px · root #main
+rows
+  ✓ wrapper cap: live 1250px = build 1250px (±20)
+  ✓ module 1/7: full-bleed on both
+  ✓ module 2/7: 595px = 595px
+  ✓ module 3/7: 397px = 397px
+  ✓ module 4/7: full-bleed on both
+  ✓ module 5/7: 1070px = 1070px
+  ✓ module 6/7: 1070px = 1070px
+  ✓ module 7/7: 301px = 301px
+cap-probe: PASS at 2560 — 0 of 8 rows failed (evidence stardust/replica/gates/the-garden-2560/cap-iter.json)

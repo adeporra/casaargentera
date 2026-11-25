@@ -1,0 +1,137 @@
+/* media-feature — lifted from canon.css (.vc-row, .vc-col, .vc-col--1-2) and culture.css
+   (.culture-feature, .text-column, .space-56 / .space-40, img.alignnone). Columns: 30px
+   gutters each side (60px apart), one column at 768px and below. */
+
+/* a page without an intro heading (R-10 pages) promotes its first feature heading, a source h2,
+   to the h1 (R-07): painted as the canon h2 */
+main .media-feature .media-feature-text h1 {
+  font: 200 50px/55px var(--ca-font);
+}
+
+main .media-feature .media-feature-text h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* scoped override (foundation request queued): the page's first heading is its h1 (R-07),
+   painted as the canon h2 (styles.css has no h1 type rule) */
+main .media-feature-container .default-content-wrapper h1 {
+  margin-bottom: var(--media-feature-intro, 10px);
+  font: 200 50px/55px var(--ca-font);
+}
+
+/* intro-h3: the promoted intro heading was a source h3 (the house pages) — painted as the source
+   h3 (200 30px/35px, 10px below; R-07 "painted as the source heading") */
+main .media-feature-container:has(.media-feature.intro-h3) .default-content-wrapper h1 {
+  margin-bottom: var(--media-feature-intro, 10px);
+  font: 200 30px/35px var(--ca-font);
+}
+
+.media-feature {
+  --media-feature-gap: 40px;
+  --media-feature-top: 56px;
+
+  margin-top: var(--media-feature-top);
+}
+
+.media-feature .media-feature-row {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 0 -30px;
+}
+
+.media-feature .media-feature-row + .media-feature-row {
+  margin-top: var(--media-feature-gap);
+}
+
+/* head-<n> (listing teasers): each teaser row carries the spacer under it (the source column
+   holds its trailing vc_empty_space): gap-<n> under every row, end-<n> under the last */
+.media-feature[class*=' head-'] .media-feature-row {
+  padding-bottom: var(--media-feature-gap);
+}
+
+.media-feature[class*=' head-'] .media-feature-row + .media-feature-row {
+  margin-top: 0;
+}
+
+.media-feature[class*=' head-'] .media-feature-row:last-child {
+  padding-bottom: var(--media-feature-end, 0);
+}
+
+.media-feature .media-feature-col {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 1px;
+  padding: 0 30px;
+}
+
+@media (width > 768px) {
+  .media-feature .media-feature-cols-2 > .media-feature-col {
+    width: 50%;
+  }
+
+  .media-feature .media-feature-cols-3 > .media-feature-col {
+    width: 33.3333%;
+  }
+
+  .media-feature .media-feature-cols-4 > .media-feature-col {
+    width: 25%;
+  }
+}
+
+/* scoped override (foundation request queued): a source h3 followed by text keeps the theme's
+   10px bottom margin (styles.css sets 0; the last-child rule below still zeroes a closing h3) */
+.media-feature .media-feature-text h3 {
+  margin-bottom: 10px;
+}
+
+/* head-<n> (listing teasers): the heading closes its WPBakery text column (no margin) and a
+   spacer of <n>px separates it from the image below */
+.media-feature[class*=' head-'] .media-feature-col :is(h1, h2, h3, h4) {
+  margin-bottom: var(--media-feature-head);
+}
+
+/* head-<n> (listing teasers): an image paragraph closes its own WPBakery text column, so a
+   second image column under the same heading (da-oplevelser "Kultur") follows it without the
+   paragraph margin (the picture keeps its own 10px) */
+.media-feature[class*=' head-'] .media-feature-col p:has(picture) {
+  margin-bottom: 0;
+}
+
+/* WPBakery text column: the last child carries no bottom margin (the image keeps its own: the
+   delivery pipeline unwraps an image-only paragraph, so the picture can be the last child) */
+.media-feature .media-feature-col > :last-child:not(picture) {
+  margin-bottom: 0;
+}
+
+/* inline image inside a paragraph (lifted: .alignnone { float: none; margin: 0 auto 10px });
+   the image sits on the paragraph's 25px line box, so the row keeps the descender gap. The
+   delivered <picture> is the inline box (its line box shrunk to the image, margin outside), so
+   it measures exactly the image; overflow puts its baseline at the bottom margin edge, where
+   the source's image margin box sits */
+.media-feature .media-feature-media picture {
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto 10px;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+.media-feature .media-feature-media img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: baseline;
+}
+
+.media-feature .media-feature-media :not(picture) > img {
+  margin: 0 auto 10px;
+}
+
+/* head-<n> (listing teasers): the teaser image keeps its own width (1024 on the source), so the
+   delivered picture shrinks to it instead of spanning the column */
+.media-feature[class*=' head-'] .media-feature-media picture {
+  width: auto;
+  max-width: 100%;
+}

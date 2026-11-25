@@ -1,0 +1,138 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-24T20:15:33.496Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.casaargentera.com",
+    "eds": "https://localhost:3010",
+    "edsHostOverride": "https://localhost:3010",
+    "only": [
+      "reservations-2"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 0,
+    "error": 1,
+    "probeErrors": 1,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "unitsNotDeclared": 0,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 0,
+    "failOffsets": 0,
+    "offsetsWithinTolerance": 0,
+    "referenceUnstable": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "reservations-2",
+      "path": "/reservations-2",
+      "template": "reservations-2",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "none",
+      "pct": null,
+      "textPct": null,
+      "heightDelta": null,
+      "originH": null,
+      "edsH": null,
+      "alignedPct": null,
+      "alignedUsed": false,
+      "totalShift": null,
+      "steps": [],
+      "offsetBound": null,
+      "offsetTolerance": null,
+      "offsetJudge": null,
+      "offsetsWithinTolerance": false,
+      "pixelPass": false,
+      "heightPass": false,
+      "clipped": null,
+      "clipPass": null,
+      "clipAllowance": 0,
+      "contentPass": null,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "capture",
+        "probe"
+      ],
+      "unwaived": [
+        "capture",
+        "probe"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [
+        {
+          "probe": "content",
+          "error": "content-presence exit 1: content-presence error: page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://localhost:3010/reservations-2"
+        },
+        {
+          "probe": "clip",
+          "error": "clip-probe exit 1: clip-probe error: page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://localhost:3010/reservations-2"
+        },
+        {
+          "probe": "units",
+          "error": "unit-geometry exit 1: unit-geometry error: page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://localhost:3010/reservations-2"
+        }
+      ],
+      "reasons": [
+        "pixel error: missing capture",
+        "probe-error:content: content-presence exit 1: content-presence error: page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://localhost:3010/reservations-2",
+        "probe-error:clip: clip-probe exit 1: clip-probe error: page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://localhost:3010/reservations-2",
+        "probe-error:units: unit-geometry exit 1: unit-geometry error: page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://localhost:3010/reservations-2"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": null,
+      "unitsDeclared": 3,
+      "unitsRecorded": null,
+      "units": null,
+      "unitsRequired": true,
+      "unitsError": "unit-geometry exit 1: unit-geometry error: page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://localhost:3010/reservations-2",
+      "browser": null,
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/reservations-2-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": "missing capture"
+    }
+  ]
+}

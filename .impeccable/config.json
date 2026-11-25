@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "montserrat",
+        "createdAt": "2026-11-24T10:55:12.868Z",
+        "reason": "replica (same-design migration): Montserrat is the source site's own captured face (stardust/current/assets/fonts, DESIGN.json); changing it would be an unregistered design delta"
+      }
+    ]
+  }
+}

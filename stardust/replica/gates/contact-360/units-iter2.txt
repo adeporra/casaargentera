@@ -1,0 +1,56 @@
+origin: cached contact-360-units (2026-11-24T11:28:36.922Z)
+unit-geometry @ 360px, tol 4px — https://www.casaargentera.com/contact/ vs http://localhost:8793/contact-proposed.html
+unit 1 of contact-direction (required) #content .icon-with-text-shortcode=#content .contact-directions .icon-text: origin 30,1732 300×230 vs served 30,1732 300×230 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "by plane" | 60,0 240×30 | 60,0 240×30 | 0 | 0 | 0 | 0 | ✓ |
+| text "reus airport is only 35 minutes away" | 60,30 240×200 | 60,30 240×200 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of contact-direction (required) #content .icon-with-text-shortcode=#content .contact-directions .icon-text: origin 30,1994 300×530 vs served 30,1994 300×530 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "by car" | 60,0 240×30 | 60,0 240×30 | 0 | 0 | 0 | 0 | ✓ |
+| text "- from barcelona, take either the mo" | 60,30 240×500 | 60,30 240×500 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of contact-direction (required) #content .icon-with-text-shortcode=#content .contact-directions .icon-text: origin 30,2556 300×155 vs served 30,2556 300×155 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "by train" | 60,0 240×30 | 60,0 240×30 | 0 | 0 | 0 | 0 | ✓ |
+| text "there are 1,1 km from the station to" | 60,30 240×125 | 60,30 240×125 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of contact-direction (required) #content .icon-with-text-shortcode=#content .contact-directions .icon-text: origin 30,2743 300×230 vs served 30,2743 300×230 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "by bus" | 60,0 240×30 | 60,0 240×30 | 0 | 0 | 0 | 0 | ✓ |
+| text "there are 2 arrivals and departures " | 60,30 240×200 | 60,30 240×200 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of contact-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,3005 300×75 vs served 30,3005 300×75 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "your name (required)" | 0,3 300×51 | 0,3 300×51 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input.wpcf7-form-control.wpcf7" | 0,25 300×40 | 0,25 300×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of contact-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,3090 300×75 vs served 30,3090 300×75 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "your email (required)" | 0,3 300×51 | 0,3 300×51 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input.wpcf7-form-control.wpcf7" | 0,25 300×40 | 0,25 300×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of contact-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,3175 300×75 vs served 30,3175 300×75 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "your number (required)" | 0,3 300×51 | 0,3 300×51 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input.wpcf7-form-control.wpcf7" | 0,25 300×40 | 0,25 300×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of contact-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,3260 300×75 vs served 30,3260 300×75 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "subject" | 0,3 300×51 | 0,3 300×51 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input.wpcf7-form-control.wpcf7" | 0,25 300×40 | 0,25 300×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of contact-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,3345 300×50 vs served 30,3345 300×50 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 6 of contact-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,3405 300×386 vs served 30,3405 300×386 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "your message" | 0,3 300×43 | 0,3 300×43 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:textarea.wpcf7-form-control.wp" | 0,25 300×262 | 0,25 300×262 | 0 | 0 | 0 | 0 | ✓ |
+| text "i have read and accept the" | 14,300 256×43 | 14,300 256×43 | 0 | 0 | 0 | 0 | ✓ |
+| link "privacy policy" | 14,300 256×43 | 14,300 256×43 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input#1" | 14,301 13×13 | 14,301 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| button "button:input.wpcf7-form-control.wpcf" | 0,347 88×39 | 0,347 88×39 | 0 | 0 | 0 | 0 | ✓ |
+Units: 10 compared; elements within 22, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/contact-360/units-iter2.json

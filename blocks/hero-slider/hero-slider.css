@@ -1,0 +1,185 @@
+/* hero-slider — lifted from stardust/prototypes/canon.css (.hero-slider*, .hero-layer*,
+   .hero-bullet*). Layer offsets are the Revolution Slider data-x/y on its 1240 grid,
+   scaled by --s (1px at 1240, smaller below it). */
+
+.hero-slider {
+  position: relative;
+  width: 100%;
+  height: min(868px, 70vw);
+  overflow: hidden;
+  background: #000;
+}
+
+.hero-slider .hero-slider-slides {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-slider .hero-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s ease, visibility 0.6s;
+}
+
+.hero-slider .hero-slide.is-active {
+  z-index: 2;
+  opacity: 1;
+  visibility: visible;
+}
+
+.hero-slider .hero-slide-media,
+.hero-slider .hero-slide-media p {
+  margin: 0;
+}
+
+.hero-slider .hero-slide-media {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-slider .hero-slide-media :is(picture, img) {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+}
+
+.hero-slider .hero-slide-media p {
+  height: 100%;
+  line-height: 0;
+}
+
+.hero-slider .hero-slide-media img {
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* ---- text layers (the authored heading / paragraph keeps its tag; the wrapper paints it) */
+.hero-slider .hero-layer {
+  --s: min(1px, 100vw / 1240);
+  --xo: 0;
+  --yo: 0;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  font-family: var(--ca-font);
+  white-space: nowrap;
+  transform: translate(calc(-50% + var(--xo) * var(--s)), calc(-50% + var(--yo) * var(--s)));
+}
+
+.hero-slider .hero-layer :is(h1, h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+}
+
+.hero-slider .hero-layer-title {
+  color: #fff;
+  font-size: calc(80 * var(--s));
+  font-weight: 300;
+  line-height: calc(70 * var(--s));
+}
+
+.hero-slider .hero-layer-sub {
+  color: #f2ab41;
+  font-size: calc(30 * var(--s));
+  font-weight: 500;
+  line-height: calc(25 * var(--s));
+}
+
+/* ---- layout words (cell 3) — each the exact offsets of its source slide */
+.hero-slider .hero-slide-center .hero-layer-title {
+  --xo: 81;
+  --yo: -16;
+}
+
+.hero-slider .hero-slide-center .hero-layer-sub {
+  --xo: -14;
+  --yo: 51;
+
+  color: #e09100;
+}
+
+.hero-slider .hero-slide-low .hero-layer-title {
+  --xo: 129;
+  --yo: 146;
+}
+
+.hero-slider .hero-slide-low .hero-layer-sub {
+  --xo: 30;
+  --yo: 237;
+}
+
+.hero-slider .hero-slide-left .hero-layer-title {
+  --xo: -59;
+  --yo: 53;
+}
+
+.hero-slider .hero-slide-left .hero-layer-sub {
+  --xo: -141;
+  --yo: 138;
+}
+
+.hero-slider .hero-slide-low-left .hero-layer-title {
+  top: calc(50% + 137 * var(--s));
+  left: calc(50% - 453 * var(--s));
+  transform: none;
+}
+
+.hero-slider .hero-slide-low-left .hero-layer-sub {
+  --xo: -279;
+  --yo: 241;
+}
+
+/* ---- placements (cell 3, events pages): `x:/y:` = the layer's top-left on the 1240×868 grid
+   (Revolution Slider data-xy), the grid centred and scaled by --s; `x:c±/y:c±` reuse the
+   centred --xo / --yo above. Colour and line height ride the layer's inline style. */
+.hero-slider .hero-slide-placed .hero-layer-sub {
+  color: #e09500;
+}
+
+.hero-slider .hero-layer.hero-layer-at {
+  top: calc(50% + (var(--y) - 434) * var(--s));
+  left: calc(50% + (var(--x) - 620) * var(--s));
+  transform: none;
+}
+
+/* title-60: the events titles (rs data-text s:60 l:50) */
+.hero-slider.title-60 .hero-layer-title {
+  font-size: calc(60 * var(--s));
+  line-height: calc(50 * var(--s));
+}
+
+/* ---- bullets */
+.hero-slider .hero-slider-bullets {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 20;
+  display: flex;
+  gap: 5px;
+  transform: translateX(-50%);
+}
+
+.hero-slider .hero-bullet {
+  box-sizing: content-box;
+  width: 3px;
+  height: 3px;
+  padding: 0;
+  border: 5px solid #000;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.hero-slider .hero-bullet.selected {
+  border-color: #fff;
+  background: #000;
+}

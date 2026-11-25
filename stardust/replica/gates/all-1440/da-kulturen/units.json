@@ -1,0 +1,1227 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T21:46:51.150Z",
+  "tol": 4,
+  "n": 8,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/da/kulturen/",
+  "at": "2026-11-24T17:36:10.409Z",
+  "docH": 3024
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/da/kulturen",
+  "at": "2026-11-24T21:46:51.084Z",
+  "docH": 3024
+ },
+ "results": [
+  {
+   "sel": "#content > .vc_row > .vc_col-sm-6=.media-feature .media-feature-col",
+   "family": null,
+   "required": true,
+   "originMatches": 8,
+   "edsMatches": 8,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.block > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:castle-monastery of escornalbou",
+       "role": "image",
+       "text": "castle-monastery of escornalbou",
+       "edsText": "castle-monastery of escornalbou",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 1179,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1179,
+       "w": 595,
+       "h": 319
+      },
+      "eds": {
+       "x": 125,
+       "y": 1179,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.block > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:det forunderlige escornalbou slot",
+       "role": "heading",
+       "text": "det forunderlige escornalbou slot",
+       "edsText": "det forunderlige escornalbou slot",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 110
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 110,
+        "sel": "h2#det-forunderlige-escornalbou-slot",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:er en ejendommelig bygning. den er rekon",
+       "role": "text",
+       "text": "er en ejendommelig bygning. den er rekonstrueret til at være",
+       "edsText": "er en ejendommelig bygning. den er rekonstrueret til at være",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 120,
+        "w": 535,
+        "h": 175
+       },
+       "eds": {
+        "x": 30,
+        "y": 120,
+        "w": 535,
+        "h": 175,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:slotsklosteret escornalbou",
+       "role": "link",
+       "text": "slotsklosteret escornalbou",
+       "edsText": "slotsklosteret escornalbou",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 123,
+        "w": 186,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 123,
+        "w": 186,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:få hele den inspirerende historie",
+       "role": "text",
+       "text": "få hele den inspirerende historie",
+       "edsText": "få hele den inspirerende historie",
+       "byPosition": false,
+       "origin": {
+        "x": 162,
+        "y": 198,
+        "w": 241,
+        "h": 18
+       },
+       "eds": {
+        "x": 162,
+        "y": 198,
+        "w": 241,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:ved at besøge slottet",
+       "role": "text",
+       "text": "ved at besøge slottet",
+       "edsText": "ved at besøge slottet",
+       "byPosition": false,
+       "origin": {
+        "x": 407,
+        "y": 198,
+        "w": 155,
+        "h": 18
+       },
+       "eds": {
+        "x": 407,
+        "y": 198,
+        "w": 155,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:imponerende udsigt over hele kystlinjen",
+       "role": "text",
+       "text": "imponerende udsigt over hele kystlinjen",
+       "edsText": "imponerende udsigt over hele kystlinjen",
+       "byPosition": false,
+       "origin": {
+        "x": 61,
+        "y": 248,
+        "w": 297,
+        "h": 18
+       },
+       "eds": {
+        "x": 61,
+        "y": 248,
+        "w": 297,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 1179,
+       "w": 595,
+       "h": 295
+      },
+      "eds": {
+       "x": 720,
+       "y": 1179,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 24
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.block > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15632#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 1538,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1538,
+       "w": 595,
+       "h": 319
+      },
+      "eds": {
+       "x": 125,
+       "y": 1538,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.block > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:bare et par skridt fra priorat",
+       "role": "heading",
+       "text": "bare et par skridt fra priorat",
+       "edsText": "bare et par skridt fra priorat",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 110
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 110,
+        "sel": "h2#bare-et-par-skridt-fra-priorat",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:følg historien og sporet af de i priorat",
+       "role": "text",
+       "text": "følg historien og sporet af de i priorat. nyd modernistiske ",
+       "edsText": "følg historien og sporet af de i priorat. nyd modernistiske ",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 120,
+        "w": 535,
+        "h": 125
+       },
+       "eds": {
+        "x": 30,
+        "y": 120,
+        "w": 535,
+        "h": 125,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:karthusiske munke i escaladei",
+       "role": "link",
+       "text": "karthusiske munke i escaladei",
+       "edsText": "karthusiske munke i escaladei",
+       "byPosition": false,
+       "origin": {
+        "x": 238,
+        "y": 123,
+        "w": 212,
+        "h": 18
+       },
+       "eds": {
+        "x": 238,
+        "y": 123,
+        "w": 212,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:vinkatedraler",
+       "role": "text",
+       "text": "vinkatedraler",
+       "edsText": "vinkatedraler",
+       "byPosition": false,
+       "origin": {
+        "x": 294,
+        "y": 148,
+        "w": 98,
+        "h": 18
+       },
+       "eds": {
+        "x": 294,
+        "y": 148,
+        "w": 98,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:d.o. priorat",
+       "role": "text",
+       "text": "d.o. priorat",
+       "edsText": "d.o. priorat",
+       "byPosition": false,
+       "origin": {
+        "x": 125,
+        "y": 223,
+        "w": 84,
+        "h": 18
+       },
+       "eds": {
+        "x": 125,
+        "y": 223,
+        "w": 84,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:montsant",
+       "role": "text",
+       "text": "montsant",
+       "edsText": "montsant",
+       "byPosition": false,
+       "origin": {
+        "x": 289,
+        "y": 223,
+        "w": 70,
+        "h": 18
+       },
+       "eds": {
+        "x": 289,
+        "y": 223,
+        "w": 70,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:terra alta",
+       "role": "text",
+       "text": "terra alta",
+       "edsText": "terra alta",
+       "byPosition": false,
+       "origin": {
+        "x": 384,
+        "y": 223,
+        "w": 70,
+        "h": 18
+       },
+       "eds": {
+        "x": 384,
+        "y": 223,
+        "w": 70,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 1538,
+       "w": 595,
+       "h": 245
+      },
+      "eds": {
+       "x": 720,
+       "y": 1538,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 74
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.block > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:parc sama, hidden gaudi",
+       "role": "image",
+       "text": "parc sama, hidden gaudi",
+       "edsText": "parc sama, hidden gaudi",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 1897,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1897,
+       "w": 595,
+       "h": 319
+      },
+      "eds": {
+       "x": 125,
+       "y": 1897,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.block > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:gemte gaudí skatte",
+       "role": "heading",
+       "text": "gemte gaudí skatte",
+       "edsText": "gemte gaudí skatte",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55,
+        "sel": "h2#gemte-gaudí-skatte",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:kun 10 km fra huset, finder du . . forkæ",
+       "role": "text",
+       "text": "kun 10 km fra huset, finder du . . forkæl dig selv og din fa",
+       "edsText": "kun 10 km fra huset, finder du . . forkæl dig selv og din fa",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 175
+       },
+       "eds": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 175,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:området bag slottet i parc sama var desi",
+       "role": "text",
+       "text": "området bag slottet i parc sama var designet af antoni gaudi",
+       "edsText": "området bag slottet i parc sama var designet af antoni gaudi",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 68,
+        "w": 534,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 68,
+        "w": 534,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "link:park sama",
+       "role": "link",
+       "text": "park sama",
+       "edsText": "park sama",
+       "byPosition": false,
+       "origin": {
+        "x": 243,
+        "y": 68,
+        "w": 76,
+        "h": 18
+       },
+       "eds": {
+        "x": 243,
+        "y": 68,
+        "w": 76,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 1897,
+       "w": 595,
+       "h": 240
+      },
+      "eds": {
+       "x": 720,
+       "y": 1897,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 79
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.block > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15580#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 2256,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 2256,
+       "w": 595,
+       "h": 319
+      },
+      "eds": {
+       "x": 125,
+       "y": 2256,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.block > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:de tre cister klostre",
+       "role": "heading",
+       "text": "de tre cister klostre",
+       "edsText": "de tre cister klostre",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55,
+        "sel": "h2#de-tre-cister-klostre",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:bliv fascineret af freden og skønheden a",
+       "role": "text",
+       "text": "bliv fascineret af freden og skønheden af et af de tre utrol",
+       "edsText": "bliv fascineret af freden og skønheden af et af de tre utrol",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 175
+       },
+       "eds": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 175,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:xii århundere",
+       "role": "text",
+       "text": "xii århundere",
+       "edsText": "xii århundere",
+       "byPosition": false,
+       "origin": {
+        "x": 141,
+        "y": 93,
+        "w": 100,
+        "h": 18
+       },
+       "eds": {
+        "x": 141,
+        "y": 93,
+        "w": 100,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "link:cisterruten",
+       "role": "link",
+       "text": "cisterruten",
+       "edsText": "cisterruten",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 218,
+        "w": 78,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 218,
+        "w": 78,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 2256,
+       "w": 595,
+       "h": 240
+      },
+      "eds": {
+       "x": 720,
+       "y": 2256,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 79
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 8,
+  "within": 25,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

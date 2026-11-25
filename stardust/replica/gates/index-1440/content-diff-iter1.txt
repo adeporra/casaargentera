@@ -1,0 +1,72 @@
+[live-session] waiting to pace live navigations to www.casaargentera.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 855 ms
+
+Content diff @ 1440px (profile "generic", roots: #main, header, footer)
+root "#main"
+  source: 48 text nodes — 2 headings, 0 eyebrows, 10 CTAs, 36 body; 13 img
+  build: 32 text nodes — 2 headings, 0 eyebrows, 10 CTAs, 20 body; 13 img
+  editable texts (outermost h*/p/ul/ol): source 29 / build 21
+  attributes (placeholder/aria-label/title): source 0 / build 3; icons: source 18 / build 10
+root "header"
+  source: 33 text nodes — 0 headings, 0 eyebrows, 25 CTAs, 8 body; 4 img
+  build: 24 text nodes — 0 headings, 0 eyebrows, 20 CTAs, 4 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 2
+  attributes (placeholder/aria-label/title): source 6 / build 5; icons: source 8 / build 4
+root "footer"
+  source: 19 text nodes — 0 headings, 0 eyebrows, 9 CTAs, 10 body; 0 img
+  build: 19 text nodes — 0 headings, 0 eyebrows, 9 CTAs, 10 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 5 / build 5
+  attributes (placeholder/aria-label/title): source 4 / build 5; icons: source 3 / build 3
+
+Findings: 51 (7 structural 🔴)
+Tiers: looks-same 🔴 7 · nothing-lost 🟡 1 · accepted 🟢 0 (owner 0, auto 0) · advisory 43
+  🔴 MISSING CTA [header]: source cta "Dansk" → https://www.casaargentera.com/da/home/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Català" → https://www.casaargentera.com/ca/inici/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Español" → https://www.casaargentera.com/es/inicio/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Instagram page opens in new window" → https://www.instagram.com/casaargentera has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Facebook page opens in new window" → https://www.facebook.com/CasaArgentera/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING ICON [header]: source icon-font glyph U+F111 (icomoon-the7-font, 0×0) at "instagram page opens in new window" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source icon-font glyph U+F106 (icomoon-the7-font, 0×0) at "facebook page opens in new window" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING BODY [#main]: source body "Regitze, Aalborg, Denmark 7/9/19 *****"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "“We lived with a family of 10 and had plenty of "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "Albert, Barcelona 10/11/19 *****"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "“Ina y su marido son muy buenos anfitriones y en"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "Jordi, Balaguer 22/9/19 *****"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "“La casa es ideal para un encuentro familiar o d"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "Ramon, Cádiz 25/12/19 *****"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "“Es una casa fantástica. Si buscas tranquilidad,"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "Emma, Vilassar de Dalt 1/11/16 *****"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "“The stay at Casa Argentera was great. Ina behav"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "Manuel, Barcelona 15/4/17 *****"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "“The house is well equipped, with all a big fami"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "Jordan, Barcelona 28/5/17 *****"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "“Ina’s house is very beautiful, comfortable and "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "Herve, Amiens, France 17/8/19 ****"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main]: source body "“A nice house for a family in a typical Catalan "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EDITABLE COUNT [#main]: build has 21 outermost editable element(s) vs 29 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 EXTRA ARIA-LABEL [#main]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main]: build <iframe> title="Casa Argentera on Google Maps" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 MISSING ICON [#main]: source inline svg 0 0 60 60 / 1 shape(s) (39×39) at "regitze, aalborg, denmark 7/9/19 *****" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 60 60 / 1 shape(s) (39×39) at "albert, barcelona 10/11/19 *****" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 60 60 / 1 shape(s) (39×39) at "jordi, balaguer 22/9/19 *****" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 60 60 / 1 shape(s) (39×39) at "ramon, cádiz 25/12/19 *****" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 60 60 / 1 shape(s) (39×39) at "emma, vilassar de dalt 1/11/16 *****" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 60 60 / 1 shape(s) (39×39) at "manuel, barcelona 15/4/17 *****" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 60 60 / 1 shape(s) (39×39) at "jordan, barcelona 28/5/17 *****" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source inline svg 0 0 60 60 / 1 shape(s) (39×39) at "herve, amiens, france 17/8/19 ****" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 ICON MOVED [#main]: source icon-font glyph U+F008 (icomoon-the7-font, 18×18) at "regitze, aalborg, denmark 7/9/19 ***** “" is at "previous" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#main]: source icon-font glyph U+F009 (icomoon-the7-font, 18×18) at "regitze, aalborg, denmark 7/9/19 ***** “" is at "next" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 MISSING BODY [header]: source body "Menu 1"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "+34 678 866 588"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "info@casaargentera.com"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "Menu 1"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EDITABLE COUNT [header]: build has 2 outermost editable element(s) vs 3 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 MISSING ARIA-LABEL [header]: source <a> aria-label="Mobile menu icon" has no build <a> with that aria-label (build <a> aria-labels: "Mobile menu icon"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Instagram page opens in new window" has no build <a> with that title (build <a> titles: "Instagram page opens in new window", "Facebook page opens in new window"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Facebook page opens in new window" has no build <a> with that title (build <a> titles: "Instagram page opens in new window", "Facebook page opens in new window"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Languages" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Main" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 MISSING ICON [header]: source icon-font glyph U+E1051 (icomoon-the7-font, 0×0) at "+34 678 866 588" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [header]: source icon-font glyph U+E006 (icomoon-the7-font, 0×0) at "info@casaargentera.com" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 EXTRA ARIA-LABEL [footer]: build <button> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [footer]: source inline svg 0 0 16 16 / 1 shape(s) (16×16) at "a#1" is at "search" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.

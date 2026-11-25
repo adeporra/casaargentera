@@ -1,0 +1,239 @@
+{
+  "a": "stardust/replica/gates/all-360/ca-inici/origin.png",
+  "b": "stardust/replica/gates/all-360/ca-inici/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 6376,
+    "mode": "overlap"
+  },
+  "heightDelta": 18,
+  "differingPixels": 363344,
+  "pct": 16.63,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/ca-inici/diff.png",
+  "masks": [
+    {
+      "yA": 32,
+      "h": 236,
+      "yB": 32
+    },
+    {
+      "yA": 5192,
+      "h": 36,
+      "yB": 5192
+    },
+    {
+      "yA": 5412,
+      "h": 36,
+      "yB": 5412
+    }
+  ],
+  "maskedRows": 308,
+  "textPct": 3.83,
+  "textBoxes": 72,
+  "textPixels": 381860,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 13.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 24.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 17.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 4.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 33
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 27.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 26.9
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 23.1
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 16.3
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 11.2
+    },
+    {
+      "y0": 6000,
+      "y1": 6376,
+      "pct": 4.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.59,
+    "differingPixels": 34767,
+    "compared": {
+      "width": 360,
+      "height": 6062,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1248,
+        "shift": 10,
+        "cumulative": 10
+      },
+      {
+        "y": 2794,
+        "shift": -18,
+        "cumulative": -8
+      },
+      {
+        "y": 3422,
+        "shift": 1,
+        "cumulative": -7
+      },
+      {
+        "y": 3708,
+        "shift": -1,
+        "cumulative": -8
+      },
+      {
+        "y": 4345,
+        "shift": 1,
+        "cumulative": -7
+      },
+      {
+        "y": 4973,
+        "shift": -11,
+        "cumulative": -18
+      }
+    ],
+    "maxOffset": 18,
+    "totalShift": 42,
+    "insertedRows": 12,
+    "deletedRows": 30,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 2.8,
+        "unaligned": 13.2
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1,
+        "unaligned": 24.8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.4,
+        "unaligned": 17.3
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 5.5,
+        "unaligned": 4.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.5,
+        "unaligned": 33
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.8,
+        "unaligned": 27.9
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 1.2,
+        "unaligned": 26.9
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 4.9,
+        "unaligned": 23.1
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 1,
+        "unaligned": 16.3
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.2,
+        "unaligned": 11.2
+      },
+      {
+        "y0": 6000,
+        "y1": 6394,
+        "pct": 0.6,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/ca-inici/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 64,
+    "totalShift": 42,
+    "pass": true
+  },
+  "reason": null,
+  "maskReason": "self-varying rows of the frozen reference (noise floor 0.79%)"
+}

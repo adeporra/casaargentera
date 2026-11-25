@@ -1,0 +1,292 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-24T10:57:32.775Z",
+  "url": "https://www.casaargentera.com/the-garden/",
+  "width": 360,
+  "main": "#main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://www.casaargentera.com/the-garden/",
+  "width": 360,
+  "viewport": 360,
+  "docHeight": 4650,
+  "scrollWidth": 360,
+  "root": "#main",
+  "rootFallback": false,
+  "records": [
+   "scroll",
+   "shape"
+  ],
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+    "n": 41
+   }
+  ],
+  "loadedFaces": [
+   "Montserrat 200 normal",
+   "Montserrat 300 normal",
+   "Montserrat 400 normal",
+   "Montserrat 700 normal",
+   "Montserrat 800 normal",
+   "icomoon-the7-font 400 normal",
+   "Font Awesome 5 Free 900 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "14/25 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 25,
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 28,
+    "roles": {
+     "p": 7,
+     "div": 5,
+     "label": 5,
+     "field": 6,
+     "span": 1,
+     "link": 4
+    },
+    "sample": "You have direct acces to the garden from all floors. The garden has various are…"
+   },
+   {
+    "key": "17/27 400 Montserrat uppercase",
+    "fontSize": 17,
+    "lineHeight": 27,
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "uppercase",
+    "n": 5,
+    "roles": {
+     "h5": 5
+    },
+    "sample": "Swimming pool"
+   },
+   {
+    "key": "17/27 200 Montserrat",
+    "fontSize": 17,
+    "lineHeight": 27,
+    "fontWeight": "200",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "div": 5
+    },
+    "sample": "CONTACT US"
+   },
+   {
+    "key": "14/normal 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": "normal",
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "link": 4
+    },
+    "sample": "English"
+   },
+   {
+    "key": "50/55 200 Montserrat",
+    "fontSize": 50,
+    "lineHeight": 55,
+    "fontWeight": "200",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "h2": 2
+    },
+    "sample": "Enjoy the Mediterranean weather to it’s fullest"
+   },
+   {
+    "key": "14/16 800 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 16,
+    "fontWeight": "800",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "field": 2
+    },
+    "sample": "Send"
+   },
+   {
+    "key": "14/26 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 26,
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "link": 2
+    },
+    "sample": "Facebook page opens in new window"
+   },
+   {
+    "key": "30/35 200 Montserrat",
+    "fontSize": 30,
+    "lineHeight": 35,
+    "fontWeight": "200",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h3": 1
+    },
+    "sample": "In the garden you will find"
+   },
+   {
+    "key": "14/normal 400 Arial",
+    "fontSize": 14,
+    "lineHeight": "normal",
+    "fontWeight": "400",
+    "fontFamily": "Arial",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "field": 1
+    },
+    "sample": "1"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 12
+   },
+   {
+    "color": "rgb(58, 58, 58)",
+    "n": 9
+   },
+   {
+    "color": "rgb(43, 43, 43)",
+    "n": 8
+   },
+   {
+    "color": "rgb(120, 125, 133)",
+    "n": 6
+   },
+   {
+    "color": "rgb(221, 153, 51)",
+    "n": 5
+   },
+   {
+    "color": "rgb(221, 157, 59)",
+    "n": 4
+   },
+   {
+    "color": "rgb(56, 56, 56)",
+    "n": 2
+   },
+   {
+    "color": "rgb(66, 66, 66)",
+    "n": 2
+   },
+   {
+    "color": "rgb(0, 0, 0)",
+    "n": 1
+   },
+   {
+    "color": "rgb(48, 48, 48)",
+    "n": 1
+   }
+  ],
+  "container": {
+   "left": 30,
+   "right": 30,
+   "content": 300,
+   "leftCommon": {
+    "x": 30,
+    "n": 17
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"header","y":0,"h":58,"background":"rgba(221, 153, 51, 0.5)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.masthead.inline-header","firstText":""},
+  {"i":1,"region":"main","y":312,"h":537,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"Enjoy the Mediterranean weather to it’s fullest"},
+  {"i":2,"region":"main","y":849,"h":430,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":""},
+  {"i":3,"region":"main","y":1279,"h":649,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":""},
+  {"i":4,"region":"main","y":1927,"h":102,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"In the garden you will find"},
+  {"i":5,"region":"main","y":2029,"h":331,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"Swimming pool"},
+  {"i":6,"region":"main","y":2360,"h":187,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"Swing in the linden tree / Slide"},
+  {"i":7,"region":"main","y":2547,"h":32,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":""},
+  {"i":8,"region":"main","y":2579,"h":1131,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"For additional information and reservations?"},
+  {"i":9,"region":"footer","y":3770,"h":880,"background":"rgb(221, 157, 59)","paddingTop":0,"paddingBottom":0,"selectorHint":"footer#footer.footer.solid-bg","firstText":"CONTACT US"}
+ ],
+ "nodes": [
+  {"section":0,"region":"header","kind":"image","tag":"img","role":"link","text":"Casa Argentera","x":30,"y":0,"w":75,"h":58,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[75,58],"src":"https://www.casaargentera.com/wp-content/uploads/2020/04/Logo-75-px.jpg","href":"https://www.casaargentera.com/"},
+  {"section":1,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Enjoy the Mediterranean weather to it’s fullest","x":30,"y":312,"w":300,"h":220,"fontFamily":"Montserrat","fontSize":50,"lineHeight":55,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":4},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"You have direct acces to the garden from all floors. The garden has various are…","x":30,"y":542,"w":300,"h":275,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":11},
+  {"section":2,"region":"main","kind":"image","tag":"img","role":null,"text":"View of the pool heated and lighted in Casa Argentera","x":30,"y":849,"w":300,"h":169,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[359,202],"src":"https://www.casaargentera.com/wp-content/uploads/2020/03/Piscina-CasaArgentera-1-768x432.jpg"},
+  {"section":2,"region":"main","kind":"image","tag":"img","role":null,"text":"Chill out dressed for party","x":30,"y":1064,"w":300,"h":169,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[359,202],"src":"https://www.casaargentera.com/wp-content/uploads/2020/04/20190710_193711-P3D-e1587804194703-768x432.jpg"},
+  {"section":3,"region":"main","kind":"image","tag":"img","role":null,"text":"Garden with a view","x":30,"y":1279,"w":300,"h":169,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[359,202],"src":"https://www.casaargentera.com/wp-content/uploads/2020/04/PICT0023P3D.JPG-768x433.png"},
+  {"section":3,"region":"main","kind":"image","tag":"img","role":null,"text":"Barbecue corner in the garden","x":30,"y":1494,"w":300,"h":169,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[359,202],"src":"https://www.casaargentera.com/wp-content/uploads/2020/04/P1040374enhancedP3D-e1587754947853-768x432.jpg"},
+  {"section":3,"region":"main","kind":"image","tag":"img","role":null,"text":"Lighted pool at night, summer evenings in Casa Argentera","x":30,"y":1708,"w":300,"h":173,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[359,207],"src":"https://www.casaargentera.com/wp-content/uploads/2017/05/Pool-e1587755068834-768x442.jpg"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"In the garden you will find","x":30,"y":1927,"w":300,"h":70,"fontFamily":"Montserrat","fontSize":30,"lineHeight":35,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":2},
+  {"section":5,"region":"main","kind":"text","tag":"h5","role":"h5","text":"Swimming pool","x":90,"y":2029,"w":240,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"400","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(221, 153, 51)","lines":1},
+  {"section":5,"region":"main","kind":"text","tag":"div","role":null,"text":"Heated from April to mid October Pool towels provided Sundeck with loungechairs","x":90,"y":2056,"w":240,"h":75,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(66, 66, 66)","lines":3},
+  {"section":5,"region":"main","kind":"text","tag":"h5","role":"h5","text":"BBQ corner & Paella equipment","x":90,"y":2154,"w":240,"h":54,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"400","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(221, 153, 51)","lines":2},
+  {"section":5,"region":"main","kind":"text","tag":"div","role":null,"text":"Who is the chef?","x":90,"y":2211,"w":240,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(56, 56, 56)","lines":1},
+  {"section":5,"region":"main","kind":"text","tag":"h5","role":"h5","text":"Chill out corner","x":90,"y":2260,"w":240,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"400","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(221, 153, 51)","lines":1},
+  {"section":5,"region":"main","kind":"text","tag":"div","role":null,"text":"Sofa for small talk... with a chilled glass","x":90,"y":2290,"w":240,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(56, 56, 56)","lines":2},
+  {"section":6,"region":"main","kind":"text","tag":"h5","role":"h5","text":"Swing in the linden tree / Slide","x":90,"y":2360,"w":240,"h":54,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"400","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(221, 153, 51)","lines":2},
+  {"section":6,"region":"main","kind":"text","tag":"div","role":null,"text":"for the children or childish to play...","x":90,"y":2414,"w":240,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(66, 66, 66)","lines":2},
+  {"section":6,"region":"main","kind":"text","tag":"h5","role":"h5","text":"Big dining table","x":90,"y":2487,"w":240,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"400","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(221, 153, 51)","lines":1},
+  {"section":6,"region":"main","kind":"text","tag":"div","role":null,"text":"under the shade of a linden tree","x":90,"y":2514,"w":240,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(48, 48, 48)","lines":1},
+  {"section":8,"region":"main","kind":"text","tag":"h2","role":"h2","text":"For additional information and reservations?","x":30,"y":2579,"w":300,"h":275,"fontFamily":"Montserrat","fontSize":50,"lineHeight":55,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":5},
+  {"section":8,"region":"main","kind":"text","tag":"p","role":null,"text":"Do not hesitate to contact us. We will be happy to help you!","x":30,"y":2864,"w":300,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":2},
+  {"section":8,"region":"main","kind":"text","tag":"label","role":null,"text":"Your Name (required)","x":30,"y":2917,"w":300,"h":51,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":1},
+  {"section":8,"region":"main","kind":"control","tag":"input","role":"field","text":"your-name","x":30,"y":2939,"w":300,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(120, 125, 133)","lines":1},
+  {"section":8,"region":"main","kind":"text","tag":"label","role":null,"text":"Your Email (required)","x":30,"y":3002,"w":300,"h":51,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":1},
+  {"section":8,"region":"main","kind":"control","tag":"input","role":"field","text":"your-email","x":30,"y":3024,"w":300,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(120, 125, 133)","lines":1},
+  {"section":8,"region":"main","kind":"text","tag":"label","role":null,"text":"Your Number (required)","x":30,"y":3087,"w":300,"h":51,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":1},
+  {"section":8,"region":"main","kind":"control","tag":"input","role":"field","text":"tel-148","x":30,"y":3109,"w":300,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(120, 125, 133)","lines":1},
+  {"section":8,"region":"main","kind":"text","tag":"label","role":null,"text":"Subject","x":30,"y":3172,"w":300,"h":51,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":1},
+  {"section":8,"region":"main","kind":"control","tag":"input","role":"field","text":"your-subject","x":30,"y":3194,"w":300,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(120, 125, 133)","lines":1},
+  {"section":8,"region":"main","kind":"text","tag":"p","role":null,"text":"Please, let us know your preferences regarding check in and check out dates.","x":30,"y":3254,"w":300,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":2},
+  {"section":8,"region":"main","kind":"text","tag":"label","role":null,"text":"Your Message","x":30,"y":3317,"w":300,"h":43,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":1},
+  {"section":8,"region":"main","kind":"control","tag":"textarea","role":"field","text":"your-message","x":30,"y":3339,"w":300,"h":262,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(120, 125, 133)","lines":1},
+  {"section":8,"region":"main","kind":"control","tag":"input","role":"field","text":"1","x":44,"y":3615,"w":13,"h":13,"fontFamily":"Arial","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(0, 0, 0)","lines":1},
+  {"section":8,"region":"main","kind":"text","tag":"span","role":null,"text":"I have read and accept the privacy policy","x":44,"y":3614,"w":256,"h":43,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":2},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"privacy policy","x":44,"y":3614,"w":256,"h":43,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":2,"href":"https://www.casaargentera.com/wp/privacy-policy/"},
+  {"section":8,"region":"main","kind":"control","tag":"input","role":"field","text":"Send","x":30,"y":3661,"w":88,"h":39,"fontFamily":"Montserrat","fontSize":14,"lineHeight":16,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":9,"region":"footer","kind":"text","tag":"div","role":null,"text":"CONTACT US","x":30,"y":3830,"w":300,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":9,"region":"footer","kind":"text","tag":"p","role":null,"text":"CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info…","x":30,"y":3872,"w":300,"h":125,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":5},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"www.CasaArgentera.com","x":30,"y":3975,"w":176,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1,"href":"http://www.casaargentera.com"},
+  {"section":9,"region":"footer","kind":"text","tag":"div","role":null,"text":"SEARCH","x":30,"y":4027,"w":300,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":9,"region":"footer","kind":"control","tag":"input","role":"field","text":"Type and hit enter …","x":30,"y":4069,"w":300,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(120, 125, 133)","lines":1},
+  {"section":9,"region":"footer","kind":"control","tag":"input","role":"field","text":"Go!","x":265,"y":4069,"w":54,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":16,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":9,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":301,"y":4081,"w":16,"h":16,"fit":"fill","shape":{"pos":"50% 50%"},"href":""},
+  {"section":9,"region":"footer","kind":"text","tag":"div","role":null,"text":"FOLLOW US","x":30,"y":4139,"w":300,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":9,"region":"footer","kind":"text","tag":"p","role":null,"text":"Find us on:","x":30,"y":4181,"w":76,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Facebook page opens in new window","x":32,"y":4183,"w":26,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":26,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":6,"href":"https://www.facebook.com/CasaArgentera/"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Instagram page opens in new window","x":62,"y":4183,"w":26,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":26,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":6,"href":"https://www.instagram.com/casaargentera/"},
+  {"section":9,"region":"footer","kind":"text","tag":"div","role":null,"text":"OTHER RENTALS","x":30,"y":4241,"w":300,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":9,"region":"footer","kind":"text","tag":"p","role":null,"text":"CASA VELLA DEL PANTA C/T313, km.13 • 43771 Riudecanyes • Spain www.CasaVelladel…","x":30,"y":4283,"w":300,"h":75,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":3},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"www.CasaVelladelPanta.com","x":30,"y":4336,"w":203,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1,"href":"http://www.casavelladelpanta.com"},
+  {"section":9,"region":"footer","kind":"text","tag":"div","role":null,"text":"LEGAL INFO","x":30,"y":4388,"w":300,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":9,"region":"footer","kind":"text","tag":"p","role":null,"text":"Privacy policy and Cookies ©2020 Casa Argentera","x":30,"y":4430,"w":300,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy policy and Cookies","x":30,"y":4433,"w":184,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1,"href":"https://www.casaargentera.com/privacy-policy-and-cookies/"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"English","x":30,"y":4510,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/the-garden/"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Dansk","x":30,"y":4535,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/da/the-garden/"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Català","x":30,"y":4560,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/ca/el-jardi/"},
+  {"section":9,"region":"footer","kind":"control","tag":"a","role":"link","text":"Español","x":30,"y":4585,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/es/el-jardin/"}
+ ]
+}

@@ -1,0 +1,288 @@
+{
+  "house-card": {
+    "origin": ".vc_col-sm-6 .wpb_single_image",
+    "build": ".house-grid .single-image",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "eds": ".image-grid.linked .image-grid-image"
+  },
+  "experience-image": {
+    "origin": ".vc_col-sm-4 .wpb_single_image",
+    "build": ".experience-grid .single-image",
+    "n": 9,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "eds": ".image-grid.stacked .image-grid-image"
+  },
+  "testimonial-card": {
+    "origin": ".testimonials-carousel-shortcode .dt-owl-item.active .testimonial-item",
+    "build": ".testimonials .testimonial-item.active",
+    "n": 1,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "eds": ".testimonials .testimonial-item.active"
+  },
+  "culture-feature-column": {
+    "origin": "#content > .vc_row > .vc_col-sm-6",
+    "build": "#content > .culture-feature > .vc-col--1-2",
+    "n": 8,
+    "required": true,
+    "pages": [
+      "culture",
+      "es-cultura",
+      "ca-cultura",
+      "da-kulturen"
+    ],
+    "templates": [],
+    "eds": ".media-feature .media-feature-col"
+  },
+  "garden-feature": {
+    "origin": ".icon-with-text-shortcode",
+    "build": ".garden-features .icon-text",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "the-garden"
+    ],
+    "templates": [
+      "program"
+    ],
+    "eds": ".icon-features .icon-features-item"
+  },
+  "garden-image": {
+    "origin": "#content .wpb_single_image",
+    "build": ".garden-images .single-image",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "the-garden",
+      "es-el-atico",
+      "es-el-jardin",
+      "es-el-piso-senorial",
+      "es-la-casa-entera",
+      "ca-el-jardi",
+      "ca-la-casa-sencera",
+      "ca-latic",
+      "ca-el-pis-senyorial",
+      "the-whole-house",
+      "the-penthouse",
+      "the-noble-floor",
+      "da-penthousekvisten",
+      "da-the-garden",
+      "da-hele-huset",
+      "da-the-noble-floor"
+    ],
+    "templates": [],
+    "eds": ".image-grid.plain .image-grid-image"
+  },
+  "experience-teaser": {
+    "origin": "#content > .vc_row:nth-child(n+3) > .wpb_column",
+    "build": "#content > .exp-row > .vc-col",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "experiences",
+      "es-experiencias",
+      "ca-experiencies",
+      "da-oplevelser"
+    ],
+    "templates": [
+      "listing"
+    ],
+    "eds": ".media-feature .media-feature-row"
+  },
+  "contact-direction": {
+    "origin": "#content .icon-with-text-shortcode",
+    "build": "#content .contact-directions .icon-text",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "contact"
+    ],
+    "templates": [
+      "form"
+    ],
+    "eds": ".icon-features .icon-features-item"
+  },
+  "contact-form-row": {
+    "origin": "#content .wpcf7-form > p",
+    "build": "#content .cf7-form > p",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "contact"
+    ],
+    "templates": [
+      "form"
+    ],
+    "eds": ".contact-form .contact-form-line"
+  },
+  "booking-form-row": {
+    "origin": "#content .wpcf7-form > p",
+    "build": "#content .cf7-form > p",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "reservations-2"
+    ],
+    "templates": [
+      "booking"
+    ],
+    "eds": ".contact-form .contact-form-line"
+  },
+  "booking-price-column": {
+    "origin": "#content > .vc_row:nth-of-type(3) .wpb_text_column",
+    "build": "#content .price-column .text-column",
+    "eds": ".availability-calendar .availability-calendar-text",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "reservations-2"
+    ],
+    "templates": [
+      "booking"
+    ]
+  },
+  "booking-calendar-day": {
+    "origin": "[data-is-this-month] .ics-calendar-month-grid tbody td",
+    "build": ".avail-calendar__grid tbody td",
+    "eds": "[data-is-this-month] .availability-calendar-grid tbody td",
+    "n": 35,
+    "required": true,
+    "pages": [
+      "reservations-2"
+    ],
+    "templates": [
+      "booking"
+    ]
+  },
+  "events-gallery-item": {
+    "origin": "#content .vc_grid-item",
+    "build": "#content .media-grid__item",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "events"
+    ],
+    "templates": [
+      "events"
+    ],
+    "eds": ".image-grid.gallery .image-grid-col"
+  },
+  "events-form-row": {
+    "origin": "#content .wpcf7-form > p",
+    "build": "#content .cf7-form > p",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "events"
+    ],
+    "templates": [
+      "events"
+    ],
+    "eds": ".contact-form .contact-form-line"
+  },
+  "legal-section-heading": {
+    "origin": "#content .wpb_text_column h4",
+    "build": "#content .text-column h4",
+    "eds": "main .default-content-wrapper h4",
+    "n": 9,
+    "required": true,
+    "pages": [
+      "privacy-policy-and-cookies",
+      "da-privacy-policy-and-cookies",
+      "ca-politica-de-privacidad-y-cookies"
+    ],
+    "templates": []
+  },
+  "gallery-image": {
+    "origin": ".vc_grid-item .vc_gitem-zone",
+    "build": ".garden-gallery .single-image",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "es-la-planta-baja",
+      "ca-la-planta-baixa",
+      "the-ground-floor",
+      "da-stueetagen"
+    ],
+    "templates": [],
+    "eds": ".image-grid.gallery .image-grid-image"
+  },
+  "article-feature-column-6": {
+    "origin": "#content > .vc_row > .vc_col-sm-6",
+    "build": "#content > .culture-feature > .vc-col--1-2",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "es-naturaleza-deporte",
+      "ca-natura-esport",
+      "nature-sport",
+      "da-natur-sport",
+      "es-playas-y-mas",
+      "ca-platja-i-mes",
+      "beach-and-more",
+      "da-strand-m-m"
+    ],
+    "templates": [],
+    "eds": ".media-feature .media-feature-col"
+  },
+  "article-feature-column-10": {
+    "origin": "#content > .vc_row > .vc_col-sm-6",
+    "build": "#content > .culture-feature > .vc-col--1-2",
+    "n": 10,
+    "required": true,
+    "pages": [
+      "es-la-casa",
+      "ca-la-casa",
+      "the-house",
+      "da-the-house"
+    ],
+    "templates": [],
+    "eds": ".media-feature .media-feature-col"
+  },
+  "article-image-5": {
+    "origin": "#content .wpb_single_image",
+    "build": "#content .single-image",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "es-el-entorno",
+      "ca-lentorn",
+      "the-place",
+      "da-stedet"
+    ],
+    "templates": [],
+    "eds": ".image-grid.plain .image-grid-image"
+  },
+  "article-image-3": {
+    "origin": "#content .wpb_single_image",
+    "build": "#content .single-image",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "es-quienes-somos",
+      "ca-qui-som",
+      "who-we-are",
+      "da-who-we-are"
+    ],
+    "templates": [],
+    "eds": ".image-grid.plain .image-grid-image"
+  }
+}

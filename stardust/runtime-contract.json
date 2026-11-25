@@ -1,0 +1,31 @@
+{
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "blockWrapper": "div.<name>-wrapper > div.<name>.block[data-block-name]; section gains .<name>-container",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "writtenBy": "rollout C0 foundation (2026-11-24), read from scripts/scripts.js + scripts/aem.js",
+  "foundation": {
+    "boxSizing": "per-container as the canon (stardust/prototypes/canon.css): NO global border-box reset; a block sets box-sizing explicitly wherever its prototype CSS does",
+    "breakpoints": "mobile-first; the source switches are (width > 768px) and (width > 1024px); no target list set",
+    "tokens": "--ca-accent, --ca-base, --ca-ink, --ca-white, --ca-header-veil, --ca-header-veil-amber, --ca-float-bg, --ca-divider, --ca-card-bg, --ca-font, --ca-icon-font, --ca-fa-font, --ca-content-max (1250px), --ca-side-pad (30px, 60px above 768), --ca-float-h",
+    "fonts": "styles/fonts.css: montserrat 200/300/400/500/700/800, \"icomoon-the7-font\" (var(--ca-icon-font)), \"Font Awesome 5 Free\" 900 (var(--ca-fa-font)); montserrat-fallback in styles.css",
+    "iconClasses": ".ca-icon + .ca-icon-phone | -mail | -facebook | -instagram | -arrow-l | -arrow-r (canon .ca-icon--x renamed kebab-case)",
+    "sectionShell": "main > .section = the canon .wf-wrap (max 1250, side pad 60/30); the first section and the section after a full-bleed one get padding-top 60px; main padding-bottom 60px (= #main 60px 0). Full-bleed escape: .hero-slider-container or section style `full-bleed` (max-width none, padding 0)",
+    "sharedUtilities": ".text-column > :last-child and .default-content-wrapper > :last-child margin 0; .vc-col min-height 1px; h4 200 22px/30px accent; .screen-reader-text; .assistive-text",
+    "fadeIn": "import { fadeInOnView } from '../../scripts/canon-motion.js' — the WPBakery fadeIn (.wpb-animate / .wpb-start-animation, 1s)",
+    "chromeIds": "the header block owns #phantom, #mobile-drawer, #site-title, #site-description, .scroll-top and sets main#main (skip link); the footer owns #the7-search"
+  },
+  "pageMetadata": {
+    "header-veil": "masthead veil: `amber` = rgb(221 153 51 / 50%) (the-garden, culture, events, reservations-2, privacy-policy-and-cookies); absent or `gold` = canon rgb(221 179 110 / 50%) (index, contact, experiences); a literal rgb()/rgba() is also accepted",
+    "translations": "the page's Polylang translations from its captured hreflang alternates, `en=/the-garden, da=/da/the-garden, ca=/ca/el-jardi, es=/es/el-jardin` (root-relative, extensionless). Footer switcher links each language to its translation (locale home when absent); the top bar lists the OTHER languages that have a translation (all three when the key is absent), linking their locale homes",
+    "nav / footer": "optional override; default is the locale's document: /nav, /footer, /es/nav, /es/footer, /ca/…, /da/…",
+    "current menu item": "computed by the header from the page path (li.act + aria-current), no metadata"
+  },
+  "heroSlider": {
+    "duration": "per-slider autoplay interval: section metadata `duration` (→ data-duration on the section; 2500 default; the-garden 3000, experiences 3500, events 2500)",
+    "shell": "the hero section carries .hero-slider-container → full-bleed escape in styles.css; the masthead (absolute, z-index 102) overlays it"
+  }
+}

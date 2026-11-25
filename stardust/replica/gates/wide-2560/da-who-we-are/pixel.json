@@ -1,0 +1,155 @@
+{
+  "a": "stardust/replica/gates/wide-2560/da-who-we-are/origin.png",
+  "b": "stardust/replica/gates/wide-2560/da-who-we-are/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 1848,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 3330,
+  "pct": 0.07,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/wide-2560/da-who-we-are/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 1848,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.07,
+    "differingPixels": 3330,
+    "compared": {
+      "width": 2560,
+      "height": 1848,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 1848,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 0.07,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--ea32f12a--aemcoder.aem.page/da/who-we-are",
+    "key": {
+      "v": 3,
+      "build": "https://main--ea32f12a--aemcoder.aem.page/da/who-we-are",
+      "source": "https://www.casaargentera.com/da/who-we-are/",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "30a740e750304b48",
+      "options": "00da2efd9f3b6bfe",
+      "reference": "ebd30ab727e166b3",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "781310a16906de3b",
+      "instruments": "700566dc6f7774a4",
+      "page content": "cf538b2b88d0d100",
+      "shared code": "15fa74636bb99ab3",
+      "block hero-slider": "9c515f6f76444750",
+      "block image-grid": "12f4434553966273"
+    },
+    "probes": {
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 35,
+          "controls": 23,
+          "total": 0
+        },
+        "groups": [],
+        "source": "clip-probe",
+        "tier": "chrome"
+      },
+      "units": {
+        "verdict": {
+          "units": 3,
+          "within": 3,
+          "off": 0,
+          "hidden": 0,
+          "missing": 0,
+          "errors": 0,
+          "requiredOff": 0
+        },
+        "required": true,
+        "errors": []
+      }
+    },
+    "at": "2026-11-24T23:17:37.162Z"
+  }
+}

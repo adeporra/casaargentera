@@ -1,0 +1,24 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.casaargentera.com/ (live side from cache stardust/replica/gates/index-1440/chrome-live.json, probed 2026-11-24T10:05:47.902Z — delete the file to re-probe)
+  build: http://localhost:8791/index-proposed.html
+
+■ header: 5 delta(s) — 12 paired of 12/12 texts, 1/1 icons
+  region live:  div.masthead.inline-header[role=banner] — [role=banner] landmark, box 0,0 1440×172; selector #page > div:nth-of-type(1)
+  region build: div.masthead[role=banner] — [role=banner] landmark, box 0,0 1440×172; selector #page > div:nth-of-type(1)
+  PAIR         "Dansk"  Δh +3px (16→19)
+  PAIR         "Català"  Δh +3px (16→19)
+  PAIR         "Español"  Δh +3px (16→19)
+  PAIR         "THE HOUSE"  paddingRight 10px → 0px
+  PAIR         "EXPERIENCES"  paddingRight 10px → 0px
+  advisory     REST STATE: 1 live / 0 build text(s) inside panels not shown at rest left out (live: opacity:0 1; build: none) — --strict-names counts them
+
+■ footer: 4 delta(s) — 15 paired of 15/15 texts, 1/1 icons
+  region live:  footer#footer.footer.solid-bg — outermost <footer>, box 0,3915 1440×389; selector #footer
+  region build: footer#footer — outermost <footer>, box 0,3915 1440×389; selector #footer
+  PAIR         "English"  tag <span> → <a>; paddingTop 0px → 3.5px; paddingRight 0px → 7px; paddingBottom 0px → 3.5px; paddingLeft 0px → 7px; textDecorationLine none → underline; Δx -7px (955→948); Δy -3px (235→232); Δw +285px (52→337); Δh +7px (18→25)
+  PAIR         "Dansk"  tag <span> → <a>; paddingTop 0px → 3.5px; paddingRight 0px → 7px; paddingBottom 0px → 3.5px; paddingLeft 0px → 7px; textDecorationLine none → underline; Δx -7px (955→948); Δy -3px (260→257); Δw +292px (45→337); Δh +7px (18→25)
+  PAIR         "Català"  tag <span> → <a>; paddingTop 0px → 3.5px; paddingRight 0px → 7px; paddingBottom 0px → 3.5px; paddingLeft 0px → 7px; textDecorationLine none → underline; Δx -7px (955→948); Δy -3px (285→282); Δw +293px (44→337); Δh +7px (18→25)
+  PAIR         "Español"  tag <span> → <a>; paddingTop 0px → 3.5px; paddingRight 0px → 7px; paddingBottom 0px → 3.5px; paddingLeft 0px → 7px; textDecorationLine none → underline; Δx -7px (955→948); Δy -3px (310→307); Δw +281px (56→337); Δh +7px (18→25)
+  advisory     NAMES: 1 carried by another channel (visible text ↔ aria-label)
+
+✗ 9 delta(s), 2 advisory group(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

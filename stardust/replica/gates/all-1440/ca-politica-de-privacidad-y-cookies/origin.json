@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.casaargentera.com/ca/politica-de-privacidad-y-cookies/",
+  "reference": {
+    "dir": "stardust/replica/gates/all-1440/ca-politica-de-privacidad-y-cookies",
+    "capturedAt": "2026-11-24T21:19:00.211Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0,
+    "variableRows": 0,
+    "maskArg": ""
+  },
+  "note": "reused stardust/replica/gates/all-1440/ca-politica-de-privacidad-y-cookies/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-24T21:23:01.868Z"
+}

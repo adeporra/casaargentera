@@ -1,0 +1,47 @@
+{
+ "url": "https://main--ea32f12a--aemcoder.aem.page/da/reservations",
+ "at": "2026-11-24T22:15:28.246Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 1,
+  "offPage": 0,
+  "textNodes": 43,
+  "controls": 15,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "main#main",
+   "path": "main#main > div.section.contact-form-container > div.default-content-wrapper > h1#reservationer",
+   "text": "reservationer",
+   "cutMin": 8,
+   "cutMax": 8
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 1,
+   "offPage": 18,
+   "textNodes": 52,
+   "controls": 24,
+   "total": 0
+  }
+ }
+}

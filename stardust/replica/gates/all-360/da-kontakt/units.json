@@ -1,0 +1,1182 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T22:12:32.392Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/da/kontakt/",
+  "at": "2026-11-24T20:43:10.201Z",
+  "docH": 4438
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/da/kontakt",
+  "at": "2026-11-24T22:12:32.307Z",
+  "docH": 4438
+ },
+ "results": [
+  {
+   "sel": "#content .icon-with-text-shortcode=.icon-features .icon-features-item",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-5eacc2d5a1c783900a3b17ebd4f4b88a"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.title-22 > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:med fly",
+       "role": "heading",
+       "text": "med fly",
+       "edsText": "med fly",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 30
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 30,
+        "sel": "h4#med-fly",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:der er lufthavne med ankomst til enten r",
+       "role": "text",
+       "text": "der er lufthavne med ankomst til enten reus eller barcelona.",
+       "edsText": "der er lufthavne med ankomst til enten reus eller barcelona.",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 240,
+        "h": 200
+       },
+       "eds": {
+        "x": 60,
+        "y": 30,
+        "w": 240,
+        "h": 200,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 1172,
+       "w": 300,
+       "h": 230
+      },
+      "eds": {
+       "x": 30,
+       "y": 1172,
+       "w": 300,
+       "h": 230
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-7e71b8d45728ad0298067b38049404b2"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.title-22 > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:med bil",
+       "role": "heading",
+       "text": "med bil",
+       "edsText": "med bil",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 30
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 30,
+        "sel": "h4#med-bil",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:- fra barcelona tager man motorvejen ap-",
+       "role": "text",
+       "text": "- fra barcelona tager man motorvejen ap-7 eller a7 i sydgåen",
+       "edsText": "- fra barcelona tager man motorvejen ap-7 eller a7 i sydgåen",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 240,
+        "h": 625
+       },
+       "eds": {
+        "x": 60,
+        "y": 30,
+        "w": 240,
+        "h": 625,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 1434,
+       "w": 300,
+       "h": 655
+      },
+      "eds": {
+       "x": 30,
+       "y": 1434,
+       "w": 300,
+       "h": 655
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-4662183f96d3f7f1e6ba164391ab808e"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.title-22 > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:med tog",
+       "role": "heading",
+       "text": "med tog",
+       "edsText": "med tog",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 30
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 30,
+        "sel": "h4#med-tog",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:der er 3 daglige afgange fra barcelona d",
+       "role": "text",
+       "text": "der er 3 daglige afgange fra barcelona direkte til stationen",
+       "edsText": "der er 3 daglige afgange fra barcelona direkte til stationen",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 240,
+        "h": 175
+       },
+       "eds": {
+        "x": 60,
+        "y": 30,
+        "w": 240,
+        "h": 175,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.anchor-link.text-icon",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 60,
+       "h": 60,
+       "absY": 2121,
+       "hidden": false,
+       "fs": 32,
+       "lh": 60,
+       "fw": "400",
+       "color": "rgb(221, 157, 59)",
+       "bg": null,
+       "position": "relative",
+       "key": "link:a.anchor-link.text-icon#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 2121,
+       "w": 300,
+       "h": 205
+      },
+      "eds": {
+       "x": 30,
+       "y": 2121,
+       "w": 300,
+       "h": 205
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-1a67822178161284585f7b0c6cbb2352"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.title-22 > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:med bus",
+       "role": "heading",
+       "text": "med bus",
+       "edsText": "med bus",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 30
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 30,
+        "sel": "h4#med-bus",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:hvis man kommer med bus er der 2 ankomst",
+       "role": "text",
+       "text": "hvis man kommer med bus er der 2 ankomster og 2 afgange mand",
+       "edsText": "hvis man kommer med bus er der 2 ankomster og 2 afgange mand",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 240,
+        "h": 200
+       },
+       "eds": {
+        "x": 60,
+        "y": 30,
+        "w": 240,
+        "h": 200,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 2358,
+       "w": 300,
+       "h": 230
+      },
+      "eds": {
+       "x": 30,
+       "y": 2358,
+       "w": 300,
+       "h": 230
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#content .wpcf7-form > p=.contact-form .contact-form-line",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#wpcf7-f16076-p16072-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line"
+     },
+     "rows": [
+      {
+       "key": "text:navn (required)",
+       "role": "text",
+       "text": "navn (required)",
+       "edsText": "navn (required)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 300,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": -26,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input.wpcf7-form-control.wpcf7-text#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 40,
+        "sel": "input.contact-form-field",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 2702,
+       "w": 300,
+       "h": 75
+      },
+      "eds": {
+       "x": 30,
+       "y": 2702,
+       "w": 300,
+       "h": 75
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#wpcf7-f16076-p16072-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line"
+     },
+     "rows": [
+      {
+       "key": "text:email (required)",
+       "role": "text",
+       "text": "email (required)",
+       "edsText": "email (required)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 300,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": -26,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input.wpcf7-form-control.wpcf7-email#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 40,
+        "sel": "input.contact-form-field",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 2787,
+       "w": 300,
+       "h": 75
+      },
+      "eds": {
+       "x": 30,
+       "y": 2787,
+       "w": 300,
+       "h": 75
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#wpcf7-f16076-p16072-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line"
+     },
+     "rows": [
+      {
+       "key": "text:dit telefonnummer (required)",
+       "role": "text",
+       "text": "dit telefonnummer (required)",
+       "edsText": "dit telefonnummer (required)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 300,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": -26,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input.wpcf7-form-control.wpcf7-tel#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 40,
+        "sel": "input.contact-form-field",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 2872,
+       "w": 300,
+       "h": 75
+      },
+      "eds": {
+       "x": 30,
+       "y": 2872,
+       "w": 300,
+       "h": 75
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#wpcf7-f16076-p16072-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line"
+     },
+     "rows": [
+      {
+       "key": "text:emne",
+       "role": "text",
+       "text": "emne",
+       "edsText": "emne",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 300,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": -26,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input.wpcf7-form-control.wpcf7-text#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 40,
+        "sel": "input.contact-form-field",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 2957,
+       "w": 300,
+       "h": 75
+      },
+      "eds": {
+       "x": 30,
+       "y": 2957,
+       "w": 300,
+       "h": 75
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div#wpcf7-f16076-p16072-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line.contact-form-note"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "skriv venligst de foretrukne datoer for ankomst og afgang.",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 300,
+       "h": 50,
+       "absY": 3042,
+       "hidden": false,
+       "fs": 14,
+       "lh": 25,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "text:skriv venligst de foretrukne datoer for "
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 3042,
+       "w": 300,
+       "h": 50
+      },
+      "eds": {
+       "x": 30,
+       "y": 3042,
+       "w": 300,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div#wpcf7-f16076-p16072-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line"
+     },
+     "rows": [
+      {
+       "key": "text:din besked",
+       "role": "text",
+       "text": "din besked",
+       "edsText": "din besked",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 300,
+        "h": 43
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": -18,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:textarea.wpcf7-form-control.wpcf7-textarea#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 262
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 262,
+        "sel": "textarea.contact-form-field.contact-form-textarea",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:jeg har læst og accepteret",
+       "role": "text",
+       "text": "jeg har læst og accepteret",
+       "edsText": "jeg har læst og accepteret",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 300,
+        "w": 257,
+        "h": 43
+       },
+       "eds": {
+        "x": 14,
+        "y": 300,
+        "w": 257,
+        "h": 43,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:privacy policy",
+       "role": "link",
+       "text": "privacy policy",
+       "edsText": "privacy policy",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 300,
+        "w": 257,
+        "h": 43
+       },
+       "eds": {
+        "x": 14,
+        "y": 300,
+        "w": 257,
+        "h": 43,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 301,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 14,
+        "y": 301,
+        "w": 13,
+        "h": 13,
+        "sel": "input",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "button:input.wpcf7-form-control.wpcf7-submit#1",
+       "role": "button",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 347,
+        "w": 88,
+        "h": 39
+       },
+       "eds": {
+        "x": 0,
+        "y": 347,
+        "w": 88,
+        "h": 39,
+        "sel": "input.contact-form-submit",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/800",
+        "eds": "14/16/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 3102,
+       "w": 300,
+       "h": 386
+      },
+      "eds": {
+       "x": 30,
+       "y": 3102,
+       "w": 300,
+       "h": 386
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 17,
+  "off": 5,
+  "hidden": 0,
+  "missing": 1,
+  "errors": 0,
+  "requiredOff": 6
+ }
+}

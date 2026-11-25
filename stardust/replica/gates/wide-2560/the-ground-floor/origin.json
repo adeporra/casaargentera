@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.casaargentera.com/the-ground-floor/",
+  "reference": {
+    "dir": "stardust/replica/gates/wide-2560/the-ground-floor",
+    "capturedAt": "2026-11-24T23:43:25.073Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0,
+    "variableRows": 0,
+    "maskArg": ""
+  },
+  "note": "froze stardust/replica/gates/wide-2560/the-ground-floor/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-24T23:44:06.091Z"
+}

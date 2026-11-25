@@ -1,0 +1,84 @@
+/* ==========================================================================
+   Casa Argentera — "form" archetype (contact) modules. Imports canon.css first.
+   Lifted from source-spec (1440/360), the page's the7_shortcodes inline CSS and
+   the source sheet (css-rules.mjs over stardust/current/assets/css/combined.css).
+   Masthead veil: this page is rgba(221,179,110,.5) = the canon default (no override).
+   ========================================================================== */
+
+/* Font Awesome 5 Free solid (self-hosted capture) — direction glyphs */
+@font-face { font-family: "Font Awesome 5 Free"; src: url(fonts/fa-solid-900.woff2) format("woff2"); font-weight: 900; font-style: normal; font-display: block; }
+
+/* ---- current-page state (scoped locally; canon has no .act state — back-port candidate) */
+.main-nav > li.act > a .underline { width: 100%; }
+#phantom .main-nav > li.act > a, #phantom .main-nav > li.act > a .menu-text { color: #dd9d3b; }
+#phantom .main-nav > li.act > a .underline { background: #dd9d3b; }
+.mobile-main-nav li.act > a { color: #dd9d3b; }
+
+/* ---- WPBakery text column: last child carries no bottom margin; empty-space rows */
+.text-column > :last-child { margin-bottom: 0; }
+.space-46 { height: 46px; }
+/* WPBakery columns keep min-height 1px (lifted: .vc_col-sm-* { min-height: 1px }) — an empty
+   stacked column adds 1px at 360; canon .vc-col lacks it (back-port candidate) */
+.vc-col { min-height: 1px; }
+
+/* ---- Google Maps widget (vc gmaps, non-responsive): grey 5px frame, iframe 100% × 450.
+   Lifted: .wpb_gmaps_widget .wpb_wrapper { background #f7f7f7; padding 5px }
+           .wpb_map_wraper iframe { display block; width 100%; border none } */
+.map-embed { box-sizing: border-box; margin: 0; padding: 5px; background: #f7f7f7; }
+.map-embed__frame { padding: 0; background: none; }
+.map-embed iframe { display: block; width: 100%; height: 450px; margin: 0; padding: 0; border: 0; pointer-events: none; }
+
+/* ---- icon with text (The7 icon-with-text-shortcode, layout-1): 60px icon column,
+   glyph 32px Font Awesome solid #dd9933, h4 title 22/30 uppercase, margins 0 */
+.icon-text {
+  position: relative; display: grid; align-items: center;
+  grid-template-columns: 60px minmax(0, 1fr); grid-template-rows: auto;
+  grid-template-areas: "icon header" "icon desc" "icon button";
+}
+.icon-text > * { grid-column: 2; }
+.icon-text__icon {
+  position: relative; grid-area: icon; align-self: flex-start;
+  display: block; width: 60px; height: 60px; line-height: 60px; font-size: 32px; border-radius: 200px;
+}
+.icon-text__inner {
+  position: relative; display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box;
+  min-width: 60px; min-height: 60px; line-height: 26px; border-radius: 200px; text-align: center;
+}
+.fa-icon {
+  position: relative; z-index: 2; display: block; color: #dd9933;
+  font: normal 900 32px/32px "Font Awesome 5 Free"; -webkit-font-smoothing: antialiased; font-style: normal;
+}
+.fa-icon--plane::before { content: "\f072"; }
+.fa-icon--car-alt::before { content: "\f5de"; }
+.fa-icon--train::before { content: "\f238"; }
+.fa-icon--bus::before { content: "\f207"; }
+.icon-text__title {
+  grid-area: header; max-width: 100%; margin: 0;
+  color: #dd9933; font: 400 22px/30px var(--ca-font); text-transform: uppercase;
+}
+.icon-text__desc { grid-area: desc; max-width: 100%; margin: 0; font: 400 14px/25px var(--ca-font); }
+.icon-text--c30 .icon-text__desc { color: #303030; }
+
+/* ---- contact form (Contact Form 7 look, The7 form tokens) — same as the-garden */
+.cf7 { margin: 0; }
+.cf7-form { margin: 0; }
+.cf7-form p { margin: 0 0 10px; }
+.cf7-wrap { position: relative; }
+.cf7-field {
+  display: inline-block; box-sizing: border-box; width: 100%; height: 40px; margin: 0 0 10px; padding: 5px 15px;
+  border: 1px solid rgba(173, 176, 182, 0.3); border-radius: 0; background: #fcfcfc; color: #787d85;
+  font: 400 14px/25px var(--ca-font); vertical-align: baseline;
+}
+.cf7-textarea { height: auto; overflow: auto; vertical-align: top; resize: vertical; }
+.cf7-list-item { display: inline-block; margin: 0 0 0 1em; }
+.cf7-acceptance input { box-sizing: border-box; margin: 0; font-size: 100%; vertical-align: baseline; }
+.cf7-list-item-label::before, .cf7-list-item-label::after { content: " "; }
+.cf7-submit {
+  display: inline-flex; align-items: center; box-sizing: border-box; padding: 12px 25px 11px; border: 0 solid #dd9d3b;
+  border-radius: 25px; background: #dd9d3b; color: #fff; font: 800 14px/16px var(--ca-font); cursor: pointer;
+  -webkit-appearance: none; appearance: none;
+  transition: all .3s ease-out; /* lifted: .dt-btn,…input[type=submit] { transition: all 0.3s ease-out } (observed 300 ms) */
+}
+.cf7-submit:hover { background: #ae9964; }
+.cf7-spinner { position: relative; display: inline-block; width: 24px; height: 24px; margin: 0 24px; visibility: hidden; opacity: .75; }
+.cf7-response:empty { display: none; }

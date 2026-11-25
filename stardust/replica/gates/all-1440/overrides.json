@@ -1,0 +1,227 @@
+{
+  "es-inicio": {
+    "verdict": "pass",
+    "reason": "instrument artefact: the source wraps one accented letter of these headings in an inline <span lang> (e.g. EL JARD<span lang=\"ca\">Í</span>, PLAYA Y M<span lang=\"es\">ÁS</span>); content-presence tokenises the span with a space (\"el jard í\") so the identical served heading/link (\"EL JARDÍ\", same href) reads MISSING; DA drops the span. Waives content only for those MISSING HEADING/LINK pairs — every other content finding must be 0 (checked per run in stardust/.work/rollout/landing).",
+    "waives": [
+      "content"
+    ]
+  },
+  "ca-inici": {
+    "verdict": "pass",
+    "reason": "instrument artefact: the source wraps one accented letter of these headings in an inline <span lang> (e.g. EL JARD<span lang=\"ca\">Í</span>, PLAYA Y M<span lang=\"es\">ÁS</span>); content-presence tokenises the span with a space (\"el jard í\") so the identical served heading/link (\"EL JARDÍ\", same href) reads MISSING; DA drops the span. Waives content only for those MISSING HEADING/LINK pairs — every other content finding must be 0 (checked per run in stardust/.work/rollout/landing).",
+    "waives": [
+      "content"
+    ]
+  },
+  "ca-el-jardi": {
+    "verdict": "pass",
+    "reason": "instrument artefact: the source wraps one accented letter of \"GAUDEIX AL MÀXIM…\" (h1) and \"AL JARDÍ TROBAREU\" (h3) in an inline <span lang>; content-presence tokenises the span with a space so the identical served heading reads MISSING; DA drops the span. Waives content only for those MISSING HEADING rows — every other content finding must be 0 (checked per run in stardust/.work/rollout/program).",
+    "waives": [
+      "content"
+    ]
+  },
+  "beach-and-more": {
+    "verdict": "pass",
+    "reason": "source defect R-11 (stardust/replica/inconsistency-register.md): the live page's feature image(s) 404 (lazy loader → /wp/wp-content/…, srcset dropped), the frozen reference shows alt stubs; the build delivers the images. Pixel/units differ on those image columns only — painted out on both captures (probes/paint-residual.mjs, gate units.json boxes) the page measures 1% aligned (2.18% unaligned), Δh −24 @1440. Every other criterion must pass on its own (checked per run in stardust/.work/rollout/article).",
+    "waives": [
+      "pixel"
+    ]
+  },
+  "ca-platja-i-mes": {
+    "verdict": "pass",
+    "reason": "source defect R-11 (stardust/replica/inconsistency-register.md): the live page's feature image(s) 404 (lazy loader → /wp/wp-content/…, srcset dropped), the frozen reference shows alt stubs; the build delivers the images. Pixel/units differ on those image columns only — painted out on both captures (probes/paint-residual.mjs, gate units.json boxes) the page measures 0.75% aligned (1.45%), Δh −16 @1440. Every other criterion must pass on its own (checked per run in stardust/.work/rollout/article).",
+    "waives": [
+      "pixel"
+    ]
+  },
+  "da-strand-m-m": {
+    "verdict": "pass",
+    "reason": "source defect R-11 (stardust/replica/inconsistency-register.md): the live page's feature image(s) 404 (lazy loader → /wp/wp-content/…, srcset dropped), the frozen reference shows alt stubs; the build delivers the images. Pixel/units differ on those image columns only — painted out on both captures (probes/paint-residual.mjs, gate units.json boxes) the page measures 1.01% aligned (2.21%), Δh −24 @1440. Every other criterion must pass on its own (checked per run in stardust/.work/rollout/article).",
+    "waives": [
+      "pixel"
+    ]
+  },
+  "nature-sport": {
+    "verdict": "pass",
+    "reason": "source defect R-11 (stardust/replica/inconsistency-register.md): the live page's feature image(s) 404 (lazy loader → /wp/wp-content/…, srcset dropped), the frozen reference shows alt stubs; the build delivers the images. Pixel/units differ on those image columns only — painted out on both captures (probes/paint-residual.mjs, gate units.json boxes) the page measures 0.75% aligned (1.45%), Δh −16 @1440. Every other criterion must pass on its own (checked per run in stardust/.work/rollout/article).",
+    "waives": [
+      "pixel"
+    ]
+  },
+  "es-playas-y-mas": {
+    "verdict": "pass",
+    "reason": "source defect R-11 (stardust/replica/inconsistency-register.md): the live page's feature image(s) 404 (lazy loader → /wp/wp-content/…, srcset dropped), the frozen reference shows alt stubs; the build delivers the images. Pixel/units differ on those image columns only — painted out on both captures (probes/paint-residual.mjs, gate units.json boxes) the page measures 1.11% aligned (1.87%), Δh −14 @1440; instrument artefact: source paragraphs/headings wrapped whole or in part in an inline <span lang> — unit-geometry measures the inline span box (dy −3, dh +7 against the block paragraph; a span-wrapped heading fragment reads MISSING), DA drops the span (0 <span lang> in the served .plain.html). Every other criterion must pass on its own (checked per run in stardust/.work/rollout/article).",
+    "waives": [
+      "pixel",
+      "units"
+    ]
+  },
+  "es-naturaleza-deporte": {
+    "verdict": "pass",
+    "reason": "source defect R-11 (stardust/replica/inconsistency-register.md): the live page's feature image(s) 404 (lazy loader → /wp/wp-content/…, srcset dropped), the frozen reference shows alt stubs; the build delivers the images. Pixel/units differ on those image columns only — painted out on both captures (probes/paint-residual.mjs, gate units.json boxes) the page measures 0.75% aligned (1.53%), Δh −16 @1440; instrument artefact: source paragraphs/headings wrapped whole or in part in an inline <span lang> — unit-geometry measures the inline span box (dy −3, dh +7 against the block paragraph; a span-wrapped heading fragment reads MISSING), DA drops the span (0 <span lang> in the served .plain.html). Every other criterion must pass on its own (checked per run in stardust/.work/rollout/article).",
+    "waives": [
+      "pixel",
+      "units"
+    ]
+  },
+  "ca-natura-esport": {
+    "verdict": "pass",
+    "reason": "source defect R-11 (stardust/replica/inconsistency-register.md): the live page's feature image(s) 404 (lazy loader → /wp/wp-content/…, srcset dropped), the frozen reference shows alt stubs; the build delivers the images. Pixel/units differ on those image columns only — painted out on both captures (probes/paint-residual.mjs, gate units.json boxes) the page measures 0.91% aligned (1.61%), Δh −16 @1440; pipeline artefact: two adjacent <strong> runs (\"2.000 km de \" + \"carreteres tranquil·les\") are merged into one by the delivery pipeline (served .plain.html), so the second reads MISSING and the first wider; text identical. Every other criterion must pass on its own (checked per run in stardust/.work/rollout/article).",
+    "waives": [
+      "pixel",
+      "units"
+    ]
+  },
+  "da-natur-sport": {
+    "verdict": "pass",
+    "reason": "source defect R-11 (stardust/replica/inconsistency-register.md): the live page's feature image(s) 404 (lazy loader → /wp/wp-content/…, srcset dropped), the frozen reference shows alt stubs; the build delivers the images. Pixel/units differ on those image columns only — painted out on both captures (probes/paint-residual.mjs, gate units.json boxes) the page measures 3.73% aligned (5.18%), Δh −95 (the image row grows to the delivered image) @1440; instrument artefact: source paragraphs/headings wrapped whole or in part in an inline <span lang> — unit-geometry measures the inline span box (dy −3, dh +7 against the block paragraph; a span-wrapped heading fragment reads MISSING), DA drops the span (0 <span lang> in the served .plain.html). Every other criterion must pass on its own (checked per run in stardust/.work/rollout/article).",
+    "waives": [
+      "pixel",
+      "units"
+    ]
+  },
+  "es-la-casa": {
+    "verdict": "pass",
+    "reason": "source defect R-11 (stardust/replica/inconsistency-register.md): the live page's feature image(s) 404 (lazy loader → /wp/wp-content/…, srcset dropped), the frozen reference shows alt stubs; the build delivers the images. Pixel/units differ on those image columns only — painted out on both captures (probes/paint-residual.mjs, gate units.json boxes) the page measures 4.56% aligned (4.83%), Δh −143 (the ground-floor row grows to the delivered image) @1440; instrument artefact: source paragraphs/headings wrapped whole or in part in an inline <span lang> — unit-geometry measures the inline span box (dy −3, dh +7 against the block paragraph; a span-wrapped heading fragment reads MISSING), DA drops the span (0 <span lang> in the served .plain.html). Every other criterion must pass on its own (checked per run in stardust/.work/rollout/article).",
+    "waives": [
+      "units"
+    ]
+  },
+  "ca-la-casa": {
+    "verdict": "pass",
+    "reason": "source defect R-11 (stardust/replica/inconsistency-register.md): the live page's feature image(s) 404 (lazy loader → /wp/wp-content/…, srcset dropped), the frozen reference shows alt stubs; the build delivers the images. Pixel/units differ on those image columns only — painted out on both captures (probes/paint-residual.mjs, gate units.json boxes) the page measures 4.61% aligned (4.87%), Δh −143 (the ground-floor row grows to the delivered image) @1440; instrument artefact: source paragraphs/headings wrapped whole or in part in an inline <span lang> — unit-geometry measures the inline span box (dy −3, dh +7 against the block paragraph; a span-wrapped heading fragment reads MISSING), DA drops the span (0 <span lang> in the served .plain.html). Every other criterion must pass on its own (checked per run in stardust/.work/rollout/article).",
+    "waives": [
+      "units"
+    ]
+  },
+  "es-cultura": {
+    "verdict": "pass",
+    "reason": "instrument artefact: source paragraphs/headings wrapped whole or in part in an inline <span lang> — unit-geometry measures the inline span box (dy −3, dh +7 against the block paragraph; a span-wrapped heading fragment reads MISSING), DA drops the span (0 <span lang> in the served .plain.html). Every other criterion must pass on its own (checked per run in stardust/.work/rollout/article).",
+    "waives": [
+      "units"
+    ]
+  },
+  "ca-cultura": {
+    "verdict": "pass",
+    "reason": "instrument artefact: source paragraphs/headings wrapped whole or in part in an inline <span lang> — unit-geometry measures the inline span box (dy −3, dh +7 against the block paragraph; a span-wrapped heading fragment reads MISSING), DA drops the span (0 <span lang> in the served .plain.html). Every other criterion must pass on its own (checked per run in stardust/.work/rollout/article).",
+    "waives": [
+      "units"
+    ]
+  },
+  "contact": {
+    "verdict": "pass",
+    "reason": "instrument artefact (form template): unit-geometry measures the source label's inline box (CF7 <label> text + <br> + control, y 3 h 51 / 43) against the authored label paragraph the contact-form block MOVES into its <label> (EW1, block <p>, y 0 h 25) - dy -3, dh -26/-18 on the 5 labelled rows only; the label text, its position on the line and every control match (pixel 0.04 % @1440 / 0.23 % @360, dh 0, contact-direction units 4/4 within tolerance). Waives units only - every other criterion must pass on its own (stardust/.work/rollout/form).",
+    "waives": [
+      "units"
+    ]
+  },
+  "experiences": {
+    "verdict": "pass",
+    "reason": "source defect R-04 (stardust/replica/inconsistency-register.md, applied as R-11): the live page's Nature / sport and Beach and more teaser images 404 (lazy loader → /wp/wp-content/…, srcset dropped), the frozen reference shows blank stubs; the build delivers the images, laid out as the working Cultural experiences teaser. Pixel/units differ on those two teasers only (image box, the stub anchor, +8px line box each) — painted out on both captures (stardust/.work/rollout/listing/probes/paint-residual.mjs) the page measures 0.51% aligned (4.29% unaligned), Δh −16 @1440. Every other criterion must pass on its own (checked per run in stardust/.work/rollout/listing).",
+    "waives": [
+      "pixel",
+      "units"
+    ]
+  },
+  "reservations-2": {
+    "verdict": "pass",
+    "reason": "instrument artefact (booking template, same as contact / form template): unit-geometry measures the source label's inline box (CF7 <label> text + <br> + control, y 3 h 51 / 43) against the authored label paragraph the contact-form block MOVES into its <label> (EW1, block <p>, y 0 h 25) - dy -3, dh -26/-18 on the 5 labelled rows only; label text, line position and every control match; booking-price-column and booking-calendar-day units within tolerance. Waives units only - every other criterion must pass on its own (stardust/.work/rollout/booking).",
+    "waives": [
+      "units"
+    ]
+  },
+  "events": {
+    "verdict": "pass",
+    "reason": "instrument artefacts (events template), element kind only - every unit box within tolerance (12/12, max |d| 1px): (1) media grid: the source paints each item as a background-image .vc_gitem-zone div (MISSING box) where the image-grid gallery shows the authored <picture>/<img> of the same file at the same 363x204 box (EXTRA image) - the pairing the prototype gate accepted (gates/events-1440/rounds.json accept-residual); (2) form: the CF7 label inline box (y 3 h 51/43) vs the authored label paragraph the contact-form block MOVES into its <label> (EW1; y 0 h 25) on the 5 labelled rows - the contact precedent. pixel 0.48 % @1440 dh 0. Waives units only - every other criterion passes on its own (stardust/.work/rollout/events).",
+    "waives": [
+      "units"
+    ]
+  },
+  "es-contacto": {
+    "verdict": "pass",
+    "reason": "instrument artefact (form template, as contact): unit-geometry measures the source label's inline box (CF7 <label> text + <br> + control, y 3 h 51 / 43) against the authored label paragraph the contact-form block MOVES into its <label> (EW1, block <p>, y 0 h 25) - dy -3, dh -26/-18 on the 5 labelled rows only; label text, position on the line and every control match. Waives units only - every other criterion must pass on its own (stardust/.work/rollout/form).",
+    "waives": [
+      "units"
+    ]
+  },
+  "ca-contacte": {
+    "verdict": "pass",
+    "reason": "instrument artefact (form template, as contact): unit-geometry measures the source label's inline box (CF7 <label> text + <br> + control, y 3 h 51 / 43) against the authored label paragraph the contact-form block MOVES into its <label> (EW1, block <p>, y 0 h 25) - dy -3, dh -26/-18 on the 5 labelled rows only; label text, position on the line and every control match. Waives units only - every other criterion must pass on its own (stardust/.work/rollout/form).",
+    "waives": [
+      "units"
+    ]
+  },
+  "da-kontakt": {
+    "verdict": "pass",
+    "reason": "instrument artefact (form template, as contact): unit-geometry measures the source label's inline box (CF7 <label> text + <br> + control, y 3 h 51 / 43) against the authored label paragraph the contact-form block MOVES into its <label> (EW1, block <p>, y 0 h 25) - dy -3, dh -26/-18 on the 5 labelled rows only; label text, position on the line and every control match; register R-12 (stardust/replica/inconsistency-register.md): the source wraps the \"Med tog\" icon in an empty <a href=\"#\"> (no accessible name) that is not delivered - the one MISSING unit (role link, 60x60); glyph, size and position identical. Waives units only - every other criterion must pass on its own (stardust/.work/rollout/form).",
+    "waives": [
+      "units"
+    ]
+  },
+  "es-experiencias": {
+    "verdict": "pass",
+    "reason": "source defect R-04 (stardust/replica/inconsistency-register.md, applied as R-11; listing sibling of experiences): the live page's Experiencias de naturaleza y deporte and Playa y más teaser image(s) 404 (lazy loader → /wp/wp-content/…, srcset dropped), the frozen reference shows blank stubs; the build delivers the images, laid out as the working teaser. Pixel/units differ on those teasers only (image box, the stub anchor, +8px line box each) — painted out on both captures (stardust/.work/rollout/listing/probes/paint-residual.mjs) the page measures 0.51% aligned (4.33% unaligned), Δh −16 @1440. Every other criterion must pass on its own (checked per run in stardust/.work/rollout/listing).",
+    "waives": [
+      "pixel",
+      "units"
+    ]
+  },
+  "ca-experiencies": {
+    "verdict": "pass",
+    "reason": "source defect R-04 (stardust/replica/inconsistency-register.md, applied as R-11; listing sibling of experiences): the live page's Esperiències de natura / esport and Platja i més teaser image(s) 404 (lazy loader → /wp/wp-content/…, srcset dropped), the frozen reference shows blank stubs; the build delivers the images, laid out as the working teaser. Pixel/units differ on those teasers only (image box, the stub anchor, +8px line box each) — painted out on both captures (stardust/.work/rollout/listing/probes/paint-residual.mjs) the page measures 0.49% aligned (4.22% unaligned), Δh −16 @1440. Every other criterion must pass on its own (checked per run in stardust/.work/rollout/listing).",
+    "waives": [
+      "pixel",
+      "units"
+    ]
+  },
+  "da-oplevelser": {
+    "verdict": "pass",
+    "reason": "source defect R-04 (stardust/replica/inconsistency-register.md, applied as R-11; listing sibling of experiences): the live page's Natur / sports, Kultur (Escornalbou, first of its two images) and Strand m.m. teaser image(s) 404 (lazy loader → /wp/wp-content/…, srcset dropped), the frozen reference shows blank stubs; the build delivers the images, laid out as the working teaser. Pixel/units differ on those teasers only (image box, the stub anchor, +8px line box each) — painted out on both captures (stardust/.work/rollout/listing/probes/paint-residual.mjs) the page measures 0.62% aligned (1.05% unaligned), Δh −24 @1440. Every other criterion must pass on its own (checked per run in stardust/.work/rollout/listing).",
+    "waives": [
+      "pixel",
+      "units"
+    ]
+  },
+  "es-reservas": {
+    "verdict": "pass",
+    "reason": "instrument artefact (booking template, as reservations-2 / contact / form cluster): unit-geometry measures the source label's inline box (CF7 <label> text + <br> + control, y 3 h 51 / 43) against the authored label paragraph the contact-form block MOVES into its <label> (EW1, block <p>, y 0 h 25) - dy -3, dh -26/-18 on the 5 labelled rows only; label text, line position and every control match; es-reservas price column: the source's empty <p>&nbsp;</p> between the price heads and the italic notes is dropped by the delivery pipeline (deviation drop-empty logged on the sidecar; same pipeline behaviour the static unit recorded) - the two italic note rows sit 35px higher (dy -35); @360 the columns stack so the page is 35px shorter (aligned pixel 1.56 %, one 35px offset step, Δh 35 < 5 %). The note rows also measure a few px narrower (276→269 @1440; @360 a different wrap, 244→298): the foundation ships no Montserrat italic face (synthesised oblique vs the source's italic) - foundation request appended. Waives units only - every other criterion must pass on its own (stardust/.work/rollout/booking).",
+    "waives": [
+      "units"
+    ]
+  },
+  "ca-reserves": {
+    "verdict": "pass",
+    "reason": "instrument artefact (booking template, as reservations-2 / contact / form cluster): unit-geometry measures the source label's inline box (CF7 <label> text + <br> + control, y 3 h 51 / 43) against the authored label paragraph the contact-form block MOVES into its <label> (EW1, block <p>, y 0 h 25) - dy -3, dh -26/-18 on the 5 labelled rows only; label text, line position and every control match. Waives units only - every other criterion must pass on its own (stardust/.work/rollout/booking).",
+    "waives": [
+      "units"
+    ]
+  },
+  "da-reservations": {
+    "verdict": "pass",
+    "reason": "instrument artefact (booking template, as reservations-2 / contact / form cluster): unit-geometry measures the source label's inline box (CF7 <label> text + <br> + control, y 3 h 51 / 43) against the authored label paragraph the contact-form block MOVES into its <label> (EW1, block <p>, y 0 h 25) - dy -3, dh -26/-18 on the 5 labelled rows only; label text, line position and every control match. Waives units only - every other criterion must pass on its own (stardust/.work/rollout/booking).",
+    "waives": [
+      "units"
+    ]
+  },
+  "es-eventos": {
+    "verdict": "pass",
+    "reason": "instrument artefacts (events template, sibling of events - the archetype override verbatim), element kind only: (1) media grid: the source paints each of the 6 items as a background-image .vc_gitem-zone div (MISSING box) where the image-grid gallery shows the authored <picture>/<img> of the same file at the same 363x204 box (EXTRA image; zoom link boxes dx/dy/dw/dh 0); (2) form: the CF7 label inline box (dy -3, dh -26/-18) vs the authored label paragraph the contact-form block MOVES into its <label> (EW1) on the 5 labelled rows - the contact precedent. Row: pixel 0.48 %, Δh 0, clipped 0, content 0/0. Waives units only - pixel, height, clip and content pass on their own (stardust/.work/rollout/events).",
+    "waives": [
+      "units"
+    ]
+  },
+  "ca-esdeveniments": {
+    "verdict": "pass",
+    "reason": "instrument artefacts (events template, sibling of events - the archetype override verbatim), element kind only: (1) media grid: the source paints each of the 6 items as a background-image .vc_gitem-zone div (MISSING box) where the image-grid gallery shows the authored <picture>/<img> of the same file at the same 363x204 box (EXTRA image; zoom link boxes dx/dy/dw/dh 0); (2) form: the CF7 label inline box (dy -3, dh -26/-18) vs the authored label paragraph the contact-form block MOVES into its <label> (EW1) on the 5 labelled rows - the contact precedent. Row: pixel 0.48 %, Δh 0, clipped 0, content 0/0. Waives units only - pixel, height, clip and content pass on their own (stardust/.work/rollout/events).",
+    "waives": [
+      "units"
+    ]
+  },
+  "da-eventsda": {
+    "verdict": "pass",
+    "reason": "instrument artefacts (events template, sibling of events - the archetype override verbatim), element kind only: (1) media grid: the source paints each of the 6 items as a background-image .vc_gitem-zone div (MISSING box) where the image-grid gallery shows the authored <picture>/<img> of the same file at the same 363x204 box (EXTRA image; zoom link boxes dx/dy/dw/dh 0); (2) form: the CF7 label inline box (dy -3, dh -26/-18) vs the authored label paragraph the contact-form block MOVES into its <label> (EW1) on the 5 labelled rows - the contact precedent. Row: pixel aligned 1.65 %, Δh 35 (the source's trailing empty <p>&nbsp;</p> in the intro, dropped as drop-empty - within the 5 % bound), clipped 0, content 0/0. Waives units only - pixel, height, clip and content pass on their own (stardust/.work/rollout/events).",
+    "waives": [
+      "units"
+    ]
+  }
+}

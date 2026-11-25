@@ -1,0 +1,28 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://www.casaargentera.com/reservations-2/",
+  "width": 1440,
+  "vh": 900,
+  "height": 3020,
+  "chunks": 4,
+  "denialCheck": "ok",
+  "freeze": "applied",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 10,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 3,
+    "intervals": 3,
+    "chains": 0,
+    "delays": [
+      3610000,
+      86400000
+    ]
+  },
+  "at": "2026-11-24T11:40:49.908Z"
+}

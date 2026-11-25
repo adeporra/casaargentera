@@ -1,0 +1,70 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-24T22:33:09.138Z",
+  "url": "https://www.casaargentera.com/ca/contacte/",
+  "width": 2560,
+  "vh": 900,
+  "height": 2968,
+  "settle": true,
+  "chunks": 4,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 10,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 2,
+    "intervals": 2,
+    "chains": 0,
+    "delays": [
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 2968,
+    "pct": 0.02,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    2968,
+    2968
+  ],
+  "noiseFloor": 0.02,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [
+    {
+      "y": 1532,
+      "h": 56,
+      "pct": 1.4
+    }
+  ],
+  "variableShare": 1.89,
+  "maskArg": "1532:56",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-24T22:33:47.253Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

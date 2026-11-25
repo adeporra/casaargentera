@@ -1,0 +1,333 @@
+{
+  "a": "stardust/replica/gates/all-360/the-penthouse/origin.png",
+  "b": "stardust/replica/gates/all-360/the-penthouse/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 6620,
+    "mode": "overlap"
+  },
+  "heightDelta": 12,
+  "differingPixels": 48582,
+  "pct": 2.04,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/the-penthouse/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 4.21,
+  "textBoxes": 88,
+  "textPixels": 482078,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.3
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 2.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 5.2
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 2.6
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 1.4
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 5.7
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 6.8
+    },
+    {
+      "y0": 6500,
+      "y1": 6620,
+      "pct": 4.4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.47,
+    "differingPixels": 11222,
+    "compared": {
+      "width": 360,
+      "height": 6634,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 3439,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 3813,
+        "shift": -3,
+        "cumulative": -2
+      },
+      {
+        "y": 3847,
+        "shift": -3,
+        "cumulative": -5
+      },
+      {
+        "y": 3915,
+        "shift": -4,
+        "cumulative": -9
+      },
+      {
+        "y": 4177,
+        "shift": -3,
+        "cumulative": -12
+      },
+      {
+        "y": 6497,
+        "shift": -1,
+        "cumulative": -13
+      },
+      {
+        "y": 6632,
+        "shift": 1,
+        "cumulative": -12
+      }
+    ],
+    "maxOffset": 13,
+    "totalShift": 16,
+    "insertedRows": 2,
+    "deletedRows": 14,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.4,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 2.3,
+        "unaligned": 2.9
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 1.3,
+        "unaligned": 5.2
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 2.6
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0.6,
+        "unaligned": 1.4
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 5.7
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0.4,
+        "unaligned": 6.8
+      },
+      {
+        "y0": 6500,
+        "y1": 6632,
+        "pct": 0.9,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/the-penthouse/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 66,
+    "totalShift": 16,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--ea32f12a--aemcoder.aem.page/the-penthouse",
+    "key": {
+      "v": 3,
+      "build": "https://main--ea32f12a--aemcoder.aem.page/the-penthouse",
+      "source": "https://www.casaargentera.com/the-penthouse/",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "519c0df4e9ba792b",
+      "options": "bf5047b0a5c65691",
+      "reference": "fdbba7a1d8907b93",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "5eceb6d2d75c7715",
+      "instruments": "700566dc6f7774a4",
+      "page content": "906e32bd5d003721",
+      "shared code": "15fa74636bb99ab3",
+      "block contact-form": "3a6a80dfee427df3",
+      "block hero-slider": "9c515f6f76444750",
+      "block icon-features": "13f4bc54a1d0b119",
+      "block image-grid": "12f4434553966273"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 4,
+          "missingButtons": 0,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 0,
+          "findings": 1,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 51,
+          "controls": 18,
+          "total": 0
+        },
+        "groups": [],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 28,
+          "textNodes": 65,
+          "controls": 28,
+          "total": 0
+        },
+        "source": "content-presence"
+      },
+      "units": {
+        "verdict": {
+          "units": 10,
+          "within": 15,
+          "off": 0,
+          "hidden": 0,
+          "missing": 0,
+          "errors": 0,
+          "requiredOff": 0
+        },
+        "required": true,
+        "errors": []
+      }
+    },
+    "at": "2026-11-24T22:29:56.123Z"
+  }
+}

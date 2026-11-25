@@ -1,0 +1,120 @@
+{
+  "a": "stardust/replica/gates/wide-2560/es-naturaleza-deporte/origin.png",
+  "b": "stardust/replica/gates/wide-2560/es-naturaleza-deporte/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 2647,
+    "mode": "overlap"
+  },
+  "heightDelta": -16,
+  "differingPixels": 513279,
+  "pct": 7.57,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/wide-2560/es-naturaleza-deporte/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 12.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 14.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 12.8
+    },
+    {
+      "y0": 2500,
+      "y1": 2647,
+      "pct": 1.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 7.11,
+    "differingPixels": 484812,
+    "compared": {
+      "width": 2560,
+      "height": 2663,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2180,
+        "shift": 16,
+        "cumulative": 16
+      }
+    ],
+    "maxOffset": 16,
+    "totalShift": 16,
+    "insertedRows": 16,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 12.2,
+        "unaligned": 12.2
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 14.5,
+        "unaligned": 14.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 10.7,
+        "unaligned": 12.8
+      },
+      {
+        "y0": 2500,
+        "y1": 2647,
+        "pct": 0,
+        "unaligned": 1.5
+      }
+    ],
+    "diff": "stardust/replica/gates/wide-2560/es-naturaleza-deporte/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 26,
+    "totalShift": 16,
+    "pass": true
+  },
+  "reason": null
+}

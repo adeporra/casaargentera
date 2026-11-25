@@ -1,0 +1,186 @@
+{
+  "a": "stardust/replica/gates/prototypes-1440/culture/origin.png",
+  "b": "stardust/replica/gates/prototypes-1440/culture/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3114,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 7611,
+  "pct": 0.17,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/prototypes-1440/culture/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3114,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.17,
+    "differingPixels": 7611,
+    "compared": {
+      "width": 1440,
+      "height": 3114,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3114,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 0.17,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "http://localhost:8791/culture-proposed.html",
+    "key": {
+      "v": 3,
+      "build": "http://localhost:8791/culture-proposed.html",
+      "source": "https://www.casaargentera.com/culture/",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "a8141986d7966b5a",
+      "options": "ac3afe653f58f5e1",
+      "reference": "64cf0ceaa1e66413",
+      "archetype": "8b4ebae66c55de0f",
+      "captures": "9babb62dc62e1200",
+      "instruments": "700566dc6f7774a4",
+      "prototype": "09dee7b73770d5a5",
+      "page content": "99d4ccb055f42fe2"
+    },
+    "probes": {
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 72,
+          "controls": 27,
+          "total": 0
+        },
+        "groups": [],
+        "source": "clip-probe",
+        "tier": "chrome"
+      },
+      "units": {
+        "verdict": {
+          "units": 8,
+          "within": 25,
+          "off": 0,
+          "hidden": 0,
+          "missing": 0,
+          "errors": 0,
+          "requiredOff": 0
+        },
+        "required": true,
+        "errors": []
+      }
+    },
+    "at": "2026-11-24T12:08:20.176Z"
+  }
+}

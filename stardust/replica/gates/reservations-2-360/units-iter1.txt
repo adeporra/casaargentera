@@ -1,0 +1,66 @@
+[live-session] waiting to pace live navigations to www.casaargentera.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 360px, tol 4px — https://www.casaargentera.com/reservations-2/ vs http://localhost:8793/reservations-2-proposed.html
+unit 1 of booking-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,431 300×75 vs served 30,431 300×75 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "your name (required)" | 0,3 300×51 | 0,3 300×51 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input.wpcf7-form-control.wpcf7" | 0,25 300×40 | 0,25 300×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of booking-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,516 300×75 vs served 30,516 300×75 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "your email (required)" | 0,3 300×51 | 0,3 300×51 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input.wpcf7-form-control.wpcf7" | 0,25 300×40 | 0,25 300×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of booking-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,601 300×75 vs served 30,601 300×75 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "your number (required)" | 0,3 300×51 | 0,3 300×51 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input.wpcf7-form-control.wpcf7" | 0,25 300×40 | 0,25 300×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of booking-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,686 300×75 vs served 30,686 300×75 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "subject" | 0,3 300×51 | 0,3 300×51 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input.wpcf7-form-control.wpcf7" | 0,25 300×40 | 0,25 300×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of booking-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,771 300×50 vs served 30,771 300×50 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 6 of booking-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,831 300×386 vs served 30,831 300×386 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "your message" | 0,3 300×43 | 0,3 300×43 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:textarea.wpcf7-form-control.wp" | 0,25 300×262 | 0,25 300×262 | 0 | 0 | 0 | 0 | ✓ |
+| text "i have read and accept the" | 14,300 256×43 | 14,300 256×43 | 0 | 0 | 0 | 0 | ✓ |
+| link "privacy policy" | 14,300 256×43 | 14,300 256×43 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input#1" | 14,301 13×13 | 14,301 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| button "button:input.wpcf7-form-control.wpcf" | 0,347 88×39 | 0,347 88×39 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of booking-price-column (required) #content > .vc_row:nth-of-type(3) .wpb_text_column=#content .price-column .text-column: origin 30,1630 300×315 vs served 30,1630 300×315 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "prices per weekend" | 0,0 300×35 | 0,0 300×35 | 0 | 0 | 0 | 0 | ✓ |
+| text "950-975 € for up to 13 persons" | 0,48 220×18 | 0,48 220×18 | 0 | 0 | 0 | 0 | ✓ |
+| heading "prices per week in high season" | 0,80 300×70 | 0,80 300×70 | 0 | 0 | 0 | 0 | ✓ |
+| text "2975-3400 €" | 0,163 91×18 | 0,163 91×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "extra beds 15 € per bed per night" | 0,195 300×25 | 0,195 300×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "extra persons in the day (for events" | 0,230 300×25 | 0,230 300×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "for longer stays or other options, p" | 0,265 300×50 | 0,265 300×50 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of booking-price-column (required) #content > .vc_row:nth-of-type(3) .wpb_text_column=#content .price-column .text-column: origin 30,1945 300×315 vs served 30,1945 300×315 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "prices per weekend" | 0,0 300×35 | 0,0 300×35 | 0 | 0 | 0 | 0 | ✓ |
+| text "950 € for up to 13 persons" | 0,48 189×18 | 0,48 189×18 | 0 | 0 | 0 | 0 | ✓ |
+| heading "prices per week in high season" | 0,80 300×70 | 0,80 300×70 | 0 | 0 | 0 | 0 | ✓ |
+| text "2975-3200 €" | 0,163 90×18 | 0,163 90×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "extra beds 15 € per bed per night" | 0,195 300×25 | 0,195 300×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "extra persons in the day (for events" | 0,230 300×25 | 0,230 300×25 | 0 | 0 | 0 | 0 | ✓ |
+| text "for longer stays or other options, p" | 0,265 300×50 | 0,265 300×50 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of booking-calendar-day (required) [data-is-this-month] .ics-calendar-month-grid tbody td=.avail-calendar__grid tbody td: origin 30,1494 300×83 vs served 30,1494 300×83 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.day#1" | 0,0 300×35 | 0,0 300×35 | 0 | 0 | 0 | 0 | ✓ |
+| text "/" | 11,7 278×21 | 11,7 278×21 | 0 | 0 | 0 | 0 | ✓ |
+| text "tuesday" | 11,7 61×21 | 11,8 61×18 | 0 | +1 | 0 | -3 | ✓ |
+| text "24" | 76,7 18×21 | 76,8 18×18 | 0 | +1 | 0 | -3 | ✓ |
+| text "11" | 99,7 11×21 | 100,8 11×18 | +1 | +1 | 0 | -3 | ✓ |
+| text "all day" | 11,41 278×16 | 11,41 278×16 | 0 | 0 | 0 | 0 | ✓ |
+| text "airbnb (not available)" | 11,56 278×21 | 11,56 278×21 | 0 | 0 | 0 | 0 | ✓ |
+Units: 9 compared; elements within 35, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/reservations-2-360/units-iter1.json

@@ -1,0 +1,35 @@
+/* map — lifted from index.css (.gmaps) and contact.css (.map-embed): the WPBakery gmaps
+   frame, #f7f7f7 with 5px padding, iframe 100% x 450px, no pointer events (non-responsive). */
+
+.default-content-wrapper + .map-wrapper {
+  margin-top: 20px;
+}
+
+.map .map-frame {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5px;
+  background: #f7f7f7;
+}
+
+.map .map-frame iframe {
+  display: block;
+  width: 100%;
+  height: 450px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  pointer-events: none;
+}
+
+/* variant top-10 (form template, contact): the map shares the text column, 10px under its
+   last paragraph (the paragraph margin) instead of the 20px module gap */
+.default-content-wrapper + .map-wrapper:has(> .map.top-10) {
+  margin-top: 10px;
+}
+
+/* scoped override (foundation request queued): the page's first heading is its h1 (R-07), painted
+   as the canon h2 — contact's intro heading sits in the map section */
+main .map-container .default-content-wrapper h1 {
+  font: 200 50px/55px var(--ca-font);
+}

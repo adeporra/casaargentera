@@ -1,0 +1,245 @@
+{
+  "a": "stardust/replica/gates/all-360/es-inicio/origin.png",
+  "b": "stardust/replica/gates/all-360/es-inicio/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 6688,
+    "mode": "overlap"
+  },
+  "heightDelta": 73,
+  "differingPixels": 655408,
+  "pct": 28.45,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/es-inicio/diff.png",
+  "masks": [
+    {
+      "yA": 52,
+      "h": 216,
+      "yB": 52
+    },
+    {
+      "yA": 5552,
+      "h": 36,
+      "yB": 5552
+    },
+    {
+      "yA": 5772,
+      "h": 36,
+      "yB": 5772
+    }
+  ],
+  "maskedRows": 288,
+  "textPct": 5.73,
+  "textBoxes": 76,
+  "textPixels": 414157,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 44.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 41.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 3.7
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 19.4
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 37.3
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 61.8
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 63.8
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 39.4
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 34.2
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 15.4
+    },
+    {
+      "y0": 6500,
+      "y1": 6688,
+      "pct": 4.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 3.27,
+    "differingPixels": 75593,
+    "compared": {
+      "width": 360,
+      "height": 6413,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1372,
+        "shift": -25,
+        "cumulative": -25
+      },
+      {
+        "y": 3113,
+        "shift": 12,
+        "cumulative": -13
+      },
+      {
+        "y": 3939,
+        "shift": -30,
+        "cumulative": -43
+      },
+      {
+        "y": 4591,
+        "shift": -29,
+        "cumulative": -72
+      },
+      {
+        "y": 6760,
+        "shift": -1,
+        "cumulative": -73
+      }
+    ],
+    "maxOffset": 73,
+    "totalShift": 97,
+    "insertedRows": 12,
+    "deletedRows": 85,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 5.1,
+        "unaligned": 1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.7,
+        "unaligned": 44.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.6,
+        "unaligned": 41.4
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1.9,
+        "unaligned": 3.7
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 2.5,
+        "unaligned": 19.4
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 8.2,
+        "unaligned": 37.3
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 1.4,
+        "unaligned": 61.8
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 7.7,
+        "unaligned": 63.8
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 6,
+        "unaligned": 39.4
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 4.4,
+        "unaligned": 34.2
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 2.3,
+        "unaligned": 15.4
+      },
+      {
+        "y0": 6500,
+        "y1": 6761,
+        "pct": 1.5,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/es-inicio/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 68,
+    "totalShift": 97,
+    "pass": false
+  },
+  "reason": "offsets: 5 step(s), 97px total — −25px at y=1372, +12px at y=3113, −30px at y=3939, −29px at y=4591, −1px at y=6760 (bound 68px)",
+  "maskReason": "self-varying rows of the frozen reference (noise floor 0.15%)"
+}

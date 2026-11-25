@@ -1,0 +1,182 @@
+{
+  "/the-garden": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T13:33:49.392Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/el-jardi": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:04:43.354Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/el-pis-senyorial": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:04:43.355Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/la-casa-sencera": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:04:49.662Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/la-planta-baixa": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:04:49.782Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/latic": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:04:55.961Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/da/hele-huset": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:04:56.468Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/da/penthousekvisten": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:05:02.344Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/da/stueetagen": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:05:02.902Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/da/the-garden": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:05:08.772Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/da/the-noble-floor": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:05:09.115Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/es/el-atico": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:05:15.229Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/es/el-jardin": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:05:15.838Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/es/el-piso-senorial": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:05:21.863Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/es/la-casa-entera": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:05:22.019Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/es/la-planta-baja": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:05:27.870Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/the-ground-floor": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:05:27.955Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/the-noble-floor": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:05:34.803Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/the-penthouse": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:05:35.100Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/the-whole-house": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T15:05:41.404Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

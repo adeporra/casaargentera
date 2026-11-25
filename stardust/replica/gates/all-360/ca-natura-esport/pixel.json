@@ -1,0 +1,142 @@
+{
+  "a": "stardust/replica/gates/all-360/ca-natura-esport/origin.png",
+  "b": "stardust/replica/gates/all-360/ca-natura-esport/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3657,
+    "mode": "overlap"
+  },
+  "heightDelta": -24,
+  "differingPixels": 207466,
+  "pct": 15.76,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/ca-natura-esport/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 8.77,
+  "textBoxes": 91,
+  "textPixels": 414394,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 10.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 22.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 27.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 31.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 10.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 10.5
+    },
+    {
+      "y0": 3500,
+      "y1": 3657,
+      "pct": 4.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 12.95,
+    "differingPixels": 171566,
+    "compared": {
+      "width": 360,
+      "height": 3681,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2429,
+        "shift": 24,
+        "cumulative": 24
+      }
+    ],
+    "maxOffset": 24,
+    "totalShift": 24,
+    "insertedRows": 24,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 10.7,
+        "unaligned": 10.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 22.9,
+        "unaligned": 22.9
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 27.6,
+        "unaligned": 27.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 30.6,
+        "unaligned": 31.5
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1.4,
+        "unaligned": 10.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.2,
+        "unaligned": 10.5
+      },
+      {
+        "y0": 3500,
+        "y1": 3657,
+        "pct": 0,
+        "unaligned": 4.5
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/ca-natura-esport/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 37,
+    "totalShift": 24,
+    "pass": true
+  },
+  "reason": "pixel aligned 12.95% (unaligned 15.76%) > 10%"
+}

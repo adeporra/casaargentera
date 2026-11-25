@@ -1,0 +1,11 @@
+{
+  "writtenBy": "gate.sh --gate-against-baseline",
+  "origin": "baseline",
+  "url": "https://www.casaargentera.com/experiences/",
+  "width": 360,
+  "at": "2026-11-24T11:29:32.218Z",
+  "originBaseline": {
+    "capturedAt": "2026-11-24T11:29:32.218Z",
+    "height": 3000
+  }
+}

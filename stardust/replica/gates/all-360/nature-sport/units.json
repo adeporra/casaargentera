@@ -1,0 +1,845 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T22:27:19.140Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/nature-sport/",
+  "at": "2026-11-24T19:17:15.229Z",
+  "docH": 3557
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/nature-sport",
+  "at": "2026-11-24T22:27:19.064Z",
+  "docH": 3581
+ },
+ "results": [
+  {
+   "sel": "#content > .vc_row > .vc_col-sm-6=.media-feature .media-feature-col",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15923#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 880,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 880,
+       "w": 360,
+       "h": 179
+      },
+      "eds": {
+       "x": 0,
+       "y": 880,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 8
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:for cycling enthusiasts",
+       "role": "heading",
+       "text": "for cycling enthusiasts",
+       "edsText": "for cycling enthusiasts",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110,
+        "sel": "h2#for-cycling-enthusiasts",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:whether you are to thrilling , or , we h",
+       "role": "text",
+       "text": "whether you are to thrilling , or , we have more than 15 car",
+       "edsText": "whether you are to thrilling , or , we have more than 15 car",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 300
+       },
+       "eds": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 300,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:mtb paths",
+       "role": "text",
+       "text": "mtb paths",
+       "edsText": "mtb paths",
+       "byPosition": false,
+       "origin": {
+        "x": 227,
+        "y": 123,
+        "w": 78,
+        "h": 18
+       },
+       "eds": {
+        "x": 227,
+        "y": 123,
+        "w": 78,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:road cycling",
+       "role": "text",
+       "text": "road cycling",
+       "edsText": "road cycling",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 148,
+        "w": 90,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 148,
+        "w": 90,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:designed routes",
+       "role": "text",
+       "text": "designed routes",
+       "edsText": "designed routes",
+       "byPosition": false,
+       "origin": {
+        "x": 93,
+        "y": 173,
+        "w": 119,
+        "h": 18
+       },
+       "eds": {
+        "x": 93,
+        "y": 173,
+        "w": 119,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:natural and rural scenary",
+       "role": "text",
+       "text": "natural and rural scenary",
+       "edsText": "natural and rural scenary",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 223,
+        "w": 263,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 223,
+        "w": 263,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:2,000 km of quiet roads",
+       "role": "text",
+       "text": "2,000 km of quiet roads",
+       "edsText": "2,000 km of quiet roads",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 323,
+        "w": 295,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 323,
+        "w": 295,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1059,
+       "w": 360,
+       "h": 420
+      },
+      "eds": {
+       "x": 0,
+       "y": 1067,
+       "w": 360,
+       "h": 420
+      },
+      "dx": 0,
+      "dy": 8,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15481#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 1527,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1519,
+       "w": 360,
+       "h": 179
+      },
+      "eds": {
+       "x": 0,
+       "y": 1527,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 8,
+      "dw": 0,
+      "dh": 8
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:walking, trekking or hiking the route is",
+       "role": "heading",
+       "text": "walking, trekking or hiking the route is marked",
+       "edsText": "walking, trekking or hiking the route is marked",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 275
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 275,
+        "sel": "h2#walking-trekking-or-hiking-the-route-is-marked",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:hiking in this area is something you sho",
+       "role": "text",
+       "text": "hiking in this area is something you should not miss. explor",
+       "edsText": "hiking in this area is something you should not miss. explor",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 285,
+        "w": 300,
+        "h": 200
+       },
+       "eds": {
+        "x": 30,
+        "y": 285,
+        "w": 300,
+        "h": 200,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:many hiking routes at different difficul",
+       "role": "text",
+       "text": "many hiking routes at different difficulty levels",
+       "edsText": "many hiking routes at different difficulty levels",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 338,
+        "w": 288,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 338,
+        "w": 288,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1698,
+       "w": 360,
+       "h": 485
+      },
+      "eds": {
+       "x": 0,
+       "y": 1714,
+       "w": 360,
+       "h": 485
+      },
+      "dx": 0,
+      "dy": 16,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15725#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 2239,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2223,
+       "w": 360,
+       "h": 179
+      },
+      "eds": {
+       "x": 0,
+       "y": 2239,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 16,
+      "dw": 0,
+      "dh": 8
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:horse lovers",
+       "role": "heading",
+       "text": "horse lovers",
+       "edsText": "horse lovers",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 55
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 55,
+        "sel": "h2#horse-lovers",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:enjoy quiet through small roads and path",
+       "role": "text",
+       "text": "enjoy quiet through small roads and paths surrounded by oliv",
+       "edsText": "enjoy quiet through small roads and paths surrounded by oliv",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 65,
+        "w": 300,
+        "h": 150
+       },
+       "eds": {
+        "x": 30,
+        "y": 65,
+        "w": 300,
+        "h": 150,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:horseback riding",
+       "role": "text",
+       "text": "horseback riding",
+       "edsText": "horseback riding",
+       "byPosition": false,
+       "origin": {
+        "x": 113,
+        "y": 68,
+        "w": 124,
+        "h": 18
+       },
+       "eds": {
+        "x": 113,
+        "y": 68,
+        "w": 124,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2402,
+       "w": 360,
+       "h": 215
+      },
+      "eds": {
+       "x": 0,
+       "y": 2426,
+       "w": 360,
+       "h": 215
+      },
+      "dx": 0,
+      "dy": 24,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 6,
+  "within": 16,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

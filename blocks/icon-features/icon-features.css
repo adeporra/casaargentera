@@ -1,0 +1,151 @@
+/* icon-features — lifted from stardust/prototypes/the-garden.css (.icon-text*, .fa-icon*):
+   The7 icon-with-text layout-1 — grid of a 60px icon column and rows header / desc / button,
+   items centred; the icon cell is 60x60 round, glyph 32px Font Awesome 5 solid in #dd9933.
+   Per-shortcode description colours and margins are normalised (inconsistency register R-08). */
+
+/* scoped override (foundation request queued): the page's first heading is its h1 (R-07),
+   painted as the canon h2 — also here because accommodation pages without an image grid exist */
+main .icon-features-container .default-content-wrapper h1 {
+  font: 200 50px/55px var(--ca-font);
+}
+
+.default-content-wrapper + .icon-features-wrapper {
+  margin-top: 32px;
+}
+
+.icon-features-wrapper + .default-content-wrapper {
+  margin-top: 32px;
+}
+
+.icon-features .icon-features-item {
+  position: relative;
+  display: grid;
+  grid-template: "icon header" auto "icon desc" auto "icon button" auto / 60px minmax(0, 1fr);
+  align-items: center;
+}
+
+.icon-features .icon-features-item + .icon-features-item {
+  margin-top: 20px;
+}
+
+.icon-features .icon-features-item > * {
+  grid-column: 2;
+}
+
+.icon-features .icon-features-icon {
+  position: relative;
+  display: block;
+  grid-area: icon;
+  align-self: flex-start;
+  width: 60px;
+  height: 60px;
+  border-radius: 200px;
+  font-size: 32px;
+  line-height: 60px;
+}
+
+.icon-features .icon-features-inner {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 60px;
+  min-height: 60px;
+  border-radius: 200px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.icon-features .icon-features-glyph {
+  position: relative;
+  z-index: 2;
+  display: block;
+  color: #d93;
+  font: normal 900 32px/32px var(--ca-fa-font);
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-features .icon-features-title {
+  grid-area: header;
+  max-width: 100%;
+}
+
+.icon-features .icon-features-title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  color: #d93;
+  font: 400 17px/27px var(--ca-font);
+  text-transform: uppercase;
+}
+
+.icon-features .icon-features-desc {
+  grid-area: desc;
+  max-width: 100%;
+  color: #303030;
+  font: 400 14px/25px var(--ca-font);
+}
+
+.icon-features .icon-features-desc > * {
+  margin: 0 0 10px;
+}
+
+.icon-features .icon-features-desc > :last-child {
+  margin-bottom: 0;
+}
+
+/* Font Awesome 5 solid glyphs used by the source's icon-with-text boxes (codepoints from the
+   captured all.min.css) */
+.icon-features .icon-features-glyph-baby::before { content: "\f77c"; }
+.icon-features .icon-features-glyph-bacon::before { content: "\f7e5"; }
+.icon-features .icon-features-glyph-bath::before { content: "\f2cd"; }
+.icon-features .icon-features-glyph-bed::before { content: "\f236"; }
+.icon-features .icon-features-glyph-book-reader::before { content: "\f5da"; }
+.icon-features .icon-features-glyph-bus::before { content: "\f207"; }
+.icon-features .icon-features-glyph-car-alt::before { content: "\f5de"; }
+.icon-features .icon-features-glyph-chair::before { content: "\f6c0"; }
+.icon-features .icon-features-glyph-child::before { content: "\f1ae"; }
+.icon-features .icon-features-glyph-cocktail::before { content: "\f561"; }
+.icon-features .icon-features-glyph-cookie-bite::before { content: "\f564"; }
+.icon-features .icon-features-glyph-dumpster-fire::before { content: "\f794"; }
+.icon-features .icon-features-glyph-film::before { content: "\f008"; }
+.icon-features .icon-features-glyph-fire-alt::before { content: "\f7e4"; }
+.icon-features .icon-features-glyph-grip-horizontal::before { content: "\f58d"; }
+.icon-features .icon-features-glyph-plane::before { content: "\f072"; }
+.icon-features .icon-features-glyph-sun::before { content: "\f185"; }
+.icon-features .icon-features-glyph-swimmer::before { content: "\f5c4"; }
+.icon-features .icon-features-glyph-swimming-pool::before { content: "\f5c5"; }
+.icon-features .icon-features-glyph-thermometer-half::before { content: "\f2c9"; }
+.icon-features .icon-features-glyph-train::before { content: "\f238"; }
+.icon-features .icon-features-glyph-utensil-spoon::before { content: "\f2e5"; }
+.icon-features .icon-features-glyph-wine-glass-alt::before { content: "\f5ce"; }
+
+/* The7's own icomoon set (icon word = the class without `icomoon-the7-font-`, e.g. the7-home-021;
+   codepoint from the captured combined.css; font self-hosted by the foundation) */
+.icon-features .icon-features-glyph[class*="icon-features-glyph-the7-"] {
+  font-family: var(--ca-icon-font);
+  font-weight: 400;
+}
+
+.icon-features .icon-features-glyph-the7-home-021::before { content: "\e3021"; }
+
+/* Font Awesome 5 brands glyph (the brands font is not self-hosted — foundation request queued):
+   the glyph outline as a mask, 28x32 = its advance x the 32px em box */
+.icon-features .icon-features-glyph-hotjar::before {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 32px;
+  background-color: currentcolor;
+  mask: url("fa-hotjar.svg") center / contain no-repeat;
+}
+
+/* variants (form template, contact): title-22 — h4 titles, The7 paints the title with its
+   heading level (h4 22px/30px; default = h5 17px/27px); gap-32 — 32px spacers between boxes */
+.icon-features.title-22 .icon-features-title :is(h1, h2, h3, h4, h5, h6) {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.icon-features.gap-32 .icon-features-item + .icon-features-item {
+  margin-top: 32px;
+}

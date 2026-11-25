@@ -1,0 +1,131 @@
+{
+  "a": "stardust/replica/gates/all-1440/es-la-casa/origin.png",
+  "b": "stardust/replica/gates/all-1440/es-la-casa/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3156,
+    "mode": "overlap"
+  },
+  "heightDelta": -143,
+  "differingPixels": 328322,
+  "pct": 7.22,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/es-la-casa/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 4.14,
+  "textBoxes": 88,
+  "textPixels": 388372,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 41.7
+    },
+    {
+      "y0": 3000,
+      "y1": 3156,
+      "pct": 8.4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 6.7,
+    "differingPixels": 318500,
+    "compared": {
+      "width": 1440,
+      "height": 3299,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2752,
+        "shift": 143,
+        "cumulative": 143
+      }
+    ],
+    "maxOffset": 143,
+    "totalShift": 143,
+    "insertedRows": 143,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 33.3,
+        "unaligned": 41.7
+      },
+      {
+        "y0": 3000,
+        "y1": 3156,
+        "pct": 0.4,
+        "unaligned": 8.4
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/es-la-casa/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 32,
+    "totalShift": 143,
+    "pass": false
+  },
+  "reason": "offsets: 1 step(s), 143px total — +143px at y=2752 (bound 32px)"
+}

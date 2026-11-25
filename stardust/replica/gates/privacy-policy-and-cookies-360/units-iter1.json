@@ -1,0 +1,400 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T12:03:42.307Z",
+  "tol": 4,
+  "n": 9,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/privacy-policy-and-cookies/",
+  "at": "2026-11-24T12:03:27.378Z",
+  "docH": 5511
+ },
+ "eds": {
+  "url": "http://localhost:8792/privacy-policy-and-cookies-proposed.html",
+  "at": "2026-11-24T12:03:42.254Z",
+  "docH": 5511
+ },
+ "results": [
+  {
+   "sel": "#content .wpb_text_column h4=#content .text-column h4",
+   "family": "legal-section-heading",
+   "required": true,
+   "originMatches": 9,
+   "edsMatches": 9,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.vc-col > div.text-column > h4"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 580,
+       "w": 300,
+       "h": 30
+      },
+      "eds": {
+       "x": 30,
+       "y": 580,
+       "w": 300,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.vc-col > div.text-column > h4"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 1190,
+       "w": 300,
+       "h": 30
+      },
+      "eds": {
+       "x": 30,
+       "y": 1190,
+       "w": 300,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.vc-col > div.text-column > h4"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 1575,
+       "w": 300,
+       "h": 30
+      },
+      "eds": {
+       "x": 30,
+       "y": 1575,
+       "w": 300,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.vc-col > div.text-column > h4"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 1850,
+       "w": 300,
+       "h": 30
+      },
+      "eds": {
+       "x": 30,
+       "y": 1850,
+       "w": 300,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.vc-col > div.text-column > h4"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 2185,
+       "w": 300,
+       "h": 30
+      },
+      "eds": {
+       "x": 30,
+       "y": 2185,
+       "w": 300,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.vc-col > div.text-column > h4"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 2385,
+       "w": 300,
+       "h": 60
+      },
+      "eds": {
+       "x": 30,
+       "y": 2385,
+       "w": 300,
+       "h": 60
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.vc-col > div.text-column > h4"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 3050,
+       "w": 300,
+       "h": 60
+      },
+      "eds": {
+       "x": 30,
+       "y": 3050,
+       "w": 300,
+       "h": 60
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.vc-col > div.text-column > h4"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 3380,
+       "w": 300,
+       "h": 30
+      },
+      "eds": {
+       "x": 30,
+       "y": 3380,
+       "w": 300,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.vc-col > div.text-column > h4"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 4145,
+       "w": 300,
+       "h": 30
+      },
+      "eds": {
+       "x": 30,
+       "y": 4145,
+       "w": 300,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 9,
+  "within": 0,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

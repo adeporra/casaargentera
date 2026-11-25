@@ -1,0 +1,26 @@
+{
+ "pages": 8,
+ "vendors": [
+  {
+   "host": "www.casaargentera.com",
+   "pages": 8,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "www.google.com",
+   "pages": 8,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "dataLayer": 8,
+  "gtag(": 8
+ },
+ "cspHosts": []
+}

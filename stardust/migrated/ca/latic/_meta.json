@@ -1,0 +1,152 @@
+{
+  "slug": "ca-latic",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "the-garden",
+  "modules": [
+    "hero-slider",
+    "image-grid",
+    "icon-features",
+    "contact-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "wf-wrap"
+  ],
+  "canonShas": {
+    "header": "e34713a1ef20",
+    "footer": "975cee783dcb",
+    "css": "89a5d300aec7"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "spacing",
+      "intro-gap": "vc_empty_space 50 (archetype 32)",
+      "stacked-col": "col 3 of the thirds row stacks 2 images with a 70px spacer",
+      "note": "carried verbatim in the clone; budget at the cluster gate"
+    }
+  ],
+  "metadata": {
+    "title": "L'ÀTIC - Casa Argentera",
+    "description": "Les antigues finestres corvades d’aquest àtic per 4 permet entrar molta llum. Dues habitacions amb vistes al jardí. Taula ideal per a menjades en família.",
+    "canonical": null,
+    "lang": "ca"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "L'ÀTIC - Casa Argentera",
+    "description": "Les antigues finestres corvades d’aquest àtic per 4 permet entrar molta llum. Dues habitacions amb vistes al jardí. Taula ideal per a menjades en família.",
+    "url": "https://www.casaargentera.com/ca/latic/"
+  },
+  "migratedAt": "2026-11-24T13:57:17Z",
+  "designMdSha": "7ead730e40e5",
+  "designJsonSha": "15480f089476",
+  "sourceCurrentSha": "d4327717f22e",
+  "sourceProposedSha": "9937b798e743",
+  "fidelityTier": "sibling",
+  "archetypeSource": "the-garden",
+  "archetypeSha": "954a46a6979f",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 over el-atico, la-planta-baja, ca/la-casa-sencera, the-penthouse, da/hele-huset vs /the-garden/: content-driven deltas only (image/feature counts, text heights, contact heading level verbatim) + vc_grid media grid on the ground-floor pages → variant gallery; stardust/.work/rollout/program/variance.json",
+    "content-fidelity": "Path A' clone stardust/.work/rollout/program/src/ca-latic-proposed.html (stardust/encoders/build-clone-program.mjs) from the capture: verbatim headings/inline spans, paragraphs, images+alts, feature titles/descs, CF7 labels/notes/acceptance/submit; content-diff #main 🔴 0 🟡 0, counts equal (stardust/.work/rollout/program/content-diff-ca-latic.txt); chrome 🔴 = canon-chrome deviation"
+  },
+  "contentDeviations": [
+    {
+      "kind": "chrome-canon",
+      "source": "WP header/footer (localized; incl. mobile-menu socials/language duplicates)",
+      "target": "canon chrome in clone",
+      "reason": "Path A' clone carries canon chrome verbatim; EDS delivery uses the (locale) nav/footer docs"
+    }
+  ],
+  "assetsBundled": 16,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-place/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/nature-sport/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/beach-and-more/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/who-we-are/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-place/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/nature-sport/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/beach-and-more/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/who-we-are/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-place/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/nature-sport/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/beach-and-more/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/who-we-are/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/privacy-policy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/the-garden/",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "ca/latic/index.html",
+  "outputPathDefault": null,
+  "sidecar": "ca/latic/_meta.json",
+  "driverVersion": "1"
+}

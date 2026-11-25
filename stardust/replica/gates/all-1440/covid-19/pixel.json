@@ -1,0 +1,165 @@
+{
+  "a": "stardust/replica/gates/all-1440/covid-19/origin.png",
+  "b": "stardust/replica/gates/all-1440/covid-19/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 1169,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 2896,
+  "pct": 0.17,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/covid-19/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0.13,
+  "textBoxes": 49,
+  "textPixels": 306210,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1169,
+      "pct": 0.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.17,
+    "differingPixels": 2896,
+    "compared": {
+      "width": 1440,
+      "height": 1169,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1169,
+        "pct": 0.6,
+        "unaligned": 0.6
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 0.17,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--ea32f12a--aemcoder.aem.page/covid-19",
+    "key": {
+      "v": 3,
+      "build": "https://main--ea32f12a--aemcoder.aem.page/covid-19",
+      "source": "https://www.casaargentera.com/covid-19/",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "4f53cda18c2baa0c",
+      "options": "8a9d0203c520c6bb",
+      "reference": "7f365bfe2fdd74ea",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "4aab4050363ddda1",
+      "instruments": "700566dc6f7774a4",
+      "page content": "ae747722d7655683",
+      "shared code": "fbb0d3863af313c8",
+      "block spacer": "5296486697f80d6c"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 0,
+          "missingButtons": 0,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 1,
+          "findings": 1,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 43,
+          "controls": 22,
+          "total": 0
+        },
+        "groups": [],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 40,
+          "controls": 22,
+          "total": 0
+        },
+        "source": "content-presence"
+      }
+    },
+    "at": "2026-11-25T00:28:01.819Z"
+  }
+}

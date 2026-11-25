@@ -1,0 +1,2609 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-24T21:38:24.588Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/ca/contacte/",
+  "at": "2026-11-24T21:38:24.475Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2968,
+  "root": null,
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.top-bar.top-bar-line-hide > div.left-widgets.mini-widgets > span.mini-contacts.phone",
+    "x": 60,
+    "y": 9,
+    "w": 129,
+    "h": 19,
+    "text": "+34 678 866 588"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.top-bar.top-bar-line-hide > div.left-widgets.mini-widgets > span.mini-contacts.email",
+    "x": 209,
+    "y": 9,
+    "w": 186,
+    "h": 19,
+    "text": "info@casaargentera.com"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#top-menu > li.polylang-item.lang-item > a",
+    "x": 1208,
+    "y": 9,
+    "w": 48,
+    "h": 19,
+    "text": "english",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#top-menu > li.polylang-item.lang-item > a",
+    "x": 1272,
+    "y": 9,
+    "w": 41,
+    "h": 19,
+    "text": "dansk",
+    "href": "/da/home/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#top-menu > li.polylang-item.lang-item > a",
+    "x": 1329,
+    "y": 9,
+    "w": 51,
+    "h": 19,
+    "text": "español",
+    "href": "/es/inicio/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "header.header-bar > div.branding > a",
+    "x": 60,
+    "y": 36,
+    "w": 172,
+    "h": 136,
+    "text": "casa argentera",
+    "href": "/ca/inici/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.branding > a > img.preload-me",
+    "x": 60,
+    "y": 36,
+    "w": 172,
+    "h": 136,
+    "text": "casa argentera",
+    "file": "casaargentera_logo_2010"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 374,
+    "y": 91,
+    "w": 71,
+    "h": 26,
+    "text": "la casa",
+    "href": "/ca/la-casa/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 475,
+    "y": 91,
+    "w": 73,
+    "h": 26,
+    "text": "l’entorn",
+    "href": "/ca/lentorn/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 578,
+    "y": 91,
+    "w": 115,
+    "h": 26,
+    "text": "experiències",
+    "href": "/ca/experiencies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 723,
+    "y": 91,
+    "w": 125,
+    "h": 26,
+    "text": "esdeveniments",
+    "href": "/ca/esdeveniments/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 878,
+    "y": 91,
+    "w": 65,
+    "h": 26,
+    "text": "qui som",
+    "href": "/ca/qui-som/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 973,
+    "y": 91,
+    "w": 78,
+    "h": 26,
+    "text": "contacte",
+    "href": "/ca/contacte/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 1081,
+    "y": 91,
+    "w": 76,
+    "h": 26,
+    "text": "reserves",
+    "href": "/ca/reserves/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mini-widgets > div.soc-ico.show-on-desktop > a.instagram",
+    "x": 1328,
+    "y": 91,
+    "w": 24,
+    "h": 24,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mini-widgets > div.soc-ico.show-on-desktop > a.facebook",
+    "x": 1356,
+    "y": 91,
+    "w": 24,
+    "h": 24,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 155,
+    "y": 928,
+    "w": 1130,
+    "h": 165,
+    "level": 2,
+    "text": "la casa argentera està situada al pintoresc poble de l’argentera, entre la zona vinícola del priorat i el mar mediterran"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 155,
+    "y": 1103,
+    "w": 1130,
+    "h": 25,
+    "text": "als principals lloc d’interès: 20 km, 35 km, Port Aventura World 29 km, 130 km."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h3",
+    "x": 155,
+    "y": 1644,
+    "w": 535,
+    "h": 35,
+    "level": 3,
+    "text": "com arribar"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h3",
+    "x": 750,
+    "y": 1644,
+    "w": 535,
+    "h": 70,
+    "level": 3,
+    "text": "contacteu-nos per rebre més informació o fer suggeriments"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-dd9cb7386edfad157cdfa2950e4752a4 > h4.dt-text-title",
+    "x": 215,
+    "y": 1746,
+    "w": 475,
+    "h": 30,
+    "level": 4,
+    "text": "en avió"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-dd9cb7386edfad157cdfa2950e4752a4 > div.dt-text-desc",
+    "x": 215,
+    "y": 1776,
+    "w": 475,
+    "h": 100,
+    "text": "L'aeroport de Reus és a només 35 minuts en cotxe. L'aeroport de Barcelona és a 1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-ce96513d114ad2037313011700fbc8f9 > h4.dt-text-title",
+    "x": 215,
+    "y": 1908,
+    "w": 475,
+    "h": 30,
+    "level": 4,
+    "text": "en cotxe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-ce96513d114ad2037313011700fbc8f9 > div.dt-text-desc",
+    "x": 215,
+    "y": 1938,
+    "w": 475,
+    "h": 250,
+    "text": "- Des de Barcelona Per l'autopista AP7 o bé l'autovia A7, en direcció sud fins a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-d864770d07f0626f455501947cbeeae1 > h4.dt-text-title",
+    "x": 215,
+    "y": 2220,
+    "w": 475,
+    "h": 30,
+    "level": 4,
+    "text": "en tren"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-d864770d07f0626f455501947cbeeae1 > div.dt-text-desc",
+    "x": 215,
+    "y": 2250,
+    "w": 475,
+    "h": 75,
+    "text": "L’estació de ferrocarril es troba a 1,1 km de distància. Actualment hi ha 3 arri"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-0cd4bdf8187e96fe2077d01a45e4c443 > h4.dt-text-title",
+    "x": 215,
+    "y": 2357,
+    "w": 475,
+    "h": 30,
+    "level": 4,
+    "text": "en autobús"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-0cd4bdf8187e96fe2077d01a45e4c443 > div.dt-text-desc",
+    "x": 215,
+    "y": 2387,
+    "w": 475,
+    "h": 100,
+    "text": "Hi ha 2 arribades i sortides els dilluns i dijous des de Reus. L'autobús surt de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 750,
+    "y": 1749,
+    "w": 535,
+    "h": 51,
+    "text": "Nom (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 750,
+    "y": 1834,
+    "w": 535,
+    "h": 51,
+    "text": "Correu electrònic (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 750,
+    "y": 1919,
+    "w": 535,
+    "h": 51,
+    "text": "El teu telèfon (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 750,
+    "y": 2004,
+    "w": 535,
+    "h": 51,
+    "text": "Assumpte"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#wpcf7-f16221-p16219-o1 > form.wpcf7-form.init > p",
+    "x": 750,
+    "y": 2086,
+    "w": 535,
+    "h": 25,
+    "text": "Cal afegir les vostres preferències respecte a les dates d’entrada i sortida."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 750,
+    "y": 2124,
+    "w": 535,
+    "h": 43,
+    "text": "El vostre missatge"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "span.wpcf7-list-item > label > span.wpcf7-list-item-label",
+    "x": 777,
+    "y": 2421,
+    "w": 243,
+    "h": 18,
+    "text": "He llegit i accepto la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "label > span.wpcf7-list-item-label > a",
+    "x": 925,
+    "y": 2421,
+    "w": 95,
+    "h": 18,
+    "text": "privacy policy",
+    "href": "/wp/privacy-policy/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > input.wpcf7-form-control.wpcf7-submit",
+    "x": 750,
+    "y": 2443,
+    "w": 97,
+    "h": 39,
+    "text": "enviar"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-4 > div.widget-title",
+    "x": 155,
+    "y": 2639,
+    "w": 337,
+    "h": 27,
+    "text": "CONTACTE"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-4 > div.textwidget > p",
+    "x": 155,
+    "y": 2681,
+    "w": 337,
+    "h": 100,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 155,
+    "y": 2759,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#search-4 > div.widget-title",
+    "x": 552,
+    "y": 2639,
+    "w": 337,
+    "h": 27,
+    "text": "CERCA"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#search-4 > form.searchform > a.submit",
+    "x": 857,
+    "y": 2681,
+    "w": 20,
+    "h": 40,
+    "text": "",
+    "href": "/ca/contacte/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#presscore-contact-info-widget-3 > div.widget-title",
+    "x": 948,
+    "y": 2639,
+    "w": 337,
+    "h": 27,
+    "text": "SEGUEIX-NOS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.facebook",
+    "x": 950,
+    "y": 2683,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.instagram",
+    "x": 980,
+    "y": 2683,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-6 > div.widget-title",
+    "x": 155,
+    "y": 2811,
+    "w": 337,
+    "h": 27,
+    "text": "ALTRES LLOGUERS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-6 > div.textwidget > p",
+    "x": 155,
+    "y": 2853,
+    "w": 337,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTÀ C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 155,
+    "y": 2906,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-3 > div.widget-title",
+    "x": 552,
+    "y": 2811,
+    "w": 337,
+    "h": 27,
+    "text": "INFO LEGAL"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-3 > div.textwidget > p",
+    "x": 552,
+    "y": 2853,
+    "w": 337,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 552,
+    "y": 2856,
+    "w": 208,
+    "h": 18,
+    "text": "política de privacitat i cookies",
+    "href": "/ca/politica-de-privacitat-i-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 948,
+    "y": 2811,
+    "w": 337,
+    "h": 25,
+    "text": "english",
+    "href": "/contact/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 948,
+    "y": 2836,
+    "w": 337,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/kontakt/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 948,
+    "y": 2861,
+    "w": 337,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/contacte/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 948,
+    "y": 2886,
+    "w": 337,
+    "h": 25,
+    "text": "español",
+    "href": "/es/contacto/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 64,
+    "controls": 25,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/ca/contacte",
+  "at": "2026-11-24T21:38:21.097Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 2968,
+  "root": "main#main",
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.top-bar > div.top-bar-left > span.mini-contacts.phone",
+    "x": 60,
+    "y": 9,
+    "w": 129,
+    "h": 19,
+    "text": "+34 678 866 588"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.top-bar > div.top-bar-left > span.mini-contacts.email",
+    "x": 209,
+    "y": 9,
+    "w": 186,
+    "h": 19,
+    "text": "info@casaargentera.com"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.top-menu > li > a",
+    "x": 1208,
+    "y": 9,
+    "w": 48,
+    "h": 19,
+    "text": "english",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.top-menu > li > a",
+    "x": 1272,
+    "y": 9,
+    "w": 41,
+    "h": 19,
+    "text": "dansk",
+    "href": "/da/home"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.top-menu > li > a",
+    "x": 1329,
+    "y": 9,
+    "w": 51,
+    "h": 19,
+    "text": "español",
+    "href": "/es/inicio"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-bar > div.branding > a",
+    "x": 60,
+    "y": 36,
+    "w": 172,
+    "h": 136,
+    "text": "casa argentera",
+    "href": "/ca/inici"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 60,
+    "y": 36,
+    "w": 172,
+    "h": 136,
+    "text": "casa argentera",
+    "file": "media_183733dd1c34649cd152dddde69ab1adb4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li.has-children > a",
+    "x": 374,
+    "y": 91,
+    "w": 71,
+    "h": 26,
+    "text": "la casa",
+    "href": "/ca/la-casa"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li > a",
+    "x": 475,
+    "y": 91,
+    "w": 73,
+    "h": 26,
+    "text": "l’entorn",
+    "href": "/ca/lentorn"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li.has-children > a",
+    "x": 578,
+    "y": 91,
+    "w": 115,
+    "h": 26,
+    "text": "experiències",
+    "href": "/ca/experiencies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li > a",
+    "x": 723,
+    "y": 91,
+    "w": 125,
+    "h": 26,
+    "text": "esdeveniments",
+    "href": "/ca/esdeveniments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li > a",
+    "x": 878,
+    "y": 91,
+    "w": 65,
+    "h": 26,
+    "text": "qui som",
+    "href": "/ca/qui-som"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li.act > a",
+    "x": 973,
+    "y": 91,
+    "w": 78,
+    "h": 26,
+    "text": "contacte",
+    "href": "/ca/contacte"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li > a",
+    "x": 1081,
+    "y": 91,
+    "w": 76,
+    "h": 26,
+    "text": "reserves",
+    "href": "/ca/reserves"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-bar > div.soc-ico > a.instagram",
+    "x": 1328,
+    "y": 92,
+    "w": 24,
+    "h": 24,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-bar > div.soc-ico > a.facebook",
+    "x": 1356,
+    "y": 92,
+    "w": 24,
+    "h": 24,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slide-media > picture > img",
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 868,
+    "text": "l'argentera, baix camp, tarragona, spain",
+    "file": "media_1b050c62e815926e8d11fb4ea58a1a8527"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.map-container > div.default-content-wrapper > h1#la-casa-argentera-està-situada-al-pintoresc-poble-de-largentera-entre-la-zona-vinícola-del-priorat-i-el-mar-mediterrani",
+    "x": 155,
+    "y": 928,
+    "w": 1130,
+    "h": 165,
+    "level": 1,
+    "text": "la casa argentera està situada al pintoresc poble de l’argentera, entre la zona vinícola del priorat i el mar mediterran"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.map-container > div.default-content-wrapper > p",
+    "x": 155,
+    "y": 1103,
+    "w": 1130,
+    "h": 25,
+    "text": "als principals lloc d’interès: 20 km, 35 km, Port Aventura World 29 km, 130 km."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.split.section > div.default-content-wrapper > h3#com-arribar",
+    "x": 155,
+    "y": 1644,
+    "w": 535,
+    "h": 35,
+    "level": 3,
+    "text": "com arribar"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.split.section > div.default-content-wrapper > h3#contacteu-nos-per-rebre-més-informació-o-fer-suggeriments",
+    "x": 750,
+    "y": 1644,
+    "w": 535,
+    "h": 70,
+    "level": 3,
+    "text": "contacteu-nos per rebre més informació o fer suggeriments"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h4#en-avió",
+    "x": 215,
+    "y": 1746,
+    "w": 475,
+    "h": 30,
+    "level": 4,
+    "text": "en avió"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 215,
+    "y": 1776,
+    "w": 475,
+    "h": 100,
+    "text": "L'aeroport de Reus és a només 35 minuts en cotxe. L'aeroport de Barcelona és a 1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h4#en-cotxe",
+    "x": 215,
+    "y": 1908,
+    "w": 475,
+    "h": 30,
+    "level": 4,
+    "text": "en cotxe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 215,
+    "y": 1938,
+    "w": 475,
+    "h": 250,
+    "text": "- Des de Barcelona Per l'autopista AP7 o bé l'autovia A7, en direcció sud fins a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h4#en-tren",
+    "x": 215,
+    "y": 2220,
+    "w": 475,
+    "h": 30,
+    "level": 4,
+    "text": "en tren"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 215,
+    "y": 2250,
+    "w": 475,
+    "h": 75,
+    "text": "L’estació de ferrocarril es troba a 1,1 km de distància. Actualment hi ha 3 arri"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h4#en-autobús",
+    "x": 215,
+    "y": 2357,
+    "w": 475,
+    "h": 30,
+    "level": 4,
+    "text": "en autobús"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 215,
+    "y": 2387,
+    "w": 475,
+    "h": 100,
+    "text": "Hi ha 2 arribades i sortides els dilluns i dijous des de Reus. L'autobús surt de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 750,
+    "y": 1746,
+    "w": 535,
+    "h": 25,
+    "text": "Nom (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 750,
+    "y": 1831,
+    "w": 535,
+    "h": 25,
+    "text": "Correu electrònic (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 750,
+    "y": 1916,
+    "w": 535,
+    "h": 25,
+    "text": "El teu telèfon (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 750,
+    "y": 2001,
+    "w": 535,
+    "h": 25,
+    "text": "Assumpte"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form.contact-form-form > div.contact-form-line.contact-form-note > p",
+    "x": 750,
+    "y": 2086,
+    "w": 535,
+    "h": 25,
+    "text": "Cal afegir les vostres preferències respecte a les dates d’entrada i sortida."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 750,
+    "y": 2121,
+    "w": 535,
+    "h": 25,
+    "text": "El vostre missatge"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "label > span.contact-form-check-label > p",
+    "x": 781,
+    "y": 2421,
+    "w": 239,
+    "h": 18,
+    "text": "He llegit i accepto la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.contact-form-check-label > p > a",
+    "x": 925,
+    "y": 2421,
+    "w": 95,
+    "h": 18,
+    "text": "privacy policy",
+    "href": "/wp/privacy-policy/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form.contact-form-form > div.contact-form-line > input.contact-form-submit",
+    "x": 750,
+    "y": 2443,
+    "w": 97,
+    "h": 39,
+    "text": "enviar"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 155,
+    "y": 2639,
+    "w": 337,
+    "h": 27,
+    "text": "CONTACTE"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 155,
+    "y": 2681,
+    "w": 337,
+    "h": 100,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 155,
+    "y": 2759,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 552,
+    "y": 2639,
+    "w": 337,
+    "h": 27,
+    "text": "CERCA"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > form.searchform > button.submit",
+    "x": 856,
+    "y": 2681,
+    "w": 20,
+    "h": 40,
+    "text": "search"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 948,
+    "y": 2639,
+    "w": 337,
+    "h": 27,
+    "text": "SEGUEIX-NOS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.facebook",
+    "x": 950,
+    "y": 2683,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.instagram",
+    "x": 980,
+    "y": 2683,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 155,
+    "y": 2811,
+    "w": 337,
+    "h": 27,
+    "text": "ALTRES LLOGUERS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 155,
+    "y": 2853,
+    "w": 337,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTÀ C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 155,
+    "y": 2906,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 552,
+    "y": 2811,
+    "w": 337,
+    "h": 27,
+    "text": "INFO LEGAL"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 552,
+    "y": 2853,
+    "w": 337,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 552,
+    "y": 2856,
+    "w": 208,
+    "h": 18,
+    "text": "política de privacitat i cookies",
+    "href": "/ca/politica-de-privacitat-i-cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 948,
+    "y": 2811,
+    "w": 337,
+    "h": 25,
+    "text": "english",
+    "href": "/contact"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 948,
+    "y": 2836,
+    "w": 337,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/kontakt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 948,
+    "y": 2861,
+    "w": 337,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/contacte"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 948,
+    "y": 2886,
+    "w": 337,
+    "h": 25,
+    "text": "español",
+    "href": "/es/contacto"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 64,
+    "controls": 25,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "la casa argentera està situada al pintoresc poble de l’argentera, entre la zona vinícola del priorat i el mar mediterran",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "com arribar",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "contacteu-nos per rebre més informació o fer suggeriments",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 11,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 11,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 85,
+    "y": 10,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 234,
+    "y": 10,
+    "w": 161,
+    "h": 16
+   },
+   {
+    "x": 1208,
+    "y": 10,
+    "w": 48,
+    "h": 16
+   },
+   {
+    "x": 1272,
+    "y": 10,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1329,
+    "y": 10,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 374,
+    "y": 95,
+    "w": 61,
+    "h": 18
+   },
+   {
+    "x": 475,
+    "y": 95,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 578,
+    "y": 95,
+    "w": 105,
+    "h": 18
+   },
+   {
+    "x": 723,
+    "y": 95,
+    "w": 125,
+    "h": 18
+   },
+   {
+    "x": 878,
+    "y": 95,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 973,
+    "y": 95,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 1081,
+    "y": 95,
+    "w": 76,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 925,
+    "w": 1045,
+    "h": 61
+   },
+   {
+    "x": 155,
+    "y": 980,
+    "w": 1117,
+    "h": 61
+   },
+   {
+    "x": 155,
+    "y": 1035,
+    "w": 662,
+    "h": 61
+   },
+   {
+    "x": 155,
+    "y": 1106,
+    "w": 76,
+    "h": 18
+   },
+   {
+    "x": 231,
+    "y": 1106,
+    "w": 193,
+    "h": 18
+   },
+   {
+    "x": 424,
+    "y": 1106,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 489,
+    "y": 1106,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 543,
+    "y": 1106,
+    "w": 74,
+    "h": 18
+   },
+   {
+    "x": 617,
+    "y": 1106,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 867,
+    "y": 1106,
+    "w": 74,
+    "h": 18
+   },
+   {
+    "x": 941,
+    "y": 1106,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1643,
+    "w": 175,
+    "h": 37
+   },
+   {
+    "x": 750,
+    "y": 1643,
+    "w": 431,
+    "h": 37
+   },
+   {
+    "x": 750,
+    "y": 1678,
+    "w": 445,
+    "h": 37
+   },
+   {
+    "x": 215,
+    "y": 1747,
+    "w": 93,
+    "h": 27
+   },
+   {
+    "x": 215,
+    "y": 1779,
+    "w": 451,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 1804,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 1829,
+    "w": 447,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 1854,
+    "w": 346,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 1909,
+    "w": 112,
+    "h": 27
+   },
+   {
+    "x": 215,
+    "y": 1941,
+    "w": 132,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 1966,
+    "w": 467,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 1991,
+    "w": 453,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2016,
+    "w": 471,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2041,
+    "w": 99,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2066,
+    "w": 464,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2091,
+    "w": 473,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2116,
+    "w": 106,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2141,
+    "w": 430,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2166,
+    "w": 474,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2221,
+    "w": 100,
+    "h": 27
+   },
+   {
+    "x": 215,
+    "y": 2253,
+    "w": 359,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2278,
+    "w": 448,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2303,
+    "w": 171,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2358,
+    "w": 149,
+    "h": 27
+   },
+   {
+    "x": 215,
+    "y": 2390,
+    "w": 474,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2415,
+    "w": 459,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2440,
+    "w": 437,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2465,
+    "w": 167,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 1749,
+    "w": 108,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 1834,
+    "w": 193,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 1919,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 2004,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 2089,
+    "w": 506,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 2124,
+    "w": 127,
+    "h": 18
+   },
+   {
+    "x": 781,
+    "y": 2421,
+    "w": 145,
+    "h": 18
+   },
+   {
+    "x": 925,
+    "y": 2421,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2642,
+    "w": 93,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 2684,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2709,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2734,
+    "w": 306,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2759,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 2642,
+    "w": 59,
+    "h": 20
+   },
+   {
+    "x": 948,
+    "y": 2642,
+    "w": 119,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 2814,
+    "w": 162,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 2856,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2881,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2906,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 2814,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 552,
+    "y": 2856,
+    "w": 208,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 2881,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 2815,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 2840,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 2865,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 2890,
+    "w": 56,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 85,
+    "y": 10,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 234,
+    "y": 10,
+    "w": 161,
+    "h": 16
+   },
+   {
+    "x": 1208,
+    "y": 10,
+    "w": 48,
+    "h": 16
+   },
+   {
+    "x": 1272,
+    "y": 10,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1329,
+    "y": 10,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 374,
+    "y": 95,
+    "w": 61,
+    "h": 18
+   },
+   {
+    "x": 475,
+    "y": 95,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 578,
+    "y": 95,
+    "w": 105,
+    "h": 18
+   },
+   {
+    "x": 723,
+    "y": 95,
+    "w": 125,
+    "h": 18
+   },
+   {
+    "x": 878,
+    "y": 95,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 973,
+    "y": 95,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 1081,
+    "y": 95,
+    "w": 76,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 925,
+    "w": 1045,
+    "h": 61
+   },
+   {
+    "x": 155,
+    "y": 980,
+    "w": 1117,
+    "h": 61
+   },
+   {
+    "x": 155,
+    "y": 1035,
+    "w": 662,
+    "h": 61
+   },
+   {
+    "x": 155,
+    "y": 1106,
+    "w": 76,
+    "h": 18
+   },
+   {
+    "x": 231,
+    "y": 1106,
+    "w": 196,
+    "h": 18
+   },
+   {
+    "x": 428,
+    "y": 1106,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 492,
+    "y": 1106,
+    "w": 62,
+    "h": 18
+   },
+   {
+    "x": 554,
+    "y": 1106,
+    "w": 74,
+    "h": 18
+   },
+   {
+    "x": 628,
+    "y": 1106,
+    "w": 253,
+    "h": 18
+   },
+   {
+    "x": 882,
+    "y": 1106,
+    "w": 74,
+    "h": 18
+   },
+   {
+    "x": 956,
+    "y": 1106,
+    "w": 56,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1643,
+    "w": 175,
+    "h": 37
+   },
+   {
+    "x": 750,
+    "y": 1643,
+    "w": 431,
+    "h": 37
+   },
+   {
+    "x": 750,
+    "y": 1678,
+    "w": 445,
+    "h": 37
+   },
+   {
+    "x": 215,
+    "y": 1747,
+    "w": 93,
+    "h": 27
+   },
+   {
+    "x": 215,
+    "y": 1779,
+    "w": 451,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 1804,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 1829,
+    "w": 447,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 1854,
+    "w": 346,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 1909,
+    "w": 112,
+    "h": 27
+   },
+   {
+    "x": 215,
+    "y": 1941,
+    "w": 132,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 1966,
+    "w": 467,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 1991,
+    "w": 453,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2016,
+    "w": 471,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2041,
+    "w": 99,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2066,
+    "w": 464,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2091,
+    "w": 473,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2116,
+    "w": 106,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2141,
+    "w": 430,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2166,
+    "w": 474,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2221,
+    "w": 100,
+    "h": 27
+   },
+   {
+    "x": 215,
+    "y": 2253,
+    "w": 359,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2278,
+    "w": 448,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2303,
+    "w": 171,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2358,
+    "w": 149,
+    "h": 27
+   },
+   {
+    "x": 215,
+    "y": 2390,
+    "w": 474,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2415,
+    "w": 459,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2440,
+    "w": 437,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2465,
+    "w": 167,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 1749,
+    "w": 108,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 1834,
+    "w": 193,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 1919,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 2004,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 2089,
+    "w": 506,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 2124,
+    "w": 127,
+    "h": 18
+   },
+   {
+    "x": 781,
+    "y": 2421,
+    "w": 145,
+    "h": 18
+   },
+   {
+    "x": 925,
+    "y": 2421,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2642,
+    "w": 93,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 2684,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2709,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2734,
+    "w": 306,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2759,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 2642,
+    "w": 59,
+    "h": 20
+   },
+   {
+    "x": 948,
+    "y": 2642,
+    "w": 119,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 2814,
+    "w": 162,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 2856,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2881,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2906,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 2814,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 552,
+    "y": 2856,
+    "w": 208,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 2881,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 2815,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 2840,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 2865,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 2890,
+    "w": 56,
+    "h": 18
+   }
+  ]
+ }
+}

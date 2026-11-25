@@ -1,0 +1,15 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.casaargentera.com/the-garden/ (live side from cache stardust/replica/gates/the-garden-1440/chrome-live.json, probed 2026-11-24T10:57:48.362Z — delete the file to re-probe)
+  build: http://localhost:8792/the-garden-proposed.html
+
+■ header: ✓ parity — 12 paired of 12/12 texts, 1/1 icons
+  region live:  div.masthead.inline-header[role=banner] — [role=banner] landmark, box 0,0 1440×172; selector #page > div:nth-of-type(1)
+  region build: div.masthead[role=banner] — [role=banner] landmark, box 0,0 1440×172; selector #page > div:nth-of-type(1)
+  advisory     REST STATE: 1 live / 8 build text(s) inside panels not shown at rest left out (live: opacity:0 1; build: opacity:0 8) — --strict-names counts them
+
+■ footer: ✓ parity — 15 paired of 15/15 texts, 1/1 icons
+  region live:  footer#footer.footer.solid-bg — outermost <footer>, box 0,3107 1440×389; selector #footer
+  region build: footer#footer — outermost <footer>, box 0,3107 1440×389; selector #footer
+  advisory     NAMES: 1 carried by another channel (visible text ↔ aria-label)
+
+✓ chrome parity within tolerance, 2 advisory group(s) — run crop-compare (pass bar item 5) to confirm in pixels.

@@ -1,0 +1,131 @@
+{
+  "a": "stardust/replica/gates/all-360/beach-and-more/origin.png",
+  "b": "stardust/replica/gates/all-360/beach-and-more/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3247,
+    "mode": "overlap"
+  },
+  "heightDelta": -24,
+  "differingPixels": 270933,
+  "pct": 23.18,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/beach-and-more/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 9.92,
+  "textBoxes": 79,
+  "textPixels": 317885,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 40.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 25.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 31.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 26.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 14
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 11.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3247,
+      "pct": 4.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 19.96,
+    "differingPixels": 235016,
+    "compared": {
+      "width": 360,
+      "height": 3271,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2014,
+        "shift": 24,
+        "cumulative": 24
+      }
+    ],
+    "maxOffset": 24,
+    "totalShift": 24,
+    "insertedRows": 24,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 40.1,
+        "unaligned": 40.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 25.4,
+        "unaligned": 25.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 31.1,
+        "unaligned": 31.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 26.8,
+        "unaligned": 26.8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 6.6,
+        "unaligned": 14
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.2,
+        "unaligned": 11.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3247,
+        "pct": 0,
+        "unaligned": 4.2
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/beach-and-more/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 32,
+    "totalShift": 24,
+    "pass": true
+  },
+  "reason": "pixel aligned 19.96% (unaligned 23.18%) > 10%"
+}

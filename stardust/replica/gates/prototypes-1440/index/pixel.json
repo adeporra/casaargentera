@@ -1,0 +1,229 @@
+{
+  "a": "stardust/replica/gates/prototypes-1440/index/origin.png",
+  "b": "stardust/replica/gates/prototypes-1440/index/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4304,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 15261,
+  "pct": 0.25,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/prototypes-1440/index/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4304,
+      "pct": 0.1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.25,
+    "differingPixels": 15261,
+    "compared": {
+      "width": 1440,
+      "height": 4304,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4000,
+        "y1": 4304,
+        "pct": 0.1,
+        "unaligned": 0.1
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 0.25,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "http://localhost:8791/index-proposed.html",
+    "key": {
+      "v": 3,
+      "build": "http://localhost:8791/index-proposed.html",
+      "source": "https://www.casaargentera.com/",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "53df1b40fbfba923",
+      "options": "ac3afe653f58f5e1",
+      "reference": "4879c3d9344bbb9d",
+      "archetype": "52818caa62d2d8e7",
+      "captures": "637816d1070f0fe9",
+      "instruments": "700566dc6f7774a4",
+      "prototype": "f97fba137e0d614b",
+      "page content": "14b83665ab5410e8"
+    },
+    "probes": {
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 2,
+          "offPage": 8,
+          "textNodes": 67,
+          "controls": 44,
+          "total": 0
+        },
+        "groups": [
+          {
+            "kind": "TEXT X-HIDDEN",
+            "advisory": true,
+            "n": 1,
+            "clipper": "div.testimonials__viewport",
+            "path": "div.testimonials__track > article.testimonial-item > div.testimonial-content > p",
+            "text": "“a nice house for a family in a typical catalan village . al",
+            "cutMin": 189,
+            "cutMax": 189
+          },
+          {
+            "kind": "TEXT X-HIDDEN",
+            "advisory": true,
+            "n": 1,
+            "clipper": "div.testimonials__viewport",
+            "path": "div.testimonial-author > div.testimonial-vcard > div.testimonial-name > span",
+            "text": "herve, amiens, france 17/8/19 ****",
+            "cutMin": 154,
+            "cutMax": 154
+          }
+        ],
+        "source": "clip-probe",
+        "tier": "chrome"
+      },
+      "units": {
+        "verdict": {
+          "units": 16,
+          "within": 29,
+          "off": 0,
+          "hidden": 0,
+          "missing": 0,
+          "errors": 0,
+          "requiredOff": 0
+        },
+        "required": true,
+        "errors": []
+      }
+    },
+    "at": "2026-11-24T12:07:29.056Z"
+  }
+}

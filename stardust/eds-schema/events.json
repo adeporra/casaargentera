@@ -1,0 +1,198 @@
+{
+ "source": "http://127.0.0.1:3015/stardust/prototypes/events-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Celebrate your event in Casa Argentera"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "We will be happy to help you with the organization of"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "the event you have in mind."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "We have a big dinning/meeting room to small parties or meetings, team buildings, or workshops or courses. If the weather is good (as usual), the garden is also a perfect option."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Here are some suggestions, to be combined in any way that suits you:"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "tapas-workshop"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "wine- or olive oil tastings"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "spent a day with a shepherd"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "meditation or yoga"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "painting or paella contests"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "calçotadas"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "bike training camps"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Maybe you would like your course or training to end with a competition in a local race, e.g. Gran Fondo Priorat or Cambrils, or participate in the annual quick painting contest, or for your team-building event to include a paella contest, or a tapas workshops, just write us with your ideas and we will help you organize."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "vc-row",
+   "items": [],
+   "imgCount": 6,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.media-grid__item",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "More information and reservation of an event?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Please let us know the dates, number of persons, and activity. We will be happy to suggest and help organize!"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Your Name (required)"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Your Email (required)"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Your Number (required)"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Subject"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Please, let us know your preferences regarding check in and check out dates."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Your Message"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "I have read and accept the"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "privacy policy",
+     "href": "https://www.casaargentera.com/wp/privacy-policy/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

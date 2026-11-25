@@ -1,0 +1,19 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.casaargentera.com/
+  shell     1250px  fixed     #main > div.wf-wrap  (tier 1, holds 100% of the text)
+  modules  7 sections: capped 618 ×1, 595 ×1, 429 ×1, 397 ×1, 357 ×1, 333 ×1 · full-bleed ×1
+  contentMaxWidth 1250px (shell) · shellMaxWidth 1250px · root #main
+build  http://localhost:8791/index-proposed.html
+  shell     1250px  max-width #main > div.wf-wrap  (tier 1, holds 100% of the text)
+  modules  7 sections: capped 618 ×1, 595 ×1, 429 ×1, 397 ×1, 357 ×1, 333 ×1 · full-bleed ×1
+  contentMaxWidth 1250px (shell) · shellMaxWidth 1250px · root #main
+rows
+  ✓ wrapper cap: live 1250px = build 1250px (±20)
+  ✓ module 1/7: full-bleed on both
+  ✓ module 2/7: 333px = 333px
+  ✓ module 3/7: 595px = 595px
+  ✓ module 4/7: 357px = 357px
+  ✓ module 5/7: 429px = 429px
+  ✓ module 6/7: 397px = 397px
+  ✓ module 7/7: 618px = 618px
+cap-probe: PASS at 2560 — 0 of 8 rows failed (evidence stardust/replica/gates/index-2560/cap-iter.json)

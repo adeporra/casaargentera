@@ -1,0 +1,3552 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-24T22:18:00.196Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/da/the-noble-floor/",
+  "at": "2026-11-24T22:18:00.084Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6610,
+  "root": null,
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-navigation > a.dt-mobile-menu-icon",
+    "x": 306,
+    "y": 17,
+    "w": 24,
+    "h": 24,
+    "text": "mobile menu icon",
+    "href": "/the-noble-floor/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-branding > a",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-branding > a > img.mobile-logo.preload-me",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "file": "Logo-75-px"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 312,
+    "w": 300,
+    "h": 550,
+    "level": 2,
+    "text": "this floor was the main residence, which housed the stone carver joanet and his wife isabel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 872,
+    "w": 300,
+    "h": 175,
+    "text": "It has many interesting details. A mecanical door bell, modernistic coat hanger,"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4",
+    "x": 30,
+    "y": 1057,
+    "w": 300,
+    "h": 120,
+    "level": 4,
+    "text": "the rooms have their original tiled floors, and each room has its own pattern."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > h4 > strong",
+    "x": 30,
+    "y": 1058,
+    "w": 273,
+    "h": 117,
+    "text": "The rooms have their original tiled floors, and each room has its own pattern."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 1187,
+    "w": 300,
+    "h": 275,
+    "text": "Some claim that the preciously carved balcony was intented for the nearby Poblet"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 1494,
+    "w": 300,
+    "h": 169,
+    "text": "individual room in casa argentera, former maids room",
+    "file": "IMG_20180117_142828_335-768x432"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 1709,
+    "w": 300,
+    "h": 169,
+    "text": "double room with pool view 1st floor",
+    "file": "CasaArgentera-hab-1-768x432"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 1924,
+    "w": 300,
+    "h": 169,
+    "text": "living room in noble floor",
+    "file": "IMG_20191222_112913-768x432"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 2138,
+    "w": 300,
+    "h": 169,
+    "text": "writing desk and access to terrace",
+    "file": "20180117_134932-768x432"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 2353,
+    "w": 300,
+    "h": 169,
+    "text": "bathroom with rain shower and jets",
+    "file": "IMG_20191222_114458-768x432"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 2568,
+    "w": 300,
+    "h": 169,
+    "text": "double room with private terrace and desk",
+    "file": "20180117_134509-768x432"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 2783,
+    "w": 300,
+    "h": 169,
+    "text": "casa argentera rural tourism kitchen first floor",
+    "file": "Kitchenfirstfloor-Casa-Argentera-768x432"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h3",
+    "x": 30,
+    "y": 2997,
+    "w": 300,
+    "h": 105,
+    "level": 3,
+    "text": "in this appartment for 5 people you will find"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-324b0005fdb48a5aec7d577fd9c918bd > h5.dt-text-title",
+    "x": 90,
+    "y": 3134,
+    "w": 240,
+    "h": 54,
+    "level": 5,
+    "text": "2 double bedrooms + 1 single bedroom"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-324b0005fdb48a5aec7d577fd9c918bd > div.dt-text-desc",
+    "x": 90,
+    "y": 3188,
+    "w": 240,
+    "h": 150,
+    "text": "1 double bedroom with a queen size bed 1 double bedroom with 2 single beds 1 sin"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-6a7346c13197cb5d7d6444609535c454 > h5.dt-text-title",
+    "x": 90,
+    "y": 3361,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "2 bathrooms"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-6a7346c13197cb5d7d6444609535c454 > div.dt-text-desc",
+    "x": 90,
+    "y": 3391,
+    "w": 240,
+    "h": 100,
+    "text": "1 bathroom with rainshower and jets 1 bathroom ensuite with normal shower"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-fc2e7ac19083d1c5c938da27988299dc > h5.dt-text-title",
+    "x": 90,
+    "y": 3515,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "hair dryer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-fc2e7ac19083d1c5c938da27988299dc > div.dt-text-desc",
+    "x": 90,
+    "y": 3545,
+    "w": 240,
+    "h": 25,
+    "text": "No need to bring yours"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-29d416b527355057187c2d9a807188de > h5.dt-text-title",
+    "x": 90,
+    "y": 3595,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "fireplace"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-29d416b527355057187c2d9a807188de > div.dt-text-desc",
+    "x": 90,
+    "y": 3625,
+    "w": 240,
+    "h": 25,
+    "text": "100% comfort"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-98a2eff274720dc8f91b74d962af9440 > h5.dt-text-title",
+    "x": 90,
+    "y": 3675,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "private terrace"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-98a2eff274720dc8f91b74d962af9440 > div.dt-text-desc",
+    "x": 90,
+    "y": 3702,
+    "w": 240,
+    "h": 75,
+    "text": "Southfacing terrace with view Dining table with Parasol Corner with bench for tw"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-e948e7153cbb62fd72b1819f910a08d3 > h5.dt-text-title",
+    "x": 90,
+    "y": 3800,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "open kitchen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-e948e7153cbb62fd72b1819f910a08d3 > div.dt-text-desc",
+    "x": 90,
+    "y": 3827,
+    "w": 240,
+    "h": 25,
+    "text": "with access to the garden"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-af38a8e90f7876f91bbaffdb5bf9e376 > h5.dt-text-title",
+    "x": 90,
+    "y": 3880,
+    "w": 240,
+    "h": 54,
+    "level": 5,
+    "text": "heating / fan in each room"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-af38a8e90f7876f91bbaffdb5bf9e376 > div.dt-text-desc",
+    "x": 90,
+    "y": 3934,
+    "w": 240,
+    "h": 25,
+    "text": "feel at home"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-3134bacd6950cf9a39a2c46306eb6855 > h5.dt-text-title",
+    "x": 90,
+    "y": 3979,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "garden"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-3134bacd6950cf9a39a2c46306eb6855 > div.dt-text-desc",
+    "x": 90,
+    "y": 4006,
+    "w": 240,
+    "h": 75,
+    "text": "Swimming pool & sundeck BBQ and big table in the shadow Chill out and lounge cha"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-98a2eff274720dc8f91b74d962af9440 > h5.dt-text-title",
+    "x": 90,
+    "y": 4101,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "private terrace"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-98a2eff274720dc8f91b74d962af9440 > div.dt-text-desc",
+    "x": 90,
+    "y": 4128,
+    "w": 240,
+    "h": 75,
+    "text": "Southfacing terrace with view Dining table with Parasol Corner with bench for tw"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-e948e7153cbb62fd72b1819f910a08d3 > h5.dt-text-title",
+    "x": 90,
+    "y": 4226,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "open kitchen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-e948e7153cbb62fd72b1819f910a08d3 > div.dt-text-desc",
+    "x": 90,
+    "y": 4253,
+    "w": 240,
+    "h": 25,
+    "text": "with access to the garden"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-af38a8e90f7876f91bbaffdb5bf9e376 > h5.dt-text-title",
+    "x": 90,
+    "y": 4306,
+    "w": 240,
+    "h": 54,
+    "level": 5,
+    "text": "heating / fan in each room"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-af38a8e90f7876f91bbaffdb5bf9e376 > div.dt-text-desc",
+    "x": 90,
+    "y": 4360,
+    "w": 240,
+    "h": 25,
+    "text": "feel at home"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-3134bacd6950cf9a39a2c46306eb6855 > h5.dt-text-title",
+    "x": 90,
+    "y": 4405,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "garden"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-3134bacd6950cf9a39a2c46306eb6855 > div.dt-text-desc",
+    "x": 90,
+    "y": 4432,
+    "w": 240,
+    "h": 75,
+    "text": "Swimming pool & sundeck BBQ and big table in the shadow Chill out and lounge cha"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 4539,
+    "w": 300,
+    "h": 275,
+    "level": 2,
+    "text": "for additional information and reservations?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 4824,
+    "w": 300,
+    "h": 50,
+    "text": "Do not hesitate to contact us. We will be happy to help you!"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 30,
+    "y": 4877,
+    "w": 300,
+    "h": 51,
+    "text": "Your Name (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 30,
+    "y": 4962,
+    "w": 300,
+    "h": 51,
+    "text": "Your Email (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 30,
+    "y": 5047,
+    "w": 300,
+    "h": 51,
+    "text": "Your Number (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 30,
+    "y": 5132,
+    "w": 300,
+    "h": 51,
+    "text": "Subject"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#wpcf7-f15714-p15359-o1 > form.wpcf7-form.init > p",
+    "x": 30,
+    "y": 5214,
+    "w": 300,
+    "h": 50,
+    "text": "Please, let us know your preferences regarding check in and check out dates."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 30,
+    "y": 5277,
+    "w": 300,
+    "h": 43,
+    "text": "Your Message"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "span.wpcf7-list-item > label > span.wpcf7-list-item-label",
+    "x": 44,
+    "y": 5574,
+    "w": 256,
+    "h": 43,
+    "text": "I have read and accept the"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "label > span.wpcf7-list-item-label > a",
+    "x": 44,
+    "y": 5574,
+    "w": 256,
+    "h": 43,
+    "text": "privacy policy",
+    "href": "/wp/privacy-policy/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > input.wpcf7-form-control.wpcf7-submit",
+    "x": 30,
+    "y": 5621,
+    "w": 88,
+    "h": 39,
+    "text": "send"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-4 > div.widget-title",
+    "x": 30,
+    "y": 5790,
+    "w": 300,
+    "h": 27,
+    "text": "CONTACT US"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-4 > div.textwidget > p",
+    "x": 30,
+    "y": 5832,
+    "w": 300,
+    "h": 125,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 5935,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#search-4 > div.widget-title",
+    "x": 30,
+    "y": 5987,
+    "w": 300,
+    "h": 27,
+    "text": "SEARCH"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#search-4 > form.searchform > a.submit",
+    "x": 299,
+    "y": 6029,
+    "w": 20,
+    "h": 40,
+    "text": "",
+    "href": "/the-noble-floor/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#presscore-contact-info-widget-3 > div.widget-title",
+    "x": 30,
+    "y": 6099,
+    "w": 300,
+    "h": 27,
+    "text": "FOLLOW US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.facebook",
+    "x": 32,
+    "y": 6143,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.instagram",
+    "x": 62,
+    "y": 6143,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-6 > div.widget-title",
+    "x": 30,
+    "y": 6201,
+    "w": 300,
+    "h": 27,
+    "text": "OTHER RENTALS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-6 > div.textwidget > p",
+    "x": 30,
+    "y": 6243,
+    "w": 300,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTA C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 6296,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-3 > div.widget-title",
+    "x": 30,
+    "y": 6348,
+    "w": 300,
+    "h": 27,
+    "text": "LEGAL INFO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-3 > div.textwidget > p",
+    "x": 30,
+    "y": 6390,
+    "w": 300,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 6393,
+    "w": 184,
+    "h": 18,
+    "text": "privacy policy and cookies",
+    "href": "/privacy-policy-and-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 6470,
+    "w": 300,
+    "h": 25,
+    "text": "english",
+    "href": "/the-noble-floor/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 6495,
+    "w": 300,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/the-noble-floor/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 6520,
+    "w": 300,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/el-pis-senyorial/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 6545,
+    "w": 300,
+    "h": 25,
+    "text": "español",
+    "href": "/es/el-piso-senorial/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 28,
+    "textNodes": 86,
+    "controls": 28,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/da/the-noble-floor",
+  "at": "2026-11-24T22:17:47.949Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6595,
+  "root": "main#main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-branding > a",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "href": "/da/home"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "file": "media_1508d370a8febea63d6a0a1c69adcb7155"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-navigation > a.dt-mobile-menu-icon",
+    "x": 308,
+    "y": 21,
+    "w": 22,
+    "h": 16,
+    "text": "mobile menu icon",
+    "href": "/da/the-noble-floor"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slide-media > picture > img",
+    "x": 0,
+    "y": 0,
+    "w": 360,
+    "h": 252,
+    "text": "casa argentera rural tourism kitchen first floor",
+    "file": "media_1ff806ab5db7672b165d74031d759d1086"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slide-media > picture > img",
+    "x": 0,
+    "y": 0,
+    "w": 360,
+    "h": 252,
+    "text": "terrace with a view 1st floor",
+    "file": "media_1792aee4a8bf10aa43d58a988292cce083"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.start-4 > div.hero-slider-bullets > button.hero-bullet",
+    "x": 147,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.start-4 > div.hero-slider-bullets > button.hero-bullet",
+    "x": 165,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 2"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.start-4 > div.hero-slider-bullets > button.hero-bullet.selected",
+    "x": 183,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 3"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.start-4 > div.hero-slider-bullets > button.hero-bullet",
+    "x": 201,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > h1#this-floor-was-the-main-residence-which-housed-the-stone-carver-joanet-and-his-wife-isabel",
+    "x": 30,
+    "y": 312,
+    "w": 300,
+    "h": 550,
+    "level": 1,
+    "text": "this floor was the main residence, which housed the stone carver joanet and his wife isabel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 872,
+    "w": 300,
+    "h": 175,
+    "text": "It has many interesting details. A mecanical door bell, modernistic coat hanger,"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > h4#the-rooms-have-their-original-tiled-floors-and-each-room-has-its-own-pattern",
+    "x": 30,
+    "y": 1057,
+    "w": 300,
+    "h": 120,
+    "level": 4,
+    "text": "the rooms have their original tiled floors, and each room has its own pattern."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > h4#the-rooms-have-their-original-tiled-floors-and-each-room-has-its-own-pattern > strong",
+    "x": 30,
+    "y": 1058,
+    "w": 273,
+    "h": 117,
+    "text": "The rooms have their original tiled floors, and each room has its own pattern."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 1187,
+    "w": 300,
+    "h": 275,
+    "text": "Some claim that the preciously carved balcony was intented for the nearby Poblet"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 1494,
+    "w": 300,
+    "h": 169,
+    "text": "individual room in casa argentera, former maids room",
+    "file": "media_10c23c3d2fd3e7e165f5dc5651f10eb830"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 1709,
+    "w": 300,
+    "h": 169,
+    "text": "double room with pool view 1st floor",
+    "file": "media_1d500bc94b7829eb8a3856154d306ddc68"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 1924,
+    "w": 300,
+    "h": 169,
+    "text": "living room in noble floor",
+    "file": "media_1475cc61f96e15ecc8b4c24f7bae73de31"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 2138,
+    "w": 300,
+    "h": 169,
+    "text": "writing desk and access to terrace",
+    "file": "media_1fffd793d8bf33ee400c68381a96b2e8a9"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 2353,
+    "w": 300,
+    "h": 169,
+    "text": "bathroom with rain shower and jets",
+    "file": "media_19fe6de7549b16f5a1b5707ab4d7c56a4c"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 2568,
+    "w": 300,
+    "h": 169,
+    "text": "double room with private terrace and desk",
+    "file": "media_16cf1552c43f8bbb6a682661db8a3e5a8f"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 2783,
+    "w": 300,
+    "h": 169,
+    "text": "casa argentera rural tourism kitchen first floor",
+    "file": "media_14d2d69ed3d81a1ed373411d4b00f5cfa7"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > h3#in-this-appartment-for-5-people-you-will-find",
+    "x": 30,
+    "y": 2998,
+    "w": 300,
+    "h": 105,
+    "level": 3,
+    "text": "in this appartment for 5 people you will find"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#double-bedrooms--1-single-bedroom",
+    "x": 90,
+    "y": 3135,
+    "w": 240,
+    "h": 54,
+    "level": 5,
+    "text": "2 double bedrooms + 1 single bedroom"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 3189,
+    "w": 240,
+    "h": 150,
+    "text": "1 double bedroom with a queen size bed 1 double bedroom with 2 single beds 1 sin"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#bathrooms",
+    "x": 90,
+    "y": 3359,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "2 bathrooms"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 3386,
+    "w": 240,
+    "h": 100,
+    "text": "1 bathroom with rainshower and jets 1 bathroom ensuite with normal shower"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#hair-dryer",
+    "x": 90,
+    "y": 3506,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "hair dryer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 3533,
+    "w": 240,
+    "h": 25,
+    "text": "No need to bring yours"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#fireplace",
+    "x": 90,
+    "y": 3586,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "fireplace"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 3613,
+    "w": 240,
+    "h": 25,
+    "text": "100% comfort"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#private-terrace",
+    "x": 90,
+    "y": 3666,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "private terrace"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 3693,
+    "w": 240,
+    "h": 75,
+    "text": "Southfacing terrace with view Dining table with Parasol Corner with bench for tw"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#open-kitchen",
+    "x": 90,
+    "y": 3788,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "open kitchen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 3815,
+    "w": 240,
+    "h": 25,
+    "text": "with access to the garden"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#heating--fan-in-each-room",
+    "x": 90,
+    "y": 3868,
+    "w": 240,
+    "h": 54,
+    "level": 5,
+    "text": "heating / fan in each room"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 3922,
+    "w": 240,
+    "h": 25,
+    "text": "feel at home"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#garden",
+    "x": 90,
+    "y": 3967,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "garden"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 3994,
+    "w": 240,
+    "h": 75,
+    "text": "Swimming pool & sundeck BBQ and big table in the shadow Chill out and lounge cha"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#private-terrace-1",
+    "x": 90,
+    "y": 4089,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "private terrace"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 4116,
+    "w": 240,
+    "h": 75,
+    "text": "Southfacing terrace with view Dining table with Parasol Corner with bench for tw"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#open-kitchen-1",
+    "x": 90,
+    "y": 4211,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "open kitchen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 4238,
+    "w": 240,
+    "h": 25,
+    "text": "with access to the garden"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#heating--fan-in-each-room-1",
+    "x": 90,
+    "y": 4291,
+    "w": 240,
+    "h": 54,
+    "level": 5,
+    "text": "heating / fan in each room"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 4345,
+    "w": 240,
+    "h": 25,
+    "text": "feel at home"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#garden-1",
+    "x": 90,
+    "y": 4390,
+    "w": 240,
+    "h": 27,
+    "level": 5,
+    "text": "garden"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 90,
+    "y": 4417,
+    "w": 240,
+    "h": 75,
+    "text": "Swimming pool & sundeck BBQ and big table in the shadow Chill out and lounge cha"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > h2#for-additional-information-and-reservations",
+    "x": 30,
+    "y": 4524,
+    "w": 300,
+    "h": 275,
+    "level": 2,
+    "text": "for additional information and reservations?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 4809,
+    "w": 300,
+    "h": 50,
+    "text": "Do not hesitate to contact us. We will be happy to help you!"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 30,
+    "y": 4859,
+    "w": 300,
+    "h": 25,
+    "text": "Your Name (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 30,
+    "y": 4944,
+    "w": 300,
+    "h": 25,
+    "text": "Your Email (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 30,
+    "y": 5029,
+    "w": 300,
+    "h": 25,
+    "text": "Your Number (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 30,
+    "y": 5114,
+    "w": 300,
+    "h": 25,
+    "text": "Subject"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form.contact-form-form > div.contact-form-line.contact-form-note > p",
+    "x": 30,
+    "y": 5199,
+    "w": 300,
+    "h": 50,
+    "text": "Please, let us know your preferences regarding check in and check out dates."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 30,
+    "y": 5259,
+    "w": 300,
+    "h": 25,
+    "text": "Your Message"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "label > span.contact-form-check-label > p",
+    "x": 44,
+    "y": 5559,
+    "w": 256,
+    "h": 43,
+    "text": "I have read and accept the"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.contact-form-check-label > p > a",
+    "x": 44,
+    "y": 5559,
+    "w": 256,
+    "h": 43,
+    "text": "privacy policy",
+    "href": "/wp/privacy-policy/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form.contact-form-form > div.contact-form-line > input.contact-form-submit",
+    "x": 30,
+    "y": 5606,
+    "w": 88,
+    "h": 39,
+    "text": "send"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 5775,
+    "w": 300,
+    "h": 27,
+    "text": "CONTACT US"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 5817,
+    "w": 300,
+    "h": 125,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 5920,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 5972,
+    "w": 300,
+    "h": 27,
+    "text": "SEARCH"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > form.searchform > button.submit",
+    "x": 298,
+    "y": 6014,
+    "w": 20,
+    "h": 40,
+    "text": "search"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 6084,
+    "w": 300,
+    "h": 27,
+    "text": "FOLLOW US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.facebook",
+    "x": 32,
+    "y": 6128,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.instagram",
+    "x": 62,
+    "y": 6128,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 6186,
+    "w": 300,
+    "h": 27,
+    "text": "OTHER RENTALS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 6228,
+    "w": 300,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTA C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 6281,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 6333,
+    "w": 300,
+    "h": 27,
+    "text": "LEGAL INFO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 6375,
+    "w": 300,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 6378,
+    "w": 184,
+    "h": 18,
+    "text": "privacy policy and cookies",
+    "href": "/privacy-policy-and-cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 6455,
+    "w": 300,
+    "h": 25,
+    "text": "english",
+    "href": "/the-noble-floor"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 6480,
+    "w": 300,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/the-noble-floor"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 6505,
+    "w": 300,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/el-pis-senyorial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 6530,
+    "w": 300,
+    "h": 25,
+    "text": "español",
+    "href": "/es/el-piso-senorial"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 72,
+    "controls": 18,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 4,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 1,
+   "heading": "this floor was the main residence, which housed the stone carver joanet and his wife isabel",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 3,
+    "image": 7
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 7,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "in this appartment for 5 people you will find",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 12,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 12,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "for additional information and reservations?",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 8,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 8,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×4 \"slide 1\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 4,
+   "text": "slide 1"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 4,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 30,
+    "y": 309,
+    "w": 220,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 364,
+    "w": 189,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 419,
+    "w": 128,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 474,
+    "w": 247,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 529,
+    "w": 149,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 584,
+    "w": 280,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 639,
+    "w": 299,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 694,
+    "w": 275,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 749,
+    "w": 183,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 804,
+    "w": 143,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 875,
+    "w": 228,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 900,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 925,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 950,
+    "w": 294,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 975,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1000,
+    "w": 298,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1025,
+    "w": 218,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1058,
+    "w": 244,
+    "h": 27
+   },
+   {
+    "x": 30,
+    "y": 1088,
+    "w": 273,
+    "h": 27
+   },
+   {
+    "x": 30,
+    "y": 1118,
+    "w": 260,
+    "h": 27
+   },
+   {
+    "x": 30,
+    "y": 1148,
+    "w": 91,
+    "h": 27
+   },
+   {
+    "x": 30,
+    "y": 1190,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1215,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1240,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1265,
+    "w": 291,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1290,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 193,
+    "y": 1290,
+    "w": 86,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1315,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 186,
+    "y": 1315,
+    "w": 91,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1340,
+    "w": 94,
+    "h": 18
+   },
+   {
+    "x": 124,
+    "y": 1340,
+    "w": 107,
+    "h": 18
+   },
+   {
+    "x": 231,
+    "y": 1340,
+    "w": 96,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1365,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1390,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1415,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1440,
+    "w": 62,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2996,
+    "w": 278,
+    "h": 37
+   },
+   {
+    "x": 30,
+    "y": 3031,
+    "w": 290,
+    "h": 37
+   },
+   {
+    "x": 30,
+    "y": 3066,
+    "w": 57,
+    "h": 37
+   },
+   {
+    "x": 90,
+    "y": 3137,
+    "w": 225,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3164,
+    "w": 164,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3191,
+    "w": 223,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3216,
+    "w": 57,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3241,
+    "w": 219,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3266,
+    "w": 34,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3291,
+    "w": 239,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3316,
+    "w": 186,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3364,
+    "w": 130,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3394,
+    "w": 226,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3419,
+    "w": 25,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3444,
+    "w": 224,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3469,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3518,
+    "w": 108,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3548,
+    "w": 161,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3598,
+    "w": 97,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3628,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3678,
+    "w": 159,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3705,
+    "w": 208,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3730,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3755,
+    "w": 183,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3803,
+    "w": 134,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3830,
+    "w": 180,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3883,
+    "w": 207,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3910,
+    "w": 57,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3937,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3982,
+    "w": 77,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 4009,
+    "w": 188,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4034,
+    "w": 232,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4059,
+    "w": 188,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4104,
+    "w": 159,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 4131,
+    "w": 208,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4156,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4181,
+    "w": 183,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4229,
+    "w": 134,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 4256,
+    "w": 180,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4309,
+    "w": 207,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 4336,
+    "w": 57,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 4363,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4408,
+    "w": 77,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 4435,
+    "w": 188,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4460,
+    "w": 232,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4485,
+    "w": 188,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4536,
+    "w": 81,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 4591,
+    "w": 246,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 4646,
+    "w": 290,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 4701,
+    "w": 96,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 4756,
+    "w": 322,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 4827,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4852,
+    "w": 130,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4877,
+    "w": 151,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4962,
+    "w": 148,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5047,
+    "w": 168,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5132,
+    "w": 53,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5217,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5242,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5277,
+    "w": 97,
+    "h": 18
+   },
+   {
+    "x": 61,
+    "y": 5574,
+    "w": 189,
+    "h": 18
+   },
+   {
+    "x": 250,
+    "y": 5574,
+    "w": 50,
+    "h": 18
+   },
+   {
+    "x": 44,
+    "y": 5599,
+    "w": 41,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5793,
+    "w": 109,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 5835,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5860,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5885,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5910,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5935,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5990,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 6102,
+    "w": 105,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 6204,
+    "w": 143,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 6246,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 6271,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 6296,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 6351,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 6393,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 6418,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 6474,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 6499,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 6524,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 6549,
+    "w": 56,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 30,
+    "y": 309,
+    "w": 220,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 364,
+    "w": 189,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 419,
+    "w": 128,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 474,
+    "w": 247,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 529,
+    "w": 149,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 584,
+    "w": 280,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 639,
+    "w": 299,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 694,
+    "w": 275,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 749,
+    "w": 183,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 804,
+    "w": 143,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 875,
+    "w": 228,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 900,
+    "w": 263,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 925,
+    "w": 275,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 950,
+    "w": 294,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 975,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1000,
+    "w": 298,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1025,
+    "w": 218,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1058,
+    "w": 244,
+    "h": 27
+   },
+   {
+    "x": 30,
+    "y": 1088,
+    "w": 273,
+    "h": 27
+   },
+   {
+    "x": 30,
+    "y": 1118,
+    "w": 260,
+    "h": 27
+   },
+   {
+    "x": 30,
+    "y": 1148,
+    "w": 91,
+    "h": 27
+   },
+   {
+    "x": 30,
+    "y": 1190,
+    "w": 269,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1215,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1240,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1265,
+    "w": 291,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1290,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": 196,
+    "y": 1290,
+    "w": 82,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1315,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 186,
+    "y": 1315,
+    "w": 91,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1340,
+    "w": 94,
+    "h": 18
+   },
+   {
+    "x": 124,
+    "y": 1340,
+    "w": 107,
+    "h": 18
+   },
+   {
+    "x": 231,
+    "y": 1340,
+    "w": 96,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1365,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1390,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1415,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1440,
+    "w": 62,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2997,
+    "w": 278,
+    "h": 37
+   },
+   {
+    "x": 30,
+    "y": 3032,
+    "w": 290,
+    "h": 37
+   },
+   {
+    "x": 30,
+    "y": 3067,
+    "w": 57,
+    "h": 37
+   },
+   {
+    "x": 90,
+    "y": 3138,
+    "w": 225,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3165,
+    "w": 164,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3192,
+    "w": 223,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3217,
+    "w": 57,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3242,
+    "w": 219,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3267,
+    "w": 34,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3292,
+    "w": 239,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3317,
+    "w": 186,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3362,
+    "w": 130,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3389,
+    "w": 226,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3414,
+    "w": 25,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3439,
+    "w": 224,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3464,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3509,
+    "w": 108,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3536,
+    "w": 161,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3589,
+    "w": 97,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3616,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3669,
+    "w": 159,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3696,
+    "w": 208,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3721,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3746,
+    "w": 183,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3791,
+    "w": 134,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3818,
+    "w": 180,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3871,
+    "w": 207,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3898,
+    "w": 57,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3925,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 3970,
+    "w": 77,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 3997,
+    "w": 188,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4022,
+    "w": 232,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4047,
+    "w": 188,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4092,
+    "w": 159,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 4119,
+    "w": 208,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4144,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4169,
+    "w": 183,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4214,
+    "w": 134,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 4241,
+    "w": 180,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4294,
+    "w": 207,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 4321,
+    "w": 57,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 4348,
+    "w": 88,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4393,
+    "w": 77,
+    "h": 20
+   },
+   {
+    "x": 90,
+    "y": 4420,
+    "w": 188,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4445,
+    "w": 232,
+    "h": 18
+   },
+   {
+    "x": 90,
+    "y": 4470,
+    "w": 188,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4521,
+    "w": 81,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 4576,
+    "w": 246,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 4631,
+    "w": 290,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 4686,
+    "w": 96,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 4741,
+    "w": 322,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 4812,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4837,
+    "w": 130,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4862,
+    "w": 151,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4947,
+    "w": 148,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5032,
+    "w": 168,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5117,
+    "w": 53,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5202,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5227,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5262,
+    "w": 97,
+    "h": 18
+   },
+   {
+    "x": 61,
+    "y": 5559,
+    "w": 189,
+    "h": 18
+   },
+   {
+    "x": 250,
+    "y": 5559,
+    "w": 50,
+    "h": 18
+   },
+   {
+    "x": 44,
+    "y": 5584,
+    "w": 41,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5778,
+    "w": 109,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 5820,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5845,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5870,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5895,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5920,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 5975,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 6087,
+    "w": 105,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 6189,
+    "w": 143,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 6231,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 6256,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 6281,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 6336,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 6378,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 6403,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 6458,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 6483,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 6508,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 6533,
+    "w": 56,
+    "h": 18
+   }
+  ]
+ }
+}

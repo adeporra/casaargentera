@@ -1,0 +1,928 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T21:42:56.039Z",
+  "tol": 4,
+  "n": 6,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/ca/natura-esport/",
+  "at": "2026-11-24T17:33:11.546Z",
+  "docH": 2647
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/ca/natura-esport",
+  "at": "2026-11-24T21:42:55.961Z",
+  "docH": 2663
+ },
+ "results": [
+  {
+   "sel": "#content > .vc_row > .vc_col-sm-6=.media-feature .media-feature-col",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15923#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 1176,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1176,
+       "w": 595,
+       "h": 311
+      },
+      "eds": {
+       "x": 125,
+       "y": 1176,
+       "w": 595,
+       "h": 320
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 9
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:per als aficionats al ciclisme",
+       "role": "heading",
+       "text": "per als aficionats al ciclisme",
+       "edsText": "per als aficionats al ciclisme",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 110
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 110,
+        "sel": "h2#per-als-aficionats-al-ciclisme",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:tant se val si prefereixes fer camins en",
+       "role": "text",
+       "text": "tant se val si prefereixes fer camins en o bé recórrer els v",
+       "edsText": "tant se val si prefereixes fer camins en o bé recórrer els v",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 120,
+        "w": 535,
+        "h": 200
+       },
+       "eds": {
+        "x": 30,
+        "y": 120,
+        "w": 535,
+        "h": 200,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:mountainbike",
+       "role": "text",
+       "text": "mountainbike",
+       "edsText": "mountainbike",
+       "byPosition": false,
+       "origin": {
+        "x": 300,
+        "y": 123,
+        "w": 103,
+        "h": 18
+       },
+       "eds": {
+        "x": 304,
+        "y": 123,
+        "w": 103,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 4,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:bicicleta de carretera",
+       "role": "text",
+       "text": "bicicleta de carretera",
+       "edsText": "bicicleta de carretera",
+       "byPosition": false,
+       "origin": {
+        "x": 111,
+        "y": 148,
+        "w": 155,
+        "h": 18
+       },
+       "eds": {
+        "x": 111,
+        "y": 148,
+        "w": 155,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:rutes dissenyades",
+       "role": "text",
+       "text": "rutes dissenyades",
+       "edsText": "rutes dissenyades",
+       "byPosition": false,
+       "origin": {
+        "x": 392,
+        "y": 148,
+        "w": 132,
+        "h": 18
+       },
+       "eds": {
+        "x": 396,
+        "y": 148,
+        "w": 132,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 4,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:paisatges naturals i rurals",
+       "role": "text",
+       "text": "paisatges naturals i rurals",
+       "edsText": "paisatges naturals i rurals",
+       "byPosition": false,
+       "origin": {
+        "x": 104,
+        "y": 198,
+        "w": 188,
+        "h": 18
+       },
+       "eds": {
+        "x": 104,
+        "y": 198,
+        "w": 188,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:2.000 km de",
+       "role": "text",
+       "text": "2.000 km de",
+       "edsText": "2.000 km de carreteres tranquil·les",
+       "byPosition": false,
+       "origin": {
+        "x": 148,
+        "y": 248,
+        "w": 99,
+        "h": 18
+       },
+       "eds": {
+        "x": 156,
+        "y": 248,
+        "w": 253,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 8,
+       "dy": 0,
+       "dw": 154,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "strong",
+       "sel": "strong",
+       "text": "carreteres tranquil·les",
+       "boxed": false,
+       "x": 247,
+       "y": 248,
+       "w": 159,
+       "h": 18,
+       "absY": 1424,
+       "hidden": false,
+       "fs": 14,
+       "lh": 25,
+       "fw": "700",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "text:carreteres tranquil·les"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 1176,
+       "w": 595,
+       "h": 320
+      },
+      "eds": {
+       "x": 720,
+       "y": 1176,
+       "w": 595,
+       "h": 320
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 8,
+      "within": 6,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15481#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 1536,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1536,
+       "w": 595,
+       "h": 311
+      },
+      "eds": {
+       "x": 125,
+       "y": 1536,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 8
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:caminant es fa camí",
+       "role": "heading",
+       "text": "caminant es fa camí",
+       "edsText": "caminant es fa camí",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55,
+        "sel": "h2#caminant-es-fa-camí",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:practicar el senderisme per aquesta zona",
+       "role": "text",
+       "text": "practicar el senderisme per aquesta zona és una experiència ",
+       "edsText": "practicar el senderisme per aquesta zona és una experiència ",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 150
+       },
+       "eds": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 150,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:varietat de rutes de senderisme de difer",
+       "role": "text",
+       "text": "varietat de rutes de senderisme de diferents nivells",
+       "edsText": "varietat de rutes de senderisme de diferents nivells",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 93,
+        "w": 522,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 93,
+        "w": 525,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 3,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 1536,
+       "w": 595,
+       "h": 215
+      },
+      "eds": {
+       "x": 720,
+       "y": 1536,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 104
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15725#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 1895,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1887,
+       "w": 595,
+       "h": 311
+      },
+      "eds": {
+       "x": 125,
+       "y": 1895,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 8,
+      "dw": 0,
+      "dh": 8
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:amants dels cavalls",
+       "role": "heading",
+       "text": "amants dels cavalls",
+       "edsText": "amants dels cavalls",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 55,
+        "sel": "h2#amants-dels-cavalls",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:gaudeix d’una per petites carreteres i c",
+       "role": "text",
+       "text": "gaudeix d’una per petites carreteres i camins, entre , i a t",
+       "edsText": "gaudeix d’una per petites carreteres i camins, entre , i a t",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 75
+       },
+       "eds": {
+        "x": 30,
+        "y": 65,
+        "w": 535,
+        "h": 75,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:cavalcada tranquil·la",
+       "role": "text",
+       "text": "cavalcada tranquil·la",
+       "edsText": "cavalcada tranquil·la",
+       "byPosition": false,
+       "origin": {
+        "x": 135,
+        "y": 68,
+        "w": 150,
+        "h": 18
+       },
+       "eds": {
+        "x": 138,
+        "y": 68,
+        "w": 150,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 3,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:camps d’oliveres i avellaners",
+       "role": "text",
+       "text": "camps d’oliveres i avellaners",
+       "edsText": "camps d’oliveres i avellaners",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 93,
+        "w": 209,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 93,
+        "w": 209,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:mar mediterrani",
+       "role": "text",
+       "text": "mar mediterrani",
+       "edsText": "mar mediterrani",
+       "byPosition": false,
+       "origin": {
+        "x": 322,
+        "y": 118,
+        "w": 118,
+        "h": 18
+       },
+       "eds": {
+        "x": 322,
+        "y": 118,
+        "w": 118,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 1887,
+       "w": 595,
+       "h": 140
+      },
+      "eds": {
+       "x": 720,
+       "y": 1895,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 8,
+      "dw": 0,
+      "dh": 179
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 6,
+  "within": 17,
+  "off": 1,
+  "hidden": 0,
+  "missing": 1,
+  "errors": 0,
+  "requiredOff": 2
+ }
+}

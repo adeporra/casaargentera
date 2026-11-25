@@ -1,0 +1,25 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://main--ea32f12a--aemcoder.aem.page/ca/politica-de-privacitat-i-cookies",
+  "width": 360,
+  "vh": 900,
+  "height": 5578,
+  "chunks": 7,
+  "denialCheck": "ok",
+  "freeze": "applied",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 5,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 0,
+    "intervals": 0,
+    "chains": 0,
+    "delays": []
+  },
+  "at": "2026-11-24T21:28:32.083Z"
+}

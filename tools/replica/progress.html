@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration result</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  details.spectrum-panel > summary { cursor: pointer; list-style: none; }
+  details.spectrum-panel > summary::-webkit-details-marker { display: none; }
+  details.spectrum-panel > summary > h2 { margin: 0; font: inherit; }
+  details.spectrum-panel > summary > h2::before { content: "\25B8"; display: inline-block; width: 1em; margin-right: 6px; color: var(--spectrum-text-subdued); }
+  details.spectrum-panel[open] > summary > h2::before { content: "\25BE"; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table.pages td .spectrum-badge { word-break: normal; }
+  @media (max-width: 400px) { table.pages th, table.pages td { padding: 8px 4px; } }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+  #blocks-used .bp-radio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #blocks-used .bp-page, #blocks-used .bp-range { display: none; }
+  #blocks-used .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+  #blocks-used .labels { display: flex; flex-wrap: wrap; gap: 4px; }
+  #blocks-used .bp-radio:focus-visible ~ .pager label { outline: 2px solid var(--spectrum-focus-ring); }
+  #bp-1:checked ~ table .bp-page-1 { display: table-row-group; }
+  #bp-1:checked ~ .pager .bp-range-1 { display: inline; }
+  #bp-1:checked ~ .pager label[for="bp-1"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-2:checked ~ table .bp-page-2 { display: table-row-group; }
+  #bp-2:checked ~ .pager .bp-range-2 { display: inline; }
+  #bp-2:checked ~ .pager label[for="bp-2"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration result</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://www.casaargentera.com/" target="_blank" rel="noopener">https://www.casaargentera.com/</a><br>Preview site: <a href="https://main--ea32f12a--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--ea32f12a--aemcoder.aem.page/</a><br>Finished: 2026-11-25 00:44 UTC</p>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>What's done</h2></summary>
+    <div class="panel-body">
+      <p>The migration is complete: all seventy pages are live on the new platform in English, Spanish, Catalan and Danish, each one checked against the current site on desktop and mobile. Old web addresses forward to the new pages, every link has been checked, and search, the contact form, booking calendar, maps and slideshows are in place.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Next steps</h2></summary>
+    <div class="panel-body">
+      <p>Handover: a few business decisions remain with you — where enquiry form messages should go, the live booking availability feed, and switching on analytics and the cookie banner.</p>
+      <ol class="todo">
+        <li><strong>Make it yours.</strong> Move this result into your own site and GitHub repository: use <strong>Make it yours</strong> on this migration in AEM Coder.</li>
+        <li><strong>Review the pages</strong> on the <a href="https://main--ea32f12a--aemcoder.aem.page/" target="_blank" rel="noopener">preview site</a>.</li>
+        <li><strong>Switch on analytics and tags</strong> when you are ready: see <em>Before you switch them on</em> under Analytics and tags.</li>
+      </ol>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Pages</h2></summary>
+    <div class="panel-body">
+      <p>This migration covers 71 pages. 70 of 71 are published on the preview site; 70 have passed the side-by-side check against the original.</p>
+      <details>
+        <summary>71 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://www.casaargentera.com/" target="_blank" rel="noopener">https://www.casaargentera.com/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/" target="_blank" rel="noopener">Home - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/es/el-entorno/" target="_blank" rel="noopener">https://www.casaargentera.com/es/el-entorno/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-entorno/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/es/naturaleza-deporte/" target="_blank" rel="noopener">https://www.casaargentera.com/es/naturaleza-deporte/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/naturaleza-deporte/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/es/playas-y-mas/" target="_blank" rel="noopener">https://www.casaargentera.com/es/playas-y-mas/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/playas-y-mas/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/es/quienes-somos/" target="_blank" rel="noopener">https://www.casaargentera.com/es/quienes-somos/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/quienes-somos/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/es/el-atico/" target="_blank" rel="noopener">https://www.casaargentera.com/es/el-atico/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-atico/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/es/el-jardin/" target="_blank" rel="noopener">https://www.casaargentera.com/es/el-jardin/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-jardin/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/es/el-piso-senorial/" target="_blank" rel="noopener">https://www.casaargentera.com/es/el-piso-senorial/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-piso-senorial/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/es/eventos/" target="_blank" rel="noopener">https://www.casaargentera.com/es/eventos/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/eventos/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/es/cultura/" target="_blank" rel="noopener">https://www.casaargentera.com/es/cultura/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/cultura/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/es/la-casa-entera/" target="_blank" rel="noopener">https://www.casaargentera.com/es/la-casa-entera/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/la-casa-entera/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/es/la-casa/" target="_blank" rel="noopener">https://www.casaargentera.com/es/la-casa/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/la-casa/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/es/la-planta-baja/" target="_blank" rel="noopener">https://www.casaargentera.com/es/la-planta-baja/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/la-planta-baja/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/es/experiencias/" target="_blank" rel="noopener">https://www.casaargentera.com/es/experiencias/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/experiencias/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/es/contacto/" target="_blank" rel="noopener">https://www.casaargentera.com/es/contacto/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/contacto/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/es/inicio/" target="_blank" rel="noopener">https://www.casaargentera.com/es/inicio/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/inicio/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/es/reservas/" target="_blank" rel="noopener">https://www.casaargentera.com/es/reservas/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/reservas/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/cultura/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/cultura/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/cultura/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/politica-de-privacidad-y-cookies/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/politica-de-privacidad-y-cookies/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/politica-de-privacidad-y-cookies/" target="_blank" rel="noopener">Política de privacidad y cookies - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/covid-19/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/covid-19/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/covid-19/" target="_blank" rel="noopener">COVID-19 - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/platja-i-mes/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/platja-i-mes/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/platja-i-mes/" target="_blank" rel="noopener">PLATJA I MÉS - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/qui-som/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/qui-som/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/qui-som/" target="_blank" rel="noopener">QUI SOM - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/politica-de-privacitat-i-cookies/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/politica-de-privacitat-i-cookies/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/politica-de-privacitat-i-cookies/" target="_blank" rel="noopener">Política de privacitat i cookies - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/contacte/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/contacte/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/contacte/" target="_blank" rel="noopener">CONTACTE - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/el-jardi/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/el-jardi/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/el-jardi/" target="_blank" rel="noopener">EL JARDÍ - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/esdeveniments/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/esdeveniments/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/esdeveniments/" target="_blank" rel="noopener">ESDEVENIMENTS - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/la-casa/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/la-casa/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/la-casa/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/la-casa-sencera/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/la-casa-sencera/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/la-casa-sencera/" target="_blank" rel="noopener">LA CASA SENCERA - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/latic/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/latic/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/latic/" target="_blank" rel="noopener">L&#39;ÀTIC - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/el-pis-senyorial/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/el-pis-senyorial/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/el-pis-senyorial/" target="_blank" rel="noopener">EL PIS SENYORIAL - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/la-planta-baixa/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/la-planta-baixa/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/la-planta-baixa/" target="_blank" rel="noopener">LA PLANTA BAIXA - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/lentorn/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/lentorn/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/lentorn/" target="_blank" rel="noopener">L&#39;ENTORN - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/experiencies/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/experiencies/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/experiencies/" target="_blank" rel="noopener">EXPERIÈNCIES - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/natura-esport/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/natura-esport/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/natura-esport/" target="_blank" rel="noopener">NATURA I ESPORT - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/inici/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/inici/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/inici/" target="_blank" rel="noopener">Home - Catalá - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/ca/reserves/" target="_blank" rel="noopener">https://www.casaargentera.com/ca/reserves/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/reserves/" target="_blank" rel="noopener">RESERVES - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/who-we-are/" target="_blank" rel="noopener">https://www.casaargentera.com/who-we-are/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/who-we-are/" target="_blank" rel="noopener">WHO WE ARE - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/nature-sport/" target="_blank" rel="noopener">https://www.casaargentera.com/nature-sport/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/nature-sport/" target="_blank" rel="noopener">NATURE / SPORT - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/the-place/" target="_blank" rel="noopener">https://www.casaargentera.com/the-place/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/the-place/" target="_blank" rel="noopener">THE PLACE - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/covid-19/" target="_blank" rel="noopener">https://www.casaargentera.com/covid-19/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/covid-19/" target="_blank" rel="noopener">COVID-19 - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/privacy-policy-and-cookies/" target="_blank" rel="noopener">https://www.casaargentera.com/privacy-policy-and-cookies/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/privacy-policy-and-cookies" target="_blank" rel="noopener">Privacy policy and cookies - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/beach-and-more/" target="_blank" rel="noopener">https://www.casaargentera.com/beach-and-more/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/beach-and-more/" target="_blank" rel="noopener">BEACH AND MORE - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/events/" target="_blank" rel="noopener">https://www.casaargentera.com/events/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/events" target="_blank" rel="noopener">EVENTS - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/contact/" target="_blank" rel="noopener">https://www.casaargentera.com/contact/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/contact" target="_blank" rel="noopener">CONTACT - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/culture/" target="_blank" rel="noopener">https://www.casaargentera.com/culture/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/culture" target="_blank" rel="noopener">CULTURE - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/the-whole-house/" target="_blank" rel="noopener">https://www.casaargentera.com/the-whole-house/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/the-whole-house/" target="_blank" rel="noopener">THE WHOLE HOUSE - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/the-house/" target="_blank" rel="noopener">https://www.casaargentera.com/the-house/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/the-house/" target="_blank" rel="noopener">THE HOUSE - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/the-garden/" target="_blank" rel="noopener">https://www.casaargentera.com/the-garden/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/the-garden" target="_blank" rel="noopener">THE GARDEN - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/the-penthouse/" target="_blank" rel="noopener">https://www.casaargentera.com/the-penthouse/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/the-penthouse/" target="_blank" rel="noopener">THE PENTHOUSE - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/the-noble-floor/" target="_blank" rel="noopener">https://www.casaargentera.com/the-noble-floor/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/the-noble-floor/" target="_blank" rel="noopener">THE NOBLE FLOOR - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/the-ground-floor/" target="_blank" rel="noopener">https://www.casaargentera.com/the-ground-floor/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/the-ground-floor/" target="_blank" rel="noopener">THE GROUND FLOOR - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/experiences/" target="_blank" rel="noopener">https://www.casaargentera.com/experiences/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/experiences" target="_blank" rel="noopener">EXPERIENCES - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/reservations-2/" target="_blank" rel="noopener">https://www.casaargentera.com/reservations-2/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/reservations-2" target="_blank" rel="noopener">RESERVATIONS - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/covid-19/" target="_blank" rel="noopener">https://www.casaargentera.com/da/covid-19/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/covid-19/" target="_blank" rel="noopener">COVID-19 - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/natur-sport/" target="_blank" rel="noopener">https://www.casaargentera.com/da/natur-sport/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/natur-sport/" target="_blank" rel="noopener">NATUR / SPORT - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/who-we-are/" target="_blank" rel="noopener">https://www.casaargentera.com/da/who-we-are/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/who-we-are/" target="_blank" rel="noopener">WHO WE ARE - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/stedet/" target="_blank" rel="noopener">https://www.casaargentera.com/da/stedet/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/stedet/" target="_blank" rel="noopener">STEDET - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/strand-m-m/" target="_blank" rel="noopener">https://www.casaargentera.com/da/strand-m-m/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/strand-m-m/" target="_blank" rel="noopener">STRAND M.M. - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/oplevelser/" target="_blank" rel="noopener">https://www.casaargentera.com/da/oplevelser/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/oplevelser/" target="_blank" rel="noopener">OPLEVELSER - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/privacy-policy-and-cookies/" target="_blank" rel="noopener">https://www.casaargentera.com/da/privacy-policy-and-cookies/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/privacy-policy-and-cookies/" target="_blank" rel="noopener">Privacy policy and cookies - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/stueetagen/" target="_blank" rel="noopener">https://www.casaargentera.com/da/stueetagen/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/stueetagen/" target="_blank" rel="noopener">STUEETAGEN - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/penthousekvisten/" target="_blank" rel="noopener">https://www.casaargentera.com/da/penthousekvisten/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/penthousekvisten/" target="_blank" rel="noopener">PENTHOUSEKVISTEN - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/eventsda/" target="_blank" rel="noopener">https://www.casaargentera.com/da/eventsda/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/eventsda/" target="_blank" rel="noopener">EVENTS - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/the-garden/" target="_blank" rel="noopener">https://www.casaargentera.com/da/the-garden/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/the-garden/" target="_blank" rel="noopener">THE GARDEN - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/hele-huset/" target="_blank" rel="noopener">https://www.casaargentera.com/da/hele-huset/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/hele-huset/" target="_blank" rel="noopener">HELE HUSET - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/the-noble-floor/" target="_blank" rel="noopener">https://www.casaargentera.com/da/the-noble-floor/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/the-noble-floor/" target="_blank" rel="noopener">THE NOBLE FLOOR - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/kontakt/" target="_blank" rel="noopener">https://www.casaargentera.com/da/kontakt/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/kontakt/" target="_blank" rel="noopener">KONTAKT - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/kulturen/" target="_blank" rel="noopener">https://www.casaargentera.com/da/kulturen/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/kulturen/" target="_blank" rel="noopener">KULTUREN - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/the-house/" target="_blank" rel="noopener">https://www.casaargentera.com/da/the-house/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/the-house/" target="_blank" rel="noopener">THE HOUSE - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/home/" target="_blank" rel="noopener">https://www.casaargentera.com/da/home/</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://www.casaargentera.com/da/reservations/" target="_blank" rel="noopener">https://www.casaargentera.com/da/reservations/</a></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/da/reservations/" target="_blank" rel="noopener">RESERVATIONER - Casa Argentera</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Page templates</h2></summary>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Editorial pages (the house, the area, culture)</td><td>24</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Reservations page</td><td>4</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Events page</td><td>4</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Contact page</td><td>4</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Home page</td><td>3</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Experiences overview</td><td>4</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Accommodation pages</td><td>20</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Privacy and information pages</td><td>7</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" id="blocks-used">
+    <summary class="spectrum-panel-header"><h2>Blocks used</h2></summary>
+    <div class="panel-body">
+      <p>9 blocks in 31 variants across 70 pages. These are the building blocks your authors will work with.</p>
+      <input type="radio" name="blocks-page" id="bp-1" class="bp-radio" checked>
+      <input type="radio" name="blocks-page" id="bp-2" class="bp-radio">
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody class="bp-page bp-page-1">
+          <tr class="group"><td class="block" rowspan="5">hero-slider<span class="block-pages">63 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-0-0">View 36 pages</button></td></tr>
+          <tr><td><span class="variant">start-4</span></td><td><button class="more" popovertarget="blocks-pages-0-1">View 12 pages</button></td></tr>
+          <tr><td><span class="variant">start-3</span></td><td><button class="more" popovertarget="blocks-pages-0-2">View 7 pages</button></td></tr>
+          <tr><td><span class="variant">start-2</span></td><td><button class="more" popovertarget="blocks-pages-0-3">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">title-60</span><span class="variant">start-4</span></td><td><button class="more" popovertarget="blocks-pages-0-4">View 4 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="8">image-grid<span class="block-pages">35 pages</span></td><td><span class="variant">plain</span></td><td><button class="more" popovertarget="blocks-pages-1-0">View 13 pages</button></td></tr>
+          <tr><td><span class="variant">plain</span><span class="variant">end-0</span></td><td><button class="more" popovertarget="blocks-pages-1-1">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">gallery</span><span class="variant">events</span></td><td><button class="more" popovertarget="blocks-pages-1-2">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">gallery</span></td><td><button class="more" popovertarget="blocks-pages-1-3">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">plain</span><span class="variant">intro-42</span></td><td><button class="more" popovertarget="blocks-pages-1-4">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">plain</span><span class="variant">intro-50</span><span class="variant">stack-70</span></td><td><button class="more" popovertarget="blocks-pages-1-5">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">linked</span></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/" target="_blank" rel="noopener">Home - Casa Argentera</a>, <a href="https://main--ea32f12a--aemcoder.aem.page/es/inicio/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a>, <a href="https://main--ea32f12a--aemcoder.aem.page/ca/inici/" target="_blank" rel="noopener">Home - Catalá - Casa Argentera</a></td></tr>
+          <tr><td><span class="variant">stacked</span></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/" target="_blank" rel="noopener">Home - Casa Argentera</a>, <a href="https://main--ea32f12a--aemcoder.aem.page/es/inicio/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a>, <a href="https://main--ea32f12a--aemcoder.aem.page/ca/inici/" target="_blank" rel="noopener">Home - Catalá - Casa Argentera</a></td></tr>
+          <tr class="group"><td class="block">contact-form<span class="block-pages">32 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-2-0">View 32 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="2">icon-features<span class="block-pages">24 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-3-0">View 20 pages</button></td></tr>
+          <tr><td><span class="variant">title-22</span><span class="variant">gap-32</span></td><td><button class="more" popovertarget="blocks-pages-3-1">View 4 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="8">media-feature<span class="block-pages">20 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/cultura/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a>, <a href="https://main--ea32f12a--aemcoder.aem.page/ca/cultura/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a>, <a href="https://main--ea32f12a--aemcoder.aem.page/da/kulturen/" target="_blank" rel="noopener">KULTUREN - Casa Argentera</a></td></tr>
+          <tr><td><span class="variant">gap-32</span><span class="variant">intro-h3</span></td><td><button class="more" popovertarget="blocks-pages-4-1">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">intro-32</span></td><td><button class="more" popovertarget="blocks-pages-4-2">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">top-32</span><span class="variant">gap-32</span><span class="variant">head-32</span><span class="variant">end-32</span></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/experiencias/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a>, <a href="https://main--ea32f12a--aemcoder.aem.page/experiences" target="_blank" rel="noopener">EXPERIENCES - Casa Argentera</a>, <a href="https://main--ea32f12a--aemcoder.aem.page/da/oplevelser/" target="_blank" rel="noopener">OPLEVELSER - Casa Argentera</a></td></tr>
+          <tr><td><span class="variant">gap-32</span><span class="variant">top-32</span></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/playas-y-mas/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a>, <a href="https://main--ea32f12a--aemcoder.aem.page/ca/platja-i-mes/" target="_blank" rel="noopener">PLATJA I MÉS - Casa Argentera</a>, <a href="https://main--ea32f12a--aemcoder.aem.page/da/strand-m-m/" target="_blank" rel="noopener">STRAND M.M. - Casa Argentera</a></td></tr>
+          <tr><td><span class="variant">top-32</span><span class="variant">gap-32</span><span class="variant">head-32</span><span class="variant">end-32</span><span class="variant">intro-35</span></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/experiencies/" target="_blank" rel="noopener">EXPERIÈNCIES - Casa Argentera</a></td></tr>
+          <tr><td><span class="variant">gap-32</span><span class="variant">top-0</span></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/beach-and-more/" target="_blank" rel="noopener">BEACH AND MORE - Casa Argentera</a></td></tr>
+          <tr><td><span class="variant">intro-45</span></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/culture" target="_blank" rel="noopener">CULTURE - Casa Argentera</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-2">
+          <tr class="group"><td class="block" rowspan="2">map<span class="block-pages">7 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/" target="_blank" rel="noopener">Home - Casa Argentera</a>, <a href="https://main--ea32f12a--aemcoder.aem.page/es/inicio/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a>, <a href="https://main--ea32f12a--aemcoder.aem.page/ca/inici/" target="_blank" rel="noopener">Home - Catalá - Casa Argentera</a></td></tr>
+          <tr><td><span class="variant">top-10</span></td><td><button class="more" popovertarget="blocks-pages-5-1">View 4 pages</button></td></tr>
+          <tr class="group"><td class="block">spacer<span class="block-pages">7 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-6-0">View 7 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="2">availability-calendar<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/reserves/" target="_blank" rel="noopener">RESERVES - Casa Argentera</a></td></tr>
+          <tr><td><span class="variant">tail-1</span></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/es/reservas/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a>, <a href="https://main--ea32f12a--aemcoder.aem.page/reservations-2" target="_blank" rel="noopener">RESERVATIONS - Casa Argentera</a>, <a href="https://main--ea32f12a--aemcoder.aem.page/da/reservations/" target="_blank" rel="noopener">RESERVATIONER - Casa Argentera</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">testimonials<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/" target="_blank" rel="noopener">Home - Casa Argentera</a>, <a href="https://main--ea32f12a--aemcoder.aem.page/es/inicio/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></td></tr>
+          <tr><td><span class="variant">author-top</span></td><td><a href="https://main--ea32f12a--aemcoder.aem.page/ca/inici/" target="_blank" rel="noopener">Home - Catalá - Casa Argentera</a></td></tr>
+        </tbody>
+      </table>
+      <nav class="pager" aria-label="Pages of blocks"><span class="bp-range bp-range-1">Blocks 1–5 of 9</span><span class="bp-range bp-range-2">Blocks 6–9 of 9</span><div class="labels"><label for="bp-1" class="spectrum-button spectrum-button--quiet">1</label><label for="bp-2" class="spectrum-button spectrum-button--quiet">2</label></div></nav>
+      <div popover id="blocks-pages-0-0" class="blocks-popover" aria-labelledby="blocks-pages-0-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-0-title">hero-slider <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 36 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/naturaleza-deporte/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/playas-y-mas/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/quienes-somos/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/cultura/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/la-casa-entera/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/la-casa/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/la-planta-baja/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/contacto/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/reservas/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/cultura/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/platja-i-mes/" target="_blank" rel="noopener">PLATJA I MÉS - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/qui-som/" target="_blank" rel="noopener">QUI SOM - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/contacte/" target="_blank" rel="noopener">CONTACTE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/la-casa/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/la-casa-sencera/" target="_blank" rel="noopener">LA CASA SENCERA - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/la-planta-baixa/" target="_blank" rel="noopener">LA PLANTA BAIXA - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/natura-esport/" target="_blank" rel="noopener">NATURA I ESPORT - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/reserves/" target="_blank" rel="noopener">RESERVES - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/who-we-are/" target="_blank" rel="noopener">WHO WE ARE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/nature-sport/" target="_blank" rel="noopener">NATURE / SPORT - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/beach-and-more/" target="_blank" rel="noopener">BEACH AND MORE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/contact" target="_blank" rel="noopener">CONTACT - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/culture" target="_blank" rel="noopener">CULTURE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-whole-house/" target="_blank" rel="noopener">THE WHOLE HOUSE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-house/" target="_blank" rel="noopener">THE HOUSE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-ground-floor/" target="_blank" rel="noopener">THE GROUND FLOOR - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/reservations-2" target="_blank" rel="noopener">RESERVATIONS - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/natur-sport/" target="_blank" rel="noopener">NATUR / SPORT - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/who-we-are/" target="_blank" rel="noopener">WHO WE ARE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/strand-m-m/" target="_blank" rel="noopener">STRAND M.M. - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/stueetagen/" target="_blank" rel="noopener">STUEETAGEN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/hele-huset/" target="_blank" rel="noopener">HELE HUSET - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/kontakt/" target="_blank" rel="noopener">KONTAKT - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/kulturen/" target="_blank" rel="noopener">KULTUREN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/the-house/" target="_blank" rel="noopener">THE HOUSE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/reservations/" target="_blank" rel="noopener">RESERVATIONER - Casa Argentera</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-0-1" class="blocks-popover" aria-labelledby="blocks-pages-0-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-1-title">hero-slider <span class="variant-inline">start-4</span></h3>
+            <p class="blocks-count">Used on 12 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/" target="_blank" rel="noopener">Home - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-atico/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-piso-senorial/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/experiencias/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/inicio/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/latic/" target="_blank" rel="noopener">L&#39;ÀTIC - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/el-pis-senyorial/" target="_blank" rel="noopener">EL PIS SENYORIAL - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/inici/" target="_blank" rel="noopener">Home - Catalá - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-penthouse/" target="_blank" rel="noopener">THE PENTHOUSE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-noble-floor/" target="_blank" rel="noopener">THE NOBLE FLOOR - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/penthousekvisten/" target="_blank" rel="noopener">PENTHOUSEKVISTEN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/the-noble-floor/" target="_blank" rel="noopener">THE NOBLE FLOOR - Casa Argentera</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-0-2" class="blocks-popover" aria-labelledby="blocks-pages-0-2-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-2-title">hero-slider <span class="variant-inline">start-3</span></h3>
+            <p class="blocks-count">Used on 7 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-2" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-entorno/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/lentorn/" target="_blank" rel="noopener">L&#39;ENTORN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/experiencies/" target="_blank" rel="noopener">EXPERIÈNCIES - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-place/" target="_blank" rel="noopener">THE PLACE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/experiences" target="_blank" rel="noopener">EXPERIENCES - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/stedet/" target="_blank" rel="noopener">STEDET - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/oplevelser/" target="_blank" rel="noopener">OPLEVELSER - Casa Argentera</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-0-3" class="blocks-popover" aria-labelledby="blocks-pages-0-3-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-3-title">hero-slider <span class="variant-inline">start-2</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-3" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-jardin/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/el-jardi/" target="_blank" rel="noopener">EL JARDÍ - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-garden" target="_blank" rel="noopener">THE GARDEN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/the-garden/" target="_blank" rel="noopener">THE GARDEN - Casa Argentera</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-0-4" class="blocks-popover" aria-labelledby="blocks-pages-0-4-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-4-title">hero-slider <span class="variant-inline">title-60 start-4</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-4" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/eventos/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/esdeveniments/" target="_blank" rel="noopener">ESDEVENIMENTS - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/events" target="_blank" rel="noopener">EVENTS - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/eventsda/" target="_blank" rel="noopener">EVENTS - Casa Argentera</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-0" class="blocks-popover" aria-labelledby="blocks-pages-1-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-0-title">image-grid <span class="variant-inline">plain</span></h3>
+            <p class="blocks-count">Used on 13 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-jardin/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-piso-senorial/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/la-casa-entera/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/el-jardi/" target="_blank" rel="noopener">EL JARDÍ - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/la-casa-sencera/" target="_blank" rel="noopener">LA CASA SENCERA - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/el-pis-senyorial/" target="_blank" rel="noopener">EL PIS SENYORIAL - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/lentorn/" target="_blank" rel="noopener">L&#39;ENTORN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-whole-house/" target="_blank" rel="noopener">THE WHOLE HOUSE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-garden" target="_blank" rel="noopener">THE GARDEN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-noble-floor/" target="_blank" rel="noopener">THE NOBLE FLOOR - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/the-garden/" target="_blank" rel="noopener">THE GARDEN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/hele-huset/" target="_blank" rel="noopener">HELE HUSET - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/the-noble-floor/" target="_blank" rel="noopener">THE NOBLE FLOOR - Casa Argentera</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-1" class="blocks-popover" aria-labelledby="blocks-pages-1-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-1-title">image-grid <span class="variant-inline">plain end-0</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/quienes-somos/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/qui-som/" target="_blank" rel="noopener">QUI SOM - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/who-we-are/" target="_blank" rel="noopener">WHO WE ARE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/who-we-are/" target="_blank" rel="noopener">WHO WE ARE - Casa Argentera</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-2" class="blocks-popover" aria-labelledby="blocks-pages-1-2-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-2-title">image-grid <span class="variant-inline">gallery events</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-2" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/eventos/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/esdeveniments/" target="_blank" rel="noopener">ESDEVENIMENTS - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/events" target="_blank" rel="noopener">EVENTS - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/eventsda/" target="_blank" rel="noopener">EVENTS - Casa Argentera</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-3" class="blocks-popover" aria-labelledby="blocks-pages-1-3-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-3-title">image-grid <span class="variant-inline">gallery</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-3" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/la-planta-baja/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/la-planta-baixa/" target="_blank" rel="noopener">LA PLANTA BAIXA - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-ground-floor/" target="_blank" rel="noopener">THE GROUND FLOOR - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/stueetagen/" target="_blank" rel="noopener">STUEETAGEN - Casa Argentera</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-4" class="blocks-popover" aria-labelledby="blocks-pages-1-4-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-4-title">image-grid <span class="variant-inline">plain intro-42</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-4" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-entorno/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/lentorn/" target="_blank" rel="noopener">L&#39;ENTORN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-place/" target="_blank" rel="noopener">THE PLACE - Casa Argentera</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/stedet/" target="_blank" rel="noopener">STEDET - Casa Argentera</a> <span class="blocks-count">×2</span></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-5" class="blocks-popover" aria-labelledby="blocks-pages-1-5-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-5-title">image-grid <span class="variant-inline">plain intro-50 stack-70</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-5" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-atico/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/latic/" target="_blank" rel="noopener">L&#39;ÀTIC - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-penthouse/" target="_blank" rel="noopener">THE PENTHOUSE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/penthousekvisten/" target="_blank" rel="noopener">PENTHOUSEKVISTEN - Casa Argentera</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-0" class="blocks-popover" aria-labelledby="blocks-pages-2-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-0-title">contact-form <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 32 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-atico/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-jardin/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-piso-senorial/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/eventos/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/la-casa-entera/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/la-planta-baja/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/contacto/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/reservas/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/contacte/" target="_blank" rel="noopener">CONTACTE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/el-jardi/" target="_blank" rel="noopener">EL JARDÍ - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/esdeveniments/" target="_blank" rel="noopener">ESDEVENIMENTS - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/la-casa-sencera/" target="_blank" rel="noopener">LA CASA SENCERA - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/latic/" target="_blank" rel="noopener">L&#39;ÀTIC - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/el-pis-senyorial/" target="_blank" rel="noopener">EL PIS SENYORIAL - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/la-planta-baixa/" target="_blank" rel="noopener">LA PLANTA BAIXA - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/reserves/" target="_blank" rel="noopener">RESERVES - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/events" target="_blank" rel="noopener">EVENTS - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/contact" target="_blank" rel="noopener">CONTACT - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-whole-house/" target="_blank" rel="noopener">THE WHOLE HOUSE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-garden" target="_blank" rel="noopener">THE GARDEN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-penthouse/" target="_blank" rel="noopener">THE PENTHOUSE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-noble-floor/" target="_blank" rel="noopener">THE NOBLE FLOOR - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-ground-floor/" target="_blank" rel="noopener">THE GROUND FLOOR - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/reservations-2" target="_blank" rel="noopener">RESERVATIONS - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/stueetagen/" target="_blank" rel="noopener">STUEETAGEN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/penthousekvisten/" target="_blank" rel="noopener">PENTHOUSEKVISTEN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/eventsda/" target="_blank" rel="noopener">EVENTS - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/the-garden/" target="_blank" rel="noopener">THE GARDEN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/hele-huset/" target="_blank" rel="noopener">HELE HUSET - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/the-noble-floor/" target="_blank" rel="noopener">THE NOBLE FLOOR - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/kontakt/" target="_blank" rel="noopener">KONTAKT - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/reservations/" target="_blank" rel="noopener">RESERVATIONER - Casa Argentera</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-3-0" class="blocks-popover" aria-labelledby="blocks-pages-3-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-3-0-title">icon-features <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 20 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-3-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-atico/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-jardin/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/el-piso-senorial/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/la-casa-entera/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/la-planta-baja/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/el-jardi/" target="_blank" rel="noopener">EL JARDÍ - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/la-casa-sencera/" target="_blank" rel="noopener">LA CASA SENCERA - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/latic/" target="_blank" rel="noopener">L&#39;ÀTIC - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/el-pis-senyorial/" target="_blank" rel="noopener">EL PIS SENYORIAL - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/la-planta-baixa/" target="_blank" rel="noopener">LA PLANTA BAIXA - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-whole-house/" target="_blank" rel="noopener">THE WHOLE HOUSE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-garden" target="_blank" rel="noopener">THE GARDEN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-penthouse/" target="_blank" rel="noopener">THE PENTHOUSE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-noble-floor/" target="_blank" rel="noopener">THE NOBLE FLOOR - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-ground-floor/" target="_blank" rel="noopener">THE GROUND FLOOR - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/stueetagen/" target="_blank" rel="noopener">STUEETAGEN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/penthousekvisten/" target="_blank" rel="noopener">PENTHOUSEKVISTEN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/the-garden/" target="_blank" rel="noopener">THE GARDEN - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/hele-huset/" target="_blank" rel="noopener">HELE HUSET - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/the-noble-floor/" target="_blank" rel="noopener">THE NOBLE FLOOR - Casa Argentera</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-3-1" class="blocks-popover" aria-labelledby="blocks-pages-3-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-3-1-title">icon-features <span class="variant-inline">title-22 gap-32</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-3-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/contacto/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/contacte/" target="_blank" rel="noopener">CONTACTE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/contact" target="_blank" rel="noopener">CONTACT - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/kontakt/" target="_blank" rel="noopener">KONTAKT - Casa Argentera</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-4-1" class="blocks-popover" aria-labelledby="blocks-pages-4-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-4-1-title">media-feature <span class="variant-inline">gap-32 intro-h3</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-4-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/la-casa/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/la-casa/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/the-house/" target="_blank" rel="noopener">THE HOUSE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/the-house/" target="_blank" rel="noopener">THE HOUSE - Casa Argentera</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-4-2" class="blocks-popover" aria-labelledby="blocks-pages-4-2-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-4-2-title">media-feature <span class="variant-inline">intro-32</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-4-2" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/naturaleza-deporte/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/natura-esport/" target="_blank" rel="noopener">NATURA I ESPORT - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/nature-sport/" target="_blank" rel="noopener">NATURE / SPORT - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/natur-sport/" target="_blank" rel="noopener">NATUR / SPORT - Casa Argentera</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-5-1" class="blocks-popover" aria-labelledby="blocks-pages-5-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-5-1-title">map <span class="variant-inline">top-10</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-5-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/es/contacto/" target="_blank" rel="noopener">Casa rural en Priorat y Costa Daurada | Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/contacte/" target="_blank" rel="noopener">CONTACTE - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/contact" target="_blank" rel="noopener">CONTACT - Casa Argentera</a></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/kontakt/" target="_blank" rel="noopener">KONTAKT - Casa Argentera</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-6-0" class="blocks-popover" aria-labelledby="blocks-pages-6-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-6-0-title">spacer <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 7 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-6-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/politica-de-privacidad-y-cookies/" target="_blank" rel="noopener">Política de privacidad y cookies - Casa Argentera</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/covid-19/" target="_blank" rel="noopener">COVID-19 - Casa Argentera</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/ca/politica-de-privacitat-i-cookies/" target="_blank" rel="noopener">Política de privacitat i cookies - Casa Argentera</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/covid-19/" target="_blank" rel="noopener">COVID-19 - Casa Argentera</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/privacy-policy-and-cookies" target="_blank" rel="noopener">Privacy policy and cookies - Casa Argentera</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/covid-19/" target="_blank" rel="noopener">COVID-19 - Casa Argentera</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--ea32f12a--aemcoder.aem.page/da/privacy-policy-and-cookies/" target="_blank" rel="noopener">Privacy policy and cookies - Casa Argentera</a> <span class="blocks-count">×3</span></li>
+        </ul>
+      </div>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Analytics and tags</h2><span class="spectrum-badge">Switched off</span></summary>
+    <div class="panel-body">
+      <p>We carried over 2 tags, <strong>switched off</strong>: nothing loads on the new site until you turn it on.</p>
+      <table>
+        <thead><tr><th>Found on www.casaargentera.com</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Google Tag Manager</td><td><code>UA-4591587-1</code>, <code>G-CV2K683122</code></td></tr>
+          <tr><td>Consent manager</td><td>None found</td></tr>
+          <tr><td>Data layers</td><td><code>dataLayer</code></td></tr>
+        </tbody>
+      </table>
+      <h3>Before you switch them on</h3>
+      <ol class="todo">
+        <li><strong>Decide how consent works.</strong> We found no consent manager on the pages we checked; once switched on, the tags load without one.</li>
+        <li><strong>Share the setup of Google Tag Manager.</strong> We could not read its rules.</li>
+      </ol>
+      <p class="meta">Full details for your developers: <code>stardust/martech-handoff.md</code> in the repository.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Journey</h2></summary>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </details>
+</main>
+</body>
+</html>

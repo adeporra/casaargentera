@@ -1,0 +1,2093 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-24T22:27:20.257Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/nature-sport/",
+  "at": "2026-11-24T22:27:20.167Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3557,
+  "root": null,
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-navigation > a.dt-mobile-menu-icon",
+    "x": 306,
+    "y": 17,
+    "w": 24,
+    "h": 24,
+    "text": "mobile menu icon",
+    "href": "/nature-sport/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-branding > a",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-branding > a > img.mobile-logo.preload-me",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "file": "Logo-75-px"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2.has-accent-color.has-text-color",
+    "x": 30,
+    "y": 312,
+    "w": 300,
+    "h": 330,
+    "level": 2,
+    "text": "nature makes you feel better. there is plenty of it here"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 674,
+    "w": 300,
+    "h": 150,
+    "text": "The house is located in a tiny village of 130 inhabitants, in the valley of the "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > img.alignnone.wp-image-15923",
+    "x": 30,
+    "y": 880,
+    "w": 300,
+    "h": 169,
+    "text": "",
+    "file": "20200215_171854P3D-1024x577"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 1059,
+    "w": 300,
+    "h": 110,
+    "level": 2,
+    "text": "for cycling enthusiasts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 1179,
+    "w": 300,
+    "h": 300,
+    "text": "Whether you are to thrilling , or , we have more than 15 carefully running almos"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > img.alignnone.wp-image-15481",
+    "x": 30,
+    "y": 1519,
+    "w": 300,
+    "h": 169,
+    "text": "",
+    "file": "20170514_123904MolaColldeJouGitte-1024x5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 1698,
+    "w": 300,
+    "h": 275,
+    "level": 2,
+    "text": "walking, trekking or hiking the route is marked"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 1983,
+    "w": 300,
+    "h": 200,
+    "text": "Hiking in this area is something you should not miss. Explore the mountains, wel"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > img.alignnone.wp-image-15725",
+    "x": 30,
+    "y": 2223,
+    "w": 300,
+    "h": 169,
+    "text": "",
+    "file": "Horseridingbeach-Casa-Argentera"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 2402,
+    "w": 300,
+    "h": 55,
+    "level": 2,
+    "text": "horse lovers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 2467,
+    "w": 300,
+    "h": 150,
+    "text": "Enjoy quiet through small roads and paths surrounded by olive and hazelnut field"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-4 > div.widget-title",
+    "x": 30,
+    "y": 2737,
+    "w": 300,
+    "h": 27,
+    "text": "CONTACT US"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-4 > div.textwidget > p",
+    "x": 30,
+    "y": 2779,
+    "w": 300,
+    "h": 125,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 2882,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#search-4 > div.widget-title",
+    "x": 30,
+    "y": 2934,
+    "w": 300,
+    "h": 27,
+    "text": "SEARCH"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#search-4 > form.searchform > a.submit",
+    "x": 299,
+    "y": 2976,
+    "w": 20,
+    "h": 40,
+    "text": "",
+    "href": "/nature-sport/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#presscore-contact-info-widget-3 > div.widget-title",
+    "x": 30,
+    "y": 3046,
+    "w": 300,
+    "h": 27,
+    "text": "FOLLOW US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.facebook",
+    "x": 32,
+    "y": 3090,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.instagram",
+    "x": 62,
+    "y": 3090,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-6 > div.widget-title",
+    "x": 30,
+    "y": 3148,
+    "w": 300,
+    "h": 27,
+    "text": "OTHER RENTALS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-6 > div.textwidget > p",
+    "x": 30,
+    "y": 3190,
+    "w": 300,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTA C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 3243,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-3 > div.widget-title",
+    "x": 30,
+    "y": 3295,
+    "w": 300,
+    "h": 27,
+    "text": "LEGAL INFO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-3 > div.textwidget > p",
+    "x": 30,
+    "y": 3337,
+    "w": 300,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 3340,
+    "w": 184,
+    "h": 18,
+    "text": "privacy policy and cookies",
+    "href": "/privacy-policy-and-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 3417,
+    "w": 300,
+    "h": 25,
+    "text": "english",
+    "href": "/nature-sport/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 3442,
+    "w": 300,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/natur-sport/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 3467,
+    "w": 300,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/natura-esport/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 3492,
+    "w": 300,
+    "h": 25,
+    "text": "español",
+    "href": "/es/naturaleza-deporte/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 24,
+    "textNodes": 61,
+    "controls": 24,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/nature-sport",
+  "at": "2026-11-24T22:27:10.061Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3581,
+  "root": "main#main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-branding > a",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "file": "media_1508d370a8febea63d6a0a1c69adcb7155"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-navigation > a.dt-mobile-menu-icon",
+    "x": 308,
+    "y": 21,
+    "w": 22,
+    "h": 16,
+    "text": "mobile menu icon",
+    "href": "/nature-sport"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slide-media > picture > img",
+    "x": 0,
+    "y": 0,
+    "w": 360,
+    "h": 252,
+    "text": "mountainbike routes in baix camp, gran fondo priorat",
+    "file": "media_1ca0e46af113419632941159b2722b397a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.media-feature-container > div.default-content-wrapper > h1#nature-makes-you-feel-better-there-is-plenty-of-it-here",
+    "x": 30,
+    "y": 312,
+    "w": 300,
+    "h": 330,
+    "level": 1,
+    "text": "nature makes you feel better. there is plenty of it here"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.media-feature-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 674,
+    "w": 300,
+    "h": 150,
+    "text": "The house is located in a tiny village of 130 inhabitants, in the valley of the "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-col.media-feature-media > picture > img",
+    "x": 30,
+    "y": 880,
+    "w": 300,
+    "h": 169,
+    "text": "",
+    "file": "media_1d33f6b2329d4e16b72f929a2f0c0de549"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > h2#for-cycling-enthusiasts",
+    "x": 30,
+    "y": 1067,
+    "w": 300,
+    "h": 110,
+    "level": 2,
+    "text": "for cycling enthusiasts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > p",
+    "x": 30,
+    "y": 1187,
+    "w": 300,
+    "h": 300,
+    "text": "Whether you are to thrilling , or , we have more than 15 carefully running almos"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-col.media-feature-media > picture > img",
+    "x": 30,
+    "y": 1527,
+    "w": 300,
+    "h": 169,
+    "text": "",
+    "file": "media_1cdf3bb37d828ef7f4bbacbe68490591c6"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > h2#walking-trekking-or-hiking-the-route-is-marked",
+    "x": 30,
+    "y": 1714,
+    "w": 300,
+    "h": 275,
+    "level": 2,
+    "text": "walking, trekking or hiking the route is marked"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > p",
+    "x": 30,
+    "y": 1999,
+    "w": 300,
+    "h": 200,
+    "text": "Hiking in this area is something you should not miss. Explore the mountains, wel"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-col.media-feature-media > picture > img",
+    "x": 30,
+    "y": 2239,
+    "w": 300,
+    "h": 169,
+    "text": "",
+    "file": "media_12459d181db6b03290cb85e8459e619b2b"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > h2#horse-lovers",
+    "x": 30,
+    "y": 2426,
+    "w": 300,
+    "h": 55,
+    "level": 2,
+    "text": "horse lovers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > p",
+    "x": 30,
+    "y": 2491,
+    "w": 300,
+    "h": 150,
+    "text": "Enjoy quiet through small roads and paths surrounded by olive and hazelnut field"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 2761,
+    "w": 300,
+    "h": 27,
+    "text": "CONTACT US"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 2803,
+    "w": 300,
+    "h": 125,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 2906,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 2958,
+    "w": 300,
+    "h": 27,
+    "text": "SEARCH"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > form.searchform > button.submit",
+    "x": 298,
+    "y": 3000,
+    "w": 20,
+    "h": 40,
+    "text": "search"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 3070,
+    "w": 300,
+    "h": 27,
+    "text": "FOLLOW US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.facebook",
+    "x": 32,
+    "y": 3114,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.instagram",
+    "x": 62,
+    "y": 3114,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 3172,
+    "w": 300,
+    "h": 27,
+    "text": "OTHER RENTALS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 3214,
+    "w": 300,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTA C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 3267,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 3319,
+    "w": 300,
+    "h": 27,
+    "text": "LEGAL INFO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 3361,
+    "w": 300,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 3364,
+    "w": 184,
+    "h": 18,
+    "text": "privacy policy and cookies",
+    "href": "/privacy-policy-and-cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 3441,
+    "w": 300,
+    "h": 25,
+    "text": "english",
+    "href": "/nature-sport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 3466,
+    "w": 300,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/natur-sport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 3491,
+    "w": 300,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/natura-esport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 3516,
+    "w": 300,
+    "h": 25,
+    "text": "español",
+    "href": "/es/naturaleza-deporte"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 49,
+    "controls": 12,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "nature makes you feel better. there is plenty of it here",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "for cycling enthusiasts",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "walking, trekking or hiking the route is marked",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "horse lovers",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 30,
+    "y": 309,
+    "w": 171,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 364,
+    "w": 265,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 419,
+    "w": 259,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 474,
+    "w": 188,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 529,
+    "w": 257,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 584,
+    "w": 111,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 677,
+    "w": 293,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 702,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 727,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 752,
+    "w": 224,
+    "h": 18
+   },
+   {
+    "x": 254,
+    "y": 752,
+    "w": 66,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 777,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 777,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 303,
+    "y": 777,
+    "w": 3,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 802,
+    "w": 47,
+    "h": 18
+   },
+   {
+    "x": 77,
+    "y": 802,
+    "w": 22,
+    "h": 18
+   },
+   {
+    "x": 99,
+    "y": 802,
+    "w": 124,
+    "h": 18
+   },
+   {
+    "x": 223,
+    "y": 802,
+    "w": 104,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1056,
+    "w": 265,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1111,
+    "w": 281,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1182,
+    "w": 197,
+    "h": 18
+   },
+   {
+    "x": 227,
+    "y": 1182,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 1182,
+    "w": 21,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1207,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 120,
+    "y": 1207,
+    "w": 159,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1232,
+    "w": 63,
+    "h": 18
+   },
+   {
+    "x": 93,
+    "y": 1232,
+    "w": 119,
+    "h": 18
+   },
+   {
+    "x": 212,
+    "y": 1232,
+    "w": 112,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1257,
+    "w": 247,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1282,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 209,
+    "y": 1282,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1307,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 1307,
+    "w": 173,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1332,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1357,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1382,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": 196,
+    "y": 1382,
+    "w": 129,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1407,
+    "w": 41,
+    "h": 18
+   },
+   {
+    "x": 71,
+    "y": 1407,
+    "w": 217,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1432,
+    "w": 294,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1457,
+    "w": 164,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1695,
+    "w": 212,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1750,
+    "w": 275,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1805,
+    "w": 258,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1860,
+    "w": 180,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1915,
+    "w": 192,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1986,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2011,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2036,
+    "w": 145,
+    "h": 18
+   },
+   {
+    "x": 175,
+    "y": 2036,
+    "w": 143,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2061,
+    "w": 197,
+    "h": 18
+   },
+   {
+    "x": 227,
+    "y": 2061,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2086,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2111,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2136,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2161,
+    "w": 46,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2399,
+    "w": 296,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2470,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 113,
+    "y": 2470,
+    "w": 124,
+    "h": 18
+   },
+   {
+    "x": 237,
+    "y": 2470,
+    "w": 62,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2495,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2520,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2545,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2570,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2595,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2740,
+    "w": 109,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 2782,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2807,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2832,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2857,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2882,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2937,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3049,
+    "w": 105,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3151,
+    "w": 143,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3193,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3218,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3243,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3298,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3340,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3365,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3420,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3445,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3470,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3495,
+    "w": 56,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 30,
+    "y": 309,
+    "w": 171,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 364,
+    "w": 265,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 419,
+    "w": 259,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 474,
+    "w": 188,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 529,
+    "w": 257,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 584,
+    "w": 111,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 677,
+    "w": 293,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 702,
+    "w": 271,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 727,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 752,
+    "w": 224,
+    "h": 18
+   },
+   {
+    "x": 254,
+    "y": 752,
+    "w": 66,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 777,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 777,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 303,
+    "y": 777,
+    "w": 3,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 802,
+    "w": 47,
+    "h": 18
+   },
+   {
+    "x": 77,
+    "y": 802,
+    "w": 22,
+    "h": 18
+   },
+   {
+    "x": 99,
+    "y": 802,
+    "w": 124,
+    "h": 18
+   },
+   {
+    "x": 223,
+    "y": 802,
+    "w": 104,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1064,
+    "w": 265,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1119,
+    "w": 281,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1190,
+    "w": 197,
+    "h": 18
+   },
+   {
+    "x": 227,
+    "y": 1190,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 1190,
+    "w": 21,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1215,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 120,
+    "y": 1215,
+    "w": 159,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1240,
+    "w": 63,
+    "h": 18
+   },
+   {
+    "x": 93,
+    "y": 1240,
+    "w": 119,
+    "h": 18
+   },
+   {
+    "x": 212,
+    "y": 1240,
+    "w": 112,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1265,
+    "w": 247,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1290,
+    "w": 179,
+    "h": 18
+   },
+   {
+    "x": 209,
+    "y": 1290,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1315,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 125,
+    "y": 1315,
+    "w": 173,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1340,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1365,
+    "w": 276,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1390,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": 196,
+    "y": 1390,
+    "w": 129,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1415,
+    "w": 41,
+    "h": 18
+   },
+   {
+    "x": 71,
+    "y": 1415,
+    "w": 217,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1440,
+    "w": 294,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1465,
+    "w": 164,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1711,
+    "w": 212,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1766,
+    "w": 275,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1821,
+    "w": 258,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1876,
+    "w": 180,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1931,
+    "w": 192,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2002,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2027,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2052,
+    "w": 145,
+    "h": 18
+   },
+   {
+    "x": 175,
+    "y": 2052,
+    "w": 143,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2077,
+    "w": 197,
+    "h": 18
+   },
+   {
+    "x": 227,
+    "y": 2077,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2102,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2127,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2152,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2177,
+    "w": 46,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2423,
+    "w": 296,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2494,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 113,
+    "y": 2494,
+    "w": 124,
+    "h": 18
+   },
+   {
+    "x": 237,
+    "y": 2494,
+    "w": 62,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2519,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2544,
+    "w": 272,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2569,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2594,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2619,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2764,
+    "w": 109,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 2806,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2831,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2856,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2881,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2906,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2961,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3073,
+    "w": 105,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3175,
+    "w": 143,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3217,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3242,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3267,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3322,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3364,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3389,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3444,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3469,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3494,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3519,
+    "w": 56,
+    "h": 18
+   }
+  ]
+ }
+}

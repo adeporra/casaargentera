@@ -1,0 +1,65 @@
+unit-geometry @ 360px, tol 4px — https://www.casaargentera.com/events/ vs http://localhost:8792/events-proposed.html
+unit 1 of events-gallery-item (required) #content .vc_grid-item=#content .media-grid__item: origin 30,1207 320×189 vs served 30,1207 320×189 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.vc_gitem-zone.vc_gitem-zone-" | 0,0 300×169 | 0,0 300×169 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.vc_gitem-link.prettyphoto#1" | 0,0 300×169 | 0,0 300×169 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of events-gallery-item (required) #content .vc_grid-item=#content .media-grid__item: origin 30,1396 320×189 vs served 30,1396 320×189 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.vc_gitem-zone.vc_gitem-zone-" | 0,0 300×169 | 0,0 300×169 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.vc_gitem-link.prettyphoto#1" | 0,0 300×169 | 0,0 300×169 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of events-gallery-item (required) #content .vc_grid-item=#content .media-grid__item: origin 30,1585 320×189 vs served 30,1585 320×189 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.vc_gitem-zone.vc_gitem-zone-" | 0,0 300×169 | 0,0 300×169 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.vc_gitem-link.prettyphoto#1" | 0,0 300×169 | 0,0 300×169 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of events-gallery-item (required) #content .vc_grid-item=#content .media-grid__item: origin 30,1773 320×189 vs served 30,1773 320×189 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.vc_gitem-zone.vc_gitem-zone-" | 0,0 300×169 | 0,0 300×169 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.vc_gitem-link.prettyphoto#1" | 0,0 300×169 | 0,0 300×169 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of events-gallery-item (required) #content .vc_grid-item=#content .media-grid__item: origin 30,1962 320×189 vs served 30,1962 320×189 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.vc_gitem-zone.vc_gitem-zone-" | 0,0 300×169 | 0,0 300×169 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.vc_gitem-link.prettyphoto#1" | 0,0 300×169 | 0,0 300×169 | 0 | 0 | 0 | 0 | ✓ |
+unit 6 of events-gallery-item (required) #content .vc_grid-item=#content .media-grid__item: origin 30,2151 320×189 vs served 30,2151 320×189 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.vc_gitem-zone.vc_gitem-zone-" | 0,0 300×169 | 0,0 300×169 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.vc_gitem-link.prettyphoto#1" | 0,0 300×169 | 0,0 300×169 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of events-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,2730 300×75 vs served 30,2730 300×75 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "your name (required)" | 0,3 300×51 | 0,3 300×51 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input.wpcf7-form-control.wpcf7" | 0,25 300×40 | 0,25 300×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of events-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,2815 300×75 vs served 30,2815 300×75 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "your email (required)" | 0,3 300×51 | 0,3 300×51 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input.wpcf7-form-control.wpcf7" | 0,25 300×40 | 0,25 300×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of events-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,2900 300×75 vs served 30,2900 300×75 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "your number (required)" | 0,3 300×51 | 0,3 300×51 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input.wpcf7-form-control.wpcf7" | 0,25 300×40 | 0,25 300×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of events-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,2985 300×75 vs served 30,2985 300×75 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "subject" | 0,3 300×51 | 0,3 300×51 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input.wpcf7-form-control.wpcf7" | 0,25 300×40 | 0,25 300×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of events-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,3070 300×50 vs served 30,3070 300×50 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 6 of events-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 30,3130 300×386 vs served 30,3130 300×386 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "your message" | 0,3 300×43 | 0,3 300×43 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:textarea.wpcf7-form-control.wp" | 0,25 300×262 | 0,25 300×262 | 0 | 0 | 0 | 0 | ✓ |
+| text "i have read and accept the" | 14,300 256×43 | 14,300 256×43 | 0 | 0 | 0 | 0 | ✓ |
+| link "privacy policy" | 14,300 256×43 | 14,300 256×43 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input#1" | 14,301 13×13 | 14,301 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| button "button:input.wpcf7-form-control.wpcf" | 0,347 88×39 | 0,347 88×39 | 0 | 0 | 0 | 0 | ✓ |
+Units: 12 compared; elements within 26, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/events-360/units-iter2.json

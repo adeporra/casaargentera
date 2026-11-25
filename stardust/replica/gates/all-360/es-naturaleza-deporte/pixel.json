@@ -1,0 +1,142 @@
+{
+  "a": "stardust/replica/gates/all-360/es-naturaleza-deporte/origin.png",
+  "b": "stardust/replica/gates/all-360/es-naturaleza-deporte/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3817,
+    "mode": "overlap"
+  },
+  "heightDelta": -24,
+  "differingPixels": 210182,
+  "pct": 15.3,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/es-naturaleza-deporte/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 8.92,
+  "textBoxes": 92,
+  "textPixels": 437865,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 6.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 26.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 28
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 26.6
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 15.5
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 10.5
+    },
+    {
+      "y0": 3500,
+      "y1": 3817,
+      "pct": 4.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 12.41,
+    "differingPixels": 171559,
+    "compared": {
+      "width": 360,
+      "height": 3841,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2509,
+        "shift": 24,
+        "cumulative": 24
+      }
+    ],
+    "maxOffset": 24,
+    "totalShift": 24,
+    "insertedRows": 24,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 6.6,
+        "unaligned": 6.6
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 26.1,
+        "unaligned": 26.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 28,
+        "unaligned": 28
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 26.6,
+        "unaligned": 26.6
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 6.8,
+        "unaligned": 15.5
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.3,
+        "unaligned": 10.5
+      },
+      {
+        "y0": 3500,
+        "y1": 3817,
+        "pct": 0,
+        "unaligned": 4.5
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/es-naturaleza-deporte/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 38,
+    "totalShift": 24,
+    "pass": true
+  },
+  "reason": "pixel aligned 12.41% (unaligned 15.3%) > 10%"
+}

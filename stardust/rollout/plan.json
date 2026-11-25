@@ -1,0 +1,885 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-24T12:13:23.220Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-24T12:13:23.220Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "beach-and-more",
+    "ca-cultura",
+    "ca-la-casa",
+    "ca-lentorn",
+    "ca-natura-esport",
+    "ca-platja-i-mes",
+    "ca-qui-som",
+    "da-kulturen",
+    "da-natur-sport",
+    "da-stedet",
+    "da-strand-m-m",
+    "da-the-house",
+    "da-who-we-are",
+    "es-cultura",
+    "es-el-entorno",
+    "es-la-casa",
+    "es-naturaleza-deporte",
+    "es-playas-y-mas",
+    "es-quienes-somos",
+    "nature-sport",
+    "the-house",
+    "the-place",
+    "who-we-are",
+    "ca-el-jardi",
+    "ca-el-pis-senyorial",
+    "ca-la-casa-sencera",
+    "ca-la-planta-baixa",
+    "ca-latic",
+    "da-hele-huset",
+    "da-penthousekvisten",
+    "da-stueetagen",
+    "da-the-garden",
+    "da-the-noble-floor",
+    "es-el-atico",
+    "es-el-jardin",
+    "es-el-piso-senorial",
+    "es-la-casa-entera",
+    "es-la-planta-baja",
+    "the-ground-floor",
+    "the-noble-floor",
+    "the-penthouse",
+    "the-whole-house",
+    "ca-covid-19",
+    "ca-politica-de-privacidad-y-cookies",
+    "ca-politica-de-privacitat-i-cookies",
+    "covid-19",
+    "da-covid-19",
+    "da-privacy-policy-and-cookies",
+    "events",
+    "ca-esdeveniments",
+    "da-eventsda",
+    "es-eventos",
+    "ca-reserves",
+    "da-reservations",
+    "es-reservas",
+    "ca-contacte",
+    "da-kontakt",
+    "es-contacto",
+    "ca-experiencies",
+    "da-oplevelser",
+    "es-experiencias",
+    "ca-inici",
+    "es-inicio",
+    "contact",
+    "culture",
+    "experiences",
+    "index",
+    "privacy-policy-and-cookies",
+    "reservations-2",
+    "the-garden"
+  ],
+  "steps": [
+    {
+      "slug": "beach-and-more",
+      "path": "/beach-and-more/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-cultura",
+      "path": "/ca/cultura/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-la-casa",
+      "path": "/ca/la-casa/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-lentorn",
+      "path": "/ca/lentorn/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-natura-esport",
+      "path": "/ca/natura-esport/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-platja-i-mes",
+      "path": "/ca/platja-i-mes/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-qui-som",
+      "path": "/ca/qui-som/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "da-kulturen",
+      "path": "/da/kulturen/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "da-natur-sport",
+      "path": "/da/natur-sport/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "da-stedet",
+      "path": "/da/stedet/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "da-strand-m-m",
+      "path": "/da/strand-m-m/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "da-the-house",
+      "path": "/da/the-house/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "da-who-we-are",
+      "path": "/da/who-we-are/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "es-cultura",
+      "path": "/es/cultura/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "es-el-entorno",
+      "path": "/es/el-entorno/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "es-la-casa",
+      "path": "/es/la-casa/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "es-naturaleza-deporte",
+      "path": "/es/naturaleza-deporte/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "es-playas-y-mas",
+      "path": "/es/playas-y-mas/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "es-quienes-somos",
+      "path": "/es/quienes-somos/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "nature-sport",
+      "path": "/nature-sport/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "the-house",
+      "path": "/the-house/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "the-place",
+      "path": "/the-place/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "who-we-are",
+      "path": "/who-we-are/",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-el-jardi",
+      "path": "/ca/el-jardi/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-el-pis-senyorial",
+      "path": "/ca/el-pis-senyorial/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-la-casa-sencera",
+      "path": "/ca/la-casa-sencera/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-la-planta-baixa",
+      "path": "/ca/la-planta-baixa/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-latic",
+      "path": "/ca/latic/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "da-hele-huset",
+      "path": "/da/hele-huset/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "da-penthousekvisten",
+      "path": "/da/penthousekvisten/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "da-stueetagen",
+      "path": "/da/stueetagen/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "da-the-garden",
+      "path": "/da/the-garden/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "da-the-noble-floor",
+      "path": "/da/the-noble-floor/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "es-el-atico",
+      "path": "/es/el-atico/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "es-el-jardin",
+      "path": "/es/el-jardin/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "es-el-piso-senorial",
+      "path": "/es/el-piso-senorial/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "es-la-casa-entera",
+      "path": "/es/la-casa-entera/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "es-la-planta-baja",
+      "path": "/es/la-planta-baja/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "the-ground-floor",
+      "path": "/the-ground-floor/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "the-noble-floor",
+      "path": "/the-noble-floor/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "the-penthouse",
+      "path": "/the-penthouse/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "the-whole-house",
+      "path": "/the-whole-house/",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-covid-19",
+      "path": "/ca/covid-19/",
+      "templateId": "static",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-politica-de-privacidad-y-cookies",
+      "path": "/ca/politica-de-privacidad-y-cookies/",
+      "templateId": "static",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-politica-de-privacitat-i-cookies",
+      "path": "/ca/politica-de-privacitat-i-cookies/",
+      "templateId": "static",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "covid-19",
+      "path": "/covid-19/",
+      "templateId": "static",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "da-covid-19",
+      "path": "/da/covid-19/",
+      "templateId": "static",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "da-privacy-policy-and-cookies",
+      "path": "/da/privacy-policy-and-cookies/",
+      "templateId": "static",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "events",
+      "path": "/events",
+      "templateId": "events",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero-slider",
+          "edsBlockName": "hero-slider"
+        },
+        {
+          "id": "gallery",
+          "edsBlockName": "gallery"
+        },
+        {
+          "id": "contact-form",
+          "edsBlockName": "contact-form"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "ca-esdeveniments",
+      "path": "/ca/esdeveniments/",
+      "templateId": "events",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-slider",
+          "edsBlockName": "hero-slider",
+          "convertedBy": "events"
+        },
+        {
+          "id": "gallery",
+          "edsBlockName": "gallery",
+          "convertedBy": "events"
+        },
+        {
+          "id": "contact-form",
+          "edsBlockName": "contact-form",
+          "convertedBy": "events"
+        }
+      ]
+    },
+    {
+      "slug": "da-eventsda",
+      "path": "/da/eventsda/",
+      "templateId": "events",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-slider",
+          "edsBlockName": "hero-slider",
+          "convertedBy": "events"
+        },
+        {
+          "id": "gallery",
+          "edsBlockName": "gallery",
+          "convertedBy": "events"
+        },
+        {
+          "id": "contact-form",
+          "edsBlockName": "contact-form",
+          "convertedBy": "events"
+        }
+      ]
+    },
+    {
+      "slug": "es-eventos",
+      "path": "/es/eventos/",
+      "templateId": "events",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-slider",
+          "edsBlockName": "hero-slider",
+          "convertedBy": "events"
+        },
+        {
+          "id": "gallery",
+          "edsBlockName": "gallery",
+          "convertedBy": "events"
+        },
+        {
+          "id": "contact-form",
+          "edsBlockName": "contact-form",
+          "convertedBy": "events"
+        }
+      ]
+    },
+    {
+      "slug": "ca-reserves",
+      "path": "/ca/reserves/",
+      "templateId": "booking",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "da-reservations",
+      "path": "/da/reservations/",
+      "templateId": "booking",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "es-reservas",
+      "path": "/es/reservas/",
+      "templateId": "booking",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-contacte",
+      "path": "/ca/contacte/",
+      "templateId": "form",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "da-kontakt",
+      "path": "/da/kontakt/",
+      "templateId": "form",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "es-contacto",
+      "path": "/es/contacto/",
+      "templateId": "form",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-experiencies",
+      "path": "/ca/experiencies/",
+      "templateId": "listing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "da-oplevelser",
+      "path": "/da/oplevelser/",
+      "templateId": "listing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "es-experiencias",
+      "path": "/es/experiencias/",
+      "templateId": "listing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ca-inici",
+      "path": "/ca/inici/",
+      "templateId": "landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "es-inicio",
+      "path": "/es/inicio/",
+      "templateId": "landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "contact",
+      "path": "/contact",
+      "templateId": "contact",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "map",
+          "edsBlockName": "map"
+        },
+        {
+          "id": "icon-features",
+          "edsBlockName": "icon-features"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero-slider",
+          "edsBlockName": "hero-slider",
+          "convertedBy": "events"
+        },
+        {
+          "id": "contact-form",
+          "edsBlockName": "contact-form",
+          "convertedBy": "events"
+        }
+      ]
+    },
+    {
+      "slug": "culture",
+      "path": "/culture",
+      "templateId": "culture",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "media-feature",
+          "edsBlockName": "media-feature"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero-slider",
+          "edsBlockName": "hero-slider",
+          "convertedBy": "events"
+        }
+      ]
+    },
+    {
+      "slug": "experiences",
+      "path": "/experiences",
+      "templateId": "experiences",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-slider",
+          "edsBlockName": "hero-slider",
+          "convertedBy": "events"
+        },
+        {
+          "id": "media-feature",
+          "edsBlockName": "media-feature",
+          "convertedBy": "culture"
+        }
+      ]
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "image-grid",
+          "edsBlockName": "image-grid"
+        },
+        {
+          "id": "testimonials",
+          "edsBlockName": "testimonials"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero-slider",
+          "edsBlockName": "hero-slider",
+          "convertedBy": "events"
+        },
+        {
+          "id": "map",
+          "edsBlockName": "map",
+          "convertedBy": "contact"
+        }
+      ]
+    },
+    {
+      "slug": "privacy-policy-and-cookies",
+      "path": "/privacy-policy-and-cookies",
+      "templateId": "privacy-policy-and-cookies",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "legal-text",
+          "edsBlockName": "legal-text"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "reservations-2",
+      "path": "/reservations-2",
+      "templateId": "reservations-2",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "availability-calendar",
+          "edsBlockName": "availability-calendar"
+        },
+        {
+          "id": "columns",
+          "edsBlockName": "columns"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero-slider",
+          "edsBlockName": "hero-slider",
+          "convertedBy": "events"
+        },
+        {
+          "id": "contact-form",
+          "edsBlockName": "contact-form",
+          "convertedBy": "events"
+        }
+      ]
+    },
+    {
+      "slug": "the-garden",
+      "path": "/the-garden",
+      "templateId": "the-garden",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-slider",
+          "edsBlockName": "hero-slider",
+          "convertedBy": "events"
+        },
+        {
+          "id": "image-grid",
+          "edsBlockName": "image-grid",
+          "convertedBy": "index"
+        },
+        {
+          "id": "icon-features",
+          "edsBlockName": "icon-features",
+          "convertedBy": "contact"
+        },
+        {
+          "id": "contact-form",
+          "edsBlockName": "contact-form",
+          "convertedBy": "events"
+        }
+      ]
+    }
+  ]
+}

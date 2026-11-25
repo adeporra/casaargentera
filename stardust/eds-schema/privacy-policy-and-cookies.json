@@ -1,0 +1,214 @@
+{
+ "source": "http://127.0.0.1:3021/stardust/prototypes/privacy-policy-and-cookies-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Privacy policy and data protection"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "General"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "For the purposes of the provisions of Organic Law 15/1999, of December 13, on the Protection of Personal Data, the rural house CASA ARGENTERA, by Albert de Porras Esteban (NIF 39877384F) and Ina Rahbek (NIE X2454582E) and domiciled at Carrer Deumera 19, 43773 L’Argentera (from now on CASA ARGENTERA), informs you that it fully complies with the current legislation on the protection of personal data, and with the confidentiality commitments of its activity."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "CASA ARGENTERA informs you of the existence of automated private data files owned by CASA ARGENTERA, for the purposes of management, communication and information. The aforementioned files are registered in the General Registry of the Spanish Agency for Data Protection (http://www.aepd.es), where it can be accessed at all times to check their status."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Data collect"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Acceptance of these conditions requires the user to collect essential data for the provision of their services, which will be requested personally through forms on the website. At the time of data collection, the user will be duly informed of their rights."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "So that the information contained in our files is always updated and does not contain errors, we ask our clients and users to notify us, as soon as possible, of the modifications and rectifications of their personal data."
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "User rights"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "The rights of access, rectification and cancellation may be exercised at any time by the user, by means of a written and signed request, addressed to CASA ARGENTERA, Carrer Deumera 19, 43773 L’Argentera, Tarragona – Spain. However, the email may also be used, proving the identity of the client to exercise any of the above rights."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "info@casaargentera.com",
+     "href": "mailto:info@casaargentera.com"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Consent"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "The user gives his consent so that CASA ARGENTERA can make use of his personal data in order to provide a correct fulfillment of the contracted services."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "The use of the forms included in the website or the sending of emails or other communications to CASA ARGENTERA implies the express consent of the client to the inclusion of their personal data in said automated file, owned by CASA ARGENTERA."
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Assignment to third parties"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "CASA ARGENTERA does not transfer personal data without the express consent of its owners, which must be granted each time, being only transferred for the stated purpose and always with the consent of the user or client."
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "Confidentiality and security measures"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "The data collected in all private communications between CASA ARGENTERA and customers or users will be treated with absolute confidentiality. CASA ARGENTERA is committing to the obligation of secrecy of personal data, its duty to keep it and take all necessary measures that prevent its alteration, loss and unauthorized treatment or access, in accordance with the provisions of the Regulations on Security Measures for Automated Files that contain personal data."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "We recommend that the client does not provide any third party with their identification, password or reference numbers that CASA ARGENTERA may provide. Likewise, to guarantee that the protection of professional secrecy between CASA ARGENTERA and the client is preserved in all communications, the client / user must not reveal confidential information to third parties."
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "Changes in the privacy and data protection policy"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "CASA ARGENTERA reserves the right to modify its data protection and security policy in order to adapt it to new legislation or jurisprudence, as well as those that may derive from existing standard codes in the matter, or by strategic corporate decisions, with effects of the date of publication of said modification on the web page"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "www.casaargentera.com",
+     "href": "http://www.casaargentera.com/"
+    },
+    {
+     "role": "heading",
+     "order": 21,
+     "text": "Information about cookies"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "The web site, like the vast majority of Internet sites, uses cookies to facilitate user navigation on the Web. A cookie is a small text file that is only associated with a user and their computer and does not provide references that allow the user’s name and surnames to be deduced, much less contain any type of virus or malicious code."
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "www.casaargentera.com",
+     "href": "http://www.casaargentera.com/"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "The cookies on this website cannot read data from your hard drive or read cookie files created by other service providers. encrypts the user’s identification data for greater security."
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "www.casaargentera.com",
+     "href": "http://www.casaargentera.com/"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Statistical analysis cookies"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "They are those that allow us to quantify the number of visitors and statistically analyze the use made by users of our services. Thanks to this, we can study browsing the website, and thus improve the offer of products or services that we offer you."
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "These cookies are provided by Google Analytics and by ComScore. For more information, go to the and ComScore website."
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Google Analytics",
+     "href": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"
+    },
+    {
+     "role": "heading",
+     "order": 30,
+     "text": "Contact address"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "The website , is managed by CASA ARGENTERA"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "www.casaargentera.com",
+     "href": "http://www.casaargentera.com/"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "CASA ARGENTERA, pursuant to Law 34/2002, on Information Society Services and Electronic Commerce, informs that the broad meaning of said Law includes, among these services, the provision of information by said means. In any case, Organic Law 15/1999, of December 13, on the Protection of Personal Data, and its implementing regulations, especially with regard to obtaining data, will apply in this regard, personal, information to interested parties and the creation and maintenance of personal data files."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 28,
+   "repeats": [
+    {
+     "unitSelector": "DIV.text-column",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 19,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

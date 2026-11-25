@@ -1,0 +1,406 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/experiences-1440/vdiff-iter3/
+
+build red flags (advisory): 
+  • IMAGE DID NOT LOAD: Punxes_L-1024x576.jpg rendered 1024x576 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Sunset-CostaDaurada.jpg rendered 1024x576 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 2445,
+  "textLen": 460,
+  "images": [
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "172x136",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Logo-75-px.jpg",
+    "natural": "75x58",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Logo-75-px.jpg",
+    "natural": "75x58",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Punxes_L-1024x576.jpg",
+    "natural": "0x0",
+    "rendered": "1024x576",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Celler-Modernista-1024x576.jpg",
+    "natural": "1024x576",
+    "rendered": "1024x576",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Sunset-CostaDaurada.jpg",
+    "natural": "0x0",
+    "rendered": "1024x576",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "172x136",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Top ideas of what to do in the a",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Nature / sport experiences",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Cultural experiences",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Beach and more",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "THE HOUSE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "THE PLACE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "EXPERIENCES",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "EVENTS",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "WHO WE ARE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "CONTACT",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "RESERVATIONS",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "THE HOUSE",
+    "color": "rgb(48, 48, 48)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "wpb_wrapper",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "wpb_wrapper",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "wpb_wrapper",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "wpb_wrapper",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "wpb_wrapper",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "wpb_wrapper",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "wpb_wrapper",
+    "width": 1130,
+    "left": 155
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 2445,
+  "textLen": 460,
+  "images": [
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "172x136",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Logo-75-px.jpg",
+    "natural": "75x58",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "172x136",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Siurana-CasaArgentera.jpg",
+    "natural": "1980x1114",
+    "rendered": "1440x868",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Priorat-CasaArgentera.jpg",
+    "natural": "1980x1114",
+    "rendered": "1440x868",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "parksamaP3D.JPG.png",
+    "natural": "1920x1080",
+    "rendered": "1440x868",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Port-Mediterrani-Casa-Argentera.jpg",
+    "natural": "1980x1114",
+    "rendered": "1440x868",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Cala-Xelin-Casa-Argentera.jpg",
+    "natural": "1980x1114",
+    "rendered": "1440x868",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tapas-workshop-Casa-Argentera.jpg",
+    "natural": "1980x1114",
+    "rendered": "1440x868",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Punxes_L-1024x576.jpg",
+    "natural": "0x0",
+    "rendered": "1024x576",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Celler-Modernista-1024x576.jpg",
+    "natural": "1024x576",
+    "rendered": "1024x576",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Sunset-CostaDaurada.jpg",
+    "natural": "0x0",
+    "rendered": "1024x576",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Top ideas of what to do in the a",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Nature / sport experiences",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Cultural experiences",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Beach and more",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "THE HOUSE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "THE PLACE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "EXPERIENCES",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "EVENTS",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "WHO WE ARE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "CONTACT",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "RESERVATIONS",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "THE HOUSE",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "text-column",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "text-column",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "text-column",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "text-column",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "text-column",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "text-column",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "text-column",
+    "width": 1130,
+    "left": 155
+   }
+  ]
+ }
+}

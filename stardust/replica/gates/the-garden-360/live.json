@@ -1,0 +1,11 @@
+{
+  "writtenBy": "gate.sh --gate-against-baseline",
+  "origin": "baseline",
+  "url": "https://www.casaargentera.com/the-garden/",
+  "width": 360,
+  "at": "2026-11-24T11:10:43.025Z",
+  "originBaseline": {
+    "capturedAt": "2026-11-24T11:10:43.025Z",
+    "height": 4650
+  }
+}

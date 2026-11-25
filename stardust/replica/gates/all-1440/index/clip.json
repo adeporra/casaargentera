@@ -1,0 +1,47 @@
+{
+ "url": "https://main--ea32f12a--aemcoder.aem.page/",
+ "at": "2026-11-24T23:54:00.895Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 8,
+  "textNodes": 67,
+  "controls": 44,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.testimonials-viewport",
+   "path": "div.testimonials-track > article.testimonial-item > div.testimonial-content > p",
+   "text": "“a nice house for a family in a typical catalan village . al",
+   "cutMin": 154,
+   "cutMax": 189
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 4,
+   "offPage": 22,
+   "textNodes": 83,
+   "controls": 37,
+   "total": 0
+  }
+ }
+}

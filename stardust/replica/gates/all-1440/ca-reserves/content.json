@@ -1,0 +1,3041 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-24T21:43:54.969Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/ca/reserves/",
+  "at": "2026-11-24T21:43:54.853Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3054,
+  "root": null,
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.top-bar.top-bar-line-hide > div.left-widgets.mini-widgets > span.mini-contacts.phone",
+    "x": 60,
+    "y": 9,
+    "w": 129,
+    "h": 19,
+    "text": "+34 678 866 588"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.top-bar.top-bar-line-hide > div.left-widgets.mini-widgets > span.mini-contacts.email",
+    "x": 209,
+    "y": 9,
+    "w": 186,
+    "h": 19,
+    "text": "info@casaargentera.com"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#top-menu > li.polylang-item.lang-item > a",
+    "x": 1208,
+    "y": 9,
+    "w": 48,
+    "h": 19,
+    "text": "english",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#top-menu > li.polylang-item.lang-item > a",
+    "x": 1272,
+    "y": 9,
+    "w": 41,
+    "h": 19,
+    "text": "dansk",
+    "href": "/da/home/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#top-menu > li.polylang-item.lang-item > a",
+    "x": 1329,
+    "y": 9,
+    "w": 51,
+    "h": 19,
+    "text": "español",
+    "href": "/es/inicio/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "header.header-bar > div.branding > a",
+    "x": 60,
+    "y": 36,
+    "w": 172,
+    "h": 136,
+    "text": "casa argentera",
+    "href": "/ca/inici/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.branding > a > img.preload-me",
+    "x": 60,
+    "y": 36,
+    "w": 172,
+    "h": 136,
+    "text": "casa argentera",
+    "file": "casaargentera_logo_2010"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 374,
+    "y": 91,
+    "w": 71,
+    "h": 26,
+    "text": "la casa",
+    "href": "/ca/la-casa/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 475,
+    "y": 91,
+    "w": 73,
+    "h": 26,
+    "text": "l’entorn",
+    "href": "/ca/lentorn/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 578,
+    "y": 91,
+    "w": 115,
+    "h": 26,
+    "text": "experiències",
+    "href": "/ca/experiencies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 723,
+    "y": 91,
+    "w": 125,
+    "h": 26,
+    "text": "esdeveniments",
+    "href": "/ca/esdeveniments/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 878,
+    "y": 91,
+    "w": 65,
+    "h": 26,
+    "text": "qui som",
+    "href": "/ca/qui-som/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 973,
+    "y": 91,
+    "w": 78,
+    "h": 26,
+    "text": "contacte",
+    "href": "/ca/contacte/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 1081,
+    "y": 91,
+    "w": 76,
+    "h": 26,
+    "text": "reserves",
+    "href": "/ca/reserves/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mini-widgets > div.soc-ico.show-on-desktop > a.instagram",
+    "x": 1328,
+    "y": 91,
+    "w": 24,
+    "h": 24,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mini-widgets > div.soc-ico.show-on-desktop > a.facebook",
+    "x": 1356,
+    "y": 91,
+    "w": 24,
+    "h": 24,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 155,
+    "y": 928,
+    "w": 1130,
+    "h": 55,
+    "level": 2,
+    "text": "reserves"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 155,
+    "y": 1050,
+    "w": 1130,
+    "h": 51,
+    "text": "Nom (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 155,
+    "y": 1135,
+    "w": 1130,
+    "h": 51,
+    "text": "Correu electrònic (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 155,
+    "y": 1220,
+    "w": 1130,
+    "h": 51,
+    "text": "El teu telèfon (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 155,
+    "y": 1305,
+    "w": 1130,
+    "h": 51,
+    "text": "Assumpte"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#wpcf7-f16221-p16225-o1 > form.wpcf7-form.init > p",
+    "x": 155,
+    "y": 1387,
+    "w": 1130,
+    "h": 25,
+    "text": "Cal afegir les vostres preferències respecte a les dates d’entrada i sortida."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 155,
+    "y": 1425,
+    "w": 1130,
+    "h": 43,
+    "text": "El vostre missatge"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "span.wpcf7-list-item > label > span.wpcf7-list-item-label",
+    "x": 182,
+    "y": 1722,
+    "w": 243,
+    "h": 18,
+    "text": "He llegit i accepto la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "label > span.wpcf7-list-item-label > a",
+    "x": 330,
+    "y": 1722,
+    "w": 95,
+    "h": 18,
+    "text": "privacy policy",
+    "href": "/wp/privacy-policy/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > input.wpcf7-form-control.wpcf7-submit",
+    "x": 155,
+    "y": 1744,
+    "w": 97,
+    "h": 39,
+    "text": "enviar"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 155,
+    "y": 1825,
+    "w": 1130,
+    "h": 25,
+    "text": "Comproveu disponibilitat"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 155,
+    "y": 1860,
+    "w": 1130,
+    "h": 50,
+    "text": "Aquest calendari només mostra la disponibilitat per a tota la casa. Si esteu int"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#r6b060508b9b4ba2-ajax > section#r6b05f91dbdbc347 > select#r6b05f91dbdbc347-select",
+    "x": 490,
+    "y": 1942,
+    "w": 200,
+    "h": 40,
+    "label": "month selection",
+    "value": "novembre 2026",
+    "via": "select"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "section#r6b05f91dbdbc347 > article.ics-calendar-month-wrapper > h3#r6b05f91dbdbc347-202611",
+    "x": 155,
+    "y": 1935,
+    "w": 535,
+    "h": 35,
+    "level": 3,
+    "text": "novembre 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "thead > tr > th",
+    "x": 156,
+    "y": 1993,
+    "w": 76,
+    "h": 29,
+    "text": "Dilluns"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "thead > tr > th",
+    "x": 232,
+    "y": 1993,
+    "w": 76,
+    "h": 29,
+    "text": "Dimarts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "thead > tr > th",
+    "x": 308,
+    "y": 1993,
+    "w": 76,
+    "h": 29,
+    "text": "Dimecres"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "thead > tr > th",
+    "x": 384,
+    "y": 1993,
+    "w": 76,
+    "h": 29,
+    "text": "Dijous"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "thead > tr > th",
+    "x": 461,
+    "y": 1993,
+    "w": 76,
+    "h": 29,
+    "text": "Divendres"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "thead > tr > th",
+    "x": 537,
+    "y": 1993,
+    "w": 76,
+    "h": 29,
+    "text": "Dissabte"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "thead > tr > th",
+    "x": 613,
+    "y": 1993,
+    "w": 76,
+    "h": 29,
+    "text": "Diumenge"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.events > li.event.d20261124_20261125 > span.all-day-indicator",
+    "x": 240,
+    "y": 2403,
+    "w": 60,
+    "h": 12,
+    "text": "All Day"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.events > li.event.d20261124_20261125 > span.title",
+    "x": 240,
+    "y": 2415,
+    "w": 60,
+    "h": 44,
+    "text": "Airbnb (Not available)"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4",
+    "x": 750,
+    "y": 1935,
+    "w": 535,
+    "h": 30,
+    "level": 4,
+    "text": "preus per cap de setmana"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4",
+    "x": 750,
+    "y": 1975,
+    "w": 535,
+    "h": 30,
+    "level": 4,
+    "text": "950-975 € fins a 13 personas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > h4 > strong",
+    "x": 750,
+    "y": 1976,
+    "w": 322,
+    "h": 27,
+    "text": "950-975 € fins a 13 personas"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4",
+    "x": 750,
+    "y": 2015,
+    "w": 535,
+    "h": 30,
+    "level": 4,
+    "text": "preus per setmana en temporada alta"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4",
+    "x": 750,
+    "y": 2055,
+    "w": 535,
+    "h": 30,
+    "level": 4,
+    "text": "2975-3400 €"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 750,
+    "y": 2095,
+    "w": 535,
+    "h": 25,
+    "text": "Llits supletoris 15 € per llit i nit."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 750,
+    "y": 2130,
+    "w": 535,
+    "h": 50,
+    "text": "Persones convidades durant el dia (esdeveniments) 15 € per persona addicional."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > strong",
+    "x": 750,
+    "y": 2193,
+    "w": 526,
+    "h": 43,
+    "text": "Per a estades més llargues o altres opcions, poseu-vos en contacte amb nosaltres"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-4 > div.widget-title",
+    "x": 155,
+    "y": 2725,
+    "w": 337,
+    "h": 27,
+    "text": "CONTACTE"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-4 > div.textwidget > p",
+    "x": 155,
+    "y": 2767,
+    "w": 337,
+    "h": 100,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 155,
+    "y": 2845,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#search-4 > div.widget-title",
+    "x": 552,
+    "y": 2725,
+    "w": 337,
+    "h": 27,
+    "text": "CERCA"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#search-4 > form.searchform > a.submit",
+    "x": 857,
+    "y": 2767,
+    "w": 20,
+    "h": 40,
+    "text": "",
+    "href": "/ca/reserves/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#presscore-contact-info-widget-3 > div.widget-title",
+    "x": 948,
+    "y": 2725,
+    "w": 337,
+    "h": 27,
+    "text": "SEGUEIX-NOS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.facebook",
+    "x": 950,
+    "y": 2769,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.instagram",
+    "x": 980,
+    "y": 2769,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-6 > div.widget-title",
+    "x": 155,
+    "y": 2897,
+    "w": 337,
+    "h": 27,
+    "text": "ALTRES LLOGUERS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-6 > div.textwidget > p",
+    "x": 155,
+    "y": 2939,
+    "w": 337,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTÀ C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 155,
+    "y": 2992,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-3 > div.widget-title",
+    "x": 552,
+    "y": 2897,
+    "w": 337,
+    "h": 27,
+    "text": "INFO LEGAL"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-3 > div.textwidget > p",
+    "x": 552,
+    "y": 2939,
+    "w": 337,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 552,
+    "y": 2942,
+    "w": 208,
+    "h": 18,
+    "text": "política de privacitat i cookies",
+    "href": "/ca/politica-de-privacitat-i-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 948,
+    "y": 2897,
+    "w": 337,
+    "h": 25,
+    "text": "english",
+    "href": "/reservations-2/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 948,
+    "y": 2922,
+    "w": 337,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/reservations/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 948,
+    "y": 2947,
+    "w": 337,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/reserves/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 948,
+    "y": 2972,
+    "w": 337,
+    "h": 25,
+    "text": "español",
+    "href": "/es/reservas/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 88,
+    "controls": 26,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/ca/reserves",
+  "at": "2026-11-24T21:43:51.111Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3054,
+  "root": "main#main",
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.top-bar > div.top-bar-left > span.mini-contacts.phone",
+    "x": 60,
+    "y": 9,
+    "w": 129,
+    "h": 19,
+    "text": "+34 678 866 588"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.top-bar > div.top-bar-left > span.mini-contacts.email",
+    "x": 209,
+    "y": 9,
+    "w": 186,
+    "h": 19,
+    "text": "info@casaargentera.com"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.top-menu > li > a",
+    "x": 1208,
+    "y": 9,
+    "w": 48,
+    "h": 19,
+    "text": "english",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.top-menu > li > a",
+    "x": 1272,
+    "y": 9,
+    "w": 41,
+    "h": 19,
+    "text": "dansk",
+    "href": "/da/home"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.top-menu > li > a",
+    "x": 1329,
+    "y": 9,
+    "w": 51,
+    "h": 19,
+    "text": "español",
+    "href": "/es/inicio"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-bar > div.branding > a",
+    "x": 60,
+    "y": 36,
+    "w": 172,
+    "h": 136,
+    "text": "casa argentera",
+    "href": "/ca/inici"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 60,
+    "y": 36,
+    "w": 172,
+    "h": 136,
+    "text": "casa argentera",
+    "file": "media_183733dd1c34649cd152dddde69ab1adb4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li.has-children > a",
+    "x": 374,
+    "y": 91,
+    "w": 71,
+    "h": 26,
+    "text": "la casa",
+    "href": "/ca/la-casa"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li > a",
+    "x": 475,
+    "y": 91,
+    "w": 73,
+    "h": 26,
+    "text": "l’entorn",
+    "href": "/ca/lentorn"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li.has-children > a",
+    "x": 578,
+    "y": 91,
+    "w": 115,
+    "h": 26,
+    "text": "experiències",
+    "href": "/ca/experiencies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li > a",
+    "x": 723,
+    "y": 91,
+    "w": 125,
+    "h": 26,
+    "text": "esdeveniments",
+    "href": "/ca/esdeveniments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li > a",
+    "x": 878,
+    "y": 91,
+    "w": 65,
+    "h": 26,
+    "text": "qui som",
+    "href": "/ca/qui-som"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li > a",
+    "x": 973,
+    "y": 91,
+    "w": 78,
+    "h": 26,
+    "text": "contacte",
+    "href": "/ca/contacte"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li.act > a",
+    "x": 1081,
+    "y": 91,
+    "w": 76,
+    "h": 26,
+    "text": "reserves",
+    "href": "/ca/reserves"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-bar > div.soc-ico > a.instagram",
+    "x": 1328,
+    "y": 92,
+    "w": 24,
+    "h": 24,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-bar > div.soc-ico > a.facebook",
+    "x": 1356,
+    "y": 92,
+    "w": 24,
+    "h": 24,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slide-media > picture > img",
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 868,
+    "text": "casa argentera rural tourism, casa rural, holidays in spain",
+    "file": "media_1b2ea02d01ac25fc0593bebe9d9a1aa5fe"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.contact-form-container > div.default-content-wrapper > h1#reserves",
+    "x": 155,
+    "y": 928,
+    "w": 1130,
+    "h": 55,
+    "level": 1,
+    "text": "reserves"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 155,
+    "y": 1047,
+    "w": 1130,
+    "h": 25,
+    "text": "Nom (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 155,
+    "y": 1132,
+    "w": 1130,
+    "h": 25,
+    "text": "Correu electrònic (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 155,
+    "y": 1217,
+    "w": 1130,
+    "h": 25,
+    "text": "El teu telèfon (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 155,
+    "y": 1302,
+    "w": 1130,
+    "h": 25,
+    "text": "Assumpte"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form.contact-form-form > div.contact-form-line.contact-form-note > p",
+    "x": 155,
+    "y": 1387,
+    "w": 1130,
+    "h": 25,
+    "text": "Cal afegir les vostres preferències respecte a les dates d’entrada i sortida."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 155,
+    "y": 1422,
+    "w": 1130,
+    "h": 25,
+    "text": "El vostre missatge"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "label > span.contact-form-check-label > p",
+    "x": 186,
+    "y": 1722,
+    "w": 239,
+    "h": 18,
+    "text": "He llegit i accepto la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.contact-form-check-label > p > a",
+    "x": 330,
+    "y": 1722,
+    "w": 95,
+    "h": 18,
+    "text": "privacy policy",
+    "href": "/wp/privacy-policy/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form.contact-form-form > div.contact-form-line > input.contact-form-submit",
+    "x": 155,
+    "y": 1744,
+    "w": 97,
+    "h": 39,
+    "text": "enviar"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.contact-form-container > div.default-content-wrapper > p",
+    "x": 155,
+    "y": 1825,
+    "w": 1130,
+    "h": 25,
+    "text": "Comproveu disponibilitat"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.contact-form-container > div.default-content-wrapper > p",
+    "x": 155,
+    "y": 1860,
+    "w": 1130,
+    "h": 50,
+    "text": "Aquest calendari només mostra la disponibilitat per a tota la casa. Si esteu int"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.availability-calendar-main > div.availability-calendar-widget > select#avail-1-select",
+    "x": 490,
+    "y": 1942,
+    "w": 200,
+    "h": 40,
+    "label": "month selection",
+    "value": "novembre 2026",
+    "via": "select"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.availability-calendar-widget > article.availability-calendar-month > h3#avail-1-202611",
+    "x": 155,
+    "y": 1935,
+    "w": 535,
+    "h": 35,
+    "level": 3,
+    "text": "novembre 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "thead > tr > th",
+    "x": 156,
+    "y": 1993,
+    "w": 76,
+    "h": 29,
+    "text": "Dilluns"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "thead > tr > th",
+    "x": 232,
+    "y": 1993,
+    "w": 76,
+    "h": 29,
+    "text": "Dimarts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "thead > tr > th",
+    "x": 308,
+    "y": 1993,
+    "w": 76,
+    "h": 29,
+    "text": "Dimecres"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "thead > tr > th",
+    "x": 384,
+    "y": 1993,
+    "w": 76,
+    "h": 29,
+    "text": "Dijous"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "thead > tr > th",
+    "x": 461,
+    "y": 1993,
+    "w": 76,
+    "h": 29,
+    "text": "Divendres"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "thead > tr > th",
+    "x": 537,
+    "y": 1993,
+    "w": 76,
+    "h": 29,
+    "text": "Dissabte"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "thead > tr > th",
+    "x": 613,
+    "y": 1993,
+    "w": 76,
+    "h": 29,
+    "text": "Diumenge"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.events > li.event.all-day > span.all-day-indicator",
+    "x": 240,
+    "y": 2403,
+    "w": 60,
+    "h": 12,
+    "text": "All Day"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.events > li.event.all-day > span.title",
+    "x": 240,
+    "y": 2415,
+    "w": 60,
+    "h": 44,
+    "text": "Airbnb (Not available)"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.availability-calendar-side > div.availability-calendar-text > h4#preus-per-cap-de-setmana",
+    "x": 750,
+    "y": 1935,
+    "w": 535,
+    "h": 30,
+    "level": 4,
+    "text": "preus per cap de setmana"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.availability-calendar-side > div.availability-calendar-text > h4#975--fins-a-13-personas",
+    "x": 750,
+    "y": 1975,
+    "w": 535,
+    "h": 30,
+    "level": 4,
+    "text": "950-975 € fins a 13 personas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.availability-calendar-text > h4#975--fins-a-13-personas > strong",
+    "x": 750,
+    "y": 1976,
+    "w": 322,
+    "h": 27,
+    "text": "950-975 € fins a 13 personas"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.availability-calendar-side > div.availability-calendar-text > h4#preus-per-setmana-en-temporada-alta",
+    "x": 750,
+    "y": 2015,
+    "w": 535,
+    "h": 30,
+    "level": 4,
+    "text": "preus per setmana en temporada alta"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.availability-calendar-side > div.availability-calendar-text > h4#3400-",
+    "x": 750,
+    "y": 2055,
+    "w": 535,
+    "h": 30,
+    "level": 4,
+    "text": "2975-3400 €"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.availability-calendar-side > div.availability-calendar-text > p",
+    "x": 750,
+    "y": 2095,
+    "w": 535,
+    "h": 25,
+    "text": "Llits supletoris 15 € per llit i nit."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.availability-calendar-side > div.availability-calendar-text > p",
+    "x": 750,
+    "y": 2130,
+    "w": 535,
+    "h": 50,
+    "text": "Persones convidades durant el dia (esdeveniments) 15 € per persona addicional."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.availability-calendar-text > p > strong",
+    "x": 750,
+    "y": 2193,
+    "w": 526,
+    "h": 43,
+    "text": "Per a estades més llargues o altres opcions, poseu-vos en contacte amb nosaltres"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 155,
+    "y": 2725,
+    "w": 337,
+    "h": 27,
+    "text": "CONTACTE"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 155,
+    "y": 2767,
+    "w": 337,
+    "h": 100,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 155,
+    "y": 2845,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 552,
+    "y": 2725,
+    "w": 337,
+    "h": 27,
+    "text": "CERCA"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > form.searchform > button.submit",
+    "x": 856,
+    "y": 2767,
+    "w": 20,
+    "h": 40,
+    "text": "search"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 948,
+    "y": 2725,
+    "w": 337,
+    "h": 27,
+    "text": "SEGUEIX-NOS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.facebook",
+    "x": 950,
+    "y": 2769,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.instagram",
+    "x": 980,
+    "y": 2769,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 155,
+    "y": 2897,
+    "w": 337,
+    "h": 27,
+    "text": "ALTRES LLOGUERS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 155,
+    "y": 2939,
+    "w": 337,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTÀ C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 155,
+    "y": 2992,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 552,
+    "y": 2897,
+    "w": 337,
+    "h": 27,
+    "text": "INFO LEGAL"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 552,
+    "y": 2939,
+    "w": 337,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 552,
+    "y": 2942,
+    "w": 208,
+    "h": 18,
+    "text": "política de privacitat i cookies",
+    "href": "/ca/politica-de-privacitat-i-cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 948,
+    "y": 2897,
+    "w": 337,
+    "h": 25,
+    "text": "english",
+    "href": "/reservations-2"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 948,
+    "y": 2922,
+    "w": 337,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/reservations"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 948,
+    "y": 2947,
+    "w": 337,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/reserves"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 948,
+    "y": 2972,
+    "w": 337,
+    "h": 25,
+    "text": "español",
+    "href": "/es/reservas"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 88,
+    "controls": 26,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "reserves",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 9,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 9,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "novembre 2026",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 13,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 13,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 85,
+    "y": 10,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 234,
+    "y": 10,
+    "w": 161,
+    "h": 16
+   },
+   {
+    "x": 1208,
+    "y": 10,
+    "w": 48,
+    "h": 16
+   },
+   {
+    "x": 1272,
+    "y": 10,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1329,
+    "y": 10,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 374,
+    "y": 95,
+    "w": 61,
+    "h": 18
+   },
+   {
+    "x": 475,
+    "y": 95,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 578,
+    "y": 95,
+    "w": 105,
+    "h": 18
+   },
+   {
+    "x": 723,
+    "y": 95,
+    "w": 125,
+    "h": 18
+   },
+   {
+    "x": 878,
+    "y": 95,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 973,
+    "y": 95,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 1081,
+    "y": 95,
+    "w": 76,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 925,
+    "w": 217,
+    "h": 61
+   },
+   {
+    "x": 155,
+    "y": 1050,
+    "w": 108,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1135,
+    "w": 193,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1220,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1305,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1390,
+    "w": 506,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1425,
+    "w": 127,
+    "h": 18
+   },
+   {
+    "x": 186,
+    "y": 1722,
+    "w": 145,
+    "h": 18
+   },
+   {
+    "x": 330,
+    "y": 1722,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1828,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1863,
+    "w": 1082,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1888,
+    "w": 422,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1934,
+    "w": 235,
+    "h": 37
+   },
+   {
+    "x": 171,
+    "y": 2003,
+    "w": 45,
+    "h": 11
+   },
+   {
+    "x": 246,
+    "y": 2003,
+    "w": 48,
+    "h": 11
+   },
+   {
+    "x": 319,
+    "y": 2003,
+    "w": 54,
+    "h": 11
+   },
+   {
+    "x": 403,
+    "y": 2003,
+    "w": 39,
+    "h": 11
+   },
+   {
+    "x": 469,
+    "y": 2003,
+    "w": 61,
+    "h": 11
+   },
+   {
+    "x": 549,
+    "y": 2003,
+    "w": 51,
+    "h": 11
+   },
+   {
+    "x": 623,
+    "y": 2003,
+    "w": 57,
+    "h": 11
+   },
+   {
+    "x": 677,
+    "y": 2029,
+    "w": 4,
+    "h": 11
+   },
+   {
+    "x": 218,
+    "y": 2117,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 294,
+    "y": 2117,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 369,
+    "y": 2117,
+    "w": 7,
+    "h": 11
+   },
+   {
+    "x": 446,
+    "y": 2117,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 522,
+    "y": 2117,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 599,
+    "y": 2117,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 675,
+    "y": 2117,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 217,
+    "y": 2205,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 289,
+    "y": 2205,
+    "w": 11,
+    "h": 11
+   },
+   {
+    "x": 368,
+    "y": 2205,
+    "w": 8,
+    "h": 11
+   },
+   {
+    "x": 443,
+    "y": 2205,
+    "w": 10,
+    "h": 11
+   },
+   {
+    "x": 519,
+    "y": 2205,
+    "w": 10,
+    "h": 11
+   },
+   {
+    "x": 594,
+    "y": 2205,
+    "w": 11,
+    "h": 11
+   },
+   {
+    "x": 672,
+    "y": 2205,
+    "w": 10,
+    "h": 11
+   },
+   {
+    "x": 213,
+    "y": 2293,
+    "w": 10,
+    "h": 11
+   },
+   {
+    "x": 290,
+    "y": 2293,
+    "w": 10,
+    "h": 11
+   },
+   {
+    "x": 366,
+    "y": 2293,
+    "w": 10,
+    "h": 11
+   },
+   {
+    "x": 442,
+    "y": 2293,
+    "w": 10,
+    "h": 11
+   },
+   {
+    "x": 516,
+    "y": 2293,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 595,
+    "y": 2293,
+    "w": 10,
+    "h": 11
+   },
+   {
+    "x": 670,
+    "y": 2293,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 212,
+    "y": 2382,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 287,
+    "y": 2382,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 240,
+    "y": 2403,
+    "w": 34,
+    "h": 10
+   },
+   {
+    "x": 240,
+    "y": 2416,
+    "w": 35,
+    "h": 11
+   },
+   {
+    "x": 240,
+    "y": 2431,
+    "w": 22,
+    "h": 11
+   },
+   {
+    "x": 240,
+    "y": 2446,
+    "w": 49,
+    "h": 11
+   },
+   {
+    "x": 364,
+    "y": 2382,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 440,
+    "y": 2382,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 517,
+    "y": 2382,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 593,
+    "y": 2382,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 669,
+    "y": 2382,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 211,
+    "y": 2471,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 750,
+    "y": 1936,
+    "w": 283,
+    "h": 27
+   },
+   {
+    "x": 750,
+    "y": 1976,
+    "w": 322,
+    "h": 27
+   },
+   {
+    "x": 750,
+    "y": 2016,
+    "w": 409,
+    "h": 27
+   },
+   {
+    "x": 750,
+    "y": 2056,
+    "w": 141,
+    "h": 27
+   },
+   {
+    "x": 750,
+    "y": 2098,
+    "w": 212,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 2133,
+    "w": 479,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 2158,
+    "w": 76,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 2193,
+    "w": 526,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 2218,
+    "w": 305,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2728,
+    "w": 93,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 2770,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2795,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2820,
+    "w": 306,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2845,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 2728,
+    "w": 59,
+    "h": 20
+   },
+   {
+    "x": 948,
+    "y": 2728,
+    "w": 119,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 2900,
+    "w": 162,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 2942,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2967,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2992,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 2900,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 552,
+    "y": 2942,
+    "w": 208,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 2967,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 2901,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 2926,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 2951,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 2976,
+    "w": 56,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 85,
+    "y": 10,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 234,
+    "y": 10,
+    "w": 161,
+    "h": 16
+   },
+   {
+    "x": 1208,
+    "y": 10,
+    "w": 48,
+    "h": 16
+   },
+   {
+    "x": 1272,
+    "y": 10,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1329,
+    "y": 10,
+    "w": 51,
+    "h": 16
+   },
+   {
+    "x": 374,
+    "y": 95,
+    "w": 61,
+    "h": 18
+   },
+   {
+    "x": 475,
+    "y": 95,
+    "w": 73,
+    "h": 18
+   },
+   {
+    "x": 578,
+    "y": 95,
+    "w": 105,
+    "h": 18
+   },
+   {
+    "x": 723,
+    "y": 95,
+    "w": 125,
+    "h": 18
+   },
+   {
+    "x": 878,
+    "y": 95,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 973,
+    "y": 95,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 1081,
+    "y": 95,
+    "w": 76,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 925,
+    "w": 217,
+    "h": 61
+   },
+   {
+    "x": 155,
+    "y": 1050,
+    "w": 108,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1135,
+    "w": 193,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1220,
+    "w": 166,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1305,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1390,
+    "w": 506,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1425,
+    "w": 127,
+    "h": 18
+   },
+   {
+    "x": 186,
+    "y": 1722,
+    "w": 145,
+    "h": 18
+   },
+   {
+    "x": 330,
+    "y": 1722,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1828,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1863,
+    "w": 1082,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1888,
+    "w": 422,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1934,
+    "w": 235,
+    "h": 37
+   },
+   {
+    "x": 171,
+    "y": 2003,
+    "w": 45,
+    "h": 11
+   },
+   {
+    "x": 246,
+    "y": 2003,
+    "w": 48,
+    "h": 11
+   },
+   {
+    "x": 319,
+    "y": 2003,
+    "w": 54,
+    "h": 11
+   },
+   {
+    "x": 403,
+    "y": 2003,
+    "w": 39,
+    "h": 11
+   },
+   {
+    "x": 469,
+    "y": 2003,
+    "w": 61,
+    "h": 11
+   },
+   {
+    "x": 549,
+    "y": 2003,
+    "w": 51,
+    "h": 11
+   },
+   {
+    "x": 623,
+    "y": 2003,
+    "w": 57,
+    "h": 11
+   },
+   {
+    "x": 677,
+    "y": 2029,
+    "w": 4,
+    "h": 11
+   },
+   {
+    "x": 218,
+    "y": 2117,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 294,
+    "y": 2117,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 369,
+    "y": 2117,
+    "w": 7,
+    "h": 11
+   },
+   {
+    "x": 446,
+    "y": 2117,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 522,
+    "y": 2117,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 599,
+    "y": 2117,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 675,
+    "y": 2117,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 217,
+    "y": 2205,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 289,
+    "y": 2205,
+    "w": 11,
+    "h": 11
+   },
+   {
+    "x": 368,
+    "y": 2205,
+    "w": 8,
+    "h": 11
+   },
+   {
+    "x": 443,
+    "y": 2205,
+    "w": 10,
+    "h": 11
+   },
+   {
+    "x": 519,
+    "y": 2205,
+    "w": 10,
+    "h": 11
+   },
+   {
+    "x": 594,
+    "y": 2205,
+    "w": 11,
+    "h": 11
+   },
+   {
+    "x": 672,
+    "y": 2205,
+    "w": 10,
+    "h": 11
+   },
+   {
+    "x": 213,
+    "y": 2293,
+    "w": 10,
+    "h": 11
+   },
+   {
+    "x": 290,
+    "y": 2293,
+    "w": 10,
+    "h": 11
+   },
+   {
+    "x": 366,
+    "y": 2293,
+    "w": 10,
+    "h": 11
+   },
+   {
+    "x": 442,
+    "y": 2293,
+    "w": 10,
+    "h": 11
+   },
+   {
+    "x": 516,
+    "y": 2293,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 595,
+    "y": 2293,
+    "w": 10,
+    "h": 11
+   },
+   {
+    "x": 670,
+    "y": 2293,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 212,
+    "y": 2382,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 287,
+    "y": 2382,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 240,
+    "y": 2403,
+    "w": 34,
+    "h": 10
+   },
+   {
+    "x": 240,
+    "y": 2416,
+    "w": 35,
+    "h": 11
+   },
+   {
+    "x": 240,
+    "y": 2431,
+    "w": 22,
+    "h": 11
+   },
+   {
+    "x": 240,
+    "y": 2446,
+    "w": 49,
+    "h": 11
+   },
+   {
+    "x": 364,
+    "y": 2382,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 440,
+    "y": 2382,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 517,
+    "y": 2382,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 593,
+    "y": 2382,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 669,
+    "y": 2382,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 211,
+    "y": 2471,
+    "w": 12,
+    "h": 11
+   },
+   {
+    "x": 750,
+    "y": 1936,
+    "w": 283,
+    "h": 27
+   },
+   {
+    "x": 750,
+    "y": 1976,
+    "w": 322,
+    "h": 27
+   },
+   {
+    "x": 750,
+    "y": 2016,
+    "w": 409,
+    "h": 27
+   },
+   {
+    "x": 750,
+    "y": 2056,
+    "w": 141,
+    "h": 27
+   },
+   {
+    "x": 750,
+    "y": 2098,
+    "w": 212,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 2133,
+    "w": 479,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 2158,
+    "w": 76,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 2193,
+    "w": 526,
+    "h": 18
+   },
+   {
+    "x": 750,
+    "y": 2218,
+    "w": 305,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2728,
+    "w": 93,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 2770,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2795,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2820,
+    "w": 306,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2845,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 2728,
+    "w": 59,
+    "h": 20
+   },
+   {
+    "x": 948,
+    "y": 2728,
+    "w": 119,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 2900,
+    "w": 162,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 2942,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2967,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2992,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 2900,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 552,
+    "y": 2942,
+    "w": 208,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 2967,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 2901,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 2926,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 2951,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 2976,
+    "w": 56,
+    "h": 18
+   }
+  ]
+ }
+}

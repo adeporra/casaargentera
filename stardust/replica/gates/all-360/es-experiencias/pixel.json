@@ -1,0 +1,120 @@
+{
+  "a": "stardust/replica/gates/all-360/es-experiencias/origin.png",
+  "b": "stardust/replica/gates/all-360/es-experiencias/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 2860,
+    "mode": "overlap"
+  },
+  "heightDelta": -16,
+  "differingPixels": 173850,
+  "pct": 16.89,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/es-experiencias/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 3.12,
+  "textBoxes": 45,
+  "textPixels": 251838,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 18.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 29.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 37.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 7.8
+    },
+    {
+      "y0": 2500,
+      "y1": 2860,
+      "pct": 4.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 14.49,
+    "differingPixels": 150064,
+    "compared": {
+      "width": 360,
+      "height": 2876,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1870,
+        "shift": 16,
+        "cumulative": 16
+      }
+    ],
+    "maxOffset": 16,
+    "totalShift": 16,
+    "insertedRows": 16,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 18.2,
+        "unaligned": 18.2
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 29.2,
+        "unaligned": 29.2
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 33.9,
+        "unaligned": 37.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.2,
+        "unaligned": 7.8
+      },
+      {
+        "y0": 2500,
+        "y1": 2860,
+        "pct": 0,
+        "unaligned": 4.2
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/es-experiencias/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 29,
+    "totalShift": 16,
+    "pass": true
+  },
+  "reason": "pixel aligned 14.49% (unaligned 16.89%) > 10%"
+}

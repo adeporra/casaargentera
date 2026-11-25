@@ -1,0 +1,27 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://main--ea32f12a--aemcoder.aem.page/ca/la-casa",
+  "width": 360,
+  "vh": 900,
+  "height": 4047,
+  "chunks": 5,
+  "denialCheck": "ok",
+  "freeze": "applied",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 5,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 1,
+    "intervals": 1,
+    "chains": 0,
+    "delays": [
+      2500
+    ]
+  },
+  "at": "2026-11-24T18:51:40.728Z"
+}

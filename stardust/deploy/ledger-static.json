@@ -1,0 +1,65 @@
+{
+  "/privacy-policy-and-cookies": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T20:57:58.729Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/covid-19": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T21:17:13.282Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/politica-de-privacidad-y-cookies": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T21:17:18.870Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/politica-de-privacitat-i-cookies": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T21:17:24.241Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/covid-19": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T21:17:29.130Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/da/covid-19": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T21:17:34.055Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/da/privacy-policy-and-cookies": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T21:17:38.932Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.casaargentera.com/da/hele-huset/",
+  "reference": {
+    "dir": "stardust/replica/gates/all-360/da-hele-huset",
+    "capturedAt": "2026-11-24T15:38:58.662Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 3.23,
+    "variableRows": 268,
+    "maskArg": "0:268"
+  },
+  "note": "reused stardust/replica/gates/all-360/da-hele-huset/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-24T22:11:09.692Z"
+}

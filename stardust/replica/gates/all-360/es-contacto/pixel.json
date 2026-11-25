@@ -1,0 +1,175 @@
+{
+  "a": "stardust/replica/gates/all-360/es-contacto/origin.png",
+  "b": "stardust/replica/gates/all-360/es-contacto/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 4741,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 2710,
+  "pct": 0.16,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/es-contacto/diff.png",
+  "masks": [
+    {
+      "yA": 1092,
+      "h": 36,
+      "yB": 1092
+    },
+    {
+      "yA": 1292,
+      "h": 56,
+      "yB": 1292
+    }
+  ],
+  "maskedRows": 92,
+  "textPct": 0.03,
+  "textBoxes": 101,
+  "textPixels": 406911,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0.2
+    },
+    {
+      "y0": 4500,
+      "y1": 4741,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.16,
+    "differingPixels": 2710,
+    "compared": {
+      "width": 360,
+      "height": 4741,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1,
+        "unaligned": 1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 4500,
+        "y1": 4741,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 0.16,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "maskReason": "self-varying rows of the frozen reference (noise floor 0.09%)"
+}

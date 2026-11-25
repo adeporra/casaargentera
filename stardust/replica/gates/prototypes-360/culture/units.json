@@ -1,0 +1,1143 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T12:10:52.046Z",
+  "tol": 4,
+  "n": 8,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/culture/",
+  "at": "2026-11-24T11:10:53.517Z",
+  "docH": 4870
+ },
+ "eds": {
+  "url": "http://localhost:8791/culture-proposed.html",
+  "at": "2026-11-24T12:10:51.979Z",
+  "docH": 4870
+ },
+ "results": [
+  {
+   "sel": "#content > .vc_row > .vc_col-sm-6=#content > .culture-feature > .vc-col--1-2",
+   "family": null,
+   "required": true,
+   "originMatches": 8,
+   "edsMatches": 8,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2"
+     },
+     "rows": [
+      {
+       "key": "image:castle-monastery of escornalbou",
+       "role": "image",
+       "text": "castle-monastery of escornalbou",
+       "edsText": "castle-monastery of escornalbou",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "img.alignnone",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1243,
+       "w": 360,
+       "h": 187
+      },
+      "eds": {
+       "x": 0,
+       "y": 1243,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2"
+     },
+     "rows": [
+      {
+       "key": "heading:the amazing escornalbou castle",
+       "role": "heading",
+       "text": "the amazing escornalbou castle",
+       "edsText": "the amazing escornalbou castle",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 220
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 220,
+        "sel": "h2",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:the is a peculiar mansion, reconstructed",
+       "role": "text",
+       "text": "the is a peculiar mansion, reconstructed to be the burguesia",
+       "edsText": "the is a peculiar mansion, reconstructed to be the burguesia",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 230,
+        "w": 300,
+        "h": 300
+       },
+       "eds": {
+        "x": 30,
+        "y": 230,
+        "w": 300,
+        "h": 300,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:castle-monastery of escornalbou",
+       "role": "link",
+       "text": "castle-monastery of escornalbou",
+       "edsText": "castle-monastery of escornalbou",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 233,
+        "w": 230,
+        "h": 18
+       },
+       "eds": {
+        "x": 60,
+        "y": 233,
+        "w": 230,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:get the whole inspiring story visiting t",
+       "role": "text",
+       "text": "get the whole inspiring story visiting the castle",
+       "edsText": "get the whole inspiring story visiting the castle",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 358,
+        "w": 294,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 358,
+        "w": 294,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:impressive view of all the coastline",
+       "role": "text",
+       "text": "impressive view of all the coastline",
+       "edsText": "impressive view of all the coastline",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 433,
+        "w": 248,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 433,
+        "w": 248,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1430,
+       "w": 360,
+       "h": 530
+      },
+      "eds": {
+       "x": 0,
+       "y": 1430,
+       "w": 360,
+       "h": 530
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15632#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "img.alignnone",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2000,
+       "w": 360,
+       "h": 187
+      },
+      "eds": {
+       "x": 0,
+       "y": 2000,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2"
+     },
+     "rows": [
+      {
+       "key": "heading:just a few steps from the priorat",
+       "role": "heading",
+       "text": "just a few steps from the priorat",
+       "edsText": "just a few steps from the priorat",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 165
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 165,
+        "sel": "h2",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:follow the history and trace of the , in",
+       "role": "text",
+       "text": "follow the history and trace of the , in the priorat. enjoy ",
+       "edsText": "follow the history and trace of the , in the priorat. enjoy ",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 175,
+        "w": 300,
+        "h": 275
+       },
+       "eds": {
+        "x": 30,
+        "y": 175,
+        "w": 300,
+        "h": 275,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:carthusian monks in escaladei",
+       "role": "link",
+       "text": "carthusian monks in escaladei",
+       "edsText": "carthusian monks in escaladei",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 203,
+        "w": 214,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 203,
+        "w": 214,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:wine cathedral",
+       "role": "text",
+       "text": "wine cathedral",
+       "edsText": "wine cathedral",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 253,
+        "w": 113,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 253,
+        "w": 113,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:wine tasting",
+       "role": "text",
+       "text": "wine tasting",
+       "edsText": "wine tasting",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 328,
+        "w": 92,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 328,
+        "w": 92,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:the priorat",
+       "role": "text",
+       "text": "the priorat",
+       "edsText": "the priorat",
+       "byPosition": false,
+       "origin": {
+        "x": 215,
+        "y": 403,
+        "w": 81,
+        "h": 18
+       },
+       "eds": {
+        "x": 215,
+        "y": 403,
+        "w": 81,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:montsant",
+       "role": "text",
+       "text": "montsant",
+       "edsText": "montsant",
+       "byPosition": false,
+       "origin": {
+        "x": 61,
+        "y": 428,
+        "w": 70,
+        "h": 18
+       },
+       "eds": {
+        "x": 61,
+        "y": 428,
+        "w": 70,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:terra alta",
+       "role": "text",
+       "text": "terra alta",
+       "edsText": "terra alta",
+       "byPosition": false,
+       "origin": {
+        "x": 166,
+        "y": 428,
+        "w": 70,
+        "h": 18
+       },
+       "eds": {
+        "x": 166,
+        "y": 428,
+        "w": 70,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2187,
+       "w": 360,
+       "h": 450
+      },
+      "eds": {
+       "x": 0,
+       "y": 2187,
+       "w": 360,
+       "h": 450
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 8,
+      "within": 8,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15933#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "img.alignnone",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2677,
+       "w": 360,
+       "h": 187
+      },
+      "eds": {
+       "x": 0,
+       "y": 2677,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2"
+     },
+     "rows": [
+      {
+       "key": "heading:hidden gaudí",
+       "role": "heading",
+       "text": "hidden gaudí",
+       "edsText": "hidden gaudí",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110,
+        "sel": "h2",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:only 10 km from the house, you find . in",
+       "role": "text",
+       "text": "only 10 km from the house, you find . indulge yourself and y",
+       "edsText": "only 10 km from the house, you find . indulge yourself and y",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 300
+       },
+       "eds": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 300,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:parc sama",
+       "role": "link",
+       "text": "parc sama",
+       "edsText": "parc sama",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 123,
+        "w": 287,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 123,
+        "w": 287,
+        "h": 43,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:the park behind the house was designed b",
+       "role": "text",
+       "text": "the park behind the house was designed by antoni gaudi in hi",
+       "edsText": "the park behind the house was designed by antoni gaudi in hi",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 148,
+        "w": 284,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 148,
+        "w": 284,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2863,
+       "w": 360,
+       "h": 420
+      },
+      "eds": {
+       "x": 0,
+       "y": 2863,
+       "w": 360,
+       "h": 420
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15580#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "img.alignnone",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 3323,
+       "w": 360,
+       "h": 187
+      },
+      "eds": {
+       "x": 0,
+       "y": 3323,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2"
+     },
+     "rows": [
+      {
+       "key": "heading:monastery treasures",
+       "role": "heading",
+       "text": "monastery treasures",
+       "edsText": "monastery treasures",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110,
+        "sel": "h2",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:be fascinated by the peace and beauty of",
+       "role": "text",
+       "text": "be fascinated by the peace and beauty of one of three amazin",
+       "edsText": "be fascinated by the peace and beauty of one of three amazin",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 300
+       },
+       "eds": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 300,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:founded in the xii century",
+       "role": "text",
+       "text": "founded in the xii century",
+       "edsText": "founded in the xii century",
+       "byPosition": false,
+       "origin": {
+        "x": 127,
+        "y": 173,
+        "w": 196,
+        "h": 18
+       },
+       "eds": {
+        "x": 127,
+        "y": 173,
+        "w": 196,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "link:cister route",
+       "role": "link",
+       "text": "cister route",
+       "edsText": "cister route",
+       "byPosition": false,
+       "origin": {
+        "x": 197,
+        "y": 398,
+        "w": 81,
+        "h": 18
+       },
+       "eds": {
+        "x": 197,
+        "y": 398,
+        "w": 81,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 3510,
+       "w": 360,
+       "h": 420
+      },
+      "eds": {
+       "x": 0,
+       "y": 3510,
+       "w": 360,
+       "h": 420
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 8,
+  "within": 25,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

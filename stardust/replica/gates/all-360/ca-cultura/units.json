@@ -1,0 +1,1310 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T22:04:06.455Z",
+  "tol": 4,
+  "n": 8,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/ca/cultura/",
+  "at": "2026-11-24T18:53:43.876Z",
+  "docH": 4860
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/ca/cultura",
+  "at": "2026-11-24T22:04:06.393Z",
+  "docH": 4860
+ },
+ "results": [
+  {
+   "sel": "#content > .vc_row > .vc_col-sm-6=.media-feature .media-feature-col",
+   "family": null,
+   "required": true,
+   "originMatches": 8,
+   "edsMatches": 8,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.block > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:castle-monastery of escornalbou",
+       "role": "image",
+       "text": "castle-monastery of escornalbou",
+       "edsText": "castle-monastery of escornalbou",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 1123,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1123,
+       "w": 360,
+       "h": 187
+      },
+      "eds": {
+       "x": 0,
+       "y": 1123,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.block > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:el increíble castillo de escornalbou",
+       "role": "heading",
+       "text": "el increíble castillo de escornalbou",
+       "edsText": "el increíble castillo de escornalbou",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 165
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 165,
+        "sel": "h2#el-increíble-castillo-de-escornalbou",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:el es una mansión peculiar, restaurada p",
+       "role": "text",
+       "text": "el es una mansión peculiar, restaurada para ser la residenci",
+       "edsText": "el es una mansión peculiar, restaurada para ser la residenci",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 178,
+        "w": 297,
+        "h": 293
+       },
+       "eds": {
+        "x": 30,
+        "y": 175,
+        "w": 300,
+        "h": 300,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 3,
+       "dh": 7,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:monasterio-castillo de escornalbou",
+       "role": "link",
+       "text": "monasterio-castillo de escornalbou",
+       "edsText": "monasterio-castillo de escornalbou",
+       "byPosition": false,
+       "origin": {
+        "x": 47,
+        "y": 178,
+        "w": 247,
+        "h": 18
+       },
+       "eds": {
+        "x": 47,
+        "y": 178,
+        "w": 247,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:absorbe toda la historia inspiradora vis",
+       "role": "text",
+       "text": "absorbe toda la historia inspiradora visitando el castillo",
+       "edsText": "absorbe toda la historia inspiradora visitando el castillo",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 328,
+        "w": 261,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 328,
+        "w": 261,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:impresionante vista",
+       "role": "text",
+       "text": "impresionante vista",
+       "edsText": "impresionante vista",
+       "byPosition": false,
+       "origin": {
+        "x": 134,
+        "y": 403,
+        "w": 149,
+        "h": 18
+       },
+       "eds": {
+        "x": 137,
+        "y": 403,
+        "w": 145,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 3,
+       "dy": 0,
+       "dw": -4,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:.",
+       "role": "text",
+       "text": ".",
+       "edsText": ".",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 485,
+        "w": 300,
+        "h": 25
+       },
+       "eds": {
+        "x": 30,
+        "y": 485,
+        "w": 300,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1310,
+       "w": 360,
+       "h": 510
+      },
+      "eds": {
+       "x": 0,
+       "y": 1310,
+       "w": 360,
+       "h": 510
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.block > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15632#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 1860,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1860,
+       "w": 360,
+       "h": 187
+      },
+      "eds": {
+       "x": 0,
+       "y": 1860,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.block > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:a pocos pasos del priorat",
+       "role": "heading",
+       "text": "a pocos pasos del priorat",
+       "edsText": "a pocos pasos del priorat",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 165
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 165,
+        "sel": "h2#a-pocos-pasos-del-priorat",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:sigue la historia y el rastro de los has",
+       "role": "text",
+       "text": "sigue la historia y el rastro de los hasta , en el priorat. ",
+       "edsText": "sigue la historia y el rastro de los hasta , en el priorat. ",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 178,
+        "w": 298,
+        "h": 293
+       },
+       "eds": {
+        "x": 30,
+        "y": 175,
+        "w": 300,
+        "h": 300,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 2,
+       "dh": 7,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:monjes cartujanos",
+       "role": "text",
+       "text": "monjes cartujanos",
+       "edsText": "monjes cartujanos",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 178,
+        "w": 284,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 178,
+        "w": 284,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "link:escaladei",
+       "role": "link",
+       "text": "escaladei",
+       "edsText": "escaladei",
+       "byPosition": false,
+       "origin": {
+        "x": 154,
+        "y": 203,
+        "w": 66,
+        "h": 18
+       },
+       "eds": {
+        "x": 154,
+        "y": 203,
+        "w": 66,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:catedrales del vino",
+       "role": "text",
+       "text": "catedrales del vino",
+       "edsText": "catedrales del vino",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 253,
+        "w": 138,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 253,
+        "w": 138,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:cata de vinos",
+       "role": "text",
+       "text": "cata de vinos",
+       "edsText": "cata de vinos",
+       "byPosition": false,
+       "origin": {
+        "x": 153,
+        "y": 303,
+        "w": 97,
+        "h": 18
+       },
+       "eds": {
+        "x": 153,
+        "y": 303,
+        "w": 97,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:priorat",
+       "role": "text",
+       "text": "priorat",
+       "edsText": "priorat",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 428,
+        "w": 50,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 428,
+        "w": 50,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:terra alta",
+       "role": "text",
+       "text": "terra alta",
+       "edsText": "terra alta",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 428,
+        "w": 277,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 428,
+        "w": 277,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:montsant",
+       "role": "text",
+       "text": "montsant",
+       "edsText": "montsant",
+       "byPosition": false,
+       "origin": {
+        "x": 186,
+        "y": 428,
+        "w": 70,
+        "h": 18
+       },
+       "eds": {
+        "x": 186,
+        "y": 428,
+        "w": 70,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2047,
+       "w": 360,
+       "h": 475
+      },
+      "eds": {
+       "x": 0,
+       "y": 2047,
+       "w": 360,
+       "h": 475
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 9,
+      "within": 8,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.block > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15933#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 2562,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2562,
+       "w": 360,
+       "h": 187
+      },
+      "eds": {
+       "x": 0,
+       "y": 2562,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.block > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:gaudí a escondidas",
+       "role": "heading",
+       "text": "gaudí a escondidas",
+       "edsText": "gaudí a escondidas",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110,
+        "sel": "h2#gaudí-a-escondidas",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:a solo 10 km de la casa, se encuentra el",
+       "role": "text",
+       "text": "a solo 10 km de la casa, se encuentra el . . date un caprich",
+       "edsText": "a solo 10 km de la casa, se encuentra el . . date un caprich",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 123,
+        "w": 297,
+        "h": 318
+       },
+       "eds": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 325,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 3,
+       "dh": 7,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:parque sama",
+       "role": "link",
+       "text": "parque sama",
+       "edsText": "parque sama",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 148,
+        "w": 95,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 148,
+        "w": 95,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:el parque detrás de la casa fue diseñado",
+       "role": "text",
+       "text": "el parque detrás de la casa fue diseñado por antoni gaudí en",
+       "edsText": "el parque detrás de la casa fue diseñado por antoni gaudí en",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 148,
+        "w": 297,
+        "h": 68
+       },
+       "eds": {
+        "x": 30,
+        "y": 148,
+        "w": 297,
+        "h": 68,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span",
+       "text": "a escondidas",
+       "boxed": false,
+       "x": 30,
+       "y": -3,
+       "w": 277,
+       "h": 116,
+       "absY": 2745,
+       "hidden": false,
+       "fs": 50,
+       "lh": 55,
+       "fw": "200",
+       "color": "rgb(221, 157, 59)",
+       "bg": null,
+       "position": "static",
+       "key": "text:a escondidas"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2748,
+       "w": 360,
+       "h": 445
+      },
+      "eds": {
+       "x": 0,
+       "y": 2748,
+       "w": 360,
+       "h": 445
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 3,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.block > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15580#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 3233,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 3233,
+       "w": 360,
+       "h": 187
+      },
+      "eds": {
+       "x": 0,
+       "y": 3233,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.block > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:monasterios que son tesoros",
+       "role": "heading",
+       "text": "monasterios que son tesoros",
+       "edsText": "monasterios que son tesoros",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 165
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 165,
+        "sel": "h2#monasterios-que-son-tesoros",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:déjate fascinar por la paz y la belleza ",
+       "role": "text",
+       "text": "déjate fascinar por la paz y la belleza de alguno de los tre",
+       "edsText": "déjate fascinar por la paz y la belleza de alguno de los tre",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 178,
+        "w": 299,
+        "h": 318
+       },
+       "eds": {
+        "x": 30,
+        "y": 175,
+        "w": 300,
+        "h": 325,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 1,
+       "dh": 7,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:fundados en el siglo xii",
+       "role": "text",
+       "text": "fundados en el siglo xii",
+       "edsText": "fundados en el siglo xii",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 228,
+        "w": 299,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 228,
+        "w": 299,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "link:ruta del cister",
+       "role": "link",
+       "text": "ruta del cister",
+       "edsText": "ruta del cister",
+       "byPosition": false,
+       "origin": {
+        "x": 122,
+        "y": 478,
+        "w": 98,
+        "h": 18
+       },
+       "eds": {
+        "x": 122,
+        "y": 478,
+        "w": 98,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 3420,
+       "w": 360,
+       "h": 500
+      },
+      "eds": {
+       "x": 0,
+       "y": 3420,
+       "w": 360,
+       "h": 500
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 3,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 8,
+  "within": 23,
+  "off": 4,
+  "hidden": 0,
+  "missing": 1,
+  "errors": 0,
+  "requiredOff": 5
+ }
+}

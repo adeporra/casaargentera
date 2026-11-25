@@ -1,0 +1,2764 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract --prep",
+    "writtenAt": "2026-11-24T09:56:18.893Z",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/*.json",
+      "stardust/current/pages/*.html"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.10.0",
+    "mode": "descriptive (current state)"
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-24T09:56:18.893Z",
+  "title": "Design System: Casa Argentera (current state)",
+  "extensions": {
+    "colorMeta": {
+      "amber": {
+        "role": "primary",
+        "displayName": "Argentera Amber",
+        "canonical": "#dd9d3b",
+        "source": "--the7-accent-color; h2/h3, buttons, footer"
+      },
+      "amber-deep": {
+        "role": "primary",
+        "displayName": "Amber (uppercase labels)",
+        "canonical": "#dd9933",
+        "source": "h5/h4 uppercase amenity titles"
+      },
+      "amber-veil": {
+        "role": "surface",
+        "displayName": "Amber Veil",
+        "canonical": "rgba(221,153,51,0.5)",
+        "source": "header band over hero"
+      },
+      "sand": {
+        "role": "surface",
+        "displayName": "Sand",
+        "canonical": "#ddbd89",
+        "source": "#phantom sticky header"
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "#ffffff"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink Grey",
+        "canonical": "#3a3a3a",
+        "source": "--the7-base-color body text"
+      },
+      "ink-deep": {
+        "role": "neutral",
+        "displayName": "Footer Ink",
+        "canonical": "#2b2b2b"
+      },
+      "mist": {
+        "role": "neutral",
+        "displayName": "Field Mist",
+        "canonical": "#f0f3f6"
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgba(173,176,182,0.3)"
+      },
+      "amber-hover": {
+        "role": "state",
+        "displayName": "Amber Hover",
+        "canonical": "#ae9964"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display (h2)",
+        "purpose": "Page lead headline, amber, thin 200."
+      },
+      "headline": {
+        "displayName": "Headline (h3)",
+        "purpose": "Section heads and card titles."
+      },
+      "title": {
+        "displayName": "Title (h4)",
+        "purpose": "Sub-sections; 400 uppercase variant on booking/contact."
+      },
+      "label": {
+        "displayName": "Label (h5)",
+        "purpose": "Uppercase amenity titles beside icons."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "14/25 grey prose."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "14px 800 on amber pill."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "hero-slide",
+        "value": "Revolution Slider fade, 2500ms per slide",
+        "purpose": "Hero slideshow"
+      },
+      {
+        "name": "fade-in-on-scroll",
+        "value": "wpb_animate_when_almost_visible wpb_fadeIn",
+        "purpose": "Single images fade in when scrolled into view"
+      },
+      {
+        "name": "nav-underline",
+        "value": "underline grows left-to-right on hover",
+        "purpose": "Primary nav hover"
+      }
+    ],
+    "componentStyle": {
+      "buttons": {
+        "primary": {
+          "background": "#dd9d3b",
+          "color": "#ffffff",
+          "borderRadius": "25px",
+          "padding": "12px 25px 11px",
+          "fontWeight": 800,
+          "fontSize": "14px",
+          "textTransform": "none",
+          "shadow": null,
+          "border": "0 (Send) | 2px outset #000 (footer search \"Go!\")",
+          "hoverDelta": "background → rgb(174,153,100) #ae9964",
+          "sources": [
+            "the-garden .wpcf7-submit",
+            "#search-4 input[type=submit]"
+          ]
+        },
+        "secondary": null,
+        "ghost": null
+      },
+      "dualCTAPattern": null,
+      "cards": {
+        "background": "transparent",
+        "borderRadius": "0",
+        "padding": "0",
+        "shadow": null,
+        "border": null,
+        "notes": "No card chrome: image + heading pairs sit directly on white."
+      },
+      "inputs": {
+        "borderRadius": "0 (form fields) / 25px (footer search)",
+        "padding": null,
+        "border": "1px solid rgba(173,176,182,0.3)",
+        "background": "#fcfcfc",
+        "focusRing": null
+      },
+      "nav": {
+        "color": "#ffffff",
+        "weight": 400,
+        "hover": "underline decoration grows left-to-right (The7 underline-decoration l-to-r-line)",
+        "dropdowns": "THE HOUSE, EXPERIENCES"
+      },
+      "links": {
+        "inContent": "#dd9d3b",
+        "footer": "#2b2b2b → #0a0a0a on hover"
+      }
+    },
+    "motifs": {
+      "borderRadius": {
+        "primary": "200px",
+        "secondary": "25px",
+        "pill": "50%",
+        "primarySources": [
+          "the-garden",
+          "contact",
+          "the-penthouse"
+        ],
+        "occurrences": {
+          "200px": 688,
+          "50%": 546,
+          "100px": 366,
+          "500px": 233,
+          "25px": 182,
+          "2px": 122,
+          "3px": 1
+        },
+        "roles": {
+          "200px": "60px circular amenity icon chips (icon-with-text)",
+          "50%": "slider bullets, footer social icons",
+          "100px": "top-bar social icons",
+          "500px": "header/hero decorative circles",
+          "25px": "buttons (Send, Go!) and the footer search field",
+          "2px": "reCAPTCHA badge (third-party)",
+          "3px": "slider loader"
+        },
+        "notes": "Content imagery, cards and sections are square-cornered (0); every non-zero radius is a round/pill control.",
+        "sources": [
+          {
+            "value": "200px",
+            "url": "https://www.casaargentera.com/ca/contacte/",
+            "selector": "#content > div:nth-of-type(5) > div:nth-of-type(1) > div > div > div:nth-of-type(1) > span"
+          },
+          {
+            "value": "50%",
+            "url": "https://www.casaargentera.com/",
+            "selector": "#rev_slider_24_1 > rs-bullets > rs-bullet:nth-of-type(1)"
+          },
+          {
+            "value": "100px",
+            "url": "https://www.casaargentera.com/",
+            "selector": "#page > div:nth-of-type(2) > div > div:nth-of-type(2) > div > a:nth-of-type(1)"
+          },
+          {
+            "value": "500px",
+            "url": "https://www.casaargentera.com/",
+            "selector": "#page > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(2)"
+          },
+          {
+            "value": "25px",
+            "url": "https://www.casaargentera.com/",
+            "selector": "#search-4 > form > input:nth-of-type(2)"
+          }
+        ]
+      },
+      "shadows": [
+        {
+          "value": "none",
+          "uses": "site-wide — surfaces are flat"
+        },
+        {
+          "value": "rgb(128,128,128) 0 0 5px 0",
+          "uses": "reCAPTCHA badge only (third-party)",
+          "source": {
+            "url": "https://www.casaargentera.com/",
+            "selector": "#the7-body > div:nth-of-type(4) > div"
+          }
+        },
+        {
+          "value": "rgba(0,0,0,0.15) 0 0 20px 0",
+          "uses": "Revolution Slider loader (1 occurrence)"
+        }
+      ],
+      "gradients": [
+        {
+          "value": "linear-gradient(45deg, rgba(0, 0, 0, 0) 50%, rgb(120, 125, 133) 50%), linear-gradient(135deg, rgb(120, 125, 133) 50%, rgba(0, 0, 0, 0) 50%)",
+          "uses": "ICS calendar month <select> arrow (plugin chrome) — no brand gradients"
+        }
+      ],
+      "patterns": [
+        {
+          "name": "hero-slider",
+          "evidence": "63/70 pages open with a full-width Revolution Slider photo slideshow (bullets, 2.5s slides); captions on landing + events only"
+        },
+        {
+          "name": "header-over-hero",
+          "evidence": "masthead sits over the slider on a 50% amber band; logo is a square badge 172×136"
+        },
+        {
+          "name": "amber-display-headings",
+          "evidence": "h2 50px/200 and h3 30px/200 in #dd9d3b on white — thin, large, warm"
+        },
+        {
+          "name": "feature-list",
+          "evidence": "amenity icon list (amber circle icon + uppercase h5) on 16 program pages and directions on 4 contact pages"
+        },
+        {
+          "name": "photo-grid",
+          "evidence": "2-up + 3-up uncaptioned photo rows on program and about pages"
+        },
+        {
+          "name": "alternating-image-text",
+          "evidence": "6/6 image/text rows on 16 article pages"
+        },
+        {
+          "name": "testimonial-carousel",
+          "evidence": "Owl carousel of guest quotes on the 3 landing pages"
+        },
+        {
+          "name": "masonry-gallery-lightbox",
+          "evidence": "WPBakery media grid + prettyPhoto on events and ground-floor pages (8)"
+        },
+        {
+          "name": "enquiry-form-closer",
+          "evidence": "Contact Form 7 enquiry closes 32 pages"
+        },
+        {
+          "name": "footer-amber-band",
+          "evidence": "full-bleed #dd9d3b footer with white text on all 70 pages"
+        }
+      ]
+    },
+    "voice": {
+      "heroHeadline": "WELCOME HOME",
+      "heroEyebrow": "Casa Argentera",
+      "heroSubcopy": "Casa Argentera, a historical village situated in a small catalan mountain village, between the famous wine region Priorat and the Mediterranean Sea",
+      "heroImage": {
+        "url": "https://www.casaargentera.com/wp-content/uploads/2020/03/Piscina-CasaArgentera-1.jpg",
+        "alt": "View of the pool heated and lighted in Casa Argentera",
+        "source": "img",
+        "domPath": "#rev_slider_24_1 rs-slide[data-key=rs-103] img.rev-slidebg",
+        "localPath": null,
+        "rect": null,
+        "notes": "First of 5 Revolution Slider slides (lazy data-lazyload src); slider fills the first viewport under the overlaid header. Rect not measured by the census; intrinsic 1980×1114."
+      },
+      "heroMedium": null,
+      "heroMediumNotes": "Hero is an auto-advancing image slideshow (Revolution Slider 6, 5 slides, data-duration 2500, fade). Not a video/canvas/Lottie, so heroMedium is null; the slideshow itself is captured as module hero-slider.",
+      "primaryCTALabel": "RESERVATIONS",
+      "ctaSamples": [
+        "RESERVATIONS",
+        "CONTACT",
+        "Send",
+        "Go!",
+        "Get to know the house",
+        "Plenty of experiences waiting"
+      ],
+      "navItems": [
+        "THE HOUSE",
+        "THE PLACE",
+        "EXPERIENCES",
+        "EVENTS",
+        "WHO WE ARE",
+        "CONTACT",
+        "RESERVATIONS"
+      ],
+      "navItemsByLocale": {
+        "en": [
+          "THE HOUSE",
+          "THE PLACE",
+          "EXPERIENCES",
+          "EVENTS",
+          "WHO WE ARE",
+          "CONTACT",
+          "RESERVATIONS"
+        ],
+        "es": [
+          "LA CASA",
+          "EL ENTORNO",
+          "EXPERIENCIAS",
+          "EVENTOS",
+          "QUIÉNES SOMOS",
+          "CONTACTO",
+          "RESERVAS"
+        ],
+        "ca": [
+          "LA CASA",
+          "L’ENTORN",
+          "EXPERIÈNCIES",
+          "ESDEVENIMENTS",
+          "QUI SOM",
+          "CONTACTE",
+          "RESERVES"
+        ],
+        "da": [
+          "HUSET",
+          "STEDET",
+          "OPLEVELSER",
+          "EVENTS",
+          "OM OS",
+          "KONTAKT",
+          "RESERVATIONER"
+        ]
+      },
+      "footerHeadings": [
+        "CONTACT US",
+        "SEARCH",
+        "FOLLOW US",
+        "OTHER RENTALS",
+        "LEGAL INFO"
+      ],
+      "firstParagraph": "A place where time stands still, and unique traditions stays alive. Situated in a valley, in a tiny authentic Catalan village with cobblestone streets lined with ever blooming flowers and a majestic view of the castle of Escornalbou. A place where your story begins.",
+      "heroSlideCaptions": [
+        "Casa Argentera / WELCOME HOME",
+        "Mediterranean 100% / THE TIME IS YOURS",
+        "Unique traditions / SMALL AUTHENTIC CATALAN VILLAGE",
+        "Disconnect and relax / CELEBRATE LIFE",
+        "Amazing moments / HERE YOUR STORY BEGINS"
+      ],
+      "tone": {
+        "guess": "aspirational",
+        "evidence": "warm, sensory hospitality copy (\"A place where time stands still\", \"Here your story begins\", \"The time is yours\"); first-person-plural hosts (Albert & Ina); light non-native English (e.g. \"stays alive\", \"acces\", \"appartment\")"
+      },
+      "languages": [
+        "en",
+        "es",
+        "ca",
+        "da"
+      ]
+    },
+    "systemComponents": [
+      {
+        "name": "site-header",
+        "kind": "header",
+        "occurrences": 70,
+        "headingSequence": [],
+        "ctaLabels": [
+          "THE HOUSE",
+          "THE PLACE",
+          "EXPERIENCES",
+          "EVENTS",
+          "WHO WE ARE",
+          "CONTACT",
+          "RESERVATIONS"
+        ],
+        "localeVariants": {
+          "en": [
+            "THE HOUSE",
+            "THE PLACE",
+            "EXPERIENCES",
+            "EVENTS",
+            "WHO WE ARE",
+            "CONTACT",
+            "RESERVATIONS"
+          ],
+          "es": [
+            "LA CASA",
+            "EL ENTORNO",
+            "EXPERIENCIAS",
+            "EVENTOS",
+            "QUIÉNES SOMOS",
+            "CONTACTO",
+            "RESERVAS"
+          ],
+          "ca": [
+            "LA CASA",
+            "L’ENTORN",
+            "EXPERIÈNCIES",
+            "ESDEVENIMENTS",
+            "QUI SOM",
+            "CONTACTE",
+            "RESERVES"
+          ],
+          "da": [
+            "HUSET",
+            "STEDET",
+            "OPLEVELSER",
+            "EVENTS",
+            "OM OS",
+            "KONTAKT",
+            "RESERVATIONER"
+          ]
+        },
+        "domFingerprintHash": "sha256:fa68e9c91bc6879adb3a03621b1303e64890ee1fae7cbd4cbfb797bc316ac2ee",
+        "exampleSlug": "index",
+        "exampleSelector": "header.header-bar",
+        "examplePages": [
+          "index",
+          "es-el-entorno",
+          "es-naturaleza-deporte"
+        ],
+        "notes": "The7 masthead: logo (casaargentera_logo_2010.png 172×136) left, 7 top-level uppercase nav items with dropdowns (THE HOUSE, EXPERIENCES); a top bar above carries the language switcher (Dansk · Català · Español · English) and Instagram/Facebook icons. Overlays the hero slider on a translucent amber band (rgba(221,153,51,.5)); a sticky clone (#phantom, #ddbd89) appears on scroll."
+      },
+      {
+        "name": "language-switcher",
+        "kind": "nav-secondary",
+        "occurrences": 70,
+        "headingSequence": [],
+        "ctaLabels": [
+          "Dansk",
+          "Català",
+          "Español",
+          "English"
+        ],
+        "exampleSlug": "index",
+        "exampleSelector": "#top-menu",
+        "examplePages": [
+          "index",
+          "es-el-entorno",
+          "es-naturaleza-deporte"
+        ],
+        "notes": "Top-bar menu (weight 300, white) plus a repeat in the footer bottom bar. Current-locale item omitted in the top bar."
+      },
+      {
+        "name": "site-footer",
+        "kind": "footer",
+        "occurrences": 70,
+        "headingSequence": [
+          "CONTACT US",
+          "SEARCH",
+          "FOLLOW US",
+          "OTHER RENTALS",
+          "LEGAL INFO"
+        ],
+        "localeVariants": {
+          "en": [
+            "CONTACT US",
+            "SEARCH",
+            "FOLLOW US",
+            "OTHER RENTALS",
+            "LEGAL INFO"
+          ],
+          "es": [
+            "CONTACTO",
+            "BUSCA",
+            "SÍGUENOS",
+            "OTROS ALQUILERES",
+            "INFO LEGAL"
+          ],
+          "ca": [
+            "CONTACTE",
+            "CERCA",
+            "SEGUEIX-NOS",
+            "ALTRES LLOGUERS",
+            "INFO LEGAL"
+          ],
+          "da": [
+            "CONTACT US",
+            "SEARCH",
+            "FOLLOW US",
+            "OTHER RENTALS",
+            "LEGAL INFO"
+          ]
+        },
+        "ctaLabels": [
+          "Facebook page opens in new window",
+          "Instagram page opens in new window",
+          "www.CasaArgentera.com",
+          "www.CasaVelladelPanta.com",
+          "Privacy policy and Cookies"
+        ],
+        "domFingerprintHash": "sha256:223a9db316655a4b4d54b33a54b860da851089cdee5016514800185ab77df353",
+        "exampleSlug": "index",
+        "exampleSelector": "#footer",
+        "examplePages": [
+          "index",
+          "es-el-entorno",
+          "es-naturaleza-deporte"
+        ],
+        "notes": "Full-bleed amber (#dd9d3b) band, 389px tall at 1440, three widget columns × two rows (CONTACT US · SEARCH · FOLLOW US / OTHER RENTALS · LEGAL INFO) in white 14px text, a pill search field with \"Go!\" button, then a bottom bar with ©2020 and the language list."
+      },
+      {
+        "name": "enquiry-cta-band",
+        "kind": "cta-band",
+        "occurrences": 32,
+        "headingSequence": [
+          "For additional information and reservations?"
+        ],
+        "ctaLabels": [
+          "Send"
+        ],
+        "exampleSlug": "the-garden",
+        "exampleSelector": "#content .wpcf7",
+        "examplePages": [
+          "es-el-atico",
+          "es-el-jardin",
+          "es-el-piso-senorial"
+        ],
+        "notes": "Contact Form 7 enquiry (name, email, phone, subject, message, privacy acceptance, reCAPTCHA v3) closing every program, events, booking and contact page — the site’s only conversion surface."
+      },
+      {
+        "name": "bg-Tapas-workshop-Casa-Argentera-1024x576",
+        "kind": "background-motif",
+        "occurrences": 4,
+        "examplePages": [
+          "es-eventos",
+          "ca-esdeveniments",
+          "events",
+          "da-eventsda"
+        ],
+        "exampleSlug": "es-eventos",
+        "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+      },
+      {
+        "name": "bg-Cata-Sangenis-1024x576",
+        "kind": "background-motif",
+        "occurrences": 4,
+        "examplePages": [
+          "es-eventos",
+          "ca-esdeveniments",
+          "events",
+          "da-eventsda"
+        ],
+        "exampleSlug": "es-eventos",
+        "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+      },
+      {
+        "name": "bg-PinturaR%C3%A1pida-lArgentera-1024x576",
+        "kind": "background-motif",
+        "occurrences": 4,
+        "examplePages": [
+          "es-eventos",
+          "ca-esdeveniments",
+          "events",
+          "da-eventsda"
+        ],
+        "exampleSlug": "es-eventos",
+        "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+      },
+      {
+        "name": "bg-Cal%C3%A7ots-Argentera",
+        "kind": "background-motif",
+        "occurrences": 4,
+        "examplePages": [
+          "es-eventos",
+          "ca-esdeveniments",
+          "events",
+          "da-eventsda"
+        ],
+        "exampleSlug": "es-eventos",
+        "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+      },
+      {
+        "name": "bg-Paella-CasaArgentera",
+        "kind": "background-motif",
+        "occurrences": 4,
+        "examplePages": [
+          "es-eventos",
+          "ca-esdeveniments",
+          "events",
+          "da-eventsda"
+        ],
+        "exampleSlug": "es-eventos",
+        "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+      },
+      {
+        "name": "bg-Workshop-MarionaQuadrada-1024x576",
+        "kind": "background-motif",
+        "occurrences": 4,
+        "examplePages": [
+          "es-eventos",
+          "ca-esdeveniments",
+          "events",
+          "da-eventsda"
+        ],
+        "exampleSlug": "es-eventos",
+        "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+      },
+      {
+        "name": "bg-P1010765EnhancedP3D-e1587830457410-1024x576",
+        "kind": "background-motif",
+        "occurrences": 3,
+        "examplePages": [
+          "es-la-planta-baja",
+          "ca-la-planta-baixa",
+          "the-ground-floor"
+        ],
+        "exampleSlug": "es-la-planta-baja",
+        "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+      },
+      {
+        "name": "bg-CasaArgentera-GroundFloor-1024x576",
+        "kind": "background-motif",
+        "occurrences": 4,
+        "examplePages": [
+          "es-la-planta-baja",
+          "ca-la-planta-baixa",
+          "the-ground-floor",
+          "da-stueetagen"
+        ],
+        "exampleSlug": "es-la-planta-baja",
+        "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+      },
+      {
+        "name": "bg-Kitchen-groundf-CasaArgentera-1024x576",
+        "kind": "background-motif",
+        "occurrences": 4,
+        "examplePages": [
+          "es-la-planta-baja",
+          "ca-la-planta-baixa",
+          "the-ground-floor",
+          "da-stueetagen"
+        ],
+        "exampleSlug": "es-la-planta-baja",
+        "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+      },
+      {
+        "name": "bg-CasaArgentera-hab2-0-1024x576",
+        "kind": "background-motif",
+        "occurrences": 4,
+        "examplePages": [
+          "es-la-planta-baja",
+          "ca-la-planta-baixa",
+          "the-ground-floor",
+          "da-stueetagen"
+        ],
+        "exampleSlug": "es-la-planta-baja",
+        "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+      },
+      {
+        "name": "bg-CasaArgentera-hab-0-1024x576",
+        "kind": "background-motif",
+        "occurrences": 4,
+        "examplePages": [
+          "es-la-planta-baja",
+          "ca-la-planta-baixa",
+          "the-ground-floor",
+          "da-stueetagen"
+        ],
+        "exampleSlug": "es-la-planta-baja",
+        "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+      },
+      {
+        "name": "bg-BathroomGroundf-CasaArgentera-1024x575",
+        "kind": "background-motif",
+        "occurrences": 4,
+        "examplePages": [
+          "es-la-planta-baja",
+          "ca-la-planta-baixa",
+          "the-ground-floor",
+          "da-stueetagen"
+        ],
+        "exampleSlug": "es-la-planta-baja",
+        "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+      }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        1.667,
+        1.364,
+        1.294,
+        1.214
+      ],
+      "observedSizesPx": [
+        50,
+        30,
+        22,
+        17,
+        14
+      ],
+      "matchedScale": null
+    },
+    "iconFont": {
+      "families": [
+        "Font Awesome 5 Brands",
+        "Font Awesome 5 Free",
+        "icomoon-the7-font",
+        "revicons",
+        "vcpb-plugin-icons"
+      ],
+      "glyphCount": 23
+    },
+    "modules": [
+      {
+        "id": "candidate-9ce1bf9",
+        "label": "Hero slider (Revolution Slider, full-width photo slideshow, optional two-line caption)",
+        "key": "hero-slider",
+        "slots": [
+          {
+            "name": "slides[].image",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "slides[].alt",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "slides[].eyebrow",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "slides[].title",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": "#rev_slider_24_1"
+          },
+          {
+            "slug": "es-el-entorno",
+            "selector": "#rev_slider_15_1"
+          },
+          {
+            "slug": "es-naturaleza-deporte",
+            "selector": "#rev_slider_16_1"
+          },
+          {
+            "slug": "es-playas-y-mas",
+            "selector": "#rev_slider_20_1"
+          },
+          {
+            "slug": "es-quienes-somos",
+            "selector": "#rev_slider_8_1"
+          },
+          {
+            "slug": "es-el-atico",
+            "selector": "#rev_slider_10_1"
+          },
+          {
+            "slug": "es-el-jardin",
+            "selector": "#rev_slider_14_1"
+          },
+          {
+            "slug": "es-el-piso-senorial",
+            "selector": "#rev_slider_11_1"
+          },
+          {
+            "slug": "es-eventos",
+            "selector": "#rev_slider_18_1"
+          },
+          {
+            "slug": "es-cultura",
+            "selector": "#rev_slider_17_1"
+          },
+          {
+            "slug": "es-la-casa-entera",
+            "selector": "#rev_slider_4_1"
+          },
+          {
+            "slug": "es-la-casa",
+            "selector": "#rev_slider_4_1"
+          },
+          {
+            "slug": "es-la-planta-baja",
+            "selector": "#rev_slider_6_1"
+          },
+          {
+            "slug": "es-experiencias",
+            "selector": "#rev_slider_7_1"
+          },
+          {
+            "slug": "es-contacto",
+            "selector": "#rev_slider_9_1"
+          },
+          {
+            "slug": "es-inicio",
+            "selector": "#rev_slider_24_1"
+          },
+          {
+            "slug": "es-reservas",
+            "selector": "#rev_slider_13_1"
+          },
+          {
+            "slug": "ca-cultura",
+            "selector": "#rev_slider_17_1"
+          },
+          {
+            "slug": "ca-platja-i-mes",
+            "selector": "#rev_slider_20_1"
+          },
+          {
+            "slug": "ca-qui-som",
+            "selector": "#rev_slider_8_1"
+          },
+          {
+            "slug": "ca-contacte",
+            "selector": "#rev_slider_9_1"
+          },
+          {
+            "slug": "ca-el-jardi",
+            "selector": "#rev_slider_14_1"
+          },
+          {
+            "slug": "ca-esdeveniments",
+            "selector": "#rev_slider_18_1"
+          },
+          {
+            "slug": "ca-la-casa",
+            "selector": "#rev_slider_4_1"
+          },
+          {
+            "slug": "ca-la-casa-sencera",
+            "selector": "#rev_slider_4_1"
+          },
+          {
+            "slug": "ca-latic",
+            "selector": "#rev_slider_10_1"
+          },
+          {
+            "slug": "ca-el-pis-senyorial",
+            "selector": "#rev_slider_11_1"
+          },
+          {
+            "slug": "ca-la-planta-baixa",
+            "selector": "#rev_slider_6_1"
+          },
+          {
+            "slug": "ca-lentorn",
+            "selector": "#rev_slider_15_1"
+          },
+          {
+            "slug": "ca-experiencies",
+            "selector": "#rev_slider_7_1"
+          },
+          {
+            "slug": "ca-natura-esport",
+            "selector": "#rev_slider_16_1"
+          },
+          {
+            "slug": "ca-inici",
+            "selector": "#rev_slider_24_1"
+          },
+          {
+            "slug": "ca-reserves",
+            "selector": "#rev_slider_13_1"
+          },
+          {
+            "slug": "who-we-are",
+            "selector": "#rev_slider_8_1"
+          },
+          {
+            "slug": "nature-sport",
+            "selector": "#rev_slider_16_1"
+          },
+          {
+            "slug": "the-place",
+            "selector": "#rev_slider_15_1"
+          },
+          {
+            "slug": "beach-and-more",
+            "selector": "#rev_slider_20_1"
+          },
+          {
+            "slug": "events",
+            "selector": "#rev_slider_18_1"
+          },
+          {
+            "slug": "contact",
+            "selector": "#rev_slider_9_1"
+          },
+          {
+            "slug": "culture",
+            "selector": "#rev_slider_17_1"
+          },
+          {
+            "slug": "the-whole-house",
+            "selector": "#rev_slider_4_1"
+          },
+          {
+            "slug": "the-house",
+            "selector": "#rev_slider_4_1"
+          },
+          {
+            "slug": "the-garden",
+            "selector": "#rev_slider_14_1"
+          },
+          {
+            "slug": "the-penthouse",
+            "selector": "#rev_slider_10_1"
+          },
+          {
+            "slug": "the-noble-floor",
+            "selector": "#rev_slider_11_1"
+          },
+          {
+            "slug": "the-ground-floor",
+            "selector": "#rev_slider_6_1"
+          },
+          {
+            "slug": "experiences",
+            "selector": "#rev_slider_7_1"
+          },
+          {
+            "slug": "reservations-2",
+            "selector": "#rev_slider_13_1"
+          },
+          {
+            "slug": "da-natur-sport",
+            "selector": "#rev_slider_16_1"
+          },
+          {
+            "slug": "da-who-we-are",
+            "selector": "#rev_slider_8_1"
+          },
+          {
+            "slug": "da-stedet",
+            "selector": "#rev_slider_15_1"
+          },
+          {
+            "slug": "da-strand-m-m",
+            "selector": "#rev_slider_20_1"
+          },
+          {
+            "slug": "da-oplevelser",
+            "selector": "#rev_slider_7_1"
+          },
+          {
+            "slug": "da-stueetagen",
+            "selector": "#rev_slider_6_1"
+          },
+          {
+            "slug": "da-penthousekvisten",
+            "selector": "#rev_slider_10_1"
+          },
+          {
+            "slug": "da-eventsda",
+            "selector": "#rev_slider_18_1"
+          },
+          {
+            "slug": "da-the-garden",
+            "selector": "#rev_slider_14_1"
+          },
+          {
+            "slug": "da-hele-huset",
+            "selector": "#rev_slider_4_1"
+          },
+          {
+            "slug": "da-the-noble-floor",
+            "selector": "#rev_slider_11_1"
+          },
+          {
+            "slug": "da-kontakt",
+            "selector": "#rev_slider_9_1"
+          },
+          {
+            "slug": "da-kulturen",
+            "selector": "#rev_slider_17_1"
+          },
+          {
+            "slug": "da-the-house",
+            "selector": "#rev_slider_4_1"
+          },
+          {
+            "slug": "da-reservations",
+            "selector": "#rev_slider_13_1"
+          }
+        ],
+        "instanceCount": 63,
+        "pageCount": 63,
+        "signals": [
+          "class:revslider-initialised",
+          "media:rev-slidebg"
+        ],
+        "confidence": "medium",
+        "status": "candidate",
+        "notes": "Every non-legal page opens with a rev_slider; bullets (50% radius) bottom-centre on most. Captions only on landing + events."
+      },
+      {
+        "id": "candidate-97caa43",
+        "label": "Intro lead (amber 50px/200 h2 + body paragraph)",
+        "key": "intro-text",
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "body",
+            "type": "richtext",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "es-el-entorno",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "es-quienes-somos",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "es-el-atico",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "es-el-jardin",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "es-el-piso-senorial",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "es-eventos",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "es-cultura",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "es-la-casa-entera",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "es-la-casa",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "es-la-planta-baja",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "es-experiencias",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "es-inicio",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "ca-cultura",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "ca-politica-de-privacidad-y-cookies",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "ca-qui-som",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "ca-politica-de-privacitat-i-cookies",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "ca-el-jardi",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "ca-esdeveniments",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "ca-la-casa",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "ca-la-casa-sencera",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "ca-latic",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "ca-el-pis-senyorial",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "ca-la-planta-baixa",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "ca-lentorn",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "ca-experiencies",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "ca-inici",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "who-we-are",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "the-place",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "privacy-policy-and-cookies",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "beach-and-more",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "events",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "culture",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "the-whole-house",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "the-house",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "the-garden",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "the-penthouse",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "the-noble-floor",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "the-ground-floor",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "experiences",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "da-who-we-are",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "da-stedet",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "da-oplevelser",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "da-privacy-policy-and-cookies",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "da-stueetagen",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "da-penthousekvisten",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "da-eventsda",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "da-the-garden",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "da-hele-huset",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "da-the-noble-floor",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "da-kulturen",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          },
+          {
+            "slug": "da-the-house",
+            "selector": "#content > .vc_row:nth-of-type(1)"
+          }
+        ],
+        "instanceCount": 52,
+        "pageCount": 52,
+        "signals": [
+          "headings:first h2 50px",
+          "body:lead paragraph"
+        ],
+        "confidence": "high",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-7bd2b61",
+        "label": "Photo grid (2-up then 3-up single images, no captions)",
+        "key": "image-grid",
+        "slots": [
+          {
+            "name": "images[]",
+            "type": "image",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "es-el-entorno",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "es-el-entorno",
+            "selector": "#content > .vc_row:nth-of-type(4)"
+          },
+          {
+            "slug": "es-quienes-somos",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "es-el-atico",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "es-el-jardin",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "es-el-piso-senorial",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "es-la-casa-entera",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "ca-qui-som",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "ca-el-jardi",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "ca-la-casa-sencera",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "ca-latic",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "ca-el-pis-senyorial",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "ca-lentorn",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "ca-lentorn",
+            "selector": "#content > .vc_row:nth-of-type(4)"
+          },
+          {
+            "slug": "who-we-are",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "the-place",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "the-place",
+            "selector": "#content > .vc_row:nth-of-type(4)"
+          },
+          {
+            "slug": "the-whole-house",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "the-garden",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "the-penthouse",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "the-noble-floor",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "da-who-we-are",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "da-stedet",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "da-stedet",
+            "selector": "#content > .vc_row:nth-of-type(4)"
+          },
+          {
+            "slug": "da-penthousekvisten",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "da-the-garden",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "da-hele-huset",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "da-the-noble-floor",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          }
+        ],
+        "instanceCount": 28,
+        "pageCount": 24,
+        "signals": [
+          "class:wpb_single_image",
+          "cols:6/6+4/4/4"
+        ],
+        "confidence": "medium",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-049a591",
+        "label": "Alternating image / text rows (6/6 columns, h2 + paragraph beside one photo)",
+        "key": "split-image-text",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "body",
+            "type": "richtext",
+            "required": true
+          },
+          {
+            "name": "image",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "link",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "es-naturaleza-deporte",
+            "selector": "#content > .vc_row:nth-of-type(5)"
+          },
+          {
+            "slug": "es-naturaleza-deporte",
+            "selector": "#content > .vc_row:nth-of-type(7)"
+          },
+          {
+            "slug": "es-naturaleza-deporte",
+            "selector": "#content > .vc_row:nth-of-type(9)"
+          },
+          {
+            "slug": "es-playas-y-mas",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "es-playas-y-mas",
+            "selector": "#content > .vc_row:nth-of-type(4)"
+          },
+          {
+            "slug": "es-playas-y-mas",
+            "selector": "#content > .vc_row:nth-of-type(6)"
+          },
+          {
+            "slug": "es-cultura",
+            "selector": "#content > .vc_row:nth-of-type(3)"
+          },
+          {
+            "slug": "es-cultura",
+            "selector": "#content > .vc_row:nth-of-type(5)"
+          },
+          {
+            "slug": "es-cultura",
+            "selector": "#content > .vc_row:nth-of-type(7)"
+          },
+          {
+            "slug": "es-cultura",
+            "selector": "#content > .vc_row:nth-of-type(9)"
+          },
+          {
+            "slug": "es-la-casa",
+            "selector": "#content > .vc_row:nth-of-type(3)"
+          },
+          {
+            "slug": "es-la-casa",
+            "selector": "#content > .vc_row:nth-of-type(5)"
+          },
+          {
+            "slug": "es-la-casa",
+            "selector": "#content > .vc_row:nth-of-type(7)"
+          },
+          {
+            "slug": "es-la-casa",
+            "selector": "#content > .vc_row:nth-of-type(9)"
+          },
+          {
+            "slug": "es-la-casa",
+            "selector": "#content > .vc_row:nth-of-type(11)"
+          },
+          {
+            "slug": "ca-cultura",
+            "selector": "#content > .vc_row:nth-of-type(3)"
+          },
+          {
+            "slug": "ca-cultura",
+            "selector": "#content > .vc_row:nth-of-type(5)"
+          },
+          {
+            "slug": "ca-cultura",
+            "selector": "#content > .vc_row:nth-of-type(7)"
+          },
+          {
+            "slug": "ca-cultura",
+            "selector": "#content > .vc_row:nth-of-type(9)"
+          },
+          {
+            "slug": "ca-platja-i-mes",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "ca-platja-i-mes",
+            "selector": "#content > .vc_row:nth-of-type(4)"
+          },
+          {
+            "slug": "ca-platja-i-mes",
+            "selector": "#content > .vc_row:nth-of-type(6)"
+          },
+          {
+            "slug": "ca-la-casa",
+            "selector": "#content > .vc_row:nth-of-type(3)"
+          },
+          {
+            "slug": "ca-la-casa",
+            "selector": "#content > .vc_row:nth-of-type(5)"
+          },
+          {
+            "slug": "ca-la-casa",
+            "selector": "#content > .vc_row:nth-of-type(7)"
+          },
+          {
+            "slug": "ca-la-casa",
+            "selector": "#content > .vc_row:nth-of-type(9)"
+          },
+          {
+            "slug": "ca-la-casa",
+            "selector": "#content > .vc_row:nth-of-type(11)"
+          },
+          {
+            "slug": "ca-natura-esport",
+            "selector": "#content > .vc_row:nth-of-type(5)"
+          },
+          {
+            "slug": "ca-natura-esport",
+            "selector": "#content > .vc_row:nth-of-type(7)"
+          },
+          {
+            "slug": "ca-natura-esport",
+            "selector": "#content > .vc_row:nth-of-type(9)"
+          },
+          {
+            "slug": "nature-sport",
+            "selector": "#content > .vc_row:nth-of-type(5)"
+          },
+          {
+            "slug": "nature-sport",
+            "selector": "#content > .vc_row:nth-of-type(7)"
+          },
+          {
+            "slug": "nature-sport",
+            "selector": "#content > .vc_row:nth-of-type(9)"
+          },
+          {
+            "slug": "beach-and-more",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "beach-and-more",
+            "selector": "#content > .vc_row:nth-of-type(4)"
+          },
+          {
+            "slug": "beach-and-more",
+            "selector": "#content > .vc_row:nth-of-type(6)"
+          },
+          {
+            "slug": "culture",
+            "selector": "#content > .vc_row:nth-of-type(3)"
+          },
+          {
+            "slug": "culture",
+            "selector": "#content > .vc_row:nth-of-type(5)"
+          },
+          {
+            "slug": "culture",
+            "selector": "#content > .vc_row:nth-of-type(7)"
+          },
+          {
+            "slug": "culture",
+            "selector": "#content > .vc_row:nth-of-type(9)"
+          },
+          {
+            "slug": "the-house",
+            "selector": "#content > .vc_row:nth-of-type(3)"
+          },
+          {
+            "slug": "the-house",
+            "selector": "#content > .vc_row:nth-of-type(5)"
+          },
+          {
+            "slug": "the-house",
+            "selector": "#content > .vc_row:nth-of-type(7)"
+          },
+          {
+            "slug": "the-house",
+            "selector": "#content > .vc_row:nth-of-type(9)"
+          },
+          {
+            "slug": "the-house",
+            "selector": "#content > .vc_row:nth-of-type(11)"
+          },
+          {
+            "slug": "da-natur-sport",
+            "selector": "#content > .vc_row:nth-of-type(5)"
+          },
+          {
+            "slug": "da-natur-sport",
+            "selector": "#content > .vc_row:nth-of-type(7)"
+          },
+          {
+            "slug": "da-natur-sport",
+            "selector": "#content > .vc_row:nth-of-type(9)"
+          },
+          {
+            "slug": "da-strand-m-m",
+            "selector": "#content > .vc_row:nth-of-type(2)"
+          },
+          {
+            "slug": "da-strand-m-m",
+            "selector": "#content > .vc_row:nth-of-type(4)"
+          },
+          {
+            "slug": "da-strand-m-m",
+            "selector": "#content > .vc_row:nth-of-type(6)"
+          },
+          {
+            "slug": "da-kulturen",
+            "selector": "#content > .vc_row:nth-of-type(3)"
+          },
+          {
+            "slug": "da-kulturen",
+            "selector": "#content > .vc_row:nth-of-type(5)"
+          },
+          {
+            "slug": "da-kulturen",
+            "selector": "#content > .vc_row:nth-of-type(7)"
+          },
+          {
+            "slug": "da-kulturen",
+            "selector": "#content > .vc_row:nth-of-type(9)"
+          },
+          {
+            "slug": "da-the-house",
+            "selector": "#content > .vc_row:nth-of-type(3)"
+          },
+          {
+            "slug": "da-the-house",
+            "selector": "#content > .vc_row:nth-of-type(5)"
+          },
+          {
+            "slug": "da-the-house",
+            "selector": "#content > .vc_row:nth-of-type(7)"
+          },
+          {
+            "slug": "da-the-house",
+            "selector": "#content > .vc_row:nth-of-type(9)"
+          },
+          {
+            "slug": "da-the-house",
+            "selector": "#content > .vc_row:nth-of-type(11)"
+          }
+        ],
+        "instanceCount": 60,
+        "pageCount": 16,
+        "signals": [
+          "cols:6/6",
+          "headings:h2 per row"
+        ],
+        "confidence": "high",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-f987d9c",
+        "label": "Amenity / directions icon list (amber 60px circle icon + uppercase h5 title + description)",
+        "key": "amenity-icon-list",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "items[].icon",
+            "type": "icon",
+            "required": true
+          },
+          {
+            "name": "items[].title",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "items[].description",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "es-el-atico",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "es-el-jardin",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "es-el-piso-senorial",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "es-la-casa-entera",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "es-la-planta-baja",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "es-contacto",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "ca-contacte",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "ca-el-jardi",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "ca-la-casa-sencera",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "ca-latic",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "ca-el-pis-senyorial",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "ca-la-planta-baixa",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "contact",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "the-whole-house",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "the-garden",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "the-penthouse",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "the-noble-floor",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "the-ground-floor",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "da-stueetagen",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "da-penthousekvisten",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "da-the-garden",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "da-hele-huset",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "da-the-noble-floor",
+            "selector": ".icon-with-text-shortcode"
+          },
+          {
+            "slug": "da-kontakt",
+            "selector": ".icon-with-text-shortcode"
+          }
+        ],
+        "instanceCount": 24,
+        "pageCount": 24,
+        "signals": [
+          "class:icon-with-text-shortcode",
+          "headings:h5 amenity titles"
+        ],
+        "confidence": "high",
+        "status": "candidate",
+        "notes": "The7 icon-with-text shortcode, Font Awesome 5 Free solid glyphs."
+      },
+      {
+        "id": "candidate-b0cb1e8",
+        "label": "Enquiry / contact form (Contact Form 7)",
+        "key": "enquiry-form",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "intro",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "fields",
+            "type": "form",
+            "required": true
+          },
+          {
+            "name": "submitLabel",
+            "type": "text",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "es-el-atico",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "es-el-jardin",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "es-el-piso-senorial",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "es-eventos",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "es-la-casa-entera",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "es-la-planta-baja",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "es-contacto",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "es-reservas",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "ca-contacte",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "ca-el-jardi",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "ca-esdeveniments",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "ca-la-casa-sencera",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "ca-latic",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "ca-el-pis-senyorial",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "ca-la-planta-baixa",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "ca-reserves",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "events",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "contact",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "the-whole-house",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "the-garden",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "the-penthouse",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "the-noble-floor",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "the-ground-floor",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "reservations-2",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "da-stueetagen",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "da-penthousekvisten",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "da-eventsda",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "da-the-garden",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "da-hele-huset",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "da-the-noble-floor",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "da-kontakt",
+            "selector": ".wpcf7"
+          },
+          {
+            "slug": "da-reservations",
+            "selector": ".wpcf7"
+          }
+        ],
+        "instanceCount": 32,
+        "pageCount": 32,
+        "signals": [
+          "forms:wpcf7 f15714",
+          "cta:Send"
+        ],
+        "confidence": "high",
+        "status": "candidate",
+        "notes": "reCAPTCHA v3 protected; posts to WordPress — dynamic feature."
+      },
+      {
+        "id": "candidate-25d30b2",
+        "label": "Masonry photo gallery with lightbox (WPBakery media grid, prettyPhoto)",
+        "key": "gallery-masonry",
+        "slots": [
+          {
+            "name": "images[]",
+            "type": "image",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "es-eventos",
+            "selector": ".vc_masonry_media_grid"
+          },
+          {
+            "slug": "es-la-planta-baja",
+            "selector": ".vc_masonry_media_grid"
+          },
+          {
+            "slug": "ca-esdeveniments",
+            "selector": ".vc_masonry_media_grid"
+          },
+          {
+            "slug": "ca-la-planta-baixa",
+            "selector": ".vc_masonry_media_grid"
+          },
+          {
+            "slug": "events",
+            "selector": ".vc_masonry_media_grid"
+          },
+          {
+            "slug": "the-ground-floor",
+            "selector": ".vc_masonry_media_grid"
+          },
+          {
+            "slug": "da-stueetagen",
+            "selector": ".vc_masonry_media_grid"
+          },
+          {
+            "slug": "da-eventsda",
+            "selector": ".vc_masonry_media_grid"
+          }
+        ],
+        "instanceCount": 8,
+        "pageCount": 8,
+        "signals": [
+          "class:vc_masonry_media_grid",
+          "cssBackgrounds:shared"
+        ],
+        "confidence": "medium",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-5917e94",
+        "label": "Guest testimonial carousel (Owl carousel, author + date + stars + quote)",
+        "key": "testimonial-carousel",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "items[].author",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "items[].quote",
+            "type": "text",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".testimonials-carousel-shortcode"
+          },
+          {
+            "slug": "es-inicio",
+            "selector": ".testimonials-carousel-shortcode"
+          },
+          {
+            "slug": "ca-inici",
+            "selector": ".testimonials-carousel-shortcode"
+          }
+        ],
+        "instanceCount": 3,
+        "pageCount": 3,
+        "signals": [
+          "class:testimonials-carousel-shortcode",
+          "heading:Testimonials"
+        ],
+        "confidence": "high",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-8b61321",
+        "label": "Linked image cards (h3 title link above photo; 2-col house teasers, 3-col experience teasers)",
+        "key": "image-link-cards",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "link",
+            "required": false
+          },
+          {
+            "name": "cards[].title",
+            "type": "link",
+            "required": true
+          },
+          {
+            "name": "cards[].image",
+            "type": "image",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": "#content > .vc_row:nth-of-type(3)"
+          },
+          {
+            "slug": "index",
+            "selector": "#content > .vc_row:nth-of-type(6)"
+          },
+          {
+            "slug": "es-inicio",
+            "selector": "#content > .vc_row:nth-of-type(3)"
+          },
+          {
+            "slug": "es-inicio",
+            "selector": "#content > .vc_row:nth-of-type(6)"
+          },
+          {
+            "slug": "ca-inici",
+            "selector": "#content > .vc_row:nth-of-type(3)"
+          },
+          {
+            "slug": "ca-inici",
+            "selector": "#content > .vc_row:nth-of-type(6)"
+          }
+        ],
+        "instanceCount": 6,
+        "pageCount": 3,
+        "signals": [
+          "headings:h3 links",
+          "class:wpb_single_image"
+        ],
+        "confidence": "high",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-5d555cb",
+        "label": "Google Maps embed",
+        "key": "map-embed",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "embedSrc",
+            "type": "embed",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".wpb_gmaps_widget iframe"
+          },
+          {
+            "slug": "es-contacto",
+            "selector": ".wpb_gmaps_widget iframe"
+          },
+          {
+            "slug": "es-inicio",
+            "selector": ".wpb_gmaps_widget iframe"
+          },
+          {
+            "slug": "ca-contacte",
+            "selector": ".wpb_gmaps_widget iframe"
+          },
+          {
+            "slug": "ca-inici",
+            "selector": ".wpb_gmaps_widget iframe"
+          },
+          {
+            "slug": "contact",
+            "selector": ".wpb_gmaps_widget iframe"
+          },
+          {
+            "slug": "da-kontakt",
+            "selector": ".wpb_gmaps_widget iframe"
+          }
+        ],
+        "instanceCount": 7,
+        "pageCount": 7,
+        "signals": [
+          "iframe:google.com/maps/embed"
+        ],
+        "confidence": "medium",
+        "status": "candidate",
+        "notes": "Third-party iframe; renders grey in captures."
+      },
+      {
+        "id": "candidate-99fdf7c",
+        "label": "Availability calendar (ICS Calendar plugin) + price list",
+        "key": "availability-price",
+        "slots": [
+          {
+            "name": "note",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "calendar",
+            "type": "embed",
+            "required": true
+          },
+          {
+            "name": "priceTables[]",
+            "type": "text",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "es-reservas",
+            "selector": ".ics-calendar"
+          },
+          {
+            "slug": "ca-reserves",
+            "selector": ".ics-calendar"
+          },
+          {
+            "slug": "reservations-2",
+            "selector": ".ics-calendar"
+          },
+          {
+            "slug": "da-reservations",
+            "selector": ".ics-calendar"
+          }
+        ],
+        "instanceCount": 4,
+        "pageCount": 4,
+        "signals": [
+          "class:ics-calendar",
+          "heading:Prices per weekend"
+        ],
+        "confidence": "high",
+        "status": "candidate",
+        "notes": "Calendar is fed from an Airbnb iCal; rendered DOM exposes reservation URLs and phone digits (privacy concern)."
+      },
+      {
+        "id": "candidate-f41d963",
+        "label": "Experience listing section (full-width h2 + body with inline photos)",
+        "key": "experience-section",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "body",
+            "type": "richtext",
+            "required": true
+          },
+          {
+            "name": "images[]",
+            "type": "image",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "es-experiencias",
+            "selector": "#content > .vc_row:nth-of-type(3)"
+          },
+          {
+            "slug": "es-experiencias",
+            "selector": "#content > .vc_row:nth-of-type(4)"
+          },
+          {
+            "slug": "es-experiencias",
+            "selector": "#content > .vc_row:nth-of-type(5)"
+          },
+          {
+            "slug": "ca-experiencies",
+            "selector": "#content > .vc_row:nth-of-type(3)"
+          },
+          {
+            "slug": "ca-experiencies",
+            "selector": "#content > .vc_row:nth-of-type(4)"
+          },
+          {
+            "slug": "ca-experiencies",
+            "selector": "#content > .vc_row:nth-of-type(5)"
+          },
+          {
+            "slug": "experiences",
+            "selector": "#content > .vc_row:nth-of-type(3)"
+          },
+          {
+            "slug": "experiences",
+            "selector": "#content > .vc_row:nth-of-type(4)"
+          },
+          {
+            "slug": "experiences",
+            "selector": "#content > .vc_row:nth-of-type(5)"
+          },
+          {
+            "slug": "da-oplevelser",
+            "selector": "#content > .vc_row:nth-of-type(3)"
+          },
+          {
+            "slug": "da-oplevelser",
+            "selector": "#content > .vc_row:nth-of-type(4)"
+          },
+          {
+            "slug": "da-oplevelser",
+            "selector": "#content > .vc_row:nth-of-type(5)"
+          }
+        ],
+        "instanceCount": 12,
+        "pageCount": 4,
+        "signals": [
+          "headings:h2 sections",
+          "inline imgs"
+        ],
+        "confidence": "high",
+        "status": "candidate"
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1250px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1250,
+          "via": "fixed",
+          "selector": "#main > div.wf-wrap",
+          "pages": [
+            "https://www.casaargentera.com/",
+            "https://www.casaargentera.com/the-garden/",
+            "https://www.casaargentera.com/culture/",
+            "https://www.casaargentera.com/experiences/",
+            "https://www.casaargentera.com/contact/",
+            "https://www.casaargentera.com/reservations-2/",
+            "https://www.casaargentera.com/events/",
+            "https://www.casaargentera.com/privacy-policy-and-cookies/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1110,
+          "via": "fixed",
+          "selector": "div.wpb_wrapper > div.wpb_text_column.wpb_content_element > div.wpb_wrapper > ul",
+          "pages": [
+            "https://www.casaargentera.com/events/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1070,
+          "via": "fixed",
+          "selector": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.layout-1 > h5.dt-text-title",
+          "pages": [
+            "https://www.casaargentera.com/the-garden/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 644,
+          "via": "fixed",
+          "selector": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2 > a",
+          "pages": [
+            "https://www.casaargentera.com/experiences/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 618,
+          "via": "fixed",
+          "selector": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h3 > a",
+          "pages": [
+            "https://www.casaargentera.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 595,
+          "via": "fixed",
+          "selector": "#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container",
+          "pages": [
+            "https://www.casaargentera.com/",
+            "https://www.casaargentera.com/the-garden/",
+            "https://www.casaargentera.com/culture/",
+            "https://www.casaargentera.com/contact/",
+            "https://www.casaargentera.com/reservations-2/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 492,
+          "via": "fixed",
+          "selector": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p > strong",
+          "pages": [
+            "https://www.casaargentera.com/culture/",
+            "https://www.casaargentera.com/experiences/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 465,
+          "via": "fixed",
+          "selector": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p > strong",
+          "pages": [
+            "https://www.casaargentera.com/culture/",
+            "https://www.casaargentera.com/contact/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 429,
+          "via": "fixed",
+          "selector": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h3 > a",
+          "pages": [
+            "https://www.casaargentera.com/",
+            "https://www.casaargentera.com/experiences/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 397,
+          "via": "fixed",
+          "selector": "#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container",
+          "pages": [
+            "https://www.casaargentera.com/",
+            "https://www.casaargentera.com/the-garden/",
+            "https://www.casaargentera.com/events/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 357,
+          "via": "fixed",
+          "selector": "div.owl-carousel.testimonials-carousel-shortcode > div.owl-stage-outer > div.owl-stage > div.dt-owl-item.cloned",
+          "pages": [
+            "https://www.casaargentera.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 333,
+          "via": "fixed",
+          "selector": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h3 > a",
+          "pages": [
+            "https://www.casaargentera.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 294,
+          "via": "fixed",
+          "selector": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h3 > a",
+          "pages": [
+            "https://www.casaargentera.com/",
+            "https://www.casaargentera.com/the-garden/",
+            "https://www.casaargentera.com/contact/",
+            "https://www.casaargentera.com/reservations-2/",
+            "https://www.casaargentera.com/events/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 262,
+          "via": "fixed",
+          "selector": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h3 > a",
+          "pages": [
+            "https://www.casaargentera.com/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.casaargentera.com/",
+          "section": 0,
+          "selector": "#load",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/",
+          "section": 1,
+          "selector": "#page",
+          "px": 1250
+        },
+        {
+          "url": "https://www.casaargentera.com/",
+          "section": 2,
+          "selector": "#the7-body > div.mobile-sticky-header-overlay",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/",
+          "section": 3,
+          "selector": "#phantom",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/the-garden/",
+          "section": 0,
+          "selector": "#load",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/the-garden/",
+          "section": 1,
+          "selector": "#page",
+          "px": 1250
+        },
+        {
+          "url": "https://www.casaargentera.com/the-garden/",
+          "section": 2,
+          "selector": "#the7-body > div.mobile-sticky-header-overlay",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/the-garden/",
+          "section": 3,
+          "selector": "#phantom",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/culture/",
+          "section": 0,
+          "selector": "#load",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/culture/",
+          "section": 1,
+          "selector": "#page",
+          "px": 1250
+        },
+        {
+          "url": "https://www.casaargentera.com/culture/",
+          "section": 2,
+          "selector": "#the7-body > div.mobile-sticky-header-overlay",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/culture/",
+          "section": 3,
+          "selector": "#phantom",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/experiences/",
+          "section": 0,
+          "selector": "#load",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/experiences/",
+          "section": 1,
+          "selector": "#page",
+          "px": 1250
+        },
+        {
+          "url": "https://www.casaargentera.com/experiences/",
+          "section": 2,
+          "selector": "#the7-body > div.mobile-sticky-header-overlay",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/experiences/",
+          "section": 3,
+          "selector": "#phantom",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/contact/",
+          "section": 0,
+          "selector": "#load",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/contact/",
+          "section": 1,
+          "selector": "#page",
+          "px": 1250
+        },
+        {
+          "url": "https://www.casaargentera.com/contact/",
+          "section": 2,
+          "selector": "#the7-body > div.mobile-sticky-header-overlay",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/contact/",
+          "section": 3,
+          "selector": "#phantom",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/reservations-2/",
+          "section": 0,
+          "selector": "#load",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/reservations-2/",
+          "section": 1,
+          "selector": "#page",
+          "px": 1250
+        },
+        {
+          "url": "https://www.casaargentera.com/reservations-2/",
+          "section": 2,
+          "selector": "#the7-body > div.mobile-sticky-header-overlay",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/reservations-2/",
+          "section": 3,
+          "selector": "#phantom",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/events/",
+          "section": 0,
+          "selector": "#load",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/events/",
+          "section": 1,
+          "selector": "#page",
+          "px": 1250
+        },
+        {
+          "url": "https://www.casaargentera.com/events/",
+          "section": 2,
+          "selector": "#the7-body > div.mobile-sticky-header-overlay",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/events/",
+          "section": 3,
+          "selector": "#phantom",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/privacy-policy-and-cookies/",
+          "section": 0,
+          "selector": "#load",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/privacy-policy-and-cookies/",
+          "section": 1,
+          "selector": "#page",
+          "px": 1250
+        },
+        {
+          "url": "https://www.casaargentera.com/privacy-policy-and-cookies/",
+          "section": 2,
+          "selector": "#the7-body > div.mobile-sticky-header-overlay",
+          "px": null
+        },
+        {
+          "url": "https://www.casaargentera.com/privacy-policy-and-cookies/",
+          "section": 3,
+          "selector": "#phantom",
+          "px": null
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-24T09:59:22.225Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.casaargentera.com/",
+          "https://www.casaargentera.com/the-garden/",
+          "https://www.casaargentera.com/culture/",
+          "https://www.casaargentera.com/experiences/",
+          "https://www.casaargentera.com/contact/",
+          "https://www.casaargentera.com/reservations-2/",
+          "https://www.casaargentera.com/events/",
+          "https://www.casaargentera.com/privacy-policy-and-cookies/"
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Amber pill used for form submit (Send/Enviar) and footer search (Go!).",
+      "html": "<button class=\"ds-btn-primary\">Send</button>",
+      "css": ".ds-btn-primary{background:#dd9d3b;color:#fff;font:800 14px/1 Montserrat,Helvetica,Arial,Verdana,sans-serif;padding:12px 25px 11px;border:0;border-radius:25px;cursor:pointer;transition:background .2s}.ds-btn-primary:hover,.ds-btn-primary:focus-visible{background:#ae9964}.ds-btn-primary:focus-visible{outline:2px solid #3a3a3a;outline-offset:2px}"
+    },
+    {
+      "name": "Form Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Contact Form 7 text field: near-white fill, hairline border, square.",
+      "html": "<label class=\"ds-label\">Your Name (required)<input class=\"ds-input\" type=\"text\"></label>",
+      "css": ".ds-label{display:block;font:400 14px/25px Montserrat,Helvetica,Arial,sans-serif;color:#3a3a3a}.ds-input{display:block;width:100%;margin-top:4px;padding:8px 12px;background:#fcfcfc;border:1px solid rgba(173,176,182,.3);border-radius:0;font:inherit;color:#3a3a3a}.ds-input:focus-visible{outline:2px solid #dd9d3b;outline-offset:0}"
+    },
+    {
+      "name": "Primary Navigation",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "White uppercase items over the amber header band; underline grows on hover.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\">THE HOUSE</a><a href=\"#\">THE PLACE</a><a href=\"#\">EXPERIENCES</a><a href=\"#\">RESERVATIONS</a></nav>",
+      "css": ".ds-nav{display:flex;gap:28px;padding:20px 30px;background:rgba(221,153,51,.5)}.ds-nav a{color:#fff;text-decoration:none;font:400 14px/1 Montserrat,Helvetica,Arial,sans-serif;background:linear-gradient(#fff,#fff) left bottom/0 1px no-repeat;padding-bottom:4px;transition:background-size .3s}.ds-nav a:hover,.ds-nav a:focus-visible{background-size:100% 1px}"
+    },
+    {
+      "name": "Amenity Item",
+      "kind": "custom",
+      "refersTo": "amenity-item",
+      "description": "Amber 60px circle icon + uppercase h5 + grey description (program pages).",
+      "html": "<div class=\"ds-amenity\"><span class=\"ds-amenity-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"28\" height=\"28\"><path fill=\"#fff\" d=\"M4 18h16v2H4zM6 10a6 6 0 0 1 12 0v6H6z\"/></svg></span><div><h5 class=\"ds-amenity-title\">Swimming pool</h5><p class=\"ds-amenity-desc\">Heated from April to mid October</p></div></div>",
+      "css": ".ds-amenity{display:flex;gap:20px;align-items:flex-start}.ds-amenity-icon{flex:none;width:60px;height:60px;border-radius:200px;background:#dd9d3b;display:grid;place-items:center}.ds-amenity-title{margin:0;font:400 17px/27px Montserrat,Helvetica,Arial,sans-serif;text-transform:uppercase;color:#dd9933}.ds-amenity-desc{margin:0;font:400 14px/25px Montserrat,Helvetica,Arial,sans-serif;color:#3a3a3a}"
+    },
+    {
+      "name": "Linked Image Card",
+      "kind": "card",
+      "refersTo": "image-link-card",
+      "description": "Thin amber h3 link above a square-cornered photo; no card chrome.",
+      "html": "<a class=\"ds-card\" href=\"#\"><h3>THE GARDEN</h3><span class=\"ds-card-img\"></span></a>",
+      "css": ".ds-card{display:block;text-decoration:none}.ds-card h3{margin:0 0 20px;font:200 30px/35px Montserrat,Helvetica,Arial,sans-serif;color:#dd9d3b}.ds-card-img{display:block;aspect-ratio:16/9;background:#ddbd89}.ds-card:hover h3,.ds-card:focus-visible h3{text-decoration:underline}"
+    },
+    {
+      "name": "Footer Band",
+      "kind": "custom",
+      "refersTo": "footer",
+      "description": "Full-bleed amber footer with white widget columns.",
+      "html": "<footer class=\"ds-footer\"><div><h4>CONTACT US</h4><p>C/Deumera 19 • 43773 L’Argentera • Spain</p></div><div><h4>LEGAL INFO</h4><p>Privacy policy and Cookies</p></div></footer>",
+      "css": ".ds-footer{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;padding:50px 60px;background:#dd9d3b;color:#fff;font:400 14px/25px Montserrat,Helvetica,Arial,sans-serif}.ds-footer h4{margin:0 0 15px;font-weight:400;font-size:14px;color:#fff}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Village House in Afternoon Light",
+    "overview": "A warm, photo-led holiday-rental brochure: every page opens on a full-width slideshow of the house and its landscape, then settles into white pages where thin amber Montserrat headlines and small grey body text frame square-cornered photographs. Amber is the only brand colour; it carries headings, the translucent header band, buttons, icon chips and the full-bleed footer.",
+    "keyCharacteristics": [
+      "Single amber accent (#dd9d3b) on white",
+      "Montserrat throughout; display weight 200",
+      "Photo slideshow hero on 63/70 pages",
+      "Flat surfaces, no shadows, square imagery",
+      "Round only for controls: 25px buttons, circular icon chips",
+      "Enquiry form as the universal closer"
+    ],
+    "rules": [
+      {
+        "name": "The One Amber Rule",
+        "body": "Amber is the only chromatic colour; everything else is white or grey.",
+        "section": "colors"
+      },
+      {
+        "name": "The Thin Headline Rule",
+        "body": "Display headings are Montserrat 200, never bold.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Brochure Rule",
+        "body": "No shadows; depth comes from photography.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do open content pages with a full-width photo slideshow.",
+      "Do set h2 at 50px/55px weight 200 in #dd9d3b.",
+      "Do keep body copy 14px/25px #3a3a3a.",
+      "Do use 25px-radius amber pills for buttons.",
+      "Do close program, events and booking pages with the enquiry form."
+    ],
+    "donts": [
+      "Don’t add shadows or card chrome to image blocks.",
+      "Don’t introduce a second accent colour.",
+      "Don’t round photographs.",
+      "Don’t bold display headings."
+    ]
+  }
+}

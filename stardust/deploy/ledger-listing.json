@@ -1,0 +1,38 @@
+{
+  "/experiences": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T20:08:58.439Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/experiencies": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T20:51:31.179Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/da/oplevelser": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T20:35:03.232Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/es/experiencias": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T20:44:14.276Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

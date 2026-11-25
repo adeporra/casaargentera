@@ -1,0 +1,267 @@
+{
+  "a": "stardust/replica/gates/all-360/da-kulturen/origin.png",
+  "b": "stardust/replica/gates/all-360/da-kulturen/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 4780,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 6304,
+  "pct": 0.37,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/da-kulturen/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0.19,
+  "textBoxes": 123,
+  "textPixels": 577769,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.2
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0.2
+    },
+    {
+      "y0": 4500,
+      "y1": 4780,
+      "pct": 0.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.37,
+    "differingPixels": 6304,
+    "compared": {
+      "width": 360,
+      "height": 4780,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.3,
+        "unaligned": 1.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 4500,
+        "y1": 4780,
+        "pct": 0.8,
+        "unaligned": 0.8
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 0.37,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--ea32f12a--aemcoder.aem.page/da/kulturen",
+    "key": {
+      "v": 3,
+      "build": "https://main--ea32f12a--aemcoder.aem.page/da/kulturen",
+      "source": "https://www.casaargentera.com/da/kulturen/",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "f69c2dc209073a07",
+      "options": "bf5047b0a5c65691",
+      "reference": "de276917dbf2e423",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "c996b9fe21e8572e",
+      "instruments": "700566dc6f7774a4",
+      "page content": "62bfaba838663194",
+      "shared code": "15fa74636bb99ab3",
+      "block hero-slider": "9c515f6f76444750",
+      "block media-feature": "9257697dfeaa6f6b"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 0,
+          "missingButtons": 0,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 0,
+          "findings": 0,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 1,
+          "offPage": 0,
+          "textNodes": 60,
+          "controls": 16,
+          "total": 0
+        },
+        "groups": [
+          {
+            "kind": "TEXT X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "main#main",
+            "path": "main#main > div.section.media-feature-container > div.default-content-wrapper > h1#historie-er-at-vide-hvor-vores-kultur-kommer-fra-en-unægtelig-middelhavskultur-venter-dig",
+            "text": "historie er at vide, hvor vores kultur kommer fra. en unægte",
+            "cutMin": 102,
+            "cutMax": 102
+          }
+        ],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 1,
+          "offPage": 24,
+          "textNodes": 72,
+          "controls": 28,
+          "total": 0
+        },
+        "source": "content-presence"
+      },
+      "units": {
+        "verdict": {
+          "units": 8,
+          "within": 25,
+          "off": 0,
+          "hidden": 0,
+          "missing": 0,
+          "errors": 0,
+          "requiredOff": 0
+        },
+        "required": true,
+        "errors": []
+      }
+    },
+    "at": "2026-11-24T22:13:26.446Z"
+  }
+}

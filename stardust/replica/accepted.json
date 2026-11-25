@@ -1,0 +1,10 @@
+{
+  "accepted": [
+    {
+      "kind": "MISSING CTA",
+      "text": "airbnb.com/hosting/reservations",
+      "root": "#main",
+      "reason": "register R-01 — booking calendar guest reservation-detail links (Airbnb host URLs) are not carried (reservations-2 and its locale variants)"
+    }
+  ]
+}

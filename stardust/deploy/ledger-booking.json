@@ -1,0 +1,38 @@
+{
+  "/reservations-2": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T20:11:01.261Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/reserves": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T20:58:34.496Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/da/reservations": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T20:58:39.601Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/es/reservas": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T20:58:44.637Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

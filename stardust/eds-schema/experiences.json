@@ -1,0 +1,123 @@
+{
+ "source": "http://127.0.0.1:3017/stardust/prototypes/experiences-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Top ideas of what to do in the area. We are sure you will find what you enjoy most"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Casa Argentera is located in a wonderfully varied area. From hazelnut mountains, to the Golden Coast, it is only 130km south of Barcelona. Whether you love , the or the , or you are looking to have , we are happy to organize personalized trips and adventures for you."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "nature, sports"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "beach"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "spa"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "cultural experiences"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Nature / sport experiences",
+     "href": "https://www.casaargentera.com/wp/nature-sport/"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.text-column",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Cultural experiences",
+     "href": "https://www.casaargentera.com/wp/culture/"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.text-column",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Beach and more",
+     "href": "https://www.casaargentera.com/wp/beach-and-more/"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.text-column",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

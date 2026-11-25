@@ -1,0 +1,87 @@
+{
+  "slug": "ca-contacte",
+  "type": "form",
+  "renderBranch": "A'",
+  "template": "contact",
+  "modules": [
+    "hero-slider",
+    "map",
+    "icon-features",
+    "contact-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "wf-wrap"
+  ],
+  "canonShas": {
+    "header": "aa3bfd52c948",
+    "footer": "a1a3bdea999f",
+    "css": "89a5d300aec7"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "CONTACTE - Casa Argentera",
+    "description": "Casa Argentera, una casa rural de vacances situada a les muntanyes de la Costa Daurada. Contacta'ns per a qualsevol dubte sobre la nostra casa o el lloc.",
+    "canonical": null,
+    "lang": "ca"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "CONTACTE - Casa Argentera",
+    "description": "Casa Argentera, una casa rural de vacances situada a les muntanyes de la Costa Daurada. Contacta'ns per a qualsevol dubte sobre la nostra casa o el lloc.",
+    "url": "https://www.casaargentera.com/ca/contacte/"
+  },
+  "migratedAt": "2026-11-24T20:33:41Z",
+  "designMdSha": "7ead730e40e5",
+  "designJsonSha": "15480f089476",
+  "sourceCurrentSha": "fed273be642a",
+  "sourceProposedSha": "e02a5bc33ecb",
+  "fidelityTier": "sibling",
+  "archetypeSource": "contact",
+  "archetypeSha": "6a99d397ddc6",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 over es/contacto, ca/contacte, da/kontakt vs /contact/ @1440: content-driven deltas only (intro/icon/h3/form heights from text length; da intro is a <p> with no heading and one extra left-column text) — no style delta, no variant class; stardust/.work/rollout/form/variance.json",
+    "content-fidelity": "Path A' clone stardust/.work/rollout/form/src/ca-contacte-proposed.html (stardust/encoders/build-clone-form.mjs; reproduces contact-proposed.html #content exactly) from the capture: verbatim headings/inline spans, paragraphs, icon boxes (per-box #303030 desc colour, hover glyph hidden), CF7 labels/notes/names; content-diff #main 🔴 0, text/heading/CTA/icon counts equal (stardust/.work/rollout/form/content-diff-ca-contacte.txt); 🟡 EXTRA TITLE = R-03 map title; chrome 🔴 = canon-chrome deviation"
+  },
+  "contentDeviations": [
+    {
+      "kind": "chrome-canon",
+      "source": "localized WP header/footer",
+      "target": "canon chrome (EN) in clone",
+      "reason": "Path A' clone carries canon chrome verbatim (contact active trail removed — the canon nav has no link to this locale page); EDS delivery uses the locale nav/footer docs"
+    },
+    {
+      "kind": "add-title",
+      "source": "<iframe> (Google Maps embed) without title",
+      "target": "title=\"Casa Argentera on Google Maps\"",
+      "reason": "R-03: the source iframe has no accessible name (register, applied on the archetype)"
+    }
+  ],
+  "assetsBundled": 7,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/privacy-policy/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "ca/contacte/index.html",
+  "outputPathDefault": null,
+  "sidecar": "ca/contacte/_meta.json",
+  "driverVersion": "1"
+}

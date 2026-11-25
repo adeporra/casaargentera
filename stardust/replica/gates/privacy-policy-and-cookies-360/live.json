@@ -1,0 +1,11 @@
+{
+  "writtenBy": "gate.sh --gate-against-baseline",
+  "origin": "baseline",
+  "url": "https://www.casaargentera.com/privacy-policy-and-cookies/",
+  "width": 360,
+  "at": "2026-11-24T12:02:00.065Z",
+  "originBaseline": {
+    "capturedAt": "2026-11-24T12:02:00.065Z",
+    "height": 5511
+  }
+}

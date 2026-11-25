@@ -1,0 +1,36 @@
+{
+ "url": "https://main--ea32f12a--aemcoder.aem.page/da/the-noble-floor",
+ "at": "2026-11-24T22:18:00.196Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 0,
+  "offPage": 0,
+  "textNodes": 72,
+  "controls": 18,
+  "total": 0
+ },
+ "groups": [],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 28,
+   "textNodes": 86,
+   "controls": 28,
+   "total": 0
+  }
+ }
+}

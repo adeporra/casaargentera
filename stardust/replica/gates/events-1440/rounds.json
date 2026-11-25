@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-24T11:44:16.102Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-24T11:44:58.190Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-24T11:48:47.286Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "iter3 pixel 0.45% PASS, Δh 0, content 0/0, clipped 0; FAIL only on unit-geometry element-kind pairing (live bg-image .vc_gitem-zone box vs build visible img, geometry Δ≤1px). Fixed post-cap to the source model (zone background cover + hidden sizing img): standalone unit-geometry PASS 12/0 missing (units-postfix.txt / units-postfix.json); same markup gated in 360 iter2 --full (0.27%, units PASS).",
+          "at": "2026-11-24T11:51:17.658Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-24T20-33-25-270Z",
+          "at": "2026-11-24T20:34:17.939Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-24T20-34-33-191Z",
+          "at": "2026-11-24T20:35:10.259Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T20-36-11-338Z",
+          "at": "2026-11-24T20:37:05.171Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T20-37-41-850Z",
+          "at": "2026-11-24T20:38:36.121Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T20-40-21-375Z",
+          "at": "2026-11-24T20:41:13.469Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T20-43-35-772Z",
+          "at": "2026-11-24T20:44:28.110Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T20-47-43-811Z",
+          "at": "2026-11-24T20:49:00.932Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T21-37-17-034Z",
+          "at": "2026-11-24T22:02:01.410Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T23-52-00-847Z",
+          "at": "2026-11-24T23:55:07.560Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "published gate (code overlay on main--ea32f12a--aemcoder.aem.page content) final 0.48 % dh 0, clipped 0, content 0/0, units geometry 12/12 within tolerance; residual = element-kind pairing only (bg-image .vc_gitem-zone vs authored img; CF7 label inline box vs moved label p) waived by gates/all-1440/overrides.json events, as the prototype gate's accept-residual and the contact precedent. Rounds over the cap were fix rounds (ul indent 10px, last-row pad, masonry floor) plus unit-selector setup.",
+          "at": "2026-11-24T20:45:34.096Z",
+          "counted": 6
+        }
+      ]
+    }
+  }
+}

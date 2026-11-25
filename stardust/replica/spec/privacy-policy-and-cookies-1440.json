@@ -1,0 +1,302 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-24T11:55:18.980Z",
+  "url": "https://www.casaargentera.com/privacy-policy-and-cookies/",
+  "width": 1440,
+  "main": "#content",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://www.casaargentera.com/privacy-policy-and-cookies/",
+  "width": 1440,
+  "viewport": 1440,
+  "docHeight": 2420,
+  "scrollWidth": 1440,
+  "root": "#content",
+  "rootFallback": false,
+  "records": [
+   "scroll",
+   "shape"
+  ],
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+    "n": 65
+   }
+  ],
+  "loadedFaces": [
+   "Montserrat 200 normal",
+   "Montserrat 300 normal",
+   "Montserrat 400 normal",
+   "Montserrat 500 normal",
+   "Montserrat 700 normal",
+   "Montserrat 800 normal",
+   "icomoon-the7-font 400 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "14/25 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 25,
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 31,
+    "roles": {
+     "p": 21,
+     "link": 9,
+     "field": 1
+    },
+    "sample": "For the purposes of the provisions of Organic Law 15/1999, of December 13, on t…"
+   },
+   {
+    "key": "22/30 200 Montserrat",
+    "fontSize": 22,
+    "lineHeight": 30,
+    "fontWeight": "200",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 9,
+    "roles": {
+     "h4": 9
+    },
+    "sample": "General"
+   },
+   {
+    "key": "14/18 500 Montserrat uppercase",
+    "fontSize": 14,
+    "lineHeight": 18,
+    "fontWeight": "500",
+    "fontFamily": "Montserrat",
+    "textTransform": "uppercase",
+    "n": 7,
+    "roles": {
+     "link": 7
+    },
+    "sample": "THE HOUSE"
+   },
+   {
+    "key": "17/27 200 Montserrat",
+    "fontSize": 17,
+    "lineHeight": 27,
+    "fontWeight": "200",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "div": 5
+    },
+    "sample": "CONTACT US"
+   },
+   {
+    "key": "14/normal 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": "normal",
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "link": 4
+    },
+    "sample": "English"
+   },
+   {
+    "key": "13/19 300 Montserrat",
+    "fontSize": 13,
+    "lineHeight": 19,
+    "fontWeight": "300",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "span": 2,
+     "link": 2
+    },
+    "sample": "+34 678 866 588"
+   },
+   {
+    "key": "14/24 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 24,
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "link": 2
+    },
+    "sample": "Instagram page opens in new window"
+   },
+   {
+    "key": "14/26 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 26,
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "link": 2
+    },
+    "sample": "Facebook page opens in new window"
+   },
+   {
+    "key": "50/55 200 Montserrat",
+    "fontSize": 50,
+    "lineHeight": 55,
+    "fontWeight": "200",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h2": 1
+    },
+    "sample": "Privacy policy and data protection"
+   },
+   {
+    "key": "14/25 700 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 25,
+    "fontWeight": "700",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "p": 1
+    },
+    "sample": "Statistical analysis cookies"
+   },
+   {
+    "key": "14/16 800 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 16,
+    "fontWeight": "800",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "field": 1
+    },
+    "sample": "Go!"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 22
+   },
+   {
+    "color": "rgb(221, 157, 59)",
+    "n": 18
+   },
+   {
+    "color": "rgb(58, 58, 58)",
+    "n": 18
+   },
+   {
+    "color": "rgb(43, 43, 43)",
+    "n": 8
+   },
+   {
+    "color": "rgb(120, 125, 133)",
+    "n": 1
+   }
+  ],
+  "container": {
+   "left": 155,
+   "right": 155,
+   "content": 1130,
+   "leftCommon": {
+    "x": 155,
+    "n": 28
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"header","y":0,"h":172,"background":"rgba(221, 153, 51, 0.5)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.masthead.inline-header","firstText":"+34 678 866 588"},
+  {"i":1,"region":"main","y":60,"h":1910,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"Privacy policy and data protection"},
+  {"i":2,"region":"main","y":1970,"h":1,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":""},
+  {"i":3,"region":"footer","y":2031,"h":389,"background":"rgb(221, 157, 59)","paddingTop":0,"paddingBottom":0,"selectorHint":"footer#footer.footer.solid-bg","firstText":"CONTACT US"}
+ ],
+ "nodes": [
+  {"section":0,"region":"header","kind":"text","tag":"span","role":null,"text":"+34 678 866 588","x":60,"y":9,"w":129,"h":19,"fontFamily":"Montserrat","fontSize":13,"lineHeight":19,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":0,"region":"header","kind":"text","tag":"span","role":null,"text":"info@casaargentera.com","x":209,"y":9,"w":186,"h":19,"fontFamily":"Montserrat","fontSize":13,"lineHeight":19,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Dansk","x":1283,"y":9,"w":41,"h":19,"fontFamily":"Montserrat","fontSize":13,"lineHeight":19,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/da/home/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Català","x":1340,"y":9,"w":40,"h":19,"fontFamily":"Montserrat","fontSize":13,"lineHeight":19,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/ca/inici/"},
+  {"section":0,"region":"header","kind":"image","tag":"img","role":"link","text":"Casa Argentera","x":60,"y":36,"w":172,"h":136,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[172,136],"src":"https://www.casaargentera.com/wp-content/uploads/2020/03/casaargentera_logo_2010.png","href":"https://www.casaargentera.com/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"THE HOUSE","x":363,"y":91,"w":95,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":18,"fontWeight":"500","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/the-house/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"THE PLACE","x":488,"y":91,"w":81,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":18,"fontWeight":"500","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/the-place/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"EXPERIENCES","x":599,"y":91,"w":111,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":18,"fontWeight":"500","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/experiences/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"EVENTS","x":740,"y":91,"w":57,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":18,"fontWeight":"500","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/events/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"WHO WE ARE","x":826,"y":91,"w":101,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":18,"fontWeight":"500","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/who-we-are/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"CONTACT","x":957,"y":91,"w":68,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":18,"fontWeight":"500","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/contact/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"RESERVATIONS","x":1056,"y":91,"w":111,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":18,"fontWeight":"500","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/reservations-2/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Instagram page opens in new window","x":1328,"y":91,"w":24,"h":24,"fontFamily":"Montserrat","fontSize":14,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(221, 157, 59)","lines":6,"href":"https://www.instagram.com/casaargentera"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Facebook page opens in new window","x":1356,"y":91,"w":24,"h":24,"fontFamily":"Montserrat","fontSize":14,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(221, 157, 59)","lines":6,"href":"https://www.facebook.com/CasaArgentera/"},
+  {"section":1,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Privacy policy and data protection","x":155,"y":315,"w":1130,"h":55,"fontFamily":"Montserrat","fontSize":50,"lineHeight":55,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"h4","role":"h4","text":"General","x":155,"y":415,"w":1130,"h":30,"fontFamily":"Montserrat","fontSize":22,"lineHeight":30,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"For the purposes of the provisions of Organic Law 15/1999, of December 13, on t…","x":155,"y":455,"w":1130,"h":75,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":3},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"CASA ARGENTERA informs you of the existence of automated private data files own…","x":155,"y":540,"w":1130,"h":75,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":3},
+  {"section":1,"region":"main","kind":"text","tag":"h4","role":"h4","text":"Data collect","x":155,"y":625,"w":1130,"h":30,"fontFamily":"Montserrat","fontSize":22,"lineHeight":30,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Acceptance of these conditions requires the user to collect essential data for …","x":155,"y":665,"w":1130,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":2},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"So that the information contained in our files is always updated and does not c…","x":155,"y":725,"w":1130,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":2},
+  {"section":1,"region":"main","kind":"text","tag":"h4","role":"h4","text":"User rights","x":155,"y":785,"w":1130,"h":30,"fontFamily":"Montserrat","fontSize":22,"lineHeight":30,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"The rights of access, rectification and cancellation may be exercised at any ti…","x":155,"y":825,"w":1130,"h":75,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":3},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"info@casaargentera.com","x":789,"y":853,"w":175,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1,"href":"mailto:info@casaargentera.com"},
+  {"section":1,"region":"main","kind":"text","tag":"h4","role":"h4","text":"Consent","x":155,"y":910,"w":1130,"h":30,"fontFamily":"Montserrat","fontSize":22,"lineHeight":30,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"The user gives his consent so that CASA ARGENTERA can make use of his personal …","x":155,"y":950,"w":1130,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"The use of the forms included in the website or the sending of emails or other …","x":155,"y":985,"w":1130,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":2},
+  {"section":1,"region":"main","kind":"text","tag":"h4","role":"h4","text":"Assignment to third parties","x":155,"y":1045,"w":1130,"h":30,"fontFamily":"Montserrat","fontSize":22,"lineHeight":30,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"CASA ARGENTERA does not transfer personal data without the express consent of i…","x":155,"y":1085,"w":1130,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":2},
+  {"section":1,"region":"main","kind":"text","tag":"h4","role":"h4","text":"Confidentiality and security measures","x":155,"y":1145,"w":1130,"h":30,"fontFamily":"Montserrat","fontSize":22,"lineHeight":30,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"The data collected in all private communications between CASA ARGENTERA and cus…","x":155,"y":1185,"w":1130,"h":75,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":3},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"We recommend that the client does not provide any third party with their identi…","x":155,"y":1270,"w":1130,"h":75,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":3},
+  {"section":1,"region":"main","kind":"text","tag":"h4","role":"h4","text":"Changes in the privacy and data protection policy","x":155,"y":1355,"w":1130,"h":30,"fontFamily":"Montserrat","fontSize":22,"lineHeight":30,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"CASA ARGENTERA reserves the right to modify its data protection and security po…","x":155,"y":1395,"w":1130,"h":75,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":3},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"www.casaargentera.com","x":194,"y":1448,"w":173,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1,"href":"http://www.casaargentera.com/"},
+  {"section":1,"region":"main","kind":"text","tag":"h4","role":"h4","text":"Information about cookies","x":155,"y":1480,"w":1130,"h":30,"fontFamily":"Montserrat","fontSize":22,"lineHeight":30,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"The www.casaargentera.com web site, like the vast majority of Internet sites, u…","x":155,"y":1520,"w":1130,"h":75,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":3},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"www.casaargentera.com","x":185,"y":1523,"w":173,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1,"href":"http://www.casaargentera.com/"},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"The cookies on this website cannot read data from your hard drive or read cooki…","x":155,"y":1605,"w":1130,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":2},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"www.casaargentera.com","x":998,"y":1608,"w":173,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1,"href":"http://www.casaargentera.com/"},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Statistical analysis cookies","x":155,"y":1665,"w":1130,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"They are those that allow us to quantify the number of visitors and statistical…","x":155,"y":1700,"w":1130,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":2},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"These cookies are provided by Google Analytics and by ComScore. For more inform…","x":155,"y":1760,"w":1130,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"Google Analytics","x":848,"y":1763,"w":117,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1,"href":"https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"},
+  {"section":1,"region":"main","kind":"text","tag":"h4","role":"h4","text":"Contact address","x":155,"y":1795,"w":1130,"h":30,"fontFamily":"Montserrat","fontSize":22,"lineHeight":30,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"The website www.casaargentera.com, is managed by CASA ARGENTERA","x":155,"y":1835,"w":1130,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"www.casaargentera.com","x":243,"y":1838,"w":173,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1,"href":"http://www.casaargentera.com/"},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"CASA ARGENTERA, pursuant to Law 34/2002, on Information Society Services and El…","x":155,"y":1870,"w":1130,"h":100,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":4},
+  {"section":3,"region":"footer","kind":"text","tag":"div","role":null,"text":"CONTACT US","x":155,"y":2091,"w":337,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":3,"region":"footer","kind":"text","tag":"p","role":null,"text":"CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info…","x":155,"y":2133,"w":337,"h":100,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":4},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"www.CasaArgentera.com","x":155,"y":2211,"w":176,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1,"href":"http://www.casaargentera.com"},
+  {"section":3,"region":"footer","kind":"text","tag":"div","role":null,"text":"SEARCH","x":552,"y":2091,"w":337,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"input","role":"field","text":"Type and hit enter …","x":552,"y":2133,"w":337,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(120, 125, 133)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"input","role":"field","text":"Go!","x":823,"y":2133,"w":54,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":16,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":3,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":859,"y":2145,"w":16,"h":16,"fit":"fill","shape":{"pos":"50% 50%"},"href":""},
+  {"section":3,"region":"footer","kind":"text","tag":"div","role":null,"text":"FOLLOW US","x":948,"y":2091,"w":337,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":3,"region":"footer","kind":"text","tag":"p","role":null,"text":"Find us on:","x":948,"y":2133,"w":76,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Facebook page opens in new window","x":950,"y":2135,"w":26,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":26,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":6,"href":"https://www.facebook.com/CasaArgentera/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Instagram page opens in new window","x":980,"y":2135,"w":26,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":26,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":6,"href":"https://www.instagram.com/casaargentera/"},
+  {"section":3,"region":"footer","kind":"text","tag":"div","role":null,"text":"OTHER RENTALS","x":155,"y":2263,"w":337,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":3,"region":"footer","kind":"text","tag":"p","role":null,"text":"CASA VELLA DEL PANTA C/T313, km.13 • 43771 Riudecanyes • Spain www.CasaVelladel…","x":155,"y":2305,"w":337,"h":75,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":3},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"www.CasaVelladelPanta.com","x":155,"y":2358,"w":203,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1,"href":"http://www.casavelladelpanta.com"},
+  {"section":3,"region":"footer","kind":"text","tag":"div","role":null,"text":"LEGAL INFO","x":552,"y":2263,"w":337,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":3,"region":"footer","kind":"text","tag":"p","role":null,"text":"Privacy policy and Cookies ©2020 Casa Argentera","x":552,"y":2305,"w":337,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy policy and Cookies","x":552,"y":2308,"w":184,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1,"href":"https://www.casaargentera.com/privacy-policy-and-cookies/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"English","x":948,"y":2263,"w":337,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/privacy-policy-and-cookies/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Dansk","x":948,"y":2288,"w":337,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/da/privacy-policy-and-cookies/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Català","x":948,"y":2313,"w":337,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/ca/politica-de-privacitat-i-cookies/"},
+  {"section":3,"region":"footer","kind":"control","tag":"a","role":"link","text":"Español","x":948,"y":2338,"w":337,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/es/inicio/"}
+ ]
+}

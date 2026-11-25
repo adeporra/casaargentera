@@ -1,0 +1,179 @@
+/* testimonials — lifted from index.css (owl replacement: 3 / 2 / 1 per view, 30px gap) and
+   canon.css (.carousel-arrow). */
+
+.testimonials-wrapper {
+  margin-bottom: 32px;
+}
+
+.default-content-wrapper + .testimonials-wrapper {
+  margin-top: 20px;
+}
+
+.testimonials {
+  position: relative;
+}
+
+.testimonials .testimonials-viewport {
+  overflow: hidden;
+}
+
+.testimonials .testimonials-track {
+  display: flex;
+  gap: 30px;
+  transition: transform 0.6s ease;
+}
+
+.testimonials .testimonial-item {
+  position: relative;
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30px 30px 20px;
+  background: var(--ca-card-bg);
+}
+
+@media (width > 990px) {
+  .testimonials .testimonial-item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+
+@media (width > 1199px) {
+  .testimonials .testimonial-item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+}
+
+.testimonials .testimonial-content p {
+  margin: 0 0 10px;
+  color: var(--ca-base);
+  font: 400 14px/25px var(--ca-font);
+}
+
+.testimonials .testimonial-author {
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-align: left;
+}
+
+.testimonials .testimonial-avatar {
+  padding: 0 20px 20px 0;
+  border-radius: 500px;
+}
+
+.testimonials .testim-no-avatar {
+  display: block;
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  border: 1px solid var(--ca-divider);
+  border-radius: 500px;
+  line-height: 0;
+}
+
+.testimonials .testim-no-avatar svg {
+  width: 100%;
+  height: auto;
+  fill: var(--ca-divider);
+  transform: scale(0.5);
+}
+
+.testimonials .testimonial-vcard {
+  display: inline-block;
+}
+
+.testimonials .testimonial-name p {
+  display: inline-block;
+  margin: 0;
+  color: var(--ca-accent);
+  font-weight: 700;
+}
+
+.testimonials .testimonial-position {
+  margin-bottom: 20px;
+}
+
+.testimonials .testimonial-position p {
+  margin: 0;
+}
+
+/* ---- variant author-top (source The7 testimonials `layout-4`, /ca/inici): author row above the
+   quote, avatar beside the name and shrinking with it (flex row, no wrap, centred) */
+.testimonials.author-top .testimonial-item {
+  justify-content: flex-start;
+}
+
+.testimonials.author-top .testimonial-author {
+  display: flex;
+  flex-wrap: nowrap;
+  order: -1;
+}
+
+.testimonials.author-top .testimonial-avatar {
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.testimonials.author-top .testim-no-avatar {
+  width: 80px;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+}
+
+.testimonials.author-top .testimonial-vcard {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* ---- arrows (canon .carousel-arrow) */
+.testimonials .carousel-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  border-radius: 500px;
+  background: var(--ca-accent);
+  color: #fff;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.testimonials .carousel-arrow .ca-icon {
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  transition: color 0.15s;
+  transition-delay: 0.1s;
+}
+
+.testimonials .carousel-arrow:hover .ca-icon {
+  color: rgb(255 255 255 / 75%);
+}
+
+.testimonials .carousel-arrow-prev {
+  left: -18px;
+}
+
+.testimonials .carousel-arrow-next {
+  right: -18px;
+}
+
+@media (width > 768px) {
+  .testimonials .carousel-arrow-prev {
+    left: -43px;
+  }
+
+  .testimonials .carousel-arrow-next {
+    right: -43px;
+  }
+}

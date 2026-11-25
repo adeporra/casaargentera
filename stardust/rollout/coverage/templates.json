@@ -1,0 +1,326 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-24T12:13:05.831Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-25T00:29:34.755Z",
+  "templates": [
+    {
+      "id": "article",
+      "representativeSlug": "beach-and-more",
+      "pages": [
+        "beach-and-more",
+        "ca-cultura",
+        "ca-la-casa",
+        "ca-lentorn",
+        "ca-natura-esport",
+        "ca-platja-i-mes",
+        "ca-qui-som",
+        "da-kulturen",
+        "da-natur-sport",
+        "da-stedet",
+        "da-strand-m-m",
+        "da-the-house",
+        "da-who-we-are",
+        "es-cultura",
+        "es-el-entorno",
+        "es-la-casa",
+        "es-naturaleza-deporte",
+        "es-playas-y-mas",
+        "es-quienes-somos",
+        "nature-sport",
+        "the-house",
+        "the-place",
+        "who-we-are"
+      ],
+      "pageCount": 23,
+      "blocks": [],
+      "delivery": {
+        "verified": 23,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "booking",
+      "representativeSlug": "ca-reserves",
+      "pages": [
+        "ca-reserves",
+        "da-reservations",
+        "es-reservas"
+      ],
+      "pageCount": 3,
+      "blocks": [],
+      "delivery": {
+        "verified": 3,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "contact",
+      "representativeSlug": "contact",
+      "pages": [
+        "contact"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "contact-form",
+        "hero-slider",
+        "icon-features",
+        "map"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "culture",
+      "representativeSlug": "culture",
+      "pages": [
+        "culture"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "hero-slider",
+        "media-feature"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "events",
+      "representativeSlug": "events",
+      "pages": [
+        "ca-esdeveniments",
+        "da-eventsda",
+        "es-eventos",
+        "events"
+      ],
+      "pageCount": 4,
+      "blocks": [
+        "contact-form",
+        "gallery",
+        "hero-slider"
+      ],
+      "delivery": {
+        "verified": 4,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "experiences",
+      "representativeSlug": "experiences",
+      "pages": [
+        "experiences"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "hero-slider",
+        "media-feature"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "form",
+      "representativeSlug": "ca-contacte",
+      "pages": [
+        "ca-contacte",
+        "da-kontakt",
+        "es-contacto"
+      ],
+      "pageCount": 3,
+      "blocks": [],
+      "delivery": {
+        "verified": 3,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "hero-slider",
+        "image-grid",
+        "map",
+        "testimonials"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "landing",
+      "representativeSlug": "ca-inici",
+      "pages": [
+        "ca-inici",
+        "es-inicio"
+      ],
+      "pageCount": 2,
+      "blocks": [],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "listing",
+      "representativeSlug": "ca-experiencies",
+      "pages": [
+        "ca-experiencies",
+        "da-oplevelser",
+        "es-experiencias"
+      ],
+      "pageCount": 3,
+      "blocks": [],
+      "delivery": {
+        "verified": 3,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "privacy-policy-and-cookies",
+      "representativeSlug": "privacy-policy-and-cookies",
+      "pages": [
+        "privacy-policy-and-cookies"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "legal-text"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "program",
+      "representativeSlug": "ca-el-jardi",
+      "pages": [
+        "ca-el-jardi",
+        "ca-el-pis-senyorial",
+        "ca-la-casa-sencera",
+        "ca-la-planta-baixa",
+        "ca-latic",
+        "da-hele-huset",
+        "da-penthousekvisten",
+        "da-stueetagen",
+        "da-the-garden",
+        "da-the-noble-floor",
+        "es-el-atico",
+        "es-el-jardin",
+        "es-el-piso-senorial",
+        "es-la-casa-entera",
+        "es-la-planta-baja",
+        "the-ground-floor",
+        "the-noble-floor",
+        "the-penthouse",
+        "the-whole-house"
+      ],
+      "pageCount": 19,
+      "blocks": [],
+      "delivery": {
+        "verified": 19,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "reservations-2",
+      "representativeSlug": "reservations-2",
+      "pages": [
+        "reservations-2"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "availability-calendar",
+        "columns",
+        "contact-form",
+        "hero-slider"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "static",
+      "representativeSlug": "ca-covid-19",
+      "pages": [
+        "ca-covid-19",
+        "ca-politica-de-privacidad-y-cookies",
+        "ca-politica-de-privacitat-i-cookies",
+        "covid-19",
+        "da-covid-19",
+        "da-privacy-policy-and-cookies"
+      ],
+      "pageCount": 6,
+      "blocks": [],
+      "delivery": {
+        "verified": 6,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "the-garden",
+      "representativeSlug": "the-garden",
+      "pages": [
+        "the-garden"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "contact-form",
+        "hero-slider",
+        "icon-features",
+        "image-grid"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

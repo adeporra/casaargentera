@@ -1,0 +1,28 @@
+/* spacer — authored vertical space (WPBakery empty-space module / the author's empty lines);
+   the height comes from the cell (spacer.js → --spacer-height) */
+main .spacer-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.spacer {
+  position: relative;
+  height: var(--spacer-height, 0);
+  overflow: hidden;
+}
+
+/* the authored number is config: kept in the DOM, never painted */
+.spacer > div {
+  position: absolute;
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* R-07 (static): a page whose text sits under spacers authors its title as the h1 and paints
+   it as the source heading (canon h2: 200 50px/55px) — styles.css has no h1 rule (foundation
+   request, as the other templates) */
+main .spacer-container .default-content-wrapper h1 {
+  font: 200 50px/55px var(--ca-font);
+}

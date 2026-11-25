@@ -1,0 +1,131 @@
+{
+  "a": "stardust/replica/gates/all-1440/da-eventsda/origin.png",
+  "b": "stardust/replica/gates/all-1440/da-eventsda/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3132,
+    "mode": "overlap"
+  },
+  "heightDelta": 35,
+  "differingPixels": 486482,
+  "pct": 10.79,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/da-eventsda/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 3.37,
+  "textBoxes": 56,
+  "textPixels": 416370,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 20.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 32.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 11.5
+    },
+    {
+      "y0": 3000,
+      "y1": 3132,
+      "pct": 3.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.65,
+    "differingPixels": 75076,
+    "compared": {
+      "width": 1440,
+      "height": 3167,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1308,
+        "shift": -35,
+        "cumulative": -35
+      }
+    ],
+    "maxOffset": 35,
+    "totalShift": 35,
+    "insertedRows": 0,
+    "deletedRows": 35,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1,
+        "unaligned": 1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 7,
+        "unaligned": 20.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.7,
+        "unaligned": 32.7
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.1,
+        "unaligned": 11.5
+      },
+      {
+        "y0": 3000,
+        "y1": 3167,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/da-eventsda/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 32,
+    "totalShift": 35,
+    "pass": false
+  },
+  "reason": "offsets: 1 step(s), 35px total — −35px at y=1308 (bound 32px)"
+}

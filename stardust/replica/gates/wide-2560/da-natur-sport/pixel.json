@@ -1,0 +1,120 @@
+{
+  "a": "stardust/replica/gates/wide-2560/da-natur-sport/origin.png",
+  "b": "stardust/replica/gates/wide-2560/da-natur-sport/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 2567,
+    "mode": "overlap"
+  },
+  "heightDelta": -95,
+  "differingPixels": 725116,
+  "pct": 11.03,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/wide-2560/da-natur-sport/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 12.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 15.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 28.6
+    },
+    {
+      "y0": 2500,
+      "y1": 2567,
+      "pct": 1.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 9.56,
+    "differingPixels": 651290,
+    "compared": {
+      "width": 2560,
+      "height": 2662,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2100,
+        "shift": 95,
+        "cumulative": 95
+      }
+    ],
+    "maxOffset": 95,
+    "totalShift": 95,
+    "insertedRows": 95,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 12.2,
+        "unaligned": 12.2
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 15.5,
+        "unaligned": 15.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 19.4,
+        "unaligned": 28.6
+      },
+      {
+        "y0": 2500,
+        "y1": 2567,
+        "pct": 0.1,
+        "unaligned": 1.8
+      }
+    ],
+    "diff": "stardust/replica/gates/wide-2560/da-natur-sport/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 26,
+    "totalShift": 95,
+    "pass": false
+  },
+  "reason": "offsets: 1 step(s), 95px total — +95px at y=2100 (bound 26px)"
+}

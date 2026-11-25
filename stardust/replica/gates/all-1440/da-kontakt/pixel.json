@@ -1,0 +1,126 @@
+{
+  "a": "stardust/replica/gates/all-1440/da-kontakt/origin.png",
+  "b": "stardust/replica/gates/all-1440/da-kontakt/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2985,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 1858,
+  "pct": 0.04,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/da-kontakt/diff.png",
+  "masks": [
+    {
+      "yA": 1392,
+      "h": 56,
+      "yB": 1392
+    }
+  ],
+  "maskedRows": 56,
+  "textPct": 0,
+  "textBoxes": 74,
+  "textPixels": 344337,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 2985,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.04,
+    "differingPixels": 1858,
+    "compared": {
+      "width": 1440,
+      "height": 2985,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 2985,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 0.04,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "maskReason": "self-varying rows of the frozen reference (noise floor 0.03%)"
+}

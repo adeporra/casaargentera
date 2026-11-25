@@ -1,0 +1,246 @@
+{
+ "source": "http://127.0.0.1:3000/stardust/prototypes/culture-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "History is to know where our culture comes from. An undeniable Mediterranean culture is waiting for you"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "has been a crossroads of cultures and influences. As a consequence it has developed, over the centuries, a unique and universal identity (knowledge, ideas, traditions and customs) that characterize us. The (architecture, painting, language), the , the . Culture is how we live."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Catalan culture"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "historical legacy"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "celebrations"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "gastronomy"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "The amazing Escornalbou castle"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "The is a peculiar mansion, reconstructed to be the burguesian residence of the owner, diplomat and filantrop Eduard Toda, on the top the old monastery and the rest of a roman fortress. . Take a walk around and up to the point, Santa Barbara, with the . Have a picnic on the old shooting camp, or look for hidden treasures."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Castle-Monastery of Escornalbou",
+     "href": "http://patrimoni.gencat.cat/ca/castell-monestir-descornalbou"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Get the whole inspiring story visiting the castle"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "impressive view of all the coastline"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vc-col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Just a few steps from The Priorat"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Follow the history and trace of the , in The Priorat. Enjoy modernist cellars, e.g. the in Pinell de Brai. The beautiful colored scenary of the vineyards. Indulge your senses by a , explained by the owners by generation of one of the many wine cellars. Taste the most well known Denomination of origin of , but also and ."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Carthusian Monks in Escaladei",
+     "href": "http://monuments.mhcat.cat/cartoixa_d_escaladei"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "wine cathedral"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "wine tasting"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "The Priorat"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Montsant"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Terra Alta"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vc-col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Hidden Gaudí"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Only 10 km from the house, you find . Indulge yourself and your family with a stroll in the park on the way back from the beach. Antoni Gaudi and Eduard Toda were friends since their days as students, and both enjoyed nature and hiking in the mountains beside the castle of Escornalbou. There is a spot where most likely the great arquitect was inspired, and shaped his amazing work."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Parc Sama",
+     "href": "http://parcsama.es/parc-sama-eng/"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "The park behind the house was designed by Antoni Gaudi in his youth."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vc-col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Monastery treasures"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Be fascinated by the peace and beauty of one of three amazingly beautiful monasteries. by the French Monastic order of the Cisters, they are Santes Creus, Poblet and Vallbona de les Monges. You can catch a glimpse of the life of a monk, or nun, during your visit to one of the two still functioning Monasteries. They were build in the times of recapture of the territories occupied by the Muslims in Spain in the Middle ages. Check the"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Founded in the XII century"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Cister route",
+     "href": "https://larutadelcister.info/"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vc-col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

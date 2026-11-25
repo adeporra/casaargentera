@@ -1,0 +1,75 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-24T13:07:06.117Z",
+  "url": "https://www.casaargentera.com/es/inicio/",
+  "width": 1440,
+  "vh": 900,
+  "height": 4372,
+  "settle": true,
+  "chunks": 5,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 9,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 2,
+    "intervals": 2,
+    "chains": 0,
+    "delays": [
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 4372,
+    "pct": 0.16,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    4372,
+    4372
+  ],
+  "noiseFloor": 0.16,
+  "heightSpread": 0,
+  "outside": 0.01,
+  "variable": [
+    {
+      "y": 452,
+      "h": 76,
+      "pct": 10.1
+    },
+    {
+      "y": 552,
+      "h": 56,
+      "pct": 5.2
+    }
+  ],
+  "variableShare": 3.02,
+  "maskArg": "452:76,552:56",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-24T13:07:45.944Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

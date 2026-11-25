@@ -1,0 +1,1652 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-24T09:56:18.893Z",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/_crawl-log.json",
+      "stardust/state.json",
+      "stardust/current/pages/*.json (70)",
+      "stardust/current/pages/*.html (70)",
+      "stardust/current/assets/css/combined.css",
+      "stardust/current/assets/fonts/_sources.json",
+      "https://www.casaargentera.com/wp-content/uploads/2020/03/casaargentera_logo_2010.png"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.10.0",
+    "notes": [
+      "Census measured 61 distinct final URLs × 2 widths (360, 1440); the 9 captured source URLs that redirect resolve to measured targets, so all 70 records have computed-style coverage.",
+      "Palette capped at 8. Dropped (low weight / third-party / plugin chrome): #000000 (slider bullet + search button borders), #d9dcdf and #10181f and #70787f (ICS calendar), #00000033 (back-to-top), #cccccc80 (testimonial avatar border), #ffffff40 (top-bar tint), #ddb36e80 and #ddb93380 (per-page header tint variants), #e09500 and #f2ab41 (slider caption text).",
+      "Radius: home-only mode would read 50% (slider bullets); cross-page mode is 200px (60px circular icon chips, 688 occurrences). Neither is a container radius — content is square-cornered.",
+      "No <h1> on any captured page (WordPress page titles switched off); the largest visible heading is h2 50px/200.",
+      "Logo == favicon: the same 172×136 PNG badge serves as site icon. A 75px JPG variant is used in the mobile header.",
+      "Home intro links point at legacy /wp/... paths (e.g. /wp/the-house/); experiences pages embed images from /wp/wp-content/... — link/asset debt to resolve in migration.",
+      "COVID-19 page renders a raw [ultimate_heading …] shortcode as text (deactivated plugin) — source defect.",
+      "Reservations pages render an Airbnb iCal feed whose DOM exposes reservation URLs and guest phone last-4 digits — privacy concern for migration."
+    ]
+  },
+  "site": {
+    "name": "Casa Argentera",
+    "tagline": "Casa Argentera Rural Tourism",
+    "description": "Casa Argentera, a country house holiday rental, is located in an tiny village, between The Priorat & The Mediterranean. Up to 15 people. Get to know it!",
+    "originUrl": "https://www.casaargentera.com",
+    "platform": "WordPress + The7 theme + WPBakery + Revolution Slider + Contact Form 7",
+    "locales": [
+      "en (root)",
+      "es (/es/)",
+      "ca (/ca/)",
+      "da (/da/)"
+    ]
+  },
+  "origins": [
+    {
+      "origin": "https://www.casaargentera.com",
+      "role": "primary",
+      "pagesCaptured": 70,
+      "contributedSignals": []
+    }
+  ],
+  "logo": {
+    "source": "img",
+    "sourceSelector": "header.header-bar .branding a > img.preload-me:not(.mobile-logo)",
+    "url": "https://www.casaargentera.com/wp-content/uploads/2020/03/casaargentera_logo_2010.png",
+    "localPath": "stardust/current/assets/logo.png",
+    "format": "png",
+    "intrinsicWidth": 172,
+    "intrinsicHeight": 136,
+    "alt": "Casa Argentera",
+    "synthesized": false,
+    "synthesizedBasis": null,
+    "variants": {
+      "captured": [
+        "desktop PNG 172×136"
+      ],
+      "notCaptured": [
+        "mobile JPG 75×58 (https://www.casaargentera.com/wp-content/uploads/2020/04/Logo-75-px.jpg — census logo candidate)",
+        "SVG / monochrome / inverted"
+      ]
+    }
+  },
+  "favicon": {
+    "localPath": "stardust/current/assets/favicon.png",
+    "url": "https://www.casaargentera.com/wp-content/uploads/2020/03/casaargentera_logo_2010.png",
+    "notes": "same file as the logo"
+  },
+  "palette": [
+    {
+      "role": "background",
+      "value": "#ffffff",
+      "occurrences": 4820,
+      "sourceSelectors": [
+        "#the7-body",
+        "#page"
+      ],
+      "sources": [
+        "https://www.casaargentera.com/",
+        "https://www.casaargentera.com/ca/inici/",
+        "https://www.casaargentera.com/es/inicio/"
+      ],
+      "usedAs": [
+        "text",
+        "background",
+        "border"
+      ],
+      "censusSources": [
+        {
+          "url": "https://www.casaargentera.com/",
+          "selector": "#page > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.casaargentera.com/ca/inici/",
+          "selector": "#page > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.casaargentera.com/es/inicio/",
+          "selector": "#page > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "prop": "text"
+        }
+      ],
+      "notes": "Page ground; also white text/links on amber footer and over the hero."
+    },
+    {
+      "role": "primary",
+      "value": "#dd9d3b",
+      "occurrences": 3459,
+      "sourceSelectors": [
+        "h2",
+        "h3",
+        ".wpcf7-submit",
+        "#footer",
+        "#search-4 input[type=submit]",
+        "a"
+      ],
+      "sources": [
+        "https://www.casaargentera.com/",
+        "https://www.casaargentera.com/ca/inici/",
+        "https://www.casaargentera.com/es/inicio/"
+      ],
+      "usedAs": [
+        "text",
+        "background",
+        "border"
+      ],
+      "censusSources": [
+        {
+          "url": "https://www.casaargentera.com/",
+          "selector": "#content > div:nth-of-type(1) > div > div > div > div > div > h2",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.casaargentera.com/ca/inici/",
+          "selector": "#content > div:nth-of-type(1) > div > div > div > div > div > h2",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.casaargentera.com/es/inicio/",
+          "selector": "#content > div:nth-of-type(1) > div > div > div > div > div > h2",
+          "prop": "text"
+        }
+      ],
+      "aliases": [
+        "#dd9933 (rgb 221,153,51 — h5/h4 uppercase amenity titles, header band base)"
+      ],
+      "cssVar": "--the7-accent-color"
+    },
+    {
+      "role": "text-primary",
+      "value": "#3a3a3a",
+      "occurrences": 2882,
+      "sourceSelectors": [
+        "p",
+        "li"
+      ],
+      "sources": [
+        "https://www.casaargentera.com/ca/politica-de-privacitat-i-cookies/",
+        "https://www.casaargentera.com/es/eventos/",
+        "https://www.casaargentera.com/es/la-casa/"
+      ],
+      "usedAs": [
+        "text"
+      ],
+      "censusSources": [
+        {
+          "url": "https://www.casaargentera.com/ca/politica-de-privacitat-i-cookies/",
+          "selector": "div:nth-of-type(2) > div > div > div > div > div > p:nth-of-type(2) > em",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.casaargentera.com/es/eventos/",
+          "selector": "#tw-target-text > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.casaargentera.com/es/la-casa/",
+          "selector": "#content > div:nth-of-type(1) > div > div > div > div > div > p",
+          "prop": "text"
+        }
+      ],
+      "cssVar": "--the7-base-color"
+    },
+    {
+      "role": "text-secondary",
+      "value": "#2b2b2b",
+      "occurrences": 1342,
+      "sourceSelectors": [
+        "#text-4 (footer contact widget)"
+      ],
+      "sources": [
+        "https://www.casaargentera.com/",
+        "https://www.casaargentera.com/beach-and-more/",
+        "https://www.casaargentera.com/ca/contacte/"
+      ],
+      "usedAs": [
+        "text"
+      ],
+      "censusSources": [
+        {
+          "url": "https://www.casaargentera.com/",
+          "selector": "#text-4 > div:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.casaargentera.com/beach-and-more/",
+          "selector": "#text-4 > div:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.casaargentera.com/ca/contacte/",
+          "selector": "#text-4 > div:nth-of-type(1)",
+          "prop": "text"
+        }
+      ],
+      "notes": "Footer widget text and links; hover darkens to #0a0a0a."
+    },
+    {
+      "role": "surface-header-tint",
+      "value": "#dd993380",
+      "occurrences": 82,
+      "sourceSelectors": [
+        "#page > div.masthead (header band)"
+      ],
+      "sources": [
+        "https://www.casaargentera.com/beach-and-more/",
+        "https://www.casaargentera.com/ca/el-jardi/",
+        "https://www.casaargentera.com/ca/el-pis-senyorial/"
+      ],
+      "usedAs": [
+        "background"
+      ],
+      "censusSources": [
+        {
+          "url": "https://www.casaargentera.com/beach-and-more/",
+          "selector": "#page > div:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.casaargentera.com/ca/el-jardi/",
+          "selector": "#page > div:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.casaargentera.com/ca/el-pis-senyorial/",
+          "selector": "#page > div:nth-of-type(1)",
+          "prop": "background"
+        }
+      ],
+      "notes": "Amber at 50% alpha laid over the hero slider; variants rgba(221,179,110,.5) on 16 pages and rgba(221,185,51,.5) on 4 (per-page header colour drift)."
+    },
+    {
+      "role": "surface-sticky",
+      "value": "#ddbd89",
+      "occurrences": 61,
+      "sourceSelectors": [
+        "#phantom (sticky header on scroll)"
+      ],
+      "sources": [
+        "https://www.casaargentera.com/",
+        "https://www.casaargentera.com/beach-and-more/",
+        "https://www.casaargentera.com/ca/contacte/"
+      ],
+      "usedAs": [
+        "background"
+      ],
+      "censusSources": [
+        {
+          "url": "https://www.casaargentera.com/",
+          "selector": "#phantom",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.casaargentera.com/beach-and-more/",
+          "selector": "#phantom",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.casaargentera.com/ca/contacte/",
+          "selector": "#phantom",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "role": "surface-input",
+      "value": "#f0f3f6",
+      "occurrences": 688,
+      "sourceSelectors": [
+        ".wpcf7 input",
+        "select",
+        ".ics-calendar"
+      ],
+      "sources": [
+        "https://www.casaargentera.com/ca/reserves/",
+        "https://www.casaargentera.com/da/reservations/",
+        "https://www.casaargentera.com/es/reservas/"
+      ],
+      "usedAs": [
+        "background"
+      ],
+      "censusSources": [
+        {
+          "url": "https://www.casaargentera.com/ca/reserves/",
+          "selector": "div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > div > section > select",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.casaargentera.com/da/reservations/",
+          "selector": "div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > div > section > select",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.casaargentera.com/es/reservas/",
+          "selector": "div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > div > section > select",
+          "prop": "background"
+        }
+      ],
+      "notes": "Cluster of near-whites (#fcfcfc input fill, #f4f4f4, #f7f7f7)."
+    },
+    {
+      "role": "border",
+      "value": "#adb0b64d",
+      "occurrences": 430,
+      "sourceSelectors": [
+        ".wpcf7 input",
+        ".wpcf7 textarea"
+      ],
+      "sources": [
+        "https://www.casaargentera.com/ca/reserves/",
+        "https://www.casaargentera.com/da/reservations/",
+        "https://www.casaargentera.com/es/reservas/"
+      ],
+      "usedAs": [
+        "border"
+      ],
+      "censusSources": [
+        {
+          "url": "https://www.casaargentera.com/ca/reserves/",
+          "selector": "div > div > div:nth-of-type(4) > form > p:nth-of-type(1) > label > span > input",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.casaargentera.com/da/reservations/",
+          "selector": "div > div > div:nth-of-type(4) > form > p:nth-of-type(1) > label > span > input",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.casaargentera.com/es/reservas/",
+          "selector": "div > div > div:nth-of-type(4) > form > p:nth-of-type(1) > label > span > input",
+          "prop": "border"
+        }
+      ],
+      "notes": "rgba(173,176,182,.3) field borders."
+    }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "Montserrat",
+      "stack": "\"Montserrat\", Helvetica, Arial, Verdana, sans-serif",
+      "weights": [
+        200,
+        400
+      ],
+      "sizes": [
+        "50px",
+        "30px",
+        "22px",
+        "17px"
+      ],
+      "lineHeights": [
+        "55px",
+        "35px",
+        "30px",
+        "27px"
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "textTransform": {
+        "h2": "none",
+        "h3": "none",
+        "h4": "none | uppercase (400 variant)",
+        "h5": "uppercase"
+      },
+      "perLevel": {
+        "h2": {
+          "size": "50px",
+          "weight": 200,
+          "lineHeight": "55px",
+          "color": "#dd9d3b",
+          "count": 266,
+          "score": 407.74
+        },
+        "h3": {
+          "size": "30px",
+          "weight": 200,
+          "lineHeight": "35px",
+          "color": "#dd9d3b",
+          "count": 162,
+          "score": 190.92
+        },
+        "h4": {
+          "size": "22px",
+          "weight": 200,
+          "lineHeight": "30px",
+          "color": "#dd9d3b",
+          "count": 25,
+          "alt": {
+            "weight": 400,
+            "textTransform": "uppercase",
+            "color": "#dd9933",
+            "count": 16
+          }
+        },
+        "h5": {
+          "size": "17px",
+          "weight": 400,
+          "lineHeight": "27px",
+          "textTransform": "uppercase",
+          "color": "#dd9933",
+          "count": 312,
+          "score": 300.28
+        }
+      },
+      "h1": "No visible <h1> on any captured page; theme declares --the7-h1-font-size 60px but it is unused.",
+      "sourceSelectors": [
+        "h2",
+        "h3",
+        "h4",
+        "h5.dt-text-title"
+      ]
+    },
+    "bodyFamily": {
+      "name": "Montserrat",
+      "stack": "\"Montserrat\", Helvetica, Arial, Verdana, sans-serif",
+      "weights": [
+        300,
+        400,
+        800
+      ],
+      "sizes": [
+        "14px"
+      ],
+      "lineHeights": [
+        "25px"
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "roles": {
+        "body": "14px/25px 400 #3a3a3a",
+        "nav": "menu 400 white uppercase (labels authored uppercase)",
+        "topBar": "300 white",
+        "button": "14px 800"
+      },
+      "sourceSelectors": [
+        "p",
+        "#primary-menu a",
+        "#top-menu a",
+        ".wpcf7-submit"
+      ]
+    },
+    "monoFamily": null,
+    "scaleRatio": null,
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        1.667,
+        1.364,
+        1.294,
+        1.214
+      ],
+      "observedSizesPx": [
+        50,
+        30,
+        22,
+        17,
+        14
+      ],
+      "matchedScale": null
+    },
+    "loadStrategy": "swap",
+    "files": [
+      {
+        "url": "https://fonts.gstatic.com/s/montserrat/v29/ (see assets/fonts/_sources.json)",
+        "family": "Montserrat",
+        "weight": 200,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/montserrat-200.ttf",
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/montserrat/v29/ (see assets/fonts/_sources.json)",
+        "family": "Montserrat",
+        "weight": 300,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/montserrat-300.ttf",
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/montserrat/v29/ (see assets/fonts/_sources.json)",
+        "family": "Montserrat",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/montserrat-400.ttf",
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/montserrat/v29/ (see assets/fonts/_sources.json)",
+        "family": "Montserrat",
+        "weight": 500,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/montserrat-500.ttf",
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/montserrat/v29/ (see assets/fonts/_sources.json)",
+        "family": "Montserrat",
+        "weight": 700,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/montserrat-700.ttf",
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/montserrat/v29/ (see assets/fonts/_sources.json)",
+        "family": "Montserrat",
+        "weight": 800,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/montserrat-800.ttf",
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://www.casaargentera.com/wp-content/themes/dt-the7/fonts/icomoon-the7-font/icomoon-the7-font.ttf?wi57p5",
+        "family": "icomoon-the7-font",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/icomoon-the7-font.ttf",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://www.casaargentera.com/wp-content/themes/dt-the7/fonts/FontAwesome/webfonts/fa-solid-900.woff2",
+        "family": "Font Awesome 5 Free",
+        "weight": 900,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/fa-solid-900.woff2",
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+        "family": "Roboto",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/roboto-400.woff2",
+        "licensingFlag": "open",
+        "notes": "declared (plugin CSS), not used by any measured element"
+      }
+    ],
+    "sources": [
+      "_computed-styles.json#aggregate.type",
+      "_computed-styles.json#pages[*][1440].headings",
+      "assets/css/combined.css (font-display: swap ×10)"
+    ]
+  },
+  "spacing": {
+    "baseUnit": null,
+    "scale": [],
+    "sectionPadding": null,
+    "containerMaxWidth": null,
+    "declaredContentWidth": "1250px (--the7-content-width; --the7-box-width 1280px) — declared, not measured; cap-probe owns the measured value",
+    "gridGap": null,
+    "verticalRhythm": "WPBakery vc_empty_space spacers (typically 20px) between blocks; header 172px tall at 1440 incl. 36px top bar",
+    "notes": "No detectable spacing scale — spacing is per-block spacer elements."
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "200px",
+      "secondary": "25px",
+      "pill": "50%",
+      "primarySources": [
+        "the-garden",
+        "contact",
+        "the-penthouse"
+      ],
+      "occurrences": {
+        "200px": 688,
+        "50%": 546,
+        "100px": 366,
+        "500px": 233,
+        "25px": 182,
+        "2px": 122,
+        "3px": 1
+      },
+      "roles": {
+        "200px": "60px circular amenity icon chips (icon-with-text)",
+        "50%": "slider bullets, footer social icons",
+        "100px": "top-bar social icons",
+        "500px": "header/hero decorative circles",
+        "25px": "buttons (Send, Go!) and the footer search field",
+        "2px": "reCAPTCHA badge (third-party)",
+        "3px": "slider loader"
+      },
+      "notes": "Content imagery, cards and sections are square-cornered (0); every non-zero radius is a round/pill control.",
+      "sources": [
+        {
+          "value": "200px",
+          "url": "https://www.casaargentera.com/ca/contacte/",
+          "selector": "#content > div:nth-of-type(5) > div:nth-of-type(1) > div > div > div:nth-of-type(1) > span"
+        },
+        {
+          "value": "50%",
+          "url": "https://www.casaargentera.com/",
+          "selector": "#rev_slider_24_1 > rs-bullets > rs-bullet:nth-of-type(1)"
+        },
+        {
+          "value": "100px",
+          "url": "https://www.casaargentera.com/",
+          "selector": "#page > div:nth-of-type(2) > div > div:nth-of-type(2) > div > a:nth-of-type(1)"
+        },
+        {
+          "value": "500px",
+          "url": "https://www.casaargentera.com/",
+          "selector": "#page > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(2)"
+        },
+        {
+          "value": "25px",
+          "url": "https://www.casaargentera.com/",
+          "selector": "#search-4 > form > input:nth-of-type(2)"
+        }
+      ]
+    },
+    "shadows": [
+      {
+        "value": "none",
+        "uses": "site-wide — surfaces are flat"
+      },
+      {
+        "value": "rgb(128,128,128) 0 0 5px 0",
+        "uses": "reCAPTCHA badge only (third-party)",
+        "source": {
+          "url": "https://www.casaargentera.com/",
+          "selector": "#the7-body > div:nth-of-type(4) > div"
+        }
+      },
+      {
+        "value": "rgba(0,0,0,0.15) 0 0 20px 0",
+        "uses": "Revolution Slider loader (1 occurrence)"
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(45deg, rgba(0, 0, 0, 0) 50%, rgb(120, 125, 133) 50%), linear-gradient(135deg, rgb(120, 125, 133) 50%, rgba(0, 0, 0, 0) 50%)",
+        "uses": "ICS calendar month <select> arrow (plugin chrome) — no brand gradients"
+      }
+    ],
+    "patterns": [
+      {
+        "name": "hero-slider",
+        "evidence": "63/70 pages open with a full-width Revolution Slider photo slideshow (bullets, 2.5s slides); captions on landing + events only"
+      },
+      {
+        "name": "header-over-hero",
+        "evidence": "masthead sits over the slider on a 50% amber band; logo is a square badge 172×136"
+      },
+      {
+        "name": "amber-display-headings",
+        "evidence": "h2 50px/200 and h3 30px/200 in #dd9d3b on white — thin, large, warm"
+      },
+      {
+        "name": "feature-list",
+        "evidence": "amenity icon list (amber circle icon + uppercase h5) on 16 program pages and directions on 4 contact pages"
+      },
+      {
+        "name": "photo-grid",
+        "evidence": "2-up + 3-up uncaptioned photo rows on program and about pages"
+      },
+      {
+        "name": "alternating-image-text",
+        "evidence": "6/6 image/text rows on 16 article pages"
+      },
+      {
+        "name": "testimonial-carousel",
+        "evidence": "Owl carousel of guest quotes on the 3 landing pages"
+      },
+      {
+        "name": "masonry-gallery-lightbox",
+        "evidence": "WPBakery media grid + prettyPhoto on events and ground-floor pages (8)"
+      },
+      {
+        "name": "enquiry-form-closer",
+        "evidence": "Contact Form 7 enquiry closes 32 pages"
+      },
+      {
+        "name": "footer-amber-band",
+        "evidence": "full-bleed #dd9d3b footer with white text on all 70 pages"
+      }
+    ]
+  },
+  "componentStyle": {
+    "buttons": {
+      "primary": {
+        "background": "#dd9d3b",
+        "color": "#ffffff",
+        "borderRadius": "25px",
+        "padding": "12px 25px 11px",
+        "fontWeight": 800,
+        "fontSize": "14px",
+        "textTransform": "none",
+        "shadow": null,
+        "border": "0 (Send) | 2px outset #000 (footer search \"Go!\")",
+        "hoverDelta": "background → rgb(174,153,100) #ae9964",
+        "sources": [
+          "the-garden .wpcf7-submit",
+          "#search-4 input[type=submit]"
+        ]
+      },
+      "secondary": null,
+      "ghost": null
+    },
+    "dualCTAPattern": null,
+    "cards": {
+      "background": "transparent",
+      "borderRadius": "0",
+      "padding": "0",
+      "shadow": null,
+      "border": null,
+      "notes": "No card chrome: image + heading pairs sit directly on white."
+    },
+    "inputs": {
+      "borderRadius": "0 (form fields) / 25px (footer search)",
+      "padding": null,
+      "border": "1px solid rgba(173,176,182,0.3)",
+      "background": "#fcfcfc",
+      "focusRing": null
+    },
+    "nav": {
+      "color": "#ffffff",
+      "weight": 400,
+      "hover": "underline decoration grows left-to-right (The7 underline-decoration l-to-r-line)",
+      "dropdowns": "THE HOUSE, EXPERIENCES"
+    },
+    "links": {
+      "inContent": "#dd9d3b",
+      "footer": "#2b2b2b → #0a0a0a on hover"
+    }
+  },
+  "systemComponents": [
+    {
+      "name": "site-header",
+      "kind": "header",
+      "occurrences": 70,
+      "headingSequence": [],
+      "ctaLabels": [
+        "THE HOUSE",
+        "THE PLACE",
+        "EXPERIENCES",
+        "EVENTS",
+        "WHO WE ARE",
+        "CONTACT",
+        "RESERVATIONS"
+      ],
+      "localeVariants": {
+        "en": [
+          "THE HOUSE",
+          "THE PLACE",
+          "EXPERIENCES",
+          "EVENTS",
+          "WHO WE ARE",
+          "CONTACT",
+          "RESERVATIONS"
+        ],
+        "es": [
+          "LA CASA",
+          "EL ENTORNO",
+          "EXPERIENCIAS",
+          "EVENTOS",
+          "QUIÉNES SOMOS",
+          "CONTACTO",
+          "RESERVAS"
+        ],
+        "ca": [
+          "LA CASA",
+          "L’ENTORN",
+          "EXPERIÈNCIES",
+          "ESDEVENIMENTS",
+          "QUI SOM",
+          "CONTACTE",
+          "RESERVES"
+        ],
+        "da": [
+          "HUSET",
+          "STEDET",
+          "OPLEVELSER",
+          "EVENTS",
+          "OM OS",
+          "KONTAKT",
+          "RESERVATIONER"
+        ]
+      },
+      "domFingerprintHash": "sha256:fa68e9c91bc6879adb3a03621b1303e64890ee1fae7cbd4cbfb797bc316ac2ee",
+      "exampleSlug": "index",
+      "exampleSelector": "header.header-bar",
+      "examplePages": [
+        "index",
+        "es-el-entorno",
+        "es-naturaleza-deporte"
+      ],
+      "notes": "The7 masthead: logo (casaargentera_logo_2010.png 172×136) left, 7 top-level uppercase nav items with dropdowns (THE HOUSE, EXPERIENCES); a top bar above carries the language switcher (Dansk · Català · Español · English) and Instagram/Facebook icons. Overlays the hero slider on a translucent amber band (rgba(221,153,51,.5)); a sticky clone (#phantom, #ddbd89) appears on scroll.",
+      "exampleBlock": "<header class=\"header-bar\"><div class=\"branding\"><div id=\"site-title\" class=\"assistive-text\">Casa Argentera</div><div id=\"site-description\" class=\"assistive-text\">Casa Argentera Rural Tourism</div> <a class=\"\" href=\"https://www.casaargentera.com/\"><img class=\" preload-me\" src=\"https://www.casaargentera.com/wp-content/uploads/2020/03/casaargentera_logo_2010.png\" srcset=\"https://www.casaargentera.com/wp-content/uploads/2020/03/casaargentera_logo_2010.png 172w\" width=\"172\" height=\"136\" sizes=\"172px\" alt=\"Casa Argentera\"><img class=\"mobile-logo preload-me\" src=\"https://www.casaargentera.com/wp-content/uploads/2020/04/Logo-75-px.jpg\" srcset=\"https://www.casaargentera.com/wp-content/uploads/2020/04/Logo-75-px.jpg 75w\" width=\"75\" height=\"58\" sizes=\"75px\" alt=\"Casa Argentera\"></a></div><ul id=\"primary-menu\" class=\"main-nav underline-decoration l-to-r-line level-arrows-on outside-item-remove-margin\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-15206 first has-children depth-0\"><a href=\"https://www.casaargentera.com/the-house/\" data-level=\"1\"><span class=\"menu-item-text\"><span class=\"menu-text\">THE HOUSE</span><i class=\"underline\"></i></span></a><ul class=\"sub-nav level-arrows-on\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-15383 first depth-1\"><a href=\"https://www.casaargentera.com/the-whole-house/\" data-level=\"2\"><span class=\"menu-item-text\"><span class=\"menu-text\">THE WHOLE HOUSE</span></span></a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-15386 depth-1\"><a href=\"https://www.casaargentera.com/the-garden/\" data-level=\"2\"><span class=\"menu-item-text\"><span class=\"menu-text\">THE GARDEN</span></span></a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-15358 depth-1\"><a href=\"https://www.casaargentera.com/the-penthouse/\" data-level=\"2\"><span class=\"menu-item-text\"><span class=\"menu-text\">THE PENTHOUSE</span></span></a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-15361 depth-1\"><a href=\"https://www.casaargentera.com/the-noble-floor/\" data-level=\"2\"><span class=\"menu-item-text\"><span class=\"menu-text\">THE NOBLE FLOOR</span></span></a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-15236 depth-1\"><a href=\"https://www.casaargentera.com/the-ground-floor/\" data-level=\"2\"><span class=\"menu-item-text\"><span class=\"menu-text\">THE GROUND FLOOR</span></span></a></li></ul></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-15464 depth-0\"><a href=\"https://www.casaargentera.com/the-place/\" data-level=\"1\"><span class=\"menu-item-text\"><span class=\"menu-text\">THE PLACE</span><i class=\"underline\"></i></span></a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-15195 has-children depth-0\"><a href=\"https://www.casaargentera.com/experiences/\" data-level=\"1\"><span class=\"menu-item-text\"><span class=\"menu-text\">EXPERIENCES</span><i class=\"underline\"></i></span></a><ul class=\"sub-nav level-arrows-on\"><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-15528 first depth-1\"><a href=\"https://www.casaargentera.com/nature-sport/\" data-level=\"2\"><span class=\"menu-item-text\"><span class=\"menu-text\">NATURE / SPORT</span></span></a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-15522 depth-1\"><a href=\"https://www.casaargentera.com/culture/\" data-level=\"2\"><span class=\"menu-item-text\"><span class=\"menu-text\">CULTURE</span></span></a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-15611 depth-1\"><a href=\"https://www.casaargentera.com/beach-and-more/\" data-level=\"2\"><span class=\"menu-item-text\"><span class=\"menu-text\">BEACH AND MORE</span></span></a></li></ul></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-15602 depth-0\"><a href=\"https://www.casaargentera.com/events/\" data-level=\"1\"><span class=\"menu-item-text\"><span class=\"menu-text\">EVENTS</span><i class=\"underline\"></i></span></a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-15318 depth-0\"><a href=\"https://www.casaargentera.com/who-we-are/\" data-level=\"1\"><span class=\"menu-item-text\"><span class=\"menu-text\">WHO WE ARE</span><i class=\"underline\"></i></span></a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-15212 depth-0\"><a href=\"https://www.casaargentera.com/contact/\" data-level=\"1\"><span class=\"menu-item-text\"><span class=\"menu-text\">CONTACT</span><i class=\"underline\"></i></span></a></li><li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-15477 last depth-0\"><a href=\"https://www.casaargentera.com/reservations-2/\" data-level=\"1\"><span class=\"menu-item-text\"><span class=\"menu-text\">RESERVATIONS</span><i class=\"underline\"></i></span></a></li></ul><div class=\"mini-widgets\"><div class=\"soc-ico show-on-desktop near-logo-first-switch in-menu-second-switch custom-bg disabled-border border-off hover-custom-bg hover-disabled-border hover-border-off first last\"><a title=\"Instagram page opens in new window\" href=\"https://www.instagram.com/casaargentera\" target=\"_blank\" class=\"instagram\"><span class=\"soc-font-icon\"></span><span class=\"screen-reader-text\">Instagram page opens in new window</span></a><a title=\"Facebook page opens in new window\" href=\"https://www.facebook.com/CasaArgentera/\" target=\"_blank\" class=\"facebook\"><span class=\"soc-font-icon\"></span><span class=\"screen-reader-text\">Facebook page opens in new window</span></a></div></div></header>"
+    },
+    {
+      "name": "language-switcher",
+      "kind": "nav-secondary",
+      "occurrences": 70,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Dansk",
+        "Català",
+        "Español",
+        "English"
+      ],
+      "exampleSlug": "index",
+      "exampleSelector": "#top-menu",
+      "examplePages": [
+        "index",
+        "es-el-entorno",
+        "es-naturaleza-deporte"
+      ],
+      "notes": "Top-bar menu (weight 300, white) plus a repeat in the footer bottom bar. Current-locale item omitted in the top bar."
+    },
+    {
+      "name": "site-footer",
+      "kind": "footer",
+      "occurrences": 70,
+      "headingSequence": [
+        "CONTACT US",
+        "SEARCH",
+        "FOLLOW US",
+        "OTHER RENTALS",
+        "LEGAL INFO"
+      ],
+      "localeVariants": {
+        "en": [
+          "CONTACT US",
+          "SEARCH",
+          "FOLLOW US",
+          "OTHER RENTALS",
+          "LEGAL INFO"
+        ],
+        "es": [
+          "CONTACTO",
+          "BUSCA",
+          "SÍGUENOS",
+          "OTROS ALQUILERES",
+          "INFO LEGAL"
+        ],
+        "ca": [
+          "CONTACTE",
+          "CERCA",
+          "SEGUEIX-NOS",
+          "ALTRES LLOGUERS",
+          "INFO LEGAL"
+        ],
+        "da": [
+          "CONTACT US",
+          "SEARCH",
+          "FOLLOW US",
+          "OTHER RENTALS",
+          "LEGAL INFO"
+        ]
+      },
+      "ctaLabels": [
+        "Facebook page opens in new window",
+        "Instagram page opens in new window",
+        "www.CasaArgentera.com",
+        "www.CasaVelladelPanta.com",
+        "Privacy policy and Cookies"
+      ],
+      "domFingerprintHash": "sha256:223a9db316655a4b4d54b33a54b860da851089cdee5016514800185ab77df353",
+      "exampleSlug": "index",
+      "exampleSelector": "#footer",
+      "examplePages": [
+        "index",
+        "es-el-entorno",
+        "es-naturaleza-deporte"
+      ],
+      "notes": "Full-bleed amber (#dd9d3b) band, 389px tall at 1440, three widget columns × two rows (CONTACT US · SEARCH · FOLLOW US / OTHER RENTALS · LEGAL INFO) in white 14px text, a pill search field with \"Go!\" button, then a bottom bar with ©2020 and the language list.",
+      "exampleBlock": "<footer id=\"footer\" class=\"footer solid-bg\"><div class=\"wf-wrap\"><div class=\"wf-container-footer\"><div class=\"wf-container\"><section id=\"text-4\" class=\"widget widget_text wf-cell wf-1-3\"><div class=\"widget-title\">CONTACT US</div><div class=\"textwidget\"><p>CASA ARGENTERA<br> C/Deumera 19 • 43773 L’Argentera • Spain<br> T: +34 678 866 588 info@casaargentera.com<br> <a href=\"http://www.casaargentera.com\" target=\"_blank\" rel=\"noopener\">www.CasaArgentera.com</a></p></div></section><section id=\"search-4\" class=\"widget widget_search wf-cell wf-1-3\"><div class=\"widget-title\">SEARCH</div><form class=\"searchform\" role=\"search\" method=\"get\" action=\"https://www.casaargentera.com/\"> <label for=\"the7-search\" class=\"screen-reader-text\">Search:</label> <input type=\"text\" id=\"the7-search\" class=\"field searchform-s\" name=\"s\" value=\"\" placeholder=\"Type and hit enter …\"> <input type=\"submit\" class=\"assistive-text searchsubmit\" value=\"Go!\"> <a href=\"\" class=\"submit\"><svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 16 16\" style=\"enable-background:new 0 0 16 16;\" xml:space=\"preserve\"><path d=\"M11.7,10.3c2.1-2.9,1.5-7-1.4-9.1s-7-1.5-9.1,1.4s-1.5,7,1.4,9.1c2.3,1.7,5.4,1.7,7.7,0h0c0,0,0.1,0.1,0.1,0.1l3.8,3.8c0.4,0.4,1,0.4,1.4,0s0.4-1,0-1.4l-3.8-3.9C11.8,10.4,11.8,10.4,11.7,10.3L11.7,10.3z M12,6.5c0,3-2.5,5.5-5.5,5.5S1,9.5,1,6.5S3.5,1,6.5,1S12,3.5,12,6.5z\"></path></svg></a></form></section><section id=\"presscore-contact-info-widget-3\" class=\"widget widget_presscore-contact-info-widget wf-cell wf-1-3\"><div class=\"widget-title\">FOLLOW US</div><div class=\"soc-ico\"><p class=\"assistive-text\">Find us on:</p><a title=\"Facebook page opens in new window\" href=\"https://www.facebook.com/CasaArgentera/\" target=\"_blank\" class=\"facebook\"><span class=\"soc-font-icon\"></span><span class=\"screen-reader-text\">Facebook page opens in new window</span></a><a title=\"Instagram page opens in new window\" href=\"https://www.instagram.com/casaargentera/\" target=\"_blank\" class=\"instagram\"><span class=\"soc-font-icon\"></span><span class=\"screen-reader-text\">Instagram page opens in new window</span></a></div></section><section id=\"text-6\" class=\"widget widget_text wf-cell wf-1-3\"><div class=\"widget-title\">OTHER RENTALS</div><div class=\"textwidget\"><p>CASA VELLA DEL PANTA<br> C/T313, km.13 &nbsp;• 43771 Riudecanyes • Spain<br> <a href=\"http://www.casavelladelpanta.com\">www.CasaVelladelPanta.com</a></p></div></section><section id=\"text-3\" class=\"widget widget_text wf-cell wf-1-3\"><div class=\"widget-title\">LEGAL INFO</div><div class=\"textwidget\"><p><a href=\"https://www.casaargentera.com/privacy-policy-and-cookies/\">Privacy policy and Cookies</a><br> ©2020 Casa Argentera</p></div></section><section id=\"polylang-3\" class=\"widget widget_polylang wf-cell wf-1-3\"><div role=\"navigation\" id=\"pll-switcher-widget-3\" class=\"pll-switcher pll-layout-vertical pll-alignment-left\" aria-label=\"Choose a language\"><ul><li class=\"polylang-item lang-item lang-item-45 lang-item-en current-lang lang-item-first\"><a lang=\"en-GB\" hreflang=\"en-GB\" href=\"https://www.casaargentera.com/\" aria-current=\"true\"><span class=\"pll-switcher-label\">English</span></a></li><li class=\"polylang-item lang-item lang-item-48 lang-item-da\"><a lang=\"da-DK\" hreflang=\"da-DK\" href=\"https://www.casaargentera.com/da/home/\"><span class=\"pll-switcher-label\">Dansk</span></a></li><li class=\"polylang-item lang-item lang-item-55 lang-item-ca\"><a lang=\"ca\" hreflang=\"ca\" href=\"https://www.casaargentera.com/ca/inici/\"><span class=\"pll-switcher-label\">Català</span></a></li><li class=\"polylang-item lang-item lang-item-58 lang-item-es\"><a lang=\"es-ES\" hreflang=\"es-ES\" href=\"https://www.casaargentera.com/es/inicio/\"><span class=\"pll-switcher-label\">Español</span></a></li></ul></div></section></div><!-- .wf-container --></div><!-- .wf-container-footer --></div><!-- .wf-wrap --></footer>"
+    },
+    {
+      "name": "enquiry-cta-band",
+      "kind": "cta-band",
+      "occurrences": 32,
+      "headingSequence": [
+        "For additional information and reservations?"
+      ],
+      "ctaLabels": [
+        "Send"
+      ],
+      "exampleSlug": "the-garden",
+      "exampleSelector": "#content .wpcf7",
+      "examplePages": [
+        "es-el-atico",
+        "es-el-jardin",
+        "es-el-piso-senorial"
+      ],
+      "notes": "Contact Form 7 enquiry (name, email, phone, subject, message, privacy acceptance, reCAPTCHA v3) closing every program, events, booking and contact page — the site’s only conversion surface."
+    },
+    {
+      "name": "bg-Tapas-workshop-Casa-Argentera-1024x576",
+      "kind": "background-motif",
+      "occurrences": 4,
+      "examplePages": [
+        "es-eventos",
+        "ca-esdeveniments",
+        "events",
+        "da-eventsda"
+      ],
+      "exampleSlug": "es-eventos",
+      "exampleBlock": {
+        "url": "https://www.casaargentera.com/wp-content/uploads/2020/04/Tapas-workshop-Casa-Argentera-1024x576.jpg",
+        "domPath": ".vc_masonry_media_grid .vc_gitem-zone",
+        "backgroundSize": "cover"
+      },
+      "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+    },
+    {
+      "name": "bg-Cata-Sangenis-1024x576",
+      "kind": "background-motif",
+      "occurrences": 4,
+      "examplePages": [
+        "es-eventos",
+        "ca-esdeveniments",
+        "events",
+        "da-eventsda"
+      ],
+      "exampleSlug": "es-eventos",
+      "exampleBlock": {
+        "url": "https://www.casaargentera.com/wp-content/uploads/2020/04/Cata-Sangenis-1024x576.jpg",
+        "domPath": ".vc_masonry_media_grid .vc_gitem-zone",
+        "backgroundSize": "cover"
+      },
+      "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+    },
+    {
+      "name": "bg-PinturaR%C3%A1pida-lArgentera-1024x576",
+      "kind": "background-motif",
+      "occurrences": 4,
+      "examplePages": [
+        "es-eventos",
+        "ca-esdeveniments",
+        "events",
+        "da-eventsda"
+      ],
+      "exampleSlug": "es-eventos",
+      "exampleBlock": {
+        "url": "https://www.casaargentera.com/wp-content/uploads/2020/03/PinturaR%C3%A1pida-lArgentera-1024x576.jpg",
+        "domPath": ".vc_masonry_media_grid .vc_gitem-zone",
+        "backgroundSize": "cover"
+      },
+      "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+    },
+    {
+      "name": "bg-Cal%C3%A7ots-Argentera",
+      "kind": "background-motif",
+      "occurrences": 4,
+      "examplePages": [
+        "es-eventos",
+        "ca-esdeveniments",
+        "events",
+        "da-eventsda"
+      ],
+      "exampleSlug": "es-eventos",
+      "exampleBlock": {
+        "url": "https://www.casaargentera.com/wp-content/uploads/2020/03/Cal%C3%A7ots-Argentera.jpg",
+        "domPath": ".vc_masonry_media_grid .vc_gitem-zone",
+        "backgroundSize": "cover"
+      },
+      "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+    },
+    {
+      "name": "bg-Paella-CasaArgentera",
+      "kind": "background-motif",
+      "occurrences": 4,
+      "examplePages": [
+        "es-eventos",
+        "ca-esdeveniments",
+        "events",
+        "da-eventsda"
+      ],
+      "exampleSlug": "es-eventos",
+      "exampleBlock": {
+        "url": "https://www.casaargentera.com/wp-content/uploads/2020/03/Paella-CasaArgentera.jpg",
+        "domPath": ".vc_masonry_media_grid .vc_gitem-zone",
+        "backgroundSize": "cover"
+      },
+      "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+    },
+    {
+      "name": "bg-Workshop-MarionaQuadrada-1024x576",
+      "kind": "background-motif",
+      "occurrences": 4,
+      "examplePages": [
+        "es-eventos",
+        "ca-esdeveniments",
+        "events",
+        "da-eventsda"
+      ],
+      "exampleSlug": "es-eventos",
+      "exampleBlock": {
+        "url": "https://www.casaargentera.com/wp-content/uploads/2020/04/Workshop-MarionaQuadrada-1024x576.jpg",
+        "domPath": ".vc_masonry_media_grid .vc_gitem-zone",
+        "backgroundSize": "cover"
+      },
+      "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+    },
+    {
+      "name": "bg-P1010765EnhancedP3D-e1587830457410-1024x576",
+      "kind": "background-motif",
+      "occurrences": 3,
+      "examplePages": [
+        "es-la-planta-baja",
+        "ca-la-planta-baixa",
+        "the-ground-floor"
+      ],
+      "exampleSlug": "es-la-planta-baja",
+      "exampleBlock": {
+        "url": "https://www.casaargentera.com/wp-content/uploads/2020/04/P1010765EnhancedP3D-e1587830457410-1024x576.jpg",
+        "domPath": ".vc_masonry_media_grid .vc_gitem-zone",
+        "backgroundSize": "cover"
+      },
+      "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+    },
+    {
+      "name": "bg-CasaArgentera-GroundFloor-1024x576",
+      "kind": "background-motif",
+      "occurrences": 4,
+      "examplePages": [
+        "es-la-planta-baja",
+        "ca-la-planta-baixa",
+        "the-ground-floor",
+        "da-stueetagen"
+      ],
+      "exampleSlug": "es-la-planta-baja",
+      "exampleBlock": {
+        "url": "https://www.casaargentera.com/wp-content/uploads/2020/01/CasaArgentera-GroundFloor-1024x576.jpg",
+        "domPath": ".vc_masonry_media_grid .vc_gitem-zone",
+        "backgroundSize": "cover"
+      },
+      "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+    },
+    {
+      "name": "bg-Kitchen-groundf-CasaArgentera-1024x576",
+      "kind": "background-motif",
+      "occurrences": 4,
+      "examplePages": [
+        "es-la-planta-baja",
+        "ca-la-planta-baixa",
+        "the-ground-floor",
+        "da-stueetagen"
+      ],
+      "exampleSlug": "es-la-planta-baja",
+      "exampleBlock": {
+        "url": "https://www.casaargentera.com/wp-content/uploads/2020/01/Kitchen-groundf-CasaArgentera-1024x576.jpg",
+        "domPath": ".vc_masonry_media_grid .vc_gitem-zone",
+        "backgroundSize": "cover"
+      },
+      "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+    },
+    {
+      "name": "bg-CasaArgentera-hab2-0-1024x576",
+      "kind": "background-motif",
+      "occurrences": 4,
+      "examplePages": [
+        "es-la-planta-baja",
+        "ca-la-planta-baixa",
+        "the-ground-floor",
+        "da-stueetagen"
+      ],
+      "exampleSlug": "es-la-planta-baja",
+      "exampleBlock": {
+        "url": "https://www.casaargentera.com/wp-content/uploads/2020/01/CasaArgentera-hab2-0-1024x576.jpg",
+        "domPath": ".vc_masonry_media_grid .vc_gitem-zone",
+        "backgroundSize": "cover"
+      },
+      "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+    },
+    {
+      "name": "bg-CasaArgentera-hab-0-1024x576",
+      "kind": "background-motif",
+      "occurrences": 4,
+      "examplePages": [
+        "es-la-planta-baja",
+        "ca-la-planta-baixa",
+        "the-ground-floor",
+        "da-stueetagen"
+      ],
+      "exampleSlug": "es-la-planta-baja",
+      "exampleBlock": {
+        "url": "https://www.casaargentera.com/wp-content/uploads/2020/01/CasaArgentera-hab-0-1024x576.jpg",
+        "domPath": ".vc_masonry_media_grid .vc_gitem-zone",
+        "backgroundSize": "cover"
+      },
+      "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+    },
+    {
+      "name": "bg-BathroomGroundf-CasaArgentera-1024x575",
+      "kind": "background-motif",
+      "occurrences": 4,
+      "examplePages": [
+        "es-la-planta-baja",
+        "ca-la-planta-baixa",
+        "the-ground-floor",
+        "da-stueetagen"
+      ],
+      "exampleSlug": "es-la-planta-baja",
+      "exampleBlock": {
+        "url": "https://www.casaargentera.com/wp-content/uploads/2020/01/BathroomGroundf-CasaArgentera-1024x575.jpg",
+        "domPath": ".vc_masonry_media_grid .vc_gitem-zone",
+        "backgroundSize": "cover"
+      },
+      "notes": "Shared gallery tile background (masonry media grid on events / ground-floor pages) — same asset re-used across locales, not a decorative motif."
+    }
+  ],
+  "iconFont": {
+    "family": "Font Awesome 5 Free (solid) + icomoon-the7-font",
+    "localPath": "stardust/current/assets/fonts/fa-solid-900.woff2",
+    "sourceCss": "dt-the7 FontAwesome 5 webfonts; icomoon-the7-font.ttf for theme UI (mail, social)",
+    "glyphCount": 40,
+    "glyphs": [
+      {
+        "class": "the7-mw-icon-mail",
+        "codepoint": "\\E006",
+        "fontFamily": "icomoon-the7-font",
+        "name": null,
+        "count": 122
+      },
+      {
+        "class": "soc-font-icon",
+        "codepoint": "\\F111",
+        "fontFamily": "icomoon-the7-font",
+        "name": null,
+        "count": 122
+      },
+      {
+        "class": "soc-font-icon",
+        "codepoint": "\\F106",
+        "fontFamily": "icomoon-the7-font",
+        "name": null,
+        "count": 122
+      },
+      {
+        "class": "fa-bath",
+        "codepoint": "\\F2CD",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "bath",
+        "count": 30
+      },
+      {
+        "class": "fa-bed",
+        "codepoint": "\\F236",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "bed",
+        "count": 30
+      },
+      {
+        "class": "fa-fire-alt",
+        "codepoint": "\\F7E4",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "fire-alt",
+        "count": 30
+      },
+      {
+        "class": "fa-thermometer-half",
+        "codepoint": "\\F2C9",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "thermometer-half",
+        "count": 30
+      },
+      {
+        "class": "fa-bacon",
+        "codepoint": "\\F7E5",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "bacon",
+        "count": 22
+      },
+      {
+        "class": "fa-chair",
+        "codepoint": "\\F6C0",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "chair",
+        "count": 22
+      },
+      {
+        "class": "fa-sun",
+        "codepoint": "\\F185",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "sun",
+        "count": 22
+      },
+      {
+        "class": "fa-wine-glass-alt",
+        "codepoint": "\\F5CE",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "wine-glass-alt",
+        "count": 10
+      },
+      {
+        "class": "fa-baby",
+        "codepoint": "\\F77C",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "baby",
+        "count": 10
+      },
+      {
+        "class": "fa-book-reader",
+        "codepoint": "\\F5DA",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "book-reader",
+        "count": 8
+      },
+      {
+        "class": "fa-bus",
+        "codepoint": "\\F207",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "bus",
+        "count": 8
+      },
+      {
+        "class": "fa-car-alt",
+        "codepoint": "\\F5DE",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "car-alt",
+        "count": 8
+      },
+      {
+        "class": "fa-film",
+        "codepoint": "\\F008",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "film",
+        "count": 8
+      },
+      {
+        "class": "fa-grip-horizontal",
+        "codepoint": "\\F58D",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "grip-horizontal",
+        "count": 8
+      },
+      {
+        "class": "fa-plane",
+        "codepoint": "\\F072",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "plane",
+        "count": 8
+      },
+      {
+        "class": "fa-swimming-pool",
+        "codepoint": "\\F5C5",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "swimming-pool",
+        "count": 8
+      },
+      {
+        "class": "fa-train",
+        "codepoint": "\\F238",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "train",
+        "count": 8
+      },
+      {
+        "class": "fa-utensil-spoon",
+        "codepoint": "\\F2E5",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "utensil-spoon",
+        "count": 8
+      },
+      {
+        "class": "fa-child",
+        "codepoint": "\\F1AE",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "child",
+        "count": 6
+      },
+      {
+        "class": "fa-dumpster-fire",
+        "codepoint": "\\F794",
+        "fontFamily": "Font Awesome 5 Free",
+        "name": "dumpster-fire",
+        "count": 6
+      }
+    ]
+  },
+  "voice": {
+    "heroHeadline": "WELCOME HOME",
+    "heroEyebrow": "Casa Argentera",
+    "heroSubcopy": "Casa Argentera, a historical village situated in a small catalan mountain village, between the famous wine region Priorat and the Mediterranean Sea",
+    "heroImage": {
+      "url": "https://www.casaargentera.com/wp-content/uploads/2020/03/Piscina-CasaArgentera-1.jpg",
+      "alt": "View of the pool heated and lighted in Casa Argentera",
+      "source": "img",
+      "domPath": "#rev_slider_24_1 rs-slide[data-key=rs-103] img.rev-slidebg",
+      "localPath": null,
+      "rect": null,
+      "notes": "First of 5 Revolution Slider slides (lazy data-lazyload src); slider fills the first viewport under the overlaid header. Rect not measured by the census; intrinsic 1980×1114."
+    },
+    "heroMedium": null,
+    "heroMediumNotes": "Hero is an auto-advancing image slideshow (Revolution Slider 6, 5 slides, data-duration 2500, fade). Not a video/canvas/Lottie, so heroMedium is null; the slideshow itself is captured as module hero-slider.",
+    "primaryCTALabel": "RESERVATIONS",
+    "ctaSamples": [
+      "RESERVATIONS",
+      "CONTACT",
+      "Send",
+      "Go!",
+      "Get to know the house",
+      "Plenty of experiences waiting"
+    ],
+    "navItems": [
+      "THE HOUSE",
+      "THE PLACE",
+      "EXPERIENCES",
+      "EVENTS",
+      "WHO WE ARE",
+      "CONTACT",
+      "RESERVATIONS"
+    ],
+    "navItemsByLocale": {
+      "en": [
+        "THE HOUSE",
+        "THE PLACE",
+        "EXPERIENCES",
+        "EVENTS",
+        "WHO WE ARE",
+        "CONTACT",
+        "RESERVATIONS"
+      ],
+      "es": [
+        "LA CASA",
+        "EL ENTORNO",
+        "EXPERIENCIAS",
+        "EVENTOS",
+        "QUIÉNES SOMOS",
+        "CONTACTO",
+        "RESERVAS"
+      ],
+      "ca": [
+        "LA CASA",
+        "L’ENTORN",
+        "EXPERIÈNCIES",
+        "ESDEVENIMENTS",
+        "QUI SOM",
+        "CONTACTE",
+        "RESERVES"
+      ],
+      "da": [
+        "HUSET",
+        "STEDET",
+        "OPLEVELSER",
+        "EVENTS",
+        "OM OS",
+        "KONTAKT",
+        "RESERVATIONER"
+      ]
+    },
+    "footerHeadings": [
+      "CONTACT US",
+      "SEARCH",
+      "FOLLOW US",
+      "OTHER RENTALS",
+      "LEGAL INFO"
+    ],
+    "firstParagraph": "A place where time stands still, and unique traditions stays alive. Situated in a valley, in a tiny authentic Catalan village with cobblestone streets lined with ever blooming flowers and a majestic view of the castle of Escornalbou. A place where your story begins.",
+    "heroSlideCaptions": [
+      "Casa Argentera / WELCOME HOME",
+      "Mediterranean 100% / THE TIME IS YOURS",
+      "Unique traditions / SMALL AUTHENTIC CATALAN VILLAGE",
+      "Disconnect and relax / CELEBRATE LIFE",
+      "Amazing moments / HERE YOUR STORY BEGINS"
+    ],
+    "tone": {
+      "guess": "aspirational",
+      "evidence": "warm, sensory hospitality copy (\"A place where time stands still\", \"Here your story begins\", \"The time is yours\"); first-person-plural hosts (Albert & Ina); light non-native English (e.g. \"stays alive\", \"acces\", \"appartment\")"
+    },
+    "languages": [
+      "en",
+      "es",
+      "ca",
+      "da"
+    ]
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      {
+        "label": "Instagram page opens in new window",
+        "total": 210,
+        "pageCount": 70,
+        "pages": [
+          "index",
+          "es-el-entorno",
+          "es-naturaleza-deporte",
+          "es-playas-y-mas",
+          "es-quienes-somos"
+        ]
+      },
+      {
+        "label": "Facebook page opens in new window",
+        "total": 210,
+        "pageCount": 70,
+        "pages": [
+          "index",
+          "es-el-entorno",
+          "es-naturaleza-deporte",
+          "es-playas-y-mas",
+          "es-quienes-somos"
+        ]
+      },
+      {
+        "label": "Dansk",
+        "total": 128,
+        "pageCount": 70,
+        "pages": [
+          "index",
+          "es-el-entorno",
+          "es-naturaleza-deporte",
+          "es-playas-y-mas",
+          "es-quienes-somos"
+        ]
+      },
+      {
+        "label": "Català",
+        "total": 124,
+        "pageCount": 70,
+        "pages": [
+          "index",
+          "es-el-entorno",
+          "es-naturaleza-deporte",
+          "es-playas-y-mas",
+          "es-quienes-somos"
+        ]
+      },
+      {
+        "label": "Español",
+        "total": 115,
+        "pageCount": 70,
+        "pages": [
+          "index",
+          "es-el-entorno",
+          "es-naturaleza-deporte",
+          "es-playas-y-mas",
+          "es-quienes-somos"
+        ]
+      },
+      {
+        "label": "English",
+        "total": 114,
+        "pageCount": 70,
+        "pages": [
+          "index",
+          "es-el-entorno",
+          "es-naturaleza-deporte",
+          "es-playas-y-mas",
+          "es-quienes-somos"
+        ]
+      },
+      {
+        "label": "EVENTS",
+        "total": 72,
+        "pageCount": 36,
+        "pages": [
+          "index",
+          "ca-covid-19",
+          "who-we-are",
+          "nature-sport",
+          "the-place"
+        ]
+      },
+      {
+        "label": "www.CasaArgentera.com",
+        "total": 70,
+        "pageCount": 70,
+        "pages": [
+          "index",
+          "es-el-entorno",
+          "es-naturaleza-deporte",
+          "es-playas-y-mas",
+          "es-quienes-somos"
+        ]
+      }
+    ],
+    "headingFrequency": [
+      {
+        "text": "For additional information and reservations?",
+        "total": 6,
+        "pageCount": 6,
+        "level": 2
+      },
+      {
+        "text": "Open kitchen",
+        "total": 6,
+        "pageCount": 4,
+        "level": 5
+      },
+      {
+        "text": "Garden",
+        "total": 6,
+        "pageCount": 4,
+        "level": 5
+      },
+      {
+        "text": "Private terrace",
+        "total": 5,
+        "pageCount": 3,
+        "level": 5
+      },
+      {
+        "text": "Heating / Fan in each room",
+        "total": 5,
+        "pageCount": 3,
+        "level": 5
+      },
+      {
+        "text": "Informació addicional i reserves",
+        "total": 4,
+        "pageCount": 4,
+        "level": 2
+      },
+      {
+        "text": "Hair dryer",
+        "total": 4,
+        "pageCount": 4,
+        "level": 5
+      },
+      {
+        "text": "Secador de pelo",
+        "total": 3,
+        "pageCount": 3,
+        "level": 5
+      },
+      {
+        "text": "Cocina americana",
+        "total": 3,
+        "pageCount": 3,
+        "level": 5
+      },
+      {
+        "text": "Jardín",
+        "total": 3,
+        "pageCount": 3,
+        "level": 5
+      },
+      {
+        "text": "Piscina",
+        "total": 3,
+        "pageCount": 3,
+        "level": 5
+      },
+      {
+        "text": "General",
+        "total": 3,
+        "pageCount": 3,
+        "level": 4
+      },
+      {
+        "text": "Port Aventura World",
+        "total": 3,
+        "pageCount": 3,
+        "level": 2
+      },
+      {
+        "text": "Assecador de cabell",
+        "total": 3,
+        "pageCount": 3,
+        "level": 5
+      },
+      {
+        "text": "Cuina americana",
+        "total": 3,
+        "pageCount": 3,
+        "level": 5
+      },
+      {
+        "text": "Jardí",
+        "total": 3,
+        "pageCount": 3,
+        "level": 5
+      },
+      {
+        "text": "Swimming pool",
+        "total": 3,
+        "pageCount": 3,
+        "level": 5
+      },
+      {
+        "text": "2 bathrooms",
+        "total": 3,
+        "pageCount": 3,
+        "level": 5
+      },
+      {
+        "text": "Fireplace",
+        "total": 3,
+        "pageCount": 3,
+        "level": 5
+      }
+    ],
+    "toneMetrics": {
+      "headingsTotal": 460,
+      "headingsUppercasePercent": 6,
+      "distinctHeadings": 342,
+      "distinctCtaLabels": 117
+    }
+  },
+  "crossPromo": {
+    "detected": false,
+    "anchorHeading": null,
+    "cluster": null,
+    "pages": null,
+    "pageCount": null,
+    "totalPages": 70,
+    "notes": "anchor \"For additional information and reservations?\" (6 pages) has no co-occurring cluster ≥ 0.6 overlap — no cross-promo block. The repeated closer is the enquiry form (systemComponents enquiry-cta-band), whose heading is localized and reworded per page."
+  },
+  "embedDominated": [],
+  "embeds": {
+    "googleMaps": [
+      "index",
+      "es-inicio",
+      "ca-inici",
+      "contact",
+      "es-contacto",
+      "ca-contacte",
+      "da-kontakt"
+    ],
+    "recaptcha": "v3 badge on every page",
+    "notes": "No page is embed-dominated; maps render as grey boxes in captures."
+  },
+  "media": {
+    "imagesTotal": 615,
+    "emptyAlt": 12,
+    "emptyAltPercent": 2,
+    "genericAlt": {}
+  },
+  "register": "brand",
+  "registerEvidence": "Holiday-rental marketing site: photo hero slideshow, testimonials, enquiry forms, price list; no authentication, no tool UI."
+}

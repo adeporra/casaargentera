@@ -1,0 +1,21 @@
+{
+  "writtenBy": "gate-all.mjs",
+  "copiedFrom": "stardust/replica/gates/wide-2560/reservations-2/baseline.png",
+  "fixedLayers": {
+    "capture": "once",
+    "count": 10,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 3,
+    "intervals": 3,
+    "chains": 0,
+    "delays": [
+      3610000,
+      86400000
+    ]
+  },
+  "fontsFailed": [],
+  "deadFaces": []
+}

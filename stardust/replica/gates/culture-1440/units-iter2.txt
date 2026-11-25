@@ -1,0 +1,53 @@
+[live-session] waiting to pace live navigations to www.casaargentera.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 1440px, tol 4px — https://www.casaargentera.com/culture/ vs http://localhost:8793/culture-proposed.html
+unit 1 of culture-feature-column (required) #content > .vc_row > .vc_col-sm-6=#content > .culture-feature > .vc-col--1-2: origin 125,1269 595×319 vs served 125,1269 595×319 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "castle-monastery of escornalbou" | 30,0 535×301 | 30,0 535×301 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of culture-feature-column (required) #content > .vc_row > .vc_col-sm-6=#content > .culture-feature > .vc-col--1-2: origin 720,1269 595×295 vs served 720,1269 595×319 → Δx 0 Δy 0 Δw 0 Δh +24  ✗ unit size; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "the amazing escornalbou castle" | 30,0 535×110 | 30,0 535×110 | 0 | 0 | 0 | 0 | ✓ |
+| text "the is a peculiar mansion, reconstru" | 30,120 535×175 | 30,120 535×175 | 0 | 0 | 0 | 0 | ✓ |
+| link "castle-monastery of escornalbou" | 60,123 230×18 | 60,123 230×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "get the whole inspiring story visiti" | 30,198 347×18 | 30,198 347×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "impressive view of all the coastline" | 30,223 465×43 | 30,223 465×43 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of culture-feature-column (required) #content > .vc_row > .vc_col-sm-6=#content > .culture-feature > .vc-col--1-2: origin 125,1628 595×319 vs served 125,1628 595×319 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.alignnone.wp-image-15632#1" | 30,0 535×301 | 30,0 535×301 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of culture-feature-column (required) #content > .vc_row > .vc_col-sm-6=#content > .culture-feature > .vc-col--1-2: origin 720,1628 595×270 vs served 720,1628 595×319 → Δx 0 Δy 0 Δw 0 Δh +49  ✗ unit size; 8 elements: 8 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "just a few steps from the priorat" | 30,0 535×110 | 30,0 535×110 | 0 | 0 | 0 | 0 | ✓ |
+| text "follow the history and trace of the " | 30,120 535×150 | 30,120 535×150 | 0 | 0 | 0 | 0 | ✓ |
+| link "carthusian monks in escaladei" | 272,123 214×18 | 272,123 214×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "wine cathedral" | 308,148 113×18 | 308,148 113×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "wine tasting" | 30,198 92×18 | 30,198 92×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "the priorat" | 30,223 492×43 | 30,223 492×43 | 0 | 0 | 0 | 0 | ✓ |
+| text "montsant" | 146,248 70×18 | 146,248 70×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "terra alta" | 251,248 70×18 | 251,248 70×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of culture-feature-column (required) #content > .vc_row > .vc_col-sm-6=#content > .culture-feature > .vc-col--1-2: origin 125,1987 595×319 vs served 125,1987 595×319 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.alignnone.wp-image-15933#1" | 30,0 535×301 | 30,0 535×301 | 0 | 0 | 0 | 0 | ✓ |
+unit 6 of culture-feature-column (required) #content > .vc_row > .vc_col-sm-6=#content > .culture-feature > .vc-col--1-2: origin 720,1987 595×240 vs served 720,1987 595×319 → Δx 0 Δy 0 Δw 0 Δh +79  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "hidden gaudí" | 30,0 535×55 | 30,0 535×55 | 0 | 0 | 0 | 0 | ✓ |
+| text "only 10 km from the house, you find " | 30,65 535×175 | 30,65 535×175 | 0 | 0 | 0 | 0 | ✓ |
+| text "the park behind the house was design" | 30,68 535×43 | 30,68 535×43 | 0 | 0 | 0 | 0 | ✓ |
+| link "parc sama" | 286,68 75×18 | 286,68 75×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 7 of culture-feature-column (required) #content > .vc_row > .vc_col-sm-6=#content > .culture-feature > .vc-col--1-2: origin 125,2346 595×319 vs served 125,2346 595×319 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.alignnone.wp-image-15580#1" | 30,0 535×301 | 30,0 535×301 | 0 | 0 | 0 | 0 | ✓ |
+unit 8 of culture-feature-column (required) #content > .vc_row > .vc_col-sm-6=#content > .culture-feature > .vc-col--1-2: origin 720,2346 595×240 vs served 720,2346 595×319 → Δx 0 Δy 0 Δw 0 Δh +79  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "monastery treasures" | 30,0 535×55 | 30,0 535×55 | 0 | 0 | 0 | 0 | ✓ |
+| text "be fascinated by the peace and beaut" | 30,65 535×175 | 30,65 535×175 | 0 | 0 | 0 | 0 | ✓ |
+| text "founded in the xii century" | 127,93 196×18 | 127,93 196×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "cister route" | 145,218 81×18 | 145,218 81×18 | 0 | 0 | 0 | 0 | ✓ |
+Units: 8 compared; elements within 25, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/culture-1440/units-iter2.json

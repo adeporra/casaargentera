@@ -1,0 +1,285 @@
+{
+  "a": "stardust/replica/gates/all-360/da-the-garden/origin.png",
+  "b": "stardust/replica/gates/all-360/da-the-garden/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 4633,
+    "mode": "overlap"
+  },
+  "heightDelta": 17,
+  "differingPixels": 65146,
+  "pct": 3.91,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/da-the-garden/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 5.6,
+  "textBoxes": 76,
+  "textPixels": 323338,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 5.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 3.5
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 1.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 7.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 8.3
+    },
+    {
+      "y0": 4500,
+      "y1": 4633,
+      "pct": 4.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.09,
+    "differingPixels": 18276,
+    "compared": {
+      "width": 360,
+      "height": 4650,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1140,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 2155,
+        "shift": -3,
+        "cumulative": -4
+      },
+      {
+        "y": 2275,
+        "shift": -10,
+        "cumulative": -14
+      },
+      {
+        "y": 2488,
+        "shift": -3,
+        "cumulative": -17
+      }
+    ],
+    "maxOffset": 17,
+    "totalShift": 17,
+    "insertedRows": 0,
+    "deletedRows": 17,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1,
+        "unaligned": 1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1.5,
+        "unaligned": 1.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.9,
+        "unaligned": 5.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.4,
+        "unaligned": 2.8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 3.6,
+        "unaligned": 4
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.8,
+        "unaligned": 3.5
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 1.7
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.8,
+        "unaligned": 7.1
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.2,
+        "unaligned": 8.3
+      },
+      {
+        "y0": 4500,
+        "y1": 4650,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/da-the-garden/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 47,
+    "totalShift": 17,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--ea32f12a--aemcoder.aem.page/da/the-garden",
+    "key": {
+      "v": 3,
+      "build": "https://main--ea32f12a--aemcoder.aem.page/da/the-garden",
+      "source": "https://www.casaargentera.com/da/the-garden/",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "519c0df4e9ba792b",
+      "options": "bf5047b0a5c65691",
+      "reference": "3866853c9f76e640",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "73685aa19d593e97",
+      "instruments": "700566dc6f7774a4",
+      "page content": "b1f65ce2df76cdea",
+      "shared code": "15fa74636bb99ab3",
+      "block contact-form": "3a6a80dfee427df3",
+      "block hero-slider": "9c515f6f76444750",
+      "block icon-features": "13f4bc54a1d0b119",
+      "block image-grid": "12f4434553966273"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 2,
+          "missingButtons": 0,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 0,
+          "findings": 1,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 1,
+          "offPage": 0,
+          "textNodes": 51,
+          "controls": 16,
+          "total": 0
+        },
+        "groups": [
+          {
+            "kind": "TEXT X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "main#main",
+            "path": "main#main > div.section.image-grid-container > div.default-content-wrapper > h1#enjoy-the-mediterranean-weather-to-its-fullest",
+            "text": "enjoy the mediterranean weather to it’s fullest",
+            "cutMin": 31,
+            "cutMax": 31
+          }
+        ],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 1,
+          "offPage": 28,
+          "textNodes": 65,
+          "controls": 28,
+          "total": 0
+        },
+        "source": "content-presence"
+      },
+      "units": {
+        "verdict": {
+          "units": 10,
+          "within": 15,
+          "off": 0,
+          "hidden": 0,
+          "missing": 0,
+          "errors": 0,
+          "requiredOff": 0
+        },
+        "required": true,
+        "errors": []
+      }
+    },
+    "at": "2026-11-24T22:17:08.871Z"
+  }
+}

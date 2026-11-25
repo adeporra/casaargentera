@@ -1,0 +1,21 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.casaargentera.com/culture/
+  shell     1250px  fixed     #main > div.wf-wrap  (tier 1, holds 100% of the text)
+  modules  9 sections: capped 595 ×4 · full-bleed ×5
+  contentMaxWidth 1250px (shell) · shellMaxWidth 1250px · root #main
+build  http://localhost:8793/culture-proposed.html
+  shell     1250px  max-width #main > div.wf-wrap  (tier 1, holds 100% of the text)
+  modules  9 sections: capped 595 ×4 · full-bleed ×5
+  contentMaxWidth 1250px (shell) · shellMaxWidth 1250px · root #main
+rows
+  ✓ wrapper cap: live 1250px = build 1250px (±20)
+  ✓ module 1/9: full-bleed on both
+  ✓ module 2/9: full-bleed on both
+  ✓ module 3/9: 595px = 595px
+  ✓ module 4/9: full-bleed on both
+  ✓ module 5/9: 595px = 595px
+  ✓ module 6/9: full-bleed on both
+  ✓ module 7/9: 595px = 595px
+  ✓ module 8/9: full-bleed on both
+  ✓ module 9/9: 595px = 595px
+cap-probe: PASS at 2560 — 0 of 10 rows failed (evidence stardust/replica/gates/culture-2560/cap-iter.json)

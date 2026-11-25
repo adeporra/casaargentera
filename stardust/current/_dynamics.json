@@ -1,0 +1,2667 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-24T09:48:25.456Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.casaargentera.com/",
+   "https://www.casaargentera.com/es/el-entorno/",
+   "https://www.casaargentera.com/es/el-atico/",
+   "https://www.casaargentera.com/es/eventos/",
+   "https://www.casaargentera.com/es/experiencias/",
+   "https://www.casaargentera.com/es/contacto/",
+   "https://www.casaargentera.com/es/reservas/",
+   "https://www.casaargentera.com/ca/politica-de-privacidad-y-cookies/"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://www.casaargentera.com/",
+   "status": 200,
+   "host": "www.casaargentera.com",
+   "title": "Home - Casa Argentera",
+   "forms": [
+    {
+     "name": "searchform",
+     "action": "https://www.casaargentera.com/",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:s"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "settings",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": "https://www.casaargentera.com/#",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": "https://www.casaargentera.com/#",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Enable All",
+     "href": null,
+     "marker": "moove-gdpr-modal-allow-all",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Save Changes",
+     "href": null,
+     "marker": "moove-gdpr-modal-save-settings",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Privacy Overview",
+     "textLen": 1066,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Privacy Overview",
+     "textLen": 1001,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Privacy Overview",
+     "textLen": 61,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 912,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Privacy Overview",
+     "textLen": 888,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 9,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d383647.09827414446!2d1.3667038110799592!3d41.30357797783899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a14821bb6d19c1%3A0xe31768b059524",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&co=aHR0cHM6Ly93d3cuY2FzYWFyZ2VudGVyYS5jb206NDQz&hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA&size=invisible&anchor-ms=2",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d383647.09827414446!2d1.3667038110799592!3d41.30357797783899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a14821bb6d19c1%3A0xe31768b059524a1!2sCasa%20Argentera!5e0!3m2!1sca!2ses!4v1583741717990!5m2!1sca!2ses",
+     "title": null,
+     "w": 1120,
+     "h": 450
+    },
+    {
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&co=aHR0cHM6Ly93d3cuY2FzYWFyZ2VudGVyYS5jb206NDQz&hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=etvu1h1o5uim",
+     "title": "reCAPTCHA",
+     "w": 256,
+     "h": 60
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-GB",
+    "hreflang": [
+     "en",
+     "da",
+     "ca",
+     "es"
+    ],
+    "switcher": [
+     "https://www.casaargentera.com/da/home/",
+     "https://www.casaargentera.com/ca/inici/",
+     "https://www.casaargentera.com/es/inicio/",
+     "https://www.casaargentera.com/da/home/",
+     "https://www.casaargentera.com/ca/inici/"
+    ]
+   },
+   "cms": {
+    "wp": [
+     "hooks",
+     "i18n"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag",
+    "grecaptcha"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 7,
+   "inlineFetch": false,
+   "mainText": 5817,
+   "domAddedAfterLoad": 22,
+   "hosts": {
+    "www.casaargentera.com": 38,
+    "fonts.gstatic.com": 10,
+    "www.google.com": 25,
+    "maps.gstatic.com": 2,
+    "maps.googleapis.com": 18,
+    "fonts.googleapis.com": 2,
+    "www.gstatic.com": 5,
+    "www.googletagmanager.com": 2,
+    "www.google-analytics.com": 1,
+    "places.googleapis.com": 1
+   },
+   "thirdPartyHosts": [
+    "fonts.gstatic.com",
+    "www.google.com",
+    "maps.gstatic.com",
+    "maps.googleapis.com",
+    "fonts.googleapis.com",
+    "www.gstatic.com",
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "places.googleapis.com"
+   ],
+   "scripts": [
+    "https://www.casaargentera.com/wp-includes/js/dist/hooks.min.js",
+    "https://www.casaargentera.com/wp-includes/js/dist/i18n.min.js",
+    "https://www.casaargentera.com/wp-includes/js/jquery/jquery.min.js",
+    "https://www.casaargentera.com/wp-includes/js/dist/vendor/wp-polyfill.min.js",
+    "https://www.google.com/recaptcha/api.js?render=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&&&ver=3.0",
+    "https://maps.gstatic.com/maps-api-v3/embed/js/67/1d/intl/ca_ALL/init_embed.js",
+    "https://maps.googleapis.com/maps/api/js?key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&paint_origin=&libraries=geometry,search&v=weekly&loading=async&language=ca&region=es&experimentation=allowed&callbac",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/geometry.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/search.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/main.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/common.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/util.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/map.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/controls.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/places_impl.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/onion.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/search_impl.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/places.js",
+    "https://www.casaargentera.com/wp-content/plugins/sg-cachepress/assets/js/lazysizes.min.js",
+    "https://www.gstatic.com/recaptcha/releases/DqDoLJqJmjhqr0vRwNZ2MCHA/recaptcha__en.js",
+    "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA",
+    "https://www.casaargentera.com/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-js-796f521fad547a8483964c06cdb70d43.js",
+    "https://www.googletagmanager.com/gtag/js?id=UA-4591587-1",
+    "https://www.googletagmanager.com/gtag/js?id=G-CV2K683122&cx=c&gtm=4e6bh1",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/log.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET maps.googleapis.com/maps/api/mapsjs/gen_204",
+    "POST www.google.com/recaptcha/api2/reload",
+    "POST www.google.com/recaptcha/api2/clr",
+    "POST www.google-analytics.com/g/collect",
+    "POST maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/InitMapsJwt",
+    "POST maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+    "POST maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetPlaceWidgetMetadat",
+    "GET www.google.com/maps/vt",
+    "POST places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google.com/recaptcha/api2/reload?k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7",
+     "body": "\n\u0018DqDoLJqJmjhqr0vRwNZ2MCHA\u0012�\u000e03AFcWeA6sSJFaeJfqTmlpGZNdrzeMm72fx18wQnLzjBph52T7WyEaNboeXAvOSO14m0DbeC2pYNurTIYU4xKNW2CxWuQqQAst1x62-L0tkXr1XyKnEjqhT0UC80h--Via5i0uHJEO2kVlSWwFzuBB0KHsCW77KtCVKx_LDeoqGOEaUaIRoNQ4LGR6kd3vDwznBkiRSEJKhlyZUfLQm7HOFNiv_grrY5kXyaaAZsI5N5QaN5m-1R3l1TXP3KfqP38sJtKKAxH-caIz-CQ_aZX0o2ZyVvh9qDlCQKLbC-AWEz49HyVVNCepoCpJJsHCrx9jmqnJ-p3AfVhfdRKA4gDYQTys0eN6mDGHo1GqaeQY9D9yS1uSe"
+    },
+    {
+     "url": "https://www.google.com/recaptcha/api2/clr?k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7",
+     "body": "\n(6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7\u0012�\u000e03AFcWeA6sSJFaeJfqTmlpGZNdrzeMm72fx18wQnLzjBph52T7WyEaNboeXAvOSO14m0DbeC2pYNurTIYU4xKNW2CxWuQqQAst1x62-L0tkXr1XyKnEjqhT0UC80h--Via5i0uHJEO2kVlSWwFzuBB0KHsCW77KtCVKx_LDeoqGOEaUaIRoNQ4LGR6kd3vDwznBkiRSEJKhlyZUfLQm7HOFNiv_grrY5kXyaaAZsI5N5QaN5m-1R3l1TXP3KfqP38sJtKKAxH-caIz-CQ_aZX0o2ZyVvh9qDlCQKLbC-AWEz49HyVVNCepoCpJJsHCrx9jmqnJ-p3AfVhfdRKA4gDYQTys0eN6mDGHo"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CV2K683122&gtm=45je6bh1v9110818565za20oxf1&_p=1795513712234&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAI&cid=1430330903.1795513712&frm=0&ngs=1&pscdl=noapi",
+     "body": ""
+    },
+    {
+     "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/InitMapsJwt",
+     "body": "[\"https://www.google.com\"]"
+    },
+    {
+     "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+     "body": "[[[39.65306981035308,-3.723292939939256],[42.538621838806,5.584939409908884]],9,null,\"ca\",0,\"m@805000000\",0,0,null,null,289,1,\"https://www.google.com/maps/embed\",1,null,null,\"095A57D6-9523-47F0-9EEC-280B9D3129A5\"]"
+    },
+    {
+     "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetPlaceWidgetMetadata",
+     "body": "[9,\"109532\",\"https://www.google.com\",null,1]"
+    },
+    {
+     "url": "https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace",
+     "body": "[\"places/ChIJwRltuyFIoRIRoSSVBYt2MQ4\",\"ca\",\"ES\"]"
+    },
+    {
+     "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+     "body": "[[[39.23845877701561,-1.6349357823756505],[43.13715179652678,3.521400146655247]],5,null,\"ca\",2,null,0,0,null,null,289,1,\"https://www.google.com/maps/embed\",1]"
+    }
+   ],
+   "textAtLoad": 5627,
+   "mainEmptyAtLoad": false
+  },
+  "/es/el-entorno/": {
+   "url": "https://www.casaargentera.com/es/el-entorno/",
+   "status": 200,
+   "host": "www.casaargentera.com",
+   "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+   "forms": [
+    {
+     "name": "searchform",
+     "action": "https://www.casaargentera.com/es/",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:s"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "ajustes",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": "https://www.casaargentera.com/es/el-entorno/#",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": "https://www.casaargentera.com/es/el-entorno/#",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Activar todo",
+     "href": null,
+     "marker": "moove-gdpr-modal-allow-all",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Guardar ajustes",
+     "href": null,
+     "marker": "moove-gdpr-modal-save-settings",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Resumen de privacidad",
+     "textLen": 959,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 885,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 64,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 785,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 756,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 28,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 9,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&co=aHR0cHM6Ly93d3cuY2FzYWFyZ2VudGVyYS5jb206NDQz&hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA&size=invisible&anchor-ms=2",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&co=aHR0cHM6Ly93d3cuY2FzYWFyZ2VudGVyYS5jb206NDQz&hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=9t1qpgczqrmh",
+     "title": "reCAPTCHA",
+     "w": 256,
+     "h": 60
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "es-ES",
+    "hreflang": [
+     "en",
+     "da",
+     "ca",
+     "es"
+    ],
+    "switcher": [
+     "https://www.casaargentera.com/da/home/",
+     "https://www.casaargentera.com/ca/inici/",
+     "https://www.casaargentera.com/da/home/",
+     "https://www.casaargentera.com/ca/inici/",
+     "https://www.casaargentera.com/da/stedet/"
+    ]
+   },
+   "cms": {
+    "wp": [
+     "hooks",
+     "i18n"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag",
+    "grecaptcha"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 7,
+   "inlineFetch": false,
+   "mainText": 2385,
+   "domAddedAfterLoad": 13,
+   "hosts": {
+    "www.casaargentera.com": 29,
+    "www.google.com": 5,
+    "fonts.gstatic.com": 7,
+    "www.gstatic.com": 5,
+    "www.googletagmanager.com": 2,
+    "www.google-analytics.com": 1
+   },
+   "thirdPartyHosts": [
+    "www.google.com",
+    "fonts.gstatic.com",
+    "www.gstatic.com",
+    "www.googletagmanager.com",
+    "www.google-analytics.com"
+   ],
+   "scripts": [
+    "https://www.casaargentera.com/wp-includes/js/dist/i18n.min.js",
+    "https://www.casaargentera.com/wp-includes/js/dist/hooks.min.js",
+    "https://www.casaargentera.com/wp-includes/js/jquery/jquery.min.js",
+    "https://www.casaargentera.com/wp-includes/js/dist/vendor/wp-polyfill.min.js",
+    "https://www.google.com/recaptcha/api.js?render=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&&&ver=3.0",
+    "https://www.casaargentera.com/wp-content/plugins/sg-cachepress/assets/js/lazysizes.min.js",
+    "https://www.gstatic.com/recaptcha/releases/DqDoLJqJmjhqr0vRwNZ2MCHA/recaptcha__en.js",
+    "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA",
+    "https://www.casaargentera.com/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-js-80d3d7877e3354709d5e29438471af74.js",
+    "https://www.googletagmanager.com/gtag/js?id=UA-4591587-1",
+    "https://www.googletagmanager.com/gtag/js?id=G-CV2K683122&cx=c&gtm=4e6bh1"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "POST www.google.com/recaptcha/api2/reload",
+    "POST www.google.com/recaptcha/api2/clr",
+    "POST www.google-analytics.com/g/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google.com/recaptcha/api2/reload?k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7",
+     "body": "\n\u0018DqDoLJqJmjhqr0vRwNZ2MCHA\u0012�\u000e03AFcWeA6B9jui4fGG7UHjdp42NboJK7x39qFrdmW5URV5z3QIsOhGJm_LbSt4t5FYg8zacBy_bXpGll6oM0hYYBGZDa4ihWI0JwjVVpyLWUwkKwDg1lYP3_T55NiScQxtKn3m7CEfrVQKq1XRe6-m5JyTFdIaJNRgBi471znp0OUygnLg6SPSom5W9EbtbG2G2m-qZOv7CNQS8bZEho0O1UyCTgZDlHtgmO7UBWEVmSqBZTgQGzNYAEK3bOSufoGx3kjEmbzI7qpiM3ip7wJZrPECsZFzCitLRDBGoMPEgt4LSbYq-w8rdYoIjlNLjHTUxh7lEy5IfJIzxDttWrBBTaF8nGoZNj49g38vuxw3vS_6Aib64"
+    },
+    {
+     "url": "https://www.google.com/recaptcha/api2/clr?k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7",
+     "body": "\n(6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7\u0012�\u000e03AFcWeA6B9jui4fGG7UHjdp42NboJK7x39qFrdmW5URV5z3QIsOhGJm_LbSt4t5FYg8zacBy_bXpGll6oM0hYYBGZDa4ihWI0JwjVVpyLWUwkKwDg1lYP3_T55NiScQxtKn3m7CEfrVQKq1XRe6-m5JyTFdIaJNRgBi471znp0OUygnLg6SPSom5W9EbtbG2G2m-qZOv7CNQS8bZEho0O1UyCTgZDlHtgmO7UBWEVmSqBZTgQGzNYAEK3bOSufoGx3kjEmbzI7qpiM3ip7wJZrPECsZFzCitLRDBGoMPEgt4LSbYq-w8rdYoIjlNLjHTUxh7lEy5IfJIzxDttWrBBTaF8nGoZNj49g"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CV2K683122&gtm=45je6bh1v9110818565za20oxf1&_p=1795513726282&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAI&cid=493474392.1795513726&frm=0&ngs=1&pscdl=noapi&",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 2061,
+   "mainEmptyAtLoad": false
+  },
+  "/es/el-atico/": {
+   "url": "https://www.casaargentera.com/es/el-atico/",
+   "status": 200,
+   "host": "www.casaargentera.com",
+   "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+   "forms": [
+    {
+     "name": "wpcf7-form",
+     "action": "https://www.casaargentera.com/es/el-atico/#wpcf7-f16165-p16110-o1",
+     "method": "post",
+     "role": "",
+     "inChrome": true,
+     "fields": 6,
+     "signature": [
+      "text:your-name",
+      "email:your-email",
+      "tel:tel-148",
+      "text:your-subject",
+      "textarea:your-message",
+      "checkbox:acceptance-575"
+     ],
+     "hidden": [
+      "_wpcf7",
+      "_wpcf7_version",
+      "_wpcf7_locale",
+      "_wpcf7_unit_tag",
+      "_wpcf7_container_post",
+      "_wpcf7_posted_data_hash",
+      "_wpcf7_recaptcha_response"
+     ],
+     "tokens": [
+      "_wpcf7_recaptcha_response"
+     ],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "searchform",
+     "action": "https://www.casaargentera.com/es/",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:s"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "ajustes",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": "https://www.casaargentera.com/es/el-atico/#",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": "https://www.casaargentera.com/es/el-atico/#",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Activar todo",
+     "href": null,
+     "marker": "moove-gdpr-modal-allow-all",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Guardar ajustes",
+     "href": null,
+     "marker": "moove-gdpr-modal-save-settings",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Resumen de privacidad",
+     "textLen": 959,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 885,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 64,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 785,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 756,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 28,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 9,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&co=aHR0cHM6Ly93d3cuY2FzYWFyZ2VudGVyYS5jb206NDQz&hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA&size=invisible&anchor-ms=2",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&co=aHR0cHM6Ly93d3cuY2FzYWFyZ2VudGVyYS5jb206NDQz&hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=btnznmmed0ns",
+     "title": "reCAPTCHA",
+     "w": 256,
+     "h": 60
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "es-ES",
+    "hreflang": [
+     "en",
+     "da",
+     "ca",
+     "es"
+    ],
+    "switcher": [
+     "https://www.casaargentera.com/da/home/",
+     "https://www.casaargentera.com/ca/inici/",
+     "https://www.casaargentera.com/da/home/",
+     "https://www.casaargentera.com/ca/inici/",
+     "https://www.casaargentera.com/wp/privacy-policy/"
+    ]
+   },
+   "cms": {
+    "wp": [
+     "hooks",
+     "i18n"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag",
+    "grecaptcha"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 7,
+   "inlineFetch": false,
+   "mainText": 2406,
+   "domAddedAfterLoad": 13,
+   "hosts": {
+    "www.casaargentera.com": 36,
+    "fonts.gstatic.com": 7,
+    "www.google.com": 5,
+    "www.gstatic.com": 5,
+    "www.googletagmanager.com": 2,
+    "www.google-analytics.com": 1
+   },
+   "thirdPartyHosts": [
+    "fonts.gstatic.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.googletagmanager.com",
+    "www.google-analytics.com"
+   ],
+   "scripts": [
+    "https://www.casaargentera.com/wp-includes/js/dist/hooks.min.js",
+    "https://www.casaargentera.com/wp-includes/js/dist/i18n.min.js",
+    "https://www.casaargentera.com/wp-includes/js/jquery/jquery.min.js",
+    "https://www.casaargentera.com/wp-includes/js/dist/vendor/wp-polyfill.min.js",
+    "https://www.google.com/recaptcha/api.js?render=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&&&ver=3.0",
+    "https://www.casaargentera.com/wp-content/plugins/sg-cachepress/assets/js/lazysizes.min.js",
+    "https://www.gstatic.com/recaptcha/releases/DqDoLJqJmjhqr0vRwNZ2MCHA/recaptcha__en.js",
+    "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA",
+    "https://www.casaargentera.com/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-js-b6979f51824ea5a3e82ca97a15d70c77.js",
+    "https://www.googletagmanager.com/gtag/js?id=UA-4591587-1",
+    "https://www.googletagmanager.com/gtag/js?id=G-CV2K683122&cx=c&gtm=4e6bh1"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.casaargentera.com",
+     "path": "/wp-json/contact-form-7/v1/contact-forms/{n}/feedback/schema",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.casaargentera.com/wp-json/contact-form-7/v1/contact-forms/16165/feedback/schema"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST www.google.com/recaptcha/api2/reload",
+    "POST www.google.com/recaptcha/api2/clr",
+    "POST www.google-analytics.com/g/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google.com/recaptcha/api2/reload?k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7",
+     "body": "\n\u0018DqDoLJqJmjhqr0vRwNZ2MCHA\u0012�\u000e03AFcWeA5TcnKReICyjagj8-GwrLTDTSmmTF6e1QQ5dUShOrX9Z961c2BFu19oXGHj-ZNbXuDSMetuWpTUK_SjEauT8xnnWy9U0SIGAC5R2q-q9eFEZCUGdqwj_A-EJxE1S4bsczeZjAi7AD3z6hgmd5NH7kSSN1IEL3gh20Un87ucz8RdnxWQ2EBIFUgmZna6Z6MyPpGxT-pdJoto8Kk-rHWUoOjSCT_rAcfn4oe-LZ1G01_eT7daIUqkwLN_eAITWha4ORo0gU2dF2JRYLk-90THAyuAc8G5RNQkRCg0QS-v9nQOgqMRoFrh_PE_BKfwNtRfgxJftlmC3lgIC4ehm0Sq8vCbZOxOWlvc3OmYfS8UO8E9k"
+    },
+    {
+     "url": "https://www.google.com/recaptcha/api2/clr?k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7",
+     "body": "\n(6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7\u0012�\u000e03AFcWeA5TcnKReICyjagj8-GwrLTDTSmmTF6e1QQ5dUShOrX9Z961c2BFu19oXGHj-ZNbXuDSMetuWpTUK_SjEauT8xnnWy9U0SIGAC5R2q-q9eFEZCUGdqwj_A-EJxE1S4bsczeZjAi7AD3z6hgmd5NH7kSSN1IEL3gh20Un87ucz8RdnxWQ2EBIFUgmZna6Z6MyPpGxT-pdJoto8Kk-rHWUoOjSCT_rAcfn4oe-LZ1G01_eT7daIUqkwLN_eAITWha4ORo0gU2dF2JRYLk-90THAyuAc8G5RNQkRCg0QS-v9nQOgqMRoFrh_PE_BKfwNtRfgxJftlmC3lgIC4ehm0Sq8vCbZOxOW"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CV2K683122&gtm=45je6bh1v9110818565za20oxf1&_p=1795513742011&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAI&cid=667248193.1795513742&frm=0&ngs=1&pscdl=noapi&",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 2082,
+   "mainEmptyAtLoad": false
+  },
+  "/es/eventos/": {
+   "url": "https://www.casaargentera.com/es/eventos/",
+   "status": 200,
+   "host": "www.casaargentera.com",
+   "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+   "forms": [
+    {
+     "name": "wpcf7-form",
+     "action": "https://www.casaargentera.com/es/eventos/#wpcf7-f16165-p16151-o1",
+     "method": "post",
+     "role": "",
+     "inChrome": true,
+     "fields": 6,
+     "signature": [
+      "text:your-name",
+      "email:your-email",
+      "tel:tel-148",
+      "text:your-subject",
+      "textarea:your-message",
+      "checkbox:acceptance-575"
+     ],
+     "hidden": [
+      "_wpcf7",
+      "_wpcf7_version",
+      "_wpcf7_locale",
+      "_wpcf7_unit_tag",
+      "_wpcf7_container_post",
+      "_wpcf7_posted_data_hash",
+      "_wpcf7_recaptcha_response"
+     ],
+     "tokens": [
+      "_wpcf7_recaptcha_response"
+     ],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "searchform",
+     "action": "https://www.casaargentera.com/es/",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:s"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "ajustes",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": "https://www.casaargentera.com/es/eventos/#",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": "https://www.casaargentera.com/es/eventos/#",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Activar todo",
+     "href": null,
+     "marker": "moove-gdpr-modal-allow-all",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Guardar ajustes",
+     "href": null,
+     "marker": "moove-gdpr-modal-save-settings",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Resumen de privacidad",
+     "textLen": 959,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 885,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 64,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 785,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 756,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 28,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 9,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&co=aHR0cHM6Ly93d3cuY2FzYWFyZ2VudGVyYS5jb206NDQz&hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA&size=invisible&anchor-ms=2",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&co=aHR0cHM6Ly93d3cuY2FzYWFyZ2VudGVyYS5jb206NDQz&hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=bf4lmil5ogg2",
+     "title": "reCAPTCHA",
+     "w": 256,
+     "h": 60
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "es-ES",
+    "hreflang": [
+     "en",
+     "da",
+     "ca",
+     "es"
+    ],
+    "switcher": [
+     "https://www.casaargentera.com/da/home/",
+     "https://www.casaargentera.com/ca/inici/",
+     "https://www.casaargentera.com/da/home/",
+     "https://www.casaargentera.com/ca/inici/",
+     "https://www.casaargentera.com/wp/privacy-policy/"
+    ]
+   },
+   "cms": {
+    "wp": [
+     "hooks",
+     "i18n"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag",
+    "grecaptcha"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 7,
+   "inlineFetch": false,
+   "mainText": 2432,
+   "domAddedAfterLoad": 24,
+   "hosts": {
+    "www.casaargentera.com": 37,
+    "fonts.gstatic.com": 7,
+    "www.google.com": 5,
+    "www.gstatic.com": 5,
+    "www.googletagmanager.com": 2,
+    "www.google-analytics.com": 1
+   },
+   "thirdPartyHosts": [
+    "fonts.gstatic.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.googletagmanager.com",
+    "www.google-analytics.com"
+   ],
+   "scripts": [
+    "https://www.casaargentera.com/wp-includes/js/dist/hooks.min.js",
+    "https://www.casaargentera.com/wp-includes/js/dist/i18n.min.js",
+    "https://www.casaargentera.com/wp-includes/js/dist/vendor/wp-polyfill.min.js",
+    "https://www.casaargentera.com/wp-includes/js/jquery/jquery.min.js",
+    "https://www.google.com/recaptcha/api.js?render=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&&&ver=3.0",
+    "https://www.casaargentera.com/wp-content/plugins/sg-cachepress/assets/js/lazysizes.min.js",
+    "https://www.gstatic.com/recaptcha/releases/DqDoLJqJmjhqr0vRwNZ2MCHA/recaptcha__en.js",
+    "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA",
+    "https://www.casaargentera.com/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-js-96bcc50969017352c31a5aeb8bc5aa24.js",
+    "https://www.googletagmanager.com/gtag/js?id=UA-4591587-1",
+    "https://www.googletagmanager.com/gtag/js?id=G-CV2K683122&cx=c&gtm=4e6bh1"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.casaargentera.com",
+     "path": "/wp-json/contact-form-7/v1/contact-forms/{n}/feedback/schema",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.casaargentera.com/wp-json/contact-form-7/v1/contact-forms/16165/feedback/schema"
+    },
+    {
+     "method": "POST",
+     "host": "www.casaargentera.com",
+     "path": "/wp-admin/admin-ajax.php",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.casaargentera.com/wp-admin/admin-ajax.php"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST www.google.com/recaptcha/api2/reload",
+    "POST www.google.com/recaptcha/api2/clr",
+    "POST www.google-analytics.com/g/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.casaargentera.com/wp-admin/admin-ajax.php",
+     "body": "action=vc_get_vc_grid_data&vc_action=vc_get_vc_grid_data&tag=vc_masonry_media_grid&data%5Bvisible_pages%5D=5&data%5Bpage_id%5D=16151&data%5Bstyle%5D=all-masonry&data%5Baction%5D=vc_get_vc_grid_data&data%5Bshortcode_id%5D=1602010997641-b6660694-fcea-4&data%5Btag%5D=vc_masonry_media_grid&vc_post_id=16151&_vcnonce=c773b1a23a"
+    },
+    {
+     "url": "https://www.google.com/recaptcha/api2/reload?k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7",
+     "body": "\n\u0018DqDoLJqJmjhqr0vRwNZ2MCHA\u0012�\u000e03AFcWeA56ra7wvJtMtTftqP5wyxjWj-au_HIbS-YcLsqnvu64jhLy52OKVn8fXaJmjdJ0HIuhDyOSu6aUvBt32XMH_ajB9lKinXPiLb4U3j4QsXoeQzYND9YJNqxv0VxqOFdl2IvcDVEBx__ex2k085_tnQmvraREtN29YvURM8mDAhwj27O8_kuG88dauhS3aEOPMtWah5Ymbu0XBWwvmlwA6U5lnSaN4Mc3mU3E7c3x4IPZoSVcEZfWLCfvC50twfpel4Ka82GepSrLwpa9yskbn56AQZqEa__gzEkY8Afbh9q_ULRoFPDBDA03z3KP0twqQgO9SpvFCtDb7gvAKN_ZojlHIVihkb5gXsw4eg7gS86-P"
+    },
+    {
+     "url": "https://www.google.com/recaptcha/api2/clr?k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7",
+     "body": "\n(6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7\u0012�\u000e03AFcWeA56ra7wvJtMtTftqP5wyxjWj-au_HIbS-YcLsqnvu64jhLy52OKVn8fXaJmjdJ0HIuhDyOSu6aUvBt32XMH_ajB9lKinXPiLb4U3j4QsXoeQzYND9YJNqxv0VxqOFdl2IvcDVEBx__ex2k085_tnQmvraREtN29YvURM8mDAhwj27O8_kuG88dauhS3aEOPMtWah5Ymbu0XBWwvmlwA6U5lnSaN4Mc3mU3E7c3x4IPZoSVcEZfWLCfvC50twfpel4Ka82GepSrLwpa9yskbn56AQZqEa__gzEkY8Afbh9q_ULRoFPDBDA03z3KP0twqQgO9SpvFCtDb7gvAKN_ZojlHIVihk"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CV2K683122&gtm=45je6bh1v9110818565za20oxf1&_p=1795513757244&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAI&cid=484072665.1795513757&frm=0&ngs=1&pscdl=noapi&",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 2062,
+   "mainEmptyAtLoad": false
+  },
+  "/es/experiencias/": {
+   "url": "https://www.casaargentera.com/es/experiencias/",
+   "status": 200,
+   "host": "www.casaargentera.com",
+   "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+   "forms": [
+    {
+     "name": "searchform",
+     "action": "https://www.casaargentera.com/es/",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:s"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "ajustes",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": "https://www.casaargentera.com/es/experiencias/#",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": "https://www.casaargentera.com/es/experiencias/#",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Activar todo",
+     "href": null,
+     "marker": "moove-gdpr-modal-allow-all",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Guardar ajustes",
+     "href": null,
+     "marker": "moove-gdpr-modal-save-settings",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Resumen de privacidad",
+     "textLen": 959,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 885,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 64,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 785,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 756,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 28,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 9,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&co=aHR0cHM6Ly93d3cuY2FzYWFyZ2VudGVyYS5jb206NDQz&hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA&size=invisible&anchor-ms=2",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&co=aHR0cHM6Ly93d3cuY2FzYWFyZ2VudGVyYS5jb206NDQz&hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=tu3qxalvvzvx",
+     "title": "reCAPTCHA",
+     "w": 256,
+     "h": 60
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "es-ES",
+    "hreflang": [
+     "en",
+     "da",
+     "ca",
+     "es"
+    ],
+    "switcher": [
+     "https://www.casaargentera.com/da/home/",
+     "https://www.casaargentera.com/ca/inici/",
+     "https://www.casaargentera.com/da/home/",
+     "https://www.casaargentera.com/ca/inici/",
+     "https://www.casaargentera.com/wp/naturaleza-deporte/"
+    ]
+   },
+   "cms": {
+    "wp": [
+     "hooks",
+     "i18n"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag",
+    "grecaptcha"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 7,
+   "inlineFetch": false,
+   "mainText": 1561,
+   "domAddedAfterLoad": 12,
+   "hosts": {
+    "www.casaargentera.com": 31,
+    "www.google.com": 5,
+    "fonts.gstatic.com": 7,
+    "www.gstatic.com": 5,
+    "www.googletagmanager.com": 2,
+    "www.google-analytics.com": 1
+   },
+   "thirdPartyHosts": [
+    "www.google.com",
+    "fonts.gstatic.com",
+    "www.gstatic.com",
+    "www.googletagmanager.com",
+    "www.google-analytics.com"
+   ],
+   "scripts": [
+    "https://www.casaargentera.com/wp-includes/js/dist/i18n.min.js",
+    "https://www.casaargentera.com/wp-includes/js/dist/hooks.min.js",
+    "https://www.casaargentera.com/wp-includes/js/jquery/jquery.min.js",
+    "https://www.casaargentera.com/wp-includes/js/dist/vendor/wp-polyfill.min.js",
+    "https://www.google.com/recaptcha/api.js?render=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&&&ver=3.0",
+    "https://www.casaargentera.com/wp-content/plugins/sg-cachepress/assets/js/lazysizes.min.js",
+    "https://www.gstatic.com/recaptcha/releases/DqDoLJqJmjhqr0vRwNZ2MCHA/recaptcha__en.js",
+    "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA",
+    "https://www.casaargentera.com/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-js-f0b4d105821200d1ab80fc06cc46812a.js",
+    "https://www.googletagmanager.com/gtag/js?id=UA-4591587-1",
+    "https://www.googletagmanager.com/gtag/js?id=G-CV2K683122&cx=c&gtm=4e6bh1"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "POST www.google.com/recaptcha/api2/reload",
+    "POST www.google.com/recaptcha/api2/clr",
+    "POST www.google-analytics.com/g/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google.com/recaptcha/api2/reload?k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7",
+     "body": "\n\u0018DqDoLJqJmjhqr0vRwNZ2MCHA\u0012�\u000e03AFcWeA60ThLiqcL7sE1YphyfnPaJolaPlMnrmnzqzKn8M2xxw2Id63MVt1ksACaQUTQ63m-jww7MfjuusOQpufLdsAhFjwX_iC7wPDprrODCMA8jeIwzWwjbBCezvvvggyEmOwwLB-Z3kIBMo4GLzrOAo4dO9VMmk-2S2DZalhogSDh3lUH-ow_m_Sql-AdvPIY6fKtJf-eBgfzpMc8rPp62s9OPjkH6F77Ifq0l8-R5rmyZJtcfYqwzx1z56JnPoac6bKDu8oENmU3w-j-v0MXqHMMndFtB4ufgKxQZk-Wce1RvzKObKy69yOShmbqmGA4PfBLfRvOfeSUbB0YURU7o3QpNqxLhPJ0J2ZMrvzTWRsalw"
+    },
+    {
+     "url": "https://www.google.com/recaptcha/api2/clr?k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7",
+     "body": "\n(6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7\u0012�\u000e03AFcWeA60ThLiqcL7sE1YphyfnPaJolaPlMnrmnzqzKn8M2xxw2Id63MVt1ksACaQUTQ63m-jww7MfjuusOQpufLdsAhFjwX_iC7wPDprrODCMA8jeIwzWwjbBCezvvvggyEmOwwLB-Z3kIBMo4GLzrOAo4dO9VMmk-2S2DZalhogSDh3lUH-ow_m_Sql-AdvPIY6fKtJf-eBgfzpMc8rPp62s9OPjkH6F77Ifq0l8-R5rmyZJtcfYqwzx1z56JnPoac6bKDu8oENmU3w-j-v0MXqHMMndFtB4ufgKxQZk-Wce1RvzKObKy69yOShmbqmGA4PfBLfRvOfeSUbB0YURU7o3QpNqxLhP"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CV2K683122&gtm=45je6bh1v9110818565za20oxf1&_p=1795513772181&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAI&cid=286228796.1795513772&frm=0&ngs=1&pscdl=noapi&",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 1237,
+   "mainEmptyAtLoad": false
+  },
+  "/es/contacto/": {
+   "url": "https://www.casaargentera.com/es/contacto/",
+   "status": 200,
+   "host": "www.casaargentera.com",
+   "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+   "forms": [
+    {
+     "name": "wpcf7-form",
+     "action": "https://www.casaargentera.com/es/contacto/#wpcf7-f16165-p16161-o1",
+     "method": "post",
+     "role": "",
+     "inChrome": true,
+     "fields": 6,
+     "signature": [
+      "text:your-name",
+      "email:your-email",
+      "tel:tel-148",
+      "text:your-subject",
+      "textarea:your-message",
+      "checkbox:acceptance-575"
+     ],
+     "hidden": [
+      "_wpcf7",
+      "_wpcf7_version",
+      "_wpcf7_locale",
+      "_wpcf7_unit_tag",
+      "_wpcf7_container_post",
+      "_wpcf7_posted_data_hash",
+      "_wpcf7_recaptcha_response"
+     ],
+     "tokens": [
+      "_wpcf7_recaptcha_response"
+     ],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "searchform",
+     "action": "https://www.casaargentera.com/es/",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:s"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "ajustes",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": "https://www.casaargentera.com/es/contacto/#",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": "https://www.casaargentera.com/es/contacto/#",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Activar todo",
+     "href": null,
+     "marker": "moove-gdpr-modal-allow-all",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Guardar ajustes",
+     "href": null,
+     "marker": "moove-gdpr-modal-save-settings",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Resumen de privacidad",
+     "textLen": 959,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 885,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 64,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 785,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 756,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 28,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 9,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12019.06311619246!2d0.9085661668526486!3d41.139638777701855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a14821bb6d19c1%3A0xe31768b059524",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&co=aHR0cHM6Ly93d3cuY2FzYWFyZ2VudGVyYS5jb206NDQz&hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA&size=invisible&anchor-ms=2",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12019.06311619246!2d0.9085661668526486!3d41.139638777701855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a14821bb6d19c1%3A0xe31768b059524a1!2sCasa%20Argentera!5e0!3m2!1sca!2ses!4v1579455887626!5m2!1sca!2ses",
+     "title": null,
+     "w": 1120,
+     "h": 450
+    },
+    {
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&co=aHR0cHM6Ly93d3cuY2FzYWFyZ2VudGVyYS5jb206NDQz&hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=fm5cqeezl719",
+     "title": "reCAPTCHA",
+     "w": 256,
+     "h": 60
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "es-ES",
+    "hreflang": [
+     "en",
+     "da",
+     "ca",
+     "es"
+    ],
+    "switcher": [
+     "https://www.casaargentera.com/da/home/",
+     "https://www.casaargentera.com/ca/inici/",
+     "https://www.casaargentera.com/da/home/",
+     "https://www.casaargentera.com/ca/inici/",
+     "https://www.casaargentera.com/wp/privacy-policy/"
+    ]
+   },
+   "cms": {
+    "wp": [
+     "hooks",
+     "i18n"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag",
+    "grecaptcha"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 7,
+   "inlineFetch": false,
+   "mainText": 2911,
+   "domAddedAfterLoad": 11,
+   "hosts": {
+    "www.casaargentera.com": 21,
+    "fonts.gstatic.com": 8,
+    "www.google.com": 23,
+    "www.gstatic.com": 5,
+    "maps.gstatic.com": 2,
+    "maps.googleapis.com": 17,
+    "fonts.googleapis.com": 2,
+    "www.googletagmanager.com": 2,
+    "www.google-analytics.com": 1,
+    "places.googleapis.com": 1
+   },
+   "thirdPartyHosts": [
+    "fonts.gstatic.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "maps.gstatic.com",
+    "maps.googleapis.com",
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "places.googleapis.com"
+   ],
+   "scripts": [
+    "https://www.casaargentera.com/wp-includes/js/dist/hooks.min.js",
+    "https://www.casaargentera.com/wp-includes/js/dist/i18n.min.js",
+    "https://www.casaargentera.com/wp-includes/js/jquery/jquery.min.js",
+    "https://www.casaargentera.com/wp-includes/js/dist/vendor/wp-polyfill.min.js",
+    "https://www.google.com/recaptcha/api.js?render=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&&&ver=3.0",
+    "https://www.casaargentera.com/wp-content/plugins/sg-cachepress/assets/js/lazysizes.min.js",
+    "https://www.gstatic.com/recaptcha/releases/DqDoLJqJmjhqr0vRwNZ2MCHA/recaptcha__en.js",
+    "https://maps.gstatic.com/maps-api-v3/embed/js/67/1d/intl/ca_ALL/init_embed.js",
+    "https://maps.googleapis.com/maps/api/js?key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&paint_origin=&libraries=geometry,search&v=weekly&loading=async&language=ca&region=es&experimentation=allowed&callbac",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/search.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/geometry.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/main.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/map.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/util.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/common.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/places_impl.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/onion.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/controls.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/search_impl.js",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/places.js",
+    "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA",
+    "https://www.casaargentera.com/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-js-76a3dc6d7a7d2e76d02b6c430a6b2f5b.js",
+    "https://www.googletagmanager.com/gtag/js?id=UA-4591587-1",
+    "https://www.googletagmanager.com/gtag/js?id=G-CV2K683122&cx=c&gtm=4e6bh1",
+    "https://maps.googleapis.com/maps-api-v3/api/js/67/1d/intl/ca_ALL/log.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.casaargentera.com",
+     "path": "/wp-json/contact-form-7/v1/contact-forms/{n}/feedback/schema",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.casaargentera.com/wp-json/contact-form-7/v1/contact-forms/16165/feedback/schema"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET maps.googleapis.com/maps/api/mapsjs/gen_204",
+    "POST www.google.com/recaptcha/api2/reload",
+    "POST www.google.com/recaptcha/api2/clr",
+    "POST www.google-analytics.com/g/collect",
+    "POST maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/InitMapsJwt",
+    "POST maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+    "POST maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetPlaceWidgetMetadat",
+    "POST places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace",
+    "GET www.google.com/maps/vt"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google.com/recaptcha/api2/reload?k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7",
+     "body": "\n\u0018DqDoLJqJmjhqr0vRwNZ2MCHA\u0012�\u000e03AFcWeA7GXWvO5llYLLAPQUUS7R2ZbIhRAinJl8rhDPFhKRv5t1y24wgoYssnRTv0dPHVdEE-WreFhdjWklFmCqcdIUYNr1ynJeJPId2H6Fe2SjnjaFVrIRC39LX3KbJy3HomZdtyOSfABGrUjm-CbVNvYpZQUrIM57ETOf4W572xuonQopEY3YtmwC_sGkUJgG3Ga55t8NoiOWaz48QNTByAlcfFuJy8aF05DSmDZxDfq0apPcRCKxJMvt-MDHKoZlCu7sy9BRIKCfuxVARtouVYUoGeoxxlL6H47H0K_hDCJNVLphWZZBNr4vfoTM55gow0XKygrudN3L86LKjhWYZqzOS9F8Wo7aMH_G3SlaZhiX2CL"
+    },
+    {
+     "url": "https://www.google.com/recaptcha/api2/clr?k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7",
+     "body": "\n(6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7\u0012�\u000e03AFcWeA7GXWvO5llYLLAPQUUS7R2ZbIhRAinJl8rhDPFhKRv5t1y24wgoYssnRTv0dPHVdEE-WreFhdjWklFmCqcdIUYNr1ynJeJPId2H6Fe2SjnjaFVrIRC39LX3KbJy3HomZdtyOSfABGrUjm-CbVNvYpZQUrIM57ETOf4W572xuonQopEY3YtmwC_sGkUJgG3Ga55t8NoiOWaz48QNTByAlcfFuJy8aF05DSmDZxDfq0apPcRCKxJMvt-MDHKoZlCu7sy9BRIKCfuxVARtouVYUoGeoxxlL6H47H0K_hDCJNVLphWZZBNr4vfoTM55gow0XKygrudN3L86LKjhWYZqzOS9F8Wo7"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CV2K683122&gtm=45je6bh1v9110818565za20oxf1&_p=1795513786983&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAI&cid=602414244.1795513787&frm=0&ngs=1&pscdl=noapi&",
+     "body": ""
+    },
+    {
+     "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/InitMapsJwt",
+     "body": "[\"https://www.google.com\"]"
+    },
+    {
+     "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+     "body": "[[[41.09304397257665,0.7650223377070616],[41.18321770819992,1.055905355846629]],14,null,\"ca\",0,\"m@805000000\",0,0,null,null,289,1,\"https://www.google.com/maps/embed\",1,null,null,\"54BAA744-75F4-4604-AE81-57C4B6C81352\"]"
+    },
+    {
+     "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetPlaceWidgetMetadata",
+     "body": "[9,\"109532\",\"https://www.google.com\",null,1]"
+    },
+    {
+     "url": "https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace",
+     "body": "[\"places/ChIJwRltuyFIoRIRoSSVBYt2MQ4\",\"ca\",\"ES\"]"
+    }
+   ],
+   "textAtLoad": 2587,
+   "mainEmptyAtLoad": false
+  },
+  "/es/reservas/": {
+   "url": "https://www.casaargentera.com/es/reservas/",
+   "status": 200,
+   "host": "www.casaargentera.com",
+   "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+   "forms": [
+    {
+     "name": "wpcf7-form",
+     "action": "https://www.casaargentera.com/es/reservas/#wpcf7-f16165-p16163-o1",
+     "method": "post",
+     "role": "",
+     "inChrome": true,
+     "fields": 6,
+     "signature": [
+      "text:your-name",
+      "email:your-email",
+      "tel:tel-148",
+      "text:your-subject",
+      "textarea:your-message",
+      "checkbox:acceptance-575"
+     ],
+     "hidden": [
+      "_wpcf7",
+      "_wpcf7_version",
+      "_wpcf7_locale",
+      "_wpcf7_unit_tag",
+      "_wpcf7_container_post",
+      "_wpcf7_posted_data_hash",
+      "_wpcf7_recaptcha_response"
+     ],
+     "tokens": [
+      "_wpcf7_recaptcha_response"
+     ],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "searchform",
+     "action": "https://www.casaargentera.com/es/",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:s"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "ajustes",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": "https://www.casaargentera.com/es/reservas/#",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": "https://www.casaargentera.com/es/reservas/#",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Activar todo",
+     "href": null,
+     "marker": "moove-gdpr-modal-allow-all",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Guardar ajustes",
+     "href": null,
+     "marker": "moove-gdpr-modal-save-settings",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Resumen de privacidad",
+     "textLen": 959,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 885,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 64,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 785,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resumen de privacidad",
+     "textLen": 756,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 28,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 9,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&co=aHR0cHM6Ly93d3cuY2FzYWFyZ2VudGVyYS5jb206NDQz&hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA&size=invisible&anchor-ms=2",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&co=aHR0cHM6Ly93d3cuY2FzYWFyZ2VudGVyYS5jb206NDQz&hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=yyhtpuoa0w6h",
+     "title": "reCAPTCHA",
+     "w": 256,
+     "h": 60
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "es-ES",
+    "hreflang": [
+     "en",
+     "da",
+     "ca",
+     "es"
+    ],
+    "switcher": [
+     "https://www.casaargentera.com/da/home/",
+     "https://www.casaargentera.com/ca/inici/",
+     "https://www.casaargentera.com/da/home/",
+     "https://www.casaargentera.com/ca/inici/",
+     "https://www.casaargentera.com/wp/privacy-policy/"
+    ]
+   },
+   "cms": {
+    "wp": [
+     "hooks",
+     "i18n"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag",
+    "grecaptcha"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 8,
+   "inlineFetch": false,
+   "mainText": 2191,
+   "domAddedAfterLoad": 14,
+   "hosts": {
+    "www.casaargentera.com": 21,
+    "fonts.gstatic.com": 8,
+    "www.google.com": 5,
+    "www.gstatic.com": 5,
+    "www.googletagmanager.com": 3,
+    "www.google-analytics.com": 1
+   },
+   "thirdPartyHosts": [
+    "fonts.gstatic.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.googletagmanager.com",
+    "www.google-analytics.com"
+   ],
+   "scripts": [
+    "https://www.casaargentera.com/wp-includes/js/dist/hooks.min.js",
+    "https://www.casaargentera.com/wp-includes/js/dist/i18n.min.js",
+    "https://www.casaargentera.com/wp-includes/js/jquery/jquery.min.js",
+    "https://www.casaargentera.com/wp-includes/js/dist/vendor/wp-polyfill.min.js",
+    "https://www.google.com/recaptcha/api.js?render=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&&&ver=3.0",
+    "https://www.casaargentera.com/wp-content/plugins/sg-cachepress/assets/js/lazysizes.min.js",
+    "https://www.gstatic.com/recaptcha/releases/DqDoLJqJmjhqr0vRwNZ2MCHA/recaptcha__en.js",
+    "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA",
+    "https://www.casaargentera.com/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-js-5d99f2128dd238367a34c2df3b3e6d08.js",
+    "https://www.googletagmanager.com/gtag/js?id=UA-4591587-1",
+    "https://www.googletagmanager.com/gtag/js?id=G-CV2K683122&cx=c&gtm=4e6bh1h1"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.casaargentera.com",
+     "path": "/wp-json/contact-form-7/v1/contact-forms/{n}/feedback/schema",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.casaargentera.com/wp-json/contact-form-7/v1/contact-forms/16165/feedback/schema"
+    },
+    {
+     "method": "POST",
+     "host": "www.casaargentera.com",
+     "path": "/wp-admin/admin-ajax.php",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.casaargentera.com/wp-admin/admin-ajax.php"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST www.google.com/recaptcha/api2/reload",
+    "POST www.google.com/recaptcha/api2/clr",
+    "POST www.google-analytics.com/g/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google.com/recaptcha/api2/reload?k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7",
+     "body": "\n\u0018DqDoLJqJmjhqr0vRwNZ2MCHA\u0012�\u000e03AFcWeA6DHQUq6V0DdD7EH8g1rGTd1oQcuqh9IHQIKwWtZUzzXX2KE82kjllnxGTe5rY2YXsEREn86nkFMWHX8AAxp1TzIQDgfkqzk_ViFwyFr2TZYZd0_8GQST8tSKgqlM8XPzMI08zdT1R1D2fOPRh3rXatL6KIlASlQ0a5l456msF0AqyANs2ujfdL6CjK8yIyD7oGzMzvLHqqODf1i4cbRyYLMnSys6UQrAjc-4cyKYl3dtqhJYmojF4veyn-dHl_ULKdqdUa3SJG3TAVMwxSdeoak78pCICQ8Lz6oXePrLfPFTeyATM22TQH8bsiu1v-GTN6zDaP67_khtGNWRe-U-7ahfsDBOav2jeZb-8rlF1tq"
+    },
+    {
+     "url": "https://www.google.com/recaptcha/api2/clr?k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7",
+     "body": "\n(6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7\u0012�\u000e03AFcWeA6DHQUq6V0DdD7EH8g1rGTd1oQcuqh9IHQIKwWtZUzzXX2KE82kjllnxGTe5rY2YXsEREn86nkFMWHX8AAxp1TzIQDgfkqzk_ViFwyFr2TZYZd0_8GQST8tSKgqlM8XPzMI08zdT1R1D2fOPRh3rXatL6KIlASlQ0a5l456msF0AqyANs2ujfdL6CjK8yIyD7oGzMzvLHqqODf1i4cbRyYLMnSys6UQrAjc-4cyKYl3dtqhJYmojF4veyn-dHl_ULKdqdUa3SJG3TAVMwxSdeoak78pCICQ8Lz6oXePrLfPFTeyATM22TQH8bsiu1v-GTN6zDaP67_khtGNWRe-U-7ahfsDB"
+    },
+    {
+     "url": "https://www.casaargentera.com/wp-admin/admin-ajax.php",
+     "body": "action=r34ics_ajax&r34ics_nonce=5fd784b894&subaction=display_calendar&args=5e3aade3c0a85e80261b4db2e3d7917a06a554f5&js_args%5Bdebug%5D=false"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CV2K683122&gtm=45je6bh1h1v9110818565za20oxf1&_p=1795513802212&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAI&cid=1142345881.1795513802&frm=0&ngs=1&pscdl=noa",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 1476,
+   "mainEmptyAtLoad": false
+  },
+  "/ca/politica-de-privacidad-y-cookies/": {
+   "url": "https://www.casaargentera.com/ca/politica-de-privacidad-y-cookies/",
+   "status": 200,
+   "host": "www.casaargentera.com",
+   "title": "Política de privacidad y cookies - Casa Argentera",
+   "forms": [
+    {
+     "name": "searchform",
+     "action": "https://www.casaargentera.com/ca/",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:s"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "configuració",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": "https://www.casaargentera.com/ca/politica-de-privacidad-y-cookies/#",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": "https://www.casaargentera.com/ca/politica-de-privacidad-y-cookies/#",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Activa tot",
+     "href": null,
+     "marker": "moove-gdpr-modal-allow-all",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Desa la configuració",
+     "href": null,
+     "marker": "moove-gdpr-modal-save-settings",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Resum de la privadesa",
+     "textLen": 981,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resum de la privadesa",
+     "textLen": 910,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resum de la privadesa",
+     "textLen": 66,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 802,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Resum de la privadesa",
+     "textLen": 770,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 31,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 9,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&co=aHR0cHM6Ly93d3cuY2FzYWFyZ2VudGVyYS5jb206NDQz&hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA&size=invisible&anchor-ms=2",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&co=aHR0cHM6Ly93d3cuY2FzYWFyZ2VudGVyYS5jb206NDQz&hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=fjqkluw4ktxr",
+     "title": "reCAPTCHA",
+     "w": 256,
+     "h": 60
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "ca",
+    "hreflang": [],
+    "switcher": [
+     "https://www.casaargentera.com/da/home/",
+     "https://www.casaargentera.com/es/inicio/"
+    ]
+   },
+   "cms": {
+    "wp": [
+     "hooks",
+     "i18n"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag",
+    "grecaptcha"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 6,
+   "inlineFetch": false,
+   "mainText": 6782,
+   "domAddedAfterLoad": 14,
+   "hosts": {
+    "www.casaargentera.com": 16,
+    "www.google.com": 5,
+    "fonts.gstatic.com": 7,
+    "www.gstatic.com": 5,
+    "www.googletagmanager.com": 2,
+    "www.google-analytics.com": 1
+   },
+   "thirdPartyHosts": [
+    "www.google.com",
+    "fonts.gstatic.com",
+    "www.gstatic.com",
+    "www.googletagmanager.com",
+    "www.google-analytics.com"
+   ],
+   "scripts": [
+    "https://www.casaargentera.com/wp-includes/js/dist/hooks.min.js",
+    "https://www.casaargentera.com/wp-includes/js/dist/i18n.min.js",
+    "https://www.casaargentera.com/wp-includes/js/dist/vendor/wp-polyfill.min.js",
+    "https://www.casaargentera.com/wp-includes/js/jquery/jquery.min.js",
+    "https://www.google.com/recaptcha/api.js?render=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7&&&ver=3.0",
+    "https://www.casaargentera.com/wp-content/plugins/sg-cachepress/assets/js/lazysizes.min.js",
+    "https://www.gstatic.com/recaptcha/releases/DqDoLJqJmjhqr0vRwNZ2MCHA/recaptcha__en.js",
+    "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=DqDoLJqJmjhqr0vRwNZ2MCHA",
+    "https://www.casaargentera.com/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-js-2668525fdd655507b2f058216d12967e.js",
+    "https://www.googletagmanager.com/gtag/js?id=UA-4591587-1",
+    "https://www.googletagmanager.com/gtag/js?id=G-CV2K683122&cx=c&gtm=4e6bh1"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "POST www.google.com/recaptcha/api2/reload",
+    "POST www.google.com/recaptcha/api2/clr",
+    "POST www.google-analytics.com/g/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google.com/recaptcha/api2/reload?k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7",
+     "body": "\n\u0018DqDoLJqJmjhqr0vRwNZ2MCHA\u0012�\u000e03AFcWeA6om5iGwWXOBo3exnWGR1mZiwTxTUj7wjZfWqoD0Ai6Ao8sfRUdnF23NQRtJwpiq_hhrjc7YUMHKKW_4wtZ-ZFb9UNEcrJo_OJ9r9LP72bUvasYkE4goU6SInWH1GNs9HTNiQy_kVSkWRebsisy4hAaJ7yedl89b9a8saq6NkS7KVfNkvFkpensp_qlsP-UnNs6qdXfj3IRHfdkPRdAxvdxeM_k98bAWxrl58p7w-0EBcUNM7YXkQBgfKYOk0r5EBgrUXwDzKus8mbSPCPTeLgOgKga_FYwxiiCXnZOUZwdTsCUqODadhmvm4529GH9CRVORAGL6_jBHWMo5C4DpqNSJbOc2CyjRJYI1BaZjbe_1"
+    },
+    {
+     "url": "https://www.google.com/recaptcha/api2/clr?k=6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7",
+     "body": "\n(6LdZERknAAAAABHEu6EMapKNahaRH5sFWu6yoGj7\u0012�\u000e03AFcWeA6om5iGwWXOBo3exnWGR1mZiwTxTUj7wjZfWqoD0Ai6Ao8sfRUdnF23NQRtJwpiq_hhrjc7YUMHKKW_4wtZ-ZFb9UNEcrJo_OJ9r9LP72bUvasYkE4goU6SInWH1GNs9HTNiQy_kVSkWRebsisy4hAaJ7yedl89b9a8saq6NkS7KVfNkvFkpensp_qlsP-UnNs6qdXfj3IRHfdkPRdAxvdxeM_k98bAWxrl58p7w-0EBcUNM7YXkQBgfKYOk0r5EBgrUXwDzKus8mbSPCPTeLgOgKga_FYwxiiCXnZOUZwdTsCUqODadhmvm4529GH9CRVORAGL6_jBHWMo5C4DpqNSJbOc2"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CV2K683122&gtm=45je6bh1v9110818565za20oxf1&_p=1795513817417&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAI&cid=1964521878.1795513818&frm=0&ngs=1&pscdl=noapi",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 6643,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-cms-app-settings-object-wp",
+   "class": "A",
+   "feature": "CMS / app settings object wp",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/es/el-entorno/",
+    "/es/el-atico/",
+    "/es/eventos/",
+    "/es/experiencias/",
+    "/es/contacto/",
+    "/es/reservas/",
+    "/ca/politica-de-privacidad-y-cookies/"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/es/el-entorno/",
+    "/es/el-atico/",
+    "/es/eventos/",
+    "/es/experiencias/",
+    "/es/contacto/",
+    "/es/reservas/",
+    "/ca/politica-de-privacidad-y-cookies/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-wp-json-contact-form-7-v1-contact-form",
+   "class": "A",
+   "feature": "first-party API GET /wp-json/contact-form-7/v1/contact-forms/{n}/feedback/schema",
+   "api": {
+    "method": "GET",
+    "path": "/wp-json/contact-form-7/v1/contact-forms/{n}/feedback/schema"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /wp-json/contact-form-7/v1/contact-forms/{n}/feedback/schema → 200"
+   ],
+   "pages": [
+    "/es/el-atico/",
+    "/es/eventos/",
+    "/es/contacto/",
+    "/es/reservas/"
+   ],
+   "reach": {
+    "pages": 32,
+    "of": 70
+   }
+  },
+  {
+   "id": "a-unknown-third-party-host-places-googleapis-com",
+   "class": "A",
+   "feature": "unknown third-party host places.googleapis.com",
+   "hint": "inspect",
+   "evidence": [
+    "places.googleapis.com"
+   ],
+   "pages": [
+    "/",
+    "/es/contacto/"
+   ]
+  },
+  {
+   "id": "f-form-protection-captcha-antibot",
+   "class": "F",
+   "feature": "form protection: captcha / antibot",
+   "role": "form protection: captcha / antibot",
+   "hint": "forms",
+   "evidence": [
+    "www.google.com",
+    "www.gstatic.com"
+   ],
+   "pages": [
+    "/",
+    "/es/el-entorno/",
+    "/es/el-atico/",
+    "/es/eventos/",
+    "/es/experiencias/",
+    "/es/contacto/",
+    "/es/reservas/",
+    "/ca/politica-de-privacidad-y-cookies/"
+   ]
+  },
+  {
+   "id": "f-form-wpcf7-form-origin-es-el-atico-6-fields-tokens-wpcf7-r",
+   "class": "F",
+   "feature": "form \"wpcf7-form\" → origin /es/el-atico/ (6 fields, tokens: _wpcf7_recaptcha_response)",
+   "signature": [
+    "text:your-name",
+    "email:your-email",
+    "tel:tel-148",
+    "text:your-subject",
+    "textarea:your-message",
+    "checkbox:acceptance-575"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "text:your-name,email:your-email,tel:tel-148,text:your-subject,textarea:your-message,checkbox:acceptance-575",
+    "_wpcf7,_wpcf7_version,_wpcf7_locale,_wpcf7_unit_tag,_wpcf7_container_post,_wpcf7_posted_data_hash,_wpcf7_recaptcha_response"
+   ],
+   "pages": [
+    "/es/el-atico/"
+   ]
+  },
+  {
+   "id": "f-form-wpcf7-form-origin-es-eventos-6-fields-tokens-wpcf7-re",
+   "class": "F",
+   "feature": "form \"wpcf7-form\" → origin /es/eventos/ (6 fields, tokens: _wpcf7_recaptcha_response)",
+   "signature": [
+    "text:your-name",
+    "email:your-email",
+    "tel:tel-148",
+    "text:your-subject",
+    "textarea:your-message",
+    "checkbox:acceptance-575"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "text:your-name,email:your-email,tel:tel-148,text:your-subject,textarea:your-message,checkbox:acceptance-575",
+    "_wpcf7,_wpcf7_version,_wpcf7_locale,_wpcf7_unit_tag,_wpcf7_container_post,_wpcf7_posted_data_hash,_wpcf7_recaptcha_response"
+   ],
+   "pages": [
+    "/es/eventos/"
+   ]
+  },
+  {
+   "id": "f-form-wpcf7-form-origin-es-contacto-6-fields-tokens-wpcf7-r",
+   "class": "F",
+   "feature": "form \"wpcf7-form\" → origin /es/contacto/ (6 fields, tokens: _wpcf7_recaptcha_response)",
+   "signature": [
+    "text:your-name",
+    "email:your-email",
+    "tel:tel-148",
+    "text:your-subject",
+    "textarea:your-message",
+    "checkbox:acceptance-575"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "text:your-name,email:your-email,tel:tel-148,text:your-subject,textarea:your-message,checkbox:acceptance-575",
+    "_wpcf7,_wpcf7_version,_wpcf7_locale,_wpcf7_unit_tag,_wpcf7_container_post,_wpcf7_posted_data_hash,_wpcf7_recaptcha_response"
+   ],
+   "pages": [
+    "/es/contacto/"
+   ]
+  },
+  {
+   "id": "f-form-wpcf7-form-origin-es-reservas-6-fields-tokens-wpcf7-r",
+   "class": "F",
+   "feature": "form \"wpcf7-form\" → origin /es/reservas/ (6 fields, tokens: _wpcf7_recaptcha_response)",
+   "signature": [
+    "text:your-name",
+    "email:your-email",
+    "tel:tel-148",
+    "text:your-subject",
+    "textarea:your-message",
+    "checkbox:acceptance-575"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "text:your-name,email:your-email,tel:tel-148,text:your-subject,textarea:your-message,checkbox:acceptance-575",
+    "_wpcf7,_wpcf7_version,_wpcf7_locale,_wpcf7_unit_tag,_wpcf7_container_post,_wpcf7_posted_data_hash,_wpcf7_recaptcha_response"
+   ],
+   "pages": [
+    "/es/reservas/"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-en-da-ca-es",
+   "class": "I18N",
+   "feature": "locale variants en,da,ca,es",
+   "hint": "locale",
+   "evidence": [
+    "https://www.casaargentera.com/da/home/",
+    "https://www.casaargentera.com/ca/inici/",
+    "https://www.casaargentera.com/es/inicio/"
+   ],
+   "pages": [
+    "/",
+    "/es/el-entorno/",
+    "/es/el-atico/",
+    "/es/eventos/",
+    "/es/experiencias/",
+    "/es/contacto/",
+    "/es/reservas/"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-da-es",
+   "class": "I18N",
+   "feature": "locale variants da,es",
+   "hint": "locale",
+   "evidence": [
+    "https://www.casaargentera.com/da/home/",
+    "https://www.casaargentera.com/es/inicio/"
+   ],
+   "pages": [
+    "/ca/politica-de-privacidad-y-cookies/"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-target-outside-dom",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → target outside DOM at capture",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "settings",
+    "https://www.casaargentera.com/#",
+    "ajustes",
+    "https://www.casaargentera.com/es/el-entorno/#",
+    "https://www.casaargentera.com/es/el-atico/#",
+    "https://www.casaargentera.com/es/eventos/#",
+    "https://www.casaargentera.com/es/experiencias/#",
+    "https://www.casaargentera.com/es/contacto/#",
+    "https://www.casaargentera.com/es/reservas/#",
+    "configuració",
+    "https://www.casaargentera.com/ca/politica-de-privacidad-y-cookies/#"
+   ],
+   "pages": [
+    "/",
+    "/es/el-entorno/",
+    "/es/el-atico/",
+    "/es/eventos/",
+    "/es/experiencias/",
+    "/es/contacto/",
+    "/es/reservas/",
+    "/ca/politica-de-privacidad-y-cookies/"
+   ],
+   "reach": {
+    "pages": 210,
+    "of": 70
+   }
+  },
+  {
+   "id": "m-modal-trigger-moove-gdpr-modal-allow-all-chrome-only-targe",
+   "class": "M",
+   "feature": "modal trigger moove-gdpr-modal-allow-all (chrome only) → target outside DOM at capture",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Enable All",
+    "Activar todo",
+    "Activa tot"
+   ],
+   "pages": [
+    "/",
+    "/es/el-entorno/",
+    "/es/el-atico/",
+    "/es/eventos/",
+    "/es/experiencias/",
+    "/es/contacto/",
+    "/es/reservas/",
+    "/ca/politica-de-privacidad-y-cookies/"
+   ],
+   "reach": {
+    "pages": 70,
+    "of": 70
+   }
+  },
+  {
+   "id": "m-modal-trigger-moove-gdpr-modal-save-settings-chrome-only-t",
+   "class": "M",
+   "feature": "modal trigger moove-gdpr-modal-save-settings (chrome only) → target outside DOM at capture",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Save Changes",
+    "Guardar ajustes",
+    "Desa la configuració"
+   ],
+   "pages": [
+    "/",
+    "/es/el-entorno/",
+    "/es/el-atico/",
+    "/es/eventos/",
+    "/es/experiencias/",
+    "/es/contacto/",
+    "/es/reservas/",
+    "/ca/politica-de-privacidad-y-cookies/"
+   ],
+   "reach": {
+    "pages": 70,
+    "of": 70
+   }
+  },
+  {
+   "id": "s-site-search-form-es",
+   "class": "S",
+   "feature": "site search form → /es/",
+   "hint": "search",
+   "evidence": [
+    "text:s"
+   ],
+   "pages": [
+    "/es/el-entorno/",
+    "/es/el-atico/",
+    "/es/eventos/",
+    "/es/experiencias/",
+    "/es/contacto/",
+    "/es/reservas/"
+   ],
+   "reach": {
+    "pages": 70,
+    "of": 70
+   }
+  },
+  {
+   "id": "s-site-search-form",
+   "class": "S",
+   "feature": "site search form → /",
+   "hint": "search",
+   "evidence": [
+    "text:s"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 70,
+    "of": 70
+   }
+  },
+  {
+   "id": "s-site-search-form-ca",
+   "class": "S",
+   "feature": "site search form → /ca/",
+   "hint": "search",
+   "evidence": [
+    "text:s"
+   ],
+   "pages": [
+    "/ca/politica-de-privacidad-y-cookies/"
+   ],
+   "reach": {
+    "pages": 70,
+    "of": 70
+   }
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/",
+    "/es/el-entorno/",
+    "/es/el-atico/",
+    "/es/eventos/",
+    "/es/experiencias/",
+    "/es/contacto/",
+    "/es/reservas/",
+    "/ca/politica-de-privacidad-y-cookies/"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "www.google-analytics.com"
+   ],
+   "pages": [
+    "/",
+    "/es/el-entorno/",
+    "/es/el-atico/",
+    "/es/eventos/",
+    "/es/experiencias/",
+    "/es/contacto/",
+    "/es/reservas/",
+    "/ca/politica-de-privacidad-y-cookies/"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "0×0"
+   ],
+   "pages": [
+    "/",
+    "/es/el-entorno/",
+    "/es/el-atico/",
+    "/es/eventos/",
+    "/es/experiencias/",
+    "/es/contacto/",
+    "/es/reservas/",
+    "/ca/politica-de-privacidad-y-cookies/"
+   ]
+  },
+  {
+   "id": "v-maps-embedded-map-service",
+   "class": "V",
+   "feature": "maps: embedded map service",
+   "role": "maps: embedded map service",
+   "hint": "media",
+   "evidence": [
+    "maps.gstatic.com",
+    "maps.googleapis.com"
+   ],
+   "pages": [
+    "/",
+    "/es/contacto/"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 70,
+  "of": 70,
+  "endpoints": {
+   "POST www.google.com/recaptcha/api2/reload": 70,
+   "POST www.google.com/recaptcha/api2/clr": 70,
+   "POST www.google-analytics.com/g/collect": 54,
+   "GET maps.googleapis.com/maps/api/mapsjs/gen_204": 7,
+   "GET www.casaargentera.com/wp-json/contact-form-7/v1/contact-forms/{n}/feedback/schema": 32,
+   "POST maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/InitMapsJwt": 7,
+   "POST maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo": 7,
+   "POST maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetPlaceWidgetMetadata": 7,
+   "POST places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace": 7,
+   "GET www.google.com/maps/vt": 7,
+   "POST www.casaargentera.com/wp-admin/admin-ajax.php": 12
+  },
+  "searchFormPages": 70,
+  "formPages": 32,
+  "triggerPages": {
+   "aria-haspopup": 210,
+   "moove-gdpr-modal-allow-all": 70,
+   "moove-gdpr-modal-save-settings": 70
+  }
+ }
+}

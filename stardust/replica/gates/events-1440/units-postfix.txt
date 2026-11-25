@@ -1,0 +1,68 @@
+run-bg: events-units1440 launched 2026-11-24T11:49:16.683Z (timeout 900s): node stardust/scripts/diff/unit-geometry.mjs https://www.casaargentera.com/events/ http://localhost:8792/events-proposed.html --families stardust/replica/units.json --slug events --stage prototype --template events --width 1440 --json stardust/replica/gates/events-1440/units-postfix.json
+origin: cached events-1440-units (2026-11-24T11:48:35.094Z)
+unit-geometry @ 1440px, tol 4px — https://www.casaargentera.com/events/ vs http://localhost:8792/events-proposed.html
+unit 1 of events-gallery-item (required) #content .vc_grid-item=#content .media-grid__item: origin 155,1358 383×224 vs served 155,1358 383×224 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.vc_gitem-zone.vc_gitem-zone-" | 0,0 363×204 | 0,0 363×204 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.vc_gitem-link.prettyphoto#1" | 0,0 363×204 | 0,0 363×204 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of events-gallery-item (required) #content .vc_grid-item=#content .media-grid__item: origin 538,1358 383×224 vs served 538,1358 383×224 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.vc_gitem-zone.vc_gitem-zone-" | 0,0 363×204 | 0,0 363×204 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.vc_gitem-link.prettyphoto#1" | 0,0 363×204 | 0,0 363×204 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of events-gallery-item (required) #content .vc_grid-item=#content .media-grid__item: origin 921,1358 383×224 vs served 921,1358 383×224 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.vc_gitem-zone.vc_gitem-zone-" | 0,0 363×204 | 0,0 363×204 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.vc_gitem-link.prettyphoto#1" | 0,0 363×204 | 0,0 363×204 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of events-gallery-item (required) #content .vc_grid-item=#content .media-grid__item: origin 155,1582 383×225 vs served 155,1582 383×225 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.vc_gitem-zone.vc_gitem-zone-" | 0,0 363×205 | 0,0 363×205 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.vc_gitem-link.prettyphoto#1" | 0,0 363×205 | 0,0 363×205 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of events-gallery-item (required) #content .vc_grid-item=#content .media-grid__item: origin 538,1582 383×224 vs served 538,1582 383×225 → Δx 0 Δy 0 Δw 0 Δh +1; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.vc_gitem-zone.vc_gitem-zone-" | 0,0 363×204 | 0,0 363×204 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.vc_gitem-link.prettyphoto#1" | 0,0 363×204 | 0,0 363×204 | 0 | 0 | 0 | 0 | ✓ |
+unit 6 of events-gallery-item (required) #content .vc_grid-item=#content .media-grid__item: origin 921,1582 383×224 vs served 921,1582 383×225 → Δx 0 Δy 0 Δw 0 Δh +1; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.vc_gitem-zone.vc_gitem-zone-" | 0,0 363×204 | 0,0 363×204 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a.vc_gitem-link.prettyphoto#1" | 0,0 363×204 | 0,0 363×204 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of events-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 155,1982 1130×75 vs served 155,1982 1130×75 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "your name (required)" | 0,3 1130×51 | 0,3 1130×51 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input.wpcf7-form-control.wpcf7" | 0,25 1130×40 | 0,25 1130×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of events-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 155,2067 1130×75 vs served 155,2067 1130×75 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "your email (required)" | 0,3 1130×51 | 0,3 1130×51 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input.wpcf7-form-control.wpcf7" | 0,25 1130×40 | 0,25 1130×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of events-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 155,2152 1130×75 vs served 155,2152 1130×75 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "your number (required)" | 0,3 1130×51 | 0,3 1130×51 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input.wpcf7-form-control.wpcf7" | 0,25 1130×40 | 0,25 1130×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of events-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 155,2237 1130×75 vs served 155,2237 1130×75 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "subject" | 0,3 1130×51 | 0,3 1130×51 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input.wpcf7-form-control.wpcf7" | 0,25 1130×40 | 0,25 1130×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of events-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 155,2322 1130×25 vs served 155,2322 1130×25 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 6 of events-form-row (required) #content .wpcf7-form > p=#content .cf7-form > p: origin 155,2357 1130×361 vs served 155,2357 1130×361 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "your message" | 0,3 1130×43 | 0,3 1130×43 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:textarea.wpcf7-form-control.wp" | 0,25 1130×262 | 0,25 1130×262 | 0 | 0 | 0 | 0 | ✓ |
+| text "i have read and accept the" | 27,300 288×18 | 27,300 288×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "privacy policy" | 220,300 95×18 | 220,300 95×18 | 0 | 0 | 0 | 0 | ✓ |
+| input "input:input#1" | 14,301 13×13 | 14,301 13×13 | 0 | 0 | 0 | 0 | ✓ |
+| button "button:input.wpcf7-form-control.wpcf" | 0,322 88×39 | 0,322 88×39 | 0 | 0 | 0 | 0 | ✓ |
+Units: 12 compared; elements within 26, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/events-1440/units-postfix.json
+run-bg: events-units1440 ended exit=0
