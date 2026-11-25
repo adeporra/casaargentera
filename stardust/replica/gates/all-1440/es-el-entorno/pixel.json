@@ -1,0 +1,201 @@
+{
+  "a": "stardust/replica/gates/all-1440/es-el-entorno/origin.png",
+  "b": "stardust/replica/gates/all-1440/es-el-entorno/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2398,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 5418,
+  "pct": 0.16,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/es-el-entorno/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0.6,
+  "textBoxes": 56,
+  "textPixels": 301425,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2398,
+      "pct": 0.1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.16,
+    "differingPixels": 5418,
+    "compared": {
+      "width": 1440,
+      "height": 2398,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 2000,
+        "y1": 2398,
+        "pct": 0.1,
+        "unaligned": 0.1
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 0.16,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--ea32f12a--aemcoder.aem.page/es/el-entorno",
+    "key": {
+      "v": 3,
+      "build": "https://main--ea32f12a--aemcoder.aem.page/es/el-entorno",
+      "source": "https://www.casaargentera.com/es/el-entorno/",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "c05393b8f14c9a1a",
+      "options": "8a9d0203c520c6bb",
+      "reference": "5f06acd83f0a1ed8",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "45ac90f69c6e04c7",
+      "instruments": "700566dc6f7774a4",
+      "page content": "7f49c80b4ba87e3a",
+      "shared code": "15fa74636bb99ab3",
+      "block hero-slider": "9c515f6f76444750",
+      "block image-grid": "12f4434553966273"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 3,
+          "missingButtons": 0,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 0,
+          "findings": 1,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 49,
+          "controls": 27,
+          "total": 0
+        },
+        "groups": [],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 50,
+          "controls": 24,
+          "total": 0
+        },
+        "source": "content-presence"
+      },
+      "units": {
+        "verdict": {
+          "units": 5,
+          "within": 5,
+          "off": 0,
+          "hidden": 0,
+          "missing": 0,
+          "errors": 0,
+          "requiredOff": 0
+        },
+        "required": true,
+        "errors": []
+      }
+    },
+    "at": "2026-11-24T21:52:29.067Z"
+  }
+}

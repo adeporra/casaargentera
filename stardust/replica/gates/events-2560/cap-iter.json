@@ -1,0 +1,327 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-24T11:51:21.033Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.casaargentera.com/events/",
+      "http://localhost:8792/events-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from stardust/current/DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.casaargentera.com/events/",
+    "http://localhost:8792/events-proposed.html"
+  ],
+  "probeNote": "from stardust/current/DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main",
+      "isBody": false,
+      "leaves": 24,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1250,
+        "via": "fixed",
+        "selector": "#main > div.wf-wrap",
+        "tier": 1,
+        "share": 1,
+        "section": -1,
+        "w1": 1250,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1110,
+        "via": "fixed",
+        "selector": "div.wpb_wrapper > div.wpb_text_column.wpb_content_element > div.wpb_wrapper > ul",
+        "tier": 10,
+        "share": 0.33,
+        "section": 0,
+        "w1": 1110,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 383,
+        "via": "fixed",
+        "selector": "div.vc_grid-container.vc_clearfix > div.vc_grid.vc_row > div.vc_pageable-slide-wrapper.vc_clearfix > div.vc_grid-item.vc_clearfix",
+        "tier": 12,
+        "share": 0,
+        "section": 1,
+        "w1": 383,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 383,
+        "via": "fixed",
+        "selector": "div.vc_grid-container.vc_clearfix > div.vc_grid.vc_row > div.vc_pageable-slide-wrapper.vc_clearfix > div.vc_grid-item.vc_clearfix",
+        "tier": 12,
+        "share": 0,
+        "section": 1,
+        "w1": 383,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 383,
+        "via": "fixed",
+        "selector": "div.vc_grid-container.vc_clearfix > div.vc_grid.vc_row > div.vc_pageable-slide-wrapper.vc_clearfix > div.vc_grid-item.vc_clearfix",
+        "tier": 12,
+        "share": 0,
+        "section": 1,
+        "w1": 383,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 383,
+        "via": "fixed",
+        "selector": "div.vc_grid-container.vc_clearfix > div.vc_grid.vc_row > div.vc_pageable-slide-wrapper.vc_clearfix > div.vc_grid-item.vc_clearfix",
+        "tier": 12,
+        "share": 0,
+        "section": 1,
+        "w1": 383,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 383,
+        "via": "fixed",
+        "selector": "div.vc_grid-container.vc_clearfix > div.vc_grid.vc_row > div.vc_pageable-slide-wrapper.vc_clearfix > div.vc_grid-item.vc_clearfix",
+        "tier": 12,
+        "share": 0,
+        "section": 1,
+        "w1": 383,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 383,
+        "via": "fixed",
+        "selector": "div.vc_grid-container.vc_clearfix > div.vc_grid.vc_row > div.vc_pageable-slide-wrapper.vc_clearfix > div.vc_grid-item.vc_clearfix",
+        "tier": 12,
+        "share": 0,
+        "section": 1,
+        "w1": 383,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 301,
+        "via": "fixed",
+        "selector": "p > span.wpcf7-form-control-wrap > span.wpcf7-form-control.wpcf7-acceptance > span.wpcf7-list-item",
+        "tier": 13,
+        "share": 0.08,
+        "section": 2,
+        "w1": 301,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#content > div.vc_row.wpb_row",
+        "px": 1110,
+        "capSelector": "div.wpb_wrapper > div.wpb_text_column.wpb_content_element > div.wpb_wrapper > ul"
+      },
+      {
+        "index": 1,
+        "selector": "#content > div.vc_row.wpb_row",
+        "px": 383,
+        "capSelector": "div.vc_grid-container.vc_clearfix > div.vc_grid.vc_row > div.vc_pageable-slide-wrapper.vc_clearfix > div.vc_grid-item.vc_clearfix"
+      },
+      {
+        "index": 2,
+        "selector": "#content > div.vc_row.wpb_row",
+        "px": 301,
+        "capSelector": "p > span.wpcf7-form-control-wrap > span.wpcf7-form-control.wpcf7-acceptance > span.wpcf7-list-item"
+      }
+    ],
+    "shellMaxWidth": 1250,
+    "contentMaxWidth": 1250,
+    "contentFrom": "shell",
+    "maxCap": 1250,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 152
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main",
+      "isBody": false,
+      "leaves": 24,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1250,
+        "via": "max-width",
+        "selector": "#main > div.wf-wrap",
+        "tier": 1,
+        "share": 1,
+        "section": -1,
+        "w1": 1250,
+        "maxWidth": "1250px"
+      },
+      {
+        "kind": "module",
+        "px": 1110,
+        "via": "fixed",
+        "selector": "section.vc-row.events-intro > div.vc-col > div.text-column > ul",
+        "tier": 6,
+        "share": 0.33,
+        "section": 0,
+        "w1": 1110,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 383,
+        "via": "fixed",
+        "selector": "div.vc-col > div.media-grid > div.media-grid__items > div.media-grid__item",
+        "tier": 7,
+        "share": 0,
+        "section": 1,
+        "w1": 383,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 383,
+        "via": "fixed",
+        "selector": "div.vc-col > div.media-grid > div.media-grid__items > div.media-grid__item",
+        "tier": 7,
+        "share": 0,
+        "section": 1,
+        "w1": 383,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 383,
+        "via": "fixed",
+        "selector": "div.vc-col > div.media-grid > div.media-grid__items > div.media-grid__item",
+        "tier": 7,
+        "share": 0,
+        "section": 1,
+        "w1": 383,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 383,
+        "via": "fixed",
+        "selector": "div.vc-col > div.media-grid > div.media-grid__items > div.media-grid__item",
+        "tier": 7,
+        "share": 0,
+        "section": 1,
+        "w1": 383,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 383,
+        "via": "fixed",
+        "selector": "div.vc-col > div.media-grid > div.media-grid__items > div.media-grid__item",
+        "tier": 7,
+        "share": 0,
+        "section": 1,
+        "w1": 383,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 383,
+        "via": "fixed",
+        "selector": "div.vc-col > div.media-grid > div.media-grid__items > div.media-grid__item",
+        "tier": 7,
+        "share": 0,
+        "section": 1,
+        "w1": 383,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 301,
+        "via": "fixed",
+        "selector": "p > span.cf7-wrap > span.cf7-acceptance > span.cf7-list-item",
+        "tier": 10,
+        "share": 0.08,
+        "section": 2,
+        "w1": 301,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#content > section.vc-row.events-intro",
+        "px": 1110,
+        "capSelector": "section.vc-row.events-intro > div.vc-col > div.text-column > ul"
+      },
+      {
+        "index": 1,
+        "selector": "#content > section.vc-row.events-gallery",
+        "px": 383,
+        "capSelector": "div.vc-col > div.media-grid > div.media-grid__items > div.media-grid__item"
+      },
+      {
+        "index": 2,
+        "selector": "#content > section.vc-row.events-enquiry",
+        "px": 301,
+        "capSelector": "p > span.cf7-wrap > span.cf7-acceptance > span.cf7-list-item"
+      }
+    ],
+    "shellMaxWidth": 1250,
+    "contentMaxWidth": 1250,
+    "contentFrom": "shell",
+    "maxCap": 1250,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 113
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "wrapper cap",
+        "detail": "live 1250px = build 1250px (±20)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/3",
+        "detail": "1110px = 1110px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/3",
+        "detail": "383px = 383px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/3",
+        "detail": "301px = 301px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/events-2560/cap-iter.json"
+}

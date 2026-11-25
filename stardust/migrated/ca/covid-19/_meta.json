@@ -1,0 +1,80 @@
+{
+  "slug": "ca-covid-19",
+  "type": "static",
+  "renderBranch": "A'",
+  "template": "privacy-policy-and-cookies",
+  "modules": [
+    "spacer"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "wf-wrap"
+  ],
+  "canonShas": {
+    "header": "2519a4670299",
+    "footer": "1abd3951f42e",
+    "css": "89a5d300aec7"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "register-R-02",
+      "entry": "R-02",
+      "what": "raw [ultimate_heading main_heading=”During COVID-19″ …] text replicated verbatim as captured (bare text in the column; delivered as a paragraph); the source text has no heading, so no h1 is invented — documented exception to delivery-lint/qa-gate one-h1"
+    }
+  ],
+  "metadata": {
+    "title": "COVID-19 - Casa Argentera",
+    "description": "We have taken special concern during the covid-19 to ensure the safety for our guests, putting additional guidelines for cleaning and desinfecting, and also regarding the reservation policies to make it more flexible.",
+    "canonical": null,
+    "lang": "en-GB"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "COVID-19 - Casa Argentera",
+    "description": "We have taken special concern during the covid-19 to ensure the safety for our guests, putting additional guidelines for cleaning and desinfecting, and also regarding the reservation policies to make it more flexible.",
+    "url": "https://www.casaargentera.com/ca/covid-19/"
+  },
+  "migratedAt": "2026-11-24T21:12:18Z",
+  "designMdSha": "7ead730e40e5",
+  "designJsonSha": "15480f089476",
+  "sourceCurrentSha": "3dd62b630541",
+  "sourceProposedSha": "e0ba4be1bba0",
+  "fidelityTier": "sibling",
+  "archetypeSource": "privacy-policy-and-cookies",
+  "archetypeSha": "eebcc65fa29e",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 over ca/politica-de-privacidad-y-cookies, ca/politica-de-privacitat-i-cookies, da/privacy-policy-and-cookies, covid-19, ca/covid-19, da/covid-19 vs /privacy-policy-and-cookies/ @1440: content-driven deltas only (counts/heights; title pushed by vc_empty_space 64+64 / 128 instead of empty lines — margin measured 0, title y 188 at 1440 and 360; ca-privacitat section heads are <p><em>, covid pages have no heading and 4x32 + 32 spaces) — h2/h4/p type identical, no variant class; stardust/.work/rollout/static/variance.json",
+    "content-fidelity": "Path A' clone stardust/.work/rollout/static/src/ca-covid-19-proposed.html (stardust/encoders/build-clone-static.mjs; reproduces privacy-policy-and-cookies-proposed.html #content exactly from its capture): verbatim headings, paragraphs, inline markup, links, empty lines and empty-space modules in source order; content-diff #main 🔴 0 🟡 0, text/heading/CTA counts equal (stardust/.work/rollout/static/content-diff-ca-covid-19.txt); chrome 🔴 = canon-chrome deviation"
+  },
+  "contentDeviations": [
+    {
+      "kind": "chrome-canon",
+      "source": "localized WP header/footer",
+      "target": "canon chrome (EN) in clone",
+      "reason": "Path A' clone carries canon chrome verbatim; EDS delivery uses the locale nav/footer docs"
+    }
+  ],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "ca/covid-19/index.html",
+  "outputPathDefault": null,
+  "sidecar": "ca/covid-19/_meta.json",
+  "driverVersion": "1"
+}

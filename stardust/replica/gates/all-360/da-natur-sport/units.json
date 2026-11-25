@@ -1,0 +1,876 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T22:14:08.592Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/da/natur-sport/",
+  "at": "2026-11-24T19:03:40.729Z",
+  "docH": 3428
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/da/natur-sport",
+  "at": "2026-11-24T22:14:08.531Z",
+  "docH": 3571
+ },
+ "results": [
+  {
+   "sel": "#content > .vc_row > .vc_col-sm-6=.media-feature .media-feature-col",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:bike through the blooming almond trees",
+       "role": "image",
+       "text": "bike through the blooming almond trees",
+       "edsText": "bike through the blooming almond trees",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 50
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 119,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 955,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 955,
+       "w": 360,
+       "h": 60
+      },
+      "eds": {
+       "x": 0,
+       "y": 955,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 127
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:for cykelentusiaster",
+       "role": "heading",
+       "text": "for cykelentusiaster",
+       "edsText": "for cykelentusiaster",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110,
+        "sel": "h2#for-cykelentusiaster",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:uanset om du skal til spændende eller , ",
+       "role": "text",
+       "text": "uanset om du skal til spændende eller , har vi mere end 15 o",
+       "edsText": "uanset om du skal til spændende eller , har vi mere end 15 o",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 123,
+        "w": 292,
+        "h": 318
+       },
+       "eds": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 325,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 8,
+       "dh": 7,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:mtb-stier",
+       "role": "text",
+       "text": "mtb-stier",
+       "edsText": "mtb-stier",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 123,
+        "w": 278,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 123,
+        "w": 278,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:landevejscykling",
+       "role": "text",
+       "text": "landevejscykling",
+       "edsText": "landevejscykling",
+       "byPosition": false,
+       "origin": {
+        "x": 100,
+        "y": 148,
+        "w": 123,
+        "h": 18
+       },
+       "eds": {
+        "x": 100,
+        "y": 148,
+        "w": 123,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:udvalgte ruter,",
+       "role": "text",
+       "text": "udvalgte ruter,",
+       "edsText": "udvalgte ruter,",
+       "byPosition": false,
+       "origin": {
+        "x": 172,
+        "y": 173,
+        "w": 109,
+        "h": 18
+       },
+       "eds": {
+        "x": 172,
+        "y": 173,
+        "w": 109,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:naturlige og landlige omgivelser",
+       "role": "text",
+       "text": "naturlige og landlige omgivelser",
+       "edsText": "naturlige og landlige omgivelser",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 248,
+        "w": 237,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 248,
+        "w": 237,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:storslåede og udfordrende",
+       "role": "text",
+       "text": "storslåede og udfordrende",
+       "edsText": "storslåede og udfordrende",
+       "byPosition": false,
+       "origin": {
+        "x": 118,
+        "y": 273,
+        "w": 195,
+        "h": 18
+       },
+       "eds": {
+        "x": 118,
+        "y": 273,
+        "w": 195,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:stigninger",
+       "role": "text",
+       "text": "stigninger",
+       "edsText": "stigninger",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 298,
+        "w": 76,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 298,
+        "w": 76,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1015,
+       "w": 360,
+       "h": 445
+      },
+      "eds": {
+       "x": 0,
+       "y": 1142,
+       "w": 360,
+       "h": 445
+      },
+      "dx": 0,
+      "dy": 127,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 8,
+      "within": 7,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15481#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 1627,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1500,
+       "w": 360,
+       "h": 179
+      },
+      "eds": {
+       "x": 0,
+       "y": 1627,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 127,
+      "dw": 0,
+      "dh": 8
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:vandreruten er lagt",
+       "role": "heading",
+       "text": "vandreruten er lagt",
+       "edsText": "vandreruten er lagt",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110,
+        "sel": "h2#vandreruten-er-lagt",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:vandreture i dette område er et must. ud",
+       "role": "text",
+       "text": "vandreture i dette område er et must. udforsk bjergene, vel ",
+       "edsText": "vandreture i dette område er et must. udforsk bjergene, vel ",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 200
+       },
+       "eds": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 200,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:vandreruter med forskellige sværhedsgrad",
+       "role": "text",
+       "text": "vandreruter med forskellige sværhedsgrader",
+       "edsText": "vandreruter med forskellige sværhedsgrader",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 173,
+        "w": 261,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 173,
+        "w": 261,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1679,
+       "w": 360,
+       "h": 320
+      },
+      "eds": {
+       "x": 0,
+       "y": 1814,
+       "w": 360,
+       "h": 320
+      },
+      "dx": 0,
+      "dy": 135,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15725#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 2174,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2039,
+       "w": 360,
+       "h": 179
+      },
+      "eds": {
+       "x": 0,
+       "y": 2174,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 135,
+      "dw": 0,
+      "dh": 8
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:til hesteelskerne",
+       "role": "heading",
+       "text": "til hesteelskerne",
+       "edsText": "til hesteelskerne",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110,
+        "sel": "h2#til-hesteelskerne",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:nyd en stille tur på gennem udtørrede fl",
+       "role": "text",
+       "text": "nyd en stille tur på gennem udtørrede floder, på smalle stie",
+       "edsText": "nyd en stille tur på gennem udtørrede floder, på smalle stie",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 150
+       },
+       "eds": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 150,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:hesteryg",
+       "role": "text",
+       "text": "hesteryg",
+       "edsText": "hesteryg",
+       "byPosition": false,
+       "origin": {
+        "x": 165,
+        "y": 123,
+        "w": 65,
+        "h": 18
+       },
+       "eds": {
+        "x": 165,
+        "y": 123,
+        "w": 65,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2218,
+       "w": 360,
+       "h": 270
+      },
+      "eds": {
+       "x": 0,
+       "y": 2361,
+       "w": 360,
+       "h": 270
+      },
+      "dx": 0,
+      "dy": 143,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 6,
+  "within": 15,
+  "off": 2,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 2
+ }
+}

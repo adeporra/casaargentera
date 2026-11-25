@@ -1,0 +1,75 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-24T22:40:26.063Z",
+  "url": "https://www.casaargentera.com/ca/esdeveniments/",
+  "width": 2560,
+  "vh": 900,
+  "height": 3222,
+  "settle": true,
+  "chunks": 4,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 10,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 2,
+    "intervals": 2,
+    "chains": 0,
+    "delays": [
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 3222,
+    "pct": 0,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    3222,
+    3222
+  ],
+  "noiseFloor": 0.18,
+  "heightSpread": 0,
+  "outside": 0.01,
+  "variable": [
+    {
+      "y": 212,
+      "h": 136,
+      "pct": 7.1
+    },
+    {
+      "y": 452,
+      "h": 76,
+      "pct": 2.1
+    }
+  ],
+  "variableShare": 6.58,
+  "maskArg": "212:136,452:76",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-24T22:41:05.584Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

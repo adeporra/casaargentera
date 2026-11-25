@@ -1,0 +1,319 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T22:18:17.401Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/da/who-we-are/",
+  "at": "2026-11-24T19:08:36.591Z",
+  "docH": 2685
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/da/who-we-are",
+  "at": "2026-11-24T22:18:17.332Z",
+  "docH": 2685
+ },
+ "results": [
+  {
+   "sel": "#content .wpb_single_image=.image-grid.plain .image-grid-image",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-3 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:la mola de colldejou, family excursion i",
+       "role": "image",
+       "text": "la mola de colldejou, family excursion in baix camp, near ca",
+       "edsText": "la mola de colldejou, family excursion in baix camp, near ca",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 1239,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 1239,
+       "w": 300,
+       "h": 169
+      },
+      "eds": {
+       "x": 30,
+       "y": 1239,
+       "w": 300,
+       "h": 169
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-3 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:the gorge by siurana, fresh for a swim",
+       "role": "image",
+       "text": "the gorge by siurana, fresh for a swim",
+       "edsText": "the gorge by siurana, fresh for a swim",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 1408,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 1408,
+       "w": 300,
+       "h": 169
+      },
+      "eds": {
+       "x": 30,
+       "y": 1408,
+       "w": 300,
+       "h": 169
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-3 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:padel surf in delta, by the musclarium",
+       "role": "image",
+       "text": "padel surf in delta, by the musclarium",
+       "edsText": "padel surf in delta, by the musclarium",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 1577,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 1577,
+       "w": 300,
+       "h": 169
+      },
+      "eds": {
+       "x": 30,
+       "y": 1577,
+       "w": 300,
+       "h": 169
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 3,
+  "within": 3,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

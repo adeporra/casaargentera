@@ -1,0 +1,26 @@
+
+Content diff @ 1440px (profile "generic", roots: #main, header, footer)
+root "#main"
+  source: 24 text nodes — 2 headings, 0 eyebrows, 1 CTAs, 21 body; 6 img
+  build: 24 text nodes — 2 headings, 0 eyebrows, 1 CTAs, 21 body; 6 img
+  editable texts (outermost h*/p/ul/ol): source 14 / build 14
+  attributes (placeholder/aria-label/title): source 7 / build 7; icons: source 0 / build 0
+root "header"
+  source: 33 text nodes — 0 headings, 0 eyebrows, 25 CTAs, 8 body; 4 img
+  build: 31 text nodes — 0 headings, 0 eyebrows, 25 CTAs, 6 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 6 / build 8; icons: source 8 / build 8
+root "footer"
+  source: 19 text nodes — 0 headings, 0 eyebrows, 9 CTAs, 10 body; 0 img
+  build: 19 text nodes — 0 headings, 0 eyebrows, 9 CTAs, 10 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 5 / build 5
+  attributes (placeholder/aria-label/title): source 4 / build 5; icons: source 3 / build 3
+
+Findings: 6 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 6
+  🟡 MISSING BODY [header]: source body "Menu 1"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "Menu 1"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Languages" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Main" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <button> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [footer]: source inline svg 0 0 16 16 / 1 shape(s) (16×16) at "a#1" is at "search" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.

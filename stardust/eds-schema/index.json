@@ -1,0 +1,318 @@
+{
+ "source": "http://localhost:8791/index-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Casa Argentera, a historical village situated in a small catalan mountain village, between the famous wine region Priorat and the Mediterranean Sea"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "A place where , and Situated in a valley, in a tiny with cobblestone streets lined with ever blooming flowers and a majestic view of the castle of Escornalbou. A place where your story begins."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "time stands still"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "unique traditions stays alive."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "authentic Catalan village"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "THE GARDEN",
+     "href": "https://www.casaargentera.com/wp/the-garden/"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "THE NOBLE FLOOR",
+     "href": "https://www.casaargentera.com/wp/the-noble-floor/"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "THE PENTHOUSE",
+     "href": "https://www.casaargentera.com/the-penthouse/"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "THE GROUND FLOOR",
+     "href": "https://www.casaargentera.com/the-ground-floor/"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vc-col",
+     "count": 2,
+     "unit": {
+      "headings": 2,
+      "ctas": 2,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "H3.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "FIGURE.single-image",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "H3.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "FIGURE.single-image",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Testimonials"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "“The stay at Casa Argentera was great. Ina behaved like a super hostess! From the first moment she was concerned that we were comfortable in the house, she had the house fully prepared for us eventhough we were a group of 15 people and 8 babies and she arranged the house to fully adapt to…"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Emma, Vilassar de Dalt 1/11/16 *****"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "“The house is well equipped, with all a big family will need. We were 13 and there was room for more. The pool is great thing for all. It’s heated so you can use it when it’s starting to get hot. Ina is a great host and gave us all the necessary advices for things…"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Manuel, Barcelona 15/4/17 *****"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "“Ina’s house is very beautiful, comfortable and cozy. It is much more than well equipped (nothing was missing !!!) and is perfect for groups with or without children. Privileged environment, very well located, easy to get to and very friendly local people. Like Ina and her husband, they are charming, helpful and always attentive. We…"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Jordan, Barcelona 28/5/17 *****"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "“A nice house for a family in a typical Catalan village . All equipments available from kitchen to swimming pool ! A good location for holidays.”"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Herve, Amiens, France 17/8/19 ****"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "“We lived with a family of 10 and had plenty of room! The house is perfect for family fun and relaxation, but there are also plenty of opportunities for excursions, both in the local area and around Catalonia. We stayed with Ina for a week but could have easily spent two! Perfect location if you…"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Regitze, Aalborg, Denmark 7/9/19 *****"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "“Ina y su marido son muy buenos anfitriones y en todo momento están atentos a cualquier necesidad.”"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Albert, Barcelona 10/11/19 *****"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "“La casa es ideal para un encuentro familiar o de amigos, con niños o sin. Está muy bien equipada, tiene sitio suficiente para estar todos juntos y tambien espacios para desconectar del grupo. La piscina està muy bien, hay mesa exterior enorme para comer fuera. Los propietarios son muy agradables, nos ayudaron a buscar cosas…"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Jordi, Balaguer 22/9/19 *****"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "“Es una casa fantástica. Si buscas tranquilidad, reunirte con la familia o los amigos y recargar pilas, este es el sitio”"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Ramon, Cádiz 25/12/19 *****"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "ARTICLE.testimonial-item",
+     "count": 8,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "NATURE & SPORT",
+     "href": "https://www.casaargentera.com/wp/nature-sport/"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "CULTURE",
+     "href": "https://www.casaargentera.com/wp/culture/"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "BEACH AND MORE",
+     "href": "https://www.casaargentera.com/wp/beach-and-more/"
+    }
+   ],
+   "imgCount": 9,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vc-col",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 3,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "FIGURE.single-image",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "FIGURE.single-image",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "FIGURE.single-image",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Location: in the Costa Daurada mountains",
+     "href": "https://www.casaargentera.com/wp/search-results/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  }
+ ]
+}

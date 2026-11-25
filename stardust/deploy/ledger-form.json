@@ -1,0 +1,38 @@
+{
+  "/contact": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T20:07:31.614Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/contacte": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T20:37:15.929Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/da/kontakt": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T20:37:21.380Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/es/contacto": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T20:37:26.590Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

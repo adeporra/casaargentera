@@ -1,0 +1,47 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-24T22:43:15.214Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 4,
+   "offPage": 2,
+   "textNodes": 63,
+   "controls": 44,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT X-HIDDEN",
+    "advisory": true,
+    "n": 4,
+    "clipper": "div.testimonials-viewport",
+    "path": "div.testimonials-track > article.testimonial-item > div.testimonial-content > p",
+    "text": "“la casa està ben equipada i necessitarà tota una família no",
+    "cutMin": 0,
+    "cutMax": 13
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ },
+ "units": {
+  "verdict": {
+   "units": 14,
+   "within": 17,
+   "off": 4,
+   "hidden": 0,
+   "missing": 0,
+   "errors": 0,
+   "requiredOff": 4
+  },
+  "required": true,
+  "errors": []
+ }
+}

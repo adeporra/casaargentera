@@ -1,0 +1,381 @@
+[live-session] waiting to pace live navigations to www.casaargentera.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 896 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/events-360/vdiff-iter2/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 3334,
+  "textLen": 1219,
+  "images": [
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Logo-75-px.jpg",
+    "natural": "75x58",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Logo-75-px.jpg",
+    "natural": "75x58",
+    "rendered": "75x58",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tapas-workshop-Casa-Argentera-1024x576.jpg",
+    "natural": "1024x576",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Cata-Sangenis-1024x576.jpg",
+    "natural": "1024x576",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "PinturaR%C3%A1pida-lArgentera-1024x576.jpg",
+    "natural": "1024x576",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Cal%C3%A7ots-Argentera.jpg",
+    "natural": "897x505",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Paella-CasaArgentera.jpg",
+    "natural": "720x405",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Workshop-MarionaQuadrada-1024x576.jpg",
+    "natural": "1024x576",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Celebrate your event in Casa Arg",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "More information and reservation",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "THE HOUSE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "THE PLACE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "EXPERIENCES",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "EVENTS",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "WHO WE ARE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "CONTACT",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "RESERVATIONS",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "THE HOUSE",
+    "color": "rgb(48, 48, 48)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "wpb_wrapper",
+    "width": 300,
+    "left": 30
+   },
+   {
+    "sel": "wpb_wrapper",
+    "width": 300,
+    "left": 30
+   },
+   {
+    "sel": "wpcf7-form",
+    "width": 300,
+    "left": 30
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 3334,
+  "textLen": 1219,
+  "images": [
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Logo-75-px.jpg",
+    "natural": "75x58",
+    "rendered": "75x58",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Olivera-CasaArgentera.jpg",
+    "natural": "1980x1114",
+    "rendered": "360x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Chocolatecourse-Argentera.jpg",
+    "natural": "1980x1114",
+    "rendered": "360x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "PinturaR%C3%A1pida-lArgentera.jpg",
+    "natural": "1980x1114",
+    "rendered": "360x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Priorat-CasaArgentera.jpg",
+    "natural": "1980x1114",
+    "rendered": "360x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tasting-Argentera.jpg",
+    "natural": "1980x1114",
+    "rendered": "360x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Workshop-CasaArgentera.jpg",
+    "natural": "914x549",
+    "rendered": "360x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tapas-workshop-Casa-Argentera-1024x576.jpg",
+    "natural": "1024x576",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Cata-Sangenis-1024x576.jpg",
+    "natural": "1024x576",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "PinturaR%C3%A1pida-lArgentera-1024x576.jpg",
+    "natural": "1024x576",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Cal%C3%A7ots-Argentera.jpg",
+    "natural": "897x505",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Paella-CasaArgentera.jpg",
+    "natural": "720x405",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Workshop-MarionaQuadrada-1024x576.jpg",
+    "natural": "1024x576",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Celebrate your event in Casa Arg",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "More information and reservation",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "THE HOUSE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "THE PLACE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "EXPERIENCES",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "EVENTS",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "WHO WE ARE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "CONTACT",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "RESERVATIONS",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "THE HOUSE",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "text-column",
+    "width": 300,
+    "left": 30
+   },
+   {
+    "sel": "text-column",
+    "width": 300,
+    "left": 30
+   },
+   {
+    "sel": "cf7-form",
+    "width": 300,
+    "left": 30
+   }
+  ]
+ }
+}

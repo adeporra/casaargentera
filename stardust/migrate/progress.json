@@ -1,0 +1,258 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "article",
+        "program",
+        "events",
+        "listing",
+        "form",
+        "booking",
+        "static"
+      ],
+      "pages": 70,
+      "startedAt": "2026-11-24T12:12:18Z",
+      "endedAt": "2026-11-24T12:12:24.314Z",
+      "verdict": "Path A 8 archetypes (approved, gated 1440/360); Path A′ 62 siblings in 12 render clusters; Path B 0; renders run after each template archetype unit is done in C-deliver"
+    },
+    "article-1": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "culture",
+      "slugs": [
+        "es-el-entorno",
+        "es-naturaleza-deporte",
+        "es-playas-y-mas",
+        "es-quienes-somos",
+        "es-cultura",
+        "es-la-casa",
+        "ca-cultura",
+        "ca-platja-i-mes"
+      ],
+      "pages": 8,
+      "startedAt": "2026-11-24T17:33:00.000Z",
+      "endedAt": "2026-11-24T17:08:01.000Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0"
+    },
+    "article-2": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "culture",
+      "slugs": [
+        "ca-qui-som",
+        "ca-la-casa",
+        "ca-lentorn",
+        "ca-natura-esport",
+        "who-we-are",
+        "nature-sport",
+        "the-place",
+        "beach-and-more"
+      ],
+      "pages": 8,
+      "startedAt": "2026-11-24T17:45:00.000Z",
+      "endedAt": "2026-11-24T17:11:02.000Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0"
+    },
+    "article-3": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "culture",
+      "slugs": [
+        "the-house",
+        "da-natur-sport",
+        "da-who-we-are",
+        "da-stedet",
+        "da-strand-m-m",
+        "da-kulturen",
+        "da-the-house"
+      ],
+      "pages": 7,
+      "startedAt": "2026-11-24T17:50:00.000Z",
+      "endedAt": "2026-11-24T17:13:36.000Z",
+      "verdict": "rendered 7, unchanged 0, refused 0, passthrough 0"
+    },
+    "program-1": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "archetype": "the-garden",
+      "slugs": [
+        "es-el-atico",
+        "es-el-jardin",
+        "es-el-piso-senorial",
+        "es-la-casa-entera",
+        "es-la-planta-baja",
+        "ca-el-jardi",
+        "ca-la-casa-sencera"
+      ],
+      "pages": 7,
+      "startedAt": "2026-11-24T13:45:57.575Z",
+      "endedAt": "2026-11-24T13:56:58.757Z",
+      "verdict": "rendered 7, unchanged 0, refused 0, passthrough 0"
+    },
+    "program-2": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "archetype": "the-garden",
+      "slugs": [
+        "ca-latic",
+        "ca-el-pis-senyorial",
+        "ca-la-planta-baixa",
+        "the-whole-house",
+        "the-penthouse",
+        "the-noble-floor",
+        "the-ground-floor"
+      ],
+      "pages": 7,
+      "startedAt": "2026-11-24T13:57:05.272Z",
+      "endedAt": "2026-11-24T13:59:46.220Z",
+      "verdict": "rendered 7, unchanged 0, refused 0, passthrough 0"
+    },
+    "program-3": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "archetype": "the-garden",
+      "slugs": [
+        "da-stueetagen",
+        "da-penthousekvisten",
+        "da-the-garden",
+        "da-hele-huset",
+        "da-the-noble-floor"
+      ],
+      "pages": 5,
+      "startedAt": "2026-11-24T13:59:50.867Z",
+      "endedAt": "2026-11-24T14:04:20.812Z",
+      "verdict": "rendered 5, unchanged 0, refused 0, passthrough 0"
+    },
+    "events": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "events"
+      ],
+      "archetype": "events",
+      "slugs": [
+        "es-eventos",
+        "ca-esdeveniments",
+        "da-eventsda"
+      ],
+      "pages": 3,
+      "startedAt": "2026-11-24T21:05:08.163Z",
+      "endedAt": "2026-11-24T21:11:58.728Z",
+      "verdict": "rendered 3, unchanged 0, refused 0, passthrough 0"
+    },
+    "listing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "listing"
+      ],
+      "archetype": "experiences",
+      "slugs": [
+        "es-experiencias",
+        "ca-experiencies",
+        "da-oplevelser"
+      ],
+      "pages": 3,
+      "startedAt": "2026-11-24T20:28:50.228Z",
+      "endedAt": "2026-11-24T20:33:11.969Z",
+      "verdict": "rendered 3, unchanged 0, refused 0, passthrough 0"
+    },
+    "form": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "form"
+      ],
+      "archetype": "contact",
+      "slugs": [
+        "es-contacto",
+        "ca-contacte",
+        "da-kontakt"
+      ],
+      "pages": 3,
+      "startedAt": "2026-11-24T20:27:14.542Z",
+      "endedAt": "2026-11-24T20:35:11.926Z",
+      "verdict": "rendered 3, unchanged 0, refused 0, passthrough 0"
+    },
+    "landing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing"
+      ],
+      "archetype": "index",
+      "slugs": [
+        "es-inicio",
+        "ca-inici"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-24T12:56:32.226Z",
+      "endedAt": "2026-11-24T13:02:37.901Z",
+      "verdict": "rendered 2, unchanged 0, refused 0, passthrough 0"
+    },
+    "booking": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "booking"
+      ],
+      "archetype": "reservations-2",
+      "slugs": [
+        "es-reservas",
+        "ca-reserves",
+        "da-reservations"
+      ],
+      "pages": 3,
+      "startedAt": "2026-11-24T20:50:39.173Z",
+      "endedAt": "2026-11-24T20:56:41.715Z",
+      "verdict": "rendered 3, unchanged 0, refused 0, passthrough 0"
+    },
+    "static": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "archetype": "privacy-policy-and-cookies",
+      "slugs": [
+        "ca-politica-de-privacidad-y-cookies",
+        "ca-covid-19",
+        "ca-politica-de-privacitat-i-cookies",
+        "covid-19",
+        "da-covid-19",
+        "da-privacy-policy-and-cookies"
+      ],
+      "pages": 6,
+      "startedAt": "2026-11-24T21:07:53.573Z",
+      "endedAt": "2026-11-24T21:14:51.316Z",
+      "verdict": "rendered 6, unchanged 0, refused 0, passthrough 0"
+    },
+    "report": {
+      "status": "pending",
+      "kind": "report",
+      "templates": [],
+      "pages": 70
+    }
+  }
+}

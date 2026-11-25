@@ -1,0 +1,24 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-24T10:39:13.861Z",
+ "source": "https://www.casaargentera.com/",
+ "build": "http://localhost:8791/index-proposed.html",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  360,
+  1440
+ ],
+ "stage": "prototype",
+ "round": {
+  "label": "compare-3",
+  "kind": "confirm"
+ },
+ "counts": {
+  "error": 0,
+  "warn": 0,
+  "decided": 0,
+  "classed": 0
+ },
+ "findings": []
+}

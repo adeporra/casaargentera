@@ -1,0 +1,1029 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T21:54:55.957Z",
+  "tol": 4,
+  "n": 5,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/es/la-casa-entera/",
+  "at": "2026-11-24T14:41:49.436Z",
+  "docH": 4523
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/es/la-casa-entera",
+  "at": "2026-11-24T21:54:55.883Z",
+  "docH": 4513
+ },
+ "results": [
+  {
+   "sel": ".icon-with-text-shortcode=.icon-features .icon-features-item",
+   "family": null,
+   "required": true,
+   "originMatches": 10,
+   "edsMatches": 10,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-92bc9da8852da605acc32de746ac07d4"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.block > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:6 habitaciones dobles + 1 habitación ind",
+       "role": "heading",
+       "text": "6 habitaciones dobles + 1 habitación individual",
+       "edsText": "6 habitaciones dobles + 1 habitación individual",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27,
+        "sel": "h5#habitaciones-dobles--1-habitación-individual",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/27/400",
+        "eds": "17/27/400"
+       }
+      },
+      {
+       "key": "text:3 habitaciones con cama doble, 3 habitac",
+       "role": "text",
+       "text": "3 habitaciones con cama doble, 3 habitaciones con 2 camas in",
+       "edsText": "3 habitaciones con cama doble, 3 habitaciones con 2 camas in",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 27,
+        "w": 1070,
+        "h": 25
+       },
+       "eds": {
+        "x": 60,
+        "y": 27,
+        "w": 1070,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 2231,
+       "w": 1130,
+       "h": 60
+      },
+      "eds": {
+       "x": 155,
+       "y": 2231,
+       "w": 1130,
+       "h": 60
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-060ea99c137f5bc6b7a9d72cc19dd2be"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.block > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:5 baños",
+       "role": "heading",
+       "text": "5 baños",
+       "edsText": "5 baños",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27,
+        "sel": "h5#baños",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/27/400",
+        "eds": "17/27/400"
+       }
+      },
+      {
+       "key": "text:3 baños completos con duchas efecto lluv",
+       "role": "text",
+       "text": "3 baños completos con duchas efecto lluvia y jets 1 baño com",
+       "edsText": "3 baños completos con duchas efecto lluvia y jets 1 baño com",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 1070,
+        "h": 75
+       },
+       "eds": {
+        "x": 60,
+        "y": 27,
+        "w": 1070,
+        "h": 75,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 2311,
+       "w": 1130,
+       "h": 109
+      },
+      "eds": {
+       "x": 155,
+       "y": 2311,
+       "w": 1130,
+       "h": 102
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -7
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-1e44b6c26fbe33e0d215f01d4078aba0"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.block > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:3 chimeneas",
+       "role": "heading",
+       "text": "3 chimeneas",
+       "edsText": "3 chimeneas",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27,
+        "sel": "h5#chimeneas",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/27/400",
+        "eds": "17/27/400"
+       }
+      },
+      {
+       "key": "text:2 chimeneas 1 horno de obra",
+       "role": "text",
+       "text": "2 chimeneas 1 horno de obra",
+       "edsText": "2 chimeneas 1 horno de obra",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 1070,
+        "h": 50
+       },
+       "eds": {
+        "x": 60,
+        "y": 27,
+        "w": 1070,
+        "h": 50,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 2440,
+       "w": 1130,
+       "h": 80
+      },
+      "eds": {
+       "x": 155,
+       "y": 2433,
+       "w": 1130,
+       "h": 77
+      },
+      "dx": 0,
+      "dy": -7,
+      "dw": 0,
+      "dh": -3
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-bcb875498c711856d660d681479e645e"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.block > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:2 terrazas privadas",
+       "role": "heading",
+       "text": "2 terrazas privadas",
+       "edsText": "2 terrazas privadas",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27,
+        "sel": "h5#terrazas-privadas",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/27/400",
+        "eds": "17/27/400"
+       }
+      },
+      {
+       "key": "text:con sitio para comer y con sombrilla",
+       "role": "text",
+       "text": "con sitio para comer y con sombrilla",
+       "edsText": "con sitio para comer y con sombrilla",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 27,
+        "w": 1070,
+        "h": 25
+       },
+       "eds": {
+        "x": 60,
+        "y": 27,
+        "w": 1070,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 2540,
+       "w": 1130,
+       "h": 60
+      },
+      "eds": {
+       "x": 155,
+       "y": 2530,
+       "w": 1130,
+       "h": 60
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-6fbfc980138992c45e80ba0bcc0fe7d0"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.block > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:3 cocinas americanas",
+       "role": "heading",
+       "text": "3 cocinas americanas",
+       "edsText": "3 cocinas americanas",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27,
+        "sel": "h5#cocinas-americanas",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/27/400",
+        "eds": "17/27/400"
+       }
+      },
+      {
+       "key": "text:con acceso directo al jardín nespresso, ",
+       "role": "text",
+       "text": "con acceso directo al jardín nespresso, microondas, lavavaji",
+       "edsText": "con acceso directo al jardín nespresso, microondas, lavavaji",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 27,
+        "w": 1070,
+        "h": 75
+       },
+       "eds": {
+        "x": 60,
+        "y": 27,
+        "w": 1070,
+        "h": 75,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 2620,
+       "w": 1130,
+       "h": 102
+      },
+      "eds": {
+       "x": 155,
+       "y": 2610,
+       "w": 1130,
+       "h": 102
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#content .wpb_single_image=.image-grid.plain .image-grid-image",
+   "family": null,
+   "required": true,
+   "originMatches": 7,
+   "edsMatches": 7,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-2 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:view of the pool from the lounge chairs,",
+       "role": "image",
+       "text": "view of the pool from the lounge chairs, casa argentera in t",
+       "edsText": "view of the pool from the lounge chairs, casa argentera in t",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 1235,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 1235,
+       "w": 535,
+       "h": 301
+      },
+      "eds": {
+       "x": 155,
+       "y": 1235,
+       "w": 535,
+       "h": 301
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-2 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:casa argentera living room noble floor",
+       "role": "image",
+       "text": "casa argentera living room noble floor",
+       "edsText": "casa argentera living room noble floor",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 1235,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 750,
+       "y": 1235,
+       "w": 535,
+       "h": 301
+      },
+      "eds": {
+       "x": 750,
+       "y": 1235,
+       "w": 535,
+       "h": 301
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-3 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:masonry stove ground floor, casa argente",
+       "role": "image",
+       "text": "masonry stove ground floor, casa argentera",
+       "edsText": "masonry stove ground floor, casa argentera",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 337,
+        "h": 189
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 337,
+        "h": 189,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 337,
+       "h": 189,
+       "absY": 1582,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 1582,
+       "w": 337,
+       "h": 189
+      },
+      "eds": {
+       "x": 155,
+       "y": 1582,
+       "w": 337,
+       "h": 189
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-3 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:penthouse kitchen and high table",
+       "role": "image",
+       "text": "penthouse kitchen and high table",
+       "edsText": "penthouse kitchen and high table",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 337,
+        "h": 189
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 337,
+        "h": 189,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 337,
+       "h": 189,
+       "absY": 1582,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 552,
+       "y": 1582,
+       "w": 337,
+       "h": 189
+      },
+      "eds": {
+       "x": 552,
+       "y": 1582,
+       "w": 337,
+       "h": 189
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-3 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:double room with pool view 1st floor",
+       "role": "image",
+       "text": "double room with pool view 1st floor",
+       "edsText": "double room with pool view 1st floor",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 337,
+        "h": 189
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 337,
+        "h": 189,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 337,
+       "h": 189,
+       "absY": 1582,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 948,
+       "y": 1582,
+       "w": 337,
+       "h": 189
+      },
+      "eds": {
+       "x": 948,
+       "y": 1582,
+       "w": 337,
+       "h": 189
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 15,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.casaargentera.com/es/experiencias/",
+  "reference": {
+    "dir": "stardust/replica/gates/wide-2560/es-experiencias",
+    "capturedAt": "2026-11-24T23:24:50.668Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0,
+    "variableRows": 0,
+    "maskArg": ""
+  },
+  "note": "froze stardust/replica/gates/wide-2560/es-experiencias/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-24T23:25:41.127Z"
+}

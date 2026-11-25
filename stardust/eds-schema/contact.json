@@ -1,0 +1,172 @@
+{
+ "source": "http://127.0.0.1:3013/stardust/prototypes/contact-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Located in the Hazelnut mountains between the Priorat wine region & the Mediterranean sea"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": ": Cambrils (Costa Dorada) 20 km, Tarragona 35 km, Port Aventura World 29 km, Barcelona 130 km."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Distances to some of the main attractions"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Some directions to get to Casa Argentera"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Contact us for any further information or ideas"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vc-col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "By plane"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Reus Airport is only 35 minutes away by car, and you can check Ryanair for flights. Barcelona Airport is 1 hour 35 minutes away by car. From both airports you can either rent a car or take the train or bus to get to Argentera"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "By car"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "- From Barcelona, take either the motorway AP7 or A7 southbound and get off in Cambrils (exit 37) south of Salou. Then take the T-312 direction Montbrio del Camp, here you follow signs to Riudecanyes, Duesaïgues and L'Argentera. It's about 15 kms drive. - From Reus, take T-310 direction Riudoms, and you don't leave the road until you arrive to Montbrió del Camp, here you follow as described before. - Falset, take N-420 direction Reus and halfway (by the mountain Coll de la Teixeta you take T-313 direction Duesaïgues and follow signs to L'Argentera."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "By train"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "There are 1,1 km from the station to the house. There are 3 daily arrivals from Barcelona to the station L'Argentera-Duesaïgues."
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "By bus"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "There are 2 arrivals and departures on Monday and Thursday from Reus. Bus leaving Reus 8.45 and 15.15 and bus leaving L'Argentera 9.30 and 16.00. The busstop in L'Argentera is in front of the house, and in Reus at Plaza de la Oca."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Your Name (required)"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Your Email (required)"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Your Number (required)"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Subject"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Please, let us know your preferences regarding check in and check out dates."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Your Message"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "I have read and accept the"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "privacy policy",
+     "href": "https://www.casaargentera.com/wp/privacy-policy/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vc-col",
+     "count": 2,
+     "unit": {
+      "headings": 4,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 8
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.icon-text",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+  "a": "stardust/replica/gates/all-360/experiences/origin.png",
+  "b": "stardust/replica/gates/all-360/experiences/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3000,
+    "mode": "overlap"
+  },
+  "heightDelta": -16,
+  "differingPixels": 172173,
+  "pct": 15.94,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/experiences/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 2.6,
+  "textBoxes": 49,
+  "textPixels": 294112,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 17.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 24.8
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 34.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 14.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 3.7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 13.67,
+    "differingPixels": 148442,
+    "compared": {
+      "width": 360,
+      "height": 3016,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2010,
+        "shift": 16,
+        "cumulative": 16
+      }
+    ],
+    "maxOffset": 16,
+    "totalShift": 16,
+    "insertedRows": 16,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 17.3,
+        "unaligned": 17.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 24.8,
+        "unaligned": 24.8
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 34.7,
+        "unaligned": 34.7
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 4.7,
+        "unaligned": 14.3
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 3.7
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/experiences/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 30,
+    "totalShift": 16,
+    "pass": true
+  },
+  "reason": "pixel aligned 13.67% (unaligned 15.94%) > 10%"
+}

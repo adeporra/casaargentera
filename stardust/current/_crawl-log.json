@@ -1,0 +1,1383 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 71,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.casaargentera.com/wp-content/uploads/2020/03/casaargentera_logo_2010.png",
+    "file": "assets/favicon.png"
+  },
+  "crawl": {
+    "failures": [
+      {
+        "url": "https://www.casaargentera.com/da/home/",
+        "slug": "da-home",
+        "errorClass": "Error",
+        "message": "page.goto: net::ERR_TOO_MANY_REDIRECTS at https://www.casaargentera.com/da/home/\nCall log:\n  - navigating to \"https://www.casaargentera.com/da/home/\", waiting until \"domcontentloaded\"\n",
+        "at": "2026-11-24T09:14:33.478Z"
+      }
+    ],
+    "degraded": [],
+    "pageTimeoutMs": 60000
+  },
+  "captureGaps": {
+    "roots": [
+      {
+        "root": "/ca/la-casa",
+        "slug": "ca-la-casa",
+        "linked": 0,
+        "uncaptured": []
+      },
+      {
+        "root": "/ca/qui-som",
+        "slug": "ca-qui-som",
+        "linked": 0,
+        "uncaptured": []
+      },
+      {
+        "root": "/es/la-casa",
+        "slug": "es-la-casa",
+        "linked": 0,
+        "uncaptured": []
+      }
+    ],
+    "detail": "uncaptured first-level targets: ca/la-casa 0, ca/qui-som 0, es/la-casa 0"
+  },
+  "dynamicSurface": {
+    "pages": 70,
+    "pagesWithSameSiteData": 32,
+    "pagesWithSearchForm": 70,
+    "pagesHydrated": 70,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/recaptcha/api2/reload",
+        "query": [
+          "k"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.google.com/recaptcha/api2/reload",
+        "pages": 70,
+        "examples": [
+          "es-el-entorno",
+          "index",
+          "es-naturaleza-deporte"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/recaptcha/api2/clr",
+        "query": [
+          "k"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/binary",
+        "sameSite": false,
+        "example": "https://www.google.com/recaptcha/api2/clr",
+        "pages": 70,
+        "examples": [
+          "es-el-entorno",
+          "index",
+          "es-naturaleza-deporte"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fv",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google-analytics.com/g/collect",
+        "pages": 54,
+        "examples": [
+          "es-el-entorno",
+          "index",
+          "es-naturaleza-deporte"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.casaargentera.com",
+        "path": "/wp-json/contact-form-7/v1/contact-forms/{n}/feedback/schema",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.casaargentera.com/wp-json/contact-form-7/v1/contact-forms/16165/feedback/schema",
+        "pages": 32,
+        "examples": [
+          "es-el-atico",
+          "es-el-jardin",
+          "es-el-piso-senorial"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.casaargentera.com",
+        "path": "/wp-admin/admin-ajax.php",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.casaargentera.com/wp-admin/admin-ajax.php",
+        "pages": 12,
+        "examples": [
+          "es-eventos",
+          "es-la-planta-baja",
+          "es-reservas"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "maps.googleapis.com",
+        "path": "/maps/api/mapsjs/gen_204",
+        "query": [
+          "csp_test"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://maps.googleapis.com/maps/api/mapsjs/gen_204",
+        "pages": 7,
+        "examples": [
+          "index",
+          "es-contacto",
+          "es-inicio"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "maps.googleapis.com",
+        "path": "/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/InitMapsJwt",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "sameSite": false,
+        "example": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/InitMapsJwt",
+        "pages": 7,
+        "examples": [
+          "index",
+          "es-contacto",
+          "es-inicio"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "maps.googleapis.com",
+        "path": "/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "sameSite": false,
+        "example": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+        "pages": 7,
+        "examples": [
+          "index",
+          "es-contacto",
+          "es-inicio"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "maps.googleapis.com",
+        "path": "/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetPlaceWidgetMetadata",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "sameSite": false,
+        "example": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetPlaceWidgetMetadata",
+        "pages": 7,
+        "examples": [
+          "index",
+          "es-contacto",
+          "es-inicio"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/maps/vt",
+        "query": [
+          "key",
+          "pb",
+          "token"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.google.com/maps/vt",
+        "pages": 7,
+        "examples": [
+          "index",
+          "es-contacto",
+          "es-inicio"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "places.googleapis.com",
+        "path": "/$rpc/google.maps.places.v1.Places/GetPlace",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "sameSite": false,
+        "example": "https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace",
+        "pages": 7,
+        "examples": [
+          "index",
+          "es-contacto",
+          "es-inicio"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.google.com",
+        "pages": 70,
+        "examples": [
+          "es-el-entorno",
+          "index",
+          "es-naturaleza-deporte"
+        ]
+      },
+      {
+        "host": "www.gstatic.com",
+        "pages": 70,
+        "examples": [
+          "es-el-entorno",
+          "index",
+          "es-naturaleza-deporte"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 70,
+        "examples": [
+          "es-el-entorno",
+          "index",
+          "es-naturaleza-deporte"
+        ]
+      },
+      {
+        "host": "maps.googleapis.com",
+        "pages": 7,
+        "examples": [
+          "index",
+          "es-contacto",
+          "es-inicio"
+        ]
+      },
+      {
+        "host": "maps.gstatic.com",
+        "pages": 7,
+        "examples": [
+          "index",
+          "es-contacto",
+          "es-inicio"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "wordpress",
+        "pages": 70,
+        "examples": [
+          "es-el-entorno",
+          "index",
+          "es-naturaleza-deporte"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 70,
+        "examples": [
+          "es-el-entorno",
+          "index",
+          "es-naturaleza-deporte"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://www.casaargentera.com/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "s"
+        ],
+        "pages": 25,
+        "examples": [
+          "index",
+          "ca-covid-19",
+          "who-we-are"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/es/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "s"
+        ],
+        "pages": 18,
+        "examples": [
+          "es-el-entorno",
+          "es-naturaleza-deporte",
+          "es-playas-y-mas"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/ca/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "s"
+        ],
+        "pages": 16,
+        "examples": [
+          "ca-politica-de-privacidad-y-cookies",
+          "ca-platja-i-mes",
+          "ca-qui-som"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/da/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "s"
+        ],
+        "pages": 11,
+        "examples": [
+          "da-natur-sport",
+          "da-stedet",
+          "da-strand-m-m"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/the-garden/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 2,
+        "examples": [
+          "the-garden",
+          "da-the-garden"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/the-noble-floor/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 2,
+        "examples": [
+          "the-noble-floor",
+          "da-the-noble-floor"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/es/el-atico/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-el-atico"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/es/el-jardin/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-el-jardin"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/es/el-piso-senorial/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-el-piso-senorial"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/es/eventos/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-eventos"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/es/la-casa-entera/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-la-casa-entera"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/es/la-planta-baja/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-la-planta-baja"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/es/contacto/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-contacto"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/es/reservas/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "es-reservas"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/ca/contacte/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "ca-contacte"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/ca/el-jardi/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "ca-el-jardi"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/ca/esdeveniments/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "ca-esdeveniments"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/ca/la-casa-sencera/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "ca-la-casa-sencera"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/ca/latic/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "ca-latic"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/ca/el-pis-senyorial/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "ca-el-pis-senyorial"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/ca/la-planta-baixa/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "ca-la-planta-baixa"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/ca/reserves/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "ca-reserves"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/events/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "events"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/contact/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "contact"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/the-whole-house/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "the-whole-house"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/the-penthouse/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "the-penthouse"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/the-ground-floor/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "the-ground-floor"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/reservations-2/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "reservations-2"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/da/stueetagen/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "da-stueetagen"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/da/penthousekvisten/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "da-penthousekvisten"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/da/eventsda/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "da-eventsda"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/da/hele-huset/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "da-hele-huset"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/da/kontakt/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "da-kontakt"
+        ]
+      },
+      {
+        "action": "https://www.casaargentera.com/da/reservations/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "your-name",
+          "your-email",
+          "tel-148",
+          "your-subject",
+          "your-message",
+          "acceptance-575"
+        ],
+        "pages": 1,
+        "examples": [
+          "da-reservations"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "sampled": true,
+      "notes": "thumbnail read (2 parts): slider hero (captured on slide 2, hazelnuts), amber h2 intro, 2×2 house cards, testimonial row, 3×3 experience grid, map box renders grey (iframe), amber footer; logo top-left. Matches record (12 headings, 18 imgs)."
+    },
+    {
+      "slug": "es-el-entorno",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 10 imgs) and 2 headings, mainTextLen 7238."
+    },
+    {
+      "slug": "es-naturaleza-deporte",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (1 slider slide(s), 5 imgs) and 4 headings, mainTextLen 9588."
+    },
+    {
+      "slug": "es-playas-y-mas",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 5 imgs) and 3 headings, mainTextLen 9166."
+    },
+    {
+      "slug": "es-quienes-somos",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (1 slider slide(s), 8 imgs) and 1 headings, mainTextLen 6468."
+    },
+    {
+      "slug": "es-el-atico",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (4 slider slide(s), 13 imgs) and 12 headings, mainTextLen 59149."
+    },
+    {
+      "slug": "es-el-jardin",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (2 slider slide(s), 10 imgs) and 8 headings, mainTextLen 36215."
+    },
+    {
+      "slug": "es-el-piso-senorial",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (4 slider slide(s), 12 imgs) and 12 headings, mainTextLen 54112."
+    },
+    {
+      "slug": "es-eventos",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (6 slider slide(s), 11 imgs) and 2 headings, mainTextLen 7785."
+    },
+    {
+      "slug": "es-cultura",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (1 slider slide(s), 9 imgs) and 5 headings, mainTextLen 11157."
+    },
+    {
+      "slug": "es-la-casa-entera",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 12 imgs) and 13 headings, mainTextLen 65228."
+    },
+    {
+      "slug": "es-la-casa",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 9 imgs) and 8 headings, mainTextLen 11510."
+    },
+    {
+      "slug": "es-la-planta-baja",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 11 imgs) and 12 headings, mainTextLen 59629."
+    },
+    {
+      "slug": "es-experiencias",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (6 slider slide(s), 6 imgs) and 4 headings, mainTextLen 8257."
+    },
+    {
+      "slug": "es-contacto",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (1 slider slide(s), 5 imgs) and 7 headings, mainTextLen 30546."
+    },
+    {
+      "slug": "es-inicio",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (5 slider slide(s), 18 imgs) and 12 headings, mainTextLen 17923."
+    },
+    {
+      "slug": "es-reservas",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (1 slider slide(s), 5 imgs) and 4 headings, mainTextLen 18984."
+    },
+    {
+      "slug": "ca-cultura",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Source URL redirects to https://www.casaargentera.com/es/cultura/ — record and screenshot are that target's content (duplicate of es-cultura); not a distinct page on the source. Not viewed; record has real media (1 slider slide(s), 9 imgs) and 5 headings, mainTextLen 11157."
+    },
+    {
+      "slug": "ca-politica-de-privacidad-y-cookies",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; text-only legal page (no slider, 10 headings, mainTextLen 11352) on the same template as sampled privacy-policy-and-cookies."
+    },
+    {
+      "slug": "ca-covid-19",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Source URL redirects to https://www.casaargentera.com/covid-19/ — record and screenshot are that target's content (duplicate of covid-19); not a distinct page on the source. Target sampled (covid-19): rendered, shortcode defect on source."
+    },
+    {
+      "slug": "ca-platja-i-mes",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 5 imgs) and 3 headings, mainTextLen 9047."
+    },
+    {
+      "slug": "ca-qui-som",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (1 slider slide(s), 8 imgs) and 1 headings, mainTextLen 6372."
+    },
+    {
+      "slug": "ca-politica-de-privacitat-i-cookies",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; text-only legal page (no slider, 1 headings, mainTextLen 11198) on the same template as sampled privacy-policy-and-cookies."
+    },
+    {
+      "slug": "ca-contacte",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (1 slider slide(s), 5 imgs) and 7 headings, mainTextLen 30387."
+    },
+    {
+      "slug": "ca-el-jardi",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (2 slider slide(s), 10 imgs) and 8 headings, mainTextLen 36069."
+    },
+    {
+      "slug": "ca-esdeveniments",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (6 slider slide(s), 11 imgs) and 2 headings, mainTextLen 7750."
+    },
+    {
+      "slug": "ca-la-casa",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Source URL redirects to https://www.casaargentera.com/es/la-casa/ — record and screenshot are that target's content (duplicate of es-la-casa); not a distinct page on the source. Not viewed; record has real media (3 slider slide(s), 9 imgs) and 8 headings, mainTextLen 11510."
+    },
+    {
+      "slug": "ca-la-casa-sencera",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 12 imgs) and 13 headings, mainTextLen 65156."
+    },
+    {
+      "slug": "ca-latic",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (4 slider slide(s), 13 imgs) and 12 headings, mainTextLen 59186."
+    },
+    {
+      "slug": "ca-el-pis-senyorial",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (4 slider slide(s), 12 imgs) and 12 headings, mainTextLen 54049."
+    },
+    {
+      "slug": "ca-la-planta-baixa",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 11 imgs) and 12 headings, mainTextLen 59650."
+    },
+    {
+      "slug": "ca-lentorn",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 10 imgs) and 2 headings, mainTextLen 7225."
+    },
+    {
+      "slug": "ca-experiencies",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (6 slider slide(s), 6 imgs) and 4 headings, mainTextLen 8216."
+    },
+    {
+      "slug": "ca-natura-esport",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (1 slider slide(s), 5 imgs) and 4 headings, mainTextLen 9501."
+    },
+    {
+      "slug": "ca-inici",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (5 slider slide(s), 18 imgs) and 12 headings, mainTextLen 17646."
+    },
+    {
+      "slug": "ca-reserves",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (1 slider slide(s), 5 imgs) and 6 headings, mainTextLen 19152."
+    },
+    {
+      "slug": "who-we-are",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (1 slider slide(s), 8 imgs) and 1 headings, mainTextLen 6451."
+    },
+    {
+      "slug": "nature-sport",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (1 slider slide(s), 5 imgs) and 4 headings, mainTextLen 9476."
+    },
+    {
+      "slug": "the-place",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 10 imgs) and 2 headings, mainTextLen 7150."
+    },
+    {
+      "slug": "covid-19",
+      "verdict": "ok",
+      "sampled": true,
+      "notes": "(source defect) no slider; page shows a raw “[ultimate_heading main_heading=\"During COVID-19\" …]” shortcode as text above the body (deactivated plugin on the live site, not a capture failure). Sticky header clone appears as a second nav row in the full-page capture. Record has 0 headings, consistent with pixels."
+    },
+    {
+      "slug": "privacy-policy-and-cookies",
+      "verdict": "ok",
+      "sampled": true,
+      "notes": "no slider; amber h2 + amber h4 sections of legal text; sticky header clone duplicated in full-page capture. Matches record."
+    },
+    {
+      "slug": "beach-and-more",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 5 imgs) and 4 headings, mainTextLen 8978."
+    },
+    {
+      "slug": "events",
+      "verdict": "ok",
+      "sampled": true,
+      "notes": "slider hero with caption layers (“FUNNY STUFF / Cozy sausage making workshop”), amber h2, bullet list, 3×2 masonry gallery, enquiry form. Matches record (6 cssBackgrounds = gallery tiles)."
+    },
+    {
+      "slug": "contact",
+      "verdict": "ok",
+      "sampled": true,
+      "notes": "village landscape slider hero, amber h2, map area renders blank (third-party iframe not painted), icon directions list + form in two columns. Matches record."
+    },
+    {
+      "slug": "culture",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (1 slider slide(s), 9 imgs) and 5 headings, mainTextLen 11057."
+    },
+    {
+      "slug": "the-whole-house",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 12 imgs) and 13 headings, mainTextLen 65038."
+    },
+    {
+      "slug": "the-house",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 10 imgs) and 7 headings, mainTextLen 11327."
+    },
+    {
+      "slug": "the-garden",
+      "verdict": "ok",
+      "sampled": true,
+      "notes": "slider hero (garden pergola), amber h2 + text, 2-up + 3-up photo grid, 5 amber icon amenities, enquiry form, amber footer. Matches record."
+    },
+    {
+      "slug": "the-penthouse",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (4 slider slide(s), 13 imgs) and 12 headings, mainTextLen 59148."
+    },
+    {
+      "slug": "the-noble-floor",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (4 slider slide(s), 12 imgs) and 16 headings, mainTextLen 77342."
+    },
+    {
+      "slug": "the-ground-floor",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 11 imgs) and 13 headings, mainTextLen 65414."
+    },
+    {
+      "slug": "experiences",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (6 slider slide(s), 6 imgs) and 4 headings, mainTextLen 8297."
+    },
+    {
+      "slug": "reservations-2",
+      "verdict": "ok",
+      "sampled": true,
+      "notes": "collage slider hero, \"Reservations’\" h2, enquiry form, month calendar (ICS) beside amber price headings. Matches record."
+    },
+    {
+      "slug": "da-covid-19",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Source URL redirects to https://www.casaargentera.com/covid-19/ — record and screenshot are that target's content (duplicate of covid-19); not a distinct page on the source. Target sampled (covid-19): rendered, shortcode defect on source."
+    },
+    {
+      "slug": "da-natur-sport",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (1 slider slide(s), 5 imgs) and 4 headings, mainTextLen 9316."
+    },
+    {
+      "slug": "da-who-we-are",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Source URL redirects to https://www.casaargentera.com/who-we-are/ — record and screenshot are that target's content (duplicate of who-we-are); not a distinct page on the source. Not viewed; record has real media (1 slider slide(s), 8 imgs) and 1 headings, mainTextLen 6451."
+    },
+    {
+      "slug": "da-stedet",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 10 imgs) and 2 headings, mainTextLen 6930."
+    },
+    {
+      "slug": "da-strand-m-m",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 5 imgs) and 3 headings, mainTextLen 8715."
+    },
+    {
+      "slug": "da-oplevelser",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (6 slider slide(s), 6 imgs) and 4 headings, mainTextLen 8255."
+    },
+    {
+      "slug": "da-privacy-policy-and-cookies",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Source URL redirects to https://www.casaargentera.com/privacy-policy-and-cookies/ — record and screenshot are that target's content (duplicate of privacy-policy-and-cookies); not a distinct page on the source. Target sampled (privacy-policy-and-cookies)."
+    },
+    {
+      "slug": "da-stueetagen",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 11 imgs) and 12 headings, mainTextLen 60731."
+    },
+    {
+      "slug": "da-penthousekvisten",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (4 slider slide(s), 13 imgs) and 12 headings, mainTextLen 60193."
+    },
+    {
+      "slug": "da-eventsda",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (6 slider slide(s), 11 imgs) and 2 headings, mainTextLen 7588."
+    },
+    {
+      "slug": "da-the-garden",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Source URL redirects to https://www.casaargentera.com/the-garden/ — record and screenshot are that target's content (duplicate of the-garden); not a distinct page on the source. Not viewed; record has real media (2 slider slide(s), 10 imgs) and 8 headings, mainTextLen 36216."
+    },
+    {
+      "slug": "da-hele-huset",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (3 slider slide(s), 12 imgs) and 13 headings, mainTextLen 65079."
+    },
+    {
+      "slug": "da-the-noble-floor",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Source URL redirects to https://www.casaargentera.com/the-noble-floor/ — record and screenshot are that target's content (duplicate of the-noble-floor); not a distinct page on the source. Not viewed; record has real media (4 slider slide(s), 12 imgs) and 16 headings, mainTextLen 77342."
+    },
+    {
+      "slug": "da-kontakt",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (1 slider slide(s), 5 imgs) and 6 headings, mainTextLen 30497."
+    },
+    {
+      "slug": "da-kulturen",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (1 slider slide(s), 9 imgs) and 5 headings, mainTextLen 10832."
+    },
+    {
+      "slug": "da-the-house",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Source URL redirects to https://www.casaargentera.com/the-house/ — record and screenshot are that target's content (duplicate of the-house); not a distinct page on the source. Not viewed; record has real media (3 slider slide(s), 10 imgs) and 7 headings, mainTextLen 11327."
+    },
+    {
+      "slug": "da-reservations",
+      "verdict": "ok",
+      "sampled": false,
+      "notes": "Not viewed; record has real media (1 slider slide(s), 5 imgs) and 4 headings, mainTextLen 18478."
+    },
+    {
+      "slug": "da-home",
+      "verdict": "suspect",
+      "sampled": false,
+      "captured": false,
+      "notes": "No record: source https://www.casaargentera.com/da/home/ answers 301 → / and loops in a browser (crawl.failures[0]); the 10th redirecting source URL. The Danish home is effectively the English home (index)."
+    }
+  ]
+}

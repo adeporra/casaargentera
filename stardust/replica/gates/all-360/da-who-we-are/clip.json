@@ -1,0 +1,47 @@
+{
+ "url": "https://main--ea32f12a--aemcoder.aem.page/da/who-we-are",
+ "at": "2026-11-24T22:18:22.953Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 1,
+  "offPage": 0,
+  "textNodes": 23,
+  "controls": 12,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "main#main",
+   "path": "main#main > div.section.image-grid-container > div.default-content-wrapper > h1#we-are-a-danish-catalan-couple-with-3-children-who-have-lived-and-worked-inlargentera-for-more-than-10-years",
+   "text": "we are a danish-catalan couple with 3 children, who have liv",
+   "cutMin": 9,
+   "cutMax": 9
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 1,
+   "offPage": 18,
+   "textNodes": 32,
+   "controls": 21,
+   "total": 0
+  }
+ }
+}

@@ -1,0 +1,70 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-24T15:57:44.561Z",
+  "url": "https://www.casaargentera.com/the-ground-floor/",
+  "width": 360,
+  "vh": 900,
+  "height": 5424,
+  "settle": true,
+  "chunks": 7,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 10,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 2,
+    "intervals": 2,
+    "chains": 0,
+    "delays": [
+      86400000
+    ]
+  },
+  "primed": true,
+  "prime": {
+    "height": 5424,
+    "pct": 3.13,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    5424,
+    5424
+  ],
+  "noiseFloor": 3.13,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [
+    {
+      "y": 0,
+      "h": 268,
+      "pct": 78.2
+    }
+  ],
+  "variableShare": 4.94,
+  "maskArg": "0:268",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-24T15:58:22.481Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true,
+    "holdTimers": 2000
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

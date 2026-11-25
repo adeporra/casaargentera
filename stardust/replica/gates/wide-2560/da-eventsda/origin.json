@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.casaargentera.com/da/eventsda/",
+  "reference": {
+    "dir": "stardust/replica/gates/wide-2560/da-eventsda",
+    "capturedAt": "2026-11-24T22:58:03.336Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0.16,
+    "variableRows": 136,
+    "maskArg": "212:136"
+  },
+  "note": "froze stardust/replica/gates/wide-2560/da-eventsda/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-24T22:58:41.948Z"
+}

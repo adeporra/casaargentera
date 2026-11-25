@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.casaargentera.com/ca/covid-19/",
+  "reference": {
+    "dir": "stardust/replica/gates/wide-2560/ca-covid-19",
+    "capturedAt": "2026-11-24T22:35:27.009Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0,
+    "variableRows": 0,
+    "maskArg": ""
+  },
+  "note": "froze stardust/replica/gates/wide-2560/ca-covid-19/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-24T22:35:57.659Z"
+}

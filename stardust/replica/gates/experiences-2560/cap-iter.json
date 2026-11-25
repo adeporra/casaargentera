@@ -1,0 +1,235 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-24T11:32:03.061Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.casaargentera.com/experiences/",
+      "http://localhost:8792/experiences-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from stardust/current/DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.casaargentera.com/experiences/",
+    "http://localhost:8792/experiences-proposed.html"
+  ],
+  "probeNote": "from stardust/current/DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main",
+      "isBody": false,
+      "leaves": 9,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1250,
+        "via": "fixed",
+        "selector": "#main > div.wf-wrap",
+        "tier": 1,
+        "share": 1,
+        "section": -1,
+        "w1": 1250,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 644,
+        "via": "fixed",
+        "selector": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2 > a",
+        "tier": 11,
+        "share": 0.11,
+        "section": 1,
+        "w1": 644,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 496,
+        "via": "fixed",
+        "selector": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2 > a",
+        "tier": 11,
+        "share": 0.11,
+        "section": 2,
+        "w1": 496,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 409,
+        "via": "fixed",
+        "selector": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2 > a",
+        "tier": 11,
+        "share": 0.11,
+        "section": 3,
+        "w1": 409,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#content > div.vc_row.wpb_row",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#content > div.vc_row.wpb_row",
+        "px": 644,
+        "capSelector": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2 > a"
+      },
+      {
+        "index": 2,
+        "selector": "#content > div.vc_row.wpb_row",
+        "px": 496,
+        "capSelector": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2 > a"
+      },
+      {
+        "index": 3,
+        "selector": "#content > div.vc_row.wpb_row",
+        "px": 409,
+        "capSelector": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2 > a"
+      }
+    ],
+    "shellMaxWidth": 1250,
+    "contentMaxWidth": 1250,
+    "contentFrom": "shell",
+    "maxCap": 1250,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 117
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main",
+      "isBody": false,
+      "leaves": 9,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1250,
+        "via": "max-width",
+        "selector": "#main > div.wf-wrap",
+        "tier": 1,
+        "share": 1,
+        "section": -1,
+        "w1": 1250,
+        "maxWidth": "1250px"
+      },
+      {
+        "kind": "module",
+        "px": 644,
+        "via": "fixed",
+        "selector": "div.vc-col > div.text-column > h2 > a",
+        "tier": 7,
+        "share": 0.11,
+        "section": 1,
+        "w1": 644,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 496,
+        "via": "fixed",
+        "selector": "div.vc-col > div.text-column > h2 > a",
+        "tier": 7,
+        "share": 0.11,
+        "section": 2,
+        "w1": 496,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 409,
+        "via": "fixed",
+        "selector": "div.vc-col > div.text-column > h2 > a",
+        "tier": 7,
+        "share": 0.11,
+        "section": 3,
+        "w1": 409,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#content > section.vc-row.exp-intro",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#content > section.vc-row.exp-row",
+        "px": 644,
+        "capSelector": "div.vc-col > div.text-column > h2 > a"
+      },
+      {
+        "index": 2,
+        "selector": "#content > section.vc-row.exp-row",
+        "px": 496,
+        "capSelector": "div.vc-col > div.text-column > h2 > a"
+      },
+      {
+        "index": 3,
+        "selector": "#content > section.vc-row.exp-row",
+        "px": 409,
+        "capSelector": "div.vc-col > div.text-column > h2 > a"
+      }
+    ],
+    "shellMaxWidth": 1250,
+    "contentMaxWidth": 1250,
+    "contentFrom": "shell",
+    "maxCap": 1250,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 86
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "wrapper cap",
+        "detail": "live 1250px = build 1250px (±20)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/4",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/4",
+        "detail": "644px = 644px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/4",
+        "detail": "496px = 496px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/4",
+        "detail": "409px = 409px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/experiences-2560/cap-iter.json"
+}

@@ -1,0 +1,907 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T22:24:44.408Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/es/naturaleza-deporte/",
+  "at": "2026-11-24T19:13:37.074Z",
+  "docH": 3817
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/es/naturaleza-deporte",
+  "at": "2026-11-24T22:24:44.350Z",
+  "docH": 3841
+ },
+ "results": [
+  {
+   "sel": "#content > .vc_row > .vc_col-sm-6=.media-feature .media-feature-col",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15923#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 960,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 960,
+       "w": 360,
+       "h": 179
+      },
+      "eds": {
+       "x": 0,
+       "y": 960,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 8
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:para los amantes del ciclismo",
+       "role": "heading",
+       "text": "para los amantes del ciclismo",
+       "edsText": "para los amantes del ciclismo",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 165
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 165,
+        "sel": "h2#para-los-amantes-del-ciclismo",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:da igual si prefieres emocionantes , ten",
+       "role": "text",
+       "text": "da igual si prefieres emocionantes , tenemos más de cuidados",
+       "edsText": "da igual si prefieres emocionantes , tenemos más de cuidados",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 178,
+        "w": 299,
+        "h": 343
+       },
+       "eds": {
+        "x": 30,
+        "y": 175,
+        "w": 300,
+        "h": 350,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 1,
+       "dh": 7,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:senderos de btt o ciclismo de carretera",
+       "role": "text",
+       "text": "senderos de btt o ciclismo de carretera",
+       "edsText": "senderos de btt o ciclismo de carretera",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 203,
+        "w": 292,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 203,
+        "w": 292,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:15 rutas",
+       "role": "text",
+       "text": "15 rutas",
+       "edsText": "15 rutas",
+       "byPosition": false,
+       "origin": {
+        "x": 151,
+        "y": 228,
+        "w": 55,
+        "h": 18
+       },
+       "eds": {
+        "x": 151,
+        "y": 228,
+        "w": 55,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:escenarios naturales y rurales",
+       "role": "text",
+       "text": "escenarios naturales y rurales",
+       "edsText": "escenarios naturales y rurales",
+       "byPosition": false,
+       "origin": {
+        "x": 52,
+        "y": 328,
+        "w": 218,
+        "h": 18
+       },
+       "eds": {
+        "x": 52,
+        "y": 328,
+        "w": 218,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:2.000 km de carreteras poco transitadas",
+       "role": "text",
+       "text": "2.000 km de carreteras poco transitadas",
+       "edsText": "2.000 km de carreteras poco transitadas",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 428,
+        "w": 294,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 428,
+        "w": 294,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1139,
+       "w": 360,
+       "h": 525
+      },
+      "eds": {
+       "x": 0,
+       "y": 1147,
+       "w": 360,
+       "h": 525
+      },
+      "dx": 0,
+      "dy": 8,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15481#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 1712,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1704,
+       "w": 360,
+       "h": 179
+      },
+      "eds": {
+       "x": 0,
+       "y": 1712,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 8,
+      "dw": 0,
+      "dh": 8
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:andando se hace camino",
+       "role": "heading",
+       "text": "andando se hace camino",
+       "edsText": "andando se hace camino",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 165
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 165,
+        "sel": "h2#andando-se-hace-camino",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:practicar senderismo en esta zona es alg",
+       "role": "text",
+       "text": "practicar senderismo en esta zona es algo que no debes perde",
+       "edsText": "practicar senderismo en esta zona es algo que no debes perde",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 178,
+        "w": 293,
+        "h": 243
+       },
+       "eds": {
+        "x": 30,
+        "y": 175,
+        "w": 300,
+        "h": 250,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 7,
+       "dh": 7,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:explora las montañas",
+       "role": "text",
+       "text": "explora las montañas",
+       "edsText": "explora las montañas",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 203,
+        "w": 246,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 203,
+        "w": 246,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:muchas rutas de senderismo en diferentes",
+       "role": "text",
+       "text": "muchas rutas de senderismo en diferentes niveles",
+       "edsText": "muchas rutas de senderismo en diferentes niveles",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 228,
+        "w": 288,
+        "h": 68
+       },
+       "eds": {
+        "x": 30,
+        "y": 228,
+        "w": 288,
+        "h": 68,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1883,
+       "w": 360,
+       "h": 425
+      },
+      "eds": {
+       "x": 0,
+       "y": 1899,
+       "w": 360,
+       "h": 425
+      },
+      "dx": 0,
+      "dy": 16,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 3,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15725#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 2364,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2348,
+       "w": 360,
+       "h": 179
+      },
+      "eds": {
+       "x": 0,
+       "y": 2364,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 16,
+      "dw": 0,
+      "dh": 8
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.intro-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:para los amantes de los caballos",
+       "role": "heading",
+       "text": "para los amantes de los caballos",
+       "edsText": "para los amantes de los caballos",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 165
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 165,
+        "sel": "h2#para-los-amantes-de-los-caballos",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:disfruta de una a través de pequeños cam",
+       "role": "text",
+       "text": "disfruta de una a través de pequeños caminos y senderos rode",
+       "edsText": "disfruta de una a través de pequeños caminos y senderos rode",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 178,
+        "w": 295,
+        "h": 168
+       },
+       "eds": {
+        "x": 30,
+        "y": 175,
+        "w": 300,
+        "h": 175,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 5,
+       "dh": 7,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:cabalgata tranquila",
+       "role": "text",
+       "text": "cabalgata tranquila",
+       "edsText": "cabalgata tranquila",
+       "byPosition": false,
+       "origin": {
+        "x": 142,
+        "y": 178,
+        "w": 142,
+        "h": 18
+       },
+       "eds": {
+        "x": 142,
+        "y": 178,
+        "w": 142,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:campos de olivos y avellanos",
+       "role": "text",
+       "text": "campos de olivos y avellanos",
+       "edsText": "campos de olivos y avellanos",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 228,
+        "w": 230,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 228,
+        "w": 230,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:mar mediterráneo",
+       "role": "text",
+       "text": "mar mediterráneo",
+       "edsText": "mar mediterráneo",
+       "byPosition": false,
+       "origin": {
+        "x": 191,
+        "y": 328,
+        "w": 131,
+        "h": 18
+       },
+       "eds": {
+        "x": 191,
+        "y": 328,
+        "w": 131,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2527,
+       "w": 360,
+       "h": 350
+      },
+      "eds": {
+       "x": 0,
+       "y": 2551,
+       "w": 360,
+       "h": 350
+      },
+      "dx": 0,
+      "dy": 24,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 4,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 6,
+  "within": 15,
+  "off": 3,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 3
+ }
+}

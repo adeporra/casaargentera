@@ -1,0 +1,845 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T22:16:10.839Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/da/strand-m-m/",
+  "at": "2026-11-24T19:06:06.296Z",
+  "docH": 3184
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/da/strand-m-m",
+  "at": "2026-11-24T22:16:10.766Z",
+  "docH": 3208
+ },
+ "results": [
+  {
+   "sel": "#content > .vc_row > .vc_col-sm-6=.media-feature .media-feature-col",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15299#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 168
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 168,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 168,
+       "absY": 494,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 494,
+       "w": 360,
+       "h": 178
+      },
+      "eds": {
+       "x": 0,
+       "y": 494,
+       "w": 360,
+       "h": 186
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 8
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:middelhavs hemmeligheder",
+       "role": "heading",
+       "text": "middelhavs hemmeligheder",
+       "edsText": "middelhavs hemmeligheder",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110,
+        "sel": "h1#middelhavshemmeligheder",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:venter dig ved costa daurada. kysten omk",
+       "role": "text",
+       "text": "venter dig ved costa daurada. kysten omkring cambrils fik si",
+       "edsText": "venter dig ved costa daurada. kysten omkring cambrils fik si",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 275
+       },
+       "eds": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 275,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:langstrakte sandstrande",
+       "role": "text",
+       "text": "langstrakte sandstrande",
+       "edsText": "langstrakte sandstrande",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 123,
+        "w": 184,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 123,
+        "w": 184,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 672,
+       "w": 360,
+       "h": 395
+      },
+      "eds": {
+       "x": 0,
+       "y": 680,
+       "w": 360,
+       "h": 395
+      },
+      "dx": 0,
+      "dy": 8,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15616#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 1107,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1099,
+       "w": 360,
+       "h": 179
+      },
+      "eds": {
+       "x": 0,
+       "y": 1107,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 8,
+      "dw": 0,
+      "dh": 8
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:total afslapning i aquatonic spa",
+       "role": "heading",
+       "text": "total afslapning i aquatonic spa",
+       "edsText": "total afslapning i aquatonic spa",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 220
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 220,
+        "sel": "h2#total-afslapning-i-aquatonic-spa",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:kun 12 km fra casa argentera ligger , en",
+       "role": "text",
+       "text": "kun 12 km fra casa argentera ligger , en perle midt i en på ",
+       "edsText": "kun 12 km fra casa argentera ligger , en perle midt i en på ",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 230,
+        "w": 300,
+        "h": 250
+       },
+       "eds": {
+        "x": 30,
+        "y": 230,
+        "w": 300,
+        "h": 250,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:aquatonic spa",
+       "role": "link",
+       "text": "aquatonic spa",
+       "edsText": "aquatonic spa",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 258,
+        "w": 102,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 258,
+        "w": 102,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:storslået botanisk have",
+       "role": "text",
+       "text": "storslået botanisk have",
+       "edsText": "storslået botanisk have",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 283,
+        "w": 171,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 283,
+        "w": 171,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:varme kilder.",
+       "role": "text",
+       "text": "varme kilder.",
+       "edsText": "varme kilder.",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 433,
+        "w": 294,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 433,
+        "w": 294,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1278,
+       "w": 360,
+       "h": 480
+      },
+      "eds": {
+       "x": 0,
+       "y": 1294,
+       "w": 360,
+       "h": 480
+      },
+      "dx": 0,
+      "dy": 16,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15617#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 1806,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1790,
+       "w": 360,
+       "h": 179
+      },
+      "eds": {
+       "x": 0,
+       "y": 1806,
+       "w": 360,
+       "h": 187
+      },
+      "dx": 0,
+      "dy": 16,
+      "dw": 0,
+      "dh": 8
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:port aventura world",
+       "role": "heading",
+       "text": "port aventura world",
+       "edsText": "port aventura world",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 165
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 165,
+        "sel": "h2#port-aventura-world",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:behøver ingen introduktion: et stort til",
+       "role": "text",
+       "text": "behøver ingen introduktion: et stort til hele familien, mass",
+       "edsText": "behøver ingen introduktion: et stort til hele familien, mass",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 175,
+        "w": 300,
+        "h": 100
+       },
+       "eds": {
+        "x": 30,
+        "y": 175,
+        "w": 300,
+        "h": 100,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:port aventura world",
+       "role": "link",
+       "text": "port aventura world",
+       "edsText": "port aventura world",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 178,
+        "w": 143,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 178,
+        "w": 143,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:forlystelsespark",
+       "role": "text",
+       "text": "forlystelsespark",
+       "edsText": "forlystelsespark",
+       "byPosition": false,
+       "origin": {
+        "x": 179,
+        "y": 203,
+        "w": 116,
+        "h": 18
+       },
+       "eds": {
+        "x": 179,
+        "y": 203,
+        "w": 116,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:fantastiske shows",
+       "role": "text",
+       "text": "fantastiske shows",
+       "edsText": "fantastiske shows",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 253,
+        "w": 131,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 253,
+        "w": 131,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1969,
+       "w": 360,
+       "h": 275
+      },
+      "eds": {
+       "x": 0,
+       "y": 1993,
+       "w": 360,
+       "h": 275
+      },
+      "dx": 0,
+      "dy": 24,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 6,
+  "within": 16,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

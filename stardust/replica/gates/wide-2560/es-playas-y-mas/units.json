@@ -1,0 +1,845 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T23:33:49.450Z",
+  "tol": 4,
+  "n": 6,
+  "width": 2560,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/es/playas-y-mas/",
+  "at": "2026-11-24T23:33:33.156Z",
+  "docH": 2535
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/es/playas-y-mas",
+  "at": "2026-11-24T23:33:49.389Z",
+  "docH": 2549
+ },
+ "results": [
+  {
+   "sel": "#content > .vc_row > .vc_col-sm-6=.media-feature .media-feature-col",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15299#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 300
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 300,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 535,
+       "h": 300,
+       "absY": 1080,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 685,
+       "y": 1090,
+       "w": 595,
+       "h": 310
+      },
+      "eds": {
+       "x": 685,
+       "y": 1080,
+       "w": 595,
+       "h": 318
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 8
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:los secretos del mediterráneo",
+       "role": "heading",
+       "text": "los secretos del mediterráneo",
+       "edsText": "los secretos del mediterráneo",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 110
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 110,
+        "sel": "h1#los-secretos-del-mediterráneo",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:te esperan en la costa dorada. de hecho,",
+       "role": "text",
+       "text": "te esperan en la costa dorada. de hecho, la costa alrededor ",
+       "edsText": "te esperan en la costa dorada. de hecho, la costa alrededor ",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 123,
+        "w": 531,
+        "h": 168
+       },
+       "eds": {
+        "x": 30,
+        "y": 120,
+        "w": 535,
+        "h": 175,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 4,
+       "dh": 7,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:largas playas de arena",
+       "role": "text",
+       "text": "largas playas de arena",
+       "edsText": "largas playas de arena",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 123,
+        "w": 168,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 123,
+        "w": 168,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:cambrils",
+       "role": "text",
+       "text": "cambrils",
+       "edsText": "cambrils",
+       "byPosition": false,
+       "origin": {
+        "x": 123,
+        "y": 148,
+        "w": 65,
+        "h": 18
+       },
+       "eds": {
+        "x": 123,
+        "y": 148,
+        "w": 65,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:pequeñas calas y cuevas escondidas",
+       "role": "text",
+       "text": "pequeñas calas y cuevas escondidas",
+       "edsText": "pequeñas calas y cuevas escondidas",
+       "byPosition": false,
+       "origin": {
+        "x": 293,
+        "y": 173,
+        "w": 268,
+        "h": 18
+       },
+       "eds": {
+        "x": 293,
+        "y": 173,
+        "w": 268,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1280,
+       "y": 1090,
+       "w": 595,
+       "h": 295
+      },
+      "eds": {
+       "x": 1280,
+       "y": 1080,
+       "w": 595,
+       "h": 318
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 23
+     },
+     "summary": {
+      "elements": 5,
+      "within": 4,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15616#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 1430,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 685,
+       "y": 1432,
+       "w": 595,
+       "h": 311
+      },
+      "eds": {
+       "x": 685,
+       "y": 1430,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": -2,
+      "dw": 0,
+      "dh": 8
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:relajación total en aquatonic",
+       "role": "heading",
+       "text": "relajación total en aquatonic",
+       "edsText": "relajación total en aquatonic",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 110
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 110,
+        "sel": "h2#relajación-total-en-aquatonic",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:a solo 12 km de casa argentera, las term",
+       "role": "text",
+       "text": "a solo 12 km de casa argentera, las termas de montbrió te es",
+       "edsText": "a solo 12 km de casa argentera, las termas de montbrió te es",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 120,
+        "w": 535,
+        "h": 150
+       },
+       "eds": {
+        "x": 30,
+        "y": 120,
+        "w": 535,
+        "h": 150,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:aquatonic",
+       "role": "link",
+       "text": "aquatonic",
+       "edsText": "aquatonic",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 148,
+        "w": 72,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 148,
+        "w": 72,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:magnífico jardín botánico",
+       "role": "text",
+       "text": "magnífico jardín botánico",
+       "edsText": "magnífico jardín botánico",
+       "byPosition": false,
+       "origin": {
+        "x": 253,
+        "y": 148,
+        "w": 189,
+        "h": 18
+       },
+       "eds": {
+        "x": 253,
+        "y": 148,
+        "w": 189,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:clasificadas como hipertermales",
+       "role": "text",
+       "text": "clasificadas como hipertermales",
+       "edsText": "clasificadas como hipertermales",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 173,
+        "w": 429,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 173,
+        "w": 429,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1280,
+       "y": 1432,
+       "w": 595,
+       "h": 270
+      },
+      "eds": {
+       "x": 1280,
+       "y": 1430,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": -2,
+      "dw": 0,
+      "dh": 49
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:img.alignnone.wp-image-15617#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 1781,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 685,
+       "y": 1775,
+       "w": 595,
+       "h": 311
+      },
+      "eds": {
+       "x": 685,
+       "y": 1781,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 6,
+      "dw": 0,
+      "dh": 8
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "heading:port aventura world",
+       "role": "heading",
+       "text": "port aventura world",
+       "edsText": "port aventura world",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 35
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 535,
+        "h": 35,
+        "sel": "h3#port-aventura-world",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "30/35/200",
+        "eds": "30/35/200"
+       }
+      },
+      {
+       "key": "text:no necesita explicación: un gran parque ",
+       "role": "text",
+       "text": "no necesita explicación: un gran parque de atracciones para ",
+       "edsText": "no necesita explicación: un gran parque de atracciones para ",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 45,
+        "w": 535,
+        "h": 50
+       },
+       "eds": {
+        "x": 30,
+        "y": 45,
+        "w": 535,
+        "h": 50,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:port aventura world",
+       "role": "link",
+       "text": "port aventura world",
+       "edsText": "port aventura world",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 48,
+        "w": 143,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 48,
+        "w": 143,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1280,
+       "y": 1775,
+       "w": 595,
+       "h": 95
+      },
+      "eds": {
+       "x": 1280,
+       "y": 1781,
+       "w": 595,
+       "h": 319
+      },
+      "dx": 0,
+      "dy": 6,
+      "dw": 0,
+      "dh": 224
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 6,
+  "within": 15,
+  "off": 1,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 1
+ }
+}

@@ -1,0 +1,91 @@
+/* ==========================================================================
+   Casa Argentera — "program" archetype (accommodation pages: the-garden)
+   Imports canon.css first; only the modules this template adds.
+   Lifted from source-spec (1440/360), measure.mjs and the source sheet
+   (css-rules.mjs over stardust/current/assets/css/combined.css).
+   ========================================================================== */
+
+/* Font Awesome 5 Free solid (self-hosted capture) — icon-with-text glyphs */
+@font-face { font-family: "Font Awesome 5 Free"; src: url(fonts/fa-solid-900.woff2) format("woff2"); font-weight: 900; font-style: normal; font-display: block; }
+
+/* ---- current-page state in the chrome (The7 .act on the ancestor + item).
+   Masthead is light-preset: link, chevron and underline stay white (!important in
+   the source); the l-to-r underline is drawn full width on .act. #phantom and the
+   mobile drawer colour the active item with the accent. */
+/* per-page masthead veil: this template's header bar is rgba(221,153,51,.5)
+   (source-spec header background; the home page's is rgba(221,179,110,.5)) */
+:root { --ca-header-veil: rgba(221, 153, 51, 0.5); }
+.main-nav > li.act > a .underline { width: 100%; }
+#phantom .main-nav > li.act > a { color: #dd9d3b; }
+#phantom .main-nav > li.act > a .underline { background: #dd9d3b; }
+#phantom .main-nav > li.has-children.act > a .menu-text::after { background: #dd9d3b; }
+.mobile-main-nav li.act > a { color: #dd9d3b; }
+
+/* ---- WPBakery text column: the last child carries no bottom margin */
+.text-column > :last-child { margin-bottom: 0; }
+.space-46 { height: 46px; }
+
+/* ---- single images (vc_single_image, no link): fill the column, natural ratio */
+.garden-images .single-image img { display: block; width: 100%; height: auto; }
+
+/* ---- icon with text (The7 icon-with-text-shortcode, layout-1):
+   grid 60px icon column, rows header / desc / button, items centred; the icon
+   cell is 60×60 round, glyph 32px Font Awesome solid in #dd9933. */
+.icon-text {
+  position: relative; display: grid; align-items: center;
+  grid-template-columns: 60px minmax(0, 1fr); grid-template-rows: auto;
+  grid-template-areas: "icon header" "icon desc" "icon button";
+}
+.icon-text > * { grid-column: 2; }
+.icon-text__icon {
+  position: relative; grid-area: icon; align-self: flex-start;
+  display: block; width: 60px; height: 60px; line-height: 60px; font-size: 32px; border-radius: 200px;
+}
+.icon-text__inner {
+  position: relative; display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box;
+  min-width: 60px; min-height: 60px; line-height: 26px; border-radius: 200px; text-align: center;
+}
+.fa-icon {
+  position: relative; z-index: 2; display: block; color: #dd9933;
+  font: normal 900 32px/32px "Font Awesome 5 Free"; -webkit-font-smoothing: antialiased; font-style: normal;
+}
+.fa-icon--swimmer::before { content: "\f5c4"; }
+.fa-icon--fire-alt::before { content: "\f7e4"; }
+.fa-icon--wine-glass-alt::before { content: "\f5ce"; }
+.fa-icon--child::before { content: "\f1ae"; }
+.fa-icon--utensil-spoon::before { content: "\f2e5"; }
+.icon-text__title {
+  grid-area: header; max-width: 100%; margin: 0;
+  color: #dd9933; font: 400 17px/27px var(--ca-font); text-transform: uppercase;
+}
+.icon-text__desc { grid-area: desc; max-width: 100%; margin: 0; font: 400 14px/25px var(--ca-font); }
+/* per-instance values (the source emits them per shortcode id) */
+.icon-text--t3 .icon-text__title { margin-bottom: 3px; }
+.icon-text--d3 .icon-text__desc { margin-bottom: 3px; }
+.icon-text--d4 .icon-text__desc { margin-bottom: 4px; }
+.icon-text--c42 .icon-text__desc { color: #424242; }
+.icon-text--c38 .icon-text__desc { color: #383838; }
+.icon-text--c30 .icon-text__desc { color: #303030; }
+
+/* ---- contact form (Contact Form 7 look, The7 form tokens) */
+.cf7 { margin: 0; }
+.cf7-form { margin: 0; }
+.cf7-form p { margin: 0 0 10px; }
+.cf7-wrap { position: relative; }
+.cf7-field {
+  display: inline-block; box-sizing: border-box; width: 100%; height: 40px; margin: 0 0 10px; padding: 5px 15px;
+  border: 1px solid rgba(173, 176, 182, 0.3); border-radius: 0; background: #fcfcfc; color: #787d85;
+  font: 400 14px/25px var(--ca-font); vertical-align: baseline;
+}
+.cf7-textarea { height: auto; overflow: auto; vertical-align: top; resize: vertical; }
+.cf7-list-item { display: inline-block; margin: 0 0 0 1em; }
+.cf7-acceptance input { box-sizing: border-box; margin: 0; font-size: 100%; vertical-align: baseline; }
+.cf7-list-item-label::before, .cf7-list-item-label::after { content: " "; }
+.cf7-submit {
+  display: inline-flex; align-items: center; box-sizing: border-box; padding: 12px 25px 11px; border: 0 solid #dd9d3b;
+  border-radius: 25px; background: #dd9d3b; color: #fff; font: 800 14px/16px var(--ca-font); cursor: pointer;
+  -webkit-appearance: none; appearance: none;
+}
+.cf7-submit:hover { background: #ae9964; }
+.cf7-spinner { position: relative; display: inline-block; width: 24px; height: 24px; margin: 0 24px; visibility: hidden; opacity: .75; }
+.cf7-response:empty { display: none; }

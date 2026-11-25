@@ -1,0 +1,34 @@
+/* ==========================================================================
+   Casa Argentera — culture (editorial article) modules (imports canon.css first)
+   ========================================================================== */
+
+/* per-page transparent-header veil (live: inline style on .masthead,
+   rgba(221,153,51,0.5) on this page; the canon default is the home value) */
+:root { --ca-header-veil: rgba(221, 153, 51, 0.5); }
+
+/* WPBakery text column: last child carries no bottom margin (lifted:
+   .wpb_text_column *:last-child { margin-bottom: 0 }) */
+.text-column > :last-child { margin-bottom: 0; }
+
+/* vc_empty_space rows (lifted inline heights 56 / 40) */
+.space-56 { height: 56px; }
+.space-40 { height: 40px; }
+
+/* inline image inside a paragraph (lifted: .alignnone { float: none; margin: 0 auto 10px };
+   the image sits on the paragraph's 25px line box, so the row keeps the descender gap) */
+.culture-feature img.alignnone { max-width: 100%; height: auto; margin: 0 auto 10px; vertical-align: baseline; }
+
+/* single-slide hero (Revolution Slider rs-74, no layers, no bullets) — shell from canon */
+
+/* --------------------------------------------------------------------------
+   Active menu trail (page-specific: canon has no .act state yet — scoped here,
+   flagged for back-port). Lifted:
+   .top-header .l-to-r-line>li.act>a i.underline { width: 100% }
+   #phantom .main-nav>li.act>a .menu-text { color: #dd9d3b }
+   .main-nav .sub-nav>li.act>a .menu-text { color: #dd9d3b }
+   .mobile-main-nav li.act>a { color: #dd9d3b }
+   -------------------------------------------------------------------------- */
+.main-nav > li.act > a .underline { width: 100%; }
+#phantom .main-nav > li.act > a, #phantom .main-nav > li.act > a .menu-text { color: #dd9d3b; }
+.main-nav .sub-nav > li.act > a .menu-text { color: #dd9d3b; }
+.mobile-main-nav li.act > a { color: #dd9d3b; }

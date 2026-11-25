@@ -1,0 +1,2185 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-24T16:04:08.217Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.casaargentera.com",
+    "eds": "https://main--ea32f12a--aemcoder.aem.page",
+    "edsHostOverride": "https://main--ea32f12a--aemcoder.aem.page",
+    "only": [
+      "es-el-atico",
+      "es-el-jardin",
+      "es-el-piso-senorial",
+      "es-la-casa-entera",
+      "es-la-planta-baja",
+      "ca-el-jardi",
+      "ca-la-casa-sencera",
+      "ca-latic",
+      "ca-el-pis-senyorial",
+      "ca-la-planta-baixa",
+      "the-whole-house",
+      "the-penthouse",
+      "the-noble-floor",
+      "the-ground-floor",
+      "da-stueetagen",
+      "da-penthousekvisten",
+      "da-the-garden",
+      "da-hele-huset",
+      "da-the-noble-floor"
+    ]
+  },
+  "totals": {
+    "pages": 19,
+    "pass": 18,
+    "pixelOnlyPass": 19,
+    "overridePass": 1,
+    "fail": 1,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 1,
+    "failUnits": 0,
+    "unitsNotDeclared": 0,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 0,
+    "failOffsets": 0,
+    "offsetsWithinTolerance": 0,
+    "referenceUnstable": 0,
+    "passWithOverrides": 19
+  },
+  "rows": [
+    {
+      "slug": "ca-el-jardi",
+      "path": "/ca/el-jardi/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 4.65,
+      "textPct": 6.47,
+      "heightDelta": 27,
+      "originH": 4630,
+      "edsH": 4603,
+      "alignedPct": 1.31,
+      "alignedUsed": true,
+      "totalShift": 27,
+      "steps": [
+        {
+          "y": 1280,
+          "shift": -1,
+          "cumulative": -1
+        },
+        {
+          "y": 2131,
+          "shift": -10,
+          "cumulative": -11
+        },
+        {
+          "y": 2292,
+          "shift": -3,
+          "cumulative": -14
+        },
+        {
+          "y": 2415,
+          "shift": -10,
+          "cumulative": -24
+        },
+        {
+          "y": 2603,
+          "shift": -3,
+          "cumulative": -27
+        }
+      ],
+      "offsetBound": 46,
+      "offsetTolerance": 231,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "content"
+      ],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "content MISSING 2 / HIDDEN 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 2,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 5,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 10,
+        "within": 15,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "pass",
+        "reason": "instrument artefact: the source wraps one accented letter of \"GAUDEIX AL MÀXIM…\" (h1) and \"AL JARDÍ TROBAREU\" (h3) in an inline <span lang>; content-presence tokenises the span with a space so the identical served heading reads MISSING; DA drops the span. Waives content only for those MISSING HEADING rows — every other content finding must be 0 (checked per run in stardust/.work/rollout/program).",
+        "waives": [
+          "content"
+        ]
+      },
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/ca-el-jardi",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "ca-el-pis-senyorial",
+      "path": "/ca/el-pis-senyorial/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 3.48,
+      "textPct": 5.47,
+      "heightDelta": 32,
+      "originH": 6121,
+      "edsH": 6089,
+      "alignedPct": 0.97,
+      "alignedUsed": true,
+      "totalShift": 36,
+      "steps": [
+        {
+          "y": 2913,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 3422,
+          "shift": -3,
+          "cumulative": -2
+        },
+        {
+          "y": 3456,
+          "shift": -3,
+          "cumulative": -5
+        },
+        {
+          "y": 3524,
+          "shift": -4,
+          "cumulative": -9
+        },
+        {
+          "y": 3811,
+          "shift": -3,
+          "cumulative": -12
+        },
+        {
+          "y": 4153,
+          "shift": -20,
+          "cumulative": -32
+        },
+        {
+          "y": 5986,
+          "shift": -1,
+          "cumulative": -33
+        },
+        {
+          "y": 6121,
+          "shift": 1,
+          "cumulative": -32
+        }
+      ],
+      "offsetBound": 61,
+      "offsetTolerance": 306,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 10,
+        "within": 15,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/ca-el-pis-senyorial",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "ca-la-casa-sencera",
+      "path": "/ca/la-casa-sencera/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 3.58,
+      "textPct": 7.2,
+      "heightDelta": 22,
+      "originH": 5959,
+      "edsH": 5937,
+      "alignedPct": 1.05,
+      "alignedUsed": true,
+      "totalShift": 26,
+      "steps": [
+        {
+          "y": 2582,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 3087,
+          "shift": -3,
+          "cumulative": -2
+        },
+        {
+          "y": 3121,
+          "shift": -3,
+          "cumulative": -5
+        },
+        {
+          "y": 3280,
+          "shift": -7,
+          "cumulative": -12
+        },
+        {
+          "y": 4184,
+          "shift": -10,
+          "cumulative": -22
+        },
+        {
+          "y": 5824,
+          "shift": -1,
+          "cumulative": -23
+        },
+        {
+          "y": 5959,
+          "shift": 1,
+          "cumulative": -22
+        }
+      ],
+      "offsetBound": 60,
+      "offsetTolerance": 297,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 10,
+        "within": 15,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": true,
+      "maskedRows": 268,
+      "maskReason": "self-varying rows of the frozen reference (noise floor 2.84%)",
+      "reference": "stardust/replica/gates/all-360/ca-la-casa-sencera",
+      "noiseFloor": 2.84,
+      "variableRows": 268,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "ca-la-planta-baixa",
+      "path": "/ca/la-planta-baixa/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 3.37,
+      "textPct": 4.98,
+      "heightDelta": 13,
+      "originH": 5230,
+      "edsH": 5217,
+      "alignedPct": 0.91,
+      "alignedUsed": true,
+      "totalShift": 17,
+      "steps": [
+        {
+          "y": 1033,
+          "shift": -1,
+          "cumulative": -1
+        },
+        {
+          "y": 1416,
+          "shift": 1,
+          "cumulative": 0
+        },
+        {
+          "y": 2350,
+          "shift": -3,
+          "cumulative": -3
+        },
+        {
+          "y": 2384,
+          "shift": -3,
+          "cumulative": -6
+        },
+        {
+          "y": 2452,
+          "shift": -4,
+          "cumulative": -10
+        },
+        {
+          "y": 2590,
+          "shift": -3,
+          "cumulative": -13
+        },
+        {
+          "y": 5095,
+          "shift": -1,
+          "cumulative": -14
+        },
+        {
+          "y": 5230,
+          "shift": 1,
+          "cumulative": -13
+        }
+      ],
+      "offsetBound": 52,
+      "offsetTolerance": 261,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 12,
+        "within": 18,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/ca-la-planta-baixa",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "ca-latic",
+      "path": "/ca/latic/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 1.91,
+      "textPct": 4.75,
+      "heightDelta": 9,
+      "originH": 6824,
+      "edsH": 6815,
+      "alignedPct": 0.46,
+      "alignedUsed": true,
+      "totalShift": 13,
+      "steps": [
+        {
+          "y": 3659,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 4068,
+          "shift": -3,
+          "cumulative": -2
+        },
+        {
+          "y": 4102,
+          "shift": -3,
+          "cumulative": -5
+        },
+        {
+          "y": 4195,
+          "shift": -4,
+          "cumulative": -9
+        },
+        {
+          "y": 6689,
+          "shift": -1,
+          "cumulative": -10
+        },
+        {
+          "y": 6824,
+          "shift": 1,
+          "cumulative": -9
+        }
+      ],
+      "offsetBound": 68,
+      "offsetTolerance": 341,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 10,
+        "within": 15,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/ca-latic",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "da-hele-huset",
+      "path": "/da/hele-huset/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 2.62,
+      "textPct": 6.65,
+      "heightDelta": 9,
+      "originH": 6170,
+      "edsH": 6161,
+      "alignedPct": 0.47,
+      "alignedUsed": true,
+      "totalShift": 13,
+      "steps": [
+        {
+          "y": 2582,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 3062,
+          "shift": -3,
+          "cumulative": -2
+        },
+        {
+          "y": 3096,
+          "shift": -3,
+          "cumulative": -5
+        },
+        {
+          "y": 3214,
+          "shift": -4,
+          "cumulative": -9
+        },
+        {
+          "y": 6035,
+          "shift": -1,
+          "cumulative": -10
+        },
+        {
+          "y": 6170,
+          "shift": 1,
+          "cumulative": -9
+        }
+      ],
+      "offsetBound": 62,
+      "offsetTolerance": 308,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 10,
+        "within": 15,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": true,
+      "maskedRows": 268,
+      "maskReason": "self-varying rows of the frozen reference (noise floor 3.23%)",
+      "reference": "stardust/replica/gates/all-360/da-hele-huset",
+      "noiseFloor": 3.23,
+      "variableRows": 268,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "da-penthousekvisten",
+      "path": "/da/penthousekvisten/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 3.49,
+      "textPct": 8.07,
+      "heightDelta": 29,
+      "originH": 7515,
+      "edsH": 7486,
+      "alignedPct": 0.9,
+      "alignedUsed": true,
+      "totalShift": 33,
+      "steps": [
+        {
+          "y": 3413,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 3783,
+          "shift": -3,
+          "cumulative": -2
+        },
+        {
+          "y": 3817,
+          "shift": -3,
+          "cumulative": -5
+        },
+        {
+          "y": 3906,
+          "shift": -4,
+          "cumulative": -9
+        },
+        {
+          "y": 4784,
+          "shift": -20,
+          "cumulative": -29
+        },
+        {
+          "y": 7380,
+          "shift": -1,
+          "cumulative": -30
+        },
+        {
+          "y": 7515,
+          "shift": 1,
+          "cumulative": -29
+        }
+      ],
+      "offsetBound": 75,
+      "offsetTolerance": 375,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 10,
+        "within": 15,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/da-penthousekvisten",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "6500-7000:18%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "da-stueetagen",
+      "path": "/da/stueetagen/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 4.57,
+      "textPct": 7.9,
+      "heightDelta": 33,
+      "originH": 6275,
+      "edsH": 6242,
+      "alignedPct": 1.17,
+      "alignedUsed": true,
+      "totalShift": 33,
+      "steps": [
+        {
+          "y": 2500,
+          "shift": -3,
+          "cumulative": -3
+        },
+        {
+          "y": 2534,
+          "shift": -3,
+          "cumulative": -6
+        },
+        {
+          "y": 2598,
+          "shift": -4,
+          "cumulative": -10
+        },
+        {
+          "y": 2740,
+          "shift": -3,
+          "cumulative": -13
+        },
+        {
+          "y": 3558,
+          "shift": -20,
+          "cumulative": -33
+        }
+      ],
+      "offsetBound": 63,
+      "offsetTolerance": 313,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 3,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 12,
+        "within": 18,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": true,
+      "maskedRows": 268,
+      "maskReason": "self-varying rows of the frozen reference (noise floor 2.73%)",
+      "reference": "stardust/replica/gates/all-360/da-stueetagen",
+      "noiseFloor": 2.73,
+      "variableRows": 268,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "da-the-garden",
+      "path": "/da/the-garden/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 3.91,
+      "textPct": 5.6,
+      "heightDelta": 17,
+      "originH": 4650,
+      "edsH": 4633,
+      "alignedPct": 1.09,
+      "alignedUsed": true,
+      "totalShift": 17,
+      "steps": [
+        {
+          "y": 1140,
+          "shift": -1,
+          "cumulative": -1
+        },
+        {
+          "y": 2155,
+          "shift": -3,
+          "cumulative": -4
+        },
+        {
+          "y": 2275,
+          "shift": -10,
+          "cumulative": -14
+        },
+        {
+          "y": 2488,
+          "shift": -3,
+          "cumulative": -17
+        }
+      ],
+      "offsetBound": 47,
+      "offsetTolerance": 232,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 10,
+        "within": 15,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/da-the-garden",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "da-the-noble-floor",
+      "path": "/da/the-noble-floor/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 2.69,
+      "textPct": 4.89,
+      "heightDelta": 15,
+      "originH": 6610,
+      "edsH": 6595,
+      "alignedPct": 0.6,
+      "alignedUsed": true,
+      "totalShift": 19,
+      "steps": [
+        {
+          "y": 2863,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 3362,
+          "shift": -3,
+          "cumulative": -2
+        },
+        {
+          "y": 3396,
+          "shift": -3,
+          "cumulative": -5
+        },
+        {
+          "y": 3514,
+          "shift": -4,
+          "cumulative": -9
+        },
+        {
+          "y": 3801,
+          "shift": -3,
+          "cumulative": -12
+        },
+        {
+          "y": 4227,
+          "shift": -3,
+          "cumulative": -15
+        },
+        {
+          "y": 6475,
+          "shift": -1,
+          "cumulative": -16
+        },
+        {
+          "y": 6610,
+          "shift": 1,
+          "cumulative": -15
+        }
+      ],
+      "offsetBound": 66,
+      "offsetTolerance": 330,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 10,
+        "within": 15,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/da-the-noble-floor",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "es-el-atico",
+      "path": "/es/el-atico/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 2.53,
+      "textPct": 5.94,
+      "heightDelta": 19,
+      "originH": 6274,
+      "edsH": 6255,
+      "alignedPct": 0.6,
+      "alignedUsed": true,
+      "totalShift": 23,
+      "steps": [
+        {
+          "y": 3079,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 3535,
+          "shift": -3,
+          "cumulative": -2
+        },
+        {
+          "y": 3592,
+          "shift": -3,
+          "cumulative": -5
+        },
+        {
+          "y": 3665,
+          "shift": -4,
+          "cumulative": -9
+        },
+        {
+          "y": 4502,
+          "shift": -10,
+          "cumulative": -19
+        },
+        {
+          "y": 6139,
+          "shift": -1,
+          "cumulative": -20
+        },
+        {
+          "y": 6274,
+          "shift": 1,
+          "cumulative": -19
+        }
+      ],
+      "offsetBound": 63,
+      "offsetTolerance": 313,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 10,
+        "within": 15,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/es-el-atico",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "es-el-jardin",
+      "path": "/es/el-jardin/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 3.83,
+      "textPct": 5.51,
+      "heightDelta": 17,
+      "originH": 4696,
+      "edsH": 4679,
+      "alignedPct": 0.97,
+      "alignedUsed": true,
+      "totalShift": 17,
+      "steps": [
+        {
+          "y": 1250,
+          "shift": -1,
+          "cumulative": -1
+        },
+        {
+          "y": 2290,
+          "shift": -3,
+          "cumulative": -4
+        },
+        {
+          "y": 2346,
+          "shift": -3,
+          "cumulative": -7
+        },
+        {
+          "y": 2394,
+          "shift": -4,
+          "cumulative": -11
+        },
+        {
+          "y": 2452,
+          "shift": -3,
+          "cumulative": -14
+        },
+        {
+          "y": 2625,
+          "shift": -3,
+          "cumulative": -17
+        }
+      ],
+      "offsetBound": 47,
+      "offsetTolerance": 234,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 10,
+        "within": 15,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/es-el-jardin",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "es-el-piso-senorial",
+      "path": "/es/el-piso-senorial/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 3.77,
+      "textPct": 5.41,
+      "heightDelta": 42,
+      "originH": 6178,
+      "edsH": 6136,
+      "alignedPct": 1.1,
+      "alignedUsed": true,
+      "totalShift": 46,
+      "steps": [
+        {
+          "y": 2913,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 3419,
+          "shift": -3,
+          "cumulative": -2
+        },
+        {
+          "y": 3456,
+          "shift": -3,
+          "cumulative": -5
+        },
+        {
+          "y": 3549,
+          "shift": -4,
+          "cumulative": -9
+        },
+        {
+          "y": 3861,
+          "shift": -3,
+          "cumulative": -12
+        },
+        {
+          "y": 4278,
+          "shift": -20,
+          "cumulative": -32
+        },
+        {
+          "y": 4381,
+          "shift": -10,
+          "cumulative": -42
+        },
+        {
+          "y": 6043,
+          "shift": -1,
+          "cumulative": -43
+        },
+        {
+          "y": 6178,
+          "shift": 1,
+          "cumulative": -42
+        }
+      ],
+      "offsetBound": 62,
+      "offsetTolerance": 308,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 10,
+        "within": 15,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/es-el-piso-senorial",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "5500-6000:15.2%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "es-la-casa-entera",
+      "path": "/es/la-casa-entera/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 3.29,
+      "textPct": 5.44,
+      "heightDelta": 15,
+      "originH": 6086,
+      "edsH": 6071,
+      "alignedPct": 1.09,
+      "alignedUsed": true,
+      "totalShift": 19,
+      "steps": [
+        {
+          "y": 2577,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 3019,
+          "shift": -3,
+          "cumulative": -2
+        },
+        {
+          "y": 3056,
+          "shift": -3,
+          "cumulative": -5
+        },
+        {
+          "y": 3215,
+          "shift": -7,
+          "cumulative": -12
+        },
+        {
+          "y": 3401,
+          "shift": -3,
+          "cumulative": -15
+        },
+        {
+          "y": 5951,
+          "shift": -1,
+          "cumulative": -16
+        },
+        {
+          "y": 6086,
+          "shift": 1,
+          "cumulative": -15
+        }
+      ],
+      "offsetBound": 61,
+      "offsetTolerance": 304,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 10,
+        "within": 15,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/es-la-casa-entera",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "es-la-planta-baja",
+      "path": "/es/la-planta-baja/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 3.99,
+      "textPct": 6.37,
+      "heightDelta": 23,
+      "originH": 5142,
+      "edsH": 5119,
+      "alignedPct": 1.17,
+      "alignedUsed": true,
+      "totalShift": 27,
+      "steps": [
+        {
+          "y": 953,
+          "shift": -1,
+          "cumulative": -1
+        },
+        {
+          "y": 1336,
+          "shift": 1,
+          "cumulative": 0
+        },
+        {
+          "y": 2327,
+          "shift": -3,
+          "cumulative": -3
+        },
+        {
+          "y": 2364,
+          "shift": -3,
+          "cumulative": -6
+        },
+        {
+          "y": 2432,
+          "shift": -4,
+          "cumulative": -10
+        },
+        {
+          "y": 2570,
+          "shift": -3,
+          "cumulative": -13
+        },
+        {
+          "y": 3367,
+          "shift": -10,
+          "cumulative": -23
+        },
+        {
+          "y": 5007,
+          "shift": -1,
+          "cumulative": -24
+        },
+        {
+          "y": 5142,
+          "shift": 1,
+          "cumulative": -23
+        }
+      ],
+      "offsetBound": 51,
+      "offsetTolerance": 257,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 12,
+        "within": 18,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/es-la-planta-baja",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "the-ground-floor",
+      "path": "/the-ground-floor/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 4.02,
+      "textPct": 6.37,
+      "heightDelta": 25,
+      "originH": 5424,
+      "edsH": 5399,
+      "alignedPct": 1.11,
+      "alignedUsed": true,
+      "totalShift": 29,
+      "steps": [
+        {
+          "y": 1038,
+          "shift": -1,
+          "cumulative": -1
+        },
+        {
+          "y": 1421,
+          "shift": 1,
+          "cumulative": 0
+        },
+        {
+          "y": 2355,
+          "shift": -3,
+          "cumulative": -3
+        },
+        {
+          "y": 2389,
+          "shift": -3,
+          "cumulative": -6
+        },
+        {
+          "y": 2457,
+          "shift": -4,
+          "cumulative": -10
+        },
+        {
+          "y": 2595,
+          "shift": -3,
+          "cumulative": -13
+        },
+        {
+          "y": 3232,
+          "shift": -12,
+          "cumulative": -25
+        },
+        {
+          "y": 5289,
+          "shift": -1,
+          "cumulative": -26
+        },
+        {
+          "y": 5424,
+          "shift": 1,
+          "cumulative": -25
+        }
+      ],
+      "offsetBound": 54,
+      "offsetTolerance": 271,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 12,
+        "within": 18,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": true,
+      "maskedRows": 268,
+      "maskReason": "self-varying rows of the frozen reference (noise floor 3.13%)",
+      "reference": "stardust/replica/gates/all-360/the-ground-floor",
+      "noiseFloor": 3.13,
+      "variableRows": 268,
+      "hint": null,
+      "hotBands": [
+        "4500-5000:15.1%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "the-noble-floor",
+      "path": "/the-noble-floor/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 2.69,
+      "textPct": 4.89,
+      "heightDelta": 15,
+      "originH": 6610,
+      "edsH": 6595,
+      "alignedPct": 0.6,
+      "alignedUsed": true,
+      "totalShift": 19,
+      "steps": [
+        {
+          "y": 2863,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 3362,
+          "shift": -3,
+          "cumulative": -2
+        },
+        {
+          "y": 3396,
+          "shift": -3,
+          "cumulative": -5
+        },
+        {
+          "y": 3514,
+          "shift": -4,
+          "cumulative": -9
+        },
+        {
+          "y": 3801,
+          "shift": -3,
+          "cumulative": -12
+        },
+        {
+          "y": 4227,
+          "shift": -3,
+          "cumulative": -15
+        },
+        {
+          "y": 6475,
+          "shift": -1,
+          "cumulative": -16
+        },
+        {
+          "y": 6610,
+          "shift": 1,
+          "cumulative": -15
+        }
+      ],
+      "offsetBound": 66,
+      "offsetTolerance": 330,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 10,
+        "within": 15,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/the-noble-floor",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "the-penthouse",
+      "path": "/the-penthouse/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 2.04,
+      "textPct": 4.21,
+      "heightDelta": 12,
+      "originH": 6632,
+      "edsH": 6620,
+      "alignedPct": 0.47,
+      "alignedUsed": true,
+      "totalShift": 16,
+      "steps": [
+        {
+          "y": 3439,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 3813,
+          "shift": -3,
+          "cumulative": -2
+        },
+        {
+          "y": 3847,
+          "shift": -3,
+          "cumulative": -5
+        },
+        {
+          "y": 3915,
+          "shift": -4,
+          "cumulative": -9
+        },
+        {
+          "y": 4177,
+          "shift": -3,
+          "cumulative": -12
+        },
+        {
+          "y": 6497,
+          "shift": -1,
+          "cumulative": -13
+        },
+        {
+          "y": 6632,
+          "shift": 1,
+          "cumulative": -12
+        }
+      ],
+      "offsetBound": 66,
+      "offsetTolerance": 331,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 10,
+        "within": 15,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/the-penthouse",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "the-whole-house",
+      "path": "/the-whole-house/",
+      "template": "program",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 2.83,
+      "textPct": 5.22,
+      "heightDelta": 15,
+      "originH": 5823,
+      "edsH": 5808,
+      "alignedPct": 0.69,
+      "alignedUsed": true,
+      "totalShift": 19,
+      "steps": [
+        {
+          "y": 2417,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 2837,
+          "shift": -3,
+          "cumulative": -2
+        },
+        {
+          "y": 2871,
+          "shift": -3,
+          "cumulative": -5
+        },
+        {
+          "y": 2964,
+          "shift": -4,
+          "cumulative": -9
+        },
+        {
+          "y": 3020,
+          "shift": -3,
+          "cumulative": -12
+        },
+        {
+          "y": 3166,
+          "shift": -3,
+          "cumulative": -15
+        },
+        {
+          "y": 5688,
+          "shift": -1,
+          "cumulative": -16
+        },
+        {
+          "y": 5823,
+          "shift": 1,
+          "cumulative": -15
+        }
+      ],
+      "offsetBound": 58,
+      "offsetTolerance": 291,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 1,
+        "variable": []
+      },
+      "unitsDeclared": 2,
+      "unitsRecorded": null,
+      "units": {
+        "units": 10,
+        "within": 15,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/the-whole-house",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [],
+      "error": null
+    }
+  ]
+}

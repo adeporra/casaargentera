@@ -1,0 +1,352 @@
+/* ==========================================================================
+   Casa Argentera — replica canon (shared by every archetype prototype)
+   Source: WordPress "The7" theme, measured at 1440 / 360 (source-spec + measure.mjs).
+   Box model (lifted per container, NO universal reset):
+     content-box : body, #main, .wf-wrap? (no — see below), .branding, #footer, sections
+     border-box  : .masthead, .top-bar, .wf-wrap, .vc-row, .vc-col, footer .widget,
+                   footer search input, .testimonial-item (index.css)
+   Breakpoints (source): 1024 first header switch (mobile header), 768 second
+   switch / footer columns / vc columns.
+   ========================================================================== */
+
+/* ---- Fonts (self-hosted captures: fonts.gstatic Montserrat v29, The7 icomoon) */
+@font-face { font-family: "Montserrat"; src: url(fonts/montserrat-200.ttf) format("truetype"); font-weight: 200; font-style: normal; font-display: swap; }
+@font-face { font-family: "Montserrat"; src: url(fonts/montserrat-300.ttf) format("truetype"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "Montserrat"; src: url(fonts/montserrat-400.ttf) format("truetype"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Montserrat"; src: url(fonts/montserrat-500.ttf) format("truetype"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Montserrat"; src: url(fonts/montserrat-700.ttf) format("truetype"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Montserrat"; src: url(fonts/montserrat-800.ttf) format("truetype"); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: "icomoon-the7-font"; src: url(fonts/icomoon-the7-font.ttf) format("truetype"); font-weight: 400; font-style: normal; font-display: swap; }
+
+/* ---- Tokens (lifted: the7 custom properties + computed styles) */
+:root {
+  --ca-accent: #dd9d3b;            /* --the7-accent-color */
+  --ca-base: #3a3a3a;              /* --the7-base-color */
+  --ca-ink: #2b2b2b;               /* footer headings / links */
+  --ca-white: #ffffff;
+  --ca-header-veil: rgba(221, 179, 110, 0.5);  /* masthead over hero */
+  --ca-float-bg: #ddbd89;          /* --the7-float-menu-bg (#phantom) */
+  --ca-divider: rgba(204, 204, 204, 0.5);
+  --ca-card-bg: #f4f4f4;
+  --ca-font: "Montserrat", Helvetica, Arial, Verdana, sans-serif;
+  --ca-icon-font: "icomoon-the7-font";
+  --ca-content-max: 1250px;        /* DESIGN.json contentMaxWidth (module cap) */
+  --ca-side-pad: 60px;
+  --ca-float-h: 40px;              /* --the7-float-menu-height */
+}
+
+/* ---- Base */
+html { font-size: 100%; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: #fff;
+  color: var(--ca-base);
+  font: 400 14px/25px var(--ca-font);
+  -webkit-font-smoothing: antialiased;
+}
+#page { position: relative; overflow: hidden; }
+a { color: var(--ca-accent); text-decoration: underline; }
+a:hover { text-decoration: none; }
+p { margin: 0 0 10px; }
+strong { font-weight: 700; }
+h1, h2, h3, h4, h5, h6 { margin: 0 0 10px; color: var(--ca-accent); }
+h2 { font: 200 50px/55px var(--ca-font); }
+h3 { font: 200 30px/35px var(--ca-font); margin-bottom: 0; }
+h2 a, h3 a { color: inherit; text-decoration: none; }
+img { border: 0; }
+ul { margin: 0; padding: 0; list-style: none; }
+.screen-reader-text {
+  position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(1px, 1px, 1px, 1px); border: 0;
+}
+/* The7 .assistive-text: clipped but keeps its box (search submit, "Find us on:") */
+.assistive-text { position: absolute !important; clip: rect(1px, 1px, 1px, 1px); }
+.skip-link:focus { clip: auto; width: auto; height: auto; z-index: 100000; background: #fff; padding: 10px; }
+
+/* ---- Icon glyphs (icomoon-the7-font, code points lifted from the source sheet) */
+.ca-icon { font-family: var(--ca-icon-font); font-style: normal; font-weight: 400; speak: never; line-height: 1; -webkit-font-smoothing: antialiased; }
+.ca-icon--phone::before { content: "\e1051"; }
+.ca-icon--mail::before { content: "\e006"; }
+.ca-icon--facebook::before { content: "\f106"; }
+.ca-icon--instagram::before { content: "\f111"; }
+.ca-icon--arrow-l::before { content: "\f008"; }
+.ca-icon--arrow-r::before { content: "\f009"; }
+
+/* ==========================================================================
+   Header — .masthead (absolute over the hero, translucent veil)
+   ========================================================================== */
+.masthead {
+  position: absolute; top: 0; left: 0; z-index: 102;
+  width: 100%; box-sizing: border-box;
+  background: var(--ca-header-veil);
+}
+.top-bar {
+  position: relative; display: flex; justify-content: space-between; align-items: center;
+  box-sizing: border-box; height: 36px; padding: 0 var(--ca-side-pad);
+  color: #fff; font: 300 13px/19px var(--ca-font);
+}
+.top-bar__left { display: flex; align-items: center; }
+.mini-contacts { display: flex; align-items: center; }
+.mini-contacts.phone { margin-right: 10px; }
+.mini-contacts.email { margin-left: 10px; }
+.mini-contacts .ca-icon { width: 20px; margin-right: 5px; font-size: 16px; line-height: 19px; text-align: center; color: #fff; }
+.top-menu { display: flex; gap: 16px; }
+.top-menu .menu-text { display: inline; }
+.top-menu a { display: flex; color: #fff; text-decoration: none; font: 300 13px/19px var(--ca-font); }
+.top-menu a:hover { color: rgba(255, 255, 255, 0.7); }
+
+.header-bar {
+  position: relative; display: flex; align-items: center;
+  height: 136px; padding: 0 var(--ca-side-pad);
+}
+.branding { display: flex; flex: 0 0 auto; line-height: 0; }
+.branding img { display: inline; width: 172px; height: 136px; }
+.primary-nav { display: flex; flex: 1 1 auto; justify-content: center; }
+.main-nav { display: flex; flex: 1 1 auto; justify-content: center; align-items: center; gap: 30px; }
+.main-nav > li { position: relative; display: flex; }
+.main-nav > li > a {
+  position: relative; display: flex; align-items: center; padding: 4px 0; margin: 18px 0;
+  color: #fff; text-decoration: none; text-transform: uppercase;
+  font: 500 14px/18px var(--ca-font);
+}
+.main-nav .menu-text { display: inline-flex; align-items: center; }
+.main-nav > li.has-children > a .menu-text { position: relative; padding-right: 10px; }
+.main-nav > li.has-children > a .menu-text::after {
+  content: ""; position: absolute; right: 0; top: 50%; width: 10px; height: 10px; margin-top: -5px; background: #fff;
+  -webkit-mask: url(assets/the7-chevron-side.svg) no-repeat right center / 10px; mask: url(assets/the7-chevron-side.svg) no-repeat right center / 10px;
+}
+/* underline decoration (l-to-r-line) — hover only */
+.main-nav > li > a .underline {
+  position: absolute; left: 0; bottom: 0; width: 0; height: 1px; background: #fff; transition: width .3s ease;
+}
+.main-nav > li:hover > a .underline { width: 100%; }
+/* dropdown (observed: opacity 0 → 1 on li hover; white panel, 0 0 4px shadow) */
+.sub-nav {
+  position: absolute; top: 100%; left: 0; z-index: 200; box-sizing: border-box; width: 205px; padding: 10px;
+  background: #fff; box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  opacity: 0; transition: opacity .3s ease;
+}
+/* observed: li gets .dt-hovered on pointer enter; the sub-nav fades 0 → 1 (300 ms) */
+.main-nav > li.dt-hovered > .sub-nav, .main-nav > li:focus-within > .sub-nav { opacity: 1; }
+.sub-nav > li > a {
+  display: flex; padding: 8px 10px; color: var(--ca-accent); text-decoration: none;
+  font: 300 13px/17px var(--ca-font); transition: background .3s;
+}
+.sub-nav > li > a:hover { background: rgba(221, 157, 59, 0.1); }
+.header-bar .soc-ico { display: flex; margin-left: 30px; }
+.header-bar .soc-ico a { color: var(--ca-accent); }
+
+/* social icon chips (header 24px / footer 26px) */
+.soc-ico a {
+  position: relative; display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 50%; text-decoration: none; color: #fff; background: rgba(255, 255, 255, 0.3);
+}
+.soc-ico .ca-icon { font-size: 16px; color: #fff; }
+.header-bar .soc-ico a { width: 24px; height: 24px; line-height: 24px; margin: 0 2px; }
+.header-bar .soc-ico a:first-child { margin-left: 0; }
+.header-bar .soc-ico a:last-child { margin-right: 0; }
+
+/* mobile header (≤1024) */
+.mobile-header-bar { display: none; }
+.dt-mobile-menu-icon { display: flex; align-items: center; color: #fff; text-decoration: none; }
+.lines-button { position: relative; display: flex; width: 22px; height: 16px; }
+.menu-line { position: absolute; left: 0; width: 22px; height: 2px; background: #fff; }
+.menu-line:nth-child(1) { top: 0; }
+.menu-line:nth-child(2) { top: 7px; }
+.menu-line:nth-child(3) { top: 14px; }
+
+/* floating mobile menu button (shown on scroll — class from motion.js) */
+.floating-btn {
+  position: fixed; top: 10px; right: 10px; z-index: 9500; padding: 10px; box-sizing: content-box;
+  background: rgba(0, 0, 0, 0.2); visibility: hidden; opacity: 0; transition: background .2s linear;
+}
+.show-floating-icon .floating-btn { visibility: visible; opacity: 1; }
+
+/* mobile drawer (dt-mobile-header) — right off-canvas, closed at rest. Lifted: width 330,
+   padding 45/15/30/30, menu 16px 300 uppercase #303030, dividers rgba(48,48,48,.12),
+   items 15.2px/25px padding; observed motion: `right` 500ms ease, overlay opacity 400ms,
+   close icon opacity 500ms. Sub-levels stay collapsed (only the 7 top links + 2 social). */
+.mobile-drawer {
+  position: fixed; top: 0; right: -330px; z-index: 9602; box-sizing: border-box;
+  width: 330px; max-width: 100%; height: 100%; overflow: hidden; padding: 45px 15px 30px 30px;
+  background: #fff; visibility: hidden; transition: right .5s ease, visibility .5s ease;
+}
+.mobile-drawer-open .mobile-drawer { right: 0; visibility: visible; }
+.mobile-drawer__close {
+  position: absolute; top: 0; right: 13px; z-index: 9999; display: inline-flex; align-items: center; justify-content: center;
+  width: 30px; height: 30px; margin: 15px 0 0; padding: 5px; box-sizing: border-box; border: 0; border-radius: 0;
+  background: var(--ca-accent); cursor: pointer; opacity: 0; transition: opacity .5s ease;
+}
+.mobile-drawer-open .mobile-drawer__close { opacity: 1; }
+.mobile-drawer__close span { position: relative; display: block; width: 20px; height: 20px; }
+.mobile-drawer__close span::before, .mobile-drawer__close span::after {
+  content: ""; position: absolute; top: 9px; left: 0; width: 20px; height: 2px; background: #fff;
+}
+.mobile-drawer__close span::before { transform: rotate(45deg); }
+.mobile-drawer__close span::after { transform: rotate(-45deg); }
+.mobile-main-nav > li { position: relative; display: flex; flex-wrap: wrap; border-bottom: 1px solid rgba(48, 48, 48, 0.12); }
+.mobile-main-nav > li:last-child { border-bottom: 0; }
+.mobile-main-nav > li > a {
+  display: flex; flex-grow: 1; align-items: center; padding: 15.2px 25px 15.2px 0; color: #303030; text-decoration: none;
+  font: 300 16px/20px var(--ca-font); text-transform: uppercase;
+}
+.mobile-main-nav > li > a:hover { color: var(--ca-accent); }
+.mobile-main-nav .next-level-button { position: absolute; top: 0; right: 0; display: flex; align-items: center; height: 50.4px; color: rgba(48, 48, 48, 0.3); font: 300 22px/1 var(--ca-font); }
+.mobile-main-nav .sub-nav { display: none; }
+.mobile-drawer .soc-ico { display: flex; margin-top: 84px; }
+.mobile-drawer .soc-ico a { width: 24px; height: 24px; line-height: 24px; margin: 0 2px; background: #fff; }
+.mobile-drawer .soc-ico a:first-child { margin-left: 0; }
+.mobile-drawer .soc-ico .ca-icon { color: #dd9933; }
+.drawer-overlay {
+  position: fixed; top: 0; left: 0; z-index: 9601; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);
+  opacity: 0; visibility: hidden; transition: all .4s;
+}
+.mobile-drawer-open .drawer-overlay { opacity: 1; visibility: visible; }
+
+/* phantom (floating) header — separate fixed clone, slides in on scroll (observed:
+   show-phantom / hide-phantom classes; slide-in .52s / slide-out .35s ease) */
+#phantom {
+  position: fixed; top: 0; left: 0; z-index: 102; width: 100%; box-sizing: border-box; height: 136px;
+  background: var(--ca-float-bg); transform: translateY(-100%); opacity: 0;
+}
+#phantom .ph-wrap { height: 136px; box-sizing: content-box; padding: 0 var(--ca-side-pad); }
+#phantom.show-phantom { animation: slide-in-anim .52s ease 0s 1 normal both; }
+#phantom.hide-phantom { animation: slide-out-anim .35s ease 0s 1 normal both; }
+#phantom .main-nav > li > a:hover { color: var(--ca-accent); }
+@keyframes slide-in-anim { 0% { opacity: 0; transform: translateY(-100%); } 10% { opacity: 1; transform: translateY(-100%); } 100% { opacity: 1; transform: translateY(0); } }
+@keyframes slide-out-anim { 0% { opacity: 1; transform: translateY(0); } 30% { opacity: 1; transform: translateY(-50%); } 100% { opacity: 0; transform: translateY(-100%); } }
+
+/* scroll-top button (observed: .off/.on toggled on scroll) */
+.scroll-top {
+  position: fixed; right: -45px; bottom: 10px; z-index: 109; display: flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px; background: rgba(0, 0, 0, 0.2); color: var(--ca-accent); text-decoration: none; opacity: 0;
+  z-index: -1; transition: all .4s ease;
+}
+.scroll-top.on { right: 10px; opacity: 1; z-index: 109; }
+.scroll-top:hover { background: rgba(0, 0, 0, 0.5); }
+.scroll-top svg { width: 24px; fill: #fff; }
+
+/* ==========================================================================
+   Hero slider shell (#main-slideshow) — Revolution Slider replacement.
+   Model lifted: grid 1240×868, full-width; height = min(868px, 70vw); layers
+   positioned from the slide centre with grid offsets scaled by min(1, vw/1240).
+   ========================================================================== */
+.hero-slider { position: relative; width: 100%; height: min(868px, 70vw); overflow: hidden; background: #000; }
+.hero-slider__slides { position: absolute; inset: 0; }
+.hero-slide { position: absolute; inset: 0; opacity: 0; visibility: hidden; transition: opacity .6s ease, visibility .6s; }
+.hero-slide.is-active { opacity: 1; visibility: visible; z-index: 2; }
+.hero-slide__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; }
+.hero-layer {
+  position: absolute; left: 50%; top: 50%; z-index: 5; white-space: nowrap; font-family: var(--ca-font);
+  transform: translate(calc(-50% + var(--xo) * var(--s)), calc(-50% + var(--yo) * var(--s)));
+  --s: min(1px, 0.080645vw); /* 1px at the 1240 grid, scaled below it */
+}
+.hero-layer--title { color: #fff; font-weight: 300; font-size: calc(80 * var(--s)); line-height: calc(70 * var(--s)); }
+.hero-layer--sub { font-weight: 500; font-size: calc(30 * var(--s)); line-height: calc(25 * var(--s)); }
+.hero-layer--abs { left: calc(50% - 453 * var(--s)); top: calc(50% + 137 * var(--s)); transform: none; }
+.hero-slider__bullets {
+  position: absolute; left: 50%; bottom: 20px; z-index: 20; display: flex; gap: 5px; transform: translateX(-50%);
+}
+.hero-bullet {
+  width: 3px; height: 3px; padding: 0; box-sizing: content-box; cursor: pointer;
+  border: 5px solid #000; border-radius: 50%; background: #fff;
+  transition: background-color .3s, border-color .3s;
+}
+.hero-bullet.selected { border-color: #fff; background: #000; }
+
+/* ==========================================================================
+   Content shell — #main > .wf-wrap > #content ; WPBakery-style rows/columns
+   ========================================================================== */
+#main { display: block; padding: 60px 0; }
+.wf-wrap { box-sizing: border-box; max-width: var(--ca-content-max); margin: 0 auto; padding: 0 var(--ca-side-pad); }
+#content { box-sizing: border-box; }
+.vc-row { display: flex; flex-wrap: wrap; box-sizing: border-box; margin: 0 -30px; }
+.vc-col { box-sizing: border-box; width: 100%; padding: 0 30px; }
+.vc-col--1-2 { width: 50%; }
+.vc-col--1-3 { width: 33.3333%; }
+.space-20 { height: 20px; }
+.space-30 { height: 30px; }
+.space-32 { height: 32px; }
+.space-50 { height: 50px; }
+.single-image { margin: 0; line-height: 0; }
+.single-image img { max-width: 100%; height: auto; }
+.single-image a { display: inline-block; line-height: 0; }
+
+/* carousel arrows (owl-nav replacement; shared by testimonial carousels) */
+.carousel-arrow {
+  position: absolute; top: 50%; z-index: 10; display: inline-flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px; padding: 0; border: 0; border-radius: 500px; cursor: pointer;
+  background: var(--ca-accent); color: #fff; transform: translateY(-50%);
+}
+.carousel-arrow .ca-icon { font-size: 18px; line-height: 18px; color: #fff; transition: color .15s; transition-delay: .1s; }
+.carousel-arrow:hover .ca-icon { color: rgba(255, 255, 255, 0.75); }
+.carousel-arrow--prev { left: -43px; }
+.carousel-arrow--next { right: -43px; }
+
+/* ==========================================================================
+   Footer — #footer (solid amber, 3-up widget cells)
+   ========================================================================== */
+#footer { background: var(--ca-accent); color: #fff; }
+#footer .wf-wrap { padding: 0 var(--ca-side-pad); }
+.footer-widgets { display: flex; flex-wrap: wrap; box-sizing: content-box; margin: 0 -30px; padding: 60px 0 10px; }
+#footer .widget {
+  box-sizing: border-box; width: 33.3333%; margin: 0 0 30px; padding: 0 30px;
+  color: #fff; font: 400 14px/25px var(--ca-font);
+}
+#footer .widget-title { margin: 0 0 15px; color: var(--ca-ink); font: 200 17px/27px var(--ca-font); }
+#footer .widget p { margin: 0; }
+#footer .widget a { color: var(--ca-ink); text-decoration: none; }
+#footer .widget a:hover { color: #0a0a0a; }
+.searchform { position: relative; margin: 0; }
+.searchform .field {
+  display: inline-block; box-sizing: border-box; width: 100%; height: 40px; margin: 0; padding: 5px 15px;
+  border: 0; border-radius: 0; background: #fcfcfc; color: #787d85; font: 400 14px/25px var(--ca-font); outline: none;
+}
+.searchform .field::placeholder { color: #787d85; opacity: 1; }
+.searchform .submit {
+  position: absolute; top: 0; right: 12px; display: flex; align-items: center; justify-content: center; width: 20px; height: 40px; padding: 0; border: 0; background: none; cursor: pointer;
+}
+.searchform input[type=submit].assistive-text { top: 0; right: 12px; width: 54px; height: 40px; padding: 0; border: 0; background: none; color: #fff; font: 800 14px/16px var(--ca-font); }
+.searchform .submit svg { width: 16px; height: 16px; fill: #787d85; }
+#footer .soc-ico a { color: #fff; width: 26px; height: 26px; line-height: 26px; margin: 2px; }
+#footer .soc-ico a:first-of-type { margin-left: 2px; }
+.lang-switcher li a {
+  display: flex; padding: 3.5px 7px; color: #fff !important; text-decoration: underline !important; font: 400 14px/normal var(--ca-font);
+}
+
+/* ==========================================================================
+   Responsive — source switches: 1024 (mobile header), 768 (columns, top bar)
+   ========================================================================== */
+@media (max-width: 1024px) {
+  .masthead .header-bar { display: none; }
+  .masthead .mobile-header-bar {
+    display: flex; justify-content: space-between; align-items: center; box-sizing: border-box;
+    height: 58px; padding: 0 30px;
+  }
+  .mobile-branding { display: flex; line-height: 0; }
+  .mobile-branding img { width: 75px; height: 58px; }
+  .mobile-navigation { display: flex; align-items: center; margin-left: 10px; }
+  #phantom { display: none; }
+}
+@media (max-width: 768px) {
+  .top-bar { display: none; }
+  .wf-wrap, #footer .wf-wrap { padding: 0 30px; }
+  .vc-col--1-2, .vc-col--1-3 { width: 100%; }
+  #footer .widget { width: 100%; }
+  .carousel-arrow--prev { left: -18px; }
+  .carousel-arrow--next { right: -18px; }
+}
+
+/* mobile mini-widgets: the source repeats the top-bar contacts, languages and social
+   chips inside the mobile header; every switch state the home page exposes hides them */
+.mobile-mini-widgets { display: none; }
+
+/* WPBakery entrance (observed: fadeIn fired on the 5 images that carry the class;
+   lifted: .animated 1s both, @keyframes fadeIn 0→1). Trigger class added by canon.js. */
+.wpb_animate_when_almost_visible { opacity: 0; }
+.wpb_animate_when_almost_visible:not(.wpb_start_animation) { animation: none; }
+.wpb_start_animation { opacity: 1; }
+.animated { animation-duration: 1s; animation-fill-mode: both; }
+.fadeIn.wpb_start_animation { animation-name: fadeIn; }
+@keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }

@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.casaargentera.com/da/stueetagen/",
+  "reference": {
+    "dir": "stardust/replica/gates/wide-2560/da-stueetagen",
+    "capturedAt": "2026-11-24T23:12:59.636Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0.69,
+    "variableRows": 736,
+    "maskArg": "152:736"
+  },
+  "note": "froze stardust/replica/gates/wide-2560/da-stueetagen/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-24T23:13:44.232Z"
+}

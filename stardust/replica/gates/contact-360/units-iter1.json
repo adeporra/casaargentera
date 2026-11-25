@@ -1,0 +1,1140 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T11:28:51.209Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/contact/",
+  "at": "2026-11-24T11:28:36.922Z",
+  "docH": 4741
+ },
+ "eds": {
+  "url": "http://localhost:8793/contact-proposed.html",
+  "at": "2026-11-24T11:28:51.137Z",
+  "docH": 4741
+ },
+ "results": [
+  {
+   "sel": "#content .icon-with-text-shortcode=#content .contact-directions .icon-text",
+   "family": "contact-direction",
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-335f2778a23112c47de81cbb801e757a"
+     },
+     "eds": {
+      "path": "section.vc-row.contact-body > div.vc-col.vc-col--1-2 > div.icon-text.icon-text--c30"
+     },
+     "rows": [
+      {
+       "key": "heading:by plane",
+       "role": "heading",
+       "text": "by plane",
+       "edsText": "by plane",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 30
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 30,
+        "sel": "h4.icon-text__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:reus airport is only 35 minutes away by ",
+       "role": "text",
+       "text": "reus airport is only 35 minutes away by car, and you can che",
+       "edsText": "reus airport is only 35 minutes away by car, and you can che",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 240,
+        "h": 200
+       },
+       "eds": {
+        "x": 60,
+        "y": 30,
+        "w": 240,
+        "h": 200,
+        "sel": "div.icon-text__desc",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 1732,
+       "w": 300,
+       "h": 230
+      },
+      "eds": {
+       "x": 30,
+       "y": 1732,
+       "w": 300,
+       "h": 230
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-a5501fabef889e4b4059cbe183b8545e"
+     },
+     "eds": {
+      "path": "section.vc-row.contact-body > div.vc-col.vc-col--1-2 > div.icon-text"
+     },
+     "rows": [
+      {
+       "key": "heading:by car",
+       "role": "heading",
+       "text": "by car",
+       "edsText": "by car",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 30
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 30,
+        "sel": "h4.icon-text__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:- from barcelona, take either the motorw",
+       "role": "text",
+       "text": "- from barcelona, take either the motorway ap7 or a7 southbo",
+       "edsText": "- from barcelona, take either the motorway ap7 or a7 southbo",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 240,
+        "h": 500
+       },
+       "eds": {
+        "x": 60,
+        "y": 30,
+        "w": 240,
+        "h": 500,
+        "sel": "div.icon-text__desc",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 1994,
+       "w": 300,
+       "h": 530
+      },
+      "eds": {
+       "x": 30,
+       "y": 1994,
+       "w": 300,
+       "h": 530
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-827de0a0a1fdb9d3afbbd66870d03640"
+     },
+     "eds": {
+      "path": "section.vc-row.contact-body > div.vc-col.vc-col--1-2 > div.icon-text.icon-text--c30"
+     },
+     "rows": [
+      {
+       "key": "heading:by train",
+       "role": "heading",
+       "text": "by train",
+       "edsText": "by train",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 30
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 30,
+        "sel": "h4.icon-text__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:there are 1,1 km from the station to the",
+       "role": "text",
+       "text": "there are 1,1 km from the station to the house. there are 3 ",
+       "edsText": "there are 1,1 km from the station to the house. there are 3 ",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 240,
+        "h": 125
+       },
+       "eds": {
+        "x": 60,
+        "y": 30,
+        "w": 240,
+        "h": 125,
+        "sel": "div.icon-text__desc",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 2556,
+       "w": 300,
+       "h": 155
+      },
+      "eds": {
+       "x": 30,
+       "y": 2556,
+       "w": 300,
+       "h": 155
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-1ae8d529382d14ccf0906f41c0715932"
+     },
+     "eds": {
+      "path": "section.vc-row.contact-body > div.vc-col.vc-col--1-2 > div.icon-text.icon-text--c30"
+     },
+     "rows": [
+      {
+       "key": "heading:by bus",
+       "role": "heading",
+       "text": "by bus",
+       "edsText": "by bus",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 30
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 30,
+        "sel": "h4.icon-text__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:there are 2 arrivals and departures on m",
+       "role": "text",
+       "text": "there are 2 arrivals and departures on monday and thursday f",
+       "edsText": "there are 2 arrivals and departures on monday and thursday f",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 240,
+        "h": 200
+       },
+       "eds": {
+        "x": 60,
+        "y": 30,
+        "w": 240,
+        "h": 200,
+        "sel": "div.icon-text__desc",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 2743,
+       "w": 300,
+       "h": 230
+      },
+      "eds": {
+       "x": 30,
+       "y": 2743,
+       "w": 300,
+       "h": 230
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#content .wpcf7-form > p=#content .cf7-form > p",
+   "family": "contact-form-row",
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#wpcf7-f15714-p15210-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div#wpcf7-f15714-p15210-o1 > form.cf7-form > p"
+     },
+     "rows": [
+      {
+       "key": "text:your name (required)",
+       "role": "text",
+       "text": "your name (required)",
+       "edsText": "your name (required)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 300,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 3,
+        "w": 300,
+        "h": 51,
+        "sel": "label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input.wpcf7-form-control.wpcf7-text#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 40,
+        "sel": "input.cf7-field",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 3005,
+       "w": 300,
+       "h": 75
+      },
+      "eds": {
+       "x": 30,
+       "y": 3005,
+       "w": 300,
+       "h": 75
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#wpcf7-f15714-p15210-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div#wpcf7-f15714-p15210-o1 > form.cf7-form > p"
+     },
+     "rows": [
+      {
+       "key": "text:your email (required)",
+       "role": "text",
+       "text": "your email (required)",
+       "edsText": "your email (required)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 300,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 3,
+        "w": 300,
+        "h": 51,
+        "sel": "label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input.wpcf7-form-control.wpcf7-email#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 40,
+        "sel": "input.cf7-field",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 3090,
+       "w": 300,
+       "h": 75
+      },
+      "eds": {
+       "x": 30,
+       "y": 3090,
+       "w": 300,
+       "h": 75
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#wpcf7-f15714-p15210-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div#wpcf7-f15714-p15210-o1 > form.cf7-form > p"
+     },
+     "rows": [
+      {
+       "key": "text:your number (required)",
+       "role": "text",
+       "text": "your number (required)",
+       "edsText": "your number (required)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 300,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 3,
+        "w": 300,
+        "h": 51,
+        "sel": "label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input.wpcf7-form-control.wpcf7-tel#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 40,
+        "sel": "input.cf7-field",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 3175,
+       "w": 300,
+       "h": 75
+      },
+      "eds": {
+       "x": 30,
+       "y": 3175,
+       "w": 300,
+       "h": 75
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#wpcf7-f15714-p15210-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div#wpcf7-f15714-p15210-o1 > form.cf7-form > p"
+     },
+     "rows": [
+      {
+       "key": "text:subject",
+       "role": "text",
+       "text": "subject",
+       "edsText": "subject",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 300,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 3,
+        "w": 300,
+        "h": 51,
+        "sel": "label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input.wpcf7-form-control.wpcf7-text#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 40,
+        "sel": "input.cf7-field",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 3260,
+       "w": 300,
+       "h": 75
+      },
+      "eds": {
+       "x": 30,
+       "y": 3260,
+       "w": 300,
+       "h": 75
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div#wpcf7-f15714-p15210-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div#wpcf7-f15714-p15210-o1 > form.cf7-form > p"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 3345,
+       "w": 300,
+       "h": 50
+      },
+      "eds": {
+       "x": 30,
+       "y": 3345,
+       "w": 300,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div#wpcf7-f15714-p15210-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div#wpcf7-f15714-p15210-o1 > form.cf7-form > p"
+     },
+     "rows": [
+      {
+       "key": "text:your message",
+       "role": "text",
+       "text": "your message",
+       "edsText": "your message",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 300,
+        "h": 43
+       },
+       "eds": {
+        "x": 0,
+        "y": 3,
+        "w": 300,
+        "h": 43,
+        "sel": "label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:textarea.wpcf7-form-control.wpcf7-textarea#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 262
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 300,
+        "h": 262,
+        "sel": "textarea.cf7-field.cf7-textarea",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:i have read and accept the",
+       "role": "text",
+       "text": "i have read and accept the",
+       "edsText": "i have read and accept the",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 300,
+        "w": 256,
+        "h": 43
+       },
+       "eds": {
+        "x": 14,
+        "y": 300,
+        "w": 256,
+        "h": 43,
+        "sel": "span.cf7-list-item-label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:privacy policy",
+       "role": "link",
+       "text": "privacy policy",
+       "edsText": "privacy policy",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 300,
+        "w": 256,
+        "h": 43
+       },
+       "eds": {
+        "x": 14,
+        "y": 300,
+        "w": 256,
+        "h": 43,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 301,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 14,
+        "y": 301,
+        "w": 13,
+        "h": 13,
+        "sel": "input",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "button:input.wpcf7-form-control.wpcf7-submit#1",
+       "role": "button",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 347,
+        "w": 88,
+        "h": 39
+       },
+       "eds": {
+        "x": 0,
+        "y": 347,
+        "w": 88,
+        "h": 39,
+        "sel": "input.cf7-submit",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/800",
+        "eds": "14/16/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 3405,
+       "w": 300,
+       "h": 386
+      },
+      "eds": {
+       "x": 30,
+       "y": 3405,
+       "w": 300,
+       "h": 386
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 22,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

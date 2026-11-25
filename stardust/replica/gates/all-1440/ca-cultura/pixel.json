@@ -1,0 +1,130 @@
+{
+  "a": "stardust/replica/gates/all-1440/ca-cultura/origin.png",
+  "b": "stardust/replica/gates/all-1440/ca-cultura/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3090,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 13282,
+  "pct": 0.3,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/ca-cultura/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0.14,
+  "textBoxes": 107,
+  "textPixels": 646772,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3090,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.3,
+    "differingPixels": 13282,
+    "compared": {
+      "width": 1440,
+      "height": 3090,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1,
+        "unaligned": 1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3090,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 0.3,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null
+}

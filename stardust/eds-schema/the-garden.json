@@ -1,0 +1,255 @@
+{
+ "source": "http://127.0.0.1:8792/the-garden-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Enjoy the Mediterranean weather to it’s fullest"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "You have direct acces to the garden from all floors. The garden has various areas to help you enjoy the experience you are looking for. It is divided into two zones. One zone has the and a wooden sundeck with relaxing . The other one has built in and Paella equipment. a place for dining and a . There is also a swing in the linden tree, and a slide for the children, or childish, to play."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "swimming pool"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "lounge chairs"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "BBQ"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "chillout corner"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "vc-row",
+   "items": [],
+   "imgCount": 2,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vc-col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "vc-row",
+   "items": [],
+   "imgCount": 3,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vc-col",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Swimming pool"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Heated from April to mid October Pool towels provided Sundeck with loungechairs"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "BBQ corner & Paella equipment"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Who is the chef?"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Chill out corner"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Sofa for small talk... with a chilled glass"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vc-col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.icon-text",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Swing in the linden tree / Slide"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "for the children or childish to play..."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Big dining table"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "under the shade of a linden tree"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.icon-text",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "vc-row",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "For additional information and reservations?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Do not hesitate to contact us. We will be happy to help you!"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Your Name (required)"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Your Email (required)"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Your Number (required)"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Subject"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Please, let us know your preferences regarding check in and check out dates."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Your Message"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "I have read and accept the"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "privacy policy",
+     "href": "https://www.casaargentera.com/wp/privacy-policy/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

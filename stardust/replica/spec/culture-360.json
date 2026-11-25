@@ -1,0 +1,213 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-24T10:58:56.950Z",
+  "url": "https://www.casaargentera.com/culture/",
+  "width": 360,
+  "main": "main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://www.casaargentera.com/culture/",
+  "width": 360,
+  "viewport": 360,
+  "docHeight": 4870,
+  "scrollWidth": 360,
+  "root": "main, [role=\"main\"]",
+  "rootFallback": true,
+  "records": [
+   "scroll",
+   "shape"
+  ],
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+    "n": 32
+   }
+  ],
+  "loadedFaces": [
+   "Montserrat 200 normal",
+   "Montserrat 300 normal",
+   "Montserrat 400 normal",
+   "Montserrat 700 normal",
+   "Montserrat 800 normal",
+   "icomoon-the7-font 400 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "14/25 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 25,
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 17,
+    "roles": {
+     "p": 9,
+     "link": 7,
+     "field": 1
+    },
+    "sample": "Catalan culture has been a crossroads of cultures and influences. As a conseque…"
+   },
+   {
+    "key": "50/55 200 Montserrat",
+    "fontSize": 50,
+    "lineHeight": 55,
+    "fontWeight": "200",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "h2": 5
+    },
+    "sample": "History is to know where our culture comes from. An undeniable Mediterranean cu…"
+   },
+   {
+    "key": "17/27 200 Montserrat",
+    "fontSize": 17,
+    "lineHeight": 27,
+    "fontWeight": "200",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "div": 5
+    },
+    "sample": "CONTACT US"
+   },
+   {
+    "key": "14/normal 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": "normal",
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "link": 4
+    },
+    "sample": "English"
+   },
+   {
+    "key": "14/26 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 26,
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "link": 2
+    },
+    "sample": "Facebook page opens in new window"
+   },
+   {
+    "key": "14/16 800 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 16,
+    "fontWeight": "800",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "field": 1
+    },
+    "sample": "Go!"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 11
+   },
+   {
+    "color": "rgb(221, 157, 59)",
+    "n": 9
+   },
+   {
+    "color": "rgb(43, 43, 43)",
+    "n": 8
+   },
+   {
+    "color": "rgb(58, 58, 58)",
+    "n": 5
+   },
+   {
+    "color": "rgb(120, 125, 133)",
+    "n": 1
+   }
+  ],
+  "container": {
+   "left": 30,
+   "right": 30,
+   "content": 300,
+   "leftCommon": {
+    "x": 30,
+    "n": 12
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"header","y":0,"h":58,"background":"rgba(221, 153, 51, 0.5)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.masthead.inline-header","firstText":""},
+  {"i":1,"region":"main","y":312,"h":875,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"History is to know where our culture comes from. An undenia…"},
+  {"i":2,"region":"main","y":1187,"h":56,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":""},
+  {"i":3,"region":"main","y":1243,"h":717,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"The amazing Escornalbou castle"},
+  {"i":4,"region":"main","y":1960,"h":40,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":""},
+  {"i":5,"region":"main","y":2000,"h":637,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"Just a few steps from The Priorat"},
+  {"i":6,"region":"main","y":2637,"h":40,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":""},
+  {"i":7,"region":"main","y":2677,"h":607,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"Hidden Gaudí"},
+  {"i":8,"region":"main","y":3283,"h":40,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":""},
+  {"i":9,"region":"main","y":3323,"h":607,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"Monastery treasures"},
+  {"i":10,"region":"footer","y":3990,"h":880,"background":"rgb(221, 157, 59)","paddingTop":0,"paddingBottom":0,"selectorHint":"footer#footer.footer.solid-bg","firstText":"CONTACT US"}
+ ],
+ "nodes": [
+  {"section":0,"region":"header","kind":"image","tag":"img","role":"link","text":"Casa Argentera","x":30,"y":0,"w":75,"h":58,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[75,58],"src":"https://www.casaargentera.com/wp-content/uploads/2020/04/Logo-75-px.jpg","href":"https://www.casaargentera.com/"},
+  {"section":1,"region":"main","kind":"text","tag":"h2","role":"h2","text":"History is to know where our culture comes from. An undeniable Mediterranean cu…","x":30,"y":312,"w":300,"h":605,"fontFamily":"Montserrat","fontSize":50,"lineHeight":55,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":11},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Catalan culture has been a crossroads of cultures and influences. As a conseque…","x":30,"y":962,"w":300,"h":225,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":9},
+  {"section":3,"region":"main","kind":"image","tag":"img","role":null,"text":"Castle-Monastery of Escornalbou","x":30,"y":1243,"w":300,"h":169,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[1024,576],"src":"https://www.casaargentera.com/wp-content/uploads/2020/03/Escornalbou-CasaArgentera-1024x576.jpg"},
+  {"section":3,"region":"main","kind":"text","tag":"h2","role":"h2","text":"The amazing Escornalbou castle","x":30,"y":1430,"w":300,"h":220,"fontFamily":"Montserrat","fontSize":50,"lineHeight":55,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":4},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"The Castle-Monastery of Escornalbou is a peculiar mansion, reconstructed to be …","x":30,"y":1660,"w":300,"h":300,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":12},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Castle-Monastery of Escornalbou","x":60,"y":1663,"w":230,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1,"href":"http://patrimoni.gencat.cat/ca/castell-monestir-descornalbou"},
+  {"section":5,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":30,"y":2000,"w":300,"h":169,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[1024,576],"src":"https://www.casaargentera.com/wp-content/uploads/2020/03/Celler-Modernista-1024x576.jpg"},
+  {"section":5,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Just a few steps from The Priorat","x":30,"y":2187,"w":300,"h":165,"fontFamily":"Montserrat","fontSize":50,"lineHeight":55,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":3},
+  {"section":5,"region":"main","kind":"text","tag":"p","role":null,"text":"Follow the history and trace of the Carthusian Monks in Escaladei, in The Prior…","x":30,"y":2362,"w":300,"h":275,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":11},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Carthusian Monks in Escaladei","x":30,"y":2390,"w":214,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1,"href":"http://monuments.mhcat.cat/cartoixa_d_escaladei"},
+  {"section":7,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":30,"y":2677,"w":300,"h":169,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[1024,576],"src":"https://www.casaargentera.com/wp-content/uploads/2020/04/parksamaP3D.JPG-1024x576.png"},
+  {"section":7,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Hidden Gaudí","x":30,"y":2863,"w":300,"h":110,"fontFamily":"Montserrat","fontSize":50,"lineHeight":55,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":2},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":null,"text":"Only 10 km from the house, you find Parc Sama. The park behind the house was de…","x":30,"y":2983,"w":300,"h":300,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":12},
+  {"section":7,"region":"main","kind":"control","tag":"a","role":"link","text":"Parc Sama","x":30,"y":2986,"w":287,"h":43,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":2,"href":"http://parcsama.es/parc-sama-eng/"},
+  {"section":9,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":30,"y":3323,"w":300,"h":169,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[969,545],"src":"https://www.casaargentera.com/wp-content/uploads/2020/03/SantesCreus-activity-Argentera.jpg"},
+  {"section":9,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Monastery treasures","x":30,"y":3510,"w":300,"h":110,"fontFamily":"Montserrat","fontSize":50,"lineHeight":55,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":2},
+  {"section":9,"region":"main","kind":"text","tag":"p","role":null,"text":"Be fascinated by the peace and beauty of one of three amazingly beautiful monas…","x":30,"y":3630,"w":300,"h":300,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":12},
+  {"section":9,"region":"main","kind":"control","tag":"a","role":"link","text":"Cister route","x":197,"y":3908,"w":81,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1,"href":"https://larutadelcister.info/"},
+  {"section":10,"region":"footer","kind":"text","tag":"div","role":null,"text":"CONTACT US","x":30,"y":4050,"w":300,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":10,"region":"footer","kind":"text","tag":"p","role":null,"text":"CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info…","x":30,"y":4092,"w":300,"h":125,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":5},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"www.CasaArgentera.com","x":30,"y":4195,"w":176,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1,"href":"http://www.casaargentera.com"},
+  {"section":10,"region":"footer","kind":"text","tag":"div","role":null,"text":"SEARCH","x":30,"y":4247,"w":300,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":10,"region":"footer","kind":"control","tag":"input","role":"field","text":"Type and hit enter …","x":30,"y":4289,"w":300,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(120, 125, 133)","lines":1},
+  {"section":10,"region":"footer","kind":"control","tag":"input","role":"field","text":"Go!","x":265,"y":4289,"w":54,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":16,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":10,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":301,"y":4301,"w":16,"h":16,"fit":"fill","shape":{"pos":"50% 50%"},"href":""},
+  {"section":10,"region":"footer","kind":"text","tag":"div","role":null,"text":"FOLLOW US","x":30,"y":4359,"w":300,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":10,"region":"footer","kind":"text","tag":"p","role":null,"text":"Find us on:","x":30,"y":4401,"w":76,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Facebook page opens in new window","x":32,"y":4403,"w":26,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":26,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":6,"href":"https://www.facebook.com/CasaArgentera/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Instagram page opens in new window","x":62,"y":4403,"w":26,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":26,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":6,"href":"https://www.instagram.com/casaargentera/"},
+  {"section":10,"region":"footer","kind":"text","tag":"div","role":null,"text":"OTHER RENTALS","x":30,"y":4461,"w":300,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":10,"region":"footer","kind":"text","tag":"p","role":null,"text":"CASA VELLA DEL PANTA C/T313, km.13 • 43771 Riudecanyes • Spain www.CasaVelladel…","x":30,"y":4503,"w":300,"h":75,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":3},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"www.CasaVelladelPanta.com","x":30,"y":4556,"w":203,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1,"href":"http://www.casavelladelpanta.com"},
+  {"section":10,"region":"footer","kind":"text","tag":"div","role":null,"text":"LEGAL INFO","x":30,"y":4608,"w":300,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":10,"region":"footer","kind":"text","tag":"p","role":null,"text":"Privacy policy and Cookies ©2020 Casa Argentera","x":30,"y":4650,"w":300,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy policy and Cookies","x":30,"y":4653,"w":184,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1,"href":"https://www.casaargentera.com/privacy-policy-and-cookies/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"English","x":30,"y":4730,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/culture/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Dansk","x":30,"y":4755,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/da/kulturen/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Català","x":30,"y":4780,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/ca/cultura/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Español","x":30,"y":4805,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/es/cultura/"}
+ ]
+}

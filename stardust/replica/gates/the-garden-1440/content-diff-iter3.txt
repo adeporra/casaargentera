@@ -1,0 +1,31 @@
+
+Content diff @ 1440px (profile "generic", roots: #main, header, footer)
+root "#main"
+  source: 27 text nodes — 8 headings, 0 eyebrows, 1 CTAs, 18 body; 5 img
+  build: 27 text nodes — 8 headings, 0 eyebrows, 1 CTAs, 18 body; 5 img
+  editable texts (outermost h*/p/ul/ol): source 16 / build 16
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 10 / build 5
+root "header"
+  source: 33 text nodes — 0 headings, 0 eyebrows, 25 CTAs, 8 body; 4 img
+  build: 31 text nodes — 0 headings, 0 eyebrows, 25 CTAs, 6 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 6 / build 8; icons: source 8 / build 8
+root "footer"
+  source: 19 text nodes — 0 headings, 0 eyebrows, 9 CTAs, 10 body; 0 img
+  build: 19 text nodes — 0 headings, 0 eyebrows, 9 CTAs, 10 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 5 / build 5
+  attributes (placeholder/aria-label/title): source 4 / build 5; icons: source 3 / build 3
+
+Findings: 11 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 11
+  🟡 MISSING ICON [#main]: source icon-font glyph U+F5C4 (Font Awesome 5 Free, 0×0) at "swimming pool heated from april to mid o" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source icon-font glyph U+F7E4 (Font Awesome 5 Free, 0×0) at "bbq corner & paella equipment who is the" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source icon-font glyph U+F5CE (Font Awesome 5 Free, 0×0) at "chill out corner sofa for small talk... " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source icon-font glyph U+F1AE (Font Awesome 5 Free, 0×0) at "swing in the linden tree / slide for the" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#main]: source icon-font glyph U+F2E5 (Font Awesome 5 Free, 0×0) at "big dining table under the shade of a li" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING BODY [header]: source body "Menu 1"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "Menu 1"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Languages" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Main" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <button> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [footer]: source inline svg 0 0 16 16 / 1 shape(s) (16×16) at "a#1" is at "search" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.

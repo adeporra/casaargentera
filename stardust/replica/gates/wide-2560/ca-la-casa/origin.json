@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.casaargentera.com/ca/la-casa/",
+  "reference": {
+    "dir": "stardust/replica/gates/wide-2560/ca-la-casa",
+    "capturedAt": "2026-11-24T22:43:45.051Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0,
+    "variableRows": 0,
+    "maskArg": ""
+  },
+  "note": "froze stardust/replica/gates/wide-2560/ca-la-casa/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-24T22:44:29.292Z"
+}

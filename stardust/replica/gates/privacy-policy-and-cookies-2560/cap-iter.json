@@ -1,0 +1,133 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-24T12:03:51.631Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.casaargentera.com/privacy-policy-and-cookies/",
+      "http://localhost:8792/privacy-policy-and-cookies-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from stardust/current/DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.casaargentera.com/privacy-policy-and-cookies/",
+    "http://localhost:8792/privacy-policy-and-cookies-proposed.html"
+  ],
+  "probeNote": "from stardust/current/DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#content",
+      "isBody": false,
+      "leaves": 34,
+      "w2": 1130
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1250,
+        "via": "fixed",
+        "selector": "#main > div.wf-wrap",
+        "tier": -2,
+        "share": 1,
+        "section": -1,
+        "w1": 1250,
+        "maxWidth": "100%"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "div.wpb_column.vc_column_container > div.vc_column-inner > div.wpb_wrapper > div.wpb_text_column.wpb_content_element",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "div.wpb_column.vc_column_container > div.vc_column-inner > div.wpb_wrapper > div.wpb_text_column.wpb_content_element",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": 1250,
+    "contentMaxWidth": 1250,
+    "contentFrom": "shell",
+    "maxCap": 1250,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 95
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main",
+      "isBody": false,
+      "leaves": 34,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1250,
+        "via": "max-width",
+        "selector": "#main > div.wf-wrap",
+        "tier": 1,
+        "share": 1,
+        "section": -1,
+        "w1": 1250,
+        "maxWidth": "1250px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#content > section.vc-row.legal-text > div.vc-col > div.text-column",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#content > section.vc-row.legal-text > div.vc-col > div.text-column",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": 1250,
+    "contentMaxWidth": 1250,
+    "contentFrom": "shell",
+    "maxCap": 1250,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 82
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "wrapper cap",
+        "detail": "live 1250px = build 1250px (±20)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/2",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/2",
+        "detail": "full-bleed on both",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/privacy-policy-and-cookies-2560/cap-iter.json"
+}

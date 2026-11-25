@@ -1,0 +1,108 @@
+{
+  "a": "stardust/replica/gates/all-1440/da-strand-m-m/origin.png",
+  "b": "stardust/replica/gates/all-1440/da-strand-m-m/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2455,
+    "mode": "overlap"
+  },
+  "heightDelta": -24,
+  "differingPixels": 507043,
+  "pct": 14.34,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/da-strand-m-m/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 6.02,
+  "textBoxes": 59,
+  "textPixels": 321536,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 27.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 33.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2455,
+      "pct": 10.1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 14.34,
+    "differingPixels": 507043,
+    "compared": {
+      "width": 1440,
+      "height": 2455,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 27.1,
+        "unaligned": 27.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 33.9,
+        "unaligned": 33.9
+      },
+      {
+        "y0": 2000,
+        "y1": 2455,
+        "pct": 10.1,
+        "unaligned": 10.1
+      }
+    ],
+    "diff": null,
+    "reason": "aligned number not lower than the unaligned one",
+    "candidate": {
+      "pct": 15.17,
+      "steps": 1,
+      "totalShift": 24
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": "pixel 14.34% > 10%"
+}

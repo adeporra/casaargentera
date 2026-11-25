@@ -1,0 +1,236 @@
+{
+  "live": "stardust/replica/motion/experiences-live.json",
+  "build": "stardust/replica/motion/experiences-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 6,
+  "counts": {
+    "behaviors": 30,
+    "parity": 17,
+    "missing": 3,
+    "extra": 0,
+    "tolerance": 3,
+    "dead": 5,
+    "advisory": 2
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "widget",
+      "name": "rs-bullet:nth-child(1) → .hero-bullet:nth-child(1)",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget rs-bullet:nth-child(1) → .hero-bullet:nth-child(1): dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": "#primary-menu > li:first-child → .masthead .main-nav > li:first-child",
+      "state": "missing",
+      "note": "no hover diff on build; live changes ul.opacity; 300ms",
+      "line": "motion hover #primary-menu > li:first-child → .masthead .main-nav > li:first-child: MISSING on build (no hover diff on build; live changes ul.opacity; 300ms)"
+    },
+    {
+      "cls": "hover",
+      "name": "#content .vc_row:nth-child(3) h2 a → #content .exp-nature h2 a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover #content .vc_row:nth-child(3) h2 a → #content .exp-nature h2 a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": "#content .vc_row:nth-child(3) p a → #content .exp-nature p a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover #content .vc_row:nth-child(3) p a → #content .exp-nature p a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": "#footer .widget a",
+      "state": "parity",
+      "note": "self.color; n/a",
+      "line": "motion hover #footer .widget a: parity (self.color; n/a)"
+    },
+    {
+      "cls": "hover",
+      "name": ".header-bar .soc-ico a → .masthead .header-bar .soc-ico a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .header-bar .soc-ico a → .masthead .header-bar .soc-ico a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "entrance",
+      "name": "slide-in-anim",
+      "state": "tolerance",
+      "deltas": [
+        "fired-element count live 3, build 4"
+      ],
+      "line": "motion entrance slide-in-anim: fired-element count live 3, build 4"
+    },
+    {
+      "cls": "entrance",
+      "name": "slide-out-anim",
+      "state": "tolerance",
+      "deltas": [
+        "fired-element count live 3, build 4"
+      ],
+      "line": "motion entrance slide-out-anim: fired-element count live 3, build 4"
+    },
+    {
+      "cls": "transition",
+      "name": "background-color",
+      "state": "parity",
+      "note": "4 event(s) on live, 8 on build, 300ms",
+      "line": "motion transition background-color: parity (4 event(s) on live, 8 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-bottom-color",
+      "state": "parity",
+      "note": "4 event(s) on live, 8 on build, 300ms",
+      "line": "motion transition border-bottom-color: parity (4 event(s) on live, 8 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-left-color",
+      "state": "parity",
+      "note": "4 event(s) on live, 8 on build, 300ms",
+      "line": "motion transition border-left-color: parity (4 event(s) on live, 8 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-right-color",
+      "state": "parity",
+      "note": "4 event(s) on live, 8 on build, 300ms",
+      "line": "motion transition border-right-color: parity (4 event(s) on live, 8 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-top-color",
+      "state": "parity",
+      "note": "4 event(s) on live, 8 on build, 300ms",
+      "line": "motion transition border-top-color: parity (4 event(s) on live, 8 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "tolerance",
+      "deltas": [
+        "timing delta 200ms > 150ms [longest duration: live 400ms, build 600ms]"
+      ],
+      "note": "8 event(s) on live, 18 on build",
+      "line": "motion transition opacity: timing delta 200ms > 150ms [longest duration: live 400ms, build 600ms] (8 event(s) on live, 18 on build)"
+    },
+    {
+      "cls": "transition",
+      "name": "right",
+      "state": "parity",
+      "note": "5 event(s) on live, 8 on build, 400ms",
+      "line": "motion transition right: parity (5 event(s) on live, 8 on build, 400ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "width",
+      "state": "parity",
+      "note": "2 event(s) on live, 2 on build, 300ms",
+      "line": "motion transition width: parity (2 event(s) on live, 2 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "z-index",
+      "state": "parity",
+      "note": "6 event(s) on live, 8 on build, 400ms",
+      "line": "motion transition z-index: parity (6 event(s) on live, 8 on build, 400ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "visibility",
+      "state": "advisory",
+      "note": "8 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition visibility: extra on build — advisory (8 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "class",
+      "name": "dt-hovered",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class dt-hovered: parity (added 1× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "hide-phantom",
+      "state": "parity",
+      "note": "added 6× on live, 8× on build",
+      "line": "motion class hide-phantom: parity (added 6× on live, 8× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "lazyloaded",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class lazyloaded: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "lazyloading",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class lazyloading: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "off",
+      "state": "parity",
+      "note": "added 6× on live, 8× on build",
+      "line": "motion class off: parity (added 6× on live, 8× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "on",
+      "state": "parity",
+      "note": "added 5× on live, 4× on build",
+      "line": "motion class on: parity (added 5× on live, 4× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "selected",
+      "state": "parity",
+      "note": "added 3× on live, 4× on build",
+      "line": "motion class selected: parity (added 3× on live, 4× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "show-floating-icon",
+      "state": "parity",
+      "note": "added 3× on live, 8× on build",
+      "line": "motion class show-floating-icon: parity (added 3× on live, 8× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "show-mega-menu-content",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class show-mega-menu-content: parity (added 1× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "show-phantom",
+      "state": "parity",
+      "note": "added 6× on live, 4× on build",
+      "line": "motion class show-phantom: parity (added 6× on live, 4× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-active",
+      "state": "advisory",
+      "note": "added 4× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-active: extra on build — advisory (added 4× on build, never on live — check it drives no invented behavior)"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+measure  http://localhost:8793/reservations-2-proposed.html
+  widths 1440 · 1 selector(s) · 1 props · first match
+
+@ 1440px
+  root  scrollWidth  1440  viewport 1440  scrollHeight   3020
+  html
+       x     0  y      0  w  1440  h  3020  vis  "Skip to content +34 678 866 588 info@ca…"
+      display: block

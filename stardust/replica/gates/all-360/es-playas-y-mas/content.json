@@ -1,0 +1,2129 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-24T22:25:17.990Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/es/playas-y-mas/",
+  "at": "2026-11-24T22:25:17.914Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3259,
+  "root": null,
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-navigation > a.dt-mobile-menu-icon",
+    "x": 306,
+    "y": 17,
+    "w": 24,
+    "h": 24,
+    "text": "mobile menu icon",
+    "href": "/es/playas-y-mas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-branding > a",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "href": "/es/inicio/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-branding > a > img.mobile-logo.preload-me",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "file": "Logo-75-px"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_column.vc_column_container > div.vc_column-inner > div.wpb_wrapper",
+    "x": 30,
+    "y": 312,
+    "w": 300,
+    "h": 362,
+    "text": "[ultimate_heading main_heading=»Actividades para todos» alignment=»left» margin_"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > img.alignnone.wp-image-15299",
+    "x": 30,
+    "y": 674,
+    "w": 300,
+    "h": 168,
+    "text": "",
+    "file": "Mediterrani-CasaArgentera-1024x575"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 852,
+    "w": 300,
+    "h": 165,
+    "level": 2,
+    "text": "los secretos del mediterráneo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > h2 > span",
+    "x": 30,
+    "y": 849,
+    "w": 330,
+    "h": 171,
+    "text": "Los secretos del Mediterráneo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > span",
+    "x": 30,
+    "y": 1030,
+    "w": 300,
+    "h": 293,
+    "text": "te esperan en la Costa Dorada. De hecho, la costa alrededor de obtuvo su nombre "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > img.alignnone.wp-image-15616",
+    "x": 30,
+    "y": 1359,
+    "w": 300,
+    "h": 169,
+    "text": "",
+    "file": "Spa-TermesMontbrio-1024x576"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 1538,
+    "w": 300,
+    "h": 165,
+    "level": 2,
+    "text": "relajación total en aquatonic"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > h2 > span",
+    "x": 30,
+    "y": 1535,
+    "w": 253,
+    "h": 171,
+    "text": "Relajación total en Aquatonic"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 1713,
+    "w": 300,
+    "h": 250,
+    "text": "A solo 12 km de Casa Argentera, las termas de Montbrió te esperan. El está en me"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > a",
+    "x": 217,
+    "y": 1741,
+    "w": 72,
+    "h": 18,
+    "text": "aquatonic",
+    "href": "/es-ES/aquatonic.aspx"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > img.alignnone.wp-image-15617",
+    "x": 30,
+    "y": 1995,
+    "w": 300,
+    "h": 169,
+    "text": "",
+    "file": "port-aventura"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h3",
+    "x": 30,
+    "y": 2174,
+    "w": 300,
+    "h": 35,
+    "level": 3,
+    "text": "port aventura world"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 2219,
+    "w": 300,
+    "h": 100,
+    "text": "no necesita explicación: un gran parque de atracciones para toda la familia, gra"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > a",
+    "x": 30,
+    "y": 2222,
+    "w": 143,
+    "h": 18,
+    "text": "port aventura world",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-4 > div.widget-title",
+    "x": 30,
+    "y": 2439,
+    "w": 300,
+    "h": 27,
+    "text": "CONTACTO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-4 > div.textwidget > p",
+    "x": 30,
+    "y": 2481,
+    "w": 300,
+    "h": 125,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 2584,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#search-4 > div.widget-title",
+    "x": 30,
+    "y": 2636,
+    "w": 300,
+    "h": 27,
+    "text": "BUSCA"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#search-4 > form.searchform > a.submit",
+    "x": 299,
+    "y": 2678,
+    "w": 20,
+    "h": 40,
+    "text": "",
+    "href": "/es/playas-y-mas/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#presscore-contact-info-widget-3 > div.widget-title",
+    "x": 30,
+    "y": 2748,
+    "w": 300,
+    "h": 27,
+    "text": "SÍGUENOS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.facebook",
+    "x": 32,
+    "y": 2792,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.instagram",
+    "x": 62,
+    "y": 2792,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-6 > div.widget-title",
+    "x": 30,
+    "y": 2850,
+    "w": 300,
+    "h": 27,
+    "text": "OTROS ALQUILERES"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-6 > div.textwidget > p",
+    "x": 30,
+    "y": 2892,
+    "w": 300,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTÀ C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 2945,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-3 > div.widget-title",
+    "x": 30,
+    "y": 2997,
+    "w": 300,
+    "h": 27,
+    "text": "INFO LEGAL"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-3 > div.textwidget > p",
+    "x": 30,
+    "y": 3039,
+    "w": 300,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 3042,
+    "w": 220,
+    "h": 18,
+    "text": "política de privacidad y cookies",
+    "href": "/es/politica-de-privacidad-y-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 3119,
+    "w": 300,
+    "h": 25,
+    "text": "english",
+    "href": "/beach-and-more/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 3144,
+    "w": 300,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/strand-m-m/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 3169,
+    "w": 300,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/platja-i-mes/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 3194,
+    "w": 300,
+    "h": 25,
+    "text": "español",
+    "href": "/es/playas-y-mas/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 24,
+    "textNodes": 53,
+    "controls": 26,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/es/playas-y-mas",
+  "at": "2026-11-24T22:25:07.906Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3273,
+  "root": "main#main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-branding > a",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "href": "/es/inicio"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "file": "media_1508d370a8febea63d6a0a1c69adcb7155"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-navigation > a.dt-mobile-menu-icon",
+    "x": 308,
+    "y": 21,
+    "w": 22,
+    "h": 16,
+    "text": "mobile menu icon",
+    "href": "/es/playas-y-mas"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slide-media > picture > img",
+    "x": 0,
+    "y": 0,
+    "w": 360,
+    "h": 252,
+    "text": "ametlla de mar costa dorada secret beaches mediterranea",
+    "file": "media_12323771b768ff7a3a36cfe55ad837cbe4"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.block > div.hero-slider-bullets > button.hero-bullet",
+    "x": 156,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.block > div.hero-slider-bullets > button.hero-bullet",
+    "x": 174,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 2"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.block > div.hero-slider-bullets > button.hero-bullet.selected",
+    "x": 192,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.media-feature-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 312,
+    "w": 300,
+    "h": 100,
+    "text": "[ultimate_heading main_heading=»Actividades para todos» alignment=»left» margin_"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.media-feature-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 422,
+    "w": 300,
+    "h": 175,
+    "text": "La cultura es genial, y también lo es estar en contacto con la naturaleza. Sin e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.media-feature-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 607,
+    "w": 300,
+    "h": 25,
+    "text": "[/ultimate_heading]"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-col.media-feature-media > picture > img",
+    "x": 30,
+    "y": 664,
+    "w": 300,
+    "h": 168,
+    "text": "",
+    "file": "media_1fe748c59cbf81c69c78b947d5dae5b553"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > h1#los-secretos-del-mediterráneo",
+    "x": 30,
+    "y": 850,
+    "w": 300,
+    "h": 165,
+    "level": 1,
+    "text": "los secretos del mediterráneo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > p",
+    "x": 30,
+    "y": 1025,
+    "w": 300,
+    "h": 300,
+    "text": "te esperan en la Costa Dorada. De hecho, la costa alrededor de obtuvo su nombre "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-col.media-feature-media > picture > img",
+    "x": 30,
+    "y": 1357,
+    "w": 300,
+    "h": 169,
+    "text": "",
+    "file": "media_1df928b46c2bbe68708e356c2d981ef6c5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > h2#relajación-total-en-aquatonic",
+    "x": 30,
+    "y": 1544,
+    "w": 300,
+    "h": 165,
+    "level": 2,
+    "text": "relajación total en aquatonic"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > p",
+    "x": 30,
+    "y": 1719,
+    "w": 300,
+    "h": 250,
+    "text": "A solo 12 km de Casa Argentera, las termas de Montbrió te esperan. El está en me"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-col.media-feature-text > p > a",
+    "x": 217,
+    "y": 1747,
+    "w": 72,
+    "h": 18,
+    "text": "aquatonic",
+    "href": "/es-ES/aquatonic.aspx"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-col.media-feature-media > picture > img",
+    "x": 30,
+    "y": 2001,
+    "w": 300,
+    "h": 169,
+    "text": "",
+    "file": "media_1310f007677eee73d64fd05db5015d4df4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > h3#port-aventura-world",
+    "x": 30,
+    "y": 2188,
+    "w": 300,
+    "h": 35,
+    "level": 3,
+    "text": "port aventura world"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text > p",
+    "x": 30,
+    "y": 2233,
+    "w": 300,
+    "h": 100,
+    "text": "no necesita explicación: un gran parque de atracciones para toda la familia, gra"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-feature-col.media-feature-text > p > a",
+    "x": 30,
+    "y": 2236,
+    "w": 143,
+    "h": 18,
+    "text": "port aventura world",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 2453,
+    "w": 300,
+    "h": 27,
+    "text": "CONTACTO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 2495,
+    "w": 300,
+    "h": 125,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 2598,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 2650,
+    "w": 300,
+    "h": 27,
+    "text": "BUSCA"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > form.searchform > button.submit",
+    "x": 298,
+    "y": 2692,
+    "w": 20,
+    "h": 40,
+    "text": "search"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 2762,
+    "w": 300,
+    "h": 27,
+    "text": "SÍGUENOS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.facebook",
+    "x": 32,
+    "y": 2806,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.instagram",
+    "x": 62,
+    "y": 2806,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 2864,
+    "w": 300,
+    "h": 27,
+    "text": "OTROS ALQUILERES"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 2906,
+    "w": 300,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTÀ C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 2959,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 3011,
+    "w": 300,
+    "h": 27,
+    "text": "INFO LEGAL"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 3053,
+    "w": 300,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 3056,
+    "w": 220,
+    "h": 18,
+    "text": "política de privacidad y cookies",
+    "href": "/es/politica-de-privacidad-y-cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 3133,
+    "w": 300,
+    "h": 25,
+    "text": "english",
+    "href": "/beach-and-more"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 3158,
+    "w": 300,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/strand-m-m"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 3183,
+    "w": 300,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/platja-i-mes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 3208,
+    "w": 300,
+    "h": 25,
+    "text": "español",
+    "href": "/es/playas-y-mas"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 41,
+    "controls": 17,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 3,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 1,
+   "heading": "los secretos del mediterráneo",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "relajación total en aquatonic",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "port aventura world",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×3 \"slide 1\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 3,
+   "text": "slide 1"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 3,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 30,
+    "y": 315,
+    "w": 129,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 340,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 365,
+    "w": 117,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 390,
+    "w": 194,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 425,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 450,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 475,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 500,
+    "w": 186,
+    "h": 18
+   },
+   {
+    "x": 216,
+    "y": 500,
+    "w": 21,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 525,
+    "w": 291,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 550,
+    "w": 231,
+    "h": 18
+   },
+   {
+    "x": 261,
+    "y": 550,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 575,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 610,
+    "w": 138,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 849,
+    "w": 297,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 904,
+    "w": 76,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 959,
+    "w": 330,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1030,
+    "w": 168,
+    "h": 18
+   },
+   {
+    "x": 198,
+    "y": 1030,
+    "w": 115,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1055,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1080,
+    "w": 22,
+    "h": 18
+   },
+   {
+    "x": 52,
+    "y": 1080,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 117,
+    "y": 1080,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1105,
+    "w": 255,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1130,
+    "w": 183,
+    "h": 18
+   },
+   {
+    "x": 213,
+    "y": 1130,
+    "w": 114,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1155,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 180,
+    "y": 1155,
+    "w": 96,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1180,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1205,
+    "w": 247,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1230,
+    "w": 300,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1255,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1280,
+    "w": 300,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1305,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1535,
+    "w": 253,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1590,
+    "w": 185,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1645,
+    "w": 253,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1716,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1741,
+    "w": 187,
+    "h": 18
+   },
+   {
+    "x": 217,
+    "y": 1741,
+    "w": 72,
+    "h": 18
+   },
+   {
+    "x": 290,
+    "y": 1741,
+    "w": 33,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1766,
+    "w": 115,
+    "h": 18
+   },
+   {
+    "x": 145,
+    "y": 1766,
+    "w": 120,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1791,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 95,
+    "y": 1791,
+    "w": 200,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1816,
+    "w": 205,
+    "h": 18
+   },
+   {
+    "x": 235,
+    "y": 1816,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1841,
+    "w": 148,
+    "h": 18
+   },
+   {
+    "x": 178,
+    "y": 1841,
+    "w": 104,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1866,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1891,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1916,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1941,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2173,
+    "w": 300,
+    "h": 37
+   },
+   {
+    "x": 30,
+    "y": 2222,
+    "w": 143,
+    "h": 18
+   },
+   {
+    "x": 173,
+    "y": 2222,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2247,
+    "w": 300,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2272,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2297,
+    "w": 165,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2442,
+    "w": 95,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 2484,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2509,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2534,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2559,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2584,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2639,
+    "w": 60,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 2751,
+    "w": 92,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 2853,
+    "w": 174,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 2895,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2920,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2945,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3000,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3042,
+    "w": 220,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3067,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3122,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3147,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3172,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3197,
+    "w": 56,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 30,
+    "y": 315,
+    "w": 129,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 340,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 365,
+    "w": 117,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 390,
+    "w": 194,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 425,
+    "w": 286,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 450,
+    "w": 235,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 475,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 500,
+    "w": 189,
+    "h": 18
+   },
+   {
+    "x": 219,
+    "y": 500,
+    "w": 17,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 525,
+    "w": 291,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 550,
+    "w": 231,
+    "h": 18
+   },
+   {
+    "x": 261,
+    "y": 550,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 575,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 610,
+    "w": 138,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 847,
+    "w": 297,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 902,
+    "w": 76,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 957,
+    "w": 330,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1028,
+    "w": 168,
+    "h": 18
+   },
+   {
+    "x": 198,
+    "y": 1028,
+    "w": 115,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1053,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1078,
+    "w": 22,
+    "h": 18
+   },
+   {
+    "x": 52,
+    "y": 1078,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 117,
+    "y": 1078,
+    "w": 177,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1103,
+    "w": 255,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1128,
+    "w": 183,
+    "h": 18
+   },
+   {
+    "x": 213,
+    "y": 1128,
+    "w": 114,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1153,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 180,
+    "y": 1153,
+    "w": 96,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1178,
+    "w": 279,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1203,
+    "w": 247,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1228,
+    "w": 300,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1253,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1278,
+    "w": 300,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1303,
+    "w": 289,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1541,
+    "w": 253,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1596,
+    "w": 185,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1651,
+    "w": 253,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1722,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1747,
+    "w": 187,
+    "h": 18
+   },
+   {
+    "x": 217,
+    "y": 1747,
+    "w": 72,
+    "h": 18
+   },
+   {
+    "x": 290,
+    "y": 1747,
+    "w": 33,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1772,
+    "w": 115,
+    "h": 18
+   },
+   {
+    "x": 145,
+    "y": 1772,
+    "w": 120,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1797,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 95,
+    "y": 1797,
+    "w": 200,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1822,
+    "w": 205,
+    "h": 18
+   },
+   {
+    "x": 235,
+    "y": 1822,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1847,
+    "w": 148,
+    "h": 18
+   },
+   {
+    "x": 178,
+    "y": 1847,
+    "w": 104,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1872,
+    "w": 273,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1897,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1922,
+    "w": 299,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1947,
+    "w": 246,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2187,
+    "w": 300,
+    "h": 37
+   },
+   {
+    "x": 30,
+    "y": 2236,
+    "w": 143,
+    "h": 18
+   },
+   {
+    "x": 173,
+    "y": 2236,
+    "w": 84,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2261,
+    "w": 300,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2286,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2311,
+    "w": 165,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2456,
+    "w": 95,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 2498,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2523,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2548,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2573,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2598,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2653,
+    "w": 60,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 2765,
+    "w": 92,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 2867,
+    "w": 174,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 2909,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2934,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2959,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3014,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3056,
+    "w": 220,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3081,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3136,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3161,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3186,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3211,
+    "w": 56,
+    "h": 18
+   }
+  ]
+ }
+}

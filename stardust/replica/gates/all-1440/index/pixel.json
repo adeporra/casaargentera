@@ -1,0 +1,258 @@
+{
+  "a": "stardust/replica/gates/all-1440/index/origin.png",
+  "b": "stardust/replica/gates/all-1440/index/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4304,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 15496,
+  "pct": 0.25,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/index/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0.5,
+  "textBoxes": 91,
+  "textPixels": 664415,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4304,
+      "pct": 0.1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.25,
+    "differingPixels": 15496,
+    "compared": {
+      "width": 1440,
+      "height": 4304,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4000,
+        "y1": 4304,
+        "pct": 0.1,
+        "unaligned": 0.1
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 0.25,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--ea32f12a--aemcoder.aem.page/",
+    "key": {
+      "v": 3,
+      "build": "https://main--ea32f12a--aemcoder.aem.page/",
+      "source": "https://www.casaargentera.com/",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "ac205556d08dedef",
+      "options": "bb3a1da96760aa18",
+      "reference": "4879c3d9344bbb9d",
+      "archetype": "db084cacbe859e40",
+      "captures": "70175c836492eb30",
+      "instruments": "700566dc6f7774a4",
+      "page content": "97a9c26c74381923",
+      "shared code": "9688e2cb307384ef",
+      "block hero-slider": "9c515f6f76444750",
+      "block image-grid": "12f4434553966273",
+      "block map": "65df64d9122f43d9",
+      "block testimonials": "4b1c12aa776aa99d"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 7,
+          "missingButtons": 0,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 0,
+          "findings": 3,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 2,
+          "offPage": 8,
+          "textNodes": 67,
+          "controls": 44,
+          "total": 0
+        },
+        "groups": [
+          {
+            "kind": "TEXT X-HIDDEN",
+            "advisory": true,
+            "n": 2,
+            "clipper": "div.testimonials-viewport",
+            "path": "div.testimonials-track > article.testimonial-item > div.testimonial-content > p",
+            "text": "“a nice house for a family in a typical catalan village . al",
+            "cutMin": 154,
+            "cutMax": 189
+          }
+        ],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 4,
+          "offPage": 22,
+          "textNodes": 83,
+          "controls": 37,
+          "total": 0
+        },
+        "source": "content-presence"
+      },
+      "units": {
+        "verdict": {
+          "units": 14,
+          "within": 21,
+          "off": 0,
+          "hidden": 0,
+          "missing": 0,
+          "errors": 0,
+          "requiredOff": 0
+        },
+        "required": true,
+        "errors": []
+      }
+    },
+    "at": "2026-11-24T23:54:09.980Z"
+  }
+}

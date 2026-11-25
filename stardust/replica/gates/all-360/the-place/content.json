@@ -1,0 +1,1835 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-24T22:30:19.905Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/the-place/",
+  "at": "2026-11-24T22:30:19.820Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3510,
+  "root": null,
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-navigation > a.dt-mobile-menu-icon",
+    "x": 306,
+    "y": 17,
+    "w": 24,
+    "h": 24,
+    "text": "mobile menu icon",
+    "href": "/the-place/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-branding > a",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-branding > a > img.mobile-logo.preload-me",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "file": "Logo-75-px"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 312,
+    "w": 300,
+    "h": 220,
+    "level": 2,
+    "text": "short history of casa argentera"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 542,
+    "w": 300,
+    "h": 350,
+    "text": "In the 1920’s the nearby was restored by the diplomat Eduard Toda. The , who was"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > a",
+    "x": 68,
+    "y": 870,
+    "w": 213,
+    "h": 18,
+    "text": "https://www.escornalbou.com/",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 934,
+    "w": 300,
+    "h": 169,
+    "text": "castle-monastery of escornalbou",
+    "file": "Escornalbou-CasaArgentera-768x432"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 1149,
+    "w": 300,
+    "h": 164,
+    "text": "balcony stone carved facade of casa argentera",
+    "file": "Fachada-CasaArgentera-1-768x419"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 1358,
+    "w": 300,
+    "h": 165,
+    "level": 2,
+    "text": "the village & the territory"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 1533,
+    "w": 300,
+    "h": 350,
+    "text": "A place in a hidden valley, Located between the golden beaches and the famous wi"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 1925,
+    "w": 300,
+    "h": 169,
+    "text": "view of the village, l'argentera",
+    "file": "IMG_20191222_120414-768x432"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 2140,
+    "w": 300,
+    "h": 169,
+    "text": "fiesta mayor in l'argentera, a typical catalan village",
+    "file": "FiestaMayor-Argentera-768x432"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "figure.wpb_wrapper.vc_figure > div.vc_single_image-wrapper.vc_box_border_grey > img.vc_single_image-img.attachment-large",
+    "x": 30,
+    "y": 2355,
+    "w": 300,
+    "h": 169,
+    "text": "l'argentera, baix camp, tarragona, spain",
+    "file": "Argentera_100_8977-768x432"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-4 > div.widget-title",
+    "x": 30,
+    "y": 2690,
+    "w": 300,
+    "h": 27,
+    "text": "CONTACT US"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-4 > div.textwidget > p",
+    "x": 30,
+    "y": 2732,
+    "w": 300,
+    "h": 125,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 2835,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#search-4 > div.widget-title",
+    "x": 30,
+    "y": 2887,
+    "w": 300,
+    "h": 27,
+    "text": "SEARCH"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#search-4 > form.searchform > a.submit",
+    "x": 299,
+    "y": 2929,
+    "w": 20,
+    "h": 40,
+    "text": "",
+    "href": "/the-place/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#presscore-contact-info-widget-3 > div.widget-title",
+    "x": 30,
+    "y": 2999,
+    "w": 300,
+    "h": 27,
+    "text": "FOLLOW US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.facebook",
+    "x": 32,
+    "y": 3043,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.instagram",
+    "x": 62,
+    "y": 3043,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-6 > div.widget-title",
+    "x": 30,
+    "y": 3101,
+    "w": 300,
+    "h": 27,
+    "text": "OTHER RENTALS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-6 > div.textwidget > p",
+    "x": 30,
+    "y": 3143,
+    "w": 300,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTA C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 3196,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-3 > div.widget-title",
+    "x": 30,
+    "y": 3248,
+    "w": 300,
+    "h": 27,
+    "text": "LEGAL INFO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-3 > div.textwidget > p",
+    "x": 30,
+    "y": 3290,
+    "w": 300,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 3293,
+    "w": 184,
+    "h": 18,
+    "text": "privacy policy and cookies",
+    "href": "/privacy-policy-and-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 3370,
+    "w": 300,
+    "h": 25,
+    "text": "english",
+    "href": "/the-place/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 3395,
+    "w": 300,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/stedet/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 3420,
+    "w": 300,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/lentorn/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 3445,
+    "w": 300,
+    "h": 25,
+    "text": "español",
+    "href": "/es/el-entorno/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 18,
+    "textNodes": 42,
+    "controls": 22,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/the-place",
+  "at": "2026-11-24T22:30:09.735Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3510,
+  "root": "main#main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-branding > a",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "file": "media_1508d370a8febea63d6a0a1c69adcb7155"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-navigation > a.dt-mobile-menu-icon",
+    "x": 308,
+    "y": 21,
+    "w": 22,
+    "h": 16,
+    "text": "mobile menu icon",
+    "href": "/the-place"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slide-media > picture > img",
+    "x": 0,
+    "y": 0,
+    "w": 360,
+    "h": 252,
+    "text": "fiesta mayor in l'argentera, a typical catalan village",
+    "file": "media_1bef75f01c29ad8f9e1f4b741ea64b8279"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.start-3 > div.hero-slider-bullets > button.hero-bullet",
+    "x": 156,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.start-3 > div.hero-slider-bullets > button.hero-bullet.selected",
+    "x": 174,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 2"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.start-3 > div.hero-slider-bullets > button.hero-bullet",
+    "x": 192,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > h1#short-history-of-casa-argentera",
+    "x": 30,
+    "y": 312,
+    "w": 300,
+    "h": 220,
+    "level": 1,
+    "text": "short history of casa argentera"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 542,
+    "w": 300,
+    "h": 350,
+    "text": "In the 1920’s the nearby was restored by the diplomat Eduard Toda. The , who was"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 68,
+    "y": 870,
+    "w": 213,
+    "h": 18,
+    "text": "https://www.escornalbou.com/",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 934,
+    "w": 300,
+    "h": 169,
+    "text": "castle-monastery of escornalbou",
+    "file": "media_157c97629466b09ee18208785b86160789"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 1149,
+    "w": 300,
+    "h": 164,
+    "text": "balcony stone carved facade of casa argentera",
+    "file": "media_1ac7a0f641c00c5fbe2f22c18934f8ba8c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > h2#the-village--the-territory",
+    "x": 30,
+    "y": 1358,
+    "w": 300,
+    "h": 165,
+    "level": 2,
+    "text": "the village & the territory"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 1533,
+    "w": 300,
+    "h": 350,
+    "text": "A place in a hidden valley, Located between the golden beaches and the famous wi"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 1925,
+    "w": 300,
+    "h": 169,
+    "text": "view of the village, l'argentera",
+    "file": "media_120297390f93b1ae857a61701098133656"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 2140,
+    "w": 300,
+    "h": 169,
+    "text": "fiesta mayor in l'argentera, a typical catalan village",
+    "file": "media_1fc7af26fa3d93d6dd4613e822f49a2678"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.image-grid-image > picture > img",
+    "x": 30,
+    "y": 2355,
+    "w": 300,
+    "h": 169,
+    "text": "l'argentera, baix camp, tarragona, spain",
+    "file": "media_15380dc227a3528e2cfd492a86e0870a0a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 2690,
+    "w": 300,
+    "h": 27,
+    "text": "CONTACT US"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 2732,
+    "w": 300,
+    "h": 125,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 2835,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 2887,
+    "w": 300,
+    "h": 27,
+    "text": "SEARCH"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > form.searchform > button.submit",
+    "x": 298,
+    "y": 2929,
+    "w": 20,
+    "h": 40,
+    "text": "search"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 2999,
+    "w": 300,
+    "h": 27,
+    "text": "FOLLOW US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.facebook",
+    "x": 32,
+    "y": 3043,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.instagram",
+    "x": 62,
+    "y": 3043,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 3101,
+    "w": 300,
+    "h": 27,
+    "text": "OTHER RENTALS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 3143,
+    "w": 300,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTA C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 3196,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 3248,
+    "w": 300,
+    "h": 27,
+    "text": "LEGAL INFO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 3290,
+    "w": 300,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 3293,
+    "w": 184,
+    "h": 18,
+    "text": "privacy policy and cookies",
+    "href": "/privacy-policy-and-cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 3370,
+    "w": 300,
+    "h": 25,
+    "text": "english",
+    "href": "/the-place"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 3395,
+    "w": 300,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/stedet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 3420,
+    "w": 300,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/lentorn"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 3445,
+    "w": 300,
+    "h": 25,
+    "text": "español",
+    "href": "/es/el-entorno"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 33,
+    "controls": 16,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 3,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 1,
+   "heading": "short history of casa argentera",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "the village & the territory",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 3
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×3 \"slide 1\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 3,
+   "text": "slide 1"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 3,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 30,
+    "y": 309,
+    "w": 134,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 364,
+    "w": 223,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 419,
+    "w": 116,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 474,
+    "w": 245,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 545,
+    "w": 168,
+    "h": 18
+   },
+   {
+    "x": 198,
+    "y": 545,
+    "w": 43,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 570,
+    "w": 91,
+    "h": 18
+   },
+   {
+    "x": 121,
+    "y": 570,
+    "w": 141,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 595,
+    "w": 193,
+    "h": 18
+   },
+   {
+    "x": 223,
+    "y": 595,
+    "w": 91,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 620,
+    "w": 50,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 620,
+    "w": 223,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 645,
+    "w": 284,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 670,
+    "w": 225,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 695,
+    "w": 290,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 720,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 745,
+    "w": 157,
+    "h": 18
+   },
+   {
+    "x": 187,
+    "y": 745,
+    "w": 126,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 770,
+    "w": 106,
+    "h": 18
+   },
+   {
+    "x": 136,
+    "y": 770,
+    "w": 157,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 795,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 820,
+    "w": 295,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 845,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 870,
+    "w": 38,
+    "h": 18
+   },
+   {
+    "x": 68,
+    "y": 870,
+    "w": 213,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1355,
+    "w": 260,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1410,
+    "w": 127,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1465,
+    "w": 192,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1536,
+    "w": 183,
+    "h": 18
+   },
+   {
+    "x": 213,
+    "y": 1536,
+    "w": 98,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1561,
+    "w": 300,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1586,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1611,
+    "w": 297,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1636,
+    "w": 189,
+    "h": 18
+   },
+   {
+    "x": 219,
+    "y": 1636,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1661,
+    "w": 155,
+    "h": 18
+   },
+   {
+    "x": 185,
+    "y": 1661,
+    "w": 142,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1686,
+    "w": 298,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1711,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1736,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1761,
+    "w": 239,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1786,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1811,
+    "w": 298,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1836,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1861,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2693,
+    "w": 109,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 2735,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2760,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2785,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2810,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2835,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2890,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3002,
+    "w": 105,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3104,
+    "w": 143,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3146,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3171,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3196,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3251,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3293,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3318,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3373,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3398,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3423,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3448,
+    "w": 56,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 30,
+    "y": 309,
+    "w": 134,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 364,
+    "w": 223,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 419,
+    "w": 116,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 474,
+    "w": 245,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 545,
+    "w": 168,
+    "h": 18
+   },
+   {
+    "x": 198,
+    "y": 545,
+    "w": 43,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 570,
+    "w": 91,
+    "h": 18
+   },
+   {
+    "x": 121,
+    "y": 570,
+    "w": 141,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 595,
+    "w": 193,
+    "h": 18
+   },
+   {
+    "x": 223,
+    "y": 595,
+    "w": 91,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 620,
+    "w": 50,
+    "h": 18
+   },
+   {
+    "x": 80,
+    "y": 620,
+    "w": 223,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 645,
+    "w": 284,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 670,
+    "w": 225,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 695,
+    "w": 290,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 720,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 745,
+    "w": 157,
+    "h": 18
+   },
+   {
+    "x": 187,
+    "y": 745,
+    "w": 126,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 770,
+    "w": 106,
+    "h": 18
+   },
+   {
+    "x": 136,
+    "y": 770,
+    "w": 157,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 795,
+    "w": 252,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 820,
+    "w": 295,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 845,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 870,
+    "w": 38,
+    "h": 18
+   },
+   {
+    "x": 68,
+    "y": 870,
+    "w": 213,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1355,
+    "w": 260,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1410,
+    "w": 127,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1465,
+    "w": 192,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 1536,
+    "w": 183,
+    "h": 18
+   },
+   {
+    "x": 213,
+    "y": 1536,
+    "w": 98,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1561,
+    "w": 300,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1586,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1611,
+    "w": 297,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1636,
+    "w": 189,
+    "h": 18
+   },
+   {
+    "x": 219,
+    "y": 1636,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1661,
+    "w": 151,
+    "h": 18
+   },
+   {
+    "x": 181,
+    "y": 1661,
+    "w": 146,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1686,
+    "w": 298,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1711,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1736,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1761,
+    "w": 239,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1786,
+    "w": 267,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1811,
+    "w": 298,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1836,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1861,
+    "w": 277,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2693,
+    "w": 109,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 2735,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2760,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2785,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2810,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2835,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2890,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3002,
+    "w": 105,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3104,
+    "w": 143,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3146,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3171,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3196,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3251,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3293,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3318,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3373,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3398,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3423,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 3448,
+    "w": 56,
+    "h": 18
+   }
+  ]
+ }
+}

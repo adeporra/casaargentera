@@ -1,0 +1,27 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://www.casaargentera.com/privacy-policy-and-cookies/",
+  "width": 360,
+  "vh": 900,
+  "height": 5511,
+  "chunks": 7,
+  "denialCheck": "ok",
+  "freeze": "applied",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 9,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 2,
+    "intervals": 2,
+    "chains": 0,
+    "delays": [
+      86400000
+    ]
+  },
+  "at": "2026-11-24T12:02:35.710Z"
+}

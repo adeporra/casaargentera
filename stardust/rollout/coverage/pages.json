@@ -1,0 +1,3052 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-24T12:13:05.831Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-25T00:29:34.755Z",
+  "pages": [
+    {
+      "slug": "beach-and-more",
+      "path": "/beach-and-more/",
+      "title": "BEACH AND MORE - Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6ac548f1b800f03f180327e6e96045fb91ef286cfd788c3379e5a537c6d55149",
+        "currentStatePath": "stardust/current/pages/beach-and-more.json",
+        "sourceUrl": "https://www.casaargentera.com/beach-and-more/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/beach-and-more",
+        "deployedAt": "2026-11-24T19:47:45.989Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 23.18,
+          "heightDelta": -24,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [
+            "pixel aligned 19.96% (unaligned 23.18%) > 10%"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-contacte",
+      "path": "/ca/contacte/",
+      "title": "CONTACTE - Casa Argentera",
+      "templateId": "form",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:7d9b189a71dea3b3474fbe77db49b990b4ba28650eff9c33f6e4b5691d247238",
+        "currentStatePath": "stardust/current/pages/ca-contacte.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/contacte/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/contacte",
+        "deployedAt": "2026-11-24T20:37:48.181Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.72,
+          "heightDelta": 25,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "units off 5 hidden 0 missing 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-covid-19",
+      "path": "/ca/covid-19/",
+      "title": "COVID-19 - Casa Argentera",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:643267f88e42c61c9c888fd46108bffb266e46a9c7493e069b41aa55a4ef320c",
+        "currentStatePath": "stardust/current/pages/ca-covid-19.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/covid-19/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/covid-19",
+        "deployedAt": "2026-11-24T21:22:57.859Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.36,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-cultura",
+      "path": "/ca/cultura/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:df1d7ce3719429b8e9ef0b176c4ac1d344367e6a8b0f79282b0d2dfebd408941",
+        "currentStatePath": "stardust/current/pages/ca-cultura.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/cultura/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/cultura",
+        "deployedAt": "2026-11-24T19:47:45.489Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.43,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "units off 4 hidden 0 missing 1"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-el-jardi",
+      "path": "/ca/el-jardi/",
+      "title": "EL JARDÍ - Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:dc3331db7da6a572f393090e8746bec35907361d94610c57fc77337efe7c11a3",
+        "currentStatePath": "stardust/current/pages/ca-el-jardi.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/el-jardi/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/el-jardi",
+        "deployedAt": "2026-11-24T14:24:35.177Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.65,
+          "heightDelta": 27,
+          "clipped": 0,
+          "content": {
+            "missing": 2,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 2 / HIDDEN 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-el-pis-senyorial",
+      "path": "/ca/el-pis-senyorial/",
+      "title": "EL PIS SENYORIAL - Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f1e8e7e6d2f5616591af3f676d08f0e67a4853f50eb4bab81cf16092ab224a12",
+        "currentStatePath": "stardust/current/pages/ca-el-pis-senyorial.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/el-pis-senyorial/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/el-pis-senyorial",
+        "deployedAt": "2026-11-24T14:24:35.348Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.48,
+          "heightDelta": 32,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-esdeveniments",
+      "path": "/ca/esdeveniments/",
+      "title": "ESDEVENIMENTS - Casa Argentera",
+      "templateId": "events",
+      "representative": "events",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:5c7a88090751d0af377fa55a8e67bc7c82133f423bf12f80f7f0c8f342f2ac88",
+        "currentStatePath": "stardust/current/pages/ca-esdeveniments.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/esdeveniments/"
+      },
+      "blocks": [
+        "hero-slider",
+        "gallery",
+        "contact-form"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/esdeveniments",
+        "deployedAt": "2026-11-24T21:14:54.714Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.22,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [
+            "units off 5 hidden 0 missing 6"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-experiencies",
+      "path": "/ca/experiencies/",
+      "title": "EXPERIÈNCIES - Casa Argentera",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f189574946feae034e4180f8c48b7a5b4f2d14d7a50f451af8f94e9e35fbe729",
+        "currentStatePath": "stardust/current/pages/ca-experiencies.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/experiencies/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/experiencies",
+        "deployedAt": "2026-11-24T20:40:38.279Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 14.78,
+          "heightDelta": -16,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [
+            "pixel aligned 12.7% (unaligned 14.78%) > 10%",
+            "units off 2 hidden 0 missing 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-inici",
+      "path": "/ca/inici/",
+      "title": "Home - Catalá - Casa Argentera",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4651da2d7c6c7c4cdac96ccc349fafd244c7edd94715597d1b640bbcd04409c0",
+        "currentStatePath": "stardust/current/pages/ca-inici.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/inici/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/inici",
+        "deployedAt": "2026-11-24T13:05:48.795Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 16.63,
+          "heightDelta": 18,
+          "clipped": 0,
+          "content": {
+            "missing": 6,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 15,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 6 / HIDDEN 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-la-casa",
+      "path": "/ca/la-casa/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:bc37ebd412cd5a9b4d188f4068cb1f5b9a1645370c36cd712bc7d4b334932a83",
+        "currentStatePath": "stardust/current/pages/ca-la-casa.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/la-casa/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/la-casa",
+        "deployedAt": "2026-11-24T19:47:45.661Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 14.83,
+          "heightDelta": -126,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [
+            "units off 1 hidden 0 missing 1"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-la-casa-sencera",
+      "path": "/ca/la-casa-sencera/",
+      "title": "LA CASA SENCERA - Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:edbbf7ee61cf5bed0cd3298f721ed46c720aa5af5513972136dc9bc5201848c0",
+        "currentStatePath": "stardust/current/pages/ca-la-casa-sencera.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/la-casa-sencera/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/la-casa-sencera",
+        "deployedAt": "2026-11-24T14:24:35.231Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.58,
+          "heightDelta": 22,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-la-planta-baixa",
+      "path": "/ca/la-planta-baixa/",
+      "title": "LA PLANTA BAIXA - Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:7214eac6e79ee72dcf6af46713a2be76d2dedc987e7a1f00714d919073b40c89",
+        "currentStatePath": "stardust/current/pages/ca-la-planta-baixa.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/la-planta-baixa/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/la-planta-baixa",
+        "deployedAt": "2026-11-24T14:24:35.405Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.37,
+          "heightDelta": 13,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-latic",
+      "path": "/ca/latic/",
+      "title": "L'ÀTIC - Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4472dbe4bb8c56a57214bb5ebaa62dd505ada6d7b5635f11f62b44c9656c807a",
+        "currentStatePath": "stardust/current/pages/ca-latic.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/latic/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/latic",
+        "deployedAt": "2026-11-24T14:24:35.291Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.91,
+          "heightDelta": 9,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-lentorn",
+      "path": "/ca/lentorn/",
+      "title": "L'ENTORN - Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:595dcd7552f003e17422f08b50c819d902d3d6e480fc69b1a1f33f137a48418e",
+        "currentStatePath": "stardust/current/pages/ca-lentorn.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/lentorn/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/lentorn",
+        "deployedAt": "2026-11-24T19:47:45.725Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.42,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-natura-esport",
+      "path": "/ca/natura-esport/",
+      "title": "NATURA I ESPORT - Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c7842c65ec5014bae1ad5cef3b75a867291daf8a05a7e0150995194fd8b2e5a9",
+        "currentStatePath": "stardust/current/pages/ca-natura-esport.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/natura-esport/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/natura-esport",
+        "deployedAt": "2026-11-24T19:47:45.778Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 15.76,
+          "heightDelta": -24,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "pixel aligned 12.95% (unaligned 15.76%) > 10%",
+            "units off 2 hidden 0 missing 1"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-platja-i-mes",
+      "path": "/ca/platja-i-mes/",
+      "title": "PLATJA I MÉS - Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:970f7de085dd329d3545f9637c5f85576f12fe080d781c6a24fe652e91833a90",
+        "currentStatePath": "stardust/current/pages/ca-platja-i-mes.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/platja-i-mes/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/platja-i-mes",
+        "deployedAt": "2026-11-24T19:47:45.548Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 23.33,
+          "heightDelta": -24,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [
+            "pixel aligned 20.07% (unaligned 23.33%) > 10%"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-politica-de-privacidad-y-cookies",
+      "path": "/ca/politica-de-privacidad-y-cookies/",
+      "title": "Política de privacidad y cookies - Casa Argentera",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:55cc7e704272313b89572cb557f3c85a6351c8f5c183f68ac6754a7db1eb312d",
+        "currentStatePath": "stardust/current/pages/ca-politica-de-privacidad-y-cookies.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/politica-de-privacidad-y-cookies/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/politica-de-privacidad-y-cookies",
+        "deployedAt": "2026-11-24T21:22:57.287Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.08,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-politica-de-privacitat-i-cookies",
+      "path": "/ca/politica-de-privacitat-i-cookies/",
+      "title": "Política de privacitat i cookies - Casa Argentera",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d9f5492f6e98feb7be62502b0424115b2ae7945d6caa62d245c8469828bb6a34",
+        "currentStatePath": "stardust/current/pages/ca-politica-de-privacitat-i-cookies.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/politica-de-privacitat-i-cookies/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/politica-de-privacitat-i-cookies",
+        "deployedAt": "2026-11-24T21:22:57.402Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.29,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-qui-som",
+      "path": "/ca/qui-som/",
+      "title": "QUI SOM - Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c219a7cffe770ebd8fcd5d851fbb5c1c0a196adadea18781e25b13662d5bdfeb",
+        "currentStatePath": "stardust/current/pages/ca-qui-som.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/qui-som/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/qui-som",
+        "deployedAt": "2026-11-24T19:47:45.604Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.36,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "ca-reserves",
+      "path": "/ca/reserves/",
+      "title": "RESERVES - Casa Argentera",
+      "templateId": "booking",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:1a7f93a82c328688498b86b9c0a673818651c3631f5ad818a4e65b1ee16b682e",
+        "currentStatePath": "stardust/current/pages/ca-reserves.json",
+        "sourceUrl": "https://www.casaargentera.com/ca/reserves/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/ca/reserves",
+        "deployedAt": "2026-11-24T21:02:36.324Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.3,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "units off 5 hidden 0 missing 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "contact",
+      "path": "/contact",
+      "title": "CONTACT - Casa Argentera",
+      "templateId": "contact",
+      "source": {
+        "migratedHtml": "stardust/migrated/contact/index.html",
+        "metaJson": "stardust/migrated/contact/_meta.json",
+        "sourceHash": "sha256:aa87d7d0737591f343c136dd5e5e480bba8c9e221ab8ff2ce24d490dc35605ed",
+        "sourceUrl": "https://www.casaargentera.com/contact/"
+      },
+      "blocks": [
+        "hero-slider",
+        "map",
+        "icon-features",
+        "contact-form"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/contact",
+        "deployedAt": "2026-11-24T20:15:20.943Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.21,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "units off 5 hidden 0 missing 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "covid-19",
+      "path": "/covid-19/",
+      "title": "COVID-19 - Casa Argentera",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6f3bc8aac1bee73b290232cfedd2e5891c4443f2e49bd29e603c06d1bf537f1d",
+        "currentStatePath": "stardust/current/pages/covid-19.json",
+        "sourceUrl": "https://www.casaargentera.com/covid-19/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/covid-19",
+        "deployedAt": "2026-11-24T21:22:57.659Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.2,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "culture",
+      "path": "/culture",
+      "title": "CULTURE - Casa Argentera",
+      "templateId": "culture",
+      "source": {
+        "migratedHtml": "stardust/migrated/culture/index.html",
+        "metaJson": "stardust/migrated/culture/_meta.json",
+        "sourceHash": "sha256:41221bbbee8ad8aaec55bb237b928c7bfdb5c0a902c86fa3cb2589f1cfffa7b0",
+        "sourceUrl": "https://www.casaargentera.com/culture/"
+      },
+      "blocks": [
+        "hero-slider",
+        "media-feature"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/culture",
+        "deployedAt": "2026-11-24T16:45:42.649Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.36,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-covid-19",
+      "path": "/da/covid-19/",
+      "title": "COVID-19 - Casa Argentera",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f7309aaea446a35e5f6297bd857fc703f489b4650b073070f4a162c4a7f821a4",
+        "currentStatePath": "stardust/current/pages/da-covid-19.json",
+        "sourceUrl": "https://www.casaargentera.com/da/covid-19/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/covid-19",
+        "deployedAt": "2026-11-24T21:22:57.985Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.2,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-eventsda",
+      "path": "/da/eventsda/",
+      "title": "EVENTS - Casa Argentera",
+      "templateId": "events",
+      "representative": "events",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:692c70a1472f49b7b1311d50fc6286f67034a0a15ec72bf8545b527286bd3b59",
+        "currentStatePath": "stardust/current/pages/da-eventsda.json",
+        "sourceUrl": "https://www.casaargentera.com/da/eventsda/"
+      },
+      "blocks": [
+        "hero-slider",
+        "gallery",
+        "contact-form"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/eventsda",
+        "deployedAt": "2026-11-24T21:14:54.772Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 20.74,
+          "heightDelta": 35,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [
+            "units off 5 hidden 0 missing 6"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-hele-huset",
+      "path": "/da/hele-huset/",
+      "title": "HELE HUSET - Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:bfe0a036954ceb4c32c19376352b3ff4d770c2d3d349111f68e1a8d3d573ccd0",
+        "currentStatePath": "stardust/current/pages/da-hele-huset.json",
+        "sourceUrl": "https://www.casaargentera.com/da/hele-huset/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/hele-huset",
+        "deployedAt": "2026-11-24T14:24:35.862Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.62,
+          "heightDelta": 9,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-kontakt",
+      "path": "/da/kontakt/",
+      "title": "KONTAKT - Casa Argentera",
+      "templateId": "form",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e12d95078836b674055a3645d7909759ccffd59939830e1647f0b7620d5ce98e",
+        "currentStatePath": "stardust/current/pages/da-kontakt.json",
+        "sourceUrl": "https://www.casaargentera.com/da/kontakt/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/kontakt",
+        "deployedAt": "2026-11-24T20:37:48.241Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.14,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "units off 5 hidden 0 missing 1"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-kulturen",
+      "path": "/da/kulturen/",
+      "title": "KULTUREN - Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:cefd082cb2e2bc90b0043c65ef24d50d801187ab84c618e075e58a7c8443dc54",
+        "currentStatePath": "stardust/current/pages/da-kulturen.json",
+        "sourceUrl": "https://www.casaargentera.com/da/kulturen/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/kulturen",
+        "deployedAt": "2026-11-24T19:47:46.322Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.37,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-natur-sport",
+      "path": "/da/natur-sport/",
+      "title": "NATUR / SPORT - Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:bff2426b8066e59418604cbd6d55e685ac5f6688d45f07dc4518b2956735a6f6",
+        "currentStatePath": "stardust/current/pages/da-natur-sport.json",
+        "sourceUrl": "https://www.casaargentera.com/da/natur-sport/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/natur-sport",
+        "deployedAt": "2026-11-24T19:47:46.097Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 19.97,
+          "heightDelta": -143,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "pixel aligned 13.68% (unaligned 19.97%) > 10%",
+            "units off 2 hidden 0 missing 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-oplevelser",
+      "path": "/da/oplevelser/",
+      "title": "OPLEVELSER - Casa Argentera",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:41b46c41fced65ce63a65d5487cddcf5b35a152071e70237de704d586fefaf78",
+        "currentStatePath": "stardust/current/pages/da-oplevelser.json",
+        "sourceUrl": "https://www.casaargentera.com/da/oplevelser/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/oplevelser",
+        "deployedAt": "2026-11-24T20:40:38.344Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 19.99,
+          "heightDelta": -24,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [
+            "pixel aligned 16.85% (unaligned 19.99%) > 10%",
+            "units off 4 hidden 0 missing 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-penthousekvisten",
+      "path": "/da/penthousekvisten/",
+      "title": "PENTHOUSEKVISTEN - Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ce14d53a8f39edb044d49f2245cf58f3af067b4f465ed77666c556a434949fe5",
+        "currentStatePath": "stardust/current/pages/da-penthousekvisten.json",
+        "sourceUrl": "https://www.casaargentera.com/da/penthousekvisten/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/penthousekvisten",
+        "deployedAt": "2026-11-24T14:24:35.742Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.49,
+          "heightDelta": 29,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-privacy-policy-and-cookies",
+      "path": "/da/privacy-policy-and-cookies/",
+      "title": "Privacy policy and cookies - Casa Argentera",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:bc8f03dfd54f7e2d59c2b7c77a65abf52224c1db275f12e979f500d63ea9ccf9",
+        "currentStatePath": "stardust/current/pages/da-privacy-policy-and-cookies.json",
+        "sourceUrl": "https://www.casaargentera.com/da/privacy-policy-and-cookies/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/privacy-policy-and-cookies",
+        "deployedAt": "2026-11-24T21:22:57.530Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.09,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-reservations",
+      "path": "/da/reservations/",
+      "title": "RESERVATIONER - Casa Argentera",
+      "templateId": "booking",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e0e22ca9718a33d4374e99b2e735582b1c3b432ae15af57c82a823d078970348",
+        "currentStatePath": "stardust/current/pages/da-reservations.json",
+        "sourceUrl": "https://www.casaargentera.com/da/reservations/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/reservations",
+        "deployedAt": "2026-11-24T21:02:36.381Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.31,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "units off 5 hidden 0 missing 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-stedet",
+      "path": "/da/stedet/",
+      "title": "STEDET - Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3cecc9c2961feb6b19fd4fc19a18d67b2576322ace6f04e5ebb346d667581512",
+        "currentStatePath": "stardust/current/pages/da-stedet.json",
+        "sourceUrl": "https://www.casaargentera.com/da/stedet/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/stedet",
+        "deployedAt": "2026-11-24T19:47:46.205Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.35,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-strand-m-m",
+      "path": "/da/strand-m-m/",
+      "title": "STRAND M.M. - Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:531ce130b085e9c48b2d45d89de014d06a32efb954e7e462c694502473447afa",
+        "currentStatePath": "stardust/current/pages/da-strand-m-m.json",
+        "sourceUrl": "https://www.casaargentera.com/da/strand-m-m/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/strand-m-m",
+        "deployedAt": "2026-11-24T19:47:46.268Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 23.57,
+          "heightDelta": -24,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [
+            "pixel aligned 19.4% (unaligned 23.57%) > 10%"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-stueetagen",
+      "path": "/da/stueetagen/",
+      "title": "STUEETAGEN - Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:28f099a03ac0533138e5957348c2dbb1816e81b97e8951dffae6f8427a86749a",
+        "currentStatePath": "stardust/current/pages/da-stueetagen.json",
+        "sourceUrl": "https://www.casaargentera.com/da/stueetagen/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/stueetagen",
+        "deployedAt": "2026-11-24T14:24:35.686Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.57,
+          "heightDelta": 33,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-the-garden",
+      "path": "/da/the-garden/",
+      "title": "THE GARDEN - Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:4fad40e6edfc06ec9448241c8037ad05506cef3b0cc178d59bfdaad1f4894d21",
+        "currentStatePath": "stardust/current/pages/da-the-garden.json",
+        "sourceUrl": "https://www.casaargentera.com/da/the-garden/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/the-garden",
+        "deployedAt": "2026-11-24T14:24:35.803Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.91,
+          "heightDelta": 17,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-the-house",
+      "path": "/da/the-house/",
+      "title": "THE HOUSE - Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:cc97cd7597cd877795aca95e273cc23cd4dfbb36d003d842c22d427f29061a05",
+        "currentStatePath": "stardust/current/pages/da-the-house.json",
+        "sourceUrl": "https://www.casaargentera.com/da/the-house/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/the-house",
+        "deployedAt": "2026-11-24T19:47:46.381Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.66,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-the-noble-floor",
+      "path": "/da/the-noble-floor/",
+      "title": "THE NOBLE FLOOR - Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:2d55e87dc64cf65cd5fcc40eddb5643027bf4f23967494a1a16865c966cba441",
+        "currentStatePath": "stardust/current/pages/da-the-noble-floor.json",
+        "sourceUrl": "https://www.casaargentera.com/da/the-noble-floor/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/the-noble-floor",
+        "deployedAt": "2026-11-24T14:24:35.921Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.69,
+          "heightDelta": 15,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "da-who-we-are",
+      "path": "/da/who-we-are/",
+      "title": "WHO WE ARE - Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d4fe80dde7661b33368019fe994726807e851baf4ad03ec0e2b87e49cb160447",
+        "currentStatePath": "stardust/current/pages/da-who-we-are.json",
+        "sourceUrl": "https://www.casaargentera.com/da/who-we-are/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/da/who-we-are",
+        "deployedAt": "2026-11-24T19:47:46.150Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.35,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "es-contacto",
+      "path": "/es/contacto/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "form",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9af202e9399d7a2df18d53cad44cb3adceeda25a6d8206b6bb90aac74d1b1d03",
+        "currentStatePath": "stardust/current/pages/es-contacto.json",
+        "sourceUrl": "https://www.casaargentera.com/es/contacto/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/es/contacto",
+        "deployedAt": "2026-11-24T20:37:48.120Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.16,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "units off 5 hidden 0 missing 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "es-cultura",
+      "path": "/es/cultura/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:47ebf38a59335046578c46500d5ad14ada7fd7a9decd07cde656948b41ebdfae",
+        "currentStatePath": "stardust/current/pages/es-cultura.json",
+        "sourceUrl": "https://www.casaargentera.com/es/cultura/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/es/cultura",
+        "deployedAt": "2026-11-24T19:47:45.376Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.37,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "units off 4 hidden 0 missing 1"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "es-el-atico",
+      "path": "/es/el-atico/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ab865af31130bd43ab807b9667497ef128456b13a13ee2fc6d109bb8dbadc8d6",
+        "currentStatePath": "stardust/current/pages/es-el-atico.json",
+        "sourceUrl": "https://www.casaargentera.com/es/el-atico/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/es/el-atico",
+        "deployedAt": "2026-11-24T14:24:34.892Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.53,
+          "heightDelta": 19,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "es-el-entorno",
+      "path": "/es/el-entorno/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:28362bb7ea463fb1648f4d1caae354d85f8aafc61548a1899ed456dad22ddc8a",
+        "currentStatePath": "stardust/current/pages/es-el-entorno.json",
+        "sourceUrl": "https://www.casaargentera.com/es/el-entorno/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/es/el-entorno",
+        "deployedAt": "2026-11-24T19:47:45.117Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.37,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "es-el-jardin",
+      "path": "/es/el-jardin/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9e1a5b3213256c0247672f898ded6a0d4fed8e640d6a24ea5b312444cf05d665",
+        "currentStatePath": "stardust/current/pages/es-el-jardin.json",
+        "sourceUrl": "https://www.casaargentera.com/es/el-jardin/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/es/el-jardin",
+        "deployedAt": "2026-11-24T14:24:34.953Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.83,
+          "heightDelta": 17,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "es-el-piso-senorial",
+      "path": "/es/el-piso-senorial/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6a5b62c5faebd30e5e6abeddf763c60986e06c989b270db3f6372a0e33b97764",
+        "currentStatePath": "stardust/current/pages/es-el-piso-senorial.json",
+        "sourceUrl": "https://www.casaargentera.com/es/el-piso-senorial/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/es/el-piso-senorial",
+        "deployedAt": "2026-11-24T14:24:35.012Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.77,
+          "heightDelta": 42,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "es-eventos",
+      "path": "/es/eventos/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "events",
+      "representative": "events",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0f1c79f8cd688c50b9dbc9494cc95594242a1a9b89dfad441f758a47c7901140",
+        "currentStatePath": "stardust/current/pages/es-eventos.json",
+        "sourceUrl": "https://www.casaargentera.com/es/eventos/"
+      },
+      "blocks": [
+        "hero-slider",
+        "gallery",
+        "contact-form"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/es/eventos",
+        "deployedAt": "2026-11-24T21:14:54.657Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.42,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [
+            "units off 5 hidden 0 missing 6"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "es-experiencias",
+      "path": "/es/experiencias/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:79f6d3fd984527c121afac55de9b130ec7d22883a7fab49bcc93c00c74634ed8",
+        "currentStatePath": "stardust/current/pages/es-experiencias.json",
+        "sourceUrl": "https://www.casaargentera.com/es/experiencias/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/es/experiencias",
+        "deployedAt": "2026-11-24T20:40:38.216Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 16.89,
+          "heightDelta": -16,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [
+            "pixel aligned 14.49% (unaligned 16.89%) > 10%",
+            "units off 2 hidden 0 missing 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "es-inicio",
+      "path": "/es/inicio/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ccf7c32e2e78dc0eab9520a3e011d4cf60ab9bb74aaecf4b4365538c105b349b",
+        "currentStatePath": "stardust/current/pages/es-inicio.json",
+        "sourceUrl": "https://www.casaargentera.com/es/inicio/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/es/inicio",
+        "deployedAt": "2026-11-24T13:05:48.734Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 28.45,
+          "heightDelta": 73,
+          "clipped": 0,
+          "content": {
+            "missing": 2,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 2 / HIDDEN 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "es-la-casa",
+      "path": "/es/la-casa/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9b290f87bc6b202f869331a1cd217ebe5cf48e34c84a833f8f890a5b1b10720a",
+        "currentStatePath": "stardust/current/pages/es-la-casa.json",
+        "sourceUrl": "https://www.casaargentera.com/es/la-casa/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/es/la-casa",
+        "deployedAt": "2026-11-24T19:47:45.433Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 10.24,
+          "heightDelta": -126,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [
+            "units off 1 hidden 0 missing 1"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "es-la-casa-entera",
+      "path": "/es/la-casa-entera/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e115885d4817362670bc87f6acde0e009c2ffc0d5addc201dd91f90b6bbb65c7",
+        "currentStatePath": "stardust/current/pages/es-la-casa-entera.json",
+        "sourceUrl": "https://www.casaargentera.com/es/la-casa-entera/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/es/la-casa-entera",
+        "deployedAt": "2026-11-24T14:24:35.066Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.29,
+          "heightDelta": 15,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "es-la-planta-baja",
+      "path": "/es/la-planta-baja/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ad845bdba3af8fd2dd6323dfd1380a008af11135f39b694d2c19cb12dfd6ece2",
+        "currentStatePath": "stardust/current/pages/es-la-planta-baja.json",
+        "sourceUrl": "https://www.casaargentera.com/es/la-planta-baja/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/es/la-planta-baja",
+        "deployedAt": "2026-11-24T14:24:35.116Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.99,
+          "heightDelta": 23,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "es-naturaleza-deporte",
+      "path": "/es/naturaleza-deporte/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:19bc08886887a310bbb6ecc831018053c417d07e7a7361d1690806cf1443178b",
+        "currentStatePath": "stardust/current/pages/es-naturaleza-deporte.json",
+        "sourceUrl": "https://www.casaargentera.com/es/naturaleza-deporte/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/es/naturaleza-deporte",
+        "deployedAt": "2026-11-24T19:47:45.200Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 15.3,
+          "heightDelta": -24,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "pixel aligned 12.41% (unaligned 15.3%) > 10%",
+            "units off 3 hidden 0 missing 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "es-playas-y-mas",
+      "path": "/es/playas-y-mas/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:27b6b550a8f5352c3aebcfc8a36751f343c1aeab1a870f22bbfdc8a8c2ae4933",
+        "currentStatePath": "stardust/current/pages/es-playas-y-mas.json",
+        "sourceUrl": "https://www.casaargentera.com/es/playas-y-mas/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/es/playas-y-mas",
+        "deployedAt": "2026-11-24T19:47:45.262Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 22.08,
+          "heightDelta": -14,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [
+            "pixel aligned 19.78% (unaligned 22.08%) > 10%",
+            "units off 1 hidden 0 missing 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "es-quienes-somos",
+      "path": "/es/quienes-somos/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d4d11794f9d3a666da66e12d8d38904ba75645b665ad58057a06f05036cd27dd",
+        "currentStatePath": "stardust/current/pages/es-quienes-somos.json",
+        "sourceUrl": "https://www.casaargentera.com/es/quienes-somos/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/es/quienes-somos",
+        "deployedAt": "2026-11-24T19:47:45.321Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.34,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "es-reservas",
+      "path": "/es/reservas/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "templateId": "booking",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:fa8396f9feca297887617a5d829eefde3b4b19b3165108b632c0c883c0b8a473",
+        "currentStatePath": "stardust/current/pages/es-reservas.json",
+        "sourceUrl": "https://www.casaargentera.com/es/reservas/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/es/reservas",
+        "deployedAt": "2026-11-24T21:02:36.263Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.7,
+          "heightDelta": 35,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "units off 7 hidden 0 missing 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "events",
+      "path": "/events",
+      "title": "EVENTS - Casa Argentera",
+      "templateId": "events",
+      "source": {
+        "migratedHtml": "stardust/migrated/events/index.html",
+        "metaJson": "stardust/migrated/events/_meta.json",
+        "sourceHash": "sha256:372ff30334bec7ac1661945d0911f68f2cd42ef8370640691b9681b3fcdb390c",
+        "sourceUrl": "https://www.casaargentera.com/events/"
+      },
+      "blocks": [
+        "hero-slider",
+        "gallery",
+        "contact-form"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/events",
+        "deployedAt": "2026-11-24T20:33:25.084Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.42,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [
+            "units off 5 hidden 0 missing 6"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "experiences",
+      "path": "/experiences",
+      "title": "EXPERIENCES - Casa Argentera",
+      "templateId": "experiences",
+      "source": {
+        "migratedHtml": "stardust/migrated/experiences/index.html",
+        "metaJson": "stardust/migrated/experiences/_meta.json",
+        "sourceHash": "sha256:0877ae1c00c9f381abff5ebc9b8bd054545e887014aff4797b1fec1547a3b58a",
+        "sourceUrl": "https://www.casaargentera.com/experiences/"
+      },
+      "blocks": [
+        "hero-slider",
+        "media-feature"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/experiences",
+        "deployedAt": "2026-11-24T20:22:48.199Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 15.94,
+          "heightDelta": -16,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [
+            "pixel aligned 13.67% (unaligned 15.94%) > 10%",
+            "units off 2 hidden 0 missing 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Home - Casa Argentera",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:5be2c3dcd5e6363d9d10fc1e29838d0b32ac7cdf8ecc17feed6173c83a97d675",
+        "sourceUrl": "https://www.casaargentera.com/"
+      },
+      "blocks": [
+        "hero-slider",
+        "image-grid",
+        "testimonials",
+        "map"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/",
+        "deployedAt": "2026-11-24T12:55:50.484Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.16,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "nature-sport",
+      "path": "/nature-sport/",
+      "title": "NATURE / SPORT - Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8bd39066db273cc3c3629bfb7f0b0806da43826d8cd1a6c2f9aabc800416bf89",
+        "currentStatePath": "stardust/current/pages/nature-sport.json",
+        "sourceUrl": "https://www.casaargentera.com/nature-sport/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/nature-sport",
+        "deployedAt": "2026-11-24T19:47:45.883Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 15.96,
+          "heightDelta": -24,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "pixel aligned 12.94% (unaligned 15.96%) > 10%"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "privacy-policy-and-cookies",
+      "path": "/privacy-policy-and-cookies",
+      "title": "Privacy policy and cookies - Casa Argentera",
+      "templateId": "privacy-policy-and-cookies",
+      "source": {
+        "migratedHtml": "stardust/migrated/privacy-policy-and-cookies/index.html",
+        "metaJson": "stardust/migrated/privacy-policy-and-cookies/_meta.json",
+        "sourceHash": "sha256:74f23c76dabea8e34ce5400f02a0a06d36d288a8e9a13317817f5e688b53f3b4",
+        "sourceUrl": "https://www.casaargentera.com/privacy-policy-and-cookies/"
+      },
+      "blocks": [
+        "legal-text"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/privacy-policy-and-cookies",
+        "deployedAt": "2026-11-24T20:58:34.661Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.09,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "reservations-2",
+      "path": "/reservations-2",
+      "title": "RESERVATIONS - Casa Argentera",
+      "templateId": "reservations-2",
+      "source": {
+        "migratedHtml": "stardust/migrated/reservations-2/index.html",
+        "metaJson": "stardust/migrated/reservations-2/_meta.json",
+        "sourceHash": "sha256:93ab998416ec43677fa9df7d4c2cba5ec09d03a4233fe870168af7cffcc95bd9",
+        "sourceUrl": "https://www.casaargentera.com/reservations-2/"
+      },
+      "blocks": [
+        "hero-slider",
+        "contact-form",
+        "availability-calendar",
+        "columns"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/reservations-2",
+        "deployedAt": "2026-11-24T20:14:11.291Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.28,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "units off 5 hidden 0 missing 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "the-garden",
+      "path": "/the-garden",
+      "title": "THE GARDEN - Casa Argentera",
+      "templateId": "the-garden",
+      "source": {
+        "migratedHtml": "stardust/migrated/the-garden/index.html",
+        "metaJson": "stardust/migrated/the-garden/_meta.json",
+        "sourceHash": "sha256:9045b6ec46b7f9dfca216d8251ea70b612e07fae9de3d168d1c3346189ec261f",
+        "sourceUrl": "https://www.casaargentera.com/the-garden/"
+      },
+      "blocks": [
+        "hero-slider",
+        "image-grid",
+        "icon-features",
+        "contact-form"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/the-garden",
+        "deployedAt": "2026-11-24T13:34:14.314Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.91,
+          "heightDelta": 17,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "the-ground-floor",
+      "path": "/the-ground-floor/",
+      "title": "THE GROUND FLOOR - Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:cc6d4e3589e1b833ea0ce74039b801155b0e7d74527282ae4a6fafeb28085995",
+        "currentStatePath": "stardust/current/pages/the-ground-floor.json",
+        "sourceUrl": "https://www.casaargentera.com/the-ground-floor/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/the-ground-floor",
+        "deployedAt": "2026-11-24T14:24:35.626Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.02,
+          "heightDelta": 25,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "the-house",
+      "path": "/the-house/",
+      "title": "THE HOUSE - Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:82f696b903a2f8c099c3d72eaf94da4d20f219bd9c7c40d1967b0f66e17b7d00",
+        "currentStatePath": "stardust/current/pages/the-house.json",
+        "sourceUrl": "https://www.casaargentera.com/the-house/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/the-house",
+        "deployedAt": "2026-11-24T19:47:46.043Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.7,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "the-noble-floor",
+      "path": "/the-noble-floor/",
+      "title": "THE NOBLE FLOOR - Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:65d4ac784e8d65418553f2250ae70f3e1fd2b97a6e24d0b23dc133edc0a1ed92",
+        "currentStatePath": "stardust/current/pages/the-noble-floor.json",
+        "sourceUrl": "https://www.casaargentera.com/the-noble-floor/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/the-noble-floor",
+        "deployedAt": "2026-11-24T14:24:35.575Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.69,
+          "heightDelta": 15,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "the-penthouse",
+      "path": "/the-penthouse/",
+      "title": "THE PENTHOUSE - Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:93d7b01b587183d542be65707bebf75cfefb939ccd61e6b3a5ba341ce9e77609",
+        "currentStatePath": "stardust/current/pages/the-penthouse.json",
+        "sourceUrl": "https://www.casaargentera.com/the-penthouse/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/the-penthouse",
+        "deployedAt": "2026-11-24T14:24:35.521Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.04,
+          "heightDelta": 12,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "the-place",
+      "path": "/the-place/",
+      "title": "THE PLACE - Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d70f333071a6786a993aba1df3bd92b5697ff6a80f6d0c845b007d7be4f29f78",
+        "currentStatePath": "stardust/current/pages/the-place.json",
+        "sourceUrl": "https://www.casaargentera.com/the-place/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/the-place",
+        "deployedAt": "2026-11-24T19:47:45.940Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.35,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "the-whole-house",
+      "path": "/the-whole-house/",
+      "title": "THE WHOLE HOUSE - Casa Argentera",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:aee59eb2e0bdca35ac87c6baf34b6cc7802a88d43f707172db2d35f4a25b2d95",
+        "currentStatePath": "stardust/current/pages/the-whole-house.json",
+        "sourceUrl": "https://www.casaargentera.com/the-whole-house/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/the-whole-house",
+        "deployedAt": "2026-11-24T14:24:35.464Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.83,
+          "heightDelta": 15,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    },
+    {
+      "slug": "who-we-are",
+      "path": "/who-we-are/",
+      "title": "WHO WE ARE - Casa Argentera",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:50911245f621e3e840ad9800969a5132ec4c52fa15c2323d7020c876e7bd68c3",
+        "currentStatePath": "stardust/current/pages/who-we-are.json",
+        "sourceUrl": "https://www.casaargentera.com/who-we-are/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--ea32f12a--aemcoder.aem.page/who-we-are",
+        "deployedAt": "2026-11-24T19:47:45.831Z",
+        "verifiedAt": "2026-11-25T00:29:24.737Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.35,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-25T00:29:34.755Z"
+        }
+      }
+    }
+  ]
+}

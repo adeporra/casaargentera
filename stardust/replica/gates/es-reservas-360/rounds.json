@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "stages": {
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-24T21-04-58-279Z",
+          "at": "2026-11-24T21:08:30.110Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-24T21-11-38-835Z",
+          "at": "2026-11-24T21:12:55.438Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T22-02-07-338Z",
+          "at": "2026-11-24T22:31:09.088Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

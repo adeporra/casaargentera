@@ -1,0 +1,38 @@
+{
+  "/events": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T20:32:59.843Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/esdeveniments": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T21:19:37.673Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/da/eventsda": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T21:19:44.554Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/es/eventos": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T21:19:49.918Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

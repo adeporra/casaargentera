@@ -1,0 +1,75 @@
+{
+  "_provenance": { "writtenBy": "stardust:dynamics", "writtenAt": "2026-11-25T00:20:00Z" },
+  "method": "features rebuilt as blocks (header, footer search, contact-form, map, hero-slider, testimonials, availability-calendar) and fed from the published query index (helix-query.yaml, 70 rows with page text); martech carried over disabled; replayed on the aem.live origin",
+  "features": [
+    {
+      "id": "s-footer-search", "feature": "Footer SEARCH widget (WordPress ?s=)", "class": "S", "pages": 70,
+      "disposition": "index-backed", "reproducibility": "self", "status": "done",
+      "verifiedBy": "query-index.json 70 rows with text; ?s=penthouse 3 results = source set (THE PENTHOUSE, THE HOUSE, Home); ?s=kayak 1 = source. Known residual: the source searches WordPress post content only, the index searches the rendered page text, so broad terms return more pages (garden 9 vs 2, beach 5 vs 3)",
+      "checks": [
+        { "type": "fetch-json", "url": "/query-index.json", "minRows": 70, "expectKeys": ["data"] },
+        { "type": "search-query", "path": "/", "param": "s", "term": "penthouse", "resultSelector": "footer .search-results li", "titleSelector": "a", "expectCount": 3, "expectTitles": ["THE PENTHOUSE", "THE HOUSE", "Home"], "expectIncludes": "/the-penthouse" },
+        { "type": "search-query", "path": "/", "param": "s", "term": "kayak", "resultSelector": "footer .search-results li", "titleSelector": "a", "expectCount": 1, "expectTitles": ["WHO WE ARE"], "expectIncludes": "/who-we-are" }
+      ]
+    },
+    {
+      "id": "f-enquiry-form", "feature": "Contact Form 7 enquiry form", "class": "F", "pages": 32,
+      "disposition": "rebuild-native", "reproducibility": "needs-backend", "status": "interim",
+      "verifiedBy": "form UI rebuilt verbatim: 4 inputs + textarea + privacy checkbox + submit on /contact; submit is blocked with an explicit no-backend notice",
+      "owner": "production endpoint for enquiry submissions (Contact Form 7 lives on the WordPress host)",
+      "checks": [
+        { "type": "dom-count", "path": "/contact", "selector": "main form .contact-form-field", "min": 5 },
+        { "type": "dom-count", "path": "/reservations-2", "selector": "main form .contact-form-field", "min": 5 }
+      ]
+    },
+    {
+      "id": "i18n-locale-variants", "feature": "Language switcher en / es / ca / da", "class": "I18N", "pages": 70,
+      "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "verifiedBy": "4 language links in the footer on every locale tree; /da/home/ redirects to / as on the source",
+      "checks": [
+        { "type": "dom-count", "path": "/", "selector": "footer .languages a, footer [class*=lang] a", "min": 4 },
+        { "type": "dom-count", "path": "/es/inicio", "selector": "footer .languages a, footer [class*=lang] a", "min": 4 }
+      ]
+    },
+    {
+      "id": "m-menu-submenus", "feature": "Header sub-menus + mobile drawer", "class": "M", "pages": 70,
+      "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "verifiedBy": "header nav with nested sub-menu links (THE HOUSE, EXPERIENCES)",
+      "checks": [ { "type": "dom-count", "path": "/", "selector": "header nav ul ul a", "min": 4 } ]
+    },
+    {
+      "id": "v-maps-embed", "feature": "Google Maps iframe on contact pages", "class": "V", "pages": 4,
+      "disposition": "embed-passthrough", "reproducibility": "self", "status": "done",
+      "verifiedBy": "1 google.com/maps/embed iframe on /contact; maps.googleapis.com and maps.gstatic.com requested",
+      "checks": [ { "type": "dom-count", "path": "/contact", "selector": "iframe[src*='google.com/maps']", "min": 1 } ]
+    },
+    {
+      "id": "testimonial-carousel-hero-slider", "feature": "Revolution Slider heroes + testimonial carousel", "class": "M", "pages": 63,
+      "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "verifiedBy": "home hero-slider with slides and layers; testimonials block present",
+      "checks": [
+        { "type": "dom-count", "path": "/", "selector": ".hero-slider .hero-slide", "min": 2 },
+        { "type": "dom-count", "path": "/", "selector": ".testimonials", "min": 1 }
+      ]
+    },
+    {
+      "id": "booking-calendar", "feature": "Availability calendar + price table on reservations", "class": "D", "pages": 4,
+      "disposition": "static-snapshot", "reproducibility": "needs-business-decision", "status": "interim",
+      "verifiedBy": "15 month tables, 546 day cells on /reservations-2 from the captured snapshot",
+      "owner": "live availability feed on the new host (the iCal-fed booking plugin lives on WordPress)",
+      "snapshot": "2026-11-24",
+      "checks": [ { "type": "dom-count", "path": "/reservations-2", "selector": ".availability-calendar table", "min": 12 } ]
+    },
+    {
+      "id": "m-consent-modal", "feature": "Cookie consent bar + settings modal", "class": "M/T", "pages": 70,
+      "disposition": "embed-passthrough", "reproducibility": "needs-business-decision", "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "martech contract carried over with every part disabled: no tag host is requested",
+      "owner": "consent UI and tag routing on the new host — enable in stardust/martech-contract.json",
+      "checks": [ { "type": "consent-gate", "path": "/", "forbiddenHosts": ["www.googletagmanager.com", "www.google-analytics.com", "analytics.google.com"] } ]
+    }
+  ],
+  "featuresWithoutChecks": [
+    { "id": "a-cms-app-settings-object-wp", "status": "done", "note": "theme runtime only, nothing reads it on the new site" },
+    { "id": "v-runtime-iframes", "status": "done", "note": "belong to the enquiry form and analytics rows" }
+  ]
+}

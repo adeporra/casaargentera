@@ -1,0 +1,385 @@
+/* image-grid — lifted from canon.css (.vc-row, .vc-col, .single-image, .space-*) and
+   index.css (.house-grid / .experience-grid). Columns: 30px gutters each side (60px apart),
+   one column at 768px and below. */
+
+/* scoped override (foundation request queued): the landing intro heading is the page's h1,
+   painted as the canon h2 (styles.css has no h1 type rule) */
+main .image-grid-container .default-content-wrapper h1 {
+  font: 200 50px/55px var(--ca-font);
+}
+
+.default-content-wrapper + .image-grid-wrapper {
+  margin-top: 20px;
+}
+
+.image-grid .image-grid-row {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 0 -30px;
+}
+
+.image-grid .image-grid-col {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 1px;
+  padding: 0 30px 50px;
+}
+
+@media (width > 768px) {
+  .image-grid .image-grid-cols-2 > .image-grid-col {
+    width: 50%;
+  }
+
+  .image-grid .image-grid-cols-3 > .image-grid-col {
+    width: 33.3333%;
+  }
+
+  .image-grid .image-grid-cols-4 > .image-grid-col {
+    width: 25%;
+  }
+}
+
+.image-grid .image-grid-heading :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 0;
+}
+
+.image-grid .image-grid-image {
+  margin: 0;
+  line-height: 0;
+}
+
+.image-grid .image-grid-image :is(a, picture) {
+  display: block;
+  line-height: 0;
+}
+
+.image-grid .image-grid-image p {
+  margin: 0;
+  line-height: 0;
+}
+
+.image-grid .image-grid-image img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* vertical rhythm (WPBakery spacers): heading → image 20, image → heading 20,
+   image → image 10 (stacked images, 10px apart) */
+.image-grid .image-grid-heading + .image-grid-image,
+.image-grid .image-grid-image + .image-grid-heading,
+.image-grid .image-grid-text + .image-grid-image,
+.image-grid .image-grid-image + .image-grid-text {
+  margin-top: 20px;
+}
+
+.image-grid .image-grid-image + .image-grid-image {
+  margin-top: 10px;
+}
+
+.image-grid.stacked .image-grid-heading + .image-grid-image {
+  margin-top: 30px;
+}
+
+/* plain: every column ends with the source's 46px spacer (the-garden .garden-images) */
+.image-grid.plain .image-grid-col {
+  padding-bottom: 46px;
+}
+
+/* stacked: every image keeps a 10px bottom pad except the first column's last one
+   (source .single-image--flush), so later columns end 60px below their last image */
+.image-grid.stacked .image-grid-col:not(:first-child) {
+  padding-bottom: 60px;
+}
+
+/* plain: accommodation image rows (the-garden-proposed.html .garden-images) — the text
+   column above ends with the source's 32px spacer */
+.default-content-wrapper + .image-grid-wrapper:has(> .image-grid.plain),
+.default-content-wrapper + .image-grid-wrapper:has(> .image-grid.gallery) {
+  margin-top: 32px;
+}
+
+/* intro-50: the text column above ends with a 50px spacer (the penthouse pages) */
+.default-content-wrapper + .image-grid-wrapper:has(> .image-grid.plain.intro-50) {
+  margin-top: 50px;
+}
+
+/* intro-42: the text above keeps its last paragraph's 10px margin over the 32px spacer (article
+   pages: an empty paragraph closes the source's text column) */
+.default-content-wrapper + .image-grid-wrapper:has(> .image-grid.plain.intro-42) {
+  margin-top: 42px;
+}
+
+/* end-0: the single-image row has no closing spacer (article who-we-are pages) */
+.image-grid.plain.end-0 .image-grid-col {
+  padding-bottom: 0;
+}
+
+/* stack-70: images stacked in one column, 70px apart; that column has no closing spacer */
+.image-grid.stack-70 .image-grid-image + .image-grid-image {
+  margin-top: 70px;
+}
+
+/* gallery: WPBakery masonry media grid (ground-floor pages) — 20px gutters right and below
+   every item, two columns above 768px; 46px spacer under the grid */
+.image-grid.gallery {
+  padding-bottom: 46px;
+}
+
+.image-grid.gallery .image-grid-row {
+  margin: 0 -20px 0 0;
+}
+
+.image-grid.gallery .image-grid-row > .image-grid-col {
+  padding: 0 20px 20px 0;
+}
+
+.image-grid.gallery .image-grid-row:last-child > .image-grid-col:last-child {
+  padding-bottom: 0;
+}
+
+@media (width > 768px) {
+  .image-grid.gallery .image-grid-row:last-child > .image-grid-col:last-child {
+    padding-bottom: 20px;
+  }
+}
+
+/* stack-70 (above): the stacked column closes without the 46px spacer */
+.image-grid.plain.stack-70 .image-grid-col:has(.image-grid-image + .image-grid-image) {
+  padding-bottom: 0;
+}
+
+.image-grid.gallery .image-grid-col > .image-grid-image {
+  position: relative;
+}
+
+.image-grid.gallery .image-grid-zoom {
+  position: absolute;
+  inset: 0;
+  display: block;
+  cursor: pointer;
+}
+
+.image-grid.gallery .image-grid-caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* gallery lightbox (lightbox.js) — prettyPhoto pp_default as probed on the source */
+.image-grid .image-grid-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+}
+
+.image-grid .image-grid-lightbox-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgb(0 0 0 / 70%);
+}
+
+.image-grid .image-grid-lightbox-box {
+  position: relative;
+  box-sizing: border-box;
+  padding: 13px 13px 8px;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.image-grid .image-grid-lightbox-stage {
+  position: relative;
+  line-height: 0;
+}
+
+.image-grid .image-grid-lightbox-image {
+  display: block;
+  max-width: none;
+  object-fit: cover;
+}
+
+.image-grid .image-grid-lightbox-stage > a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+}
+
+.image-grid .image-grid-lightbox-hover-prev {
+  left: 0;
+}
+
+.image-grid .image-grid-lightbox-hover-next {
+  right: 0;
+}
+
+.image-grid .image-grid-lightbox-stage > a::after {
+  position: absolute;
+  top: 50%;
+  width: 0;
+  height: 0;
+  margin-top: -12px;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  filter: drop-shadow(0 0 2px rgb(0 0 0 / 50%));
+  opacity: 0;
+  transition: opacity 0.2s;
+  content: "";
+}
+
+.image-grid .image-grid-lightbox-hover-prev::after {
+  left: 12px;
+  border-right: 14px solid #fff;
+}
+
+.image-grid .image-grid-lightbox-hover-next::after {
+  right: 12px;
+  border-left: 14px solid #fff;
+}
+
+.image-grid .image-grid-lightbox-stage > a:hover::after {
+  opacity: 1;
+}
+
+.image-grid .image-grid-lightbox-thumbs {
+  position: absolute;
+  right: 0;
+  bottom: 13px;
+  left: 0;
+  display: none;
+  justify-content: center;
+  gap: 5px;
+}
+
+.image-grid .image-grid-lightbox.has-thumbs .image-grid-lightbox-thumbs {
+  display: flex;
+}
+
+.image-grid .image-grid-lightbox-thumb {
+  width: 52px;
+  height: 33px;
+  padding: 0;
+  border: 1px solid #fff;
+  background: none;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.image-grid .image-grid-lightbox-thumb.is-active,
+.image-grid .image-grid-lightbox-thumb:hover {
+  opacity: 1;
+}
+
+.image-grid .image-grid-lightbox-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-grid .image-grid-lightbox-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  min-height: 40px;
+  padding-top: 4px;
+}
+
+.image-grid .image-grid-lightbox-bar button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background: #f4f4f4;
+  color: #3a3a3a;
+  cursor: pointer;
+}
+
+.image-grid .image-grid-lightbox-bar svg {
+  width: 12px;
+  height: 12px;
+  fill: currentcolor;
+}
+
+.image-grid .image-grid-lightbox-bar .image-grid-lightbox-play {
+  width: 26px;
+  height: 26px;
+}
+
+.image-grid .image-grid-lightbox-bar .image-grid-lightbox-close {
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+}
+
+.image-grid .image-grid-lightbox-counter {
+  margin: 0 8px;
+  color: #3a3a3a;
+  font: italic 400 11px/14px var(--ca-font);
+}
+
+.image-grid .image-grid-lightbox-caption {
+  margin: 0 0 0 20px;
+  color: #3a3a3a;
+  font: 700 11px/14px var(--ca-font);
+}
+
+/* plain: a WPBakery single image narrower than its column keeps its own width (the source's
+   width attribute, e.g. a 320px portrait in a third), never upscaled */
+.image-grid.plain .image-grid-col .image-grid-image img {
+  width: auto;
+}
+
+/* scoped override (foundation request queued): content lists keep the source's disc and indent
+   (lifted: .content ul { margin: 0 0 10px 20px; list-style: disc }); styles.css resets ul —
+   scoped to the events pages' section */
+main .image-grid-container:has(.image-grid.gallery.events) .default-content-wrapper ul {
+  margin: 0 0 10px 20px;
+  list-style: disc;
+}
+
+/* gallery events: the events pages' media grid — straight under the text (0px); every item
+   keeps its 20px pad below and the grid closes with -20px (lifted: .vc_grid-gutter-20px
+   { margin-bottom: -20px }), then the column's 50px spacer */
+.default-content-wrapper + .image-grid-wrapper:has(> .image-grid.gallery.events) {
+  margin-top: 0;
+}
+
+.image-grid.gallery.events {
+  padding-bottom: 50px;
+}
+
+.image-grid.gallery.events .image-grid-row:last-child {
+  margin-bottom: -20px;
+}
+
+.image-grid.gallery.events .image-grid-row:last-child > .image-grid-col:last-child {
+  padding-bottom: 20px;
+}
+
+/* masonry (Isotope) places the columns at whole-pixel lefts (live: 0 / 383 / 766 of 1150, not
+   383.33 / 766.67) — the same floor on the 2nd and 3rd column */
+@media (width > 768px) {
+  .image-grid.gallery.events .image-grid-cols-3 > .image-grid-col:nth-child(2) {
+    margin-left: calc(round(down, 33.3333%, 1px) - 33.3333%);
+  }
+
+  .image-grid.gallery.events .image-grid-cols-3 > .image-grid-col:nth-child(3) {
+    margin-left: calc(round(down, 66.6667%, 1px) - 66.6667% - round(down, 33.3333%, 1px) + 33.3333%);
+  }
+}

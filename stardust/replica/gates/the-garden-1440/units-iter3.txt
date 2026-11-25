@@ -1,0 +1,49 @@
+[live-session] waiting to pace live navigations to www.casaargentera.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 960 ms
+unit-geometry @ 1440px, tol 4px — https://www.casaargentera.com/the-garden/ vs http://localhost:8792/the-garden-proposed.html
+unit 1 of garden-feature (required) .icon-with-text-shortcode=.garden-features .icon-text: origin 155,1754 1130×105 vs served 155,1754 1130×105 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "swimming pool" | 60,0 1070×27 | 60,0 1070×27 | 0 | 0 | 0 | 0 | ✓ |
+| text "heated from april to mid october poo" | 60,27 1070×75 | 60,27 1070×75 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of garden-feature (required) .icon-with-text-shortcode=.garden-features .icon-text: origin 155,1879 1130×60 vs served 155,1879 1130×60 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "bbq corner & paella equipment" | 60,0 1070×27 | 60,0 1070×27 | 0 | 0 | 0 | 0 | ✓ |
+| text "who is the chef?" | 60,30 1070×25 | 60,30 1070×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of garden-feature (required) .icon-with-text-shortcode=.garden-features .icon-text: origin 155,1959 1130×60 vs served 155,1959 1130×60 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "chill out corner" | 60,0 1070×27 | 60,0 1070×27 | 0 | 0 | 0 | 0 | ✓ |
+| text "sofa for small talk... with a chille" | 60,30 1070×25 | 60,30 1070×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of garden-feature (required) .icon-with-text-shortcode=.garden-features .icon-text: origin 155,2039 1130×60 vs served 155,2039 1130×60 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "swing in the linden tree / slide" | 60,0 1070×27 | 60,0 1070×27 | 0 | 0 | 0 | 0 | ✓ |
+| text "for the children or childish to play" | 60,27 1070×25 | 60,27 1070×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of garden-feature (required) .icon-with-text-shortcode=.garden-features .icon-text: origin 155,2119 1130×60 vs served 155,2119 1130×60 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "big dining table" | 60,0 1070×27 | 60,0 1070×27 | 0 | 0 | 0 | 0 | ✓ |
+| text "under the shade of a linden tree" | 60,27 1070×25 | 60,27 1070×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of garden-image (required) #content .wpb_single_image=.garden-images .single-image: origin 155,1100 535×301 vs served 155,1100 535×301 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "view of the pool heated and lighted " | 0,0 535×301 | 0,0 535×301 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of garden-image (required) #content .wpb_single_image=.garden-images .single-image: origin 750,1100 535×301 vs served 750,1100 535×301 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "chill out dressed for party" | 0,0 535×301 | 0,0 535×301 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of garden-image (required) #content .wpb_single_image=.garden-images .single-image: origin 155,1447 337×190 vs served 155,1447 337×190 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "garden with a view" | 0,0 337×190 | 0,0 337×190 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of garden-image (required) #content .wpb_single_image=.garden-images .single-image: origin 552,1447 337×189 vs served 552,1447 337×189 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "barbecue corner in the garden" | 0,0 337×189 | 0,0 337×189 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of garden-image (required) #content .wpb_single_image=.garden-images .single-image: origin 948,1447 337×194 vs served 948,1447 337×194 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "lighted pool at night, summer evenin" | 0,0 337×194 | 0,0 337×194 | 0 | 0 | 0 | 0 | ✓ |
+Units: 10 compared; elements within 15, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/the-garden-1440/units-iter3.json

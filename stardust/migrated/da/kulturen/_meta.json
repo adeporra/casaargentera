@@ -1,0 +1,81 @@
+{
+  "slug": "da-kulturen",
+  "type": "article",
+  "renderBranch": "A'",
+  "template": "culture",
+  "modules": [
+    "hero-slider",
+    "media-feature"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "wf-wrap"
+  ],
+  "canonShas": {
+    "header": "e73aa09c08df",
+    "footer": "fb0561126c81",
+    "css": "89a5d300aec7"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "KULTUREN - Casa Argentera",
+    "description": "En ufornægtelig middelhavskultur venter dig. Den historiske arv, festlighederne, gastronomien. Kulturen er hvordan vi lever.",
+    "canonical": null,
+    "lang": "da-DK"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "KULTUREN - Casa Argentera",
+    "description": "En ufornægtelig middelhavskultur venter dig. Den historiske arv, festlighederne, gastronomien. Kulturen er hvordan vi lever.",
+    "mainEntityOfPage": "https://www.casaargentera.com/da/kulturen/"
+  },
+  "migratedAt": "2026-11-24T17:11:30Z",
+  "designMdSha": "7ead730e40e5",
+  "designJsonSha": "15480f089476",
+  "sourceCurrentSha": "3308c7bf8249",
+  "sourceProposedSha": "bceffc1f846f",
+  "fidelityTier": "sibling",
+  "archetypeSource": "culture",
+  "archetypeSha": "3ef5c172cd4d",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 over es/la-casa, es/playas-y-mas, es/el-entorno, ca/platja-i-mes, who-we-are, da/strand-m-m vs /culture/ @1440: content-driven deltas only (feature/text counts and heights; h3 intro + h3-wrapped images on la-casa pages, verbatim; shortcode-text intro on playas/platja/strand, verbatim R-09 class; single-image rows on el-entorno/who-we-are → image-grid plain) — spacing/slider deltas carried as variant classes (media-feature gap-<n>/top-<n>/intro-<n>, hero-slider start-<n>); stardust/.work/rollout/article/variance.json",
+    "content-fidelity": "Path A' clone stardust/.work/rollout/article/src/da-kulturen-proposed.html (stardust/encoders/build-clone-article.mjs) from the capture: verbatim headings/inline spans, paragraphs, inline + single images with alts, raw shortcode text; content-diff #main 🔴 0, text/heading/CTA/img counts equal (stardust/.work/rollout/article/content-diff-da-kulturen.txt); 🟡 EDITABLE COUNT = noscript artefact (deviation drop-noscript); chrome 🔴 = canon-chrome deviation"
+  },
+  "contentDeviations": [
+    {
+      "kind": "chrome-canon",
+      "source": "localized WP header/footer",
+      "target": "canon chrome (EN) in clone",
+      "reason": "Path A' clone carries canon chrome verbatim (active trail moved to this page's nav item, masthead veil from the source); EDS delivery uses the locale nav/footer docs"
+    },
+    {
+      "kind": "drop-noscript",
+      "source": "4× <noscript><img …></noscript> lazy-load duplicate inside the image paragraphs",
+      "target": "(none — the <img> itself is kept)",
+      "reason": "polyfill duplicate dropped; content-diff counts its raw text as an editable node, so #main EDITABLE COUNT reads source n / build n-4 (🟡) with text, headings, CTAs and images equal"
+    }
+  ],
+  "assetsBundled": 11,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "da/kulturen/index.html",
+  "outputPathDefault": null,
+  "sidecar": "da/kulturen/_meta.json",
+  "driverVersion": "1"
+}

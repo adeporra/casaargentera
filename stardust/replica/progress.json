@@ -1,0 +1,1468 @@
+{
+ "index": {
+  "slug": "index",
+  "url": "https://www.casaargentera.com/",
+  "template": "landing",
+  "prototype": "stardust/prototypes/index-proposed.html",
+  "css": {
+   "canon": "stardust/prototypes/canon.css",
+   "page": "stardust/prototypes/index.css",
+   "js": "stardust/prototypes/canon.js"
+  },
+  "regime": "prototype",
+  "sourceSpecCompare": {
+   "360": "0 sections with Δh, 0 nodes off, 0 missing",
+   "1440": "0 sections with Δh, 0 nodes off, 0 missing"
+  },
+  "rounds": {
+   "360": {
+    "ledger": "iter1 fail (overflow +31px: #page lacked the source's overflow:hidden) · iter2 pass 0.94% · iter3 fail (pixel pass, header contract not recorded) · decision extend · iter4 pass 0.94% (--full) · iter5 pass 0.59% (--full, post-motion, free confirmation)",
+    "counted": "4 (1 extension) + free confirmation",
+    "decisions": [
+     "extend"
+    ]
+   },
+   "1440": {
+    "ledger": "iter1 fail (hero slide + phantom header state, 17.10%) · iter2 fail (pixel 0.32% PASS, header contract not yet recorded) · iter3 pass 0.33% · iter4 fail (interaction re-run: rAF slider driver escaped the timer hold, 13.64%) · iter5 fail (timeout-chain driver, 15.15%) · decisions: extend (iter2 precondition), re-prototype (interaction layer re-cut) · r2-iter1 pass 0.24% (--full)",
+    "counted": "5 + 1 after re-prototype",
+    "decisions": [
+     "extend",
+     "re-prototype"
+    ]
+   }
+  },
+  "gate": {
+   "360": {
+    "round": "iter5",
+    "pixelPct": 0.59,
+    "unalignedPct": 0.87,
+    "alignedUsed": true,
+    "deltaH": 0,
+    "offsets": "6 steps ±1px, 6px total (bound 8)",
+    "contentDiff": {
+     "looksSameRed": 0,
+     "nothingLostYellow": 0,
+     "advisory": 36
+    },
+    "visualDiff": "0 flags",
+    "clipped": 0,
+    "overflow": "ok (360)",
+    "chromeParity": "quiet (1 advisory group)",
+    "headerContract": "PASS",
+    "chromeBands": {
+     "header": {
+      "y": 0,
+      "h": 58,
+      "pct": 39.89,
+      "pctVsRef2": 0.08,
+      "note": "the 58px header band is translucent over the hero slider; the frozen origin (ref-1/baseline) caught the slider mid-crossfade (slide 4→5) — rows 0–268 are the reference's self-varying mask. Against ref-2 (same capture session, slider at rest on slide 4) the band is 0.08%."
+     },
+     "footer": {
+      "y": 5793,
+      "h": 880,
+      "pct": 0.13
+     }
+    },
+    "units": "PASS (14 compared, 0 off)",
+    "reference": "frozen origin, noise floor 2.74%, mask 0:268,5692:36",
+    "verdict": "PASS (header band justified: authored-volatile slider under a translucent header)",
+    "evidence": "stardust/replica/gates/index-360/verdict-iter5.json"
+   },
+   "1440": {
+    "round": "r2-iter1",
+    "pixelPct": 0.24,
+    "alignedUsed": false,
+    "deltaH": 0,
+    "offsets": 0,
+    "contentDiff": {
+     "looksSameRed": 0,
+     "nothingLostYellow": 0,
+     "advisory": 36
+    },
+    "visualDiff": "0 flags",
+    "clipped": 0,
+    "overflow": "ok (1440)",
+    "chromeParity": "quiet (2 advisory groups)",
+    "headerContract": "PASS (chrome-compare 0 errors)",
+    "chromeBands": {
+     "header": {
+      "y": 0,
+      "h": 172,
+      "pct": 0.26
+     },
+     "footer": {
+      "y": 3915,
+      "h": 389,
+      "pct": 0.08
+     }
+    },
+    "units": "PASS (unit-geometry --families, 16 compared, 0 off)",
+    "reference": "frozen origin, noise floor 0.00%",
+    "verdict": "PASS",
+    "evidence": "stardust/replica/gates/index-1440/verdict-r2-iter1.json"
+   }
+  },
+  "capProbe": {
+   "verdict": "PASS",
+   "width": 2560,
+   "rows": "0 of 8 failed",
+   "evidence": "stardust/replica/gates/index-2560/cap-iter.json"
+  },
+  "residuals": [
+   {
+    "width": 360,
+    "zone": "header band y0–58",
+    "cause": "authored-volatile hero slider behind the translucent masthead; frozen origin caught a crossfade",
+    "evidence": [
+     "stardust/replica/gates/index-360/chrome-header-diff.png",
+     "stardust/replica/gates/index-360/chrome-header-diff-ref2.png"
+    ],
+    "status": "justified"
+   },
+   {
+    "width": 360,
+    "zone": "image rows",
+    "cause": "±1px steps from image rendition rounding (live serves resized renditions 360×202 / 359×202; build 768w)",
+    "status": "logged, within bound"
+   },
+   {
+    "width": "all",
+    "zone": "testimonials",
+    "cause": "owl loop clones (8 text copies) not reproduced — loop clones carry no text (recreation-procedure § Carousels); content-diff MISSING BODY 🟡 advisory",
+    "status": "intended"
+   }
+  ],
+  "captureState": [
+   {
+    "zone": "hero slider (#main-slideshow)",
+    "frozenAs": "slide 4 'Disconnect and relax / CELEBRATE LIFE' (the frozen origin's state at 1440 and ref-2 at 360)",
+    "restoreAtDelivery": "autoplay: rotates every 2500 ms, 600 ms crossfade, loop over 5 slides; bullets select a slide"
+   },
+   {
+    "zone": "#phantom floating header",
+    "frozenAs": "slide-out-anim pinned at 0% by the capture freeze (visible over the masthead at the top of the stitch on BOTH sides)",
+    "restoreAtDelivery": "show-phantom on scroll past ~250px (slide-in .52s), hide-phantom back above (slide-out .35s)"
+   }
+  ],
+  "motion": {
+   "observed": [
+    "#phantom show/hide on scroll (slide-in-anim .52s / slide-out-anim .35s)",
+    "scroll-top .on/.off",
+    "show-floating-icon (mobile floating menu button)",
+    "main-nav sub-menu hover (.dt-hovered, sub-nav opacity 0→1 300ms)",
+    "footer link hover colour #2b2b2b→#0a0a0a",
+    "WPBakery fadeIn on 5 images (wpb_start_animation animated, 1s)",
+    "hero slider autoplay (bullet .selected rotates unpoked)",
+    "hero bullets border/background transition 300ms",
+    "testimonial carousel arrow moves the stage (transform 600ms, .active on visible items)",
+    "mobile drawer: right 500ms, overlay opacity 400ms, close icon opacity 500ms, Escape/close/trigger close + focus return"
+   ],
+   "implemented": [
+    "phantom header state machine (canon.js, threshold 250px — observed between 200 and 300)",
+    "scroll-top on/off",
+    "show-floating-icon",
+    "dt-hovered sub-nav fade",
+    "footer link hover",
+    "WPBakery fadeIn via IntersectionObserver",
+    "hero autoplay setInterval 2500ms + bullets",
+    "bullet transitions",
+    "testimonial carousel arrows + .active",
+    "mobile drawer (contract: chrome-compare 0 errors)"
+   ],
+   "dead": [
+    "#primary-menu > li:nth-child(2) > a hover (no diff)",
+    ".wpb_single_image a hover (no diff)",
+    ".header-bar .soc-ico a hover (no diff)",
+    "header-bar scroll-morph (static; the phantom is a separate clone)"
+   ],
+   "notImplemented": [
+    "is-loading/is-loaded (lazy-loader churn; native loading=lazy)",
+    "rs-forcehidden (Rev Slider internal layer hiding; equivalent: inactive slide hidden)",
+    "Rev Slider layer GSAP entrance tweens (not CSS-observable)"
+   ],
+   "compare": "motion-compare: 24 parity, 5 missing (hover sampler does not list the sub-nav — confirmed on the class lines dt-hovered/show-mega-menu-content = parity; auto-advance fires after the observer's idle window — confirmed with --wait 1200: is-active/selected mutate unpoked; is-loading/is-loaded/rs-forcehidden not applicable), 0 extra; opacity timing 600 vs 400 = the slide crossfade (live runs it in GSAP, not a CSS transition)",
+   "evidence": [
+    "stardust/replica/motion/index-live.json",
+    "stardust/replica/motion/index-build.json"
+   ],
+   "pixelAfterMotion": {
+    "360": 0.59,
+    "1440": 0.24
+   }
+  },
+  "portations": [
+   "none — clean re-authoring; source rules read via css-rules.mjs only"
+  ],
+  "boxModel": "no universal reset; border-box only on .masthead, .top-bar, .wf-wrap, .vc-row/.vc-col, footer .widget, search input, testimonial items, drawer (as lifted)",
+  "fonts": "self-hosted captures: Montserrat 200/300/400/500/700/800 (OFL), icomoon-the7-font; no substitutes",
+  "assets": "stardust/prototypes/assets (images 1536w + 768w renditions, slider originals, logos, the7-chevron-side.svg); stardust/prototypes/fonts",
+  "updatedAt": "2026-11-24"
+ },
+ "the-garden": {
+  "slug": "the-garden",
+  "url": "https://www.casaargentera.com/the-garden/",
+  "template": "program",
+  "prototype": "stardust/prototypes/the-garden-proposed.html",
+  "css": {
+   "canon": "stardust/prototypes/canon.css",
+   "page": "stardust/prototypes/the-garden.css",
+   "js": "stardust/prototypes/canon.js"
+  },
+  "regime": "prototype",
+  "sourceSpecCompare": {
+   "360": "0 sections with Δh, 0 nodes off, 0 missing",
+   "1440": "0 sections with Δh, 0 nodes off, 0 missing"
+  },
+  "rounds": {
+   "360": {
+    "ledger": "iter1 pass 0.19% (--full) · iter2 pass 0.19% (--full, post-motion confirmation, free)",
+    "counted": "1 + free confirmation",
+    "decisions": []
+   },
+   "1440": {
+    "ledger": "iter1 fail 15.89% (hero slide state: frozen origin shows slide 2 rs-128) · iter2 pass 0.03% · iter3 pass 0.03% (--full, post-motion confirmation, free)",
+    "counted": "2 + free confirmation",
+    "decisions": []
+   }
+  },
+  "gate": {
+   "360": {
+    "round": "iter2",
+    "pixelPct": 0.19,
+    "alignedUsed": false,
+    "deltaH": 0,
+    "offsets": 0,
+    "contentDiff": {
+     "looksSameRed": 0,
+     "nothingLostYellow": 0,
+     "advisory": 12
+    },
+    "visualDiff": "0 flags",
+    "clipped": 0,
+    "overflow": "ok (360)",
+    "chromeParity": "quiet (1 advisory group)",
+    "chromeBands": {
+     "header": {
+      "y": 0,
+      "h": 58,
+      "pct": 0.64
+     },
+     "footer": {
+      "y": 3770,
+      "h": 880,
+      "pct": 0.1
+     }
+    },
+    "units": "PASS (unit-geometry --families, 10 compared, 0 off)",
+    "reference": "frozen origin, noise floor 0.00%",
+    "verdict": "PASS",
+    "evidence": "stardust/replica/gates/the-garden-360/verdict-iter2.json"
+   },
+   "1440": {
+    "round": "iter3",
+    "pixelPct": 0.03,
+    "alignedUsed": false,
+    "deltaH": 0,
+    "offsets": 0,
+    "contentDiff": {
+     "looksSameRed": 0,
+     "nothingLostYellow": 0,
+     "advisory": 11
+    },
+    "visualDiff": "0 flags",
+    "clipped": 0,
+    "overflow": "ok (1440)",
+    "chromeParity": "quiet (2 advisory groups)",
+    "chromeBands": {
+     "header": {
+      "y": 0,
+      "h": 172,
+      "pct": 0.34
+     },
+     "footer": {
+      "y": 3107,
+      "h": 389,
+      "pct": 0.08
+     }
+    },
+    "units": "PASS (unit-geometry --families, 10 compared, 0 off)",
+    "reference": "frozen origin, noise floor 0.00%",
+    "verdict": "PASS",
+    "evidence": "stardust/replica/gates/the-garden-1440/verdict-iter3.json"
+   }
+  },
+  "capProbe": {
+   "verdict": "PASS",
+   "width": 2560,
+   "rows": "0 of 8 failed",
+   "evidence": "stardust/replica/gates/the-garden-2560/cap-iter.json"
+  },
+  "residuals": [
+   {
+    "width": "all",
+    "zone": "icon-with-text glyphs",
+    "cause": "source emits a hidden duplicate hover glyph (dt-hover-icon, 0×0, hover off) per box; build carries the visible glyph only — content-diff MISSING ICON 🟡 advisory ×5",
+    "status": "intended"
+   },
+   {
+    "width": "all",
+    "zone": "hero slider timing",
+    "cause": "source data-duration 3000 ms on this slider (home: 2500); canon.js hard-codes 2500 ms — not editable in this archetype; markup carries data-duration=\"3000\" for a canon back-port",
+    "status": "logged — shared-layer back-port"
+   },
+   {
+    "width": "all",
+    "zone": "header Menu 1 / Languages",
+    "cause": "same chrome advisories as index (mobile mini-widget \"Menu 1\" label, build nav aria-label)",
+    "status": "advisory, as index"
+   }
+  ],
+  "captureState": [
+   {
+    "zone": "hero slider (#main-slideshow, 2 slides)",
+    "frozenAs": "slide 2 rs-128 (20190710_213145-002) active, bullet 2 selected — the frozen origin at 1440 and 360",
+    "restoreAtDelivery": "autoplay 3000 ms per slide, 600 ms fade, loop; bullets select a slide"
+   },
+   {
+    "zone": "#phantom floating header",
+    "frozenAs": "pinned visible by the capture freeze on both sides (as index)",
+    "restoreAtDelivery": "show-phantom on scroll past ~250px, hide-phantom above"
+   }
+  ],
+  "motion": {
+   "observed": [
+    "#phantom show/hide (slide-in-anim / slide-out-anim)",
+    "scroll-top .on/.off",
+    "show-floating-icon",
+    "main-nav sub-menu hover (dt-hovered/show-mega-menu-content, ul opacity 300ms)",
+    "CF7 submit hover background #dd9d3b→#ae9964 (300ms)",
+    "footer link hover colour",
+    "hero slider autoplay (bullet .selected rotates unpoked)",
+    "hero bullets border/background transition 300ms",
+    "mobile drawer right/opacity transitions"
+   ],
+   "implemented": [
+    "phantom/scroll-top/floating-icon/drawer/sub-nav/footer hover/slider autoplay + bullets (canon.js + canon.css)",
+    "CF7 submit hover background (the-garden.css)"
+   ],
+   "dead": [
+    "bullet click (no sampled change on live)",
+    "#primary-menu li:nth-child(2) > a hover",
+    "icon-with-text hover (dt-icon-hover-off)",
+    "header .soc-ico hover",
+    "header scroll-morph"
+   ],
+   "notImplemented": [
+    "slider per-slide duration 3000 ms (canon.js fixed 2500 ms — back-port data-duration)"
+   ],
+   "compare": "motion-compare: 20 parity, 1 missing (hover sampler does not list the sub-nav ul — dt-hovered/show-mega-menu-content class lines are parity, as index), 0 extra; opacity timing 600 vs 400 = the slide crossfade (GSAP on live), as index",
+   "evidence": [
+    "stardust/replica/motion/the-garden-live.json",
+    "stardust/replica/motion/the-garden-build.json"
+   ],
+   "pixelAfterMotion": {
+    "360": 0.19,
+    "1440": 0.03
+   }
+  },
+  "portations": [],
+  "boxModel": "inherits canon; CF7 fields border-box (40px, 5/15 padding, 1px rgba(173,176,182,.3)); textarea vertical-align top (lifted); icon-with-text grid content-box",
+  "fonts": "canon Montserrat + icomoon; adds self-hosted Font Awesome 5 Free solid 900 (fa-solid-900.woff2 capture) for the 5 feature glyphs",
+  "assets": "stardust/prototypes/assets: slides PICT0023P3D.JPG.png + 20190710_213145-002.jpg.png (1980w), content renditions 300/768/1024/1536 with the source srcset/sizes",
+  "sharedFixesScopedLocally": [
+   "masthead veil per page: :root --ca-header-veil rgba(221,153,51,.5) (home is rgba(221,179,110,.5)) — back-port as a per-template token",
+   "current-page .act state in masthead/phantom/drawer (underline full width, phantom/drawer accent)",
+   "WPBakery text-column last-child margin 0 + .space-46",
+   "slider data-duration (canon.js ignores it)"
+  ],
+  "updatedAt": "2026-11-24"
+ },
+ "culture": {
+  "slug": "culture",
+  "url": "https://www.casaargentera.com/culture/",
+  "template": "article",
+  "prototype": "stardust/prototypes/culture-proposed.html",
+  "css": {
+   "canon": "stardust/prototypes/canon.css",
+   "page": "stardust/prototypes/culture.css",
+   "js": "stardust/prototypes/canon.js"
+  },
+  "regime": "prototype",
+  "sourceSpecCompare": {
+   "360": "0 sections with Δh, 0 nodes off, 0 missing (--main #content)",
+   "1440": "0 sections with Δh, 0 nodes off, 0 missing (--main #content)"
+  },
+  "rounds": {
+   "360": {
+    "ledger": "iter1 pass 0.14% (--full, first) · iter2 pass 0.14% (--full, post-motion, free confirmation)",
+    "counted": "1 + free confirmation",
+    "decisions": []
+   },
+   "1440": {
+    "ledger": "iter1 pass 0.17% (--full, first; units not yet declared) · iter2 pass 0.17% (--full, post-motion + units, free confirmation)",
+    "counted": "1 + free confirmation",
+    "decisions": []
+   }
+  },
+  "gate": {
+   "360": {
+    "round": "iter2",
+    "pixelPct": 0.14,
+    "alignedUsed": false,
+    "deltaH": 0,
+    "offsets": 0,
+    "contentDiff": {
+     "looksSameRed": 0,
+     "nothingLostYellow": 0,
+     "advisory": 8
+    },
+    "visualDiff": "0 flags",
+    "clipped": 0,
+    "overflow": "ok (360)",
+    "chromeParity": "quiet (1 advisory group)",
+    "chromeBands": {
+     "header": {
+      "y": 0,
+      "h": 58,
+      "pct": 1.01
+     },
+     "footer": {
+      "y": 3990,
+      "h": 880,
+      "pct": 0.13
+     }
+    },
+    "units": "PASS (culture-feature-column, 8 compared, 0 off)",
+    "reference": "frozen origin, noise floor 0.00%",
+    "verdict": "PASS",
+    "evidence": "stardust/replica/gates/culture-360/verdict-iter2.json"
+   },
+   "1440": {
+    "round": "iter2",
+    "pixelPct": 0.17,
+    "alignedUsed": false,
+    "deltaH": 0,
+    "offsets": 0,
+    "contentDiff": {
+     "looksSameRed": 0,
+     "nothingLostYellow": 0,
+     "advisory": 7
+    },
+    "visualDiff": "0 flags",
+    "clipped": 0,
+    "overflow": "ok (1440)",
+    "chromeParity": "quiet (2 advisory groups)",
+    "chromeBands": {
+     "header": {
+      "y": 0,
+      "h": 172,
+      "pct": 0.35
+     },
+     "footer": {
+      "y": 2725,
+      "h": 389,
+      "pct": 0.08
+     }
+    },
+    "units": "PASS (culture-feature-column, 8 compared, 0 off)",
+    "reference": "frozen origin, noise floor 0.00%",
+    "verdict": "PASS",
+    "evidence": "stardust/replica/gates/culture-1440/verdict-iter2.json"
+   }
+  },
+  "capProbe": {
+   "verdict": "PASS",
+   "width": 2560,
+   "rows": "0 of 10 failed",
+   "evidence": "stardust/replica/gates/culture-2560/cap-iter.json"
+  },
+  "residuals": [
+   {
+    "width": "all",
+    "zone": "content-diff advisories",
+    "cause": "inherited canon chrome advisories (header FONT FORK on hidden nav at 360, Menu 1 body, build-only nav/button aria-labels, footer search icon anchor, editable-count)",
+    "status": "intended (same as index)"
+   },
+   {
+    "width": 360,
+    "zone": "clip-probe advisory horizontal 1",
+    "cause": "inherited from canon (same count on index-360)",
+    "status": "advisory"
+   }
+  ],
+  "captureState": [
+   {
+    "zone": "hero (#main-slideshow)",
+    "frozenAs": "single slide rs-74 EscalaDei-CasaArgentera.jpg, no layers, no bullets",
+    "restoreAtDelivery": "static — one slide, nothing rotates"
+   },
+   {
+    "zone": "#phantom floating header",
+    "frozenAs": "same state machine as index (canon.js)",
+    "restoreAtDelivery": "show-phantom on scroll past ~250px, hide-phantom back above"
+   }
+  ],
+  "motion": {
+   "observed": [
+    "#phantom show/hide on scroll (slide-in/slide-out)",
+    "scroll-top .on/.off",
+    "show-floating-icon",
+    "EXPERIENCES sub-menu hover (.dt-hovered/show-mega-menu-content, sub-nav opacity 300ms)",
+    "footer link hover colour",
+    "drawer/overlay transitions (right/opacity/z-index 400ms)"
+   ],
+   "implemented": [
+    "all of the observed — inherited from canon.js/canon.css (no culture-only motion)",
+    "active trail: EXPERIENCES underline + CULTURE sub-item colour (static state, culture.css)"
+   ],
+   "dead": [
+    "#primary-menu > li:nth-child(2) > a hover (no diff)",
+    "#content .wpb_text_column p a hover (no diff)",
+    ".header-bar .soc-ico a hover (no diff)",
+    "header scroll-morph (static)"
+   ],
+   "notImplemented": [
+    "lazyloading/lazyloaded (lazy-loader churn; native loading=lazy)"
+   ],
+   "compare": "motion-compare: 12 parity, 3 missing (sub-nav hover: sampler does not list the ul — class lines dt-hovered/show-mega-menu-content = parity, as on index; lazyloading/lazyloaded not applicable), 0 extra",
+   "evidence": [
+    "stardust/replica/motion/culture-live.json",
+    "stardust/replica/motion/culture-build.json"
+   ],
+   "pixelAfterMotion": {
+    "360": 0.14,
+    "1440": 0.17
+   }
+  },
+  "portations": [
+   "none — clean re-authoring; source rules read via css-rules.mjs only"
+  ],
+  "boxModel": "inherits canon box model; inline p > img.alignnone (margin 0 auto 10px on a 25px line box) reproduces the 319px image row",
+  "fonts": "self-hosted captures via canon (Montserrat, icomoon); no substitutes",
+  "assets": "stardust/prototypes/assets: EscalaDei-CasaArgentera.jpg (1980w hero), Escornalbou/Celler 1024x576, parksamaP3D.JPG-1024x576.png, SantesCreus-activity-Argentera.jpg (the live lazy src, no srcset)",
+  "sharedFixesScopedLocally": [
+   "--ca-header-veil per page: rgba(221,153,51,0.5) (live inline style on .masthead; canon default is the home value)",
+   ".act menu trail (underline width 100%, #phantom/sub-nav/mobile act colour #dd9d3b) — canon has no .act state"
+  ],
+  "updatedAt": "2026-11-24"
+ },
+ "contact": {
+  "slug": "contact",
+  "url": "https://www.casaargentera.com/contact/",
+  "template": "form",
+  "prototype": "stardust/prototypes/contact-proposed.html",
+  "css": {
+   "canon": "stardust/prototypes/canon.css",
+   "page": "stardust/prototypes/contact.css",
+   "js": "stardust/prototypes/canon.js"
+  },
+  "regime": "prototype",
+  "sourceSpecCompare": {
+   "360": "0 sections with Δh, 0 nodes off, 0 missing (after .vc-col min-height 1px)",
+   "1440": "0 sections with Δh, 0 nodes off, 0 missing"
+  },
+  "rounds": {
+   "360": {
+    "ledger": "iter1 pass 0.10% (--full) · iter2 pass 0.10% (--full, post-motion confirmation, free)",
+    "counted": "1 + free confirmation",
+    "decisions": []
+   },
+   "1440": {
+    "ledger": "iter1 pass 0.04% (--full; units not yet declared) · iter2 pass 0.04% (--full, post-motion confirmation, free)",
+    "counted": "1 + free confirmation",
+    "decisions": []
+   }
+  },
+  "gate": {
+   "360": {
+    "round": "iter2",
+    "pixelPct": 0.1,
+    "alignedUsed": false,
+    "deltaH": 0,
+    "offsets": 0,
+    "contentDiff": {
+     "looksSameRed": 0,
+     "nothingLostYellow": 0,
+     "advisory": 12
+    },
+    "visualDiff": "0 flags",
+    "clipped": 0,
+    "overflow": "ok (360)",
+    "chromeParity": "quiet (1 advisory group)",
+    "chromeBands": {
+     "header": {
+      "y": 0,
+      "h": 58,
+      "pct": 0.23
+     },
+     "footer": {
+      "y": 3861,
+      "h": 880,
+      "pct": 0.1
+     }
+    },
+    "units": "PASS (unit-geometry --families, 10 compared, 0 off)",
+    "reference": "frozen origin, noise floor 0.01% — map embed rows masked as authored-volatile",
+    "verdict": "PASS",
+    "evidence": "stardust/replica/gates/contact-360/verdict-iter2.json"
+   },
+   "1440": {
+    "round": "iter2",
+    "pixelPct": 0.04,
+    "alignedUsed": false,
+    "deltaH": 0,
+    "offsets": 0,
+    "contentDiff": {
+     "looksSameRed": 0,
+     "nothingLostYellow": 0,
+     "advisory": 11
+    },
+    "visualDiff": "0 flags",
+    "clipped": 0,
+    "overflow": "ok (1440)",
+    "chromeParity": "quiet (2 advisory groups)",
+    "chromeBands": {
+     "header": {
+      "y": 0,
+      "h": 172,
+      "pct": 0.32
+     },
+     "footer": {
+      "y": 2654,
+      "h": 389,
+      "pct": 0.05
+     }
+    },
+    "units": "PASS (unit-geometry --families, 10 compared, 0 off)",
+    "reference": "frozen origin, noise floor 0.01% — map embed rows masked as authored-volatile",
+    "verdict": "PASS",
+    "evidence": "stardust/replica/gates/contact-1440/verdict-iter2.json"
+   }
+  },
+  "capProbe": {
+   "verdict": "PASS",
+   "width": 2560,
+   "rows": "0 of 5 failed",
+   "evidence": "stardust/replica/gates/contact-2560/cap-iter.json"
+  },
+  "residuals": [
+   {
+    "width": "all",
+    "zone": "Google Maps embed",
+    "cause": "same-src live iframe on both sides (recreation-procedure live-data embeds); its tile/label rows vary run-to-run on live (1440 rows 1332–1368, 360 rows 1172–1228 masked by the frozen reference)",
+    "status": "permanent — live embed"
+   },
+   {
+    "width": "all",
+    "zone": "direction glyphs",
+    "cause": "source emits a hidden duplicate hover glyph (dt-hover-icon, 0×0) per box; build carries the visible glyph only — content-diff MISSING ICON advisory ×4",
+    "status": "intended (as the-garden)"
+   },
+   {
+    "width": "all",
+    "zone": "map iframe title",
+    "cause": "build adds title=\"Casa Argentera on Google Maps\" (a11y; source iframe untitled) — EXTRA TITLE advisory",
+    "status": "intended (role parity)"
+   },
+   {
+    "width": "all",
+    "zone": "header Menu 1 / Languages",
+    "cause": "same chrome advisories as index",
+    "status": "advisory, as index"
+   }
+  ],
+  "captureState": [
+   {
+    "zone": "hero (#rev_slider_9_1, single slide rs-35, no bullets)",
+    "frozenAs": "static single slide Argentera_100_8977.jpg",
+    "restoreAtDelivery": "none (single slide)"
+   },
+   {
+    "zone": "#phantom floating header",
+    "frozenAs": "pinned visible by the capture freeze on both sides (as index)",
+    "restoreAtDelivery": "show-phantom on scroll past ~250px, hide-phantom above"
+   },
+   {
+    "zone": "Contact Form 7",
+    "frozenAs": "empty fields, unchecked acceptance, no response output",
+    "restoreAtDelivery": "dynamic-features row 3 f-enquiry-form: interim tier — submit shows a no-backend notice; reCAPTCHA v3 not replicated"
+   }
+  ],
+  "motion": {
+   "observed": [
+    "#phantom show/hide (slide-in-anim / slide-out-anim)",
+    "scroll-top .on/.off",
+    "show-floating-icon",
+    "main-nav sub-menu hover (dt-hovered/show-mega-menu-content, ul opacity 300ms)",
+    "CF7 submit hover background #dd9d3b→#ae9964 (transition all .3s ease-out)",
+    "footer link hover colour",
+    "mobile drawer right/opacity transitions"
+   ],
+   "implemented": [
+    "phantom/scroll-top/floating-icon/drawer/sub-nav/footer hover (canon.js + canon.css)",
+    "CF7 submit hover background + 300ms transition (contact.css)"
+   ],
+   "dead": [
+    "#primary-menu li:nth-child(2) > a hover",
+    "icon-with-text hover (dt-icon-hover-off)",
+    "privacy-policy link hover",
+    "header .soc-ico hover",
+    "header scroll-morph"
+   ],
+   "notImplemented": [],
+   "compare": "motion-compare: 16 parity, 1 missing (hover sampler does not list the sub-nav ul — dt-hovered/show-mega-menu-content class lines are parity, as index/the-garden), 0 extra",
+   "evidence": [
+    "stardust/replica/motion/contact-live.json",
+    "stardust/replica/motion/contact-build.json"
+   ],
+   "pixelAfterMotion": {
+    "360": 0.1,
+    "1440": 0.04
+   }
+  },
+  "portations": [],
+  "mapEmbed": "same-src Google Maps iframe (live-data embed rule): vc gmaps widget 5px #f7f7f7 frame, iframe 100% × 450 (non-responsive, 450 at 360 too), pointer-events none as live",
+  "boxModel": "inherits canon; CF7 fields border-box (40px, 5/15 padding); textarea vertical-align top; map frame border-box 5px padding; .vc-col min-height 1px",
+  "fonts": "canon Montserrat + icomoon; Font Awesome 5 Free solid 900 (existing fonts/fa-solid-900.woff2) for plane/car-alt/train/bus",
+  "assets": "stardust/prototypes/assets/Argentera_100_8977.jpg (hero, 1348×758 original upload)",
+  "sharedFixesScopedLocally": [
+   ".act current-page state (masthead underline, phantom/drawer accent) — copy of the-garden/culture pattern",
+   ".text-column last-child margin 0 + .space-46 (WPBakery)",
+   ".vc-col min-height 1px (lifted .vc_col-sm-* min-height; empty stacked column = 1px at 360) — canon back-port candidate",
+   "CF7 look copied from the-garden + .cf7-submit transition all .3s ease-out (lifted; the-garden.css lacks it — back-port with the CF7 module)",
+   "icon-with-text module copied from the-garden (h4 22/30 title variant)"
+  ],
+  "updatedAt": "2026-11-24"
+ },
+ "experiences": {
+  "slug": "experiences",
+  "url": "https://www.casaargentera.com/experiences/",
+  "template": "listing",
+  "prototype": "stardust/prototypes/experiences-proposed.html",
+  "css": {
+   "canon": "stardust/prototypes/canon.css",
+   "page": "stardust/prototypes/experiences.css",
+   "js": "stardust/prototypes/canon.js"
+  },
+  "regime": "prototype",
+  "sourceSpecCompare": {
+   "360": "0 sections with Δh, 0 nodes off, 0 missing",
+   "1440": "0 sections with Δh, 0 nodes off, 0 missing"
+  },
+  "rounds": {
+   "360": {
+    "ledger": "iter1 pass 2.85% (--full; hot band 0–500 16.0% = origin slider crossfade)",
+    "counted": "1",
+    "decisions": []
+   },
+   "1440": {
+    "ledger": "iter1 fail 14.19% (authoring defect: hero slider markup not swapped — garden slides served) · iter2 pass 0.05% · iter3 pass 0.05% (--full, post-motion confirmation, free)",
+    "counted": "2 + free confirmation",
+    "decisions": []
+   }
+  },
+  "gate": {
+   "360": {
+    "round": "iter1",
+    "pixelPct": 2.85,
+    "alignedUsed": false,
+    "deltaH": 0,
+    "offsets": 0,
+    "contentDiff": {
+     "looksSameRed": 0,
+     "nothingLostYellow": 0,
+     "advisory": 8
+    },
+    "visualDiff": "2 advisory flags (IMAGE DID NOT LOAD ×2 — mirrors live)",
+    "clipped": 0,
+    "overflow": "ok (360)",
+    "chromeParity": "quiet (2 advisory groups)",
+    "chromeBands": {
+     "header": {
+      "y": 0,
+      "h": 58,
+      "pct": 5.83,
+      "note": "over 2% — veil over the origin's slider crossfade (slide 3→4 mid-fade, bullet 4; ref-1 vs ref-2 0.00%); justified residual as index 360"
+     },
+     "footer": {
+      "y": 2120,
+      "h": 880,
+      "pct": 0.1
+     }
+    },
+    "units": "PASS (unit-geometry --families, 3 compared, 0 off)",
+    "reference": "frozen origin, noise floor 0.00%",
+    "verdict": "PASS (header band justified residual)",
+    "evidence": "stardust/replica/gates/experiences-360/verdict-iter1.json"
+   },
+   "1440": {
+    "round": "iter3",
+    "pixelPct": 0.05,
+    "alignedUsed": false,
+    "deltaH": 0,
+    "offsets": 0,
+    "contentDiff": {
+     "looksSameRed": 0,
+     "nothingLostYellow": 0,
+     "advisory": 7
+    },
+    "visualDiff": "2 advisory flags (IMAGE DID NOT LOAD ×2 — mirrors live)",
+    "clipped": 0,
+    "overflow": "ok (1440)",
+    "chromeParity": "quiet (3 advisory groups)",
+    "chromeBands": {
+     "header": {
+      "y": 0,
+      "h": 172,
+      "pct": 0.35
+     },
+     "footer": {
+      "y": 3313,
+      "h": 389,
+      "pct": 0.05
+     }
+    },
+    "units": "PASS (unit-geometry --families, 3 compared, 0 off)",
+    "reference": "frozen origin, noise floor 0.00%",
+    "verdict": "PASS",
+    "evidence": "stardust/replica/gates/experiences-1440/verdict-iter3.json"
+   }
+  },
+  "capProbe": {
+   "verdict": "PASS",
+   "width": 2560,
+   "rows": "0 of 5 failed",
+   "evidence": "stardust/replica/gates/experiences-2560/cap-iter.json"
+  },
+  "residuals": [
+   {
+    "width": "all",
+    "zone": "Nature / sport + Beach and more teaser images",
+    "cause": "live renders them broken: the lazy loader swaps src to a /wp/wp-content/… URL that 404s and drops the (valid) srcset — natural 0×0, blank 1024×576 box; build mirrors the rendered state verbatim (same src, no srcset). Same for the /wp/… teaser hrefs. Candidate inconsistency-register entry (deferred, owner): repair = src/srcset to /wp-content/uploads/2020/03/Punxes_L-*.jpg and Sunset-CostaDaurada*.jpg",
+    "status": "logged — register candidate"
+   },
+   {
+    "width": "360",
+    "zone": "header band / hero",
+    "cause": "frozen origin at 360 caught the Revolution slider mid-crossfade (slide 3 rs-27 → 4 rs-29, bullet 4); build shows slide 3 as the 1440 origin — header band 5.83%, hero band 16%",
+    "status": "justified (capture state, as index 360)"
+   },
+   {
+    "width": "all",
+    "zone": "hero slider timing",
+    "cause": "source data-duration 3500 ms (6 slides, 600 ms fade); canon.js hard-codes 2500 ms — markup carries data-duration=\"3500\" for the canon back-port",
+    "status": "logged — shared-layer back-port"
+   },
+   {
+    "width": "all",
+    "zone": "header Menu 1 / Languages / Main aria-labels; #main editable count 5 vs 8",
+    "cause": "same chrome advisories as index/the-garden; editable-count advisory as index",
+    "status": "advisory"
+   }
+  ],
+  "captureState": [
+   {
+    "zone": "hero slider (#main-slideshow, 6 slides)",
+    "frozenAs": "slide 3 rs-27 (parksamaP3D) active, bullet 3 selected — the frozen origin at 1440 (360 origin mid-fade 3→4)",
+    "restoreAtDelivery": "autoplay 3500 ms per slide, 600 ms fade, loop; bullets select a slide"
+   },
+   {
+    "zone": "#phantom floating header",
+    "frozenAs": "pinned visible by the capture freeze on both sides (as index)",
+    "restoreAtDelivery": "show-phantom on scroll past ~250px, hide-phantom above"
+   }
+  ],
+  "motion": {
+   "observed": [
+    "#phantom show/hide (slide-in-anim / slide-out-anim)",
+    "scroll-top .on/.off",
+    "show-floating-icon",
+    "main-nav sub-menu hover (dt-hovered/show-mega-menu-content, ul opacity 300ms)",
+    "footer link hover colour",
+    "hero slider autoplay (bullet .selected rotates unpoked)",
+    "hero bullets border/background transition 300ms",
+    "mobile drawer right/opacity transitions",
+    "lazyloading/lazyloaded classes on the teaser images"
+   ],
+   "implemented": [
+    "phantom/scroll-top/floating-icon/drawer/sub-nav/footer hover/slider autoplay + bullets (canon.js + canon.css, unchanged)",
+    "native loading=lazy for the lazy loader"
+   ],
+   "dead": [
+    "bullet click (no sampled change on live)",
+    "teaser h2 link hover",
+    "teaser image link hover",
+    "header .soc-ico hover",
+    "header scroll-morph"
+   ],
+   "notImplemented": [
+    "slider per-slide duration 3500 ms (canon.js fixed 2500 ms — back-port data-duration)"
+   ],
+   "compare": "motion-compare: 17 parity, 3 missing (sub-nav ul opacity — hover sampler, class lines parity as index/the-garden; lazyloaded/lazyloading — library mechanism, native lazy), 0 extra; opacity timing 600 vs 400 = slide crossfade, as index",
+   "evidence": [
+    "stardust/replica/motion/experiences-live.json",
+    "stardust/replica/motion/experiences-build.json",
+    "stardust/replica/motion/experiences-compare.json"
+   ],
+   "pixelAfterMotion": {
+    "360": 2.85,
+    "1440": 0.05
+   }
+  },
+  "portations": [],
+  "boxModel": "inherits canon; teaser img inline on the 25px paragraph line box (alignnone margin 0 auto 10px, vertical-align baseline)",
+  "fonts": "canon Montserrat + icomoon; nothing added",
+  "assets": "stardust/prototypes/assets: 6 slides Siurana/Priorat-CasaArgentera.jpg, parksamaP3D.JPG.png, Port-Mediterrani/Cala-Xelin/Tapas-workshop-Casa-Argentera.jpg (originals) + Celler-Modernista-300x169.jpg and Celler-Modernista.jpg (1980w) completing the source srcset (1024/768/1536 already present)",
+  "sharedFixesScopedLocally": [
+   "current-page .act state in masthead/phantom/drawer (EXPERIENCES top-level item) — same rules as the-garden/culture; back-port to canon",
+   "WPBakery .text-column > :last-child { margin-bottom: 0 } — as the-garden/culture; back-port",
+   "inline teaser image .alignnone (margin 0 auto 10px, baseline) — as culture; back-port",
+   "per-slider data-duration=\"3500\" carried in markup (canon.js ignores it) — back-port"
+  ],
+  "updatedAt": "2026-11-24"
+ },
+ "events": {
+  "slug": "events",
+  "url": "https://www.casaargentera.com/events/",
+  "template": "events",
+  "prototype": "stardust/prototypes/events-proposed.html",
+  "css": {
+   "canon": "stardust/prototypes/canon.css",
+   "page": "stardust/prototypes/events.css",
+   "js": "stardust/prototypes/canon.js"
+  },
+  "regime": "prototype",
+  "sourceSpecCompare": {
+   "360": "0 sections with Δh, 0 nodes off, 0 missing",
+   "1440": "0 sections with Δh, 0 nodes off, 0 missing"
+  },
+  "rounds": {
+   "360": {
+    "ledger": "iter1 pass 0.28% (--full) · iter2 pass 0.27% (--full, confirmation after the gallery model swap, free)",
+    "counted": "1 + free confirmation",
+    "decisions": []
+   },
+   "1440": {
+    "ledger": "iter1 fail 18.88% (authoring defect: hero Priorat slide used experiences' same-named but different Priorat-CasaArgentera.jpg) · iter2 pass 0.82% · iter3 fail on units only (pixel 0.45% PASS; unit-geometry element-kind pairing bg box vs img, Δ≤1px)",
+    "counted": "3 (cap)",
+    "decisions": [
+     "accept-residual: units element-model fixed post-cap (zone background cover + hidden sizing img) — standalone unit-geometry PASS stardust/replica/gates/events-1440/units-postfix.json; same markup in-gate at 360 iter2"
+    ]
+   }
+  },
+  "gate": {
+   "360": {
+    "round": "iter2",
+    "pixelPct": 0.27,
+    "alignedUsed": false,
+    "deltaH": 0,
+    "offsets": 0,
+    "contentDiff": {
+     "looksSameRed": 0,
+     "nothingLostYellow": 0,
+     "advisory": 6
+    },
+    "visualDiff": "0 flags",
+    "clipped": 0,
+    "overflow": "ok (360)",
+    "chromeParity": "quiet (1 advisory group)",
+    "chromeBands": {
+     "header": {
+      "y": 0,
+      "h": 58,
+      "pct": 0.05
+     },
+     "footer": {
+      "y": 3586,
+      "h": 880,
+      "pct": 0.13
+     }
+    },
+    "units": "PASS (unit-geometry --families, 12 compared, 0 off, 0 missing)",
+    "reference": "frozen origin (slide 4 rs-79), noise floor 0.00%",
+    "verdict": "PASS",
+    "evidence": "stardust/replica/gates/events-360/verdict-iter2.json"
+   },
+   "1440": {
+    "round": "iter3",
+    "pixelPct": 0.45,
+    "alignedUsed": false,
+    "deltaH": 0,
+    "offsets": 0,
+    "contentDiff": {
+     "looksSameRed": 0,
+     "nothingLostYellow": 0,
+     "advisory": 6
+    },
+    "visualDiff": "0 flags",
+    "clipped": 0,
+    "overflow": "ok (1440)",
+    "chromeParity": "quiet (2 advisory groups)",
+    "chromeBands": {
+     "header": {
+      "y": 0,
+      "h": 172,
+      "pct": 0.31
+     },
+     "footer": {
+      "y": 2788,
+      "h": 389,
+      "pct": 0.08
+     }
+    },
+    "units": "iter3 FAIL (6 missing: bg-image zone box vs visible img, geometry Δ≤1px) → post-fix standalone PASS (12 compared, 0 off, 0 missing; units-postfix.json)",
+    "reference": "frozen origin (slide 4 rs-79), noise floor 0.00%",
+    "verdict": "PASS (accept-residual on the units element pairing, fixed post-cap)",
+    "evidence": "stardust/replica/gates/events-1440/verdict-iter3.json"
+   }
+  },
+  "capProbe": {
+   "verdict": "PASS",
+   "width": 2560,
+   "rows": "0 of 4 failed",
+   "evidence": "stardust/replica/gates/events-2560/cap-iter.json"
+  },
+  "residuals": [
+   {
+    "width": "1440",
+    "zone": "media grid band 1358–1837",
+    "cause": "image resampling of the background-cover zones (band 1500–2000 1.4%); masonry whole-pixel column lefts lifted (Isotope 0/383/766 via round(down))",
+    "status": "logged — within bar"
+   },
+   {
+    "width": "1440",
+    "zone": "units (events-gallery-item)",
+    "cause": "iter3 unit-geometry paired live bg-image box against build img (missing 6); model swapped post-cap, standalone PASS — not re-gated at 1440 (cap, accept-residual)",
+    "status": "accepted residual"
+   },
+   {
+    "width": "all",
+    "zone": "header Menu 1 / Languages / Main aria-labels; footer search aria-label/icon anchor",
+    "cause": "same chrome advisories as index/contact",
+    "status": "advisory"
+   }
+  ],
+  "captureState": [
+   {
+    "zone": "hero slider (#main-slideshow, 6 slides)",
+    "frozenAs": "slide 4 rs-79 (Priorat, 'Wine tastings in The Priorat') active, bullet 4 selected — frozen origin at both 1440 and 360",
+    "restoreAtDelivery": "autoplay 2500 ms per slide, 600 ms fade, loop; bullets select a slide"
+   },
+   {
+    "zone": "#phantom floating header",
+    "frozenAs": "pinned visible by the capture freeze on both sides (as index)",
+    "restoreAtDelivery": "show-phantom on scroll past ~250px, hide-phantom above"
+   },
+   {
+    "zone": "media grid lightbox (prettyPhoto)",
+    "frozenAs": "closed",
+    "restoreAtDelivery": "links carry the live full-size image hrefs; lightbox not implemented (no observed motion; click opens the image)"
+   }
+  ],
+  "motion": {
+   "observed": [
+    "#phantom show/hide (slide-in-anim / slide-out-anim)",
+    "scroll-top .on/.off",
+    "show-floating-icon",
+    "main-nav sub-menu hover (dt-hovered/show-mega-menu-content, ul opacity 300ms)",
+    "footer link hover colour",
+    "CF7 submit hover background 300ms",
+    "hero slider autoplay (bullet .selected rotates; rs-forcehidden on layer wraps)",
+    "hero bullets border/background transition 300ms",
+    "mobile drawer right/opacity transitions"
+   ],
+   "implemented": [
+    "canon chrome + slider (unchanged)",
+    "CF7 submit hover (events.css)"
+   ],
+   "dead": [
+    "bullet click (no sampled change on live)",
+    "grid zone hover (vc_is-hover class, no measured diff)",
+    "privacy link hover",
+    "header .soc-ico hover",
+    "primary-menu 2nd item link hover",
+    "header scroll-morph"
+   ],
+   "notImplemented": [
+    "rs-forcehidden / idle class mutations — Revolution library mechanism (build hides layers with the slide)",
+    "vc_is-hover class — no visual change"
+   ],
+   "compare": "motion-compare: 20 parity, 4 missing (sub-nav ul opacity — hover sampler, class lines parity as index; rs-forcehidden + auto-advance idle mutation — library mechanism, .selected rotation at parity; vc_is-hover — no visual), 0 extra; opacity timing 600 vs 400 = slide crossfade, as index",
+   "evidence": [
+    "stardust/replica/motion/events-live.json",
+    "stardust/replica/motion/events-build.json",
+    "stardust/replica/motion/events-compare.json"
+   ],
+   "pixelAfterMotion": {
+    "360": 0.27,
+    "1440": 0.45
+   }
+  },
+  "portations": [],
+  "boxModel": "inherits canon; grid items border-box (padding 0 20px 20px 0), CF7 fields border-box",
+  "fonts": "canon Montserrat + icomoon (no new faces)",
+  "assets": "stardust/prototypes/assets: 6 hero slides (Olivera, Chocolatecourse, PinturaRápida, Tasting, Workshop + assets/events/Priorat-CasaArgentera.jpg — the 2020/03 file differs from the experiences asset of the same name) and 6 grid images (1024x576 renditions, Calçots 897×505, Paella 720×405)",
+  "sharedFixesScopedLocally": [
+   ".act menu state (EVENTS)",
+   "per-page header veil rgba(221,153,51,.5)",
+   "WPBakery text-column last-child margin + .vc-col min-height 1px",
+   "CF7 form look (copied from contact)",
+   "hero layers: data-xy absolute positioning (.hero-layer--xy) + 60/50 title size (.hero-layer--t60) — canon only has centre-offset layers and the 80/70 home title"
+  ],
+  "updatedAt": "2026-11-24"
+ },
+ "reservations-2": {
+  "slug": "reservations-2",
+  "url": "https://www.casaargentera.com/reservations-2/",
+  "template": "booking",
+  "prototype": "stardust/prototypes/reservations-2-proposed.html",
+  "css": {
+   "canon": "stardust/prototypes/canon.css",
+   "page": "stardust/prototypes/reservations-2.css",
+   "js": "stardust/prototypes/canon.js",
+   "pageJs": "stardust/prototypes/reservations-2.js"
+  },
+  "regime": "prototype",
+  "sourceSpecCompare": {
+   "360": "0 sections with Δh, 0 nodes off, 0 missing (after .phone-only display block)",
+   "1440": "0 sections with Δh, 0 nodes off, 0 missing (first compare)"
+  },
+  "rounds": {
+   "360": {
+    "ledger": "iter1 pass 0.17% (--full) · iter2 pass 0.17% (--full, post-motion confirmation, free)",
+    "counted": "1 + free confirmation",
+    "decisions": []
+   },
+   "1440": {
+    "ledger": "iter1 fail 0.13% (--full; content-diff 124 red: hidden non-current months not carried) · iter2 pass 0.13% (--full; all 15 captured months carried, day-label span granularity mirrored, R-01 links owner-accepted) · iter3 pass 0.13% (--full, post-motion confirmation, free)",
+    "counted": "2 + free confirmation",
+    "decisions": []
+   }
+  },
+  "gate": {
+   "360": {
+    "round": "iter2",
+    "pixelPct": 0.17,
+    "alignedUsed": false,
+    "deltaH": 0,
+    "offsets": 0,
+    "contentDiff": {
+     "looksSameRed": 0,
+     "nothingLostYellow": 0,
+     "advisory": 12,
+     "acceptedOwner": 4
+    },
+    "visualDiff": "0 flags",
+    "clipped": 0,
+    "overflow": "ok (360)",
+    "chromeParity": "quiet (1 advisory group)",
+    "chromeBands": {
+     "header": {
+      "y": 0,
+      "h": 58,
+      "pct": 0.87
+     },
+     "footer": {
+      "y": 2346,
+      "h": 880,
+      "pct": 0.13
+     }
+    },
+    "units": "PASS (unit-geometry --families, 9 compared, 0 off)",
+    "reference": "frozen origin, noise floor 0.00%, no masked rows",
+    "verdict": "PASS",
+    "evidence": "stardust/replica/gates/reservations-2-360/verdict-iter2.json"
+   },
+   "1440": {
+    "round": "iter3",
+    "pixelPct": 0.13,
+    "alignedUsed": false,
+    "deltaH": 0,
+    "offsets": 0,
+    "contentDiff": {
+     "looksSameRed": 0,
+     "nothingLostYellow": 0,
+     "advisory": 10,
+     "acceptedOwner": 4
+    },
+    "visualDiff": "0 flags",
+    "clipped": 0,
+    "overflow": "ok (1440)",
+    "chromeParity": "quiet (2 advisory groups)",
+    "chromeBands": {
+     "header": {
+      "y": 0,
+      "h": 172,
+      "pct": 0.35
+     },
+     "footer": {
+      "y": 2631,
+      "h": 389,
+      "pct": 0.05
+     }
+    },
+    "units": "PASS (unit-geometry --families, 43 compared, 0 off)",
+    "reference": "frozen origin, noise floor 0.00%, no masked rows",
+    "verdict": "PASS",
+    "evidence": "stardust/replica/gates/reservations-2-1440/verdict-iter3.json"
+   }
+  },
+  "capProbe": {
+   "verdict": "PASS",
+   "width": 2560,
+   "rows": "0 of 4 failed",
+   "evidence": "stardust/replica/gates/reservations-2-2560/cap-iter.json"
+  },
+  "residuals": [
+   {
+    "width": "all",
+    "zone": "availability calendar — guest data",
+    "cause": "register R-01: the Airbnb reservation-detail links (4 MISSING CTA, owner-accepted in stardust/replica/accepted.json) and the event descriptions carrying them plus guest phone fragments (4 MISSING BODY advisories) are not carried; day states, titles and multi-day ranges are",
+    "status": "intended (R-01)"
+   },
+   {
+    "width": "all",
+    "zone": "availability calendar — capture state",
+    "cause": "static snapshot of the 15 captured months (Aug 2026–Oct 2027), current month November 2026 with today = 24/11 booked; live re-renders today/past/future daily from the iCal feed — the frozen reference and the prototype agree on 2026-11-24 only (no mask needed today)",
+    "status": "dynamic-features row 10 interim (needs-business-decision)"
+   },
+   {
+    "width": "all",
+    "zone": "header Menu 1 / Languages, footer search aria-label",
+    "cause": "same chrome advisories as index/contact",
+    "status": "advisory, as index"
+   }
+  ],
+  "captureState": [
+   {
+    "zone": "hero (#rev_slider_13_1, single slide rs-60, no bullets)",
+    "frozenAs": "static single slide Collage-CasaArgentera.jpg (1920×1080 original upload)",
+    "restoreAtDelivery": "none (single slide)"
+   },
+   {
+    "zone": "#phantom floating header",
+    "frozenAs": "pinned visible by the capture freeze on both sides (as index)",
+    "restoreAtDelivery": "show-phantom on scroll past ~250px, hide-phantom above"
+   },
+   {
+    "zone": "ICS availability calendar",
+    "frozenAs": "November 2026 shown (data-this-month 202611), other 14 months hidden; select = November 2026",
+    "restoreAtDelivery": "dynamic-features row 10 booking-calendar: interim static snapshot; live feed needs an owner decision"
+   },
+   {
+    "zone": "Contact Form 7",
+    "frozenAs": "empty fields, unchecked acceptance, no response output",
+    "restoreAtDelivery": "dynamic-features row 3 f-enquiry-form: interim tier — submit shows a no-backend notice; reCAPTCHA v3 not replicated"
+   }
+  ],
+  "motion": {
+   "observed": [
+    "#phantom show/hide (slide-in-anim / slide-out-anim)",
+    "scroll-top .on/.off",
+    "show-floating-icon",
+    "main-nav sub-menu hover (dt-hovered/show-mega-menu-content, ul opacity 300ms)",
+    "CF7 submit hover background #dd9d3b→#ae9964 (transition all .3s ease-out)",
+    "footer link hover colour",
+    "mobile drawer right/opacity transitions"
+   ],
+   "implemented": [
+    "phantom/scroll-top/floating-icon/drawer/sub-nav/footer hover (canon.js + canon.css)",
+    "CF7 submit hover background + 300ms transition (reservations-2.css)"
+   ],
+   "dead": [
+    "#primary-menu li:nth-child(2) > a hover",
+    "privacy-policy link hover",
+    "calendar select hover",
+    "calendar today event title hover",
+    "calendar future day cell hover",
+    "header .soc-ico hover",
+    "header scroll-morph"
+   ],
+   "notImplemented": [],
+   "unobservedFunctional": [
+    "month select change → shows that month (reservations-2.js; source plugin behaviour, not poked by motion-observe)",
+    "multi-day event hover block (date range) — lifted from the plugin CSS; only present on non-current months, so not observable at capture state"
+   ],
+   "compare": "motion-compare: 16 parity, 1 missing (hover sampler does not list the sub-nav ul — dt-hovered/show-mega-menu-content class lines are parity, as index/contact), 0 extra",
+   "evidence": [
+    "stardust/replica/motion/reservations-2-live.json",
+    "stardust/replica/motion/reservations-2-build.json"
+   ],
+   "pixelAfterMotion": {
+    "360": 0.17,
+    "1440": 0.13
+   }
+  },
+  "portations": [],
+  "calendar": "ICS Calendar month layout re-authored (.avail-calendar): 15 captured months, td states off/past/today/future × empty/has-events, events all-day + multi-day bars; lifted plugin tokens (#f0f3f6, #d9dcdf, #70787f, #10181f), 70% cell font, td 9em/7.5em, 782px collapse to event days; The7 select arrow gradients. No reservation URLs, descriptions or phone fragments (R-01).",
+  "boxModel": "inherits canon; calendar subtree border-box (lifted .ics-calendar *); select border-box 200×40; CF7 fields border-box; .vc-col min-height 1px",
+  "fonts": "canon Montserrat + icomoon (no new faces)",
+  "assets": "stardust/prototypes/assets/Collage-CasaArgentera.jpg (hero, 1920×1080 original upload)",
+  "sharedFixesScopedLocally": [
+   "per-page masthead veil rgba(221,153,51,.5) (as the-garden) — canon back-port candidate (per-template veil token)",
+   ".act current-page state (masthead underline, phantom/drawer accent) — copy of contact pattern",
+   ".text-column last-child margin 0 + .space-25 (WPBakery)",
+   ".vc-col min-height 1px — canon back-port candidate (as contact)",
+   "CF7 look + submit transition copied from contact.css — back-port with the CF7 module",
+   ".price-column h3 margin-bottom 10px (The7 h3 default inside a text column; canon h3 sets 0)"
+  ],
+  "updatedAt": "2026-11-24"
+ },
+ "privacy-policy-and-cookies": {
+  "slug": "privacy-policy-and-cookies",
+  "url": "https://www.casaargentera.com/privacy-policy-and-cookies/",
+  "template": "static",
+  "prototype": "stardust/prototypes/privacy-policy-and-cookies-proposed.html",
+  "css": {
+   "canon": "stardust/prototypes/canon.css",
+   "page": "stardust/prototypes/privacy-policy-and-cookies.css",
+   "js": "stardust/prototypes/canon.js"
+  },
+  "regime": "prototype",
+  "sourceSpecCompare": {
+   "360": "0 sections with Δh, 0 nodes off, 0 missing (--main #content)",
+   "1440": "0 sections with Δh, 0 nodes off, 0 missing (--main #content)"
+  },
+  "rounds": {
+   "360": {
+    "ledger": "iter1 pass 0.09% (--full, first) · iter2 pass 0.09% (pixel, post-motion, free confirmation)",
+    "counted": "1 + free confirmation",
+    "decisions": []
+   },
+   "1440": {
+    "ledger": "iter1 pass 0.07% (--full, first; units declared) · iter2 pass 0.07% (pixel, post-motion, free confirmation)",
+    "counted": "1 + free confirmation",
+    "decisions": []
+   }
+  },
+  "gate": {
+   "360": {
+    "round": "iter2",
+    "pixelPct": 0.09,
+    "alignedUsed": false,
+    "deltaH": 0,
+    "offsets": 0,
+    "contentDiff": {
+     "looksSameRed": 0,
+     "nothingLostYellow": 0,
+     "advisory": 7
+    },
+    "visualDiff": "0 flags",
+    "clipped": 0,
+    "overflow": "ok (360)",
+    "chromeParity": "quiet (1 advisory group)",
+    "chromeBands": {
+     "header": {
+      "y": 0,
+      "h": 58,
+      "pct": 0.05
+     },
+     "footer": {
+      "y": 4631,
+      "h": 880,
+      "pct": 0.1
+     }
+    },
+    "units": "PASS (legal-section-heading, 9 compared, 0 off)",
+    "reference": "frozen origin, noise floor 0.00%",
+    "verdict": "PASS",
+    "evidence": "stardust/replica/gates/privacy-policy-and-cookies-360/verdict-iter2.json"
+   },
+   "1440": {
+    "round": "iter2",
+    "pixelPct": 0.07,
+    "alignedUsed": false,
+    "deltaH": 0,
+    "offsets": 0,
+    "contentDiff": {
+     "looksSameRed": 0,
+     "nothingLostYellow": 0,
+     "advisory": 6
+    },
+    "visualDiff": "0 flags",
+    "clipped": 0,
+    "overflow": "ok (1440)",
+    "chromeParity": "quiet (2 advisory groups)",
+    "chromeBands": {
+     "header": {
+      "y": 0,
+      "h": 172,
+      "pct": 0.26
+     },
+     "footer": {
+      "y": 2031,
+      "h": 389,
+      "pct": 0.05
+     }
+    },
+    "units": "PASS (legal-section-heading, 9 compared, 0 off)",
+    "reference": "frozen origin, noise floor 0.00%",
+    "verdict": "PASS",
+    "evidence": "stardust/replica/gates/privacy-policy-and-cookies-1440/verdict-iter2.json"
+   }
+  },
+  "capProbe": {
+   "verdict": "PASS",
+   "width": 2560,
+   "rows": "0 of 3 failed",
+   "evidence": "stardust/replica/gates/privacy-policy-and-cookies-2560/cap-iter.json"
+  },
+  "residuals": [
+   {
+    "width": "all",
+    "zone": "content-diff advisories",
+    "cause": "inherited canon chrome advisories (Menu 1 body ×2, build-only nav/button aria-labels, footer search icon anchor; header FONT FORK on hidden nav at 360)",
+    "status": "intended (same as index/culture)"
+   }
+  ],
+  "captureState": [
+   {
+    "zone": "#phantom floating header",
+    "frozenAs": "same state machine as index (canon.js)",
+    "restoreAtDelivery": "show-phantom on scroll past ~250px, hide-phantom back above"
+   }
+  ],
+  "motion": {
+   "observed": [
+    "#phantom show/hide on scroll (slide-in/slide-out)",
+    "scroll-top .on/.off",
+    "show-floating-icon",
+    "EXPERIENCES sub-menu hover (.dt-hovered/show-mega-menu-content, sub-nav opacity 300ms)",
+    "footer link hover colour",
+    "drawer/overlay transitions (right/opacity/z-index 400ms)"
+   ],
+   "implemented": [
+    "all of the observed — inherited from canon.js/canon.css (no page-only motion)"
+   ],
+   "dead": [
+    "#primary-menu > li:nth-child(2) > a hover (no diff)",
+    "#content .wpb_text_column p a hover (no diff)",
+    ".header-bar .soc-ico a hover (no diff)",
+    "header scroll-morph (static)"
+   ],
+   "notImplemented": [],
+   "compare": "motion-compare: 14 parity, 1 missing (sub-nav hover: sampler does not list the ul — class lines dt-hovered/show-mega-menu-content = parity, as on culture), 0 extra",
+   "evidence": [
+    "stardust/replica/motion/privacy-policy-and-cookies-live.json",
+    "stardust/replica/motion/privacy-policy-and-cookies-build.json",
+    "stardust/replica/motion/privacy-policy-and-cookies-compare.json"
+   ],
+   "pixelAfterMotion": {
+    "360": 0.09,
+    "1440": 0.07
+   }
+  },
+  "portations": [],
+  "boxModel": "inherits canon (no new containers)",
+  "fonts": "canon Montserrat + icomoon (no new face)",
+  "assets": "none new — canon chrome assets only (no hero, no content images)",
+  "sharedFixesScopedLocally": [
+   "per-page veil rgba(221,153,51,.5) (:root --ca-header-veil)",
+   "h4 200 22px/30px (canon has no h4 face rule — back-port candidate)",
+   ".text-column > :last-child margin 0 (WPBakery)",
+   ".vc-col min-height 1px (trailing empty row = 1px, as contact/events)",
+   "no .act menu item; top-bar/mobile language menu lists only Dansk + Català (live omits Español on this page); footer switcher hrefs → this page translations"
+  ],
+  "updatedAt": "2026-11-24"
+ }
+}

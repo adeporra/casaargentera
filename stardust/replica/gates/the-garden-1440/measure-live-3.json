@@ -1,0 +1,183 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-24T11:04:51.054Z",
+    "urls": [
+      "https://www.casaargentera.com/the-garden/"
+    ],
+    "widths": [
+      1440
+    ],
+    "selectors": [
+      ".wpcf7-list-item-label",
+      ".wpcf7-list-item-label a",
+      ".wpcf7-list-item label",
+      ".wpcf7-acceptance input"
+    ],
+    "props": [
+      "letterSpacing",
+      "wordSpacing",
+      "fontKerning",
+      "fontFeatureSettings",
+      "textRendering",
+      "fontVariantLigatures",
+      "fontFamily",
+      "fontSize",
+      "margin",
+      "padding",
+      "whiteSpace",
+      "fontSynthesis",
+      "verticalAlign",
+      "width"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440
+  ],
+  "selectors": [
+    ".wpcf7-list-item-label",
+    ".wpcf7-list-item-label a",
+    ".wpcf7-list-item label",
+    ".wpcf7-acceptance input"
+  ],
+  "root": {
+    "https://www.casaargentera.com/the-garden/": {
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 3496,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.casaargentera.com/the-garden/": {
+      "1440": {
+        ".wpcf7-list-item-label": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 182,
+              "y": 2976,
+              "w": 288,
+              "h": 18
+            },
+            "visible": true,
+            "text": "I have read and accept the privacy poli…",
+            "props": {
+              "letterSpacing": "normal",
+              "wordSpacing": "0px",
+              "fontKerning": "auto",
+              "fontFeatureSettings": "normal",
+              "textRendering": "auto",
+              "fontVariantLigatures": "normal",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "margin": "0px",
+              "padding": "0px",
+              "whiteSpace": "normal",
+              "fontSynthesis": "weight style small-caps",
+              "verticalAlign": "baseline",
+              "width": "auto"
+            }
+          }
+        ],
+        ".wpcf7-list-item-label a": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 375,
+              "y": 2976,
+              "w": 95,
+              "h": 18
+            },
+            "visible": true,
+            "text": "privacy policy",
+            "props": {
+              "letterSpacing": "normal",
+              "wordSpacing": "0px",
+              "fontKerning": "auto",
+              "fontFeatureSettings": "normal",
+              "textRendering": "auto",
+              "fontVariantLigatures": "normal",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "margin": "0px",
+              "padding": "0px",
+              "whiteSpace": "normal",
+              "fontSynthesis": "weight style small-caps",
+              "verticalAlign": "baseline",
+              "width": "auto"
+            }
+          }
+        ],
+        ".wpcf7-list-item label": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 169,
+              "y": 2976,
+              "w": 301,
+              "h": 18
+            },
+            "visible": true,
+            "text": "I have read and accept the privacy poli…",
+            "props": {
+              "letterSpacing": "normal",
+              "wordSpacing": "0px",
+              "fontKerning": "auto",
+              "fontFeatureSettings": "normal",
+              "textRendering": "auto",
+              "fontVariantLigatures": "normal",
+              "fontFamily": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+              "fontSize": "14px",
+              "margin": "0px",
+              "padding": "0px",
+              "whiteSpace": "normal",
+              "fontSynthesis": "weight style small-caps",
+              "verticalAlign": "baseline",
+              "width": "auto"
+            }
+          }
+        ],
+        ".wpcf7-acceptance input": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 169,
+              "y": 2977,
+              "w": 13,
+              "h": 13
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "letterSpacing": "normal",
+              "wordSpacing": "0px",
+              "fontKerning": "auto",
+              "fontFeatureSettings": "normal",
+              "textRendering": "auto",
+              "fontVariantLigatures": "normal",
+              "fontFamily": "Arial",
+              "fontSize": "14px",
+              "margin": "0px",
+              "padding": "0px",
+              "whiteSpace": "normal",
+              "fontSynthesis": "weight style small-caps",
+              "verticalAlign": "baseline",
+              "width": "13px"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

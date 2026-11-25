@@ -1,0 +1,28 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://www.casaargentera.com/experiences/",
+  "width": 1440,
+  "vh": 900,
+  "height": 3702,
+  "chunks": 5,
+  "denialCheck": "ok",
+  "freeze": "applied",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 9,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 4,
+    "intervals": 2,
+    "chains": 2,
+    "delays": [
+      2500,
+      86400000
+    ]
+  },
+  "at": "2026-11-24T11:24:55.894Z"
+}

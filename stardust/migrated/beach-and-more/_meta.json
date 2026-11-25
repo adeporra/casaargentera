@@ -1,0 +1,99 @@
+{
+  "slug": "beach-and-more",
+  "type": "article",
+  "renderBranch": "A'",
+  "template": "culture",
+  "modules": [
+    "hero-slider",
+    "media-feature"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "wf-wrap"
+  ],
+  "canonShas": {
+    "header": "aa59dab4d0ad",
+    "footer": "fb0561126c81",
+    "css": "89a5d300aec7"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "BEACH AND MORE - Casa Argentera",
+    "description": "Casa Argentera is located close enough to many sights that are worth a visit! Just have a look at our suggestions! The Mediterranean, Port Aventura World...Gaudi´s inspirations area, Miro..",
+    "canonical": null,
+    "lang": "en-GB"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "BEACH AND MORE - Casa Argentera",
+    "description": "Casa Argentera is located close enough to many sights that are worth a visit! Just have a look at our suggestions! The Mediterranean, Port Aventura World...Gaudi´s inspirations area, Miro..",
+    "mainEntityOfPage": "https://www.casaargentera.com/beach-and-more/"
+  },
+  "migratedAt": "2026-11-24T17:08:32Z",
+  "designMdSha": "7ead730e40e5",
+  "designJsonSha": "15480f089476",
+  "sourceCurrentSha": "8f49207a4c8d",
+  "sourceProposedSha": "6b2ce0b9d26f",
+  "fidelityTier": "sibling",
+  "archetypeSource": "culture",
+  "archetypeSha": "3ef5c172cd4d",
+  "variants": [
+    "gap-32 top-0"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 over es/la-casa, es/playas-y-mas, es/el-entorno, ca/platja-i-mes, who-we-are, da/strand-m-m vs /culture/ @1440: content-driven deltas only (feature/text counts and heights; h3 intro + h3-wrapped images on la-casa pages, verbatim; shortcode-text intro on playas/platja/strand, verbatim R-09 class; single-image rows on el-entorno/who-we-are → image-grid plain) — spacing/slider deltas carried as variant classes (media-feature gap-<n>/top-<n>/intro-<n>, hero-slider start-<n>); stardust/.work/rollout/article/variance.json",
+    "content-fidelity": "Path A' clone stardust/.work/rollout/article/src/beach-and-more-proposed.html (stardust/encoders/build-clone-article.mjs) from the capture: verbatim headings/inline spans, paragraphs, inline + single images with alts, raw shortcode text; content-diff #main 🔴 0, text/heading/CTA/img counts equal (stardust/.work/rollout/article/content-diff-beach-and-more.txt); 🟡 EDITABLE COUNT = noscript artefact (deviation drop-noscript); chrome 🔴 = canon-chrome deviation"
+  },
+  "contentDeviations": [
+    {
+      "kind": "chrome-canon",
+      "source": "localized WP header/footer",
+      "target": "canon chrome (EN) in clone",
+      "reason": "Path A' clone carries canon chrome verbatim (active trail moved to this page's nav item, masthead veil from the source); EDS delivery uses the locale nav/footer docs"
+    },
+    {
+      "kind": "drop-noscript",
+      "source": "3× <noscript><img …></noscript> lazy-load duplicate inside the image paragraphs",
+      "target": "(none — the <img> itself is kept)",
+      "reason": "polyfill duplicate dropped; content-diff counts its raw text as an editable node, so #main EDITABLE COUNT reads source n / build n-3 (🟡) with text, headings, CTAs and images equal"
+    }
+  ],
+  "assetsBundled": 8,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/kulturen/",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "beach-and-more/index.html",
+  "outputPathDefault": null,
+  "sidecar": "beach-and-more/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,26 @@
+/* ==========================================================================
+   Casa Argentera — "listing" archetype (experiences overview)
+   Imports canon.css first; only what this template adds.
+   Lifted from source-spec (1440/360) and the source sheet
+   (css-rules.mjs over stardust/current/assets/css/combined.css).
+   Masthead veil: this page's inline value is rgba(221,179,110,.5) = the canon
+   default, so no per-page token override here.
+   ========================================================================== */
+
+/* ---- current-page state in the chrome (The7 .act on the item; scoped here,
+   canon has no .act state yet — back-port candidate, as the-garden / culture).
+   Lifted: .l-to-r-line>li.act>a i.underline { width:100% };
+   #phantom .main-nav>li.act>a { color:#dd9d3b }; .mobile-main-nav li.act>a { color:#dd9d3b } */
+.main-nav > li.act > a .underline { width: 100%; }
+#phantom .main-nav > li.act > a { color: #dd9d3b; }
+#phantom .main-nav > li.act > a .underline { background: #dd9d3b; }
+#phantom .main-nav > li.has-children.act > a .menu-text::after { background: #dd9d3b; }
+.mobile-main-nav li.act > a { color: #dd9d3b; }
+
+/* ---- WPBakery text column: the last child carries no bottom margin
+   (lifted: .wpb_text_column *:last-child { margin-bottom: 0 }) */
+.text-column > :last-child { margin-bottom: 0; }
+
+/* ---- teaser image inside a paragraph (lifted: .alignnone { float:none; margin:0 auto 10px });
+   inline on the paragraph's 25px line box, so the row keeps the descender gap */
+.exp-row img.alignnone { max-width: 100%; height: auto; margin: 0 auto 10px; vertical-align: baseline; }

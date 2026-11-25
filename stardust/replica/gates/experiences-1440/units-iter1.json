@@ -1,0 +1,504 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T11:26:15.585Z",
+  "tol": 4,
+  "n": 3,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/experiences/",
+  "at": "2026-11-24T11:26:00.787Z",
+  "docH": 3702
+ },
+ "eds": {
+  "url": "http://localhost:8792/experiences-proposed.html",
+  "at": "2026-11-24T11:26:15.541Z",
+  "docH": 3702
+ },
+ "results": [
+  {
+   "sel": "#content > .vc_row:nth-child(n+3) > .wpb_column=#content > .exp-row > .vc-col",
+   "family": "experience-teaser",
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div#content > section.vc-row.exp-row > div.vc-col"
+     },
+     "rows": [
+      {
+       "key": "link:nature / sport experiences",
+       "role": "link",
+       "text": "nature / sport experiences",
+       "edsText": "nature / sport experiences",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": -3,
+        "w": 644,
+        "h": 61
+       },
+       "eds": {
+        "x": 30,
+        "y": -3,
+        "w": 644,
+        "h": 61,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "heading:nature / sport experiences",
+       "role": "heading",
+       "text": "nature / sport experiences",
+       "edsText": "nature / sport experiences",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 1130,
+        "h": 55
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 1130,
+        "h": 55,
+        "sel": "h2",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "image:img.alignnone.wp-image-15675#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 87,
+        "w": 1024,
+        "h": 576
+       },
+       "eds": {
+        "x": 30,
+        "y": 87,
+        "w": 1024,
+        "h": 576,
+        "sel": "img.alignnone",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:a#2",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 93,
+        "w": 1024,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 93,
+        "w": 1024,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1130,
+       "w": 1190,
+       "h": 705
+      },
+      "eds": {
+       "x": 125,
+       "y": 1130,
+       "w": 1190,
+       "h": 705
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div#content > section.vc-row.exp-row > div.vc-col"
+     },
+     "rows": [
+      {
+       "key": "link:cultural experiences",
+       "role": "link",
+       "text": "cultural experiences",
+       "edsText": "cultural experiences",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": -3,
+        "w": 496,
+        "h": 61
+       },
+       "eds": {
+        "x": 30,
+        "y": -3,
+        "w": 496,
+        "h": 61,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "heading:cultural experiences",
+       "role": "heading",
+       "text": "cultural experiences",
+       "edsText": "cultural experiences",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 1130,
+        "h": 55
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 1130,
+        "h": 55,
+        "sel": "h2",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "image:modernist wine cellar, wine cathedral, p",
+       "role": "image",
+       "text": "modernist wine cellar, wine cathedral, pinell de brai",
+       "edsText": "modernist wine cellar, wine cathedral, pinell de brai",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 87,
+        "w": 1024,
+        "h": 576
+       },
+       "eds": {
+        "x": 30,
+        "y": 87,
+        "w": 1024,
+        "h": 576,
+        "sel": "img.alignnone",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1835,
+       "w": 1190,
+       "h": 713
+      },
+      "eds": {
+       "x": 125,
+       "y": 1835,
+       "w": 1190,
+       "h": 713
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div#content > section.vc-row.exp-row > div.vc-col"
+     },
+     "rows": [
+      {
+       "key": "link:beach and more",
+       "role": "link",
+       "text": "beach and more",
+       "edsText": "beach and more",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": -3,
+        "w": 409,
+        "h": 61
+       },
+       "eds": {
+        "x": 30,
+        "y": -3,
+        "w": 409,
+        "h": 61,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "heading:beach and more",
+       "role": "heading",
+       "text": "beach and more",
+       "edsText": "beach and more",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 1130,
+        "h": 55
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 1130,
+        "h": 55,
+        "sel": "h2",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "image:img.alignnone.wp-image-15609#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 87,
+        "w": 1024,
+        "h": 576
+       },
+       "eds": {
+        "x": 30,
+        "y": 87,
+        "w": 1024,
+        "h": 576,
+        "sel": "img.alignnone",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:a#2",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 93,
+        "w": 1024,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 93,
+        "w": 1024,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 2548,
+       "w": 1190,
+       "h": 705
+      },
+      "eds": {
+       "x": 125,
+       "y": 2548,
+       "w": 1190,
+       "h": 705
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 3,
+  "within": 11,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

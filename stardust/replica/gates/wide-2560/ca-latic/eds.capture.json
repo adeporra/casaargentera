@@ -1,0 +1,27 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://main--ea32f12a--aemcoder.aem.page/ca/latic",
+  "width": 2560,
+  "vh": 900,
+  "height": 4648,
+  "chunks": 6,
+  "denialCheck": "ok",
+  "freeze": "applied",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 5,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 1,
+    "intervals": 1,
+    "chains": 0,
+    "delays": [
+      3000
+    ]
+  },
+  "at": "2026-11-24T22:36:52.476Z"
+}

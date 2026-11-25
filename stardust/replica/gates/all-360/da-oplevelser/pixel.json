@@ -1,0 +1,138 @@
+{
+  "a": "stardust/replica/gates/all-360/da-oplevelser/origin.png",
+  "b": "stardust/replica/gates/all-360/da-oplevelser/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3149,
+    "mode": "overlap"
+  },
+  "heightDelta": -24,
+  "differingPixels": 207332,
+  "pct": 19.99,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/da-oplevelser/diff.png",
+  "masks": [
+    {
+      "yA": 0,
+      "h": 268,
+      "yB": 0
+    }
+  ],
+  "maskedRows": 268,
+  "textPct": 3.45,
+  "textBoxes": 48,
+  "textPixels": 245835,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 28.8
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 40
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 33.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 10.5
+    },
+    {
+      "y0": 3000,
+      "y1": 3149,
+      "pct": 4.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 16.85,
+    "differingPixels": 176227,
+    "compared": {
+      "width": 360,
+      "height": 2905,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2159,
+        "shift": 24,
+        "cumulative": 24
+      }
+    ],
+    "maxOffset": 24,
+    "totalShift": 24,
+    "insertedRows": 24,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 28.8,
+        "unaligned": 28.8
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 40,
+        "unaligned": 40
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 26.9,
+        "unaligned": 33.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.2,
+        "unaligned": 10.5
+      },
+      {
+        "y0": 3000,
+        "y1": 3149,
+        "pct": 0,
+        "unaligned": 4.6
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/da-oplevelser/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 31,
+    "totalShift": 24,
+    "pass": true
+  },
+  "reason": "pixel aligned 16.85% (unaligned 19.99%) > 10%",
+  "maskReason": "self-varying rows of the frozen reference (noise floor 6.15%)"
+}

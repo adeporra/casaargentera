@@ -1,0 +1,301 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-24T11:34:55.280Z",
+  "url": "https://www.casaargentera.com/reservations-2/",
+  "width": 360,
+  "main": "main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://www.casaargentera.com/reservations-2/",
+  "width": 360,
+  "viewport": 360,
+  "docHeight": 3226,
+  "scrollWidth": 360,
+  "root": "main, [role=\"main\"]",
+  "rootFallback": true,
+  "records": [
+   "scroll",
+   "shape"
+  ],
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+    "n": 46
+   }
+  ],
+  "loadedFaces": [
+   "Montserrat 200 normal",
+   "Montserrat 300 normal",
+   "Montserrat 400 normal",
+   "Montserrat 700 normal",
+   "Montserrat 800 normal",
+   "icomoon-the7-font 400 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "14/25 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 25,
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 29,
+    "roles": {
+     "label": 5,
+     "field": 7,
+     "p": 12,
+     "span": 1,
+     "link": 4
+    },
+    "sample": "Your Name (required)"
+   },
+   {
+    "key": "30/35 200 Montserrat",
+    "fontSize": 30,
+    "lineHeight": 35,
+    "fontWeight": "200",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "h3": 5
+    },
+    "sample": "November 2026"
+   },
+   {
+    "key": "17/27 200 Montserrat",
+    "fontSize": 17,
+    "lineHeight": 27,
+    "fontWeight": "200",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "div": 5
+    },
+    "sample": "CONTACT US"
+   },
+   {
+    "key": "14/25 700 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 25,
+    "fontWeight": "700",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "p": 4
+    },
+    "sample": "950-975 € for up to 13 persons"
+   },
+   {
+    "key": "14/normal 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": "normal",
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "link": 4
+    },
+    "sample": "English"
+   },
+   {
+    "key": "14/16 800 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 16,
+    "fontWeight": "800",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "field": 2
+    },
+    "sample": "Send"
+   },
+   {
+    "key": "14/21 700 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 21,
+    "fontWeight": "700",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "span": 2
+    },
+    "sample": "Tuesday 24/11"
+   },
+   {
+    "key": "14/26 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 26,
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "link": 2
+    },
+    "sample": "Facebook page opens in new window"
+   },
+   {
+    "key": "50/55 200 Montserrat",
+    "fontSize": 50,
+    "lineHeight": 55,
+    "fontWeight": "200",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h2": 1
+    },
+    "sample": "Reservations’"
+   },
+   {
+    "key": "14/normal 400 Arial",
+    "fontSize": 14,
+    "lineHeight": "normal",
+    "fontWeight": "400",
+    "fontFamily": "Arial",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "field": 1
+    },
+    "sample": "1"
+   },
+   {
+    "key": "10.5/15.75 400 Montserrat uppercase",
+    "fontSize": 10.5,
+    "lineHeight": 15.75,
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "uppercase",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "All Day"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(58, 58, 58)",
+    "n": 19
+   },
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 13
+   },
+   {
+    "color": "rgb(43, 43, 43)",
+    "n": 8
+   },
+   {
+    "color": "rgb(120, 125, 133)",
+    "n": 6
+   },
+   {
+    "color": "rgb(221, 157, 59)",
+    "n": 6
+   },
+   {
+    "color": "rgb(16, 24, 31)",
+    "n": 3
+   },
+   {
+    "color": "rgb(0, 0, 0)",
+    "n": 1
+   }
+  ],
+  "container": {
+   "left": 30,
+   "right": 30,
+   "content": 300,
+   "leftCommon": {
+    "x": 30,
+    "n": 30
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"header","y":0,"h":58,"background":"rgba(221, 153, 51, 0.5)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.masthead.inline-header","firstText":""},
+  {"i":1,"region":"main","y":312,"h":947,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"Reservations’"},
+  {"i":2,"region":"main","y":1259,"h":150,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"This calendar only shows availability for the whole house. …"},
+  {"i":3,"region":"main","y":1409,"h":876,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"Month selection"},
+  {"i":4,"region":"main","y":2285,"h":1,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":""},
+  {"i":5,"region":"footer","y":2346,"h":880,"background":"rgb(221, 157, 59)","paddingTop":0,"paddingBottom":0,"selectorHint":"footer#footer.footer.solid-bg","firstText":"CONTACT US"}
+ ],
+ "nodes": [
+  {"section":0,"region":"header","kind":"image","tag":"img","role":"link","text":"Casa Argentera","x":30,"y":0,"w":75,"h":58,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[75,58],"src":"https://www.casaargentera.com/wp-content/uploads/2020/04/Logo-75-px.jpg","href":"https://www.casaargentera.com/"},
+  {"section":1,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Reservations’","x":30,"y":312,"w":300,"h":55,"fontFamily":"Montserrat","fontSize":50,"lineHeight":55,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"label","role":null,"text":"Your Name (required)","x":30,"y":434,"w":300,"h":51,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"input","role":"field","text":"your-name","x":30,"y":456,"w":300,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(120, 125, 133)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"label","role":null,"text":"Your Email (required)","x":30,"y":519,"w":300,"h":51,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"input","role":"field","text":"your-email","x":30,"y":541,"w":300,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(120, 125, 133)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"label","role":null,"text":"Your Number (required)","x":30,"y":604,"w":300,"h":51,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"input","role":"field","text":"tel-148","x":30,"y":626,"w":300,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(120, 125, 133)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"label","role":null,"text":"Subject","x":30,"y":689,"w":300,"h":51,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"input","role":"field","text":"your-subject","x":30,"y":711,"w":300,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(120, 125, 133)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Please, let us know your preferences regarding check in and check out dates.","x":30,"y":771,"w":300,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":2},
+  {"section":1,"region":"main","kind":"text","tag":"label","role":null,"text":"Your Message","x":30,"y":834,"w":300,"h":43,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"textarea","role":"field","text":"your-message","x":30,"y":856,"w":300,"h":262,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(120, 125, 133)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"input","role":"field","text":"1","x":44,"y":1132,"w":13,"h":13,"fontFamily":"Arial","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(0, 0, 0)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"span","role":null,"text":"I have read and accept the privacy policy","x":44,"y":1131,"w":256,"h":43,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":2},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"privacy policy","x":44,"y":1131,"w":256,"h":43,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":2,"href":"https://www.casaargentera.com/wp/privacy-policy/"},
+  {"section":1,"region":"main","kind":"control","tag":"input","role":"field","text":"Send","x":30,"y":1178,"w":88,"h":39,"fontFamily":"Montserrat","fontSize":14,"lineHeight":16,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"This calendar only shows availability for the whole house. If you are intereste…","x":30,"y":1259,"w":300,"h":125,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":5},
+  {"section":3,"region":"main","kind":"control","tag":"select","role":"field","text":"Month selection","x":30,"y":1409,"w":200,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(16, 24, 31)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"h3","role":"h3","text":"November 2026","x":30,"y":1459,"w":300,"h":35,"fontFamily":"Montserrat","fontSize":30,"lineHeight":35,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"span","role":null,"text":"Tuesday 24/11","x":41,"y":1501,"w":278,"h":21,"fontFamily":"Montserrat","fontSize":14,"lineHeight":21,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(255, 255, 255)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"span","role":null,"text":"All Day","x":41,"y":1535,"w":278,"h":16,"fontFamily":"Montserrat","fontSize":10.5,"lineHeight":15.75,"fontWeight":"400","letterSpacing":0,"textTransform":"uppercase","textAlign":"left","color":"rgb(16, 24, 31)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"span","role":null,"text":"Airbnb (Not available)","x":41,"y":1550,"w":278,"h":21,"fontFamily":"Montserrat","fontSize":14,"lineHeight":21,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(16, 24, 31)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Prices per weekend","x":30,"y":1630,"w":300,"h":35,"fontFamily":"Montserrat","fontSize":30,"lineHeight":35,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(221, 157, 59)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"950-975 € for up to 13 persons","x":30,"y":1675,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(58, 58, 58)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Prices per week in high season","x":30,"y":1710,"w":300,"h":70,"fontFamily":"Montserrat","fontSize":30,"lineHeight":35,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(221, 157, 59)","lines":2},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"2975-3400 €","x":30,"y":1790,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(58, 58, 58)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"Extra beds 15 € per bed per night","x":30,"y":1825,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(58, 58, 58)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"Extra persons in the day (for events) 15 €","x":30,"y":1860,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(58, 58, 58)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"For longer stays or other options, please contact us for a price offer.","x":30,"y":1895,"w":300,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":2},
+  {"section":3,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Prices per weekend","x":30,"y":1945,"w":300,"h":35,"fontFamily":"Montserrat","fontSize":30,"lineHeight":35,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(221, 157, 59)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"950 € for up to 13 persons","x":30,"y":1990,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(58, 58, 58)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Prices per week in high season","x":30,"y":2025,"w":300,"h":70,"fontFamily":"Montserrat","fontSize":30,"lineHeight":35,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(221, 157, 59)","lines":2},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"2975-3200 €","x":30,"y":2105,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(58, 58, 58)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"Extra beds 15 € per bed per night","x":30,"y":2140,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(58, 58, 58)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"Extra persons in the day (for events) 15 €","x":30,"y":2175,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(58, 58, 58)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"For longer stays or other options, please contact us for a price offer.","x":30,"y":2210,"w":300,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":2},
+  {"section":5,"region":"footer","kind":"text","tag":"div","role":null,"text":"CONTACT US","x":30,"y":2406,"w":300,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":5,"region":"footer","kind":"text","tag":"p","role":null,"text":"CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info…","x":30,"y":2448,"w":300,"h":125,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":5},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"www.CasaArgentera.com","x":30,"y":2551,"w":176,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1,"href":"http://www.casaargentera.com"},
+  {"section":5,"region":"footer","kind":"text","tag":"div","role":null,"text":"SEARCH","x":30,"y":2603,"w":300,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":5,"region":"footer","kind":"control","tag":"input","role":"field","text":"Type and hit enter …","x":30,"y":2645,"w":300,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(120, 125, 133)","lines":1},
+  {"section":5,"region":"footer","kind":"control","tag":"input","role":"field","text":"Go!","x":265,"y":2645,"w":54,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":16,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":5,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":301,"y":2657,"w":16,"h":16,"fit":"fill","shape":{"pos":"50% 50%"},"href":""},
+  {"section":5,"region":"footer","kind":"text","tag":"div","role":null,"text":"FOLLOW US","x":30,"y":2715,"w":300,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":5,"region":"footer","kind":"text","tag":"p","role":null,"text":"Find us on:","x":30,"y":2757,"w":76,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Facebook page opens in new window","x":32,"y":2759,"w":26,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":26,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":6,"href":"https://www.facebook.com/CasaArgentera/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Instagram page opens in new window","x":62,"y":2759,"w":26,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":26,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":6,"href":"https://www.instagram.com/casaargentera/"},
+  {"section":5,"region":"footer","kind":"text","tag":"div","role":null,"text":"OTHER RENTALS","x":30,"y":2817,"w":300,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":5,"region":"footer","kind":"text","tag":"p","role":null,"text":"CASA VELLA DEL PANTA C/T313, km.13 • 43771 Riudecanyes • Spain www.CasaVelladel…","x":30,"y":2859,"w":300,"h":75,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":3},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"www.CasaVelladelPanta.com","x":30,"y":2912,"w":203,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1,"href":"http://www.casavelladelpanta.com"},
+  {"section":5,"region":"footer","kind":"text","tag":"div","role":null,"text":"LEGAL INFO","x":30,"y":2964,"w":300,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":5,"region":"footer","kind":"text","tag":"p","role":null,"text":"Privacy policy and Cookies ©2020 Casa Argentera","x":30,"y":3006,"w":300,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy policy and Cookies","x":30,"y":3009,"w":184,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1,"href":"https://www.casaargentera.com/privacy-policy-and-cookies/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"English","x":30,"y":3086,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/reservations-2/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Dansk","x":30,"y":3111,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/da/reservations/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Català","x":30,"y":3136,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/ca/reserves/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Español","x":30,"y":3161,"w":300,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/es/reservas/"}
+ ]
+}

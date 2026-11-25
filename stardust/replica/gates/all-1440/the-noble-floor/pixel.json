@@ -1,0 +1,274 @@
+{
+  "a": "stardust/replica/gates/all-1440/the-noble-floor/origin.png",
+  "b": "stardust/replica/gates/all-1440/the-noble-floor/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4790,
+    "mode": "overlap"
+  },
+  "heightDelta": 16,
+  "differingPixels": 77320,
+  "pct": 1.12,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/the-noble-floor/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 4.03,
+  "textBoxes": 89,
+  "textPixels": 555139,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 1.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 1.4
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 3.8
+    },
+    {
+      "y0": 4500,
+      "y1": 4790,
+      "pct": 4.7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.42,
+    "differingPixels": 28816,
+    "compared": {
+      "width": 1440,
+      "height": 4806,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2452,
+        "shift": -6,
+        "cumulative": -6
+      },
+      {
+        "y": 2534,
+        "shift": -4,
+        "cumulative": -10
+      },
+      {
+        "y": 2821,
+        "shift": -3,
+        "cumulative": -13
+      },
+      {
+        "y": 3228,
+        "shift": -3,
+        "cumulative": -16
+      }
+    ],
+    "maxOffset": 16,
+    "totalShift": 16,
+    "insertedRows": 0,
+    "deletedRows": 16,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1.6,
+        "unaligned": 1.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.6,
+        "unaligned": 1.4
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.2,
+        "unaligned": 1
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 3.8
+      },
+      {
+        "y0": 4500,
+        "y1": 4806,
+        "pct": 0.1,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/the-noble-floor/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 48,
+    "totalShift": 16,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--ea32f12a--aemcoder.aem.page/the-noble-floor",
+    "key": {
+      "v": 3,
+      "build": "https://main--ea32f12a--aemcoder.aem.page/the-noble-floor",
+      "source": "https://www.casaargentera.com/the-noble-floor/",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "519c0df4e9ba792b",
+      "options": "8a9d0203c520c6bb",
+      "reference": "36f2f560b1375af8",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "85b4fb477acb19ff",
+      "instruments": "700566dc6f7774a4",
+      "page content": "b14de7417d557fc6",
+      "shared code": "15fa74636bb99ab3",
+      "block contact-form": "3a6a80dfee427df3",
+      "block hero-slider": "9c515f6f76444750",
+      "block icon-features": "13f4bc54a1d0b119",
+      "block image-grid": "12f4434553966273"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 4,
+          "missingButtons": 0,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 0,
+          "findings": 1,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 84,
+          "controls": 29,
+          "total": 0
+        },
+        "groups": [],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 84,
+          "controls": 25,
+          "total": 0
+        },
+        "source": "content-presence"
+      },
+      "units": {
+        "verdict": {
+          "units": 10,
+          "within": 15,
+          "off": 0,
+          "hidden": 0,
+          "missing": 0,
+          "errors": 0,
+          "requiredOff": 0
+        },
+        "required": true,
+        "errors": []
+      }
+    },
+    "at": "2026-11-24T22:00:43.192Z"
+  }
+}

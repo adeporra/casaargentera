@@ -1,0 +1,30 @@
+unit-geometry @ 1440px, tol 4px — https://www.casaargentera.com/privacy-policy-and-cookies/ vs http://localhost:8792/privacy-policy-and-cookies-proposed.html
+unit 1 of legal-section-heading (required) #content .wpb_text_column h4=#content .text-column h4: origin 155,415 1130×30 vs served 155,415 1130×30 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 2 of legal-section-heading (required) #content .wpb_text_column h4=#content .text-column h4: origin 155,625 1130×30 vs served 155,625 1130×30 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 3 of legal-section-heading (required) #content .wpb_text_column h4=#content .text-column h4: origin 155,785 1130×30 vs served 155,785 1130×30 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 4 of legal-section-heading (required) #content .wpb_text_column h4=#content .text-column h4: origin 155,910 1130×30 vs served 155,910 1130×30 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 5 of legal-section-heading (required) #content .wpb_text_column h4=#content .text-column h4: origin 155,1045 1130×30 vs served 155,1045 1130×30 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 6 of legal-section-heading (required) #content .wpb_text_column h4=#content .text-column h4: origin 155,1145 1130×30 vs served 155,1145 1130×30 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 7 of legal-section-heading (required) #content .wpb_text_column h4=#content .text-column h4: origin 155,1355 1130×30 vs served 155,1355 1130×30 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 8 of legal-section-heading (required) #content .wpb_text_column h4=#content .text-column h4: origin 155,1480 1130×30 vs served 155,1480 1130×30 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 9 of legal-section-heading (required) #content .wpb_text_column h4=#content .text-column h4: origin 155,1795 1130×30 vs served 155,1795 1130×30 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+Units: 9 compared; elements within 0, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/privacy-policy-and-cookies-1440/units-iter1.json

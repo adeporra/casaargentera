@@ -1,0 +1,193 @@
+{
+  "slug": "es-el-jardin",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "the-garden",
+  "modules": [
+    "hero-slider",
+    "image-grid",
+    "icon-features",
+    "contact-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "wf-wrap"
+  ],
+  "canonShas": {
+    "header": "e34713a1ef20",
+    "footer": "975cee783dcb",
+    "css": "89a5d300aec7"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+    "description": "Disfrute del clima de la montaña costera en nuestra casa rural de vacaciones con piscina, tumbonas relajantes, barbacoa, una gran mesa y rincones de descanso.",
+    "canonical": null,
+    "lang": "es-ES"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+    "description": "Disfrute del clima de la montaña costera en nuestra casa rural de vacaciones con piscina, tumbonas relajantes, barbacoa, una gran mesa y rincones de descanso.",
+    "url": "https://www.casaargentera.com/es/el-jardin/"
+  },
+  "migratedAt": "2026-11-24T13:56:29Z",
+  "designMdSha": "7ead730e40e5",
+  "designJsonSha": "15480f089476",
+  "sourceCurrentSha": "8eceed676135",
+  "sourceProposedSha": "ff85ba56401f",
+  "fidelityTier": "sibling",
+  "archetypeSource": "the-garden",
+  "archetypeSha": "954a46a6979f",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 over el-atico, la-planta-baja, ca/la-casa-sencera, the-penthouse, da/hele-huset vs /the-garden/: content-driven deltas only (image/feature counts, text heights, contact heading h3 vs h2 verbatim) + one structural form (vc_grid media grid on the ground-floor pages → variant gallery); stardust/.work/rollout/program/variance.json",
+    "content-fidelity": "Path A' clone stardust/.work/rollout/program/src/es-el-jardin-proposed.html (stardust/encoders/build-clone-program.mjs) from the capture: verbatim headings/inline spans, paragraphs, images+alts, feature titles/descs, CF7 labels/notes/acceptance/submit; content-diff #main 🔴 0 🟡 0, counts equal (stardust/.work/rollout/program/content-diff-es-el-jardin.txt); chrome 🔴 = canon-chrome deviation"
+  },
+  "contentDeviations": [
+    {
+      "kind": "chrome-canon",
+      "source": "localized WP header/footer",
+      "target": "canon chrome (EN) in clone",
+      "reason": "Path A' clone carries canon chrome verbatim; EDS delivery uses the locale nav/footer docs"
+    }
+  ],
+  "assetsBundled": 29,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-whole-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-penthouse/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-noble-floor/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-ground-floor/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-place/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/nature-sport/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/beach-and-more/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/who-we-are/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-whole-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-penthouse/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-noble-floor/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-ground-floor/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-place/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/nature-sport/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/beach-and-more/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/who-we-are/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-whole-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-penthouse/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-noble-floor/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-ground-floor/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-place/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/nature-sport/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/beach-and-more/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/who-we-are/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/privacy-policy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/the-garden/",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "es/el-jardin/index.html",
+  "outputPathDefault": null,
+  "sidecar": "es/el-jardin/_meta.json",
+  "driverVersion": "1"
+}

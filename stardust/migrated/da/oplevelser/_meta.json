@@ -1,0 +1,112 @@
+{
+  "slug": "da-oplevelser",
+  "type": "listing",
+  "renderBranch": "A'",
+  "template": "experiences",
+  "modules": [
+    "hero-slider",
+    "media-feature"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "wf-wrap"
+  ],
+  "canonShas": {
+    "header": "ed701970daf1",
+    "footer": "02ab4240826b",
+    "css": "89a5d300aec7"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "register-R-04",
+      "entry": "R-04",
+      "what": "teaser images whose lazy-loader src is /wp/wp-content/… (404) are delivered from the working /wp-content/ file (srcset twin / local asset)",
+      "images": "Punxes_L-1024x576.jpg, Sunset-CostaDaurada.jpg, Escornalbou-CasaArgentera-1024x576.jpg"
+    }
+  ],
+  "metadata": {
+    "title": "OPLEVELSER - Casa Argentera",
+    "description": "Casa Argentera er beliggende i en vidunderligt varieret område, her er noget for enhver smag. Top ideer til aktiviteter i lokalområdet. Vi er her for at hjælpe med at organisere det.",
+    "canonical": null,
+    "lang": "da-DK"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "OPLEVELSER - Casa Argentera",
+    "description": "Casa Argentera er beliggende i en vidunderligt varieret område, her er noget for enhver smag. Top ideer til aktiviteter i lokalområdet. Vi er her for at hjælpe med at organisere det.",
+    "url": "https://www.casaargentera.com/da/oplevelser/"
+  },
+  "migratedAt": "2026-11-24T20:31:45Z",
+  "designMdSha": "7ead730e40e5",
+  "designJsonSha": "15480f089476",
+  "sourceCurrentSha": "f7dbcb25e0b6",
+  "sourceProposedSha": "771ea21bee94",
+  "fidelityTier": "sibling",
+  "archetypeSource": "experiences",
+  "archetypeSha": "a825c047ae45",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 over es/experiencias, ca/experiencies, da/oplevelser vs /experiences/ @1440: content-driven deltas only (intro/h2 heights from text length; da Kultur teaser carries 2 images, no empty text column) — no variant class needed beyond hero-slider start-<n>; stardust/.work/rollout/listing/variance.json",
+    "content-fidelity": "Path A' clone stardust/.work/rollout/listing/src/da-oplevelser-proposed.html (stardust/encoders/build-clone-listing.mjs) from the capture: verbatim intro h2/p, linked teaser h2s, 4 inline teaser images with alts; content-diff #main 🔴 0, text/heading/CTA/img counts equal (stardust/.work/rollout/listing/content-diff-da-oplevelser.txt); 🟡 EDITABLE COUNT = noscript artefact (drop-noscript); chrome 🔴 = canon-chrome deviation"
+  },
+  "contentDeviations": [
+    {
+      "kind": "chrome-canon",
+      "source": "localized WP header/footer",
+      "target": "canon chrome (EN) in clone",
+      "reason": "Path A' clone carries canon chrome verbatim (active trail moved to this page's nav item); EDS delivery uses the locale nav/footer docs"
+    },
+    {
+      "kind": "drop-noscript",
+      "source": "4× <noscript><img …></noscript> lazy-load duplicate in the teaser paragraphs",
+      "target": "(none — the <img> is kept, srcset lifted from the noscript twin)",
+      "reason": "polyfill duplicate dropped; content-diff counts its raw text as an editable node, so #main EDITABLE COUNT reads source n / build fewer (🟡) with text, headings, CTAs and images equal"
+    }
+  ],
+  "assetsBundled": 18,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/natur-sport/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/nature-sport/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/da/kulturen/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/culture/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/da/strand-m-m/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/beach-and-more/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "da/oplevelser/index.html",
+  "outputPathDefault": null,
+  "sidecar": "da/oplevelser/_meta.json",
+  "driverVersion": "1"
+}

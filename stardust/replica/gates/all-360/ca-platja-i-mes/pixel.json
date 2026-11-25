@@ -1,0 +1,131 @@
+{
+  "a": "stardust/replica/gates/all-360/ca-platja-i-mes/origin.png",
+  "b": "stardust/replica/gates/all-360/ca-platja-i-mes/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3229,
+    "mode": "overlap"
+  },
+  "heightDelta": -24,
+  "differingPixels": 271191,
+  "pct": 23.33,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/ca-platja-i-mes/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 10.36,
+  "textBoxes": 74,
+  "textPixels": 309132,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 40.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 25.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 32
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 29
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 11.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 10.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3229,
+      "pct": 4.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 20.07,
+    "differingPixels": 235057,
+    "compared": {
+      "width": 360,
+      "height": 3253,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1996,
+        "shift": 24,
+        "cumulative": 24
+      }
+    ],
+    "maxOffset": 24,
+    "totalShift": 24,
+    "insertedRows": 24,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 40.1,
+        "unaligned": 40.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 25.3,
+        "unaligned": 25.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 32,
+        "unaligned": 32
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 31.4,
+        "unaligned": 29
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 11.4
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.2,
+        "unaligned": 10.8
+      },
+      {
+        "y0": 3000,
+        "y1": 3229,
+        "pct": 0,
+        "unaligned": 4.6
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/ca-platja-i-mes/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 32,
+    "totalShift": 24,
+    "pass": true
+  },
+  "reason": "pixel aligned 20.07% (unaligned 23.33%) > 10%"
+}

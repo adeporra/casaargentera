@@ -1,0 +1,48 @@
+unit-geometry @ 360px, tol 4px — https://www.casaargentera.com/the-garden/ vs http://localhost:8792/the-garden-proposed.html
+unit 1 of garden-feature (required) .icon-with-text-shortcode=.garden-features .icon-text: origin 30,2029 300×105 vs served 30,2029 300×105 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "swimming pool" | 60,0 240×27 | 60,0 240×27 | 0 | 0 | 0 | 0 | ✓ |
+| text "heated from april to mid october poo" | 60,27 240×75 | 60,27 240×75 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of garden-feature (required) .icon-with-text-shortcode=.garden-features .icon-text: origin 30,2154 300×86 vs served 30,2154 300×86 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "bbq corner & paella equipment" | 60,0 240×54 | 60,0 240×54 | 0 | 0 | 0 | 0 | ✓ |
+| text "who is the chef?" | 60,57 240×25 | 60,57 240×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of garden-feature (required) .icon-with-text-shortcode=.garden-features .icon-text: origin 30,2260 300×80 vs served 30,2260 300×80 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "chill out corner" | 60,0 240×27 | 60,0 240×27 | 0 | 0 | 0 | 0 | ✓ |
+| text "sofa for small talk... with a chille" | 60,30 240×50 | 60,30 240×50 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of garden-feature (required) .icon-with-text-shortcode=.garden-features .icon-text: origin 30,2360 300×107 vs served 30,2360 300×107 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "swing in the linden tree / slide" | 60,0 240×54 | 60,0 240×54 | 0 | 0 | 0 | 0 | ✓ |
+| text "for the children or childish to play" | 60,54 240×50 | 60,54 240×50 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of garden-feature (required) .icon-with-text-shortcode=.garden-features .icon-text: origin 30,2487 300×60 vs served 30,2487 300×60 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "big dining table" | 60,0 240×27 | 60,0 240×27 | 0 | 0 | 0 | 0 | ✓ |
+| text "under the shade of a linden tree" | 60,27 240×25 | 60,27 240×25 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of garden-image (required) #content .wpb_single_image=.garden-images .single-image: origin 30,849 300×169 vs served 30,849 300×169 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "view of the pool heated and lighted " | 0,0 300×169 | 0,0 300×169 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of garden-image (required) #content .wpb_single_image=.garden-images .single-image: origin 30,1064 300×169 vs served 30,1064 300×169 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "chill out dressed for party" | 0,0 300×169 | 0,0 300×169 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of garden-image (required) #content .wpb_single_image=.garden-images .single-image: origin 30,1279 300×169 vs served 30,1279 300×169 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "garden with a view" | 0,0 300×169 | 0,0 300×169 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of garden-image (required) #content .wpb_single_image=.garden-images .single-image: origin 30,1494 300×169 vs served 30,1494 300×169 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "barbecue corner in the garden" | 0,0 300×169 | 0,0 300×169 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of garden-image (required) #content .wpb_single_image=.garden-images .single-image: origin 30,1708 300×173 vs served 30,1708 300×173 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "lighted pool at night, summer evenin" | 0,0 300×173 | 0,0 300×173 | 0 | 0 | 0 | 0 | ✓ |
+Units: 10 compared; elements within 15, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/the-garden-360/units-iter2.json

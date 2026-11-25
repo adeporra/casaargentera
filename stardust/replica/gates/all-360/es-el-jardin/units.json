@@ -1,0 +1,1029 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T22:20:23.591Z",
+  "tol": 4,
+  "n": 5,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/es/el-jardin/",
+  "at": "2026-11-24T15:47:05.851Z",
+  "docH": 4696
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/es/el-jardin",
+  "at": "2026-11-24T22:20:23.536Z",
+  "docH": 4679
+ },
+ "results": [
+  {
+   "sel": ".icon-with-text-shortcode=.icon-features .icon-features-item",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-e00a5945eed7c3ecab656dd8a7b3bfbe"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.block > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:piscina",
+       "role": "heading",
+       "text": "piscina",
+       "edsText": "piscina",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 27
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 27,
+        "sel": "h5#piscina",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/27/400",
+        "eds": "17/27/400"
+       }
+      },
+      {
+       "key": "text:calentamos el agua entre abril y mediado",
+       "role": "text",
+       "text": "calentamos el agua entre abril y mediados de octubre dispone",
+       "edsText": "calentamos el agua entre abril y mediados de octubre dispone",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 27,
+        "w": 240,
+        "h": 100
+       },
+       "eds": {
+        "x": 60,
+        "y": 27,
+        "w": 240,
+        "h": 100,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 2139,
+       "w": 300,
+       "h": 130
+      },
+      "eds": {
+       "x": 30,
+       "y": 2138,
+       "w": 300,
+       "h": 127
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": -3
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-bc393642c0e595dfe94a83016b419193"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.block > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:barbacoa y equipo paellero",
+       "role": "heading",
+       "text": "barbacoa y equipo paellero",
+       "edsText": "barbacoa y equipo paellero",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 54
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 54,
+        "sel": "h5#barbacoa-y-equipo-paellero",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/27/400",
+        "eds": "17/27/400"
+       }
+      },
+      {
+       "key": "text:para cocinar al aire libre",
+       "role": "text",
+       "text": "para cocinar al aire libre",
+       "edsText": "para cocinar al aire libre",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 57,
+        "w": 240,
+        "h": 25
+       },
+       "eds": {
+        "x": 60,
+        "y": 54,
+        "w": 240,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 2289,
+       "w": 300,
+       "h": 86
+      },
+      "eds": {
+       "x": 30,
+       "y": 2285,
+       "w": 300,
+       "h": 79
+      },
+      "dx": 0,
+      "dy": -4,
+      "dw": 0,
+      "dh": -7
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-552cbeee2df932a48f9d6c299f887479"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.block > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:zona chill out con sofá",
+       "role": "heading",
+       "text": "zona chill out con sofá",
+       "edsText": "zona chill out con sofá",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 54
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 54,
+        "sel": "h5#zona-chill-out-con-sofá",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/27/400",
+        "eds": "17/27/400"
+       }
+      },
+      {
+       "key": "text:para charlar y tomar un trago fresquito",
+       "role": "text",
+       "text": "para charlar y tomar un trago fresquito",
+       "edsText": "para charlar y tomar un trago fresquito",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 57,
+        "w": 240,
+        "h": 50
+       },
+       "eds": {
+        "x": 60,
+        "y": 54,
+        "w": 240,
+        "h": 50,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 2395,
+       "w": 300,
+       "h": 107
+      },
+      "eds": {
+       "x": 30,
+       "y": 2384,
+       "w": 300,
+       "h": 104
+      },
+      "dx": 0,
+      "dy": -11,
+      "dw": 0,
+      "dh": -3
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-679c8cc2b2d779efa1cbce98fdfa44f7"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.block > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:columpio en el tilo y tobogán",
+       "role": "heading",
+       "text": "columpio en el tilo y tobogán",
+       "edsText": "columpio en el tilo y tobogán",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 54
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 54,
+        "sel": "h5#columpio-en-el-tilo-y-tobogán",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/27/400",
+        "eds": "17/27/400"
+       }
+      },
+      {
+       "key": "text:para los más pequeños",
+       "role": "text",
+       "text": "para los más pequeños",
+       "edsText": "para los más pequeños",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 54,
+        "w": 240,
+        "h": 25
+       },
+       "eds": {
+        "x": 60,
+        "y": 54,
+        "w": 240,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 2522,
+       "w": 300,
+       "h": 82
+      },
+      "eds": {
+       "x": 30,
+       "y": 2508,
+       "w": 300,
+       "h": 79
+      },
+      "dx": 0,
+      "dy": -14,
+      "dw": 0,
+      "dh": -3
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-9e4b9278b266e4d18ef629faff3bc8e6"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.block > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:mesa para comer todos juntos",
+       "role": "heading",
+       "text": "mesa para comer todos juntos",
+       "edsText": "mesa para comer todos juntos",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 54
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 240,
+        "h": 54,
+        "sel": "h5#mesa-para-comer-todos-juntos",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/27/400",
+        "eds": "17/27/400"
+       }
+      },
+      {
+       "key": "text:debajo la sombra del tilo",
+       "role": "text",
+       "text": "debajo la sombra del tilo",
+       "edsText": "debajo la sombra del tilo",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 54,
+        "w": 240,
+        "h": 25
+       },
+       "eds": {
+        "x": 60,
+        "y": 54,
+        "w": 240,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 2624,
+       "w": 300,
+       "h": 79
+      },
+      "eds": {
+       "x": 30,
+       "y": 2607,
+       "w": 300,
+       "h": 79
+      },
+      "dx": 0,
+      "dy": -17,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#content .wpb_single_image=.image-grid.plain .image-grid-image",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-2 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:view of the pool heated and lighted in c",
+       "role": "image",
+       "text": "view of the pool heated and lighted in casa argentera",
+       "edsText": "view of the pool heated and lighted in casa argentera",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 959,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 959,
+       "w": 300,
+       "h": 169
+      },
+      "eds": {
+       "x": 30,
+       "y": 959,
+       "w": 300,
+       "h": 169
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-2 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:chill out dressed for party",
+       "role": "image",
+       "text": "chill out dressed for party",
+       "edsText": "chill out dressed for party",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 168,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 300,
+       "h": 168,
+       "absY": 1174,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 1174,
+       "w": 300,
+       "h": 169
+      },
+      "eds": {
+       "x": 30,
+       "y": 1174,
+       "w": 300,
+       "h": 168
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-3 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:garden with a view",
+       "role": "image",
+       "text": "garden with a view",
+       "edsText": "garden with a view",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 1388,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 1389,
+       "w": 300,
+       "h": 169
+      },
+      "eds": {
+       "x": 30,
+       "y": 1388,
+       "w": 300,
+       "h": 169
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-3 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:barbecue corner in the garden",
+       "role": "image",
+       "text": "barbecue corner in the garden",
+       "edsText": "barbecue corner in the garden",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 168,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 300,
+       "h": 168,
+       "absY": 1603,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 1604,
+       "w": 300,
+       "h": 169
+      },
+      "eds": {
+       "x": 30,
+       "y": 1603,
+       "w": 300,
+       "h": 168
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-3 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:lighted pool at night, summer evenings i",
+       "role": "image",
+       "text": "lighted pool at night, summer evenings in casa argentera",
+       "edsText": "lighted pool at night, summer evenings in casa argentera",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 173
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 172,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 300,
+       "h": 172,
+       "absY": 1818,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 30,
+       "y": 1818,
+       "w": 300,
+       "h": 173
+      },
+      "eds": {
+       "x": 30,
+       "y": 1818,
+       "w": 300,
+       "h": 172
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 15,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

@@ -1,0 +1,2589 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-24T23:56:59.675Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/events/",
+  "at": "2026-11-24T23:56:59.603Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4466,
+  "root": null,
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-navigation > a.dt-mobile-menu-icon",
+    "x": 306,
+    "y": 17,
+    "w": 24,
+    "h": 24,
+    "text": "mobile menu icon",
+    "href": "/events/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-branding > a",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mobile-branding > a > img.mobile-logo.preload-me",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "file": "Logo-75-px"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "rs-slide > rs-layer-wrap.rs-parallax-wrap > rs-layer#slider-18-slide-80-layer-9",
+    "x": 80,
+    "y": 132,
+    "w": 109,
+    "h": 15,
+    "text": "BIKE & Tapas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "rs-slide > rs-layer-wrap.rs-parallax-wrap > rs-layer#slider-18-slide-80-layer-10",
+    "x": 89,
+    "y": 155,
+    "w": 106,
+    "h": 7,
+    "text": "A COOL COMBINATION"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 312,
+    "w": 300,
+    "h": 220,
+    "level": 2,
+    "text": "celebrate your event in casa argentera"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 542,
+    "w": 300,
+    "h": 75,
+    "text": "We will be happy to help you with the organization of"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 627,
+    "w": 300,
+    "h": 125,
+    "text": "We have a big dinning/meeting room to small parties or meetings, team buildings,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 762,
+    "w": 300,
+    "h": 50,
+    "text": "Here are some suggestions, to be combined in any way that suits you:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul > li > strong",
+    "x": 50,
+    "y": 825,
+    "w": 118,
+    "h": 18,
+    "text": "tapas-workshop"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul > li > strong",
+    "x": 50,
+    "y": 850,
+    "w": 184,
+    "h": 18,
+    "text": "wine- or olive oil tastings"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul > li > strong",
+    "x": 50,
+    "y": 875,
+    "w": 208,
+    "h": 18,
+    "text": "spent a day with a shepherd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul > li > strong",
+    "x": 50,
+    "y": 900,
+    "w": 140,
+    "h": 18,
+    "text": "meditation or yoga"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul > li > strong",
+    "x": 50,
+    "y": 925,
+    "w": 196,
+    "h": 18,
+    "text": "painting or paella contests"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul > li > strong",
+    "x": 50,
+    "y": 950,
+    "w": 79,
+    "h": 18,
+    "text": "calçotadas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul > li > strong",
+    "x": 50,
+    "y": 975,
+    "w": 146,
+    "h": 18,
+    "text": "bike training camps"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 1007,
+    "w": 300,
+    "h": 200,
+    "text": "Maybe you would like your course or training to end with a competition in a loca"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.vc_gitem-animated-block > div.vc_gitem-zone.vc_gitem-zone-a > a.vc_gitem-link.prettyphoto",
+    "x": 30,
+    "y": 1207,
+    "w": 300,
+    "h": 169,
+    "text": "tapas workshop-casa argentera",
+    "href": "/wp-content/uploads/2020/04/Tapas-workshop-Casa-Argentera-1024x576.jpg"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.vc_gitem-animated-block > div.vc_gitem-zone.vc_gitem-zone-a > a.vc_gitem-link.prettyphoto",
+    "x": 30,
+    "y": 1396,
+    "w": 300,
+    "h": 169,
+    "text": "cata sangenis",
+    "href": "/wp-content/uploads/2020/04/Cata-Sangenis-1024x576.jpg"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.vc_gitem-animated-block > div.vc_gitem-zone.vc_gitem-zone-a > a.vc_gitem-link.prettyphoto",
+    "x": 30,
+    "y": 1585,
+    "w": 300,
+    "h": 169,
+    "text": "annual quick painting contest l argentera",
+    "href": "/wp-content/uploads/2020/03/PinturaR%C3%A1pida-lArgentera-1024x576.jpg"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.vc_gitem-animated-block > div.vc_gitem-zone.vc_gitem-zone-a > a.vc_gitem-link.prettyphoto",
+    "x": 30,
+    "y": 1773,
+    "w": 300,
+    "h": 169,
+    "text": "calçots-argentera",
+    "href": "/wp-content/uploads/2020/03/Cal%C3%A7ots-Argentera.jpg"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.vc_gitem-animated-block > div.vc_gitem-zone.vc_gitem-zone-a > a.vc_gitem-link.prettyphoto",
+    "x": 30,
+    "y": 1962,
+    "w": 300,
+    "h": 169,
+    "text": "paella-casaargentera",
+    "href": "/wp-content/uploads/2020/03/Paella-CasaArgentera.jpg"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.vc_gitem-animated-block > div.vc_gitem-zone.vc_gitem-zone-a > a.vc_gitem-link.prettyphoto",
+    "x": 30,
+    "y": 2151,
+    "w": 300,
+    "h": 169,
+    "text": "workshop marionaquadrada",
+    "href": "/wp-content/uploads/2020/04/Workshop-MarionaQuadrada-1024x576.jpg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 30,
+    "y": 2370,
+    "w": 300,
+    "h": 275,
+    "level": 2,
+    "text": "more information and reservation of an event?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 30,
+    "y": 2655,
+    "w": 300,
+    "h": 75,
+    "text": "Please let us know the dates, number of persons, and activity. We will be happy "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 30,
+    "y": 2733,
+    "w": 300,
+    "h": 51,
+    "text": "Your Name (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 30,
+    "y": 2818,
+    "w": 300,
+    "h": 51,
+    "text": "Your Email (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 30,
+    "y": 2903,
+    "w": 300,
+    "h": 51,
+    "text": "Your Number (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 30,
+    "y": 2988,
+    "w": 300,
+    "h": 51,
+    "text": "Subject"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#wpcf7-f15714-p15591-o1 > form.wpcf7-form.init > p",
+    "x": 30,
+    "y": 3070,
+    "w": 300,
+    "h": 50,
+    "text": "Please, let us know your preferences regarding check in and check out dates."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 30,
+    "y": 3133,
+    "w": 300,
+    "h": 43,
+    "text": "Your Message"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "span.wpcf7-list-item > label > span.wpcf7-list-item-label",
+    "x": 44,
+    "y": 3430,
+    "w": 256,
+    "h": 43,
+    "text": "I have read and accept the"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "label > span.wpcf7-list-item-label > a",
+    "x": 44,
+    "y": 3430,
+    "w": 256,
+    "h": 43,
+    "text": "privacy policy",
+    "href": "/wp/privacy-policy/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > input.wpcf7-form-control.wpcf7-submit",
+    "x": 30,
+    "y": 3477,
+    "w": 88,
+    "h": 39,
+    "text": "send"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-4 > div.widget-title",
+    "x": 30,
+    "y": 3646,
+    "w": 300,
+    "h": 27,
+    "text": "CONTACT US"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-4 > div.textwidget > p",
+    "x": 30,
+    "y": 3688,
+    "w": 300,
+    "h": 125,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 3791,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#search-4 > div.widget-title",
+    "x": 30,
+    "y": 3843,
+    "w": 300,
+    "h": 27,
+    "text": "SEARCH"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#search-4 > form.searchform > a.submit",
+    "x": 299,
+    "y": 3885,
+    "w": 20,
+    "h": 40,
+    "text": "",
+    "href": "/events/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#presscore-contact-info-widget-3 > div.widget-title",
+    "x": 30,
+    "y": 3955,
+    "w": 300,
+    "h": 27,
+    "text": "FOLLOW US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.facebook",
+    "x": 32,
+    "y": 3999,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.instagram",
+    "x": 62,
+    "y": 3999,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-6 > div.widget-title",
+    "x": 30,
+    "y": 4057,
+    "w": 300,
+    "h": 27,
+    "text": "OTHER RENTALS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-6 > div.textwidget > p",
+    "x": 30,
+    "y": 4099,
+    "w": 300,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTA C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 4152,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-3 > div.widget-title",
+    "x": 30,
+    "y": 4204,
+    "w": 300,
+    "h": 27,
+    "text": "LEGAL INFO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-3 > div.textwidget > p",
+    "x": 30,
+    "y": 4246,
+    "w": 300,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 30,
+    "y": 4249,
+    "w": 184,
+    "h": 18,
+    "text": "privacy policy and cookies",
+    "href": "/privacy-policy-and-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 4326,
+    "w": 300,
+    "h": 25,
+    "text": "english",
+    "href": "/events/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 4351,
+    "w": 300,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/eventsda/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 4376,
+    "w": 300,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/esdeveniments/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 30,
+    "y": 4401,
+    "w": 300,
+    "h": 25,
+    "text": "español",
+    "href": "/es/eventos/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 18,
+    "textNodes": 53,
+    "controls": 29,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/events",
+  "at": "2026-11-24T23:56:50.178Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4466,
+  "root": "main#main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-branding > a",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 30,
+    "y": 0,
+    "w": 75,
+    "h": 58,
+    "text": "casa argentera",
+    "file": "media_1508d370a8febea63d6a0a1c69adcb7155"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-header-bar > div.mobile-navigation > a.dt-mobile-menu-icon",
+    "x": 308,
+    "y": 21,
+    "w": 22,
+    "h": 16,
+    "text": "mobile menu icon",
+    "href": "/events"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slide-media > picture > img",
+    "x": 0,
+    "y": 0,
+    "w": 360,
+    "h": 252,
+    "text": "biking and tapas in l'argentera",
+    "file": "media_13374041875d2a14d27aa8348230a0f320"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slide.hero-slide-placed > div.hero-layer.hero-layer-title > p",
+    "x": 80,
+    "y": 133,
+    "w": 112,
+    "h": 15,
+    "text": "BIKE & Tapas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slide.hero-slide-placed > div.hero-layer.hero-layer-sub > p",
+    "x": 89,
+    "y": 155,
+    "w": 103,
+    "h": 7,
+    "text": "A COOL COMBINATION"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.title-60 > div.hero-slider-bullets > button.hero-bullet",
+    "x": 129,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.title-60 > div.hero-slider-bullets > button.hero-bullet",
+    "x": 147,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 2"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.title-60 > div.hero-slider-bullets > button.hero-bullet",
+    "x": 165,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 3"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.title-60 > div.hero-slider-bullets > button.hero-bullet",
+    "x": 183,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 4"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.title-60 > div.hero-slider-bullets > button.hero-bullet.selected",
+    "x": 201,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 5"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.title-60 > div.hero-slider-bullets > button.hero-bullet",
+    "x": 219,
+    "y": 219,
+    "w": 13,
+    "h": 13,
+    "text": "slide 6"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > h1#celebrate-your-event-in-casa-argentera",
+    "x": 30,
+    "y": 312,
+    "w": 300,
+    "h": 220,
+    "level": 1,
+    "text": "celebrate your event in casa argentera"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 542,
+    "w": 300,
+    "h": 75,
+    "text": "We will be happy to help you with the organization of"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 627,
+    "w": 300,
+    "h": 125,
+    "text": "We have a big dinning/meeting room to small parties or meetings, team buildings,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 762,
+    "w": 300,
+    "h": 50,
+    "text": "Here are some suggestions, to be combined in any way that suits you:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > strong",
+    "x": 50,
+    "y": 825,
+    "w": 118,
+    "h": 18,
+    "text": "tapas-workshop"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > strong",
+    "x": 50,
+    "y": 850,
+    "w": 184,
+    "h": 18,
+    "text": "wine- or olive oil tastings"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > strong",
+    "x": 50,
+    "y": 875,
+    "w": 208,
+    "h": 18,
+    "text": "spent a day with a shepherd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > strong",
+    "x": 50,
+    "y": 900,
+    "w": 140,
+    "h": 18,
+    "text": "meditation or yoga"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > strong",
+    "x": 50,
+    "y": 925,
+    "w": 196,
+    "h": 18,
+    "text": "painting or paella contests"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > strong",
+    "x": 50,
+    "y": 950,
+    "w": 79,
+    "h": 18,
+    "text": "calçotadas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > strong",
+    "x": 50,
+    "y": 975,
+    "w": 146,
+    "h": 18,
+    "text": "bike training camps"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 1007,
+    "w": 300,
+    "h": 200,
+    "text": "Maybe you would like your course or training to end with a competition in a loca"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 30,
+    "y": 1207,
+    "w": 300,
+    "h": 169,
+    "text": "delicious tapas workshop in casa argentera",
+    "file": "media_15caaefcb2dcea57a6cd3e3704de4c6aa4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image-grid-col > figure.image-grid-image > a.image-grid-zoom",
+    "x": 30,
+    "y": 1207,
+    "w": 300,
+    "h": 169,
+    "text": "tapas workshop-casa argentera",
+    "href": "/wp-content/uploads/2020/04/Tapas-workshop-Casa-Argentera-1024x576.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 30,
+    "y": 1396,
+    "w": 300,
+    "h": 169,
+    "text": "wine tasting in a priorat cellar by sangenis i vaque",
+    "file": "media_1cd9757d2ef5950b1bef41a67a49c9a7ef"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image-grid-col > figure.image-grid-image > a.image-grid-zoom",
+    "x": 30,
+    "y": 1396,
+    "w": 300,
+    "h": 169,
+    "text": "cata sangenis",
+    "href": "/wp-content/uploads/2020/04/Cata-Sangenis-1024x576.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 30,
+    "y": 1585,
+    "w": 300,
+    "h": 169,
+    "text": "outdoor quick painting contest at the catalan village of l'a",
+    "file": "media_178ab6d72d9f6af43d6b5bd98bbe4ac66c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image-grid-col > figure.image-grid-image > a.image-grid-zoom",
+    "x": 30,
+    "y": 1585,
+    "w": 300,
+    "h": 169,
+    "text": "annual quick painting contest l argentera",
+    "href": "/wp-content/uploads/2020/03/PinturaR%C3%A1pida-lArgentera-1024x576.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 30,
+    "y": 1773,
+    "w": 300,
+    "h": 169,
+    "text": "preparing a calcotada in casa argentera",
+    "file": "media_17db87df829dc6bdbab8b4d69cc9087831"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image-grid-col > figure.image-grid-image > a.image-grid-zoom",
+    "x": 30,
+    "y": 1773,
+    "w": 300,
+    "h": 169,
+    "text": "calçots-argentera",
+    "href": "/wp-content/uploads/2020/03/Cal%C3%A7ots-Argentera.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 30,
+    "y": 1962,
+    "w": 300,
+    "h": 169,
+    "text": "paella contest at teambuilding in casa argentera",
+    "file": "media_145f171d53593cd98778996afbaf85cc97"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image-grid-col > figure.image-grid-image > a.image-grid-zoom",
+    "x": 30,
+    "y": 1962,
+    "w": 300,
+    "h": 169,
+    "text": "paella-casaargentera",
+    "href": "/wp-content/uploads/2020/03/Paella-CasaArgentera.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 30,
+    "y": 2151,
+    "w": 300,
+    "h": 169,
+    "text": "chef mariona quadrada explaining delicious tapas on workshop",
+    "file": "media_1ca7f978be916b6ea0ca716fc1b125d7ef"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image-grid-col > figure.image-grid-image > a.image-grid-zoom",
+    "x": 30,
+    "y": 2151,
+    "w": 300,
+    "h": 169,
+    "text": "workshop marionaquadrada",
+    "href": "/wp-content/uploads/2020/04/Workshop-MarionaQuadrada-1024x576.jpg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > h2#more-information-and-reservation-of-an-event",
+    "x": 30,
+    "y": 2370,
+    "w": 300,
+    "h": 275,
+    "level": 2,
+    "text": "more information and reservation of an event?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > p",
+    "x": 30,
+    "y": 2655,
+    "w": 300,
+    "h": 75,
+    "text": "Please let us know the dates, number of persons, and activity. We will be happy "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 30,
+    "y": 2730,
+    "w": 300,
+    "h": 25,
+    "text": "Your Name (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 30,
+    "y": 2815,
+    "w": 300,
+    "h": 25,
+    "text": "Your Email (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 30,
+    "y": 2900,
+    "w": 300,
+    "h": 25,
+    "text": "Your Number (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 30,
+    "y": 2985,
+    "w": 300,
+    "h": 25,
+    "text": "Subject"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form.contact-form-form > div.contact-form-line.contact-form-note > p",
+    "x": 30,
+    "y": 3070,
+    "w": 300,
+    "h": 50,
+    "text": "Please, let us know your preferences regarding check in and check out dates."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 30,
+    "y": 3130,
+    "w": 300,
+    "h": 25,
+    "text": "Your Message"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "label > span.contact-form-check-label > p",
+    "x": 44,
+    "y": 3430,
+    "w": 256,
+    "h": 43,
+    "text": "I have read and accept the"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.contact-form-check-label > p > a",
+    "x": 44,
+    "y": 3430,
+    "w": 256,
+    "h": 43,
+    "text": "privacy policy",
+    "href": "/wp/privacy-policy/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form.contact-form-form > div.contact-form-line > input.contact-form-submit",
+    "x": 30,
+    "y": 3477,
+    "w": 88,
+    "h": 39,
+    "text": "send"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 3646,
+    "w": 300,
+    "h": 27,
+    "text": "CONTACT US"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 3688,
+    "w": 300,
+    "h": 125,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 3791,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 3843,
+    "w": 300,
+    "h": 27,
+    "text": "SEARCH"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > form.searchform > button.submit",
+    "x": 298,
+    "y": 3885,
+    "w": 20,
+    "h": 40,
+    "text": "search"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 3955,
+    "w": 300,
+    "h": 27,
+    "text": "FOLLOW US"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.facebook",
+    "x": 32,
+    "y": 3999,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.instagram",
+    "x": 62,
+    "y": 3999,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 4057,
+    "w": 300,
+    "h": 27,
+    "text": "OTHER RENTALS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 4099,
+    "w": 300,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTA C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 4152,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 30,
+    "y": 4204,
+    "w": 300,
+    "h": 27,
+    "text": "LEGAL INFO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 30,
+    "y": 4246,
+    "w": 300,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 30,
+    "y": 4249,
+    "w": 184,
+    "h": 18,
+    "text": "privacy policy and cookies",
+    "href": "/privacy-policy-and-cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4326,
+    "w": 300,
+    "h": 25,
+    "text": "english",
+    "href": "/events"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4351,
+    "w": 300,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/eventsda"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4376,
+    "w": 300,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/esdeveniments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 30,
+    "y": 4401,
+    "w": 300,
+    "h": 25,
+    "text": "español",
+    "href": "/es/eventos"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 50,
+    "controls": 26,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 6,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 1,
+   "heading": "celebrate your event in casa argentera",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 0,
+    "text": 11,
+    "image": 0
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 11,
+    "textHidden": 0,
+    "image": 6,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT IMAGES"
+   ]
+  },
+  {
+   "index": 2,
+   "heading": "more information and reservation of an event?",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 8,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 8,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×6 \"slide 1\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 6,
+   "text": "slide 1"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"celebrate your event in casa argentera\": 0 origin → 6 served visible",
+   "band": 1,
+   "origin": 0,
+   "eds": 6,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 6,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 2,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 80,
+    "y": 129,
+    "w": 109,
+    "h": 20
+   },
+   {
+    "x": 89,
+    "y": 153,
+    "w": 106,
+    "h": 11
+   },
+   {
+    "x": 30,
+    "y": 309,
+    "w": 234,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 364,
+    "w": 258,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 419,
+    "w": 175,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 474,
+    "w": 245,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 545,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 570,
+    "w": 109,
+    "h": 18
+   },
+   {
+    "x": 139,
+    "y": 570,
+    "w": 158,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 595,
+    "w": 42,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 630,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 655,
+    "w": 294,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 680,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 705,
+    "w": 248,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 730,
+    "w": 103,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 765,
+    "w": 233,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 790,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 825,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 168,
+    "y": 825,
+    "w": 3,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 850,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 875,
+    "w": 208,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 900,
+    "w": 140,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 925,
+    "w": 196,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 950,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 975,
+    "w": 146,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1010,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1035,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1060,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1085,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1110,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1135,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1160,
+    "w": 274,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1185,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2367,
+    "w": 127,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2422,
+    "w": 290,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2477,
+    "w": 96,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2532,
+    "w": 272,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2587,
+    "w": 298,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2658,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2683,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2708,
+    "w": 190,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2733,
+    "w": 151,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2818,
+    "w": 148,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2903,
+    "w": 168,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2988,
+    "w": 53,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3073,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3098,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3133,
+    "w": 97,
+    "h": 18
+   },
+   {
+    "x": 61,
+    "y": 3430,
+    "w": 189,
+    "h": 18
+   },
+   {
+    "x": 250,
+    "y": 3430,
+    "w": 50,
+    "h": 18
+   },
+   {
+    "x": 44,
+    "y": 3455,
+    "w": 41,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3649,
+    "w": 109,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3691,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3716,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3741,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3766,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3791,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3846,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3958,
+    "w": 105,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4060,
+    "w": 143,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4102,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4127,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4152,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4207,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4249,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4274,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4329,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4354,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4379,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4404,
+    "w": 56,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 80,
+    "y": 129,
+    "w": 112,
+    "h": 21
+   },
+   {
+    "x": 89,
+    "y": 153,
+    "w": 103,
+    "h": 10
+   },
+   {
+    "x": 30,
+    "y": 309,
+    "w": 234,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 364,
+    "w": 258,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 419,
+    "w": 175,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 474,
+    "w": 245,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 545,
+    "w": 264,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 570,
+    "w": 109,
+    "h": 18
+   },
+   {
+    "x": 139,
+    "y": 570,
+    "w": 158,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 595,
+    "w": 42,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 630,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 655,
+    "w": 294,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 680,
+    "w": 288,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 705,
+    "w": 248,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 730,
+    "w": 103,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 765,
+    "w": 233,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 790,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 825,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 168,
+    "y": 825,
+    "w": 3,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 850,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 875,
+    "w": 208,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 900,
+    "w": 140,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 925,
+    "w": 196,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 950,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 50,
+    "y": 975,
+    "w": 146,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1010,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1035,
+    "w": 270,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1060,
+    "w": 251,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1085,
+    "w": 260,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1110,
+    "w": 282,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1135,
+    "w": 292,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1160,
+    "w": 274,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 1185,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2367,
+    "w": 127,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2422,
+    "w": 290,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2477,
+    "w": 96,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2532,
+    "w": 272,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2587,
+    "w": 298,
+    "h": 61
+   },
+   {
+    "x": 30,
+    "y": 2658,
+    "w": 280,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2683,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2708,
+    "w": 190,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2733,
+    "w": 151,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2818,
+    "w": 148,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2903,
+    "w": 168,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 2988,
+    "w": 53,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3073,
+    "w": 254,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3098,
+    "w": 281,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3133,
+    "w": 97,
+    "h": 18
+   },
+   {
+    "x": 61,
+    "y": 3430,
+    "w": 189,
+    "h": 18
+   },
+   {
+    "x": 250,
+    "y": 3430,
+    "w": 50,
+    "h": 18
+   },
+   {
+    "x": 44,
+    "y": 3455,
+    "w": 41,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3649,
+    "w": 109,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3691,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3716,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3741,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3766,
+    "w": 175,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3791,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 3846,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 3958,
+    "w": 105,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4060,
+    "w": 143,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4102,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4127,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4152,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4207,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 30,
+    "y": 4249,
+    "w": 184,
+    "h": 18
+   },
+   {
+    "x": 30,
+    "y": 4274,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4329,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4354,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4379,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 37,
+    "y": 4404,
+    "w": 56,
+    "h": 18
+   }
+  ]
+ }
+}

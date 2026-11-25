@@ -1,0 +1,1630 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T22:06:33.460Z",
+  "tol": 4,
+  "n": 10,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/ca/la-casa/",
+  "at": "2026-11-24T18:55:22.776Z",
+  "docH": 3921
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/ca/la-casa",
+  "at": "2026-11-24T22:06:33.405Z",
+  "docH": 4047
+ },
+ "results": [
+  {
+   "sel": "#content > .vc_row > .vc_col-sm-6=.media-feature .media-feature-col",
+   "family": null,
+   "required": true,
+   "originMatches": 10,
+   "edsMatches": 10,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:balcony stone carved facade of casa arge",
+       "role": "image",
+       "text": "balcony stone carved facade of casa argentera",
+       "edsText": "balcony stone carved facade of casa argentera",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 164
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 164,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      },
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 160,
+        "w": 300,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 160,
+        "w": 300,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 164,
+       "absY": 968,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(221, 157, 59)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 968,
+       "w": 360,
+       "h": 182
+      },
+      "eds": {
+       "x": 0,
+       "y": 968,
+       "w": 360,
+       "h": 182
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "link:la casa entera",
+       "role": "link",
+       "text": "la casa entera",
+       "edsText": "la casa entera",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": -3,
+        "w": 179,
+        "h": 116
+       },
+       "eds": {
+        "x": 30,
+        "y": -3,
+        "w": 179,
+        "h": 116,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "heading:la casa entera",
+       "role": "heading",
+       "text": "la casa entera",
+       "edsText": "la casa entera",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110,
+        "sel": "h2#la-casa-entera",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:para grupos de . disfruta de la compañía",
+       "role": "text",
+       "text": "para grupos de . disfruta de la compañía de los tuyos sin co",
+       "edsText": "para grupos de . disfruta de la compañía de los tuyos sin co",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 75
+       },
+       "eds": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 75,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:hasta 15 personas",
+       "role": "text",
+       "text": "hasta 15 personas",
+       "edsText": "hasta 15 personas",
+       "byPosition": false,
+       "origin": {
+        "x": 140,
+        "y": 123,
+        "w": 129,
+        "h": 18
+       },
+       "eds": {
+        "x": 140,
+        "y": 123,
+        "w": 129,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1150,
+       "w": 360,
+       "h": 195
+      },
+      "eds": {
+       "x": 0,
+       "y": 1150,
+       "w": 360,
+       "h": 195
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "heading:h3#1",
+       "role": "heading",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 186
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 186,
+        "sel": "h3#view-of-the-pool-heated-and-lighted-in-casa-argentera",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "30/35/200",
+        "eds": "30/35/200"
+       }
+      },
+      {
+       "key": "image:view of the pool heated and lighted in c",
+       "role": "image",
+       "text": "view of the pool heated and lighted in casa argentera",
+       "edsText": "view of the pool heated and lighted in casa argentera",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "30/35/200",
+        "eds": "30/0/200"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 1377,
+       "hidden": false,
+       "fs": 30,
+       "lh": 0,
+       "fw": "200",
+       "color": "rgb(221, 157, 59)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1377,
+       "w": 360,
+       "h": 186
+      },
+      "eds": {
+       "x": 0,
+       "y": 1377,
+       "w": 360,
+       "h": 186
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "link:el jardín",
+       "role": "link",
+       "text": "el jardín",
+       "edsText": "el jardín",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": -3,
+        "w": 199,
+        "h": 61
+       },
+       "eds": {
+        "x": 30,
+        "y": -3,
+        "w": 199,
+        "h": 61,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "heading:el jardín",
+       "role": "heading",
+       "text": "el jardín",
+       "edsText": "el jardín",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 55
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 55,
+        "sel": "h2#el-jardín",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:disfruta del clima de la montaña tomando",
+       "role": "text",
+       "text": "disfruta del clima de la montaña tomando el sol al lado de l",
+       "edsText": "disfruta del clima de la montaña tomando el sol al lado de l",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 65,
+        "w": 300,
+        "h": 100
+       },
+       "eds": {
+        "x": 30,
+        "y": 65,
+        "w": 300,
+        "h": 100,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:piscina",
+       "role": "text",
+       "text": "piscina",
+       "edsText": "piscina",
+       "byPosition": false,
+       "origin": {
+        "x": 156,
+        "y": 93,
+        "w": 52,
+        "h": 18
+       },
+       "eds": {
+        "x": 156,
+        "y": 93,
+        "w": 52,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:barbacoa",
+       "role": "text",
+       "text": "barbacoa",
+       "edsText": "barbacoa",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 118,
+        "w": 68,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 118,
+        "w": 68,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:chill out",
+       "role": "text",
+       "text": "chill out",
+       "edsText": "chill out",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 118,
+        "w": 283,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 118,
+        "w": 283,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1563,
+       "w": 360,
+       "h": 165
+      },
+      "eds": {
+       "x": 0,
+       "y": 1562,
+       "w": 360,
+       "h": 165
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "heading:h3#1",
+       "role": "heading",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 186
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 186,
+        "sel": "h3#casa-argentera-penthouse-main-room",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "30/35/200",
+        "eds": "30/35/200"
+       }
+      },
+      {
+       "key": "image:casa argentera penthouse main room",
+       "role": "image",
+       "text": "casa argentera penthouse main room",
+       "edsText": "casa argentera penthouse main room",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "30/35/200",
+        "eds": "30/0/200"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 169,
+       "absY": 1759,
+       "hidden": false,
+       "fs": 30,
+       "lh": 0,
+       "fw": "200",
+       "color": "rgb(221, 157, 59)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1760,
+       "w": 360,
+       "h": 186
+      },
+      "eds": {
+       "x": 0,
+       "y": 1759,
+       "w": 360,
+       "h": 186
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "link:el ático",
+       "role": "link",
+       "text": "el ático",
+       "edsText": "el ático",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": -3,
+        "w": 178,
+        "h": 61
+       },
+       "eds": {
+        "x": 30,
+        "y": -3,
+        "w": 178,
+        "h": 61,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "heading:el ático",
+       "role": "heading",
+       "text": "el ático",
+       "edsText": "el ático",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 55
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 55,
+        "sel": "h2#el-ático",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:el apartamento de la segunda planta tien",
+       "role": "text",
+       "text": "el apartamento de la segunda planta tiene unas que dejan ent",
+       "edsText": "el apartamento de la segunda planta tiene unas que dejan ent",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 65,
+        "w": 300,
+        "h": 150
+       },
+       "eds": {
+        "x": 30,
+        "y": 65,
+        "w": 300,
+        "h": 150,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:para 4 personas",
+       "role": "text",
+       "text": "para 4 personas",
+       "edsText": "para 4 personas",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 68,
+        "w": 117,
+        "h": 18
+       },
+       "eds": {
+        "x": 143,
+        "y": 68,
+        "w": 117,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:hermosas ventanas con el dintel curvado",
+       "role": "text",
+       "text": "hermosas ventanas con el dintel curvado",
+       "edsText": "hermosas ventanas con el dintel curvado",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 93,
+        "w": 263,
+        "h": 43
+       },
+       "eds": {
+        "x": 30,
+        "y": 93,
+        "w": 263,
+        "h": 43,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span",
+       "text": "ático",
+       "boxed": false,
+       "x": 89,
+       "y": -3,
+       "w": 119,
+       "h": 61,
+       "absY": 1942,
+       "hidden": false,
+       "fs": 50,
+       "lh": 55,
+       "fw": "200",
+       "color": "rgb(221, 157, 59)",
+       "bg": null,
+       "position": "static",
+       "key": "text:ático"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1945,
+       "w": 360,
+       "h": 215
+      },
+      "eds": {
+       "x": 0,
+       "y": 1945,
+       "w": 360,
+       "h": 215
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:balcony carved in stone and view of vill",
+       "role": "image",
+       "text": "balcony carved in stone and view of village",
+       "edsText": "balcony carved in stone and view of village",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 169
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 168,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 168,
+       "absY": 2192,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2192,
+       "w": 360,
+       "h": 187
+      },
+      "eds": {
+       "x": 0,
+       "y": 2192,
+       "w": 360,
+       "h": 186
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "link:el piso señorial",
+       "role": "link",
+       "text": "el piso señorial",
+       "edsText": "el piso señorial",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": -3,
+        "w": 191,
+        "h": 116
+       },
+       "eds": {
+        "x": 30,
+        "y": -3,
+        "w": 191,
+        "h": 116,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "heading:el piso señorial",
+       "role": "heading",
+       "text": "el piso señorial",
+       "edsText": "el piso señorial",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110,
+        "sel": "h2#el-piso-señorial",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:el apartamento de la primera planta tien",
+       "role": "text",
+       "text": "el apartamento de la primera planta tiene muchos , como el s",
+       "edsText": "el apartamento de la primera planta tiene muchos , como el s",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 100
+       },
+       "eds": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 100,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:detalles originales",
+       "role": "text",
+       "text": "detalles originales",
+       "edsText": "detalles originales",
+       "byPosition": false,
+       "origin": {
+        "x": 91,
+        "y": 148,
+        "w": 134,
+        "h": 18
+       },
+       "eds": {
+        "x": 91,
+        "y": 148,
+        "w": 134,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:para 5-6 personas.",
+       "role": "text",
+       "text": "para 5-6 personas.",
+       "edsText": "para 5-6 personas.",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 233,
+        "w": 134,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 233,
+        "w": 134,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2379,
+       "w": 360,
+       "h": 255
+      },
+      "eds": {
+       "x": 0,
+       "y": 2379,
+       "w": 360,
+       "h": 255
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-media"
+     },
+     "rows": [
+      {
+       "key": "image:big dining/meeting room in the ground fl",
+       "role": "image",
+       "text": "big dining/meeting room in the ground floor",
+       "edsText": "big dining/meeting room in the ground floor",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 50
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 168,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 118,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 30,
+       "y": 0,
+       "w": 300,
+       "h": 168,
+       "absY": 2666,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2666,
+       "w": 360,
+       "h": 60
+      },
+      "eds": {
+       "x": 0,
+       "y": 2666,
+       "w": 360,
+       "h": 186
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 126
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "div#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+     },
+     "eds": {
+      "path": "div.media-feature.gap-32 > div.media-feature-row.media-feature-cols-2 > div.media-feature-col.media-feature-text"
+     },
+     "rows": [
+      {
+       "key": "link:la planta baja",
+       "role": "link",
+       "text": "la planta baja",
+       "edsText": "la planta baja",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": -3,
+        "w": 227,
+        "h": 116
+       },
+       "eds": {
+        "x": 30,
+        "y": -3,
+        "w": 227,
+        "h": 116,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "heading:la planta baja",
+       "role": "heading",
+       "text": "la planta baja",
+       "edsText": "la planta baja",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110
+       },
+       "eds": {
+        "x": 30,
+        "y": 0,
+        "w": 300,
+        "h": 110,
+        "sel": "h2#la-planta-baja",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "50/55/200",
+        "eds": "50/55/200"
+       }
+      },
+      {
+       "key": "text:es en la planta baja donde puedes cocina",
+       "role": "text",
+       "text": "es en la planta baja donde puedes cocinar en un . esta plant",
+       "edsText": "es en la planta baja donde puedes cocinar en un . esta plant",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 100
+       },
+       "eds": {
+        "x": 30,
+        "y": 120,
+        "w": 300,
+        "h": 100,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:horno massivo",
+       "role": "text",
+       "text": "horno massivo",
+       "edsText": "horno massivo",
+       "byPosition": false,
+       "origin": {
+        "x": 74,
+        "y": 148,
+        "w": 107,
+        "h": 18
+       },
+       "eds": {
+        "x": 74,
+        "y": 148,
+        "w": 107,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:sala más grande",
+       "role": "text",
+       "text": "sala más grande",
+       "edsText": "sala más grande",
+       "byPosition": false,
+       "origin": {
+        "x": 127,
+        "y": 198,
+        "w": 120,
+        "h": 18
+       },
+       "eds": {
+        "x": 127,
+        "y": 198,
+        "w": 120,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      },
+      {
+       "key": "text:para 4 plazas.",
+       "role": "text",
+       "text": "para 4 plazas.",
+       "edsText": "para 4 plazas.",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 233,
+        "w": 100,
+        "h": 18
+       },
+       "eds": {
+        "x": 30,
+        "y": 233,
+        "w": 100,
+        "h": 18,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/700",
+        "eds": "14/25/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2726,
+       "w": 360,
+       "h": 255
+      },
+      "eds": {
+       "x": 0,
+       "y": 2852,
+       "w": 360,
+       "h": 255
+      },
+      "dx": 0,
+      "dy": 126,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 33,
+  "off": 1,
+  "hidden": 0,
+  "missing": 1,
+  "errors": 0,
+  "requiredOff": 2
+ }
+}

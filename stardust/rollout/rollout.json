@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-24T12:13:05.831Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.casaargentera.com/",
+    "da": {
+      "org": "aemcoder",
+      "site": "ea32f12a",
+      "ref": "main"
+    },
+    "liveHost": "main--ea32f12a--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 70,
+    "discovered": 71,
+    "capped": true,
+    "pageCap": null
+  },
+  "lastRun": {
+    "at": "2026-11-25T00:29:34.755Z",
+    "pages": {
+      "total": 70,
+      "verified": 70,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 11,
+      "converted": 8,
+      "pending": 3
+    },
+    "verifyFailures": 0
+  }
+}

@@ -1,0 +1,395 @@
+/* availability-calendar — lifted from stardust/prototypes/reservations-2.css (ICS Calendar
+   "month" layout, light theme; The7 select tokens). Tokens: whitesmoke #f0f3f6 (day strip,
+   off cells, select), gainsboro #d9dcdf (th, borders), gray #70787f (today strip, multi-day
+   bar), black #10181f (ink). Two WPBakery 1/2 columns: calendar | side column (prices). */
+
+/* scoped overrides for the booking section (foundation request queued: no h1 type rule): the
+   page's first heading is its h1 (R-07), painted as the source h2; the source's spacers
+   (vc_empty_space) sit around the enquiry form (64 above; 32 + its last line's 10 below) and
+   under the note (25) */
+main .availability-calendar-container .default-content-wrapper h1 {
+  font: 200 50px/55px var(--ca-font);
+}
+
+main .availability-calendar-container .contact-form-wrapper {
+  margin: 64px 0 42px;
+}
+
+main .availability-calendar-container .availability-calendar-wrapper {
+  margin-top: 25px;
+}
+
+.availability-calendar {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 0 -30px;
+}
+
+.availability-calendar .availability-calendar-main,
+.availability-calendar .availability-calendar-side {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 1px;
+  padding: 0 30px;
+}
+
+/* the source's spacers under each column (vc_empty_space 32 / 25) */
+.availability-calendar .availability-calendar-main {
+  padding-bottom: 32px;
+}
+
+.availability-calendar .availability-calendar-side {
+  padding-bottom: 25px;
+}
+
+/* The7 h3 keeps its 10px bottom margin inside a text column; last child carries none */
+.availability-calendar .availability-calendar-text h3 {
+  margin-bottom: 10px;
+}
+
+.availability-calendar .availability-calendar-text > :last-child {
+  margin-bottom: 0;
+}
+
+/* ---- the calendar widget. Base = the plugin's phone layout (≤ 782px): the month collapses
+   to the days with events, a day label per day; the month grid from 783px up */
+.availability-calendar .availability-calendar-widget {
+  display: block;
+  clear: both;
+  margin: 0 0 21px;
+  color: var(--ca-base);
+}
+
+.availability-calendar .availability-calendar-widget * {
+  box-sizing: border-box;
+}
+
+.availability-calendar .availability-calendar-select {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  height: 40px;
+  margin: 0 0 10px;
+  padding: 5px 30px 5px 15px;
+  border: 1px solid rgb(173 176 182 / 30%);
+  border-radius: 0;
+  background-color: #f0f3f6;
+  color: #10181f;
+  font: 400 14px/25px var(--ca-font);
+  appearance: none;
+
+  /* lifted The7 select arrow: two 5px triangles in --the7-input-color #787d85 */
+  background-image:
+    linear-gradient(45deg, transparent 50%, #787d85 50%),
+    linear-gradient(135deg, #787d85 50%, transparent 50%);
+  background-position: calc(100% - 20px) 50%, calc(100% - 15px) 50%, 100% 0;
+  background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+  background-repeat: no-repeat;
+}
+
+.availability-calendar .availability-calendar-month {
+  position: relative;
+  z-index: 1;
+}
+
+.availability-calendar .availability-calendar-month[hidden],
+.availability-calendar .availability-calendar-month.past {
+  display: none;
+}
+
+.availability-calendar .availability-calendar-label {
+  clear: none;
+  margin: 0;
+  color: var(--ca-base);
+  font: 200 30px/35px var(--ca-font);
+}
+
+.availability-calendar .availability-calendar-grid {
+  display: block;
+  width: 100%;
+  margin: 0;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background: #fff;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.availability-calendar .availability-calendar-grid tbody,
+.availability-calendar .availability-calendar-grid tr {
+  display: block;
+  width: 100%;
+}
+
+.availability-calendar .availability-calendar-grid th,
+.availability-calendar .availability-calendar-grid td {
+  width: auto;
+  border: 1px solid #d9dcdf;
+  font-size: 70%;
+  line-height: 21px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.availability-calendar .availability-calendar-grid th {
+  padding: 0.5em 0.8em 0.2em;
+  background: #d9dcdf;
+  color: #10181f;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.availability-calendar .availability-calendar-grid td {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+.availability-calendar .availability-calendar-grid thead,
+.availability-calendar .availability-calendar-grid td:is(.off, .empty, .past) {
+  display: none;
+}
+
+.availability-calendar .availability-calendar-grid td.off {
+  background: #f0f3f6;
+  color: #70787f;
+}
+
+.availability-calendar .availability-calendar-grid .day {
+  padding: 0.5em 0.8em;
+  background: #f0f3f6;
+  color: #10181f;
+  font-weight: 700;
+  text-align: left;
+}
+
+.availability-calendar .availability-calendar-grid .today .day {
+  background: #70787f;
+}
+
+.availability-calendar .availability-calendar-grid .today .day * {
+  color: #fff;
+}
+
+.availability-calendar .availability-calendar-grid .no-phone {
+  display: none;
+}
+
+.availability-calendar .phone-only {
+  display: block;
+}
+
+.availability-calendar .no-events {
+  margin: 0 0 10px;
+}
+
+.availability-calendar .availability-calendar-grid .events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #10181f;
+}
+
+.availability-calendar .availability-calendar-grid .events li {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0.4em 0.8em;
+  font-weight: 700;
+}
+
+.availability-calendar .availability-calendar-grid .events li:is(:hover, :focus-within) {
+  z-index: 9;
+}
+
+.availability-calendar .availability-calendar-grid .events .all-day-indicator {
+  display: block;
+  font-size: 75%;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-transform: uppercase;
+}
+
+.availability-calendar .availability-calendar-grid .events .title {
+  display: block;
+  font-size: 100%;
+  line-height: 1.5em;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+/* multi-day bookings (combinemultiday): one gray bar across the days; the hover block names
+   the range (description not carried — R-01) */
+.availability-calendar .availability-calendar-grid .events li:is(
+  .multiday-first, .multiday-middle, .multiday-last
+) {
+  margin: 1px 0;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  border-bottom: 0;
+  background: #70787f;
+  color: #fff;
+}
+
+.availability-calendar .availability-calendar-grid .events li.multiday-first {
+  margin-left: 2px;
+  padding-left: calc(0.8em - 2px);
+  border-radius: 3px 0 0 3px;
+}
+
+.availability-calendar .availability-calendar-grid .events li.multiday-last {
+  margin-right: 2px;
+  padding-right: calc(0.8em - 2px);
+  border-radius: 0 3px 3px 0;
+}
+
+.availability-calendar .availability-calendar-grid .events li:is(
+  .multiday-first, .multiday-middle, .multiday-last
+) .all-day-indicator {
+  display: none;
+}
+
+.availability-calendar .availability-calendar-grid td:not(:first-child, .d-01)
+  li:is(.multiday-middle, .multiday-last) {
+  margin-left: -1px;
+}
+
+.availability-calendar .availability-calendar-grid td:not(:first-child, .d-01)
+  li:is(.multiday-middle, .multiday-last) > :not(.hover-block) {
+  color: transparent;
+}
+
+.availability-calendar .availability-calendar-grid td:is(:hover, :focus-within) {
+  position: relative;
+  z-index: 2;
+}
+
+.availability-calendar .availability-calendar-grid .hover-block {
+  position: absolute;
+  top: 2em;
+  left: 3em;
+  display: none;
+  width: 250%;
+  min-width: 15em;
+  max-width: 25em;
+  max-height: 30em;
+  overflow-y: auto;
+  padding: 0.4em 0.6em;
+  border: 1px solid #a3a8ac;
+  background: #fff;
+  box-shadow: 2px 2px 5px rgb(105 105 105 / 20%);
+  color: #10181f;
+}
+
+.availability-calendar .availability-calendar-grid .hover-block:is(:hover, :focus-within) {
+  display: block;
+}
+
+.availability-calendar .availability-calendar-grid td:nth-of-type(n+5) .hover-block {
+  right: 3em;
+  left: auto;
+}
+
+.availability-calendar .availability-calendar-grid tbody tr:nth-of-type(n+3) .hover-block {
+  top: auto;
+  bottom: 1em;
+}
+
+.availability-calendar .availability-calendar-grid .has-desc:is(:hover, :focus) ~ .hover-block {
+  display: block;
+}
+
+.availability-calendar .hover-block-date {
+  display: block;
+  font-weight: 700;
+}
+
+.availability-calendar .hover-block-title {
+  display: none;
+}
+
+/* WPBakery columns side by side (canon switch 768px) */
+@media (width > 768px) {
+  .availability-calendar .availability-calendar-main,
+  .availability-calendar .availability-calendar-side {
+    width: 50%;
+  }
+}
+
+/* source switch 782px (plugin): the month grid */
+@media (width > 782px) {
+  .availability-calendar .availability-calendar-select {
+    display: block;
+    float: right;
+    margin: 7px 0 10px 7px;
+  }
+
+  .availability-calendar .availability-calendar-month.past:not([hidden]) {
+    display: block;
+  }
+
+  .availability-calendar .availability-calendar-grid {
+    display: table;
+    margin: 0 0 10px;
+  }
+
+  .availability-calendar .availability-calendar-grid thead {
+    display: table-header-group;
+  }
+
+  .availability-calendar .availability-calendar-grid tbody {
+    display: table-row-group;
+  }
+
+  .availability-calendar .availability-calendar-grid tr {
+    display: table-row;
+  }
+
+  .availability-calendar .availability-calendar-grid td,
+  .availability-calendar .availability-calendar-grid td:is(.off, .empty, .past) {
+    display: table-cell;
+    width: auto;
+    height: 7.5em;
+    border: 1px solid #d9dcdf;
+    font-size: 70%;
+  }
+
+  .availability-calendar .availability-calendar-grid .day {
+    padding: 0.2em 0.8em;
+    text-align: right;
+  }
+
+  .availability-calendar .availability-calendar-grid .no-phone {
+    display: inline;
+  }
+
+  .availability-calendar .phone-only {
+    display: none;
+  }
+
+  .availability-calendar .availability-calendar-grid .events .all-day-indicator {
+    font-size: 80%;
+  }
+}
+
+@media (width > 1024px) {
+  .availability-calendar .availability-calendar-grid td,
+  .availability-calendar .availability-calendar-grid td:is(.off, .empty, .past) {
+    height: 9em;
+  }
+}
+
+/* tail-1: the source's empty WPBakery row after the calendar (its column's 1px min-height) */
+.availability-calendar.tail-1 {
+  padding-bottom: 1px;
+}

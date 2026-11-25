@@ -1,0 +1,11 @@
+{
+  "writtenBy": "gate.sh --gate-against-baseline",
+  "origin": "baseline",
+  "url": "https://www.casaargentera.com/reservations-2/",
+  "width": 360,
+  "at": "2026-11-24T11:47:40.003Z",
+  "originBaseline": {
+    "capturedAt": "2026-11-24T11:47:40.003Z",
+    "height": 3226
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "frozenAt": "2026-11-24T23:59:14.293Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "6e29c85cb521e4821f8502b84d2d0fe61c26277c01715f22fb7ecea40bdc7efc",
+    "blocks/footer/footer.js": "6af0e30ed0f0ccc2f8a3c15db1800bc3b15b526e54c6a4e61011f793a5c4c3dc",
+    "blocks/header/header.css": "5b94174fdc54c57a19e33f7f29bea747a288a68d9e71322852f47ce3eda43452",
+    "blocks/header/header.js": "617f29231623a991e6c198a92ee81df45693dce421cb38b56b31ae8cb958aec4",
+    "fonts/LICENSING.md": "196f709c732ff6b4e52184be3b509e945e3b92b4b450c79cfb3ea67c9f8eb7cc",
+    "fonts/fa-solid-900.woff2": "ef2369c82b6ec19bcf4fe76799d94edc43604e164c0f73978059536159845441",
+    "fonts/icomoon-the7.woff2": "95b8f8fd022e2f9f11dac76ba395fe6aa3a349bb6e5fa51d62cea12d4340e326",
+    "fonts/montserrat-200.woff2": "9bf77efc38bf8fb6d9623a8017936516d189eb5462b668ecc10e1a3e11c12068",
+    "fonts/montserrat-300.woff2": "2338972337f0c0cc50292801f01099d7a6a78b86b2321cc6c7cec3239dbb9a58",
+    "fonts/montserrat-400.woff2": "3fb64fdd1489d500ed13b47c2ea7bbcad6e9f820e07c3ebfa4ca5d8f5d55e5d7",
+    "fonts/montserrat-500.woff2": "5081bb6d767695c5bf94a4cd6fa3279add5e25f3823112d4faecb5f50d698297",
+    "fonts/montserrat-700.woff2": "f9b8d29799f155757821b99f1633bc315eec0fab82f3bc622ef4f07d3791b575",
+    "fonts/montserrat-800.woff2": "d706bae9e54bcac6cab7d5dbc3b7656287da11b752318df89f2bea3299055d07",
+    "head.html": "0f963b6378ffa7c27479f25b3c4ddbe93c448e71e4d35b4e464eed7eb00f57c2",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/canon-motion.js": "3aaa200f4b290de1ab4cb541b79a4744ed497c526aff779b5ddd530d8b2fb3f6",
+    "scripts/consent-check.js": "5774ca341acde710323fd5246169287236b45f04049b3c97a759bf3e3d6b0a8c",
+    "scripts/consented.js": "8a6e80585bf898985ae3fa0012dc370a19f4e366ca6922d92b80b319bcf281aa",
+    "scripts/locale.js": "e875995fb52d7514c98b297bb3cb9e901e9a077392a09c564f8c99f7e786cba0",
+    "scripts/martech.js": "6be6838dba980f85cca253a628ca0c7068ae0dbbccc60a746c0021fb28bb16d2",
+    "scripts/scripts.js": "ad2ea306df739dc1021efa58b176f832f57bb1e55fc8b27ae309e6e3ae357a28",
+    "styles/fonts.css": "72de81c931256943526bf80d323b4221468bca87176d89645570cff7abd94fb3",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "f52758204b9f5cfdb11538a5a743df0e95c6bcb156dd359f11a8e03dc5b87399"
+  }
+}

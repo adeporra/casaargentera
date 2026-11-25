@@ -1,0 +1,479 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-24T11:12:00.575Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.casaargentera.com/culture/",
+      "http://localhost:8793/culture-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.casaargentera.com/culture/",
+    "http://localhost:8793/culture-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main",
+      "isBody": false,
+      "leaves": 27,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1250,
+        "via": "fixed",
+        "selector": "#main > div.wf-wrap",
+        "tier": 1,
+        "share": 1,
+        "section": -1,
+        "w1": 1250,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 595,
+        "via": "fixed",
+        "selector": "#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container",
+        "tier": 5,
+        "share": 0,
+        "section": 2,
+        "w1": 595,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 595,
+        "via": "fixed",
+        "selector": "#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container",
+        "tier": 5,
+        "share": 0.19,
+        "section": 2,
+        "w1": 595,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 465,
+        "via": "fixed",
+        "selector": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p > strong",
+        "tier": 11,
+        "share": 0.04,
+        "section": 2,
+        "w1": 465,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 595,
+        "via": "fixed",
+        "selector": "#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container",
+        "tier": 5,
+        "share": 0,
+        "section": 4,
+        "w1": 595,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 595,
+        "via": "fixed",
+        "selector": "#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container",
+        "tier": 5,
+        "share": 0.3,
+        "section": 4,
+        "w1": 595,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 492,
+        "via": "fixed",
+        "selector": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p > strong",
+        "tier": 11,
+        "share": 0.04,
+        "section": 4,
+        "w1": 492,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 595,
+        "via": "fixed",
+        "selector": "#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container",
+        "tier": 5,
+        "share": 0,
+        "section": 6,
+        "w1": 595,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 595,
+        "via": "fixed",
+        "selector": "#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container",
+        "tier": 5,
+        "share": 0.15,
+        "section": 6,
+        "w1": 595,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 595,
+        "via": "fixed",
+        "selector": "#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container",
+        "tier": 5,
+        "share": 0,
+        "section": 8,
+        "w1": 595,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 595,
+        "via": "fixed",
+        "selector": "#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container",
+        "tier": 5,
+        "share": 0.15,
+        "section": 8,
+        "w1": 595,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#content > div.vc_row.wpb_row",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#content > div.vc_row.wpb_row",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "#content > div.vc_row.wpb_row",
+        "px": 595,
+        "capSelector": "#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+      },
+      {
+        "index": 3,
+        "selector": "#content > div.vc_row.wpb_row",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 4,
+        "selector": "#content > div.vc_row.wpb_row",
+        "px": 595,
+        "capSelector": "#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+      },
+      {
+        "index": 5,
+        "selector": "#content > div.vc_row.wpb_row",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 6,
+        "selector": "#content > div.vc_row.wpb_row",
+        "px": 595,
+        "capSelector": "#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+      },
+      {
+        "index": 7,
+        "selector": "#content > div.vc_row.wpb_row",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 8,
+        "selector": "#content > div.vc_row.wpb_row",
+        "px": 595,
+        "capSelector": "#content > div.vc_row.wpb_row > div.wpb_column.vc_column_container"
+      }
+    ],
+    "shellMaxWidth": 1250,
+    "contentMaxWidth": 1250,
+    "contentFrom": "shell",
+    "maxCap": 1250,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 154
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main",
+      "isBody": false,
+      "leaves": 27,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1250,
+        "via": "max-width",
+        "selector": "#main > div.wf-wrap",
+        "tier": 1,
+        "share": 1,
+        "section": -1,
+        "w1": 1250,
+        "maxWidth": "1250px"
+      },
+      {
+        "kind": "module",
+        "px": 595,
+        "via": "fixed",
+        "selector": "#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2",
+        "tier": 4,
+        "share": 0,
+        "section": 2,
+        "w1": 595,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 595,
+        "via": "fixed",
+        "selector": "#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2",
+        "tier": 4,
+        "share": 0.19,
+        "section": 2,
+        "w1": 595,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 465,
+        "via": "fixed",
+        "selector": "section.vc-row.culture-feature > div.vc-col.vc-col--1-2 > p > strong",
+        "tier": 6,
+        "share": 0.04,
+        "section": 2,
+        "w1": 465,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 595,
+        "via": "fixed",
+        "selector": "#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2",
+        "tier": 4,
+        "share": 0,
+        "section": 4,
+        "w1": 595,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 595,
+        "via": "fixed",
+        "selector": "#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2",
+        "tier": 4,
+        "share": 0.3,
+        "section": 4,
+        "w1": 595,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 492,
+        "via": "fixed",
+        "selector": "section.vc-row.culture-feature > div.vc-col.vc-col--1-2 > p > strong",
+        "tier": 6,
+        "share": 0.04,
+        "section": 4,
+        "w1": 492,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 595,
+        "via": "fixed",
+        "selector": "#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2",
+        "tier": 4,
+        "share": 0,
+        "section": 6,
+        "w1": 595,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 595,
+        "via": "fixed",
+        "selector": "#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2",
+        "tier": 4,
+        "share": 0.15,
+        "section": 6,
+        "w1": 595,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 595,
+        "via": "fixed",
+        "selector": "#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2",
+        "tier": 4,
+        "share": 0,
+        "section": 8,
+        "w1": 595,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 595,
+        "via": "fixed",
+        "selector": "#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2",
+        "tier": 4,
+        "share": 0.15,
+        "section": 8,
+        "w1": 595,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#content > section.vc-row.culture-intro",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#content > div.vc-row",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "#content > section.vc-row.culture-feature",
+        "px": 595,
+        "capSelector": "#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2"
+      },
+      {
+        "index": 3,
+        "selector": "#content > div.vc-row",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 4,
+        "selector": "#content > section.vc-row.culture-feature",
+        "px": 595,
+        "capSelector": "#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2"
+      },
+      {
+        "index": 5,
+        "selector": "#content > div.vc-row",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 6,
+        "selector": "#content > section.vc-row.culture-feature",
+        "px": 595,
+        "capSelector": "#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2"
+      },
+      {
+        "index": 7,
+        "selector": "#content > div.vc-row",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 8,
+        "selector": "#content > section.vc-row.culture-feature",
+        "px": 595,
+        "capSelector": "#content > section.vc-row.culture-feature > div.vc-col.vc-col--1-2"
+      }
+    ],
+    "shellMaxWidth": 1250,
+    "contentMaxWidth": 1250,
+    "contentFrom": "shell",
+    "maxCap": 1250,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 96
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "wrapper cap",
+        "detail": "live 1250px = build 1250px (±20)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/9",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/9",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/9",
+        "detail": "595px = 595px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/9",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/9",
+        "detail": "595px = 595px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 6/9",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 7/9",
+        "detail": "595px = 595px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 8/9",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 9/9",
+        "detail": "595px = 595px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/culture-2560/cap-iter.json"
+}

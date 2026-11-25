@@ -1,0 +1,256 @@
+{
+  "slug": "index",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero-slider",
+    "image-grid",
+    "testimonials",
+    "map"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "wf-wrap"
+  ],
+  "canonShas": {
+    "header": "2519a4670299",
+    "footer": "368a8a44d556",
+    "css": "89a5d300aec7"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Home - Casa Argentera",
+    "description": "Casa Argentera, a country house holiday rental, is located in an tiny village, between The Priorat &amp; The Mediterranean. Up to 15 people. Get to know it!",
+    "canonical": null,
+    "lang": "en-GB"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Home - Casa Argentera",
+    "description": "Casa Argentera, a country house holiday rental, is located in an tiny village, between The Priorat &amp; The Mediterranean. Up to 15 people. Get to know it!",
+    "url": "https://www.casaargentera.com/"
+  },
+  "migratedAt": "2026-11-24T12:12:29Z",
+  "designMdSha": "7ead730e40e5",
+  "designJsonSha": "15480f089476",
+  "sourceCurrentSha": "050255118a5c",
+  "sourceProposedSha": "3f0fc024a947",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 45,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/ca/inici/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/es/inicio/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-whole-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-penthouse/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-noble-floor/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-ground-floor/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-place/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/nature-sport/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/beach-and-more/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/who-we-are/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/ca/inici/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/es/inicio/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-whole-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-penthouse/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-noble-floor/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-ground-floor/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-place/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/nature-sport/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/beach-and-more/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/who-we-are/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-whole-house/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-penthouse/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-noble-floor/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-ground-floor/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-place/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/nature-sport/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/beach-and-more/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/who-we-are/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/the-house/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/the-garden/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/the-garden/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/the-noble-floor/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/the-noble-floor/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-penthouse/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/the-penthouse/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/the-ground-floor/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/the-old-stable/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/experiences/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/nature-sport/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/culture/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/beach-and-more/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/search-results/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/ca/inici/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.casaargentera.com/es/inicio/",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1"
+}

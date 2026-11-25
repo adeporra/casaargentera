@@ -1,0 +1,1161 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T21:38:25.998Z",
+  "tol": 4,
+  "n": 6,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/ca/contacte/",
+  "at": "2026-11-24T20:38:10.522Z",
+  "docH": 2968
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/ca/contacte",
+  "at": "2026-11-24T21:38:25.936Z",
+  "docH": 2968
+ },
+ "results": [
+  {
+   "sel": "#content .icon-with-text-shortcode=.icon-features .icon-features-item",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-dd9cb7386edfad157cdfa2950e4752a4"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.title-22 > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:en avió",
+       "role": "heading",
+       "text": "en avió",
+       "edsText": "en avió",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 475,
+        "h": 30
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 475,
+        "h": 30,
+        "sel": "h4#en-avió",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:l'aeroport de reus és a només 35 minuts ",
+       "role": "text",
+       "text": "l'aeroport de reus és a només 35 minuts en cotxe. l'aeroport",
+       "edsText": "l'aeroport de reus és a només 35 minuts en cotxe. l'aeroport",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 475,
+        "h": 100
+       },
+       "eds": {
+        "x": 60,
+        "y": 30,
+        "w": 475,
+        "h": 100,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 1746,
+       "w": 535,
+       "h": 130
+      },
+      "eds": {
+       "x": 155,
+       "y": 1746,
+       "w": 535,
+       "h": 130
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-ce96513d114ad2037313011700fbc8f9"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.title-22 > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:en cotxe",
+       "role": "heading",
+       "text": "en cotxe",
+       "edsText": "en cotxe",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 475,
+        "h": 30
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 475,
+        "h": 30,
+        "sel": "h4#en-cotxe",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:- des de barcelona per l'autopista ap7 o",
+       "role": "text",
+       "text": "- des de barcelona per l'autopista ap7 o bé l'autovia a7, en",
+       "edsText": "- des de barcelona per l'autopista ap7 o bé l'autovia a7, en",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 475,
+        "h": 250
+       },
+       "eds": {
+        "x": 60,
+        "y": 30,
+        "w": 475,
+        "h": 250,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 1908,
+       "w": 535,
+       "h": 280
+      },
+      "eds": {
+       "x": 155,
+       "y": 1908,
+       "w": 535,
+       "h": 280
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-d864770d07f0626f455501947cbeeae1"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.title-22 > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:en tren",
+       "role": "heading",
+       "text": "en tren",
+       "edsText": "en tren",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 475,
+        "h": 30
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 475,
+        "h": 30,
+        "sel": "h4#en-tren",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:l’estació de ferrocarril es troba a 1,1 ",
+       "role": "text",
+       "text": "l’estació de ferrocarril es troba a 1,1 km de distància. act",
+       "edsText": "l’estació de ferrocarril es troba a 1,1 km de distància. act",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 475,
+        "h": 75
+       },
+       "eds": {
+        "x": 60,
+        "y": 30,
+        "w": 475,
+        "h": 75,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 2220,
+       "w": 535,
+       "h": 105
+      },
+      "eds": {
+       "x": 155,
+       "y": 2220,
+       "w": 535,
+       "h": 105
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-0cd4bdf8187e96fe2077d01a45e4c443"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.title-22 > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:en autobús",
+       "role": "heading",
+       "text": "en autobús",
+       "edsText": "en autobús",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 475,
+        "h": 30
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 475,
+        "h": 30,
+        "sel": "h4#en-autobús",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:hi ha 2 arribades i sortides els dilluns",
+       "role": "text",
+       "text": "hi ha 2 arribades i sortides els dilluns i dijous des de reu",
+       "edsText": "hi ha 2 arribades i sortides els dilluns i dijous des de reu",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 475,
+        "h": 100
+       },
+       "eds": {
+        "x": 60,
+        "y": 30,
+        "w": 475,
+        "h": 100,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 2357,
+       "w": 535,
+       "h": 130
+      },
+      "eds": {
+       "x": 155,
+       "y": 2357,
+       "w": 535,
+       "h": 130
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#content .wpcf7-form > p=.contact-form .contact-form-line",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#wpcf7-f16221-p16219-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line"
+     },
+     "rows": [
+      {
+       "key": "text:nom (required)",
+       "role": "text",
+       "text": "nom (required)",
+       "edsText": "nom (required)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 535,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 535,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": -26,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input.wpcf7-form-control.wpcf7-text#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 535,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 535,
+        "h": 40,
+        "sel": "input.contact-form-field",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 750,
+       "y": 1746,
+       "w": 535,
+       "h": 75
+      },
+      "eds": {
+       "x": 750,
+       "y": 1746,
+       "w": 535,
+       "h": 75
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#wpcf7-f16221-p16219-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line"
+     },
+     "rows": [
+      {
+       "key": "text:correu electrònic (required)",
+       "role": "text",
+       "text": "correu electrònic (required)",
+       "edsText": "correu electrònic (required)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 535,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 535,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": -26,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input.wpcf7-form-control.wpcf7-email#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 535,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 535,
+        "h": 40,
+        "sel": "input.contact-form-field",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 750,
+       "y": 1831,
+       "w": 535,
+       "h": 75
+      },
+      "eds": {
+       "x": 750,
+       "y": 1831,
+       "w": 535,
+       "h": 75
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#wpcf7-f16221-p16219-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line"
+     },
+     "rows": [
+      {
+       "key": "text:el teu telèfon (required)",
+       "role": "text",
+       "text": "el teu telèfon (required)",
+       "edsText": "el teu telèfon (required)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 535,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 535,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": -26,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input.wpcf7-form-control.wpcf7-tel#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 535,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 535,
+        "h": 40,
+        "sel": "input.contact-form-field",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 750,
+       "y": 1916,
+       "w": 535,
+       "h": 75
+      },
+      "eds": {
+       "x": 750,
+       "y": 1916,
+       "w": 535,
+       "h": 75
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#wpcf7-f16221-p16219-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line"
+     },
+     "rows": [
+      {
+       "key": "text:assumpte",
+       "role": "text",
+       "text": "assumpte",
+       "edsText": "assumpte",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 535,
+        "h": 51
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 535,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": -26,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input.wpcf7-form-control.wpcf7-text#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 535,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 535,
+        "h": 40,
+        "sel": "input.contact-form-field",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 750,
+       "y": 2001,
+       "w": 535,
+       "h": 75
+      },
+      "eds": {
+       "x": 750,
+       "y": 2001,
+       "w": 535,
+       "h": 75
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div#wpcf7-f16221-p16219-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line.contact-form-note"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "cal afegir les vostres preferències respecte a les dates d’e",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 535,
+       "h": 25,
+       "absY": 2086,
+       "hidden": false,
+       "fs": 14,
+       "lh": 25,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "text:cal afegir les vostres preferències resp"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 750,
+       "y": 2086,
+       "w": 535,
+       "h": 25
+      },
+      "eds": {
+       "x": 750,
+       "y": 2086,
+       "w": 535,
+       "h": 25
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div#wpcf7-f16221-p16219-o1 > form.wpcf7-form.init > p"
+     },
+     "eds": {
+      "path": "div.contact-form.block > form.contact-form-form > div.contact-form-line"
+     },
+     "rows": [
+      {
+       "key": "text:el vostre missatge",
+       "role": "text",
+       "text": "el vostre missatge",
+       "edsText": "el vostre missatge",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 3,
+        "w": 535,
+        "h": 43
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 535,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": -18,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:textarea.wpcf7-form-control.wpcf7-textarea#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 25,
+        "w": 535,
+        "h": 262
+       },
+       "eds": {
+        "x": 0,
+        "y": 25,
+        "w": 535,
+        "h": 262,
+        "sel": "textarea.contact-form-field.contact-form-textarea",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "text:he llegit i accepto la",
+       "role": "text",
+       "text": "he llegit i accepto la",
+       "edsText": "he llegit i accepto la",
+       "byPosition": false,
+       "origin": {
+        "x": 27,
+        "y": 300,
+        "w": 243,
+        "h": 18
+       },
+       "eds": {
+        "x": 31,
+        "y": 300,
+        "w": 239,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 4,
+       "dy": 0,
+       "dw": -4,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "link:privacy policy",
+       "role": "link",
+       "text": "privacy policy",
+       "edsText": "privacy policy",
+       "byPosition": false,
+       "origin": {
+        "x": 175,
+        "y": 300,
+        "w": 95,
+        "h": 18
+       },
+       "eds": {
+        "x": 175,
+        "y": 300,
+        "w": 95,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "input:input#1",
+       "role": "input",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 301,
+        "w": 13,
+        "h": 13
+       },
+       "eds": {
+        "x": 14,
+        "y": 301,
+        "w": 13,
+        "h": 13,
+        "sel": "input",
+        "role": "input"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/25/400"
+       }
+      },
+      {
+       "key": "button:input.wpcf7-form-control.wpcf7-submit#1",
+       "role": "button",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 322,
+        "w": 97,
+        "h": 39
+       },
+       "eds": {
+        "x": 0,
+        "y": 322,
+        "w": 97,
+        "h": 39,
+        "sel": "input.contact-form-submit",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/800",
+        "eds": "14/16/800"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 750,
+       "y": 2121,
+       "w": 535,
+       "h": 361
+      },
+      "eds": {
+       "x": 750,
+       "y": 2121,
+       "w": 535,
+       "h": 361
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 1,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 17,
+  "off": 5,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 5
+ }
+}

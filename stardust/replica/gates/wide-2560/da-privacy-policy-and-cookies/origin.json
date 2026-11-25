@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.casaargentera.com/da/privacy-policy-and-cookies/",
+  "reference": {
+    "dir": "stardust/replica/gates/wide-2560/da-privacy-policy-and-cookies",
+    "capturedAt": "2026-11-24T23:08:51.409Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0,
+    "variableRows": 0,
+    "maskArg": ""
+  },
+  "note": "froze stardust/replica/gates/wide-2560/da-privacy-policy-and-cookies/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-24T23:09:25.339Z"
+}

@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-24T11:42:16.716Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-24T11:46:10.028Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-24T11:51:34.301Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-24T20-17-24-044Z",
+          "at": "2026-11-24T20:18:13.245Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-24T20-19-53-036Z",
+          "at": "2026-11-24T20:21:00.519Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T20-22-47-037Z",
+          "at": "2026-11-24T20:23:27.358Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T21-37-17-034Z",
+          "at": "2026-11-24T22:02:01.411Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T23-52-00-847Z",
+          "at": "2026-11-24T23:55:07.560Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

@@ -1,0 +1,24 @@
+[live-session] waiting to pace live navigations to www.casaargentera.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 360px, tol 4px — https://www.casaargentera.com/experiences/ vs http://localhost:8792/experiences-proposed.html
+unit 1 of experience-teaser (required) #content > .vc_row:nth-child(n+3) > .wpb_column=#content > .exp-row > .vc-col: origin 0,939 360×408 vs served 0,939 360×408 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "nature / sport experiences" | 30,-3 292×171 | 30,-3 292×171 | 0 | 0 | 0 | 0 | ✓ |
+| heading "nature / sport experiences" | 30,0 300×165 | 30,0 300×165 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.alignnone.wp-image-15675#1" | 30,197 300×169 | 30,197 300×169 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a#2" | 30,203 300×18 | 30,203 300×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of experience-teaser (required) #content > .vc_row:nth-child(n+3) > .wpb_column=#content > .exp-row > .vc-col: origin 0,1347 360×361 vs served 0,1347 360×361 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "cultural experiences" | 30,-3 292×116 | 30,-3 292×116 | 0 | 0 | 0 | 0 | ✓ |
+| heading "cultural experiences" | 30,0 300×110 | 30,0 300×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "modernist wine cellar, wine cathedra" | 30,142 300×169 | 30,142 300×169 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of experience-teaser (required) #content > .vc_row:nth-child(n+3) > .wpb_column=#content > .exp-row > .vc-col: origin 0,1708 360×353 vs served 0,1708 360×353 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "beach and more" | 30,-3 264×116 | 30,-3 264×116 | 0 | 0 | 0 | 0 | ✓ |
+| heading "beach and more" | 30,0 300×110 | 30,0 300×110 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.alignnone.wp-image-15609#1" | 30,142 300×169 | 30,142 300×169 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a#2" | 30,148 300×18 | 30,148 300×18 | 0 | 0 | 0 | 0 | ✓ |
+Units: 3 compared; elements within 11, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/experiences-360/units-iter1.json

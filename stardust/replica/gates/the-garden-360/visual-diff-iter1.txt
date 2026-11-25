@@ -1,0 +1,358 @@
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/the-garden-360/vdiff-iter1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 3518,
+  "textLen": 1162,
+  "images": [
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Logo-75-px.jpg",
+    "natural": "75x58",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Logo-75-px.jpg",
+    "natural": "75x58",
+    "rendered": "75x58",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Piscina-CasaArgentera-1-768x432.jpg",
+    "natural": "359x202",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20190710_193711-P3D-e1587804194703-768x432.jpg",
+    "natural": "359x202",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "PICT0023P3D.JPG.png",
+    "natural": "360x203",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "P1040374enhancedP3D-e1587754947853-768x432.jpg",
+    "natural": "359x202",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Pool-e1587755068834-768x442.jpg",
+    "natural": "359x207",
+    "rendered": "300x173",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Enjoy the Mediterranean weather ",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "In the garden you will find",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "For additional information and r",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "THE HOUSE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "THE PLACE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "EXPERIENCES",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "EVENTS",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "WHO WE ARE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "CONTACT",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "RESERVATIONS",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "THE HOUSE",
+    "color": "rgb(221, 157, 59)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "wpb_wrapper",
+    "width": 300,
+    "left": 30
+   },
+   {
+    "sel": "wpb_wrapper",
+    "width": 300,
+    "left": 30
+   },
+   {
+    "sel": "wpb_wrapper",
+    "width": 300,
+    "left": 30
+   },
+   {
+    "sel": "wpcf7-form",
+    "width": 300,
+    "left": 30
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 3518,
+  "textLen": 1162,
+  "images": [
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Logo-75-px.jpg",
+    "natural": "75x58",
+    "rendered": "75x58",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "PICT0023P3D.JPG.png",
+    "natural": "1980x1117",
+    "rendered": "360x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20190710_213145-002.jpg.png",
+    "natural": "1980x1116",
+    "rendered": "360x252",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Piscina-CasaArgentera-1-768x432.jpg",
+    "natural": "359x202",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20190710_193711-P3D-e1587804194703-768x432.jpg",
+    "natural": "359x202",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "PICT0023P3D.JPG-768x433.png",
+    "natural": "359x202",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "P1040374enhancedP3D-e1587754947853-768x432.jpg",
+    "natural": "359x202",
+    "rendered": "300x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Pool-e1587755068834-768x442.jpg",
+    "natural": "359x207",
+    "rendered": "300x173",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Enjoy the Mediterranean weather ",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "In the garden you will find",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "For additional information and r",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "THE HOUSE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "THE PLACE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "EXPERIENCES",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "EVENTS",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "WHO WE ARE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "CONTACT",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "RESERVATIONS",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "THE HOUSE",
+    "color": "rgb(221, 157, 59)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "text-column",
+    "width": 300,
+    "left": 30
+   },
+   {
+    "sel": "text-column",
+    "width": 300,
+    "left": 30
+   },
+   {
+    "sel": "text-column",
+    "width": 300,
+    "left": 30
+   },
+   {
+    "sel": "cf7-form",
+    "width": 300,
+    "left": 30
+   }
+  ]
+ }
+}

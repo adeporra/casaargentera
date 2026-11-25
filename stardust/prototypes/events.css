@@ -1,0 +1,84 @@
+/* ==========================================================================
+   Casa Argentera — "events" archetype (events page) modules. Imports canon.css first.
+   Lifted from source-spec (1440/360), the slider's rs-layer data (data-xy / data-text)
+   and the source sheet (css-rules.mjs over stardust/current/assets/css/combined.css).
+   ========================================================================== */
+
+/* per-page masthead veil: this page's inline value is rgba(221,153,51,.5)
+   (source-spec header background; the canon default is the home value) */
+:root { --ca-header-veil: rgba(221, 153, 51, 0.5); }
+
+/* ---- current-page state (scoped locally; canon has no .act state — back-port candidate) */
+.main-nav > li.act > a .underline { width: 100%; }
+#phantom .main-nav > li.act > a, #phantom .main-nav > li.act > a .menu-text { color: #dd9d3b; }
+#phantom .main-nav > li.act > a .underline { background: #dd9d3b; }
+.mobile-main-nav li.act > a { color: #dd9d3b; }
+
+/* ---- hero layers (Revolution slider data-xy "x:<px>;y:<px>" = offset from the 1240×868
+   grid's top-left, the grid centred and scaled by min(1, vw/1240) as canon's --s) */
+.hero-layer--xy {
+  left: calc(50% + (var(--x) - 620) * var(--s)); top: calc(50% + (var(--y) - 434) * var(--s));
+  transform: none;
+}
+/* data-text "s:60;l:50;fw:300" (titles) — canon's title is the home 80/70 */
+.hero-layer--t60 { color: #fff; font-weight: 300; font-size: calc(60 * var(--s)); line-height: calc(50 * var(--s)); }
+.hero-layer--lh25 { line-height: calc(25 * var(--s)); }
+.hero-layer--h28 { height: calc(28 * var(--s)); }
+
+/* ---- WPBakery text column: last child carries no bottom margin
+   (lifted: .wpb_text_column *:last-child { margin-bottom: 0 }) */
+.text-column > :last-child { margin-bottom: 0; }
+/* WPBakery columns keep min-height 1px (back-port candidate, as contact) */
+.vc-col { min-height: 1px; }
+
+/* ---- content lists (lifted: .content ul { margin: 0 0 10px 20px; list-style: disc }) */
+.text-column ul { margin: 0 0 10px 20px; list-style: disc; }
+
+/* ---- media grid (WPBakery vc_masonry_media_grid, 3 columns, gutter 20px).
+   Lifted: .vc_grid-gutter-20px { margin-bottom: -20px }; its .vc_pageable-slide-wrapper
+   { margin-right: -20px }; .vc_grid-item { padding-right: 20px; padding-bottom: 20px };
+   .vc_col-sm-4 33.333% (100% below 768px); .vc_gitem-zone overflow hidden, image width 100% */
+.media-grid { margin: 0 0 -20px; }
+.media-grid__items { display: flex; flex-wrap: wrap; margin-right: -20px; }
+.media-grid__item { box-sizing: border-box; width: 33.33333333%; padding: 0 20px 20px 0; }
+/* the zone paints the image (background cover, centred); the img only sizes it (visibility hidden) —
+   lifted: .vc_gitem-zone { background: no-repeat 50% 50% / cover; overflow: hidden }
+           .vc_gitem-zone-img { width: 100%; display: block; visibility: hidden; height: auto } */
+.media-grid__zone { position: relative; box-sizing: border-box; overflow: hidden; background-repeat: no-repeat; background-position: 50% 50%; background-size: cover; }
+.media-grid__img { display: block; width: 100%; height: auto; visibility: hidden; }
+.media-grid__link { position: absolute; inset: 0; z-index: 5; display: block; border: 0; outline: none; }
+
+/* ---- contact form (Contact Form 7 look, The7 form tokens) — same as contact */
+.cf7 { margin: 0; }
+.cf7-form { margin: 0; }
+.cf7-form p { margin: 0 0 10px; }
+.cf7-wrap { position: relative; }
+.cf7-field {
+  display: inline-block; box-sizing: border-box; width: 100%; height: 40px; margin: 0 0 10px; padding: 5px 15px;
+  border: 1px solid rgba(173, 176, 182, 0.3); border-radius: 0; background: #fcfcfc; color: #787d85;
+  font: 400 14px/25px var(--ca-font); vertical-align: baseline;
+}
+.cf7-textarea { height: auto; overflow: auto; vertical-align: top; resize: vertical; }
+.cf7-list-item { display: inline-block; margin: 0 0 0 1em; }
+.cf7-acceptance input { box-sizing: border-box; margin: 0; font-size: 100%; vertical-align: baseline; }
+.cf7-list-item-label::before, .cf7-list-item-label::after { content: " "; }
+.cf7-submit {
+  display: inline-flex; align-items: center; box-sizing: border-box; padding: 12px 25px 11px; border: 0 solid #dd9d3b;
+  border-radius: 25px; background: #dd9d3b; color: #fff; font: 800 14px/16px var(--ca-font); cursor: pointer;
+  -webkit-appearance: none; appearance: none;
+  transition: all .3s ease-out; /* lifted: .dt-btn,…input[type=submit] { transition: all 0.3s ease-out } */
+}
+.cf7-submit:hover { background: #ae9964; }
+.cf7-spinner { position: relative; display: inline-block; width: 24px; height: 24px; margin: 0 24px; visibility: hidden; opacity: .75; }
+.cf7-response:empty { display: none; }
+
+@media (max-width: 767px) {
+  .media-grid__item { width: 100%; }
+}
+
+/* masonry (Isotope) places the 3 columns at whole-pixel lefts (live: left 0 / 383px / 766px
+   of a 1150px wrapper, not 383.33 / 766.67) — the same floor on the 2nd and 3rd column */
+@media (min-width: 768px) {
+  .media-grid__item:nth-child(3n+2) { margin-left: calc(round(down, 33.33333333%, 1px) - 33.33333333%); }
+  .media-grid__item:nth-child(3n+3) { margin-left: calc(round(down, 66.66666667%, 1px) - 66.66666667% - round(down, 33.33333333%, 1px) + 33.33333333%); } /* flow already carries the 2nd column's shift */
+}

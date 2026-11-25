@@ -1,0 +1,711 @@
+[live-session] waiting to pace live navigations to www.casaargentera.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/index-1440/vdiff-iter2/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 3047,
+  "textLen": 4976,
+  "images": [
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "172x136",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Logo-75-px.jpg",
+    "natural": "75x58",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Logo-75-px.jpg",
+    "natural": "75x58",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Piscina-CasaArgentera-1.jpg",
+    "natural": "1440x810",
+    "rendered": "535x301",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "P1010716enhanced1P3D-e1587836859220.jpg",
+    "natural": "1440x809",
+    "rendered": "535x301",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Casa-Argentera-2floor-diningroom.jpg",
+    "natural": "1440x810",
+    "rendered": "535x301",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "P1010765EnhancedP3D-e1587830457410-1536x863.jpg",
+    "natural": "1439x809",
+    "rendered": "535x301",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "BTT-CasaArgentera-1536x864.jpg",
+    "natural": "1439x809",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "SierraArgentera-CasaArgentera-1536x864.jpg",
+    "natural": "1439x809",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Acaballo-CasaArgentera-1536x864.jpg",
+    "natural": "1439x809",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "SantesCreus-activity-Argentera.jpg",
+    "natural": "969x545",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Escornalbou-CasaArgentera-1536x864.jpg",
+    "natural": "1439x809",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Celler-Modernista-1536x864.jpg",
+    "natural": "1439x809",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20180826_150525-1536x864.jpg",
+    "natural": "1439x809",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Spa-TermesMontbrio.jpg",
+    "natural": "1261x709",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "port-aventura.jpg",
+    "natural": "996x560",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "172x136",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Casa Argentera, a historical vil",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Get to know the house",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "THE GARDEN",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "THE NOBLE FLOOR",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "THE PENTHOUSE",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "THE GROUND FLOOR",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Testimonials",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Plenty of experiences waiting",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "NATURE & SPORT",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "CULTURE",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "BEACH AND MORE",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Location: in the Costa Daurada m",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "THE HOUSE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "THE PLACE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "EXPERIENCES",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "EVENTS",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "WHO WE ARE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "CONTACT",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "RESERVATIONS",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "THE HOUSE",
+    "color": "rgb(48, 48, 48)"
+   }
+  ],
+  "flushText": [
+   {
+    "tag": "p",
+    "text": "“We lived with a family of 1",
+    "left": -1361
+   },
+   {
+    "tag": "p",
+    "text": "“Ina y su marido son muy bue",
+    "left": -974
+   },
+   {
+    "tag": "p",
+    "text": "“La casa es ideal para un en",
+    "left": -588
+   },
+   {
+    "tag": "p",
+    "text": "“Es una casa fantástica. Si ",
+    "left": -201
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "wpb_wrapper",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "wpb_wrapper",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "vc_row",
+    "width": 1190,
+    "left": 125
+   },
+   {
+    "sel": "wpb_wrapper",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "owl-stage",
+    "width": 6187,
+    "left": -1391
+   },
+   {
+    "sel": "wpb_wrapper",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "vc_row",
+    "width": 1190,
+    "left": 125
+   },
+   {
+    "sel": "wpb_wrapper",
+    "width": 1130,
+    "left": 155
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 3047,
+  "textLen": 2797,
+  "images": [
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "172x136",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Logo-75-px.jpg",
+    "natural": "75x58",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "casaargentera_logo_2010.png",
+    "natural": "172x136",
+    "rendered": "172x136",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Piscina-CasaArgentera-1.jpg",
+    "natural": "1980x1114",
+    "rendered": "1440x868",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "CasaArgentera-avellanas.jpg",
+    "natural": "1980x1114",
+    "rendered": "1440x868",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "P1010716enhanced1P3D-e1587836859220.jpg",
+    "natural": "1980x1113",
+    "rendered": "1440x868",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Chill-out-Argentera.jpg",
+    "natural": "1036x582",
+    "rendered": "1440x868",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Casa-Argentera-2floor-diningroom.jpg",
+    "natural": "1980x1114",
+    "rendered": "1440x868",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Piscina-CasaArgentera-1-1536x864.jpg",
+    "natural": "1439x809",
+    "rendered": "535x301",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "P1010716enhanced1P3D-e1587836859220-1536x863.jpg",
+    "natural": "1439x809",
+    "rendered": "535x301",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Casa-Argentera-2floor-diningroom-1536x864.jpg",
+    "natural": "1439x809",
+    "rendered": "535x301",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "P1010765EnhancedP3D-e1587830457410-1536x863.jpg",
+    "natural": "1439x809",
+    "rendered": "535x301",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "BTT-CasaArgentera-1536x864.jpg",
+    "natural": "1439x809",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "SierraArgentera-CasaArgentera-1536x864.jpg",
+    "natural": "1439x809",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Acaballo-CasaArgentera-1536x864.jpg",
+    "natural": "1439x809",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "SantesCreus-activity-Argentera.jpg",
+    "natural": "1440x809",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Escornalbou-CasaArgentera-1536x864.jpg",
+    "natural": "1439x809",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Celler-Modernista-1536x864.jpg",
+    "natural": "1439x809",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20180826_150525-1536x864.jpg",
+    "natural": "1439x809",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Spa-TermesMontbrio.jpg",
+    "natural": "1440x809",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "port-aventura.jpg",
+    "natural": "1440x809",
+    "rendered": "337x189",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Casa Argentera, a historical vil",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "50px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Get to know the house",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "THE GARDEN",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "THE NOBLE FLOOR",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "THE PENTHOUSE",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "THE GROUND FLOOR",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Testimonials",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Plenty of experiences waiting",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "NATURE & SPORT",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "CULTURE",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "BEACH AND MORE",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Location: in the Costa Daurada m",
+    "color": "rgb(221, 157, 59)",
+    "fontSize": "30px",
+    "family": "Montserrat",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "THE HOUSE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "THE PLACE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "EXPERIENCES",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "EVENTS",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "WHO WE ARE",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "CONTACT",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "RESERVATIONS",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "THE HOUSE",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "vc-col",
+    "width": 1190,
+    "left": 125
+   },
+   {
+    "sel": "vc-col",
+    "width": 1190,
+    "left": 125
+   },
+   {
+    "sel": "vc-row",
+    "width": 1190,
+    "left": 125
+   },
+   {
+    "sel": "testimonials__track",
+    "width": 1130,
+    "left": 155
+   },
+   {
+    "sel": "vc-col",
+    "width": 1190,
+    "left": 125
+   },
+   {
+    "sel": "vc-row",
+    "width": 1190,
+    "left": 125
+   },
+   {
+    "sel": "vc-col",
+    "width": 1190,
+    "left": 125
+   }
+  ]
+ }
+}

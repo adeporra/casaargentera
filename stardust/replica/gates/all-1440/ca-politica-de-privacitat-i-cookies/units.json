@@ -1,0 +1,40 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T21:24:48.553Z",
+  "tol": 4,
+  "n": 9,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/ca/politica-de-privacitat-i-cookies/",
+  "at": "2026-11-24T21:24:32.812Z",
+  "docH": 2322
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/ca/politica-de-privacitat-i-cookies",
+  "at": "2026-11-24T21:24:48.465Z",
+  "docH": 2322
+ },
+ "results": [
+  {
+   "sel": "#content .wpb_text_column h4=main .default-content-wrapper h4",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  }
+ ],
+ "verdict": {
+  "units": 0,
+  "within": 0,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 1,
+  "requiredOff": 0
+ }
+}

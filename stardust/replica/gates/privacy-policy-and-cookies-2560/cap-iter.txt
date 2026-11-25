@@ -1,0 +1,14 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://www.casaargentera.com/privacy-policy-and-cookies/
+  shell     1250px  fixed     #main > div.wf-wrap  (tier -2, holds 100% of the text)
+  modules  2 sections: none capped · full-bleed ×2
+  contentMaxWidth 1250px (shell) · shellMaxWidth 1250px · root #content
+build  http://localhost:8792/privacy-policy-and-cookies-proposed.html
+  shell     1250px  max-width #main > div.wf-wrap  (tier 1, holds 100% of the text)
+  modules  2 sections: none capped · full-bleed ×2
+  contentMaxWidth 1250px (shell) · shellMaxWidth 1250px · root #main
+rows
+  ✓ wrapper cap: live 1250px = build 1250px (±20)
+  ✓ module 1/2: full-bleed on both
+  ✓ module 2/2: full-bleed on both
+cap-probe: PASS at 2560 — 0 of 3 rows failed (evidence stardust/replica/gates/privacy-policy-and-cookies-2560/cap-iter.json)

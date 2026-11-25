@@ -1,0 +1,21 @@
+{
+  "writtenBy": "gate-all.mjs",
+  "copiedFrom": "stardust/replica/gates/all-1440/es-experiencias/baseline.png",
+  "fixedLayers": {
+    "capture": "once",
+    "count": 9,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 4,
+    "intervals": 2,
+    "chains": 2,
+    "delays": [
+      2500,
+      86400000
+    ]
+  },
+  "fontsFailed": [],
+  "deadFaces": []
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "da-kontakt",
+  "type": "form",
+  "renderBranch": "A'",
+  "template": "contact",
+  "modules": [
+    "hero-slider",
+    "map",
+    "icon-features",
+    "contact-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "wf-wrap"
+  ],
+  "canonShas": {
+    "header": "aa3bfd52c948",
+    "footer": "a1a3bdea999f",
+    "css": "89a5d300aec7"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "KONTAKT - Casa Argentera",
+    "description": "Casa Argentera, en feriebolig beliggende i bjergene mellem vinområdet Priorat og middelhavet ved Costa Daurada. I katalansk bjerglandsby med mange spændende steder at besøge tæt ved. Kontakt os for flere informationer eller spørgsmål omkring vores feriehus og stedet, ved at udfylde formen. Vi svarer snarest muligt.",
+    "canonical": null,
+    "lang": "da-DK"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "KONTAKT - Casa Argentera",
+    "description": "Casa Argentera, en feriebolig beliggende i bjergene mellem vinområdet Priorat og middelhavet ved Costa Daurada. I katalansk bjerglandsby med mange spændende steder at besøge tæt ved. Kontakt os for flere informationer eller spørgsmål omkring vores feriehus og stedet, ved at udfylde formen. Vi svarer snarest muligt.",
+    "url": "https://www.casaargentera.com/da/kontakt/"
+  },
+  "migratedAt": "2026-11-24T20:33:41Z",
+  "designMdSha": "7ead730e40e5",
+  "designJsonSha": "15480f089476",
+  "sourceCurrentSha": "e63f5582675a",
+  "sourceProposedSha": "f3da618c93ff",
+  "fidelityTier": "sibling",
+  "archetypeSource": "contact",
+  "archetypeSha": "6a99d397ddc6",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 over es/contacto, ca/contacte, da/kontakt vs /contact/ @1440: content-driven deltas only (intro/icon/h3/form heights from text length; da intro is a <p> with no heading and one extra left-column text) — no style delta, no variant class; stardust/.work/rollout/form/variance.json",
+    "content-fidelity": "Path A' clone stardust/.work/rollout/form/src/da-kontakt-proposed.html (stardust/encoders/build-clone-form.mjs; reproduces contact-proposed.html #content exactly) from the capture: verbatim headings/inline spans, paragraphs, icon boxes (per-box #303030 desc colour, hover glyph hidden), CF7 labels/notes/names; content-diff #main 🔴 0, text/heading/CTA/icon counts equal (stardust/.work/rollout/form/content-diff-da-kontakt.txt); 🟡 EXTRA TITLE = R-03 map title; chrome 🔴 = canon-chrome deviation"
+  },
+  "contentDeviations": [
+    {
+      "kind": "chrome-canon",
+      "source": "localized WP header/footer",
+      "target": "canon chrome (EN) in clone",
+      "reason": "Path A' clone carries canon chrome verbatim (contact active trail removed — the canon nav has no link to this locale page); EDS delivery uses the locale nav/footer docs"
+    },
+    {
+      "kind": "add-title",
+      "source": "<iframe> (Google Maps embed) without title",
+      "target": "title=\"Casa Argentera on Google Maps\"",
+      "reason": "R-03: the source iframe has no accessible name (register, applied on the archetype)"
+    },
+    {
+      "kind": "heading-promotion-deferred",
+      "source": "intro <p>I hasselnøddebjergene mellem vinområdet Priorat &amp; middelhavet</p> (no heading)",
+      "target": "clone: <p> verbatim; delivery: first column head <h3> authored as h1",
+      "reason": "R-07 (form, da-kontakt clause): the source has no intro heading; the encoder promotes the first heading (column head 'Sådan finder I Casa Argentera', painted h3 200 30px/35px); the extra left-column paragraph stays default content after icon-features (R-10 precedent: verbatim, no invented heading)"
+    }
+  ],
+  "assetsBundled": 7,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/privacy-policy/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "da/kontakt/index.html",
+  "outputPathDefault": null,
+  "sidecar": "da/kontakt/_meta.json",
+  "driverVersion": "1"
+}

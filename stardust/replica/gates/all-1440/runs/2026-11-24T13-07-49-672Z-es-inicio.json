@@ -1,0 +1,266 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-24T13:07:49.672Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.casaargentera.com",
+    "eds": "https://main--ea32f12a--aemcoder.aem.page",
+    "edsHostOverride": "https://main--ea32f12a--aemcoder.aem.page",
+    "only": [
+      "es-inicio",
+      "ca-inici"
+    ]
+  },
+  "totals": {
+    "pages": 2,
+    "pass": 0,
+    "pixelOnlyPass": 2,
+    "overridePass": 0,
+    "fail": 2,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 2,
+    "failUnits": 1,
+    "unitsNotDeclared": 0,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 2,
+    "failOffsets": 0,
+    "offsetsWithinTolerance": 2,
+    "referenceUnstable": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "ca-inici",
+      "path": "/ca/inici/",
+      "template": "landing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 16.68,
+      "textPct": 4.01,
+      "heightDelta": -34,
+      "originH": 4190,
+      "edsH": 4224,
+      "alignedPct": 1.72,
+      "alignedUsed": true,
+      "totalShift": 54,
+      "steps": [
+        {
+          "y": 1159,
+          "shift": 10,
+          "cumulative": 10
+        },
+        {
+          "y": 2083,
+          "shift": 34,
+          "cumulative": 44
+        },
+        {
+          "y": 3261,
+          "shift": -10,
+          "cumulative": 34
+        }
+      ],
+      "offsetBound": 42,
+      "offsetTolerance": 209,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "content",
+        "units"
+      ],
+      "unwaived": [
+        "content",
+        "units"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "content MISSING 6 / HIDDEN 0",
+        "units off 4 hidden 0 missing 0"
+      ],
+      "notes": [
+        "offsets within the roster tolerance: 54px total, largest step 34px (strict bound 42px, tolerance 209px)"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 6,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 15,
+        "variable": []
+      },
+      "unitsDeclared": 3,
+      "unitsRecorded": null,
+      "units": {
+        "units": 14,
+        "within": 17,
+        "off": 4,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 4
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/ca-inici",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hint": null,
+      "hotBands": [
+        "1500-2000:18.6%",
+        "2500-3000:48.3%",
+        "3000-3500:32.9%",
+        "3500-4000:22.5%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "es-inicio",
+      "path": "/es/inicio/",
+      "template": "landing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 16.41,
+      "textPct": 4.84,
+      "heightDelta": 18,
+      "originH": 4372,
+      "edsH": 4354,
+      "alignedPct": 4.25,
+      "alignedUsed": true,
+      "totalShift": 68,
+      "steps": [
+        {
+          "y": 1203,
+          "shift": -25,
+          "cumulative": -25
+        },
+        {
+          "y": 2740,
+          "shift": -18,
+          "cumulative": -43
+        },
+        {
+          "y": 3348,
+          "shift": 25,
+          "cumulative": -18
+        }
+      ],
+      "offsetBound": 44,
+      "offsetTolerance": 218,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "content"
+      ],
+      "unwaived": [
+        "content"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "content MISSING 2 / HIDDEN 0"
+      ],
+      "notes": [
+        "offsets within the roster tolerance: 68px total, largest step 25px (strict bound 44px, tolerance 218px)"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 2,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 7,
+        "variable": []
+      },
+      "unitsDeclared": 3,
+      "unitsRecorded": null,
+      "units": {
+        "units": 14,
+        "within": 21,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": true,
+      "maskedRows": 132,
+      "maskReason": "self-varying rows of the frozen reference (noise floor 0.16%)",
+      "reference": "stardust/replica/gates/all-1440/es-inicio",
+      "noiseFloor": 0.16,
+      "variableRows": 132,
+      "hint": null,
+      "hotBands": [
+        "1500-2000:35%",
+        "2500-3000:27.3%",
+        "3000-3500:35.3%",
+        "3500-4000:19%"
+      ],
+      "error": null
+    }
+  ]
+}

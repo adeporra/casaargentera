@@ -1,0 +1,400 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T21:24:26.768Z",
+  "tol": 4,
+  "n": 9,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/ca/politica-de-privacidad-y-cookies/",
+  "at": "2026-11-24T21:24:11.076Z",
+  "docH": 2392
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/ca/politica-de-privacidad-y-cookies",
+  "at": "2026-11-24T21:24:26.691Z",
+  "docH": 2392
+ },
+ "results": [
+  {
+   "sel": "#content .wpb_text_column h4=main .default-content-wrapper h4",
+   "family": null,
+   "required": true,
+   "originMatches": 9,
+   "edsMatches": 9,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.section.spacer-container > div.default-content-wrapper > h4#general"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 288,
+       "w": 1130,
+       "h": 30
+      },
+      "eds": {
+       "x": 155,
+       "y": 288,
+       "w": 1130,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.section.spacer-container > div.default-content-wrapper > h4#recogida-de-datos"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 523,
+       "w": 1130,
+       "h": 30
+      },
+      "eds": {
+       "x": 155,
+       "y": 523,
+       "w": 1130,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.section.spacer-container > div.default-content-wrapper > h4#derechos-del-usuario"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 708,
+       "w": 1130,
+       "h": 30
+      },
+      "eds": {
+       "x": 155,
+       "y": 708,
+       "w": 1130,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.section.spacer-container > div.default-content-wrapper > h4#consentimiento"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 833,
+       "w": 1130,
+       "h": 30
+      },
+      "eds": {
+       "x": 155,
+       "y": 833,
+       "w": 1130,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.section.spacer-container > div.default-content-wrapper > h4#cesión-a-terceros"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 993,
+       "w": 1130,
+       "h": 30
+      },
+      "eds": {
+       "x": 155,
+       "y": 993,
+       "w": 1130,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.section.spacer-container > div.default-content-wrapper > h4#confidencialidad-y-medidas-de-seguridad"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 1093,
+       "w": 1130,
+       "h": 30
+      },
+      "eds": {
+       "x": 155,
+       "y": 1093,
+       "w": 1130,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.section.spacer-container > div.default-content-wrapper > h4#cambios-en-la-política-de-privacidad-y-protección-de-datos"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 1328,
+       "w": 1130,
+       "h": 30
+      },
+      "eds": {
+       "x": 155,
+       "y": 1328,
+       "w": 1130,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.section.spacer-container > div.default-content-wrapper > h4#información-sobre-las-cookies"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 1453,
+       "w": 1130,
+       "h": 30
+      },
+      "eds": {
+       "x": 155,
+       "y": 1453,
+       "w": 1130,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h4"
+     },
+     "eds": {
+      "path": "div.section.spacer-container > div.default-content-wrapper > h4#dirección-de-contacto"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 155,
+       "y": 1768,
+       "w": 1130,
+       "h": 30
+      },
+      "eds": {
+       "x": 155,
+       "y": 1768,
+       "w": 1130,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 9,
+  "within": 0,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

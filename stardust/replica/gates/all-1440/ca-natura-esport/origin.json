@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.casaargentera.com/ca/natura-esport/",
+  "reference": {
+    "dir": "stardust/replica/gates/all-1440/ca-natura-esport",
+    "capturedAt": "2026-11-24T17:34:53.006Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0,
+    "variableRows": 0,
+    "maskArg": ""
+  },
+  "note": "froze stardust/replica/gates/all-1440/ca-natura-esport/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-24T17:35:30.614Z"
+}

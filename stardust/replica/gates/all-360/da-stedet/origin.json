@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.casaargentera.com/da/stedet/",
+  "reference": {
+    "dir": "stardust/replica/gates/all-360/da-stedet",
+    "capturedAt": "2026-11-24T19:08:56.339Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0,
+    "variableRows": 0,
+    "maskArg": ""
+  },
+  "note": "reused stardust/replica/gates/all-360/da-stedet/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-24T22:11:09.991Z"
+}

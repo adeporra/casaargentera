@@ -1,0 +1,254 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-24T11:18:01.487Z",
+  "url": "https://www.casaargentera.com/experiences/",
+  "width": 1440,
+  "main": "main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://www.casaargentera.com/experiences/",
+  "width": 1440,
+  "viewport": 1440,
+  "docHeight": 3702,
+  "scrollWidth": 1440,
+  "root": "main, [role=\"main\"]",
+  "rootFallback": true,
+  "records": [
+   "scroll",
+   "shape"
+  ],
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "Montserrat, Helvetica, Arial, Verdana, sans-serif",
+    "n": 37
+   }
+  ],
+  "loadedFaces": [
+   "Montserrat 200 normal",
+   "Montserrat 300 normal",
+   "Montserrat 400 normal",
+   "Montserrat 500 normal",
+   "Montserrat 700 normal",
+   "Montserrat 800 normal",
+   "icomoon-the7-font 400 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "14/25 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 25,
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 9,
+    "roles": {
+     "p": 5,
+     "link": 3,
+     "field": 1
+    },
+    "sample": "Casa Argentera is located in a wonderfully varied area. From hazelnut mountains…"
+   },
+   {
+    "key": "14/18 500 Montserrat uppercase",
+    "fontSize": 14,
+    "lineHeight": 18,
+    "fontWeight": "500",
+    "fontFamily": "Montserrat",
+    "textTransform": "uppercase",
+    "n": 7,
+    "roles": {
+     "link": 7
+    },
+    "sample": "THE HOUSE"
+   },
+   {
+    "key": "17/27 200 Montserrat",
+    "fontSize": 17,
+    "lineHeight": 27,
+    "fontWeight": "200",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "div": 5
+    },
+    "sample": "CONTACT US"
+   },
+   {
+    "key": "13/19 300 Montserrat",
+    "fontSize": 13,
+    "lineHeight": 19,
+    "fontWeight": "300",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "span": 2,
+     "link": 3
+    },
+    "sample": "+34 678 866 588"
+   },
+   {
+    "key": "50/55 200 Montserrat",
+    "fontSize": 50,
+    "lineHeight": 55,
+    "fontWeight": "200",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "h2": 4
+    },
+    "sample": "Top ideas of what to do in the area. We are sure you will find what you enjoy m…"
+   },
+   {
+    "key": "14/normal 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": "normal",
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "link": 4
+    },
+    "sample": "English"
+   },
+   {
+    "key": "14/24 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 24,
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "link": 2
+    },
+    "sample": "Instagram page opens in new window"
+   },
+   {
+    "key": "14/26 400 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 26,
+    "fontWeight": "400",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "link": 2
+    },
+    "sample": "Facebook page opens in new window"
+   },
+   {
+    "key": "14/16 800 Montserrat",
+    "fontSize": 14,
+    "lineHeight": 16,
+    "fontWeight": "800",
+    "fontFamily": "Montserrat",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "field": 1
+    },
+    "sample": "Go!"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 23
+   },
+   {
+    "color": "rgb(43, 43, 43)",
+    "n": 8
+   },
+   {
+    "color": "rgb(221, 157, 59)",
+    "n": 6
+   },
+   {
+    "color": "rgb(120, 125, 133)",
+    "n": 1
+   },
+   {
+    "color": "rgb(58, 58, 58)",
+    "n": 1
+   }
+  ],
+  "container": {
+   "left": 155,
+   "right": 155,
+   "content": 1130,
+   "leftCommon": {
+    "x": 155,
+    "n": 5
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"header","y":0,"h":172,"background":"rgba(221, 179, 110, 0.5)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.masthead.inline-header","firstText":"+34 678 866 588"},
+  {"i":1,"region":"main","y":928,"h":170,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"Top ideas of what to do in the area. We are sure you will f…"},
+  {"i":2,"region":"main","y":1098,"h":32,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":""},
+  {"i":3,"region":"main","y":1130,"h":705,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"Nature / sport experiences"},
+  {"i":4,"region":"main","y":1835,"h":713,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"Cultural experiences"},
+  {"i":5,"region":"main","y":2548,"h":705,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.vc_row.wpb_row","firstText":"Beach and more"},
+  {"i":6,"region":"footer","y":3313,"h":389,"background":"rgb(221, 157, 59)","paddingTop":0,"paddingBottom":0,"selectorHint":"footer#footer.footer.solid-bg","firstText":"CONTACT US"}
+ ],
+ "nodes": [
+  {"section":0,"region":"header","kind":"text","tag":"span","role":null,"text":"+34 678 866 588","x":60,"y":9,"w":129,"h":19,"fontFamily":"Montserrat","fontSize":13,"lineHeight":19,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":0,"region":"header","kind":"text","tag":"span","role":null,"text":"info@casaargentera.com","x":209,"y":9,"w":186,"h":19,"fontFamily":"Montserrat","fontSize":13,"lineHeight":19,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Dansk","x":1216,"y":9,"w":41,"h":19,"fontFamily":"Montserrat","fontSize":13,"lineHeight":19,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/da/home/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Català","x":1273,"y":9,"w":40,"h":19,"fontFamily":"Montserrat","fontSize":13,"lineHeight":19,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/ca/inici/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Español","x":1329,"y":9,"w":51,"h":19,"fontFamily":"Montserrat","fontSize":13,"lineHeight":19,"fontWeight":"300","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/es/inicio/"},
+  {"section":0,"region":"header","kind":"image","tag":"img","role":"link","text":"Casa Argentera","x":60,"y":36,"w":172,"h":136,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[172,136],"src":"https://www.casaargentera.com/wp-content/uploads/2020/03/casaargentera_logo_2010.png","href":"https://www.casaargentera.com/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"THE HOUSE","x":363,"y":91,"w":95,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":18,"fontWeight":"500","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/the-house/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"THE PLACE","x":488,"y":91,"w":81,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":18,"fontWeight":"500","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/the-place/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"EXPERIENCES","x":599,"y":91,"w":111,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":18,"fontWeight":"500","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/experiences/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"EVENTS","x":740,"y":91,"w":57,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":18,"fontWeight":"500","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/events/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"WHO WE ARE","x":826,"y":91,"w":101,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":18,"fontWeight":"500","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/who-we-are/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"CONTACT","x":957,"y":91,"w":68,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":18,"fontWeight":"500","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/contact/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"RESERVATIONS","x":1056,"y":91,"w":111,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":18,"fontWeight":"500","letterSpacing":0,"textTransform":"uppercase","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/reservations-2/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Instagram page opens in new window","x":1328,"y":91,"w":24,"h":24,"fontFamily":"Montserrat","fontSize":14,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(221, 157, 59)","lines":6,"href":"https://www.instagram.com/casaargentera"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Facebook page opens in new window","x":1356,"y":91,"w":24,"h":24,"fontFamily":"Montserrat","fontSize":14,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(221, 157, 59)","lines":6,"href":"https://www.facebook.com/CasaArgentera/"},
+  {"section":1,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Top ideas of what to do in the area. We are sure you will find what you enjoy m…","x":155,"y":928,"w":1130,"h":110,"fontFamily":"Montserrat","fontSize":50,"lineHeight":55,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":2},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Casa Argentera is located in a wonderfully varied area. From hazelnut mountains…","x":155,"y":1048,"w":1130,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(58, 58, 58)","lines":2},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"h2","text":"Nature / sport experiences","x":155,"y":1127,"w":644,"h":61,"fontFamily":"Montserrat","fontSize":50,"lineHeight":55,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1,"href":"https://www.casaargentera.com/wp/nature-sport/"},
+  {"section":3,"region":"main","kind":"image","tag":"img","role":"link","text":"","x":155,"y":1217,"w":1024,"h":576,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[0,0],"src":"https://www.casaargentera.com/wp/wp-content/uploads/2020/03/Punxes_L-1024x576.jpg","href":"https://www.casaargentera.com/wp/nature-sport/"},
+  {"section":4,"region":"main","kind":"control","tag":"a","role":"h2","text":"Cultural experiences","x":155,"y":1832,"w":496,"h":61,"fontFamily":"Montserrat","fontSize":50,"lineHeight":55,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1,"href":"https://www.casaargentera.com/wp/culture/"},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":null,"text":"Modernist Wine cellar, wine cathedral, Pinell de Brai","x":155,"y":1922,"w":1024,"h":576,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[1024,576],"src":"https://www.casaargentera.com/wp-content/uploads/2020/03/Celler-Modernista-1024x576.jpg"},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"h2","text":"Beach and more","x":155,"y":2545,"w":409,"h":61,"fontFamily":"Montserrat","fontSize":50,"lineHeight":55,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(221, 157, 59)","lines":1,"href":"https://www.casaargentera.com/wp/beach-and-more/"},
+  {"section":5,"region":"main","kind":"image","tag":"img","role":"link","text":"","x":155,"y":2635,"w":1024,"h":576,"fit":"fill","shape":{"pos":"50% 50%"},"natural":[0,0],"src":"https://www.casaargentera.com/wp/wp-content/uploads/2020/03/Sunset-CostaDaurada.jpg","href":"https://www.casaargentera.com/wp/beach-and-more/"},
+  {"section":6,"region":"footer","kind":"text","tag":"div","role":null,"text":"CONTACT US","x":155,"y":3373,"w":337,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":6,"region":"footer","kind":"text","tag":"p","role":null,"text":"CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info…","x":155,"y":3415,"w":337,"h":100,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":4},
+  {"section":6,"region":"footer","kind":"control","tag":"a","role":"link","text":"www.CasaArgentera.com","x":155,"y":3493,"w":176,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1,"href":"http://www.casaargentera.com"},
+  {"section":6,"region":"footer","kind":"text","tag":"div","role":null,"text":"SEARCH","x":552,"y":3373,"w":337,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":6,"region":"footer","kind":"control","tag":"input","role":"field","text":"Type and hit enter …","x":552,"y":3415,"w":337,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(120, 125, 133)","lines":1},
+  {"section":6,"region":"footer","kind":"control","tag":"input","role":"field","text":"Go!","x":823,"y":3415,"w":54,"h":40,"fontFamily":"Montserrat","fontSize":14,"lineHeight":16,"fontWeight":"800","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":6,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":859,"y":3427,"w":16,"h":16,"fit":"fill","shape":{"pos":"50% 50%"},"href":""},
+  {"section":6,"region":"footer","kind":"text","tag":"div","role":null,"text":"FOLLOW US","x":948,"y":3373,"w":337,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":6,"region":"footer","kind":"text","tag":"p","role":null,"text":"Find us on:","x":948,"y":3415,"w":76,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1},
+  {"section":6,"region":"footer","kind":"control","tag":"a","role":"link","text":"Facebook page opens in new window","x":950,"y":3417,"w":26,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":26,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":6,"href":"https://www.facebook.com/CasaArgentera/"},
+  {"section":6,"region":"footer","kind":"control","tag":"a","role":"link","text":"Instagram page opens in new window","x":980,"y":3417,"w":26,"h":26,"fontFamily":"Montserrat","fontSize":14,"lineHeight":26,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":6,"href":"https://www.instagram.com/casaargentera/"},
+  {"section":6,"region":"footer","kind":"text","tag":"div","role":null,"text":"OTHER RENTALS","x":155,"y":3545,"w":337,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":6,"region":"footer","kind":"text","tag":"p","role":null,"text":"CASA VELLA DEL PANTA C/T313, km.13 • 43771 Riudecanyes • Spain www.CasaVelladel…","x":155,"y":3587,"w":337,"h":75,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":3},
+  {"section":6,"region":"footer","kind":"control","tag":"a","role":"link","text":"www.CasaVelladelPanta.com","x":155,"y":3640,"w":203,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1,"href":"http://www.casavelladelpanta.com"},
+  {"section":6,"region":"footer","kind":"text","tag":"div","role":null,"text":"LEGAL INFO","x":552,"y":3545,"w":337,"h":27,"fontFamily":"Montserrat","fontSize":17,"lineHeight":27,"fontWeight":"200","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1},
+  {"section":6,"region":"footer","kind":"text","tag":"p","role":null,"text":"Privacy policy and Cookies ©2020 Casa Argentera","x":552,"y":3587,"w":337,"h":50,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2},
+  {"section":6,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy policy and Cookies","x":552,"y":3590,"w":184,"h":18,"fontFamily":"Montserrat","fontSize":14,"lineHeight":25,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(43, 43, 43)","lines":1,"href":"https://www.casaargentera.com/privacy-policy-and-cookies/"},
+  {"section":6,"region":"footer","kind":"control","tag":"a","role":"link","text":"English","x":948,"y":3545,"w":337,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/experiences/"},
+  {"section":6,"region":"footer","kind":"control","tag":"a","role":"link","text":"Dansk","x":948,"y":3570,"w":337,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/da/oplevelser/"},
+  {"section":6,"region":"footer","kind":"control","tag":"a","role":"link","text":"Català","x":948,"y":3595,"w":337,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/ca/experiencies/"},
+  {"section":6,"region":"footer","kind":"control","tag":"a","role":"link","text":"Español","x":948,"y":3620,"w":337,"h":25,"fontFamily":"Montserrat","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.casaargentera.com/es/experiencias/"}
+ ]
+}

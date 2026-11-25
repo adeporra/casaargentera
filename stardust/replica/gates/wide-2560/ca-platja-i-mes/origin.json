@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.casaargentera.com/ca/platja-i-mes/",
+  "reference": {
+    "dir": "stardust/replica/gates/wide-2560/ca-platja-i-mes",
+    "capturedAt": "2026-11-24T22:50:07.251Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0,
+    "variableRows": 0,
+    "maskArg": ""
+  },
+  "note": "froze stardust/replica/gates/wide-2560/ca-platja-i-mes/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-24T22:50:47.392Z"
+}

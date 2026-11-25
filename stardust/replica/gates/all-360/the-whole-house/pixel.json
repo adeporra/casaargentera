@@ -1,0 +1,327 @@
+{
+  "a": "stardust/replica/gates/all-360/the-whole-house/origin.png",
+  "b": "stardust/replica/gates/all-360/the-whole-house/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5808,
+    "mode": "overlap"
+  },
+  "heightDelta": 15,
+  "differingPixels": 59179,
+  "pct": 2.83,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/the-whole-house/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 5.22,
+  "textBoxes": 97,
+  "textPixels": 421193,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 3.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 5.2
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 3.3
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 2.7
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 5
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 8.2
+    },
+    {
+      "y0": 5500,
+      "y1": 5808,
+      "pct": 3.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.69,
+    "differingPixels": 14490,
+    "compared": {
+      "width": 360,
+      "height": 5825,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2417,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 2837,
+        "shift": -3,
+        "cumulative": -2
+      },
+      {
+        "y": 2871,
+        "shift": -3,
+        "cumulative": -5
+      },
+      {
+        "y": 2964,
+        "shift": -4,
+        "cumulative": -9
+      },
+      {
+        "y": 3020,
+        "shift": -3,
+        "cumulative": -12
+      },
+      {
+        "y": 3166,
+        "shift": -3,
+        "cumulative": -15
+      },
+      {
+        "y": 5688,
+        "shift": -1,
+        "cumulative": -16
+      },
+      {
+        "y": 5823,
+        "shift": 1,
+        "cumulative": -15
+      }
+    ],
+    "maxOffset": 16,
+    "totalShift": 19,
+    "insertedRows": 2,
+    "deletedRows": 17,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.7,
+        "unaligned": 1.1
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 2.1,
+        "unaligned": 3.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 1.3,
+        "unaligned": 5.2
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.7,
+        "unaligned": 3.3
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.6,
+        "unaligned": 2.7
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.1,
+        "unaligned": 5
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0.2,
+        "unaligned": 8.2
+      },
+      {
+        "y0": 5500,
+        "y1": 5823,
+        "pct": 0.7,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/the-whole-house/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 58,
+    "totalShift": 19,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--ea32f12a--aemcoder.aem.page/the-whole-house",
+    "key": {
+      "v": 3,
+      "build": "https://main--ea32f12a--aemcoder.aem.page/the-whole-house",
+      "source": "https://www.casaargentera.com/the-whole-house/",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "519c0df4e9ba792b",
+      "options": "bf5047b0a5c65691",
+      "reference": "f67623df5e6a0fdf",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "06627247151c5ff5",
+      "instruments": "700566dc6f7774a4",
+      "page content": "f1f47b0dba701348",
+      "shared code": "15fa74636bb99ab3",
+      "block contact-form": "3a6a80dfee427df3",
+      "block hero-slider": "9c515f6f76444750",
+      "block icon-features": "13f4bc54a1d0b119",
+      "block image-grid": "12f4434553966273"
+    },
+    "probes": {
+      "content": {
+        "totals": {
+          "missingHeadings": 0,
+          "hiddenHeadings": 0,
+          "extraHeadings": 0,
+          "missingLinks": 0,
+          "hiddenLinks": 0,
+          "movedLinks": 0,
+          "extraLinks": 3,
+          "missingButtons": 0,
+          "hiddenButtons": 0,
+          "controlState": 0,
+          "countDeltas": 0,
+          "findings": 1,
+          "structural": 0,
+          "missing": 0,
+          "hidden": 0
+        },
+        "variable": [],
+        "reason": null,
+        "tier": "chrome"
+      },
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 1,
+          "offPage": 0,
+          "textNodes": 62,
+          "controls": 17,
+          "total": 0
+        },
+        "groups": [
+          {
+            "kind": "TEXT X-CUT",
+            "advisory": true,
+            "n": 1,
+            "clipper": "main#main",
+            "path": "main#main > div.section.image-grid-container > div.default-content-wrapper > h1#groups-big-families-enjoy-each-others-company-without-compromising-comfort",
+            "text": "groups, big families… enjoy each other’s company without com",
+            "cutMin": 34,
+            "cutMax": 34
+          }
+        ],
+        "origin": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 1,
+          "offPage": 28,
+          "textNodes": 76,
+          "controls": 28,
+          "total": 0
+        },
+        "source": "content-presence"
+      },
+      "units": {
+        "verdict": {
+          "units": 10,
+          "within": 15,
+          "off": 0,
+          "hidden": 0,
+          "missing": 0,
+          "errors": 0,
+          "requiredOff": 0
+        },
+        "required": true,
+        "errors": []
+      }
+    },
+    "at": "2026-11-24T22:30:46.161Z"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.casaargentera.com/da/kulturen/",
+  "reference": {
+    "dir": "stardust/replica/gates/wide-2560/da-kulturen",
+    "capturedAt": "2026-11-24T23:03:19.557Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0,
+    "variableRows": 0,
+    "maskArg": ""
+  },
+  "note": "froze stardust/replica/gates/wide-2560/da-kulturen/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-24T23:03:56.099Z"
+}

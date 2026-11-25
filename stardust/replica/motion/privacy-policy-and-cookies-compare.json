@@ -1,0 +1,152 @@
+{
+  "live": "stardust/replica/motion/privacy-policy-and-cookies-live.json",
+  "build": "stardust/replica/motion/privacy-policy-and-cookies-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 1,
+  "counts": {
+    "behaviors": 19,
+    "parity": 14,
+    "missing": 1,
+    "extra": 0,
+    "tolerance": 0,
+    "dead": 4,
+    "advisory": 0
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "hover",
+      "name": "#primary-menu > li:nth-child(3) → .masthead .main-nav > li:nth-child(3)",
+      "state": "missing",
+      "note": "no hover diff on build; live changes ul.opacity; 300ms",
+      "line": "motion hover #primary-menu > li:nth-child(3) → .masthead .main-nav > li:nth-child(3): MISSING on build (no hover diff on build; live changes ul.opacity; 300ms)"
+    },
+    {
+      "cls": "hover",
+      "name": "#primary-menu > li:nth-child(2) > a → .masthead .main-nav > li:nth-child(2) > a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover #primary-menu > li:nth-child(2) > a → .masthead .main-nav > li:nth-child(2) > a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": "#content .wpb_text_column p a → #content .text-column p a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover #content .wpb_text_column p a → #content .text-column p a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": "#footer .widget a",
+      "state": "parity",
+      "note": "self.color; n/a",
+      "line": "motion hover #footer .widget a: parity (self.color; n/a)"
+    },
+    {
+      "cls": "hover",
+      "name": ".header-bar .soc-ico a → .masthead .header-bar .soc-ico a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .header-bar .soc-ico a → .masthead .header-bar .soc-ico a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "entrance",
+      "name": "slide-in-anim",
+      "state": "parity",
+      "note": "fired on 2 element(s)",
+      "line": "motion entrance slide-in-anim: parity (fired on 2 element(s))"
+    },
+    {
+      "cls": "entrance",
+      "name": "slide-out-anim",
+      "state": "parity",
+      "note": "fired on 2 element(s)",
+      "line": "motion entrance slide-out-anim: parity (fired on 2 element(s))"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "parity",
+      "note": "6 event(s) on live, 6 on build, 400ms",
+      "line": "motion transition opacity: parity (6 event(s) on live, 6 on build, 400ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "right",
+      "state": "parity",
+      "note": "3 event(s) on live, 4 on build, 400ms",
+      "line": "motion transition right: parity (3 event(s) on live, 4 on build, 400ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "width",
+      "state": "parity",
+      "note": "4 event(s) on live, 4 on build, 300ms",
+      "line": "motion transition width: parity (4 event(s) on live, 4 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "z-index",
+      "state": "parity",
+      "note": "4 event(s) on live, 4 on build, 400ms",
+      "line": "motion transition z-index: parity (4 event(s) on live, 4 on build, 400ms)"
+    },
+    {
+      "cls": "class",
+      "name": "dt-hovered",
+      "state": "parity",
+      "note": "added 1× on live, 2× on build",
+      "line": "motion class dt-hovered: parity (added 1× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "hide-phantom",
+      "state": "parity",
+      "note": "added 4× on live, 4× on build",
+      "line": "motion class hide-phantom: parity (added 4× on live, 4× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "off",
+      "state": "parity",
+      "note": "added 4× on live, 4× on build",
+      "line": "motion class off: parity (added 4× on live, 4× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "on",
+      "state": "parity",
+      "note": "added 3× on live, 2× on build",
+      "line": "motion class on: parity (added 3× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "show-floating-icon",
+      "state": "parity",
+      "note": "added 2× on live, 4× on build",
+      "line": "motion class show-floating-icon: parity (added 2× on live, 4× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "show-mega-menu-content",
+      "state": "parity",
+      "note": "added 1× on live, 2× on build",
+      "line": "motion class show-mega-menu-content: parity (added 1× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "show-phantom",
+      "state": "parity",
+      "note": "added 4× on live, 2× on build",
+      "line": "motion class show-phantom: parity (added 4× on live, 2× on build)"
+    }
+  ]
+}

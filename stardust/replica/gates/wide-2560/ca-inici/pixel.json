@@ -1,0 +1,175 @@
+{
+  "a": "stardust/replica/gates/wide-2560/ca-inici/origin.png",
+  "b": "stardust/replica/gates/wide-2560/ca-inici/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 4172,
+    "mode": "overlap"
+  },
+  "heightDelta": 145,
+  "differingPixels": 1550870,
+  "pct": 17.63,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/wide-2560/ca-inici/diff.png",
+  "masks": [
+    {
+      "yA": 152,
+      "h": 736,
+      "yB": 152
+    }
+  ],
+  "maskedRows": 736,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 7.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 10.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 31.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 28.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 39.6
+    },
+    {
+      "y0": 4000,
+      "y1": 4172,
+      "pct": 4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 4.96,
+    "differingPixels": 456361,
+    "compared": {
+      "width": 2560,
+      "height": 3591,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1159,
+        "shift": 10,
+        "cumulative": 10
+      },
+      {
+        "y": 2271,
+        "shift": -127,
+        "cumulative": -117
+      },
+      {
+        "y": 2545,
+        "shift": -18,
+        "cumulative": -135
+      },
+      {
+        "y": 3388,
+        "shift": -10,
+        "cumulative": -145
+      }
+    ],
+    "maxOffset": 145,
+    "totalShift": 165,
+    "insertedRows": 10,
+    "deletedRows": 155,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.2,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 2.4,
+        "unaligned": 7.6
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.2,
+        "unaligned": 10.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 26.8,
+        "unaligned": 1.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 4,
+        "unaligned": 31.4
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 2.1,
+        "unaligned": 28.7
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 39.6
+      },
+      {
+        "y0": 4000,
+        "y1": 4317,
+        "pct": 0.1,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/wide-2560/ca-inici/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 43,
+    "totalShift": 165,
+    "pass": false
+  },
+  "reason": "offsets: 4 step(s), 165px total — +10px at y=1159, −127px at y=2271, −18px at y=2545, −10px at y=3388 (bound 43px)",
+  "maskReason": "self-varying rows of the frozen reference (noise floor 1.74%)"
+}

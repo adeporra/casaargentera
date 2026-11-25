@@ -1,0 +1,131 @@
+{
+  "a": "stardust/replica/gates/all-360/es-playas-y-mas/origin.png",
+  "b": "stardust/replica/gates/all-360/es-playas-y-mas/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3259,
+    "mode": "overlap"
+  },
+  "heightDelta": -14,
+  "differingPixels": 259067,
+  "pct": 22.08,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/es-playas-y-mas/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 9.55,
+  "textBoxes": 78,
+  "textPixels": 316082,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 40.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 23.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 28.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 9.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 32
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 8.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3259,
+      "pct": 3.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 19.78,
+    "differingPixels": 233086,
+    "compared": {
+      "width": 360,
+      "height": 3273,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2156,
+        "shift": 14,
+        "cumulative": 14
+      }
+    ],
+    "maxOffset": 14,
+    "totalShift": 14,
+    "insertedRows": 14,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 40.1,
+        "unaligned": 40.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 23.9,
+        "unaligned": 23.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 28.2,
+        "unaligned": 28.2
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 9.8,
+        "unaligned": 9.8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 26.6,
+        "unaligned": 32
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.3,
+        "unaligned": 8.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3259,
+        "pct": 0,
+        "unaligned": 3.8
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/es-playas-y-mas/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 33,
+    "totalShift": 14,
+    "pass": true
+  },
+  "reason": "pixel aligned 19.78% (unaligned 22.08%) > 10%"
+}

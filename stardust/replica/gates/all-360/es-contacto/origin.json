@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.casaargentera.com/es/contacto/",
+  "reference": {
+    "dir": "stardust/replica/gates/all-360/es-contacto",
+    "capturedAt": "2026-11-24T20:44:41.671Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0.09,
+    "variableRows": 92,
+    "maskArg": "1092:36,1292:56"
+  },
+  "note": "froze stardust/replica/gates/all-360/es-contacto/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-24T20:45:18.471Z"
+}

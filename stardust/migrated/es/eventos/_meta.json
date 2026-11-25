@@ -1,0 +1,104 @@
+{
+  "slug": "es-eventos",
+  "type": "events",
+  "renderBranch": "A'",
+  "template": "events",
+  "modules": [
+    "hero-slider",
+    "gallery",
+    "contact-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "wf-wrap"
+  ],
+  "canonShas": {
+    "header": "445d9b1fdbac",
+    "footer": "ded94882fc28",
+    "css": "89a5d300aec7"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+    "description": "Algunas sugerencias: taller de tapas, catas de vino, cursos de pintura, degustaciones de aceite de oliva virgen extra, calçotada, o taller de paella.",
+    "canonical": null,
+    "lang": "es-ES"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+    "description": "Algunas sugerencias: taller de tapas, catas de vino, cursos de pintura, degustaciones de aceite de oliva virgen extra, calçotada, o taller de paella.",
+    "url": "https://www.casaargentera.com/es/eventos/"
+  },
+  "migratedAt": "2026-11-24T21:09:55Z",
+  "designMdSha": "7ead730e40e5",
+  "designJsonSha": "15480f089476",
+  "sourceCurrentSha": "76024cd38de1",
+  "sourceProposedSha": "057566f61ef7",
+  "fidelityTier": "sibling",
+  "archetypeSource": "events",
+  "archetypeSha": "5ba586529e13",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 over es/eventos, ca/esdeveniments, da/eventsda vs /events/ @1440: content-driven deltas only (intro height from text length; ca h2 wraps to 2 lines) — hero layers, gallery (6 items) and form identical; no variant class beyond hero-slider start-<n>; stardust/.work/rollout/events/variance.json",
+    "content-fidelity": "Path A' clone stardust/.work/rollout/events/src/es-eventos-proposed.html (stardust/encoders/build-clone-events.mjs; rebuilds events-proposed.html from its own capture identical up to serialisation): verbatim intro h2/p/ul, enquiry h2/p, CF7 labels/notes/names, 6 gallery alts + lightbox hrefs/titles, 6 hero slides + layers; content-diff #main 🔴 0 🟡 0, text/heading/CTA/img counts equal (stardust/.work/rollout/events/content-diff-es-eventos.txt); chrome 🔴 = canon-chrome deviation"
+  },
+  "contentDeviations": [
+    {
+      "kind": "chrome-canon",
+      "source": "localized WP header/footer",
+      "target": "canon chrome (EN) in clone",
+      "reason": "Path A' clone carries canon chrome verbatim (events active trail + aria-current removed — the canon nav has no link to this locale page); EDS delivery uses the locale nav/footer docs"
+    }
+  ],
+  "assetsBundled": 26,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp-content/uploads/2020/04/Tapas-workshop-Casa-Argentera-1024x576.jpg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp-content/uploads/2020/04/Cata-Sangenis-1024x576.jpg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp-content/uploads/2020/03/PinturaRápida-lArgentera-1024x576.jpg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp-content/uploads/2020/03/Calçots-Argentera.jpg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp-content/uploads/2020/03/Paella-CasaArgentera.jpg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp-content/uploads/2020/04/Workshop-MarionaQuadrada-1024x576.jpg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/privacy-policy/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "es/eventos/index.html",
+  "outputPathDefault": null,
+  "sidecar": "es/eventos/_meta.json",
+  "driverVersion": "1"
+}

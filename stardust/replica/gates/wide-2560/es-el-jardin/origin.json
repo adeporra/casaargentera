@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.casaargentera.com/es/el-jardin/",
+  "reference": {
+    "dir": "stardust/replica/gates/wide-2560/es-el-jardin",
+    "capturedAt": "2026-11-24T23:21:18.154Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0,
+    "variableRows": 0,
+    "maskArg": ""
+  },
+  "note": "froze stardust/replica/gates/wide-2560/es-el-jardin/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-24T23:21:55.500Z"
+}

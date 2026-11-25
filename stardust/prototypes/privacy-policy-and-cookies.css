@@ -1,0 +1,23 @@
+/* ==========================================================================
+   Casa Argentera — "static" archetype (privacy policy / information pages).
+   Imports canon.css first. Lifted from source-spec (1440/360) and the source
+   sheet (css-rules.mjs over stardust/current/assets/css/combined.css).
+   No hero: body.transparent.title-off — the masthead (absolute) overlays the
+   top of #main; the author's empty <p>/<h2> lines push the title below it.
+   ========================================================================== */
+
+/* per-page transparent-header veil (live: inline style on .masthead,
+   rgba(221,153,51,0.5) on this page; the canon default is the home value) */
+:root { --ca-header-veil: rgba(221, 153, 51, 0.5); }
+
+/* h4 (lifted: h4 { font: var(--the7-h4-font) } = 200 22px/30px Montserrat,
+   colour var(--the7-h4-color) = accent; margin-bottom 10px from the h1–h6 rule) */
+h4 { font: 200 22px/30px var(--ca-font); }
+
+/* WPBakery text column: last child carries no bottom margin (lifted:
+   .wpb_text_column *:last-child { margin-bottom: 0 }); .wpb_content_element margin 0 */
+.text-column > :last-child { margin-bottom: 0; }
+
+/* WPBakery columns keep min-height 1px (lifted: .vc_col-sm-* { min-height: 1px }) —
+   the trailing empty row measures 1px on the source (back-port candidate, as contact) */
+.vc-col { min-height: 1px; }

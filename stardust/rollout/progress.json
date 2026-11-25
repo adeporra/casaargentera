@@ -1,0 +1,566 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "landing",
+        "program",
+        "article",
+        "listing",
+        "form",
+        "booking",
+        "events",
+        "static"
+      ],
+      "startedAt": "2026-11-24T12:14:26.743Z",
+      "endedAt": "2026-11-24T12:35:12.919Z",
+      "pages": 0,
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "chromeParity": "quiet (2 advisory)",
+          "headerBand": "0.05%",
+          "footerBand": "0.10%"
+        },
+        "1440": {
+          "chromeParity": "quiet (3 advisory)",
+          "footerBand": "0.33%",
+          "headerBand": "7.74% capture-state: frozen origin pins #phantom, shell too short to scroll — header pixel confirmed at the archetype units"
+        },
+        "chrome": "1 delta (hidden footer label) fixed in round 2"
+      },
+      "verdict": "foundation: files 25, chrome docs 8/8 live, lint ok, push ok"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "archetype": "index",
+      "pages": 1,
+      "startedAt": "2026-11-24T12:36:29.414Z",
+      "endedAt": "2026-11-24T12:56:20.869Z",
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "pixel": "0.54% aligned",
+          "dh": 0,
+          "clipped": 0,
+          "missingHidden": 0,
+          "headerBand": "39.45% vs frozen ref (slider mid-crossfade), 0.09% vs ref-2",
+          "footerBand": "0.13%",
+          "chromeParity": "0 deltas"
+        },
+        "1440": {
+          "pixel": "0.25%",
+          "dh": 0,
+          "clipped": 0,
+          "missingHidden": 0,
+          "headerBand": "0.26%",
+          "footerBand": "0.08%",
+          "chromeParity": "0 deltas"
+        }
+      },
+      "verdict": "archetype-landing: pages 1/1 live, blocks 4, gate 1440 0.25% / 360 0.54%, requests 1"
+    },
+    "archetype-program": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "program"
+      ],
+      "archetype": "the-garden",
+      "pages": 1,
+      "startedAt": "2026-11-24T13:24:41.222Z",
+      "endedAt": "2026-11-24T13:45:48.708Z",
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "pixel": "1.09%",
+          "dh": 17,
+          "clipped": 0,
+          "missingHidden": 0,
+          "headerBand": "0.86%",
+          "footerBand": "0.10%",
+          "chromeParity": "0 deltas"
+        },
+        "1440": {
+          "pixel": "0.32%",
+          "dh": 4,
+          "clipped": 0,
+          "missingHidden": 0,
+          "headerBand": "0.34%",
+          "footerBand": "0.22%",
+          "chromeParity": "0 deltas"
+        }
+      },
+      "verdict": "archetype-program: pages 1/1 live, blocks 3, gate 1440 0.32% / 360 1.09%, requests 1"
+    },
+    "archetype-article": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "article"
+      ],
+      "archetype": "culture",
+      "pages": 1,
+      "startedAt": "2026-11-24T17:10:00.000Z",
+      "endedAt": "2026-11-24T16:57:32.000Z",
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "pixel": "0.36%",
+          "dh": 0,
+          "clipped": 0,
+          "missingHidden": 0,
+          "headerBand": "1.21%",
+          "footerBand": "0.40%",
+          "chromeParity": "0 deltas"
+        },
+        "1440": {
+          "pixel": "0.24%",
+          "dh": 0,
+          "clipped": 0,
+          "missingHidden": 0,
+          "headerBand": "0.35%",
+          "footerBand": "0.08%",
+          "chromeParity": "0 deltas"
+        }
+      },
+      "verdict": "archetype-article: pages 1/1 live, blocks 1, gate 1440 0.24% / 360 0.36%, requests 1"
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "archetype": "experiences",
+      "pages": 1,
+      "startedAt": "2026-11-24T19:58:52.627Z",
+      "endedAt": "2026-11-24T20:26:47.277Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "pixel": "13.67% raw -> R-04 override; painted residual 3.65% (origin mid-crossfade)",
+          "dh": -16,
+          "clipped": 0,
+          "missingHidden": 0,
+          "headerBand": "9.37% (origin crossfade 3->4, justified as recreate 360)",
+          "footerBand": "0.10%",
+          "chromeParity": "0 deltas (2 advisory)"
+        },
+        "1440": {
+          "pixel": "22.91% raw -> R-04 override; painted residual 0.51%",
+          "dh": -16,
+          "clipped": 0,
+          "missingHidden": 0,
+          "headerBand": "0.35%",
+          "footerBand": "0.05%",
+          "chromeParity": "0 deltas (3 advisory)"
+        }
+      },
+      "verdict": "archetype-listing: pages 1/1 live, blocks 2, gate 1440 22.91% / 360 13.67% (R-04 applied: real teaser images; painted residual 0.51% / 3.65%), requests 0"
+    },
+    "archetype-form": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "form"
+      ],
+      "archetype": "contact",
+      "pages": 1,
+      "startedAt": "2026-11-24T19:58:52.627Z",
+      "endedAt": "2026-11-24T20:16:25.516Z",
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "pixel": "0.23%",
+          "dh": 0,
+          "clipped": 0,
+          "missingHidden": 0,
+          "headerBand": "0.18%",
+          "footerBand": "0.10%",
+          "chromeParity": "within tolerance (1 advisory)"
+        },
+        "1440": {
+          "pixel": "0.04%",
+          "dh": 0,
+          "clipped": 0,
+          "missingHidden": 0,
+          "headerBand": "0.32%",
+          "footerBand": "0.05%",
+          "chromeParity": "within tolerance (2 advisory)"
+        }
+      },
+      "verdict": "archetype-form: pages 1/1 live, blocks 3, gate 1440 0.04% / 360 0.23%, requests 1"
+    },
+    "archetype-booking": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "booking"
+      ],
+      "archetype": "reservations-2",
+      "pages": 1,
+      "startedAt": "2026-11-24T19:58:52.627Z",
+      "endedAt": "2026-11-24T20:28:42.571Z",
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "pixel": "0.28%",
+          "dh": 0,
+          "clipped": 0,
+          "missingHidden": 0,
+          "headerBand": "1.00%",
+          "footerBand": "0.13%",
+          "chromeParity": "quiet (1 advisory)"
+        },
+        "1440": {
+          "pixel": "0.15%",
+          "dh": 0,
+          "clipped": 0,
+          "missingHidden": 0,
+          "headerBand": "0.35%",
+          "footerBand": "0.05%",
+          "chromeParity": "quiet (2 advisory)"
+        }
+      },
+      "verdict": "archetype-booking: pages 1/1 live, blocks 3, gate 1440 0.15% / 360 0.28%, requests 1"
+    },
+    "archetype-events": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "events"
+      ],
+      "archetype": "events",
+      "pages": 1,
+      "startedAt": "2026-11-24T20:27:14.542Z",
+      "endedAt": "2026-11-24T20:47:32.371Z",
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "pixel": "0.42%",
+          "dh": 0,
+          "clipped": 0,
+          "missingHidden": 0,
+          "headerBand": "0.04%",
+          "footerBand": "0.13%",
+          "chromeParity": "within tolerance (advisory only)"
+        },
+        "1440": {
+          "pixel": "0.48%",
+          "dh": 0,
+          "clipped": 0,
+          "missingHidden": 0,
+          "headerBand": "0.31%",
+          "footerBand": "0.08%",
+          "chromeParity": "within tolerance (advisory only)"
+        }
+      },
+      "verdict": "archetype-events: pages 1/1 live, blocks 3, gate 1440 0.48% / 360 0.42%, requests 1"
+    },
+    "archetype-static": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "static"
+      ],
+      "archetype": "privacy-policy-and-cookies",
+      "pages": 1,
+      "startedAt": "2026-11-24T20:50:57.419Z",
+      "endedAt": "2026-11-24T21:07:43.683Z",
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "pixel": "0.09%",
+          "dh": 0,
+          "clipped": 0,
+          "missingHidden": 0,
+          "headerBand": "0.05%",
+          "footerBand": "0.10%",
+          "chromeParity": "within tolerance (1 advisory)"
+        },
+        "1440": {
+          "pixel": "0.07%",
+          "dh": 0,
+          "clipped": 0,
+          "missingHidden": 0,
+          "headerBand": "0.26%",
+          "footerBand": "0.05%",
+          "chromeParity": "within tolerance (2 advisory)"
+        }
+      },
+      "verdict": "archetype-static: pages 1/1 live, blocks 1, gate 1440 0.07% / 360 0.09%, requests 1"
+    },
+    "cluster-landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "startedAt": "2026-11-24T13:02:42.998Z",
+      "pages": 2,
+      "endedAt": "2026-11-24T13:24:32.452Z",
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "es-inicio": "3.27% Δh+73",
+          "ca-inici": "1.59% Δh+18"
+        },
+        "1440": {
+          "es-inicio": "4.25% Δh+18",
+          "ca-inici": "1.18% Δh+18"
+        },
+        "clipped": 0,
+        "missing": "span-lang artefact, overridden in gates/all-*/overrides.json",
+        "header": "content-count open: header repeats lang/social links (foundation request)"
+      },
+      "verdict": "landing: pages 2/2 live, blocks 4, gate 1440 4.25% / 360 3.27%, requests 1"
+    },
+    "cluster-program": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "program"
+      ],
+      "startedAt": "2026-11-24T14:04:29.615Z",
+      "pages": 19,
+      "endedAt": "2026-11-24T16:16:13.175Z",
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "worst": "1.31% ca-el-jardi"
+        },
+        "1440": {
+          "worst": "1.04% es-el-piso-senorial",
+          "maxDhPct": "0.97%"
+        },
+        "clipped": 0,
+        "missing": "0 (ca-el-jardi span-lang override)",
+        "archetypeRegate": "the-garden 0.32/1.09, index 0.25/0.57",
+        "crop": "da-stueetagen footer ≤0.10%, header 360 1.11%"
+      },
+      "verdict": "program: pages 19/19 live, blocks 4, gate 1440 1.04% / 360 1.31%, requests 1"
+    },
+    "cluster-article": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "article"
+      ],
+      "startedAt": "2026-11-24T17:58:00.000Z",
+      "endedAt": "2026-11-24T19:57:58.000Z",
+      "verdict": "article: pages 23/23 live, blocks 3, gate 1440 0.59% / 360 1.7% (worst un-overridden; R-11 pages waived 14.3% / 20.1%), requests 2",
+      "pages": 23,
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "worst": "1.7% un-overridden; 20.07% beach R-11 override"
+        },
+        "1440": {
+          "worst": "0.59% un-overridden; 14.30% da-natur-sport R-11 override"
+        },
+        "clipped": 0,
+        "missing": 0,
+        "overrides": "12 pages (R-11 broken source images, span-lang units)",
+        "archetypeRegate": "culture 0.24/0.36, index 0.25/0.55, the-garden 0.32/1.09"
+      }
+    },
+    "cluster-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "startedAt": "2026-11-24T20:33:11.969Z",
+      "endedAt": "2026-11-24T21:00:48.432Z",
+      "pages": 3,
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "es-experiencias": "3.92% (origin mid-crossfade)",
+          "ca-experiencies": "0.89%",
+          "da-oplevelser": "1.01%",
+          "clipped": 0,
+          "missingHidden": 0
+        },
+        "1440": {
+          "es-experiencias": "0.51%",
+          "ca-experiencies": "0.49%",
+          "da-oplevelser": "0.62%",
+          "note": "painted residual; R-04 override",
+          "clipped": 0,
+          "missingHidden": 0
+        },
+        "crop": "1440 header 0.36% footer 0.05%; 360 footer 0.10%",
+        "chrome": "1 delta (footer search aria-label, queued request)"
+      },
+      "verdict": "listing: pages 3/3 live, blocks 2, gate 1440 0.62% / 360 3.92% (painted residual, R-04 override), requests 0"
+    },
+    "cluster-form": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "form"
+      ],
+      "startedAt": "2026-11-24T20:35:11.926Z",
+      "endedAt": "2026-11-24T20:50:48.131Z",
+      "pages": 3,
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "es-contacto": "0.16%",
+          "ca-contacte": "1.11% (dh 25, pipeline nbsp)",
+          "da-kontakt": "0.14%",
+          "clipped": 0,
+          "missingHidden": 0
+        },
+        "1440": {
+          "es-contacto": "0.07%",
+          "ca-contacte": "0.09%",
+          "da-kontakt": "0.04%",
+          "dh": 0,
+          "clipped": 0,
+          "missingHidden": 0
+        },
+        "crop": "header/footer ≤ 0.33% (es-contacto)",
+        "chrome": "1 delta (footer search aria-label, queued request)"
+      },
+      "verdict": "form: pages 3/3 live, blocks 4, gate 1440 0.09% / 360 1.11%, requests 0"
+    },
+    "cluster-booking": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "booking"
+      ],
+      "startedAt": "2026-11-24T20:56:41.715Z",
+      "endedAt": "2026-11-24T21:13:29.008Z",
+      "pages": 3,
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "es-reservas": "1.56% Δh35 (pipeline drops &nbsp; paragraph; override, open for C-final)",
+          "ca-reserves": "0.30%",
+          "da-reservations": "0.31%",
+          "clipped": 0,
+          "missingHidden": 0
+        },
+        "1440": {
+          "es-reservas": "0.26%",
+          "ca-reserves": "0.15%",
+          "da-reservations": "0.15%",
+          "dh": 0,
+          "clipped": 0,
+          "missingHidden": 0
+        },
+        "crop": "1440 0.33/0.05%, 360 1.00/0.16%",
+        "chrome": "1 delta (footer search aria-label, queued request)"
+      },
+      "verdict": "booking: pages 3/3 live, blocks 3, gate 1440 0.26% / 360 1.56%, requests 1"
+    },
+    "cluster-events": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "events"
+      ],
+      "startedAt": "2026-11-24T21:11:58.728Z",
+      "endedAt": "2026-11-24T21:28:28.379Z",
+      "pages": 3,
+      "blocks": 0,
+      "gates": {
+        "360": {
+          "es-eventos": "0.42%",
+          "ca-esdeveniments": "0.22%",
+          "da-eventsda": "1.59% Δh35",
+          "clipped": 0,
+          "missingHidden": 0
+        },
+        "1440": {
+          "es-eventos": "0.48%",
+          "ca-esdeveniments": "0.48%",
+          "da-eventsda": "1.65% Δh35 (dropped empty paragraph)",
+          "clipped": 0,
+          "missingHidden": 0
+        },
+        "crop": "es-eventos header 0.32/0.04%, footer 0.09/0.16%",
+        "chrome": "1 delta (footer search aria-label, queued request)"
+      },
+      "verdict": "events: pages 3/3 live, blocks 0, gate 1440 1.65% / 360 1.59%, requests 0"
+    },
+    "cluster-static": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "static"
+      ],
+      "startedAt": "2026-11-24T21:14:51.316Z",
+      "endedAt": "2026-11-24T21:35:44.799Z",
+      "pages": 6,
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "range": "0.08-0.36%",
+          "dh": 0,
+          "clipped": 0,
+          "missingHidden": 0,
+          "overrides": 0
+        },
+        "1440": {
+          "range": "0.07-0.36%",
+          "dh": 0,
+          "clipped": 0,
+          "missingHidden": 0,
+          "overrides": 0
+        },
+        "crop": "covid-19 header 0.26/0.05%, footer 0.33/0.10%",
+        "chrome": "within tolerance (1 advisory)"
+      },
+      "verdict": "static: pages 6/6 live, blocks 1, gate 1440 0.36% / 360 0.36%, requests 0"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-24T21:37:16.413Z",
+      "endedAt": "2026-11-24T23:49:50.194Z",
+      "pages": 70,
+      "gates": {
+        "360": {
+          "pass": 39,
+          "overridePass": 31,
+          "fail": 0,
+          "delivered": 70,
+          "pixelOnlyPass": 58
+        },
+        "1440": {
+          "pass": 39,
+          "overridePass": 31,
+          "fail": 0,
+          "delivered": 70
+        },
+        "wide": "2560px: 4 over 10% (experiences template, R-04 source defect, pixel-waived at 1440/360)"
+      },
+      "verdict": "gate-all: 1440 39 PASS + 31 documented overrides = 70/70 delivered; 360 39 + 31 = 70/70; wide 2560px: 4 page(s) over 10% — da-oplevelser 17.04%, es-experiencias 30.06%, experiences 13.06%, ca-experiencies 12.88% (R-04); coverage gated 70/70, 0 flips"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-24T23:51:15.991Z",
+      "endedAt": "2026-11-24T23:59:21.865Z",
+      "verdict": "final: foundation queue applied once (h1 type rule → styles.css; 5 kept scoped/kept, 2 declined with residuals); archetypes re-gated on preview 8/8 @1440 and 8/8 @360, numbers unchanged (paint-neutral); foundation re-frozen; coverage 70/70 matched",
+      "gates": {
+        "360": {
+          "archetypes": "8/8 (4 pass + 4 override)"
+        },
+        "1440": {
+          "archetypes": "8/8 (4 pass + 4 override)"
+        }
+      }
+    }
+  }
+}

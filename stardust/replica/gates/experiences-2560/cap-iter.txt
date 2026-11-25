@@ -1,0 +1,16 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://www.casaargentera.com/experiences/
+  shell     1250px  fixed     #main > div.wf-wrap  (tier 1, holds 100% of the text)
+  modules  4 sections: capped 644 ×1, 496 ×1, 409 ×1 · full-bleed ×1
+  contentMaxWidth 1250px (shell) · shellMaxWidth 1250px · root #main
+build  http://localhost:8792/experiences-proposed.html
+  shell     1250px  max-width #main > div.wf-wrap  (tier 1, holds 100% of the text)
+  modules  4 sections: capped 644 ×1, 496 ×1, 409 ×1 · full-bleed ×1
+  contentMaxWidth 1250px (shell) · shellMaxWidth 1250px · root #main
+rows
+  ✓ wrapper cap: live 1250px = build 1250px (±20)
+  ✓ module 1/4: full-bleed on both
+  ✓ module 2/4: 644px = 644px
+  ✓ module 3/4: 496px = 496px
+  ✓ module 4/4: 409px = 409px
+cap-probe: PASS at 2560 — 0 of 5 rows failed (evidence stardust/replica/gates/experiences-2560/cap-iter.json)

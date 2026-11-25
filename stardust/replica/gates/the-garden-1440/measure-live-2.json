@@ -1,0 +1,1992 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-24T11:01:31.081Z",
+    "urls": [
+      "https://www.casaargentera.com/the-garden/"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      ".dt-text-title",
+      ".dt-text-desc",
+      ".wpcf7-acceptance input",
+      ".wpcf7-form-control-wrap",
+      ".wpcf7-list-item-label",
+      ".wpcf7-response-output",
+      ".wpcf7",
+      ".wpcf7-spinner",
+      ".icon-with-text-shortcode",
+      ".wpb_text_column p",
+      "#main"
+    ],
+    "props": [
+      "display",
+      "position",
+      "boxSizing",
+      "width",
+      "height",
+      "margin",
+      "padding",
+      "color",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "textTransform",
+      "gridTemplateColumns",
+      "alignSelf",
+      "justifySelf",
+      "verticalAlign",
+      "visibility",
+      "opacity"
+    ],
+    "allMatches": true,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    ".dt-text-title",
+    ".dt-text-desc",
+    ".wpcf7-acceptance input",
+    ".wpcf7-form-control-wrap",
+    ".wpcf7-list-item-label",
+    ".wpcf7-response-output",
+    ".wpcf7",
+    ".wpcf7-spinner",
+    ".icon-with-text-shortcode",
+    ".wpb_text_column p",
+    "#main"
+  ],
+  "root": {
+    "https://www.casaargentera.com/the-garden/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 4650,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 3496,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.casaargentera.com/the-garden/": {
+      "360": {
+        ".dt-text-title": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 90,
+              "y": 2029,
+              "w": 240,
+              "h": 27
+            },
+            "visible": true,
+            "text": "SWIMMING POOL",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "240px",
+              "height": "27px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(221, 153, 51)",
+              "fontSize": "17px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "textTransform": "uppercase",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 90,
+              "y": 2154,
+              "w": 240,
+              "h": 54
+            },
+            "visible": true,
+            "text": "BBQ CORNER & PAELLA EQUIPMENT",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "240px",
+              "height": "54px",
+              "margin": "0px 0px 3px",
+              "padding": "0px",
+              "color": "rgb(221, 153, 51)",
+              "fontSize": "17px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "textTransform": "uppercase",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 90,
+              "y": 2260,
+              "w": 240,
+              "h": 27
+            },
+            "visible": true,
+            "text": "CHILL OUT CORNER",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "240px",
+              "height": "27px",
+              "margin": "0px 0px 3px",
+              "padding": "0px",
+              "color": "rgb(221, 153, 51)",
+              "fontSize": "17px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "textTransform": "uppercase",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 90,
+              "y": 2360,
+              "w": 240,
+              "h": 54
+            },
+            "visible": true,
+            "text": "SWING IN THE LINDEN TREE / SLIDE",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "240px",
+              "height": "54px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(221, 153, 51)",
+              "fontSize": "17px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "textTransform": "uppercase",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 90,
+              "y": 2487,
+              "w": 240,
+              "h": 27
+            },
+            "visible": true,
+            "text": "BIG DINING TABLE",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "240px",
+              "height": "27px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(221, 153, 51)",
+              "fontSize": "17px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "textTransform": "uppercase",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".dt-text-desc": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 90,
+              "y": 2056,
+              "w": 240,
+              "h": 75
+            },
+            "visible": true,
+            "text": "Heated from April to mid October Pool t…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "240px",
+              "height": "75px",
+              "margin": "0px 0px 3px",
+              "padding": "0px",
+              "color": "rgb(66, 66, 66)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 90,
+              "y": 2211,
+              "w": 240,
+              "h": 25
+            },
+            "visible": true,
+            "text": "Who is the chef?",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "240px",
+              "height": "25px",
+              "margin": "0px 0px 4px",
+              "padding": "0px",
+              "color": "rgb(56, 56, 56)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 90,
+              "y": 2290,
+              "w": 240,
+              "h": 50
+            },
+            "visible": true,
+            "text": "Sofa for small talk... with a chilled g…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "240px",
+              "height": "50px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(56, 56, 56)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 90,
+              "y": 2414,
+              "w": 240,
+              "h": 50
+            },
+            "visible": true,
+            "text": "for the children or childish to play...",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "240px",
+              "height": "50px",
+              "margin": "0px 0px 3px",
+              "padding": "0px",
+              "color": "rgb(66, 66, 66)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 90,
+              "y": 2514,
+              "w": 240,
+              "h": 25
+            },
+            "visible": true,
+            "text": "under the shade of a linden tree",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "240px",
+              "height": "25px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(48, 48, 48)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".wpcf7-acceptance input": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 44,
+              "y": 3615,
+              "w": 13,
+              "h": 13
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "13px",
+              "height": "13px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(0, 0, 0)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".wpcf7-form-control-wrap": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 30,
+              "y": 2950,
+              "w": 300,
+              "h": 18
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 1,
+            "of": 6,
+            "rect": {
+              "x": 30,
+              "y": 3035,
+              "w": 300,
+              "h": 18
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 2,
+            "of": 6,
+            "rect": {
+              "x": 30,
+              "y": 3120,
+              "w": 300,
+              "h": 18
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 3,
+            "of": 6,
+            "rect": {
+              "x": 30,
+              "y": 3205,
+              "w": 300,
+              "h": 18
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 4,
+            "of": 6,
+            "rect": {
+              "x": 30,
+              "y": 3342,
+              "w": 300,
+              "h": 18
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 5,
+            "of": 6,
+            "rect": {
+              "x": 30,
+              "y": 3639,
+              "w": 300,
+              "h": 18
+            },
+            "visible": true,
+            "text": "I have read and accept the privacy poli…",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".wpcf7-list-item-label": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 44,
+              "y": 3614,
+              "w": 256,
+              "h": 43
+            },
+            "visible": true,
+            "text": "I have read and accept the privacy poli…",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".wpcf7-response-output": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "none",
+              "position": "fixed",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "margin": "28px 7px 14px",
+              "padding": "2.8px 14px",
+              "color": "rgb(255, 255, 255)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "0"
+            }
+          }
+        ],
+        ".wpcf7": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 30,
+              "y": 2914,
+              "w": 300,
+              "h": 786
+            },
+            "visible": true,
+            "text": "Your Name (required) Your Email (requir…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "300px",
+              "height": "786px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".wpcf7-spinner": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 142,
+              "y": 3662,
+              "w": 24,
+              "h": 24
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "24px",
+              "height": "24px",
+              "margin": "0px 24px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "hidden",
+              "opacity": "0.75"
+            }
+          }
+        ],
+        ".icon-with-text-shortcode": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 30,
+              "y": 2029,
+              "w": 300,
+              "h": 105
+            },
+            "visible": true,
+            "text": "SWIMMING POOL Heated from April to mid …",
+            "props": {
+              "display": "grid",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "300px",
+              "height": "105px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "60px 240px",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 30,
+              "y": 2154,
+              "w": 300,
+              "h": 86
+            },
+            "visible": true,
+            "text": "BBQ CORNER & PAELLA EQUIPMENT Who is th…",
+            "props": {
+              "display": "grid",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "300px",
+              "height": "86px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "60px 240px",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 30,
+              "y": 2260,
+              "w": 300,
+              "h": 80
+            },
+            "visible": true,
+            "text": "CHILL OUT CORNER Sofa for small talk...…",
+            "props": {
+              "display": "grid",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "300px",
+              "height": "80px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "60px 240px",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 30,
+              "y": 2360,
+              "w": 300,
+              "h": 107
+            },
+            "visible": true,
+            "text": "SWING IN THE LINDEN TREE / SLIDE for th…",
+            "props": {
+              "display": "grid",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "300px",
+              "height": "107px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "60px 240px",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 30,
+              "y": 2487,
+              "w": 300,
+              "h": 60
+            },
+            "visible": true,
+            "text": "BIG DINING TABLE under the shade of a l…",
+            "props": {
+              "display": "grid",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "300px",
+              "height": "60px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "60px 240px",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".wpb_text_column p": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 30,
+              "y": 542,
+              "w": 300,
+              "h": 275
+            },
+            "visible": true,
+            "text": "You have direct acces to the garden fro…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "300px",
+              "height": "275px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 30,
+              "y": 2864,
+              "w": 300,
+              "h": 50
+            },
+            "visible": true,
+            "text": "Do not hesitate to contact us. We will …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "300px",
+              "height": "50px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#main": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 252,
+              "w": 360,
+              "h": 3518
+            },
+            "visible": true,
+            "text": "Enjoy the Mediterranean weather to it’s…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "360px",
+              "height": "3398.03px",
+              "margin": "0px",
+              "padding": "60px 0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ]
+      },
+      "1440": {
+        ".dt-text-title": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 215,
+              "y": 1754,
+              "w": 1070,
+              "h": 27
+            },
+            "visible": true,
+            "text": "SWIMMING POOL",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "1070px",
+              "height": "27px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(221, 153, 51)",
+              "fontSize": "17px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "textTransform": "uppercase",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 215,
+              "y": 1879,
+              "w": 1070,
+              "h": 27
+            },
+            "visible": true,
+            "text": "BBQ CORNER & PAELLA EQUIPMENT",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "1070px",
+              "height": "27px",
+              "margin": "0px 0px 3px",
+              "padding": "0px",
+              "color": "rgb(221, 153, 51)",
+              "fontSize": "17px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "textTransform": "uppercase",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 215,
+              "y": 1959,
+              "w": 1070,
+              "h": 27
+            },
+            "visible": true,
+            "text": "CHILL OUT CORNER",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "1070px",
+              "height": "27px",
+              "margin": "0px 0px 3px",
+              "padding": "0px",
+              "color": "rgb(221, 153, 51)",
+              "fontSize": "17px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "textTransform": "uppercase",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 215,
+              "y": 2039,
+              "w": 1070,
+              "h": 27
+            },
+            "visible": true,
+            "text": "SWING IN THE LINDEN TREE / SLIDE",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "1070px",
+              "height": "27px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(221, 153, 51)",
+              "fontSize": "17px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "textTransform": "uppercase",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 215,
+              "y": 2119,
+              "w": 1070,
+              "h": 27
+            },
+            "visible": true,
+            "text": "BIG DINING TABLE",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "1070px",
+              "height": "27px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(221, 153, 51)",
+              "fontSize": "17px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "textTransform": "uppercase",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".dt-text-desc": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 215,
+              "y": 1781,
+              "w": 1070,
+              "h": 75
+            },
+            "visible": true,
+            "text": "Heated from April to mid October Pool t…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "1070px",
+              "height": "75px",
+              "margin": "0px 0px 3px",
+              "padding": "0px",
+              "color": "rgb(66, 66, 66)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 215,
+              "y": 1909,
+              "w": 1070,
+              "h": 25
+            },
+            "visible": true,
+            "text": "Who is the chef?",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "1070px",
+              "height": "25px",
+              "margin": "0px 0px 4px",
+              "padding": "0px",
+              "color": "rgb(56, 56, 56)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 215,
+              "y": 1989,
+              "w": 1070,
+              "h": 25
+            },
+            "visible": true,
+            "text": "Sofa for small talk... with a chilled g…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "1070px",
+              "height": "25px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(56, 56, 56)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 215,
+              "y": 2066,
+              "w": 1070,
+              "h": 25
+            },
+            "visible": true,
+            "text": "for the children or childish to play...",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "1070px",
+              "height": "25px",
+              "margin": "0px 0px 3px",
+              "padding": "0px",
+              "color": "rgb(66, 66, 66)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 215,
+              "y": 2146,
+              "w": 1070,
+              "h": 25
+            },
+            "visible": true,
+            "text": "under the shade of a linden tree",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "1070px",
+              "height": "25px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(48, 48, 48)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".wpcf7-acceptance input": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 169,
+              "y": 2977,
+              "w": 13,
+              "h": 13
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "13px",
+              "height": "13px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(0, 0, 0)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".wpcf7-form-control-wrap": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 155,
+              "y": 2336,
+              "w": 1130,
+              "h": 18
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 1,
+            "of": 6,
+            "rect": {
+              "x": 155,
+              "y": 2421,
+              "w": 1130,
+              "h": 18
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 2,
+            "of": 6,
+            "rect": {
+              "x": 155,
+              "y": 2506,
+              "w": 1130,
+              "h": 18
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 3,
+            "of": 6,
+            "rect": {
+              "x": 155,
+              "y": 2591,
+              "w": 1130,
+              "h": 18
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 4,
+            "of": 6,
+            "rect": {
+              "x": 155,
+              "y": 2704,
+              "w": 1130,
+              "h": 18
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 5,
+            "of": 6,
+            "rect": {
+              "x": 155,
+              "y": 2976,
+              "w": 315,
+              "h": 18
+            },
+            "visible": true,
+            "text": "I have read and accept the privacy poli…",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".wpcf7-list-item-label": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 182,
+              "y": 2976,
+              "w": 288,
+              "h": 18
+            },
+            "visible": true,
+            "text": "I have read and accept the privacy poli…",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".wpcf7-response-output": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "none",
+              "position": "fixed",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "margin": "28px 7px 14px",
+              "padding": "2.8px 14px",
+              "color": "rgb(255, 255, 255)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "0"
+            }
+          }
+        ],
+        ".wpcf7": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 155,
+              "y": 2301,
+              "w": 1130,
+              "h": 736
+            },
+            "visible": true,
+            "text": "Your Name (required) Your Email (requir…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "1130px",
+              "height": "736px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".wpcf7-spinner": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 267,
+              "y": 2999,
+              "w": 24,
+              "h": 24
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "24px",
+              "height": "24px",
+              "margin": "0px 24px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "hidden",
+              "opacity": "0.75"
+            }
+          }
+        ],
+        ".icon-with-text-shortcode": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 155,
+              "y": 1754,
+              "w": 1130,
+              "h": 105
+            },
+            "visible": true,
+            "text": "SWIMMING POOL Heated from April to mid …",
+            "props": {
+              "display": "grid",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "1130px",
+              "height": "105px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "60px 1070px",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 155,
+              "y": 1879,
+              "w": 1130,
+              "h": 60
+            },
+            "visible": true,
+            "text": "BBQ CORNER & PAELLA EQUIPMENT Who is th…",
+            "props": {
+              "display": "grid",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "1130px",
+              "height": "60px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "60px 1070px",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 155,
+              "y": 1959,
+              "w": 1130,
+              "h": 60
+            },
+            "visible": true,
+            "text": "CHILL OUT CORNER Sofa for small talk...…",
+            "props": {
+              "display": "grid",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "1130px",
+              "height": "60px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "60px 1070px",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 155,
+              "y": 2039,
+              "w": 1130,
+              "h": 60
+            },
+            "visible": true,
+            "text": "SWING IN THE LINDEN TREE / SLIDE for th…",
+            "props": {
+              "display": "grid",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "1130px",
+              "height": "60px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "60px 1070px",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 155,
+              "y": 2119,
+              "w": 1130,
+              "h": 60
+            },
+            "visible": true,
+            "text": "BIG DINING TABLE under the shade of a l…",
+            "props": {
+              "display": "grid",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "1130px",
+              "height": "60px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "60px 1070px",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".wpb_text_column p": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 155,
+              "y": 993,
+              "w": 1130,
+              "h": 75
+            },
+            "visible": true,
+            "text": "You have direct acces to the garden fro…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "1130px",
+              "height": "75px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 155,
+              "y": 2276,
+              "w": 1130,
+              "h": 25
+            },
+            "visible": true,
+            "text": "Do not hesitate to contact us. We will …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "1130px",
+              "height": "25px",
+              "margin": "0px",
+              "padding": "0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#main": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 868,
+              "w": 1440,
+              "h": 2239
+            },
+            "visible": true,
+            "text": "Enjoy the Mediterranean weather to it’s…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "1440px",
+              "height": "2118.58px",
+              "margin": "0px",
+              "padding": "60px 0px",
+              "color": "rgb(58, 58, 58)",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "25px",
+              "textTransform": "none",
+              "gridTemplateColumns": "none",
+              "alignSelf": "auto",
+              "justifySelf": "auto",
+              "verticalAlign": "baseline",
+              "visibility": "visible",
+              "opacity": "1"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

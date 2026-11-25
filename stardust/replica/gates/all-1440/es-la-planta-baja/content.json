@@ -1,0 +1,3209 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-24T21:55:47.184Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/es/la-planta-baja/",
+  "at": "2026-11-24T21:55:47.106Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4336,
+  "root": null,
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.top-bar.top-bar-line-hide > div.left-widgets.mini-widgets > span.mini-contacts.phone",
+    "x": 60,
+    "y": 9,
+    "w": 129,
+    "h": 19,
+    "text": "+34 678 866 588"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.top-bar.top-bar-line-hide > div.left-widgets.mini-widgets > span.mini-contacts.email",
+    "x": 209,
+    "y": 9,
+    "w": 186,
+    "h": 19,
+    "text": "info@casaargentera.com"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#top-menu > li.polylang-item.lang-item > a",
+    "x": 1219,
+    "y": 9,
+    "w": 48,
+    "h": 19,
+    "text": "english",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#top-menu > li.polylang-item.lang-item > a",
+    "x": 1283,
+    "y": 9,
+    "w": 41,
+    "h": 19,
+    "text": "dansk",
+    "href": "/da/home/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#top-menu > li.polylang-item.lang-item > a",
+    "x": 1340,
+    "y": 9,
+    "w": 40,
+    "h": 19,
+    "text": "català",
+    "href": "/ca/inici/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "header.header-bar > div.branding > a",
+    "x": 60,
+    "y": 36,
+    "w": 172,
+    "h": 136,
+    "text": "casa argentera",
+    "href": "/es/inicio/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.branding > a > img.preload-me",
+    "x": 60,
+    "y": 36,
+    "w": 172,
+    "h": 136,
+    "text": "casa argentera",
+    "file": "casaargentera_logo_2010"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 359,
+    "y": 91,
+    "w": 71,
+    "h": 26,
+    "text": "la casa",
+    "href": "/es/la-casa/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 461,
+    "y": 91,
+    "w": 95,
+    "h": 26,
+    "text": "el entorno",
+    "href": "/es/el-entorno/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 586,
+    "y": 91,
+    "w": 116,
+    "h": 26,
+    "text": "experiencias",
+    "href": "/es/experiencias/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 732,
+    "y": 91,
+    "w": 68,
+    "h": 26,
+    "text": "eventos",
+    "href": "/es/eventos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 830,
+    "y": 91,
+    "w": 124,
+    "h": 26,
+    "text": "quiénes somos",
+    "href": "/es/quienes-somos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 985,
+    "y": 91,
+    "w": 80,
+    "h": 26,
+    "text": "contacto",
+    "href": "/es/contacto/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul#primary-menu > li.menu-item.menu-item-type-post_type > a",
+    "x": 1095,
+    "y": 91,
+    "w": 76,
+    "h": 26,
+    "text": "reservas",
+    "href": "/es/reservas/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mini-widgets > div.soc-ico.show-on-desktop > a.instagram",
+    "x": 1328,
+    "y": 91,
+    "w": 24,
+    "h": 24,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.mini-widgets > div.soc-ico.show-on-desktop > a.facebook",
+    "x": 1356,
+    "y": 91,
+    "w": 24,
+    "h": 24,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h2",
+    "x": 155,
+    "y": 928,
+    "w": 1130,
+    "h": 55,
+    "level": 2,
+    "text": "antiguamente la planta baja era el establo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > p > span",
+    "x": 155,
+    "y": 996,
+    "w": 1123,
+    "h": 68,
+    "text": "El carro entraba a través de la puerta grande curvada, que se ha convertido en u"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.vc_gitem-animated-block > div.vc_gitem-zone.vc_gitem-zone-a > a.vc_gitem-link.prettyphoto",
+    "x": 155,
+    "y": 1100,
+    "w": 555,
+    "h": 312,
+    "text": "p1010765enhancedp3d",
+    "href": "/wp-content/uploads/2020/04/P1010765EnhancedP3D-e1587830457410-1024x576.jpg"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.vc_gitem-animated-block > div.vc_gitem-zone.vc_gitem-zone-a > a.vc_gitem-link.prettyphoto",
+    "x": 730,
+    "y": 1100,
+    "w": 555,
+    "h": 312,
+    "text": "casaargentera-groundfloor",
+    "href": "/wp-content/uploads/2020/01/CasaArgentera-GroundFloor-1024x576.jpg"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.vc_gitem-animated-block > div.vc_gitem-zone.vc_gitem-zone-a > a.vc_gitem-link.prettyphoto",
+    "x": 155,
+    "y": 1432,
+    "w": 555,
+    "h": 312,
+    "text": "kitchen-ground floor-casaargentera",
+    "href": "/wp-content/uploads/2020/01/Kitchen-groundf-CasaArgentera-1024x576.jpg"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.vc_gitem-animated-block > div.vc_gitem-zone.vc_gitem-zone-a > a.vc_gitem-link.prettyphoto",
+    "x": 730,
+    "y": 1432,
+    "w": 555,
+    "h": 312,
+    "text": "casaargentera-hab2-0",
+    "href": "/wp-content/uploads/2020/01/CasaArgentera-hab2-0-1024x576.jpg"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.vc_gitem-animated-block > div.vc_gitem-zone.vc_gitem-zone-a > a.vc_gitem-link.prettyphoto",
+    "x": 155,
+    "y": 1764,
+    "w": 555,
+    "h": 312,
+    "text": "casaargentera-hab-0",
+    "href": "/wp-content/uploads/2020/01/CasaArgentera-hab-0-1024x576.jpg"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.vc_gitem-animated-block > div.vc_gitem-zone.vc_gitem-zone-a > a.vc_gitem-link.prettyphoto",
+    "x": 730,
+    "y": 1764,
+    "w": 555,
+    "h": 312,
+    "text": "bathroom groundfloor -casaargentera",
+    "href": "/wp-content/uploads/2020/01/BathroomGroundf-CasaArgentera-1024x575.jpg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h3#tw-target-text",
+    "x": 155,
+    "y": 2123,
+    "w": 1130,
+    "h": 35,
+    "level": 3,
+    "text": "en este apartamento para 4 personas encontrarás"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > h3#tw-target-text > span",
+    "x": 155,
+    "y": 2122,
+    "w": 734,
+    "h": 37,
+    "text": "En este apartamento para 4 personas encontrarás"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-1045546c70de95a44f722f24ceb1298c > h5.dt-text-title",
+    "x": 215,
+    "y": 2190,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "2 habitaciones dobles"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-1045546c70de95a44f722f24ceb1298c > div.dt-text-desc",
+    "x": 215,
+    "y": 2217,
+    "w": 1070,
+    "h": 50,
+    "text": "1 habitación con cama de matrimonio 1 habitación con dos camas"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-81f588ac161bf3b03592e23637bc9d48 > h5.dt-text-title",
+    "x": 215,
+    "y": 2290,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "1 baño"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-81f588ac161bf3b03592e23637bc9d48 > div.dt-text-desc",
+    "x": 215,
+    "y": 2320,
+    "w": 1070,
+    "h": 25,
+    "text": "1 baño con ducha efecto lluvia y jets"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-83fbbad0f72385a13530a51e8498317d > h5.dt-text-title",
+    "x": 215,
+    "y": 2370,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "secador de pelo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-83fbbad0f72385a13530a51e8498317d > div.dt-text-desc",
+    "x": 215,
+    "y": 2400,
+    "w": 1070,
+    "h": 25,
+    "text": "No traigas el tuyo"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-7878091a51463907904f072f309ada30 > h5.dt-text-title",
+    "x": 215,
+    "y": 2450,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "1 gran comedor / sala de reuniones"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-7878091a51463907904f072f309ada30 > div.dt-text-desc",
+    "x": 215,
+    "y": 2480,
+    "w": 1070,
+    "h": 50,
+    "text": "Mesa grande con espacio para 15 personas Proyector, home cinema, hifi"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-1c33900a1bf8a77c703295abb517bd71 > h5.dt-text-title",
+    "x": 215,
+    "y": 2550,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "un horno de obra"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-1c33900a1bf8a77c703295abb517bd71 > div.dt-text-desc",
+    "x": 215,
+    "y": 2577,
+    "w": 1070,
+    "h": 25,
+    "text": "Para calentar y cocinar"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-5106b6cb383e9a27b754c69064fd86f6 > h5.dt-text-title",
+    "x": 215,
+    "y": 2630,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "cocina americana"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-5106b6cb383e9a27b754c69064fd86f6 > div.dt-text-desc",
+    "x": 215,
+    "y": 2657,
+    "w": 1070,
+    "h": 75,
+    "text": "Totalmente equipada Nespresso, microondas, lavavajillas Acceso directo al jardín"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-9f1df031a6c7aae24d14e864b241e7d9 > h5.dt-text-title",
+    "x": 215,
+    "y": 2752,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "home cinema hi-fi / proyector"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-9f1df031a6c7aae24d14e864b241e7d9 > div.dt-text-desc",
+    "x": 215,
+    "y": 2779,
+    "w": 1070,
+    "h": 25,
+    "text": "Para ver películas y para reuniones"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-8303bb5746c132da4dc7dd2d6c8ea4a4 > h5.dt-text-title",
+    "x": 215,
+    "y": 2832,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "calefacción / ventilador en cada habitación"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-8303bb5746c132da4dc7dd2d6c8ea4a4 > div.dt-text-desc",
+    "x": 215,
+    "y": 2859,
+    "w": 1070,
+    "h": 25,
+    "text": "Confortable 100%"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-eea4e05052006c4ef9aa5b36a257d843 > h5.dt-text-title",
+    "x": 215,
+    "y": 2912,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "jardín"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-eea4e05052006c4ef9aa5b36a257d843 > div.dt-text-desc",
+    "x": 215,
+    "y": 2939,
+    "w": 1070,
+    "h": 100,
+    "text": "Piscina climatizada e iluminada Barbacoa y equipo paellero Gran mesa en la sombr"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > h3",
+    "x": 155,
+    "y": 3071,
+    "w": 1130,
+    "h": 35,
+    "level": 3,
+    "text": "más información y reservas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.wpb_text_column.wpb_content_element > div.wpb_wrapper > p",
+    "x": 155,
+    "y": 3116,
+    "w": 1130,
+    "h": 25,
+    "text": "Envíanos tus preguntas e ideas. ¡Estamos encantados de ayudarte!"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 155,
+    "y": 3144,
+    "w": 1130,
+    "h": 51,
+    "text": "Nombre (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 155,
+    "y": 3229,
+    "w": 1130,
+    "h": 51,
+    "text": "Correo electrónico (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 155,
+    "y": 3314,
+    "w": 1130,
+    "h": 51,
+    "text": "Tu teléfono (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 155,
+    "y": 3399,
+    "w": 1130,
+    "h": 51,
+    "text": "Asunto"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#wpcf7-f16165-p16115-o1 > form.wpcf7-form.init > p",
+    "x": 155,
+    "y": 3481,
+    "w": 1130,
+    "h": 25,
+    "text": "Por favor, especifica tus preferencias con respecto a las fechas de entrada y sa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > label",
+    "x": 155,
+    "y": 3519,
+    "w": 1130,
+    "h": 43,
+    "text": "Mensaje"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "span.wpcf7-list-item > label > span.wpcf7-list-item-label",
+    "x": 182,
+    "y": 3816,
+    "w": 239,
+    "h": 18,
+    "text": "He leído y acepto la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "label > span.wpcf7-list-item-label > a",
+    "x": 326,
+    "y": 3816,
+    "w": 95,
+    "h": 18,
+    "text": "privacy policy",
+    "href": "/wp/privacy-policy/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "form.wpcf7-form.init > p > input.wpcf7-form-control.wpcf7-submit",
+    "x": 155,
+    "y": 3838,
+    "w": 97,
+    "h": 39,
+    "text": "enviar"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-4 > div.widget-title",
+    "x": 155,
+    "y": 4007,
+    "w": 337,
+    "h": 27,
+    "text": "CONTACTO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-4 > div.textwidget > p",
+    "x": 155,
+    "y": 4049,
+    "w": 337,
+    "h": 100,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 155,
+    "y": 4127,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#search-4 > div.widget-title",
+    "x": 552,
+    "y": 4007,
+    "w": 337,
+    "h": 27,
+    "text": "BUSCA"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#search-4 > form.searchform > a.submit",
+    "x": 857,
+    "y": 4049,
+    "w": 20,
+    "h": 40,
+    "text": "",
+    "href": "/es/la-planta-baja/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#presscore-contact-info-widget-3 > div.widget-title",
+    "x": 948,
+    "y": 4007,
+    "w": 337,
+    "h": 27,
+    "text": "SÍGUENOS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.facebook",
+    "x": 950,
+    "y": 4051,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#presscore-contact-info-widget-3 > div.soc-ico > a.instagram",
+    "x": 980,
+    "y": 4051,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-6 > div.widget-title",
+    "x": 155,
+    "y": 4179,
+    "w": 337,
+    "h": 27,
+    "text": "OTROS ALQUILERES"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-6 > div.textwidget > p",
+    "x": 155,
+    "y": 4221,
+    "w": 337,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTÀ C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 155,
+    "y": 4274,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.wf-container > section#text-3 > div.widget-title",
+    "x": 552,
+    "y": 4179,
+    "w": 337,
+    "h": 27,
+    "text": "INFO LEGAL"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "section#text-3 > div.textwidget > p",
+    "x": 552,
+    "y": 4221,
+    "w": 337,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.textwidget > p > a",
+    "x": 552,
+    "y": 4224,
+    "w": 220,
+    "h": 18,
+    "text": "política de privacidad y cookies",
+    "href": "/es/politica-de-privacidad-y-cookies/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 948,
+    "y": 4179,
+    "w": 337,
+    "h": 25,
+    "text": "english",
+    "href": "/the-ground-floor/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 948,
+    "y": 4204,
+    "w": 337,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/stueetagen/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 948,
+    "y": 4229,
+    "w": 337,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/la-planta-baixa/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "ul > li.polylang-item.lang-item > a",
+    "x": 948,
+    "y": 4254,
+    "w": 337,
+    "h": 25,
+    "text": "español",
+    "href": "/es/la-planta-baja/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 72,
+    "controls": 31,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/es/la-planta-baja",
+  "at": "2026-11-24T21:55:42.850Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4340,
+  "root": "main#main",
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.top-bar > div.top-bar-left > span.mini-contacts.phone",
+    "x": 60,
+    "y": 9,
+    "w": 129,
+    "h": 19,
+    "text": "+34 678 866 588"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.top-bar > div.top-bar-left > span.mini-contacts.email",
+    "x": 209,
+    "y": 9,
+    "w": 186,
+    "h": 19,
+    "text": "info@casaargentera.com"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.top-menu > li > a",
+    "x": 1219,
+    "y": 9,
+    "w": 48,
+    "h": 19,
+    "text": "english",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.top-menu > li > a",
+    "x": 1283,
+    "y": 9,
+    "w": 41,
+    "h": 19,
+    "text": "dansk",
+    "href": "/da/home"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.top-menu > li > a",
+    "x": 1340,
+    "y": 9,
+    "w": 40,
+    "h": 19,
+    "text": "català",
+    "href": "/ca/inici"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-bar > div.branding > a",
+    "x": 60,
+    "y": 36,
+    "w": 172,
+    "h": 136,
+    "text": "casa argentera",
+    "href": "/es/inicio"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 60,
+    "y": 36,
+    "w": 172,
+    "h": 136,
+    "text": "casa argentera",
+    "file": "media_183733dd1c34649cd152dddde69ab1adb4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li.has-children.act > a",
+    "x": 359,
+    "y": 91,
+    "w": 71,
+    "h": 26,
+    "text": "la casa",
+    "href": "/es/la-casa"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li > a",
+    "x": 461,
+    "y": 91,
+    "w": 95,
+    "h": 26,
+    "text": "el entorno",
+    "href": "/es/el-entorno"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li.has-children > a",
+    "x": 586,
+    "y": 91,
+    "w": 116,
+    "h": 26,
+    "text": "experiencias",
+    "href": "/es/experiencias"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li > a",
+    "x": 732,
+    "y": 91,
+    "w": 68,
+    "h": 26,
+    "text": "eventos",
+    "href": "/es/eventos"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li > a",
+    "x": 830,
+    "y": 91,
+    "w": 124,
+    "h": 26,
+    "text": "quiénes somos",
+    "href": "/es/quienes-somos"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li > a",
+    "x": 985,
+    "y": 91,
+    "w": 80,
+    "h": 26,
+    "text": "contacto",
+    "href": "/es/contacto"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.main-nav > li > a",
+    "x": 1095,
+    "y": 91,
+    "w": 76,
+    "h": 26,
+    "text": "reservas",
+    "href": "/es/reservas"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-bar > div.soc-ico > a.instagram",
+    "x": 1328,
+    "y": 92,
+    "w": 24,
+    "h": 24,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-bar > div.soc-ico > a.facebook",
+    "x": 1356,
+    "y": 92,
+    "w": 24,
+    "h": 24,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slide-media > picture > img",
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 868,
+    "text": "big dining/meeting room in the ground floor",
+    "file": "media_1c92e4065c37f5a8ea3ddba6e53e83d365"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slide-media > picture > img",
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 868,
+    "text": "double room with wooden sliding door ground floor, casa arge",
+    "file": "media_1d109bf935fd1c7518d8e3203c4191a766"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.block > div.hero-slider-bullets > button.hero-bullet",
+    "x": 696,
+    "y": 835,
+    "w": 13,
+    "h": 13,
+    "text": "slide 1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.block > div.hero-slider-bullets > button.hero-bullet.selected",
+    "x": 714,
+    "y": 835,
+    "w": 13,
+    "h": 13,
+    "text": "slide 2"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-slider.block > div.hero-slider-bullets > button.hero-bullet",
+    "x": 732,
+    "y": 835,
+    "w": 13,
+    "h": 13,
+    "text": "slide 3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > h1#antiguamente-la-planta-baja-erael-establo",
+    "x": 155,
+    "y": 928,
+    "w": 1130,
+    "h": 55,
+    "level": 1,
+    "text": "antiguamente la planta baja era el establo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > p",
+    "x": 155,
+    "y": 993,
+    "w": 1130,
+    "h": 75,
+    "text": "El carro entraba a través de la puerta grande curvada, que se ha convertido en u"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 155,
+    "y": 1100,
+    "w": 555,
+    "h": 312,
+    "text": "big dining/meeting room in the ground floor",
+    "file": "media_1523ac56af5f5361f4ebf022c33db0d7c4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image-grid-col > figure.image-grid-image > a.image-grid-zoom",
+    "x": 155,
+    "y": 1100,
+    "w": 555,
+    "h": 312,
+    "text": "p1010765enhancedp3d",
+    "href": "/wp-content/uploads/2020/04/P1010765EnhancedP3D-e1587830457410-1024x576.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 730,
+    "y": 1100,
+    "w": 555,
+    "h": 312,
+    "text": "masonry stove ground floor, casa argentera",
+    "file": "media_143481dd73964b620eb4ddb9f58c817611"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image-grid-col > figure.image-grid-image > a.image-grid-zoom",
+    "x": 730,
+    "y": 1100,
+    "w": 555,
+    "h": 312,
+    "text": "casaargentera-groundfloor",
+    "href": "/wp-content/uploads/2020/01/CasaArgentera-GroundFloor-1024x576.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 155,
+    "y": 1432,
+    "w": 555,
+    "h": 312,
+    "text": "kitchen ground floor casa argentera",
+    "file": "media_1a334779e2b862b704f5082c50fb900a4d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image-grid-col > figure.image-grid-image > a.image-grid-zoom",
+    "x": 155,
+    "y": 1432,
+    "w": 555,
+    "h": 312,
+    "text": "kitchen-ground floor-casaargentera",
+    "href": "/wp-content/uploads/2020/01/Kitchen-groundf-CasaArgentera-1024x576.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 730,
+    "y": 1432,
+    "w": 555,
+    "h": 312,
+    "text": "double room in ground floor, casa argentera",
+    "file": "media_15fe728f4f9073f6fb934c52f0a51a57f2"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image-grid-col > figure.image-grid-image > a.image-grid-zoom",
+    "x": 730,
+    "y": 1432,
+    "w": 555,
+    "h": 312,
+    "text": "casaargentera-hab2-0",
+    "href": "/wp-content/uploads/2020/01/CasaArgentera-hab2-0-1024x576.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 155,
+    "y": 1764,
+    "w": 555,
+    "h": 312,
+    "text": "double room with wooden sliding door ground floor, casa arge",
+    "file": "media_13df5163464c7160e2220528ea1b265eea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image-grid-col > figure.image-grid-image > a.image-grid-zoom",
+    "x": 155,
+    "y": 1764,
+    "w": 555,
+    "h": 312,
+    "text": "casaargentera-hab-0",
+    "href": "/wp-content/uploads/2020/01/CasaArgentera-hab-0-1024x576.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 730,
+    "y": 1764,
+    "w": 555,
+    "h": 312,
+    "text": "bathroom ground floor, casa argentera",
+    "file": "media_12d77fd4b572e48ce9bc9ffb009bddeb55"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image-grid-col > figure.image-grid-image > a.image-grid-zoom",
+    "x": 730,
+    "y": 1764,
+    "w": 555,
+    "h": 312,
+    "text": "bathroom groundfloor -casaargentera",
+    "href": "/wp-content/uploads/2020/01/BathroomGroundf-CasaArgentera-1024x575.jpg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > h3#en-este-apartamento-para-4-personas-encontrarás",
+    "x": 155,
+    "y": 2143,
+    "w": 1130,
+    "h": 35,
+    "level": 3,
+    "text": "en este apartamento para 4 personas encontrarás"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#habitaciones-dobles",
+    "x": 215,
+    "y": 2210,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "2 habitaciones dobles"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 215,
+    "y": 2237,
+    "w": 1070,
+    "h": 50,
+    "text": "1 habitación con cama de matrimonio 1 habitación con dos camas"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#baño",
+    "x": 215,
+    "y": 2307,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "1 baño"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 215,
+    "y": 2334,
+    "w": 1070,
+    "h": 25,
+    "text": "1 baño con ducha efecto lluvia y jets"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#secador-de-pelo",
+    "x": 215,
+    "y": 2387,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "secador de pelo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 215,
+    "y": 2414,
+    "w": 1070,
+    "h": 25,
+    "text": "No traigas el tuyo"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#gran-comedor--sala-de-reuniones",
+    "x": 215,
+    "y": 2467,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "1 gran comedor / sala de reuniones"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 215,
+    "y": 2494,
+    "w": 1070,
+    "h": 50,
+    "text": "Mesa grande con espacio para 15 personas Proyector, home cinema, hifi"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#un-horno-de-obra",
+    "x": 215,
+    "y": 2564,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "un horno de obra"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 215,
+    "y": 2591,
+    "w": 1070,
+    "h": 25,
+    "text": "Para calentar y cocinar"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#cocina-americana",
+    "x": 215,
+    "y": 2644,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "cocina americana"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 215,
+    "y": 2671,
+    "w": 1070,
+    "h": 75,
+    "text": "Totalmente equipada Nespresso, microondas, lavavajillas Acceso directo al jardín"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#home-cinema-hi-fi--proyector",
+    "x": 215,
+    "y": 2766,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "home cinema hi-fi / proyector"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 215,
+    "y": 2793,
+    "w": 1070,
+    "h": 25,
+    "text": "Para ver películas y para reuniones"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#calefacción--ventilador-en-cada-habitación",
+    "x": 215,
+    "y": 2846,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "calefacción / ventilador en cada habitación"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 215,
+    "y": 2873,
+    "w": 1070,
+    "h": 25,
+    "text": "Confortable 100%"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-title > h5#jardín",
+    "x": 215,
+    "y": 2926,
+    "w": 1070,
+    "h": 27,
+    "level": 5,
+    "text": "jardín"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.icon-features-item > div.icon-features-desc > p",
+    "x": 215,
+    "y": 2953,
+    "w": 1070,
+    "h": 100,
+    "text": "Piscina climatizada e iluminada Barbacoa y equipo paellero Gran mesa en la sombr"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > h3#más-información-y-reservas",
+    "x": 155,
+    "y": 3085,
+    "w": 1130,
+    "h": 35,
+    "level": 3,
+    "text": "más información y reservas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.image-grid-container > div.default-content-wrapper > p",
+    "x": 155,
+    "y": 3120,
+    "w": 1130,
+    "h": 25,
+    "text": "Envíanos tus preguntas e ideas. ¡Estamos encantados de ayudarte!"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 155,
+    "y": 3145,
+    "w": 1130,
+    "h": 25,
+    "text": "Nombre (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 155,
+    "y": 3230,
+    "w": 1130,
+    "h": 25,
+    "text": "Correo electrónico (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 155,
+    "y": 3315,
+    "w": 1130,
+    "h": 25,
+    "text": "Tu teléfono (required)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 155,
+    "y": 3400,
+    "w": 1130,
+    "h": 25,
+    "text": "Asunto"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form.contact-form-form > div.contact-form-line.contact-form-note > p",
+    "x": 155,
+    "y": 3485,
+    "w": 1130,
+    "h": 25,
+    "text": "Por favor, especifica tus preferencias con respecto a las fechas de entrada y sa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-form-line > label.contact-form-label > p",
+    "x": 155,
+    "y": 3520,
+    "w": 1130,
+    "h": 25,
+    "text": "Mensaje"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "label > span.contact-form-check-label > p",
+    "x": 186,
+    "y": 3820,
+    "w": 235,
+    "h": 18,
+    "text": "He leído y acepto la"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.contact-form-check-label > p > a",
+    "x": 326,
+    "y": 3820,
+    "w": 95,
+    "h": 18,
+    "text": "privacy policy",
+    "href": "/wp/privacy-policy/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form.contact-form-form > div.contact-form-line > input.contact-form-submit",
+    "x": 155,
+    "y": 3842,
+    "w": 97,
+    "h": 39,
+    "text": "enviar"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 155,
+    "y": 4011,
+    "w": 337,
+    "h": 27,
+    "text": "CONTACTO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 155,
+    "y": 4053,
+    "w": 337,
+    "h": 100,
+    "text": "CASA ARGENTERA C/Deumera 19 • 43773 L’Argentera • Spain T: +34 678 866 588 info@"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 155,
+    "y": 4131,
+    "w": 176,
+    "h": 18,
+    "text": "www.casaargentera.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 552,
+    "y": 4011,
+    "w": 337,
+    "h": 27,
+    "text": "BUSCA"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > form.searchform > button.submit",
+    "x": 856,
+    "y": 4053,
+    "w": 20,
+    "h": 40,
+    "text": "search"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 948,
+    "y": 4011,
+    "w": 337,
+    "h": 27,
+    "text": "SÍGUENOS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.facebook",
+    "x": 950,
+    "y": 4055,
+    "w": 26,
+    "h": 26,
+    "text": "facebook page opens in new window",
+    "href": "/CasaArgentera/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.soc-ico > a.instagram",
+    "x": 980,
+    "y": 4055,
+    "w": 26,
+    "h": 26,
+    "text": "instagram page opens in new window",
+    "href": "/casaargentera/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 155,
+    "y": 4183,
+    "w": 337,
+    "h": 27,
+    "text": "OTROS ALQUILERES"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 155,
+    "y": 4225,
+    "w": 337,
+    "h": 75,
+    "text": "CASA VELLA DEL PANTÀ C/T313, km.13 • 43771 Riudecanyes • Spain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 155,
+    "y": 4278,
+    "w": 203,
+    "h": 18,
+    "text": "www.casavelladelpanta.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > div.widget-title > p",
+    "x": 552,
+    "y": 4183,
+    "w": 337,
+    "h": 27,
+    "text": "INFO LEGAL"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-widgets > section.widget > p",
+    "x": 552,
+    "y": 4225,
+    "w": 337,
+    "h": 50,
+    "text": "©2020 Casa Argentera"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "section.widget > p > a",
+    "x": 552,
+    "y": 4228,
+    "w": 220,
+    "h": 18,
+    "text": "política de privacidad y cookies",
+    "href": "/es/politica-de-privacidad-y-cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 948,
+    "y": 4183,
+    "w": 337,
+    "h": 25,
+    "text": "english",
+    "href": "/the-ground-floor"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 948,
+    "y": 4208,
+    "w": 337,
+    "h": 25,
+    "text": "dansk",
+    "href": "/da/stueetagen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 948,
+    "y": 4233,
+    "w": 337,
+    "h": 25,
+    "text": "català",
+    "href": "/ca/la-planta-baixa"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 948,
+    "y": 4258,
+    "w": 337,
+    "h": 25,
+    "text": "español",
+    "href": "/es/la-planta-baja"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 78,
+    "controls": 34,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 3,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 1,
+   "heading": "antiguamente la planta baja era el establo",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 6,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT IMAGES"
+   ]
+  },
+  {
+   "index": 2,
+   "heading": "en este apartamento para 4 personas encontrarás",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 9,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 9,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "más información y reservas",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 8,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 8,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×3 \"slide 1\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 3,
+   "text": "slide 1"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"antiguamente la planta baja era el establo\": 0 origin → 6 served visible",
+   "band": 1,
+   "origin": 0,
+   "eds": 6,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 3,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 2,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 85,
+    "y": 10,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 234,
+    "y": 10,
+    "w": 161,
+    "h": 16
+   },
+   {
+    "x": 1219,
+    "y": 10,
+    "w": 48,
+    "h": 16
+   },
+   {
+    "x": 1283,
+    "y": 10,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1340,
+    "y": 10,
+    "w": 40,
+    "h": 16
+   },
+   {
+    "x": 359,
+    "y": 95,
+    "w": 61,
+    "h": 18
+   },
+   {
+    "x": 461,
+    "y": 95,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 586,
+    "y": 95,
+    "w": 106,
+    "h": 18
+   },
+   {
+    "x": 732,
+    "y": 95,
+    "w": 68,
+    "h": 18
+   },
+   {
+    "x": 830,
+    "y": 95,
+    "w": 124,
+    "h": 18
+   },
+   {
+    "x": 985,
+    "y": 95,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 1095,
+    "y": 95,
+    "w": 76,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 925,
+    "w": 1036,
+    "h": 61
+   },
+   {
+    "x": 155,
+    "y": 996,
+    "w": 841,
+    "h": 18
+   },
+   {
+    "x": 996,
+    "y": 996,
+    "w": 76,
+    "h": 18
+   },
+   {
+    "x": 1072,
+    "y": 996,
+    "w": 188,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1021,
+    "w": 425,
+    "h": 18
+   },
+   {
+    "x": 580,
+    "y": 1021,
+    "w": 103,
+    "h": 18
+   },
+   {
+    "x": 683,
+    "y": 1021,
+    "w": 594,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1046,
+    "w": 1084,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2122,
+    "w": 734,
+    "h": 37
+   },
+   {
+    "x": 215,
+    "y": 2193,
+    "w": 224,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2220,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2245,
+    "w": 191,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2293,
+    "w": 64,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2323,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2373,
+    "w": 168,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2403,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2453,
+    "w": 360,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2483,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2508,
+    "w": 200,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2553,
+    "w": 186,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2580,
+    "w": 159,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2633,
+    "w": 181,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2660,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2685,
+    "w": 242,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2710,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2755,
+    "w": 299,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2782,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2835,
+    "w": 452,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2862,
+    "w": 121,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2915,
+    "w": 66,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2942,
+    "w": 221,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2967,
+    "w": 191,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2992,
+    "w": 170,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 3017,
+    "w": 178,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 3070,
+    "w": 396,
+    "h": 37
+   },
+   {
+    "x": 155,
+    "y": 3119,
+    "w": 465,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 3144,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 3229,
+    "w": 201,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 3314,
+    "w": 151,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 3399,
+    "w": 50,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 3484,
+    "w": 570,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 3519,
+    "w": 59,
+    "h": 18
+   },
+   {
+    "x": 186,
+    "y": 3816,
+    "w": 140,
+    "h": 18
+   },
+   {
+    "x": 326,
+    "y": 3816,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 4010,
+    "w": 95,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 4052,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 4077,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 4102,
+    "w": 306,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 4127,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 4010,
+    "w": 60,
+    "h": 20
+   },
+   {
+    "x": 948,
+    "y": 4010,
+    "w": 92,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 4182,
+    "w": 174,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 4224,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 4249,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 4274,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 4182,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 552,
+    "y": 4224,
+    "w": 220,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 4249,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 4182,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 4207,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 4232,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 4257,
+    "w": 56,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 85,
+    "y": 10,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 234,
+    "y": 10,
+    "w": 161,
+    "h": 16
+   },
+   {
+    "x": 1219,
+    "y": 10,
+    "w": 48,
+    "h": 16
+   },
+   {
+    "x": 1283,
+    "y": 10,
+    "w": 41,
+    "h": 16
+   },
+   {
+    "x": 1340,
+    "y": 10,
+    "w": 40,
+    "h": 16
+   },
+   {
+    "x": 359,
+    "y": 95,
+    "w": 61,
+    "h": 18
+   },
+   {
+    "x": 461,
+    "y": 95,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 586,
+    "y": 95,
+    "w": 106,
+    "h": 18
+   },
+   {
+    "x": 732,
+    "y": 95,
+    "w": 68,
+    "h": 18
+   },
+   {
+    "x": 830,
+    "y": 95,
+    "w": 124,
+    "h": 18
+   },
+   {
+    "x": 985,
+    "y": 95,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 1095,
+    "y": 95,
+    "w": 76,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 925,
+    "w": 1036,
+    "h": 61
+   },
+   {
+    "x": 155,
+    "y": 996,
+    "w": 841,
+    "h": 18
+   },
+   {
+    "x": 996,
+    "y": 996,
+    "w": 76,
+    "h": 18
+   },
+   {
+    "x": 1072,
+    "y": 996,
+    "w": 188,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1021,
+    "w": 425,
+    "h": 18
+   },
+   {
+    "x": 580,
+    "y": 1021,
+    "w": 103,
+    "h": 18
+   },
+   {
+    "x": 683,
+    "y": 1021,
+    "w": 594,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 1046,
+    "w": 1080,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 2142,
+    "w": 734,
+    "h": 37
+   },
+   {
+    "x": 215,
+    "y": 2213,
+    "w": 224,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2240,
+    "w": 265,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2265,
+    "w": 191,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2310,
+    "w": 64,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2337,
+    "w": 250,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2390,
+    "w": 168,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2417,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2470,
+    "w": 360,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2497,
+    "w": 296,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2522,
+    "w": 200,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2567,
+    "w": 186,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2594,
+    "w": 159,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2647,
+    "w": 181,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2674,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2699,
+    "w": 242,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2724,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2769,
+    "w": 299,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2796,
+    "w": 241,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2849,
+    "w": 452,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2876,
+    "w": 121,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2929,
+    "w": 66,
+    "h": 20
+   },
+   {
+    "x": 215,
+    "y": 2956,
+    "w": 221,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 2981,
+    "w": 191,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 3006,
+    "w": 170,
+    "h": 18
+   },
+   {
+    "x": 215,
+    "y": 3031,
+    "w": 178,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 3084,
+    "w": 396,
+    "h": 37
+   },
+   {
+    "x": 155,
+    "y": 3123,
+    "w": 465,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 3148,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 3233,
+    "w": 201,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 3318,
+    "w": 151,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 3403,
+    "w": 50,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 3488,
+    "w": 570,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 3523,
+    "w": 59,
+    "h": 18
+   },
+   {
+    "x": 186,
+    "y": 3820,
+    "w": 140,
+    "h": 18
+   },
+   {
+    "x": 326,
+    "y": 3820,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 4014,
+    "w": 95,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 4056,
+    "w": 131,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 4081,
+    "w": 285,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 4106,
+    "w": 306,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 4131,
+    "w": 176,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 4014,
+    "w": 60,
+    "h": 20
+   },
+   {
+    "x": 948,
+    "y": 4014,
+    "w": 92,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 4186,
+    "w": 174,
+    "h": 20
+   },
+   {
+    "x": 155,
+    "y": 4228,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 4253,
+    "w": 287,
+    "h": 18
+   },
+   {
+    "x": 155,
+    "y": 4278,
+    "w": 203,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 4186,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 552,
+    "y": 4228,
+    "w": 220,
+    "h": 18
+   },
+   {
+    "x": 552,
+    "y": 4253,
+    "w": 156,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 4186,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 4211,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 4236,
+    "w": 44,
+    "h": 18
+   },
+   {
+    "x": 955,
+    "y": 4261,
+    "w": 56,
+    "h": 18
+   }
+  ]
+ }
+}

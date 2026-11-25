@@ -1,0 +1,166 @@
+{
+  "a": "stardust/replica/gates/wide-2560/beach-and-more/origin.png",
+  "b": "stardust/replica/gates/wide-2560/beach-and-more/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 2488,
+    "mode": "overlap"
+  },
+  "heightDelta": -24,
+  "differingPixels": 533912,
+  "pct": 8.38,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/wide-2560/beach-and-more/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 13.8
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 19.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2488,
+      "pct": 8.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 8.38,
+    "differingPixels": 533912,
+    "compared": {
+      "width": 2560,
+      "height": 2488,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 13.8,
+        "unaligned": 13.8
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 19.1,
+        "unaligned": 19.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2488,
+        "pct": 8.9,
+        "unaligned": 8.9
+      }
+    ],
+    "diff": null,
+    "reason": "aligned number not lower than the unaligned one",
+    "candidate": {
+      "pct": 9.26,
+      "steps": 1,
+      "totalShift": 24
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--ea32f12a--aemcoder.aem.page/beach-and-more",
+    "key": {
+      "v": 3,
+      "build": "https://main--ea32f12a--aemcoder.aem.page/beach-and-more",
+      "source": "https://www.casaargentera.com/beach-and-more/",
+      "masks": "74234e98afe7498f",
+      "presence": "74234e98afe7498f",
+      "clipAllow": "74234e98afe7498f",
+      "override": "74234e98afe7498f",
+      "units": "f4edf82192774eb9",
+      "options": "00da2efd9f3b6bfe",
+      "reference": "2c05c9eee85003f4",
+      "archetype": "1d8fc6ceb1f94c63",
+      "captures": "f83e698a3815109d",
+      "instruments": "700566dc6f7774a4",
+      "page content": "1fe70e2627198501",
+      "shared code": "15fa74636bb99ab3",
+      "block hero-slider": "9c515f6f76444750",
+      "block media-feature": "9257697dfeaa6f6b"
+    },
+    "probes": {
+      "clip": {
+        "counts": {
+          "textClipped": 0,
+          "textHidden": 0,
+          "controlHidden": 0,
+          "controlClipped": 0,
+          "clamped": 0,
+          "collapsed": 0,
+          "scrollHidden": 0,
+          "horizontal": 0,
+          "offPage": 0,
+          "textNodes": 58,
+          "controls": 28,
+          "total": 0
+        },
+        "groups": [],
+        "source": "clip-probe",
+        "tier": "chrome"
+      },
+      "units": {
+        "verdict": {
+          "units": 6,
+          "within": 19,
+          "off": 0,
+          "hidden": 0,
+          "missing": 0,
+          "errors": 0,
+          "requiredOff": 0
+        },
+        "required": true,
+        "errors": []
+      }
+    },
+    "at": "2026-11-24T22:33:56.487Z"
+  }
+}

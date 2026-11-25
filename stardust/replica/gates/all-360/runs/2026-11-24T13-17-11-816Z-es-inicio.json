@@ -1,0 +1,302 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-24T13:17:11.816Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height; roster tolerance: 5% of the origin height with no step over 200px",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.casaargentera.com",
+    "eds": "https://main--ea32f12a--aemcoder.aem.page",
+    "edsHostOverride": "https://main--ea32f12a--aemcoder.aem.page",
+    "only": [
+      "es-inicio",
+      "ca-inici"
+    ]
+  },
+  "totals": {
+    "pages": 2,
+    "pass": 0,
+    "pixelOnlyPass": 2,
+    "overridePass": 2,
+    "fail": 2,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 2,
+    "failUnits": 0,
+    "unitsNotDeclared": 0,
+    "unitsRecordedNotDeclared": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 2,
+    "failOffsets": 0,
+    "offsetsWithinTolerance": 1,
+    "referenceUnstable": 0,
+    "passWithOverrides": 2
+  },
+  "rows": [
+    {
+      "slug": "ca-inici",
+      "path": "/ca/inici/",
+      "template": "landing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 16.63,
+      "textPct": 3.83,
+      "heightDelta": 18,
+      "originH": 6394,
+      "edsH": 6376,
+      "alignedPct": 1.59,
+      "alignedUsed": true,
+      "totalShift": 42,
+      "steps": [
+        {
+          "y": 1248,
+          "shift": 10,
+          "cumulative": 10
+        },
+        {
+          "y": 2794,
+          "shift": -18,
+          "cumulative": -8
+        },
+        {
+          "y": 3422,
+          "shift": 1,
+          "cumulative": -7
+        },
+        {
+          "y": 3708,
+          "shift": -1,
+          "cumulative": -8
+        },
+        {
+          "y": 4345,
+          "shift": 1,
+          "cumulative": -7
+        },
+        {
+          "y": 4973,
+          "shift": -11,
+          "cumulative": -18
+        }
+      ],
+      "offsetBound": 64,
+      "offsetTolerance": 319,
+      "offsetJudge": "bound",
+      "offsetsWithinTolerance": false,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "content"
+      ],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "content MISSING 6 / HIDDEN 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 6,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 15,
+        "variable": []
+      },
+      "unitsDeclared": 3,
+      "unitsRecorded": null,
+      "units": {
+        "units": 14,
+        "within": 21,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "pass",
+        "reason": "instrument artefact: the source wraps one accented letter of these headings in an inline <span lang> (e.g. EL JARD<span lang=\"ca\">Í</span>, PLAYA Y M<span lang=\"es\">ÁS</span>); content-presence tokenises the span with a space (\"el jard í\") so the identical served heading/link (\"EL JARDÍ\", same href) reads MISSING; DA drops the span. Waives content only for those MISSING HEADING/LINK pairs — every other content finding must be 0 (checked per run in stardust/.work/rollout/landing).",
+        "waives": [
+          "content"
+        ]
+      },
+      "masked": true,
+      "maskedRows": 308,
+      "maskReason": "self-varying rows of the frozen reference (noise floor 0.79%)",
+      "reference": "stardust/replica/gates/all-360/ca-inici",
+      "noiseFloor": 0.79,
+      "variableRows": 308,
+      "hint": null,
+      "hotBands": [
+        "1500-2000:24.8%",
+        "2000-2500:17.3%",
+        "3000-3500:33%",
+        "3500-4000:27.9%",
+        "4000-4500:26.9%",
+        "4500-5000:23.1%",
+        "5000-5500:16.3%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "es-inicio",
+      "path": "/es/inicio/",
+      "template": "landing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 28.45,
+      "textPct": 5.73,
+      "heightDelta": 73,
+      "originH": 6761,
+      "edsH": 6688,
+      "alignedPct": 3.27,
+      "alignedUsed": true,
+      "totalShift": 97,
+      "steps": [
+        {
+          "y": 1372,
+          "shift": -25,
+          "cumulative": -25
+        },
+        {
+          "y": 3113,
+          "shift": 12,
+          "cumulative": -13
+        },
+        {
+          "y": 3939,
+          "shift": -30,
+          "cumulative": -43
+        },
+        {
+          "y": 4591,
+          "shift": -29,
+          "cumulative": -72
+        },
+        {
+          "y": 6760,
+          "shift": -1,
+          "cumulative": -73
+        }
+      ],
+      "offsetBound": 68,
+      "offsetTolerance": 338,
+      "offsetJudge": "tolerance",
+      "offsetsWithinTolerance": true,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "content"
+      ],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "content MISSING 2 / HIDDEN 0"
+      ],
+      "notes": [
+        "offsets within the roster tolerance: 97px total, largest step 30px (strict bound 68px, tolerance 338px)"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 2,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 7,
+        "variable": []
+      },
+      "unitsDeclared": 3,
+      "unitsRecorded": null,
+      "units": {
+        "units": 14,
+        "within": 21,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "pass",
+        "reason": "instrument artefact: the source wraps one accented letter of these headings in an inline <span lang> (e.g. EL JARD<span lang=\"ca\">Í</span>, PLAYA Y M<span lang=\"es\">ÁS</span>); content-presence tokenises the span with a space (\"el jard í\") so the identical served heading/link (\"EL JARDÍ\", same href) reads MISSING; DA drops the span. Waives content only for those MISSING HEADING/LINK pairs — every other content finding must be 0 (checked per run in stardust/.work/rollout/landing).",
+        "waives": [
+          "content"
+        ]
+      },
+      "masked": true,
+      "maskedRows": 288,
+      "maskReason": "self-varying rows of the frozen reference (noise floor 0.15%)",
+      "reference": "stardust/replica/gates/all-360/es-inicio",
+      "noiseFloor": 0.15,
+      "variableRows": 288,
+      "hint": null,
+      "hotBands": [
+        "1500-2000:44.1%",
+        "2000-2500:41.4%",
+        "3000-3500:19.4%",
+        "3500-4000:37.3%",
+        "4000-4500:61.8%",
+        "4500-5000:63.8%",
+        "5000-5500:39.4%",
+        "5500-6000:34.2%",
+        "6000-6500:15.4%"
+      ],
+      "error": null
+    }
+  ]
+}

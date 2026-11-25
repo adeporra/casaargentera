@@ -1,0 +1,783 @@
+{
+  "generatedAt": "2026-11-25T00:41:53.156Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.casaargentera.com/",
+    "liveHost": "main--ea32f12a--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 70,
+    "prototyped": 70,
+    "deployed": 70,
+    "optimised": 0
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 70,
+    "optimised": 0
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "deployed",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "beach-and-more",
+      "path": "/beach-and-more/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-contacte",
+      "path": "/ca/contacte/",
+      "stage": "deployed",
+      "templateId": "form",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-covid-19",
+      "path": "/ca/covid-19/",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-cultura",
+      "path": "/ca/cultura/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-el-jardi",
+      "path": "/ca/el-jardi/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-el-pis-senyorial",
+      "path": "/ca/el-pis-senyorial/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-esdeveniments",
+      "path": "/ca/esdeveniments/",
+      "stage": "deployed",
+      "templateId": "events",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-experiencies",
+      "path": "/ca/experiencies/",
+      "stage": "deployed",
+      "templateId": "listing",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-inici",
+      "path": "/ca/inici/",
+      "stage": "deployed",
+      "templateId": "landing",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-la-casa-sencera",
+      "path": "/ca/la-casa-sencera/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-la-casa",
+      "path": "/ca/la-casa/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-la-planta-baixa",
+      "path": "/ca/la-planta-baixa/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-latic",
+      "path": "/ca/latic/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-lentorn",
+      "path": "/ca/lentorn/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-natura-esport",
+      "path": "/ca/natura-esport/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-platja-i-mes",
+      "path": "/ca/platja-i-mes/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-politica-de-privacidad-y-cookies",
+      "path": "/ca/politica-de-privacidad-y-cookies/",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-politica-de-privacitat-i-cookies",
+      "path": "/ca/politica-de-privacitat-i-cookies/",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-qui-som",
+      "path": "/ca/qui-som/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-reserves",
+      "path": "/ca/reserves/",
+      "stage": "deployed",
+      "templateId": "booking",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "contact",
+      "path": "/contact",
+      "stage": "deployed",
+      "templateId": "contact",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "covid-19",
+      "path": "/covid-19/",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "culture",
+      "path": "/culture",
+      "stage": "deployed",
+      "templateId": "culture",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-covid-19",
+      "path": "/da/covid-19/",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-eventsda",
+      "path": "/da/eventsda/",
+      "stage": "deployed",
+      "templateId": "events",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-hele-huset",
+      "path": "/da/hele-huset/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-kontakt",
+      "path": "/da/kontakt/",
+      "stage": "deployed",
+      "templateId": "form",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-kulturen",
+      "path": "/da/kulturen/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-natur-sport",
+      "path": "/da/natur-sport/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-oplevelser",
+      "path": "/da/oplevelser/",
+      "stage": "deployed",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-penthousekvisten",
+      "path": "/da/penthousekvisten/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-privacy-policy-and-cookies",
+      "path": "/da/privacy-policy-and-cookies/",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-reservations",
+      "path": "/da/reservations/",
+      "stage": "deployed",
+      "templateId": "booking",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-stedet",
+      "path": "/da/stedet/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-strand-m-m",
+      "path": "/da/strand-m-m/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-stueetagen",
+      "path": "/da/stueetagen/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-the-garden",
+      "path": "/da/the-garden/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-the-house",
+      "path": "/da/the-house/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-the-noble-floor",
+      "path": "/da/the-noble-floor/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "da-who-we-are",
+      "path": "/da/who-we-are/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "es-contacto",
+      "path": "/es/contacto/",
+      "stage": "deployed",
+      "templateId": "form",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-cultura",
+      "path": "/es/cultura/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-el-atico",
+      "path": "/es/el-atico/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-el-entorno",
+      "path": "/es/el-entorno/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-el-jardin",
+      "path": "/es/el-jardin/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-el-piso-senorial",
+      "path": "/es/el-piso-senorial/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-eventos",
+      "path": "/es/eventos/",
+      "stage": "deployed",
+      "templateId": "events",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-experiencias",
+      "path": "/es/experiencias/",
+      "stage": "deployed",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-inicio",
+      "path": "/es/inicio/",
+      "stage": "deployed",
+      "templateId": "landing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-la-casa-entera",
+      "path": "/es/la-casa-entera/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-la-casa",
+      "path": "/es/la-casa/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-la-planta-baja",
+      "path": "/es/la-planta-baja/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-naturaleza-deporte",
+      "path": "/es/naturaleza-deporte/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-playas-y-mas",
+      "path": "/es/playas-y-mas/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-quienes-somos",
+      "path": "/es/quienes-somos/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "es-reservas",
+      "path": "/es/reservas/",
+      "stage": "deployed",
+      "templateId": "booking",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "events",
+      "path": "/events",
+      "stage": "deployed",
+      "templateId": "events",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "experiences",
+      "path": "/experiences",
+      "stage": "deployed",
+      "templateId": "experiences",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "nature-sport",
+      "path": "/nature-sport/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "privacy-policy-and-cookies",
+      "path": "/privacy-policy-and-cookies",
+      "stage": "deployed",
+      "templateId": "privacy-policy-and-cookies",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "reservations-2",
+      "path": "/reservations-2",
+      "stage": "deployed",
+      "templateId": "reservations-2",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "the-garden",
+      "path": "/the-garden",
+      "stage": "deployed",
+      "templateId": "the-garden",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "the-ground-floor",
+      "path": "/the-ground-floor/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "the-house",
+      "path": "/the-house/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "the-noble-floor",
+      "path": "/the-noble-floor/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "the-penthouse",
+      "path": "/the-penthouse/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "the-place",
+      "path": "/the-place/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "the-whole-house",
+      "path": "/the-whole-house/",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "who-we-are",
+      "path": "/who-we-are/",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 2
+    }
+  ],
+  "templates": [
+    {
+      "id": "article",
+      "archetype": "beach-and-more",
+      "pageCount": 23,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 23,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "booking",
+      "archetype": "ca-reserves",
+      "pageCount": 3,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 3,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "contact",
+      "archetype": "contact",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "culture",
+      "archetype": "culture",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "events",
+      "archetype": "events",
+      "pageCount": 4,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 4,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "experiences",
+      "archetype": "experiences",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "form",
+      "archetype": "ca-contacte",
+      "pageCount": 3,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 3,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "landing",
+      "archetype": "ca-inici",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 2,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "listing",
+      "archetype": "ca-experiencies",
+      "pageCount": 3,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 3,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "privacy-policy-and-cookies",
+      "archetype": "privacy-policy-and-cookies",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "program",
+      "archetype": "ca-el-jardi",
+      "pageCount": 19,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 19,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "reservations-2",
+      "archetype": "reservations-2",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "static",
+      "archetype": "ca-covid-19",
+      "pageCount": 6,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 6,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "the-garden",
+      "archetype": "the-garden",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 11,
+    "converted": 8
+  },
+  "quality": {
+    "overall": 48,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 0,
+      "cross-page": 96
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 70,
+      "P3": 1
+    },
+    "history": [
+      48
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "platform-migration": 70,
+      "out-of-scope": 16,
+      "design-pass": 1
+    },
+    "byAutofix": {
+      "pending": 70
+    }
+  }
+}

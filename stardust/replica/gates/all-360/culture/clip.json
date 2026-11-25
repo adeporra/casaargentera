@@ -1,0 +1,47 @@
+{
+ "url": "https://main--ea32f12a--aemcoder.aem.page/culture",
+ "at": "2026-11-24T23:56:16.397Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 1,
+  "offPage": 0,
+  "textNodes": 60,
+  "controls": 16,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "main#main",
+   "path": "main#main > div.section.media-feature-container > div.default-content-wrapper > h1#history-is-to-know-where-our-culture-comes-from-an-undeniable-mediterranean-culture-is-waiting-for-you",
+   "text": "history is to know where our culture comes from. an undeniab",
+   "cutMin": 31,
+   "cutMax": 31
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 1,
+   "offPage": 24,
+   "textNodes": 72,
+   "controls": 28,
+   "total": 0
+  }
+ }
+}

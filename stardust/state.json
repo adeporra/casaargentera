@@ -1,0 +1,2525 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:direct",
+    "writtenAt": "2026-11-24T21:12:18Z",
+    "stardustVersion": "0.46.6"
+  },
+  "site": {
+    "originUrl": "https://www.casaargentera.com/",
+    "deployUrl": null,
+    "extractedAt": "2026-11-24T09:16:24.874Z",
+    "pageCap": null,
+    "totalDiscovered": 71,
+    "crawled": 70,
+    "captureGaps": [
+      {
+        "root": "/ca/la-casa",
+        "slug": "ca-la-casa",
+        "linked": 0,
+        "uncaptured": []
+      },
+      {
+        "root": "/ca/qui-som",
+        "slug": "ca-qui-som",
+        "linked": 0,
+        "uncaptured": []
+      },
+      {
+        "root": "/es/la-casa",
+        "slug": "es-la-casa",
+        "linked": 0,
+        "uncaptured": []
+      }
+    ],
+    "failed": [
+      {
+        "slug": "da-home",
+        "url": "https://www.casaargentera.com/da/home/",
+        "reason": "source 301 → / (redirect loop in a browser); delivered as a redirect"
+      }
+    ]
+  },
+  "direction": {
+    "resolvedAt": "2026-11-24T10:03:04.072Z",
+    "phrase": "replica — same design, new platform (hands-off)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim"
+  },
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-24T09:16:24.874Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.casaargentera.com/",
+      "title": "Home - Casa Argentera",
+      "type": "landing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:02:51.252Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-24T10:54:22Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-24T10:54:56Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "es-el-entorno",
+      "url": "https://www.casaargentera.com/es/el-entorno/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:02:48.770Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:03:29Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-el-entorno.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-naturaleza-deporte",
+      "url": "https://www.casaargentera.com/es/naturaleza-deporte/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:02:51.899Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:03:29Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-naturaleza-deporte.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-playas-y-mas",
+      "url": "https://www.casaargentera.com/es/playas-y-mas/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:02:58.417Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:03:29Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-playas-y-mas.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-quienes-somos",
+      "url": "https://www.casaargentera.com/es/quienes-somos/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:02:59.946Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:03:29Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-quienes-somos.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-el-atico",
+      "url": "https://www.casaargentera.com/es/el-atico/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:03:02.636Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:51:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-el-atico.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-el-jardin",
+      "url": "https://www.casaargentera.com/es/el-jardin/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:03:08.206Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:51:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-el-jardin.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-el-piso-senorial",
+      "url": "https://www.casaargentera.com/es/el-piso-senorial/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:03:10.094Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:51:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-el-piso-senorial.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-eventos",
+      "url": "https://www.casaargentera.com/es/eventos/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "events",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:03:12.195Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T21:09:55Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-eventos.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-cultura",
+      "url": "https://www.casaargentera.com/es/cultura/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:03:16.798Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:03:29Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-cultura.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-la-casa-entera",
+      "url": "https://www.casaargentera.com/es/la-casa-entera/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:03:19.415Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:51:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-la-casa-entera.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-la-casa",
+      "url": "https://www.casaargentera.com/es/la-casa/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:03:21.132Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:03:29Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-la-casa.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-la-planta-baja",
+      "url": "https://www.casaargentera.com/es/la-planta-baja/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:03:26.156Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:51:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-la-planta-baja.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-experiencias",
+      "url": "https://www.casaargentera.com/es/experiencias/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:03:28.480Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T20:31:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-experiencias.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-contacto",
+      "url": "https://www.casaargentera.com/es/contacto/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "form",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:03:29.355Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T20:31:09Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-contacto.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-inicio",
+      "url": "https://www.casaargentera.com/es/inicio/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "landing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:03:36.064Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:00:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-inicio.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "es-reservas",
+      "url": "https://www.casaargentera.com/es/reservas/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "booking",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:03:37.936Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T20:54:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/es-reservas.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-cultura",
+      "url": "https://www.casaargentera.com/ca/cultura/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:03:39.961Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:03:29Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-cultura.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "sourceRedirectsTo": "https://www.casaargentera.com/es/cultura/",
+      "duplicateOf": "es-cultura"
+    },
+    {
+      "slug": "ca-politica-de-privacidad-y-cookies",
+      "url": "https://www.casaargentera.com/ca/politica-de-privacidad-y-cookies/",
+      "title": "Política de privacidad y cookies - Casa Argentera",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:03:46.698Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T21:12:18Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-politica-de-privacidad-y-cookies.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-covid-19",
+      "url": "https://www.casaargentera.com/ca/covid-19/",
+      "title": "COVID-19 - Casa Argentera",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:04:17.075Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T21:12:18Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-covid-19.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "sourceRedirectsTo": "https://www.casaargentera.com/covid-19/"
+    },
+    {
+      "slug": "ca-platja-i-mes",
+      "url": "https://www.casaargentera.com/ca/platja-i-mes/",
+      "title": "PLATJA I MÉS - Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:03:50.345Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:03:29Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-platja-i-mes.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-qui-som",
+      "url": "https://www.casaargentera.com/ca/qui-som/",
+      "title": "QUI SOM - Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:04:25.091Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:08:32Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-qui-som.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-politica-de-privacitat-i-cookies",
+      "url": "https://www.casaargentera.com/ca/politica-de-privacitat-i-cookies/",
+      "title": "Política de privacitat i cookies - Casa Argentera",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:04:28.238Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T21:12:18Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-politica-de-privacitat-i-cookies.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-contacte",
+      "url": "https://www.casaargentera.com/ca/contacte/",
+      "title": "CONTACTE - Casa Argentera",
+      "type": "form",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:04:55.902Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T20:31:09Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-contacte.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-el-jardi",
+      "url": "https://www.casaargentera.com/ca/el-jardi/",
+      "title": "EL JARDÍ - Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:05:03.783Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:51:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-el-jardi.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-esdeveniments",
+      "url": "https://www.casaargentera.com/ca/esdeveniments/",
+      "title": "ESDEVENIMENTS - Casa Argentera",
+      "type": "events",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:05:07.342Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T21:09:55Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-esdeveniments.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-la-casa",
+      "url": "https://www.casaargentera.com/ca/la-casa/",
+      "title": "Casa rural en Priorat y Costa Daurada | Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:05:06.640Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:08:32Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-la-casa.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "sourceRedirectsTo": "https://www.casaargentera.com/es/la-casa/"
+    },
+    {
+      "slug": "ca-la-casa-sencera",
+      "url": "https://www.casaargentera.com/ca/la-casa-sencera/",
+      "title": "LA CASA SENCERA - Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:05:44.050Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:51:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-la-casa-sencera.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-latic",
+      "url": "https://www.casaargentera.com/ca/latic/",
+      "title": "L'ÀTIC - Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:05:47.204Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:57:17Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-latic.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-el-pis-senyorial",
+      "url": "https://www.casaargentera.com/ca/el-pis-senyorial/",
+      "title": "EL PIS SENYORIAL - Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:05:48.251Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:57:17Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-el-pis-senyorial.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-la-planta-baixa",
+      "url": "https://www.casaargentera.com/ca/la-planta-baixa/",
+      "title": "LA PLANTA BAIXA - Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:06:23.809Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:57:17Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-la-planta-baixa.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-lentorn",
+      "url": "https://www.casaargentera.com/ca/lentorn/",
+      "title": "L'ENTORN - Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:06:26.685Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:08:32Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-lentorn.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-experiencies",
+      "url": "https://www.casaargentera.com/ca/experiencies/",
+      "title": "EXPERIÈNCIES - Casa Argentera",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:06:27.465Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T20:31:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-experiencies.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-natura-esport",
+      "url": "https://www.casaargentera.com/ca/natura-esport/",
+      "title": "NATURA I ESPORT - Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:07:02.523Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:08:32Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-natura-esport.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-inici",
+      "url": "https://www.casaargentera.com/ca/inici/",
+      "title": "Home - Catalá - Casa Argentera",
+      "type": "landing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:07:06.043Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:00:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-inici.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-reserves",
+      "url": "https://www.casaargentera.com/ca/reserves/",
+      "title": "RESERVES - Casa Argentera",
+      "type": "booking",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:07:06.857Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T20:54:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-reserves.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "who-we-are",
+      "url": "https://www.casaargentera.com/who-we-are/",
+      "title": "WHO WE ARE - Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:07:40.843Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:08:32Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/who-we-are.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "nature-sport",
+      "url": "https://www.casaargentera.com/nature-sport/",
+      "title": "NATURE / SPORT - Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:07:44.333Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:08:32Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/nature-sport.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "the-place",
+      "url": "https://www.casaargentera.com/the-place/",
+      "title": "THE PLACE - Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:07:45.950Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:08:32Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/the-place.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "covid-19",
+      "url": "https://www.casaargentera.com/covid-19/",
+      "title": "COVID-19 - Casa Argentera",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:08:18.749Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T21:12:18Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/covid-19.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "duplicateOf": "ca-covid-19"
+    },
+    {
+      "slug": "privacy-policy-and-cookies",
+      "url": "https://www.casaargentera.com/privacy-policy-and-cookies/",
+      "title": "Privacy policy and cookies - Casa Argentera",
+      "type": "static",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:08:22.222Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-24T12:06:43Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/privacy-policy-and-cookies.json",
+      "prototypePath": "stardust/prototypes/privacy-policy-and-cookies-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "beach-and-more",
+      "url": "https://www.casaargentera.com/beach-and-more/",
+      "title": "BEACH AND MORE - Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:08:24.439Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:08:32Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/beach-and-more.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "events",
+      "url": "https://www.casaargentera.com/events/",
+      "title": "EVENTS - Casa Argentera",
+      "type": "events",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:08:57.499Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-24T11:52:46Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/events.json",
+      "prototypePath": "stardust/prototypes/events-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "contact",
+      "url": "https://www.casaargentera.com/contact/",
+      "title": "CONTACT - Casa Argentera",
+      "type": "form",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:09:01.073Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-24T11:33:31Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/contact.json",
+      "prototypePath": "stardust/prototypes/contact-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "culture",
+      "url": "https://www.casaargentera.com/culture/",
+      "title": "CULTURE - Casa Argentera",
+      "type": "article",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:09:03.494Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-24T11:18:13Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/culture.json",
+      "prototypePath": "stardust/prototypes/culture-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "the-whole-house",
+      "url": "https://www.casaargentera.com/the-whole-house/",
+      "title": "THE WHOLE HOUSE - Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:09:36.676Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:57:17Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/the-whole-house.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "the-house",
+      "url": "https://www.casaargentera.com/the-house/",
+      "title": "THE HOUSE - Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:09:40.331Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:11:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/the-house.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "the-garden",
+      "url": "https://www.casaargentera.com/the-garden/",
+      "title": "THE GARDEN - Casa Argentera",
+      "type": "program",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:09:42.714Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-24T11:16:59Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/the-garden.json",
+      "prototypePath": "stardust/prototypes/the-garden-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "the-penthouse",
+      "url": "https://www.casaargentera.com/the-penthouse/",
+      "title": "THE PENTHOUSE - Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:10:15.997Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:57:17Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/the-penthouse.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "the-noble-floor",
+      "url": "https://www.casaargentera.com/the-noble-floor/",
+      "title": "THE NOBLE FLOOR - Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:10:19.918Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:57:17Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/the-noble-floor.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "the-ground-floor",
+      "url": "https://www.casaargentera.com/the-ground-floor/",
+      "title": "THE GROUND FLOOR - Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:10:22.270Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:57:17Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/the-ground-floor.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "experiences",
+      "url": "https://www.casaargentera.com/experiences/",
+      "title": "EXPERIENCES - Casa Argentera",
+      "type": "listing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:10:56.213Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-24T11:36:07Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/experiences.json",
+      "prototypePath": "stardust/prototypes/experiences-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "reservations-2",
+      "url": "https://www.casaargentera.com/reservations-2/",
+      "title": "RESERVATIONS - Casa Argentera",
+      "type": "booking",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:10:59.196Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-24T11:53:41Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/reservations-2.json",
+      "prototypePath": "stardust/prototypes/reservations-2-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "da-covid-19",
+      "url": "https://www.casaargentera.com/da/covid-19/",
+      "title": "COVID-19 - Casa Argentera",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:11:01.460Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T21:12:18Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-covid-19.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "sourceRedirectsTo": "https://www.casaargentera.com/covid-19/",
+      "duplicateOf": "ca-covid-19"
+    },
+    {
+      "slug": "da-natur-sport",
+      "url": "https://www.casaargentera.com/da/natur-sport/",
+      "title": "NATUR / SPORT - Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:11:34.458Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:11:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-natur-sport.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "da-who-we-are",
+      "url": "https://www.casaargentera.com/da/who-we-are/",
+      "title": "WHO WE ARE - Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:11:38.628Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:11:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-who-we-are.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "sourceRedirectsTo": "https://www.casaargentera.com/who-we-are/",
+      "duplicateOf": "who-we-are"
+    },
+    {
+      "slug": "da-stedet",
+      "url": "https://www.casaargentera.com/da/stedet/",
+      "title": "STEDET - Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:11:40.248Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:11:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-stedet.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "da-strand-m-m",
+      "url": "https://www.casaargentera.com/da/strand-m-m/",
+      "title": "STRAND M.M. - Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:12:12.825Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:11:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-strand-m-m.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "da-oplevelser",
+      "url": "https://www.casaargentera.com/da/oplevelser/",
+      "title": "OPLEVELSER - Casa Argentera",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:12:17.165Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T20:31:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-oplevelser.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "da-privacy-policy-and-cookies",
+      "url": "https://www.casaargentera.com/da/privacy-policy-and-cookies/",
+      "title": "Privacy policy and cookies - Casa Argentera",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:12:19.567Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T21:12:18Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-privacy-policy-and-cookies.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "sourceRedirectsTo": "https://www.casaargentera.com/privacy-policy-and-cookies/",
+      "duplicateOf": "privacy-policy-and-cookies"
+    },
+    {
+      "slug": "da-stueetagen",
+      "url": "https://www.casaargentera.com/da/stueetagen/",
+      "title": "STUEETAGEN - Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:12:52.034Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:59:59Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-stueetagen.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "da-penthousekvisten",
+      "url": "https://www.casaargentera.com/da/penthousekvisten/",
+      "title": "PENTHOUSEKVISTEN - Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:12:56.349Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:59:59Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-penthousekvisten.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "da-eventsda",
+      "url": "https://www.casaargentera.com/da/eventsda/",
+      "title": "EVENTS - Casa Argentera",
+      "type": "events",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:12:58.859Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T21:09:55Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-eventsda.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "da-the-garden",
+      "url": "https://www.casaargentera.com/da/the-garden/",
+      "title": "THE GARDEN - Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:13:33.598Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:59:59Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-the-garden.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "sourceRedirectsTo": "https://www.casaargentera.com/the-garden/",
+      "duplicateOf": "the-garden"
+    },
+    {
+      "slug": "da-hele-huset",
+      "url": "https://www.casaargentera.com/da/hele-huset/",
+      "title": "HELE HUSET - Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:13:35.840Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:59:59Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-hele-huset.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "da-the-noble-floor",
+      "url": "https://www.casaargentera.com/da/the-noble-floor/",
+      "title": "THE NOBLE FLOOR - Casa Argentera",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:13:39.613Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T13:59:59Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-the-noble-floor.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "sourceRedirectsTo": "https://www.casaargentera.com/the-noble-floor/",
+      "duplicateOf": "the-noble-floor"
+    },
+    {
+      "slug": "da-kontakt",
+      "url": "https://www.casaargentera.com/da/kontakt/",
+      "title": "KONTAKT - Casa Argentera",
+      "type": "form",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:14:12.536Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T20:31:09Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-kontakt.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "da-kulturen",
+      "url": "https://www.casaargentera.com/da/kulturen/",
+      "title": "KULTUREN - Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:14:14.556Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:11:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-kulturen.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "da-the-house",
+      "url": "https://www.casaargentera.com/da/the-house/",
+      "title": "THE HOUSE - Casa Argentera",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:14:19.406Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T17:11:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-the-house.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "sourceRedirectsTo": "https://www.casaargentera.com/the-house/",
+      "duplicateOf": "the-house"
+    },
+    {
+      "slug": "da-reservations",
+      "url": "https://www.casaargentera.com/da/reservations/",
+      "title": "RESERVATIONER - Casa Argentera",
+      "type": "booking",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-24T09:14:52.878Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-24T20:54:26Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/da-reservations.json",
+      "prototypePath": null,
+      "migratedPath": null
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-24T21:12:18Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/el-entorno/",
+        "outputPath": "es/el-entorno/index.html",
+        "slug": "es-el-entorno",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/naturaleza-deporte/",
+        "outputPath": "es/naturaleza-deporte/index.html",
+        "slug": "es-naturaleza-deporte",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/playas-y-mas/",
+        "outputPath": "es/playas-y-mas/index.html",
+        "slug": "es-playas-y-mas",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/quienes-somos/",
+        "outputPath": "es/quienes-somos/index.html",
+        "slug": "es-quienes-somos",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/el-atico/",
+        "outputPath": "es/el-atico/index.html",
+        "slug": "es-el-atico",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/el-jardin/",
+        "outputPath": "es/el-jardin/index.html",
+        "slug": "es-el-jardin",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/el-piso-senorial/",
+        "outputPath": "es/el-piso-senorial/index.html",
+        "slug": "es-el-piso-senorial",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/eventos/",
+        "outputPath": "es/eventos/index.html",
+        "slug": "es-eventos",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/cultura/",
+        "outputPath": "es/cultura/index.html",
+        "slug": "es-cultura",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/la-casa-entera/",
+        "outputPath": "es/la-casa-entera/index.html",
+        "slug": "es-la-casa-entera",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/la-casa/",
+        "outputPath": "es/la-casa/index.html",
+        "slug": "es-la-casa",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/la-planta-baja/",
+        "outputPath": "es/la-planta-baja/index.html",
+        "slug": "es-la-planta-baja",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/experiencias/",
+        "outputPath": "es/experiencias/index.html",
+        "slug": "es-experiencias",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/contacto/",
+        "outputPath": "es/contacto/index.html",
+        "slug": "es-contacto",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/inicio/",
+        "outputPath": "es/inicio/index.html",
+        "slug": "es-inicio",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/reservas/",
+        "outputPath": "es/reservas/index.html",
+        "slug": "es-reservas",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/cultura/",
+        "outputPath": "ca/cultura/index.html",
+        "slug": "ca-cultura",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/politica-de-privacidad-y-cookies/",
+        "outputPath": "ca/politica-de-privacidad-y-cookies/index.html",
+        "slug": "ca-politica-de-privacidad-y-cookies",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/covid-19/",
+        "outputPath": "ca/covid-19/index.html",
+        "slug": "ca-covid-19",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/platja-i-mes/",
+        "outputPath": "ca/platja-i-mes/index.html",
+        "slug": "ca-platja-i-mes",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/qui-som/",
+        "outputPath": "ca/qui-som/index.html",
+        "slug": "ca-qui-som",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/politica-de-privacitat-i-cookies/",
+        "outputPath": "ca/politica-de-privacitat-i-cookies/index.html",
+        "slug": "ca-politica-de-privacitat-i-cookies",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/contacte/",
+        "outputPath": "ca/contacte/index.html",
+        "slug": "ca-contacte",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/el-jardi/",
+        "outputPath": "ca/el-jardi/index.html",
+        "slug": "ca-el-jardi",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/esdeveniments/",
+        "outputPath": "ca/esdeveniments/index.html",
+        "slug": "ca-esdeveniments",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/la-casa/",
+        "outputPath": "ca/la-casa/index.html",
+        "slug": "ca-la-casa",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/la-casa-sencera/",
+        "outputPath": "ca/la-casa-sencera/index.html",
+        "slug": "ca-la-casa-sencera",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/latic/",
+        "outputPath": "ca/latic/index.html",
+        "slug": "ca-latic",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/el-pis-senyorial/",
+        "outputPath": "ca/el-pis-senyorial/index.html",
+        "slug": "ca-el-pis-senyorial",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/la-planta-baixa/",
+        "outputPath": "ca/la-planta-baixa/index.html",
+        "slug": "ca-la-planta-baixa",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/lentorn/",
+        "outputPath": "ca/lentorn/index.html",
+        "slug": "ca-lentorn",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/experiencies/",
+        "outputPath": "ca/experiencies/index.html",
+        "slug": "ca-experiencies",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/natura-esport/",
+        "outputPath": "ca/natura-esport/index.html",
+        "slug": "ca-natura-esport",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/inici/",
+        "outputPath": "ca/inici/index.html",
+        "slug": "ca-inici",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/reserves/",
+        "outputPath": "ca/reserves/index.html",
+        "slug": "ca-reserves",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/who-we-are/",
+        "outputPath": "who-we-are/index.html",
+        "slug": "who-we-are",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/nature-sport/",
+        "outputPath": "nature-sport/index.html",
+        "slug": "nature-sport",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/the-place/",
+        "outputPath": "the-place/index.html",
+        "slug": "the-place",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/covid-19/",
+        "outputPath": "covid-19/index.html",
+        "slug": "covid-19",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/privacy-policy-and-cookies/",
+        "outputPath": "privacy-policy-and-cookies/index.html",
+        "slug": "privacy-policy-and-cookies",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/beach-and-more/",
+        "outputPath": "beach-and-more/index.html",
+        "slug": "beach-and-more",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/events/",
+        "outputPath": "events/index.html",
+        "slug": "events",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/contact/",
+        "outputPath": "contact/index.html",
+        "slug": "contact",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/culture/",
+        "outputPath": "culture/index.html",
+        "slug": "culture",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/the-whole-house/",
+        "outputPath": "the-whole-house/index.html",
+        "slug": "the-whole-house",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/the-house/",
+        "outputPath": "the-house/index.html",
+        "slug": "the-house",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/the-garden/",
+        "outputPath": "the-garden/index.html",
+        "slug": "the-garden",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/the-penthouse/",
+        "outputPath": "the-penthouse/index.html",
+        "slug": "the-penthouse",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/the-noble-floor/",
+        "outputPath": "the-noble-floor/index.html",
+        "slug": "the-noble-floor",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/the-ground-floor/",
+        "outputPath": "the-ground-floor/index.html",
+        "slug": "the-ground-floor",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/experiences/",
+        "outputPath": "experiences/index.html",
+        "slug": "experiences",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/reservations-2/",
+        "outputPath": "reservations-2/index.html",
+        "slug": "reservations-2",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/covid-19/",
+        "outputPath": "da/covid-19/index.html",
+        "slug": "da-covid-19",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/natur-sport/",
+        "outputPath": "da/natur-sport/index.html",
+        "slug": "da-natur-sport",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/who-we-are/",
+        "outputPath": "da/who-we-are/index.html",
+        "slug": "da-who-we-are",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/stedet/",
+        "outputPath": "da/stedet/index.html",
+        "slug": "da-stedet",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/strand-m-m/",
+        "outputPath": "da/strand-m-m/index.html",
+        "slug": "da-strand-m-m",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/oplevelser/",
+        "outputPath": "da/oplevelser/index.html",
+        "slug": "da-oplevelser",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/privacy-policy-and-cookies/",
+        "outputPath": "da/privacy-policy-and-cookies/index.html",
+        "slug": "da-privacy-policy-and-cookies",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/stueetagen/",
+        "outputPath": "da/stueetagen/index.html",
+        "slug": "da-stueetagen",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/penthousekvisten/",
+        "outputPath": "da/penthousekvisten/index.html",
+        "slug": "da-penthousekvisten",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/eventsda/",
+        "outputPath": "da/eventsda/index.html",
+        "slug": "da-eventsda",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/the-garden/",
+        "outputPath": "da/the-garden/index.html",
+        "slug": "da-the-garden",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/hele-huset/",
+        "outputPath": "da/hele-huset/index.html",
+        "slug": "da-hele-huset",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/the-noble-floor/",
+        "outputPath": "da/the-noble-floor/index.html",
+        "slug": "da-the-noble-floor",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/kontakt/",
+        "outputPath": "da/kontakt/index.html",
+        "slug": "da-kontakt",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/kulturen/",
+        "outputPath": "da/kulturen/index.html",
+        "slug": "da-kulturen",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/the-house/",
+        "outputPath": "da/the-house/index.html",
+        "slug": "da-the-house",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/da/reservations/",
+        "outputPath": "da/reservations/index.html",
+        "slug": "da-reservations",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 104,
+    "bundledAssets": [
+      "20180826_150525-1536x864.jpg",
+      "20180826_150525-768x432.jpg",
+      "20190710_193711-P3D-e1587804194703-1024x576.jpg",
+      "20190710_193711-P3D-e1587804194703-1536x863.jpg",
+      "20190710_193711-P3D-e1587804194703-300x169.jpg",
+      "20190710_193711-P3D-e1587804194703-768x432.jpg",
+      "20190710_213145-002.jpg.png",
+      "Acaballo-CasaArgentera-1536x864.jpg",
+      "Acaballo-CasaArgentera-768x432.jpg",
+      "Argentera_100_8977.jpg",
+      "BTT-CasaArgentera-1536x864.jpg",
+      "BTT-CasaArgentera-768x432.jpg",
+      "Cala-Xelin-Casa-Argentera.jpg",
+      "Calçots-Argentera.jpg",
+      "Casa-Argentera-2floor-diningroom-1536x864.jpg",
+      "Casa-Argentera-2floor-diningroom-768x432.jpg",
+      "Casa-Argentera-2floor-diningroom.jpg",
+      "CasaArgentera-avellanas.jpg",
+      "CasaArgentera-comedorgeneral-0-1-1536x864.jpg",
+      "CasaArgentera-comedorgeneral-0-1-768x432.jpg",
+      "CasaArgentera-sala-1-1536x864.jpg",
+      "CasaArgentera-sala-1-768x432.jpg",
+      "Cata-Sangenis-1024x576.jpg",
+      "Celler-Modernista-1024x576.jpg",
+      "Celler-Modernista-1536x864.jpg",
+      "Celler-Modernista-300x169.jpg",
+      "Celler-Modernista-768x432.jpg",
+      "Celler-Modernista.jpg",
+      "Chill-out-Argentera.jpg",
+      "Chocolatecourse-Argentera.jpg",
+      "Collage-CasaArgentera.jpg",
+      "EscalaDei-CasaArgentera.jpg",
+      "Escornalbou-CasaArgentera-1024x576.jpg",
+      "Escornalbou-CasaArgentera-1536x864.jpg",
+      "Escornalbou-CasaArgentera-768x432.jpg",
+      "Logo-75-px.jpg",
+      "Olivera-CasaArgentera.jpg",
+      "P1010716enhanced1P3D-e1587836859220-1536x863.jpg",
+      "P1010716enhanced1P3D-e1587836859220-768x432.jpg",
+      "P1010716enhanced1P3D-e1587836859220.jpg",
+      "P1010765EnhancedP3D-e1587830457410-1536x863.jpg",
+      "P1010765EnhancedP3D-e1587830457410-768x432.jpg",
+      "P1040374enhancedP3D-e1587754947853-1024x576.jpg",
+      "P1040374enhancedP3D-e1587754947853-1536x863.jpg",
+      "P1040374enhancedP3D-e1587754947853-300x169.jpg",
+      "P1040374enhancedP3D-e1587754947853-768x432.jpg",
+      "PICT0023P3D.JPG-1024x578.png",
+      "PICT0023P3D.JPG-1536x867.png",
+      "PICT0023P3D.JPG-300x169.png",
+      "PICT0023P3D.JPG-768x433.png",
+      "PICT0023P3D.JPG.png",
+      "Paella-CasaArgentera.jpg",
+      "PinturaRápida-lArgentera-1024x576.jpg",
+      "PinturaRápida-lArgentera.jpg",
+      "Piscina-CasaArgentera-1-1024x576.jpg",
+      "Piscina-CasaArgentera-1-1536x864.jpg",
+      "Piscina-CasaArgentera-1-300x169.jpg",
+      "Piscina-CasaArgentera-1-768x432.jpg",
+      "Piscina-CasaArgentera-1.jpg",
+      "Pool-e1587755068834-1024x589.jpg",
+      "Pool-e1587755068834-1536x883.jpg",
+      "Pool-e1587755068834-300x172.jpg",
+      "Pool-e1587755068834-768x442.jpg",
+      "Port-Mediterrani-Casa-Argentera.jpg",
+      "Priorat-CasaArgentera.jpg",
+      "SantesCreus-activity-Argentera-768x432.jpg",
+      "SantesCreus-activity-Argentera.jpg",
+      "SierraArgentera-CasaArgentera-1536x864.jpg",
+      "SierraArgentera-CasaArgentera-768x432.jpg",
+      "Siurana-CasaArgentera.jpg",
+      "Spa-TermesMontbrio-768x432.jpg",
+      "Spa-TermesMontbrio.jpg",
+      "Tapas-workshop-Casa-Argentera-1024x576.jpg",
+      "Tapas-workshop-Casa-Argentera.jpg",
+      "Tasting-Argentera.jpg",
+      "Workshop-CasaArgentera.jpg",
+      "Workshop-MarionaQuadrada-1024x576.jpg",
+      "canon.css",
+      "canon.js",
+      "casaargentera_logo_2010.png",
+      "contact.css",
+      "culture.css",
+      "events.css",
+      "events/Priorat-CasaArgentera.jpg",
+      "experiences.css",
+      "favicon.png",
+      "fonts/fa-solid-900.woff2",
+      "fonts/icomoon-the7-font.ttf",
+      "fonts/montserrat-200.ttf",
+      "fonts/montserrat-300.ttf",
+      "fonts/montserrat-400.ttf",
+      "fonts/montserrat-500.ttf",
+      "fonts/montserrat-700.ttf",
+      "fonts/montserrat-800.ttf",
+      "index.css",
+      "parksamaP3D.JPG-1024x576.png",
+      "parksamaP3D.JPG.png",
+      "port-aventura-768x432.jpg",
+      "port-aventura.jpg",
+      "privacy-policy-and-cookies.css",
+      "reservations-2.css",
+      "reservations-2.js",
+      "the-garden.css",
+      "the7-chevron-side.svg"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 45
+      },
+      {
+        "slug": "the-garden",
+        "file": "stardust/migrated/the-garden/index.html",
+        "assetsBundled": 29
+      },
+      {
+        "slug": "culture",
+        "file": "stardust/migrated/culture/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "experiences",
+        "file": "stardust/migrated/experiences/index.html",
+        "assetsBundled": 17
+      },
+      {
+        "slug": "contact",
+        "file": "stardust/migrated/contact/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "reservations-2",
+        "file": "stardust/migrated/reservations-2/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "events",
+        "file": "stardust/migrated/events/index.html",
+        "assetsBundled": 18
+      },
+      {
+        "slug": "privacy-policy-and-cookies",
+        "file": "stardust/migrated/privacy-policy-and-cookies/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "es-inicio",
+        "file": "stardust/migrated/es/inicio/index.html",
+        "assetsBundled": 43
+      },
+      {
+        "slug": "ca-inici",
+        "file": "stardust/migrated/ca/inici/index.html",
+        "assetsBundled": 35
+      },
+      {
+        "slug": "es-el-jardin",
+        "file": "stardust/migrated/es/el-jardin/index.html",
+        "assetsBundled": 29
+      },
+      {
+        "slug": "es-el-piso-senorial",
+        "file": "stardust/migrated/es/el-piso-senorial/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "es-la-casa-entera",
+        "file": "stardust/migrated/es/la-casa-entera/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "es-el-atico",
+        "file": "stardust/migrated/es/el-atico/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "es-la-planta-baja",
+        "file": "stardust/migrated/es/la-planta-baja/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "ca-el-jardi",
+        "file": "stardust/migrated/ca/el-jardi/index.html",
+        "assetsBundled": 29
+      },
+      {
+        "slug": "ca-la-casa-sencera",
+        "file": "stardust/migrated/ca/la-casa-sencera/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "ca-latic",
+        "file": "stardust/migrated/ca/latic/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "ca-el-pis-senyorial",
+        "file": "stardust/migrated/ca/el-pis-senyorial/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "ca-la-planta-baixa",
+        "file": "stardust/migrated/ca/la-planta-baixa/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "the-whole-house",
+        "file": "stardust/migrated/the-whole-house/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "the-penthouse",
+        "file": "stardust/migrated/the-penthouse/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "the-noble-floor",
+        "file": "stardust/migrated/the-noble-floor/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "the-ground-floor",
+        "file": "stardust/migrated/the-ground-floor/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "da-stueetagen",
+        "file": "stardust/migrated/da/stueetagen/index.html",
+        "assetsBundled": 15
+      },
+      {
+        "slug": "da-penthousekvisten",
+        "file": "stardust/migrated/da/penthousekvisten/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "da-the-garden",
+        "file": "stardust/migrated/da/the-garden/index.html",
+        "assetsBundled": 29
+      },
+      {
+        "slug": "da-hele-huset",
+        "file": "stardust/migrated/da/hele-huset/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "da-the-noble-floor",
+        "file": "stardust/migrated/da/the-noble-floor/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "es-el-entorno",
+        "file": "stardust/migrated/es/el-entorno/index.html",
+        "assetsBundled": 18
+      },
+      {
+        "slug": "es-naturaleza-deporte",
+        "file": "stardust/migrated/es/naturaleza-deporte/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "es-playas-y-mas",
+        "file": "stardust/migrated/es/playas-y-mas/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "es-quienes-somos",
+        "file": "stardust/migrated/es/quienes-somos/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "es-cultura",
+        "file": "stardust/migrated/es/cultura/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "es-la-casa",
+        "file": "stardust/migrated/es/la-casa/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "ca-cultura",
+        "file": "stardust/migrated/ca/cultura/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "ca-platja-i-mes",
+        "file": "stardust/migrated/ca/platja-i-mes/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "ca-qui-som",
+        "file": "stardust/migrated/ca/qui-som/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "ca-la-casa",
+        "file": "stardust/migrated/ca/la-casa/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "ca-lentorn",
+        "file": "stardust/migrated/ca/lentorn/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "ca-natura-esport",
+        "file": "stardust/migrated/ca/natura-esport/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "who-we-are",
+        "file": "stardust/migrated/who-we-are/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "nature-sport",
+        "file": "stardust/migrated/nature-sport/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "the-place",
+        "file": "stardust/migrated/the-place/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "beach-and-more",
+        "file": "stardust/migrated/beach-and-more/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "the-house",
+        "file": "stardust/migrated/the-house/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "da-natur-sport",
+        "file": "stardust/migrated/da/natur-sport/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "da-who-we-are",
+        "file": "stardust/migrated/da/who-we-are/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "da-stedet",
+        "file": "stardust/migrated/da/stedet/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "da-strand-m-m",
+        "file": "stardust/migrated/da/strand-m-m/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "da-kulturen",
+        "file": "stardust/migrated/da/kulturen/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "da-the-house",
+        "file": "stardust/migrated/da/the-house/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "es-contacto",
+        "file": "stardust/migrated/es/contacto/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "ca-contacte",
+        "file": "stardust/migrated/ca/contacte/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "da-kontakt",
+        "file": "stardust/migrated/da/kontakt/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "es-experiencias",
+        "file": "stardust/migrated/es/experiencias/index.html",
+        "assetsBundled": 25
+      },
+      {
+        "slug": "ca-experiencies",
+        "file": "stardust/migrated/ca/experiencies/index.html",
+        "assetsBundled": 17
+      },
+      {
+        "slug": "da-oplevelser",
+        "file": "stardust/migrated/da/oplevelser/index.html",
+        "assetsBundled": 18
+      },
+      {
+        "slug": "es-reservas",
+        "file": "stardust/migrated/es/reservas/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "ca-reserves",
+        "file": "stardust/migrated/ca/reserves/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "da-reservations",
+        "file": "stardust/migrated/da/reservations/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "es-eventos",
+        "file": "stardust/migrated/es/eventos/index.html",
+        "assetsBundled": 26
+      },
+      {
+        "slug": "ca-esdeveniments",
+        "file": "stardust/migrated/ca/esdeveniments/index.html",
+        "assetsBundled": 18
+      },
+      {
+        "slug": "da-eventsda",
+        "file": "stardust/migrated/da/eventsda/index.html",
+        "assetsBundled": 18
+      },
+      {
+        "slug": "ca-politica-de-privacidad-y-cookies",
+        "file": "stardust/migrated/ca/politica-de-privacidad-y-cookies/index.html",
+        "assetsBundled": 14
+      },
+      {
+        "slug": "ca-politica-de-privacitat-i-cookies",
+        "file": "stardust/migrated/ca/politica-de-privacitat-i-cookies/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "da-privacy-policy-and-cookies",
+        "file": "stardust/migrated/da/privacy-policy-and-cookies/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "covid-19",
+        "file": "stardust/migrated/covid-19/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "ca-covid-19",
+        "file": "stardust/migrated/ca/covid-19/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "da-covid-19",
+        "file": "stardust/migrated/da/covid-19/index.html",
+        "assetsBundled": 6
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-24T21:12:18Z",
+      "rendered": [
+        "ca-politica-de-privacidad-y-cookies",
+        "ca-politica-de-privacitat-i-cookies",
+        "da-privacy-policy-and-cookies",
+        "covid-19",
+        "ca-covid-19",
+        "da-covid-19"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

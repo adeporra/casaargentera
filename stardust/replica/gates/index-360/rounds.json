@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-24T10:29:12.757Z",
+          "verdict": "fail",
+          "kind": "first",
+          "overflow": true
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-24T10:31:41.135Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-24T10:32:58.990Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter4",
+          "at": "2026-11-24T10:41:10.191Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter5",
+          "at": "2026-11-24T10:51:30.887Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "extend",
+          "reason": "iter3 failed only on the header-contract probe (stardust/replica/gates/index-360/header-contract-iter3.txt: NOT RECORDED — chrome-explore had not been run); pixel 0.94% aligned, Δh 0, content-diff 0/0, clip 0, overflow ok in the same round. Contract now recorded and chrome-compare passes; one confirmation round needed.",
+          "at": "2026-11-24T10:39:29.602Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-24T12-51-39-917Z",
+          "at": "2026-11-24T12:53:04.935Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-24T13-21-59-761Z",
+          "at": "2026-11-24T13:23:26.941Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-24T13-42-58-483Z",
+          "at": "2026-11-24T13:44:24.601Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-24T16-05-55-198Z",
+          "at": "2026-11-24T16:06:53.111Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-24T19-53-55-605Z",
+          "at": "2026-11-24T19:56:09.698Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-24T20-22-32-995Z",
+          "at": "2026-11-24T20:25:44.329Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-24T20-49-05-878Z",
+          "at": "2026-11-24T20:50:30.364Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-24T23-55-17-457Z",
+          "at": "2026-11-24T23:57:51.524Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

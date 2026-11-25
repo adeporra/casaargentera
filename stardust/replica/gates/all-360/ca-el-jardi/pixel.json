@@ -1,0 +1,184 @@
+{
+  "a": "stardust/replica/gates/all-360/ca-el-jardi/origin.png",
+  "b": "stardust/replica/gates/all-360/ca-el-jardi/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 4603,
+    "mode": "overlap"
+  },
+  "heightDelta": 27,
+  "differingPixels": 76983,
+  "pct": 4.65,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/ca-el-jardi/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 6.47,
+  "textBoxes": 78,
+  "textPixels": 326811,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 4.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 4.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 1.8
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 10
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 11.4
+    },
+    {
+      "y0": 4500,
+      "y1": 4603,
+      "pct": 6.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.31,
+    "differingPixels": 21847,
+    "compared": {
+      "width": 360,
+      "height": 4630,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1280,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 2131,
+        "shift": -10,
+        "cumulative": -11
+      },
+      {
+        "y": 2292,
+        "shift": -3,
+        "cumulative": -14
+      },
+      {
+        "y": 2415,
+        "shift": -10,
+        "cumulative": -24
+      },
+      {
+        "y": 2603,
+        "shift": -3,
+        "cumulative": -27
+      }
+    ],
+    "maxOffset": 27,
+    "totalShift": 27,
+    "insertedRows": 0,
+    "deletedRows": 27,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1,
+        "unaligned": 1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.9,
+        "unaligned": 3.6
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.5,
+        "unaligned": 4
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 5,
+        "unaligned": 4.4
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1.7,
+        "unaligned": 4.4
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 1.8
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 1.1,
+        "unaligned": 10
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.2,
+        "unaligned": 11.4
+      },
+      {
+        "y0": 4500,
+        "y1": 4630,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/ca-el-jardi/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 46,
+    "totalShift": 27,
+    "pass": true
+  },
+  "reason": null
+}

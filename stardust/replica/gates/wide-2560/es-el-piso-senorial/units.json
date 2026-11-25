@@ -1,0 +1,1029 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-24T23:21:48.033Z",
+  "tol": 4,
+  "n": 5,
+  "width": 2560,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.casaargentera.com/es/el-piso-senorial/",
+  "at": "2026-11-24T23:21:29.611Z",
+  "docH": 4441
+ },
+ "eds": {
+  "url": "https://main--ea32f12a--aemcoder.aem.page/es/el-piso-senorial",
+  "at": "2026-11-24T23:21:47.963Z",
+  "docH": 4398
+ },
+ "results": [
+  {
+   "sel": ".icon-with-text-shortcode=.icon-features .icon-features-item",
+   "family": null,
+   "required": true,
+   "originMatches": 8,
+   "edsMatches": 8,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-cf3410508be213bef804977453710b11"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.block > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:2 habitaciones dobles + 1 individual",
+       "role": "heading",
+       "text": "2 habitaciones dobles + 1 individual",
+       "edsText": "2 habitaciones dobles + 1 individual",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27,
+        "sel": "h5#habitaciones-dobles--1-individual",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/27/400",
+        "eds": "17/27/400"
+       }
+      },
+      {
+       "key": "text:1 habitación con cama de matrimonio 1 ha",
+       "role": "text",
+       "text": "1 habitación con cama de matrimonio 1 habitación con dos cam",
+       "edsText": "1 habitación con cama de matrimonio 1 habitación con dos cam",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 27,
+        "w": 1070,
+        "h": 75
+       },
+       "eds": {
+        "x": 60,
+        "y": 27,
+        "w": 1070,
+        "h": 75,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 715,
+       "y": 2306,
+       "w": 1130,
+       "h": 105
+      },
+      "eds": {
+       "x": 715,
+       "y": 2306,
+       "w": 1130,
+       "h": 102
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -3
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-8ee27d9ebb39c1c8ea7835e3b0277db3"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.block > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:2 baños",
+       "role": "heading",
+       "text": "2 baños",
+       "edsText": "2 baños",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27,
+        "sel": "h5#baños",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/27/400",
+        "eds": "17/27/400"
+       }
+      },
+      {
+       "key": "text:1 baño con ducha efecto lluvia y jets 1 ",
+       "role": "text",
+       "text": "1 baño con ducha efecto lluvia y jets 1 baño ensuite con duc",
+       "edsText": "1 baño con ducha efecto lluvia y jets 1 baño ensuite con duc",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 1070,
+        "h": 50
+       },
+       "eds": {
+        "x": 60,
+        "y": 27,
+        "w": 1070,
+        "h": 50,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 715,
+       "y": 2431,
+       "w": 1130,
+       "h": 84
+      },
+      "eds": {
+       "x": 715,
+       "y": 2428,
+       "w": 1130,
+       "h": 77
+      },
+      "dx": 0,
+      "dy": -3,
+      "dw": 0,
+      "dh": -7
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-83fbbad0f72385a13530a51e8498317d"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.block > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:secador de pelo",
+       "role": "heading",
+       "text": "secador de pelo",
+       "edsText": "secador de pelo",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27,
+        "sel": "h5#secador-de-pelo",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/27/400",
+        "eds": "17/27/400"
+       }
+      },
+      {
+       "key": "text:no traigas el tuyo",
+       "role": "text",
+       "text": "no traigas el tuyo",
+       "edsText": "no traigas el tuyo",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 1070,
+        "h": 25
+       },
+       "eds": {
+        "x": 60,
+        "y": 27,
+        "w": 1070,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 715,
+       "y": 2535,
+       "w": 1130,
+       "h": 60
+      },
+      "eds": {
+       "x": 715,
+       "y": 2525,
+       "w": 1130,
+       "h": 60
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-faf30f4ae9e746142992883ce2d03dff"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.block > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:chimenea",
+       "role": "heading",
+       "text": "chimenea",
+       "edsText": "chimenea",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27,
+        "sel": "h5#chimenea",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/27/400",
+        "eds": "17/27/400"
+       }
+      },
+      {
+       "key": "text:confortable 100%",
+       "role": "text",
+       "text": "confortable 100%",
+       "edsText": "confortable 100%",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 30,
+        "w": 1070,
+        "h": 25
+       },
+       "eds": {
+        "x": 60,
+        "y": 27,
+        "w": 1070,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -3,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 715,
+       "y": 2615,
+       "w": 1130,
+       "h": 60
+      },
+      "eds": {
+       "x": 715,
+       "y": 2605,
+       "w": 1130,
+       "h": 60
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.icon-with-text-shortcode.icon-text-id-122615a766c8bffe2e2deccd2428b1d4"
+     },
+     "eds": {
+      "path": "div.icon-features-wrapper > div.icon-features.block > div.icon-features-item"
+     },
+     "rows": [
+      {
+       "key": "heading:terraza privada",
+       "role": "heading",
+       "text": "terraza privada",
+       "edsText": "terraza privada",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27
+       },
+       "eds": {
+        "x": 60,
+        "y": 0,
+        "w": 1070,
+        "h": 27,
+        "sel": "h5#terraza-privada",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/27/400",
+        "eds": "17/27/400"
+       }
+      },
+      {
+       "key": "text:terraza privada orientada al sur con vis",
+       "role": "text",
+       "text": "terraza privada orientada al sur con vistas mesa y sombrilla",
+       "edsText": "terraza privada orientada al sur con vistas mesa y sombrilla",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 27,
+        "w": 1070,
+        "h": 75
+       },
+       "eds": {
+        "x": 60,
+        "y": 27,
+        "w": 1070,
+        "h": 75,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/25/400",
+        "eds": "14/25/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 715,
+       "y": 2695,
+       "w": 1130,
+       "h": 105
+      },
+      "eds": {
+       "x": 715,
+       "y": 2685,
+       "w": 1130,
+       "h": 102
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": -3
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#content .wpb_single_image=.image-grid.plain .image-grid-image",
+   "family": null,
+   "required": true,
+   "originMatches": 7,
+   "edsMatches": 7,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-2 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:individual room in casa argentera, forme",
+       "role": "image",
+       "text": "individual room in casa argentera, former maids room",
+       "edsText": "individual room in casa argentera, former maids room",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 1310,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 715,
+       "y": 1310,
+       "w": 535,
+       "h": 301
+      },
+      "eds": {
+       "x": 715,
+       "y": 1310,
+       "w": 535,
+       "h": 301
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-2 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:double room with pool view 1st floor",
+       "role": "image",
+       "text": "double room with pool view 1st floor",
+       "edsText": "double room with pool view 1st floor",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 535,
+        "h": 301
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 535,
+        "h": 301,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 535,
+       "h": 301,
+       "absY": 1310,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1310,
+       "y": 1310,
+       "w": 535,
+       "h": 301
+      },
+      "eds": {
+       "x": 1310,
+       "y": 1310,
+       "w": 535,
+       "h": 301
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-3 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:living room in noble floor",
+       "role": "image",
+       "text": "living room in noble floor",
+       "edsText": "living room in noble floor",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 337,
+        "h": 189
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 337,
+        "h": 189,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 337,
+       "h": 189,
+       "absY": 1657,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 715,
+       "y": 1657,
+       "w": 337,
+       "h": 189
+      },
+      "eds": {
+       "x": 715,
+       "y": 1657,
+       "w": 337,
+       "h": 189
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-3 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:writing desk and access to terrace",
+       "role": "image",
+       "text": "writing desk and access to terrace",
+       "edsText": "writing desk and access to terrace",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 337,
+        "h": 189
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 337,
+        "h": 189,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 337,
+       "h": 189,
+       "absY": 1657,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1112,
+       "y": 1657,
+       "w": 337,
+       "h": 189
+      },
+      "eds": {
+       "x": 1112,
+       "y": 1657,
+       "w": 337,
+       "h": 189
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.vc_column-inner > div.wpb_wrapper > div.wpb_single_image.wpb_content_element"
+     },
+     "eds": {
+      "path": "div.image-grid-row.image-grid-cols-3 > div.image-grid-col > figure.image-grid-image"
+     },
+     "rows": [
+      {
+       "key": "image:bathroom with rain shower and jets",
+       "role": "image",
+       "text": "bathroom with rain shower and jets",
+       "edsText": "bathroom with rain shower and jets",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 337,
+        "h": 189
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 337,
+        "h": 189,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/0/400",
+        "eds": "14/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 337,
+       "h": 189,
+       "absY": 1657,
+       "hidden": false,
+       "fs": 14,
+       "lh": 0,
+       "fw": "400",
+       "color": "rgb(58, 58, 58)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1508,
+       "y": 1657,
+       "w": 337,
+       "h": 189
+      },
+      "eds": {
+       "x": 1508,
+       "y": 1657,
+       "w": 337,
+       "h": 189
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "displaced": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 15,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

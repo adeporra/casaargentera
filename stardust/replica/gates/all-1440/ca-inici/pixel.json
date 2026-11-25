@@ -1,0 +1,163 @@
+{
+  "a": "stardust/replica/gates/all-1440/ca-inici/origin.png",
+  "b": "stardust/replica/gates/all-1440/ca-inici/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4172,
+    "mode": "overlap"
+  },
+  "heightDelta": 18,
+  "differingPixels": 676192,
+  "pct": 11.26,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/ca-inici/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 4.12,
+  "textBoxes": 98,
+  "textPixels": 577511,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 13.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 18.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 24.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 19.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 13.7
+    },
+    {
+      "y0": 4000,
+      "y1": 4172,
+      "pct": 2.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.18,
+    "differingPixels": 71457,
+    "compared": {
+      "width": 1440,
+      "height": 4200,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1159,
+        "shift": 10,
+        "cumulative": 10
+      },
+      {
+        "y": 2418,
+        "shift": -18,
+        "cumulative": -8
+      },
+      {
+        "y": 3261,
+        "shift": -10,
+        "cumulative": -18
+      }
+    ],
+    "maxOffset": 18,
+    "totalShift": 38,
+    "insertedRows": 10,
+    "deletedRows": 28,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 2.8,
+        "unaligned": 13.5
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.2,
+        "unaligned": 18.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 4.3,
+        "unaligned": 2.3
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.1,
+        "unaligned": 24.9
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 2,
+        "unaligned": 19.7
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.1,
+        "unaligned": 13.7
+      },
+      {
+        "y0": 4000,
+        "y1": 4190,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/ca-inici/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 42,
+    "totalShift": 38,
+    "pass": true
+  },
+  "reason": null
+}

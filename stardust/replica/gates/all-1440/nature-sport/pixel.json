@@ -1,0 +1,119 @@
+{
+  "a": "stardust/replica/gates/all-1440/nature-sport/origin.png",
+  "b": "stardust/replica/gates/all-1440/nature-sport/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2647,
+    "mode": "overlap"
+  },
+  "heightDelta": -16,
+  "differingPixels": 495697,
+  "pct": 13,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/nature-sport/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 2.48,
+  "textBoxes": 78,
+  "textPixels": 422127,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 21.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 26.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 19.6
+    },
+    {
+      "y0": 2500,
+      "y1": 2647,
+      "pct": 2.7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 13,
+    "differingPixels": 495697,
+    "compared": {
+      "width": 1440,
+      "height": 2647,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 21.6,
+        "unaligned": 21.6
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 26.2,
+        "unaligned": 26.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 19.6,
+        "unaligned": 19.6
+      },
+      {
+        "y0": 2500,
+        "y1": 2647,
+        "pct": 2.7,
+        "unaligned": 2.7
+      }
+    ],
+    "diff": null,
+    "reason": "aligned number not lower than the unaligned one",
+    "candidate": {
+      "pct": 13.53,
+      "steps": 1,
+      "totalShift": 16
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": "pixel 13% > 10%"
+}

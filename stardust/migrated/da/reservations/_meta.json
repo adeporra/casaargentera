@@ -1,0 +1,92 @@
+{
+  "slug": "da-reservations",
+  "type": "booking",
+  "renderBranch": "A'",
+  "template": "reservations-2",
+  "modules": [
+    "hero-slider",
+    "contact-form",
+    "availability-calendar"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "wf-wrap"
+  ],
+  "canonShas": {
+    "header": "0bbba73b0475",
+    "footer": "54267ccbec94",
+    "css": "89a5d300aec7"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "register-R-01",
+      "entry": "R-01",
+      "what": "availability calendar is a fixed snapshot of the captured 15 months (dynamic-features row 10); reservation links, event descriptions and guest phone fragments not carried"
+    }
+  ],
+  "metadata": {
+    "title": "RESERVATIONER - Casa Argentera",
+    "description": "Ledighedskalender for hele huset. Prisliste. Kontakt os for pristilbud for længere ophold udenfor højsæson.",
+    "canonical": null,
+    "lang": "da-DK"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "RESERVATIONER - Casa Argentera",
+    "description": "Ledighedskalender for hele huset. Prisliste. Kontakt os for pristilbud for længere ophold udenfor højsæson.",
+    "url": "https://www.casaargentera.com/da/reservations/"
+  },
+  "migratedAt": "2026-11-24T20:54:26Z",
+  "designMdSha": "7ead730e40e5",
+  "designJsonSha": "15480f089476",
+  "sourceCurrentSha": "de8314355895",
+  "sourceProposedSha": "08a9e23bf004",
+  "fidelityTier": "sibling",
+  "archetypeSource": "reservations-2",
+  "archetypeSha": "277527045a78",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 over es/reservas, ca/reserves, da/reservations vs /reservations-2/ @1440: content-driven deltas only (one price column instead of two, price/intro heights from text; ca price heads are h4 in the source, kept verbatim; ca note row has an extra paragraph) — no style delta, no variant class; stardust/.work/rollout/booking/variance.json",
+    "content-fidelity": "Path A' clone stardust/.work/rollout/booking/src/da-reservations-proposed.html (stardust/encoders/build-clone-booking.mjs; reproduces reservations-2-proposed.html byte-identically from its capture): verbatim headings/inline spans, paragraphs, CF7 labels/notes/names, calendar strings (label, 15 months, weekday heads, 457 day labels, 9 event items, no-events) equal (stardust/.work/rollout/booking/calcheck-da-reservations.txt); content-diff #main 🔴 0 (stardust/.work/rollout/booking/content-diff-da-reservations.txt); chrome 🔴 = canon-chrome deviation"
+  },
+  "contentDeviations": [
+    {
+      "kind": "chrome-canon",
+      "source": "localized WP header/footer",
+      "target": "canon chrome (EN) in clone",
+      "reason": "Path A' clone carries canon chrome verbatim (reservations active trail + aria-current removed — the canon nav has no link to this locale page); EDS delivery uses the locale nav/footer docs"
+    },
+    {
+      "kind": "drop-guest-data",
+      "source": "4 ICS event descriptions (.eventdesc: reservation URL, guest phone last 4 digits)",
+      "target": "(none — hover block keeps date + title)",
+      "reason": "R-01 (register, applied on the archetype): guest data not carried; dynamic-features row 10 static snapshot"
+    }
+  ],
+  "assetsBundled": 8,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/da/home/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.casaargentera.com/wp/privacy-policy/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "da/reservations/index.html",
+  "outputPathDefault": null,
+  "sidecar": "da/reservations/_meta.json",
+  "driverVersion": "1"
+}

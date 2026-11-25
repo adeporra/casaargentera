@@ -1,0 +1,137 @@
+{
+  "a": "stardust/replica/gates/wide-2560/contact/origin.png",
+  "b": "stardust/replica/gates/wide-2560/contact/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 3043,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 1797,
+  "pct": 0.02,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/wide-2560/contact/diff.png",
+  "masks": [
+    {
+      "yA": 1532,
+      "h": 56,
+      "yB": 1532
+    }
+  ],
+  "maskedRows": 56,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3043,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.02,
+    "differingPixels": 1797,
+    "compared": {
+      "width": 2560,
+      "height": 3043,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3043,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 0.02,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "maskReason": "self-varying rows of the frozen reference (noise floor 0.02%)"
+}

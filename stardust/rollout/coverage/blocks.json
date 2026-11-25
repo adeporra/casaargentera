@@ -1,0 +1,268 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-24T12:13:23.159Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-24T20:14:11.360Z",
+  "blocks": [
+    {
+      "id": "availability-calendar",
+      "label": "availability-calendar",
+      "kind": "module",
+      "signature": "module:availability-calendar",
+      "source": null,
+      "usedByTemplates": [
+        "reservations-2"
+      ],
+      "usedByPages": [
+        "reservations-2"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "availability-calendar",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "columns",
+      "label": "columns",
+      "kind": "module",
+      "signature": "module:columns",
+      "source": null,
+      "usedByTemplates": [
+        "reservations-2"
+      ],
+      "usedByPages": [
+        "reservations-2"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "columns",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "contact-form",
+      "label": "contact-form",
+      "kind": "module",
+      "signature": "module:contact-form",
+      "source": null,
+      "usedByTemplates": [
+        "contact",
+        "events",
+        "reservations-2",
+        "the-garden"
+      ],
+      "usedByPages": [
+        "ca-esdeveniments",
+        "contact",
+        "da-eventsda",
+        "es-eventos",
+        "events",
+        "reservations-2",
+        "the-garden"
+      ],
+      "instanceCount": 7,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "contact-form",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "gallery",
+      "label": "gallery",
+      "kind": "module",
+      "signature": "module:gallery",
+      "source": null,
+      "usedByTemplates": [
+        "events"
+      ],
+      "usedByPages": [
+        "ca-esdeveniments",
+        "da-eventsda",
+        "es-eventos",
+        "events"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "gallery",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-slider",
+      "label": "hero-slider",
+      "kind": "module",
+      "signature": "module:hero-slider",
+      "source": null,
+      "usedByTemplates": [
+        "contact",
+        "culture",
+        "events",
+        "experiences",
+        "index",
+        "reservations-2",
+        "the-garden"
+      ],
+      "usedByPages": [
+        "ca-esdeveniments",
+        "contact",
+        "culture",
+        "da-eventsda",
+        "es-eventos",
+        "events",
+        "experiences",
+        "index",
+        "reservations-2",
+        "the-garden"
+      ],
+      "instanceCount": 10,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hero-slider",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "icon-features",
+      "label": "icon-features",
+      "kind": "module",
+      "signature": "module:icon-features",
+      "source": null,
+      "usedByTemplates": [
+        "contact",
+        "the-garden"
+      ],
+      "usedByPages": [
+        "contact",
+        "the-garden"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "icon-features",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "image-grid",
+      "label": "image-grid",
+      "kind": "module",
+      "signature": "module:image-grid",
+      "source": null,
+      "usedByTemplates": [
+        "index",
+        "the-garden"
+      ],
+      "usedByPages": [
+        "index",
+        "the-garden"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "image-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "legal-text",
+      "label": "legal-text",
+      "kind": "module",
+      "signature": "module:legal-text",
+      "source": null,
+      "usedByTemplates": [
+        "privacy-policy-and-cookies"
+      ],
+      "usedByPages": [
+        "privacy-policy-and-cookies"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "legal-text",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "map",
+      "label": "map",
+      "kind": "module",
+      "signature": "module:map",
+      "source": null,
+      "usedByTemplates": [
+        "contact",
+        "index"
+      ],
+      "usedByPages": [
+        "contact",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "map",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "media-feature",
+      "label": "media-feature",
+      "kind": "module",
+      "signature": "module:media-feature",
+      "source": null,
+      "usedByTemplates": [
+        "culture",
+        "experiences"
+      ],
+      "usedByPages": [
+        "culture",
+        "experiences"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "media-feature",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "testimonials",
+      "label": "testimonials",
+      "kind": "module",
+      "signature": "module:testimonials",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "testimonials",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

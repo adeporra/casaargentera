@@ -1,0 +1,142 @@
+{
+  "a": "stardust/replica/gates/all-1440/ca-experiencies/origin.png",
+  "b": "stardust/replica/gates/all-1440/ca-experiencies/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3752,
+    "mode": "overlap"
+  },
+  "heightDelta": -16,
+  "differingPixels": 1262143,
+  "pct": 23.36,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/ca-experiencies/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 2.36,
+  "textBoxes": 44,
+  "textPixels": 297707,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 17.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 50.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 19.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 44.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 41.8
+    },
+    {
+      "y0": 3500,
+      "y1": 3752,
+      "pct": 3.7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 22.59,
+    "differingPixels": 1225854,
+    "compared": {
+      "width": 1440,
+      "height": 3768,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 3253,
+        "shift": 16,
+        "cumulative": 16
+      }
+    ],
+    "maxOffset": 16,
+    "totalShift": 16,
+    "insertedRows": 16,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 17.1,
+        "unaligned": 17.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 50.4,
+        "unaligned": 50.4
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 19.5,
+        "unaligned": 19.5
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 44.2,
+        "unaligned": 44.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 37.5,
+        "unaligned": 41.8
+      },
+      {
+        "y0": 3500,
+        "y1": 3752,
+        "pct": 0,
+        "unaligned": 3.7
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/ca-experiencies/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 38,
+    "totalShift": 16,
+    "pass": true
+  },
+  "reason": "pixel aligned 22.59% (unaligned 23.36%) > 10%"
+}

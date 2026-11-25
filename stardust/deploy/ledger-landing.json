@@ -1,0 +1,20 @@
+{
+  "/ca/inici": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T13:10:36.776Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/es/inicio": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-24T13:10:36.777Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

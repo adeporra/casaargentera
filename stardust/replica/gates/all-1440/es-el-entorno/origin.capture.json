@@ -1,0 +1,20 @@
+{
+  "writtenBy": "gate-all.mjs",
+  "copiedFrom": "stardust/replica/gates/all-1440/es-el-entorno/baseline.png",
+  "fixedLayers": {
+    "capture": "once",
+    "count": 9,
+    "late": 0
+  },
+  "timers": {
+    "hold": 2000,
+    "held": 2,
+    "intervals": 2,
+    "chains": 0,
+    "delays": [
+      86400000
+    ]
+  },
+  "fontsFailed": [],
+  "deadFaces": []
+}

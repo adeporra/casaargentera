@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-24T11:26:15.709Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-24T11:27:57.720Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-24T11:34:31.269Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-24T20-06-18-650Z",
+          "at": "2026-11-24T20:07:15.537Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-24T20-09-11-044Z",
+          "at": "2026-11-24T20:10:06.995Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T20-10-49-592Z",
+          "at": "2026-11-24T20:11:45.006Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T20-16-28-261Z",
+          "at": "2026-11-24T20:17:23.170Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T20-23-28-374Z",
+          "at": "2026-11-24T20:24:39.948Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T20-58-12-823Z",
+          "at": "2026-11-24T20:59:09.895Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T21-01-02-214Z",
+          "at": "2026-11-24T21:02:42.335Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T21-37-17-034Z",
+          "at": "2026-11-24T22:02:01.411Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-24T23-52-00-847Z",
+          "at": "2026-11-24T23:55:07.560Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}
